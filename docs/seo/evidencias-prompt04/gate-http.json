@@ -6,63 +6,72 @@
       "indexable": false,
       "count": 0,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "oferta-1",
       "indexable": false,
       "count": 1,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "oferta-2",
       "indexable": false,
       "count": 2,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "oferta-3",
       "indexable": true,
       "count": 3,
       "sitemap": true,
-      "links": true
+      "links": true,
+      "apiLinks": true
     },
     {
       "name": "perda de oferta após página elegível",
       "indexable": false,
       "count": 2,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "cobertura estadual não comprova município",
       "indexable": false,
       "count": 2,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "fornecedor fora do segmento",
       "indexable": false,
       "count": 2,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "perfil alterado invalida evidência anterior",
       "indexable": false,
       "count": 2,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "conteúdo alterado exige novo aceite",
       "indexable": false,
       "count": 3,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "sem revisão",
@@ -74,28 +83,32 @@
       "indexable": true,
       "count": 3,
       "sitemap": true,
-      "links": true
+      "links": true,
+      "apiLinks": true
     },
     {
       "name": "três fornecedores não compensam score 74",
       "indexable": false,
       "count": 3,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "prova municipal expirada não conta",
       "indexable": false,
       "count": 2,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "aprovação expirada retira sitemap e links",
       "indexable": false,
       "count": 3,
       "sitemap": false,
-      "links": false
+      "links": false,
+      "apiLinks": false
     },
     {
       "name": "parâmetros inválidos",

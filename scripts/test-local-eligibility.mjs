@@ -165,6 +165,19 @@ export async function runLocalChecks(h) {
     assert.equal(sitemap.includes(path), expected, name);
     const national = await (await fetch(h.base + '/guia/teste')).text();
     assert.equal(national.includes('href="' + path + '"'), expected, name);
+    const linksResponse = await fetch(
+      h.base + '/api/local-guides?segmento=teste',
+    );
+    assert.equal(
+      linksResponse.headers.get('cache-control'),
+      'private, no-store',
+    );
+    const apiLinks = await linksResponse.json();
+    assert.equal(
+      apiLinks.some((item) => item.path === path),
+      expected,
+      name,
+    );
     if (!expected)
       assert.ok(html.includes('Consultar o guia nacional desta especialidade'));
     assert.equal(response.headers.get('cache-control'), 'no-store');
@@ -174,6 +187,7 @@ export async function runLocalChecks(h) {
       count: decision.eligibleSuppliers,
       sitemap: expected,
       links: expected,
+      apiLinks: expected,
     });
   };
   for (const count of [0, 1, 2, 3]) {
