@@ -1,0 +1,452 @@
+[
+  {
+    "id": "2800100",
+    "nome": "Amparo do São Francisco",
+    "uf": "SE",
+    "slug": "amparo-do-sao-francisco"
+  },
+  {
+    "id": "2800209",
+    "nome": "Aquidabã",
+    "uf": "SE",
+    "slug": "aquidaba"
+  },
+  {
+    "id": "2800308",
+    "nome": "Aracaju",
+    "uf": "SE",
+    "slug": "aracaju"
+  },
+  {
+    "id": "2800407",
+    "nome": "Arauá",
+    "uf": "SE",
+    "slug": "araua"
+  },
+  {
+    "id": "2800506",
+    "nome": "Areia Branca",
+    "uf": "SE",
+    "slug": "areia-branca"
+  },
+  {
+    "id": "2800605",
+    "nome": "Barra dos Coqueiros",
+    "uf": "SE",
+    "slug": "barra-dos-coqueiros"
+  },
+  {
+    "id": "2800670",
+    "nome": "Boquim",
+    "uf": "SE",
+    "slug": "boquim"
+  },
+  {
+    "id": "2800704",
+    "nome": "Brejo Grande",
+    "uf": "SE",
+    "slug": "brejo-grande"
+  },
+  {
+    "id": "2801009",
+    "nome": "Campo do Brito",
+    "uf": "SE",
+    "slug": "campo-do-brito"
+  },
+  {
+    "id": "2801108",
+    "nome": "Canhoba",
+    "uf": "SE",
+    "slug": "canhoba"
+  },
+  {
+    "id": "2801207",
+    "nome": "Canindé de São Francisco",
+    "uf": "SE",
+    "slug": "caninde-de-sao-francisco"
+  },
+  {
+    "id": "2801306",
+    "nome": "Capela",
+    "uf": "SE",
+    "slug": "capela"
+  },
+  {
+    "id": "2801405",
+    "nome": "Carira",
+    "uf": "SE",
+    "slug": "carira"
+  },
+  {
+    "id": "2801504",
+    "nome": "Carmópolis",
+    "uf": "SE",
+    "slug": "carmopolis"
+  },
+  {
+    "id": "2801603",
+    "nome": "Cedro de São João",
+    "uf": "SE",
+    "slug": "cedro-de-sao-joao"
+  },
+  {
+    "id": "2801702",
+    "nome": "Cristinápolis",
+    "uf": "SE",
+    "slug": "cristinapolis"
+  },
+  {
+    "id": "2801900",
+    "nome": "Cumbe",
+    "uf": "SE",
+    "slug": "cumbe"
+  },
+  {
+    "id": "2802007",
+    "nome": "Divina Pastora",
+    "uf": "SE",
+    "slug": "divina-pastora"
+  },
+  {
+    "id": "2802106",
+    "nome": "Estância",
+    "uf": "SE",
+    "slug": "estancia"
+  },
+  {
+    "id": "2802205",
+    "nome": "Feira Nova",
+    "uf": "SE",
+    "slug": "feira-nova"
+  },
+  {
+    "id": "2802304",
+    "nome": "Frei Paulo",
+    "uf": "SE",
+    "slug": "frei-paulo"
+  },
+  {
+    "id": "2802403",
+    "nome": "Gararu",
+    "uf": "SE",
+    "slug": "gararu"
+  },
+  {
+    "id": "2802502",
+    "nome": "General Maynard",
+    "uf": "SE",
+    "slug": "general-maynard"
+  },
+  {
+    "id": "2802601",
+    "nome": "Graccho Cardoso",
+    "uf": "SE",
+    "slug": "graccho-cardoso"
+  },
+  {
+    "id": "2802700",
+    "nome": "Ilha das Flores",
+    "uf": "SE",
+    "slug": "ilha-das-flores"
+  },
+  {
+    "id": "2802809",
+    "nome": "Indiaroba",
+    "uf": "SE",
+    "slug": "indiaroba"
+  },
+  {
+    "id": "2802908",
+    "nome": "Itabaiana",
+    "uf": "SE",
+    "slug": "itabaiana"
+  },
+  {
+    "id": "2803005",
+    "nome": "Itabaianinha",
+    "uf": "SE",
+    "slug": "itabaianinha"
+  },
+  {
+    "id": "2803104",
+    "nome": "Itabi",
+    "uf": "SE",
+    "slug": "itabi"
+  },
+  {
+    "id": "2803203",
+    "nome": "Itaporanga d'Ajuda",
+    "uf": "SE",
+    "slug": "itaporanga-d'ajuda"
+  },
+  {
+    "id": "2803302",
+    "nome": "Japaratuba",
+    "uf": "SE",
+    "slug": "japaratuba"
+  },
+  {
+    "id": "2803401",
+    "nome": "Japoatã",
+    "uf": "SE",
+    "slug": "japoata"
+  },
+  {
+    "id": "2803500",
+    "nome": "Lagarto",
+    "uf": "SE",
+    "slug": "lagarto"
+  },
+  {
+    "id": "2803609",
+    "nome": "Laranjeiras",
+    "uf": "SE",
+    "slug": "laranjeiras"
+  },
+  {
+    "id": "2803708",
+    "nome": "Macambira",
+    "uf": "SE",
+    "slug": "macambira"
+  },
+  {
+    "id": "2803807",
+    "nome": "Malhada dos Bois",
+    "uf": "SE",
+    "slug": "malhada-dos-bois"
+  },
+  {
+    "id": "2803906",
+    "nome": "Malhador",
+    "uf": "SE",
+    "slug": "malhador"
+  },
+  {
+    "id": "2804003",
+    "nome": "Maruim",
+    "uf": "SE",
+    "slug": "maruim"
+  },
+  {
+    "id": "2804102",
+    "nome": "Moita Bonita",
+    "uf": "SE",
+    "slug": "moita-bonita"
+  },
+  {
+    "id": "2804201",
+    "nome": "Monte Alegre de Sergipe",
+    "uf": "SE",
+    "slug": "monte-alegre-de-sergipe"
+  },
+  {
+    "id": "2804300",
+    "nome": "Muribeca",
+    "uf": "SE",
+    "slug": "muribeca"
+  },
+  {
+    "id": "2804409",
+    "nome": "Neópolis",
+    "uf": "SE",
+    "slug": "neopolis"
+  },
+  {
+    "id": "2804458",
+    "nome": "Nossa Senhora Aparecida",
+    "uf": "SE",
+    "slug": "nossa-senhora-aparecida"
+  },
+  {
+    "id": "2804508",
+    "nome": "Nossa Senhora da Glória",
+    "uf": "SE",
+    "slug": "nossa-senhora-da-gloria"
+  },
+  {
+    "id": "2804607",
+    "nome": "Nossa Senhora das Dores",
+    "uf": "SE",
+    "slug": "nossa-senhora-das-dores"
+  },
+  {
+    "id": "2804706",
+    "nome": "Nossa Senhora de Lourdes",
+    "uf": "SE",
+    "slug": "nossa-senhora-de-lourdes"
+  },
+  {
+    "id": "2804805",
+    "nome": "Nossa Senhora do Socorro",
+    "uf": "SE",
+    "slug": "nossa-senhora-do-socorro"
+  },
+  {
+    "id": "2804904",
+    "nome": "Pacatuba",
+    "uf": "SE",
+    "slug": "pacatuba"
+  },
+  {
+    "id": "2805000",
+    "nome": "Pedra Mole",
+    "uf": "SE",
+    "slug": "pedra-mole"
+  },
+  {
+    "id": "2805109",
+    "nome": "Pedrinhas",
+    "uf": "SE",
+    "slug": "pedrinhas"
+  },
+  {
+    "id": "2805208",
+    "nome": "Pinhão",
+    "uf": "SE",
+    "slug": "pinhao"
+  },
+  {
+    "id": "2805307",
+    "nome": "Pirambu",
+    "uf": "SE",
+    "slug": "pirambu"
+  },
+  {
+    "id": "2805406",
+    "nome": "Poço Redondo",
+    "uf": "SE",
+    "slug": "poco-redondo"
+  },
+  {
+    "id": "2805505",
+    "nome": "Poço Verde",
+    "uf": "SE",
+    "slug": "poco-verde"
+  },
+  {
+    "id": "2805604",
+    "nome": "Porto da Folha",
+    "uf": "SE",
+    "slug": "porto-da-folha"
+  },
+  {
+    "id": "2805703",
+    "nome": "Propriá",
+    "uf": "SE",
+    "slug": "propria"
+  },
+  {
+    "id": "2805802",
+    "nome": "Riachão do Dantas",
+    "uf": "SE",
+    "slug": "riachao-do-dantas"
+  },
+  {
+    "id": "2805901",
+    "nome": "Riachuelo",
+    "uf": "SE",
+    "slug": "riachuelo"
+  },
+  {
+    "id": "2806008",
+    "nome": "Ribeirópolis",
+    "uf": "SE",
+    "slug": "ribeiropolis"
+  },
+  {
+    "id": "2806107",
+    "nome": "Rosário do Catete",
+    "uf": "SE",
+    "slug": "rosario-do-catete"
+  },
+  {
+    "id": "2806206",
+    "nome": "Salgado",
+    "uf": "SE",
+    "slug": "salgado"
+  },
+  {
+    "id": "2806305",
+    "nome": "Santa Luzia do Itanhy",
+    "uf": "SE",
+    "slug": "santa-luzia-do-itanhy"
+  },
+  {
+    "id": "2806503",
+    "nome": "Santa Rosa de Lima",
+    "uf": "SE",
+    "slug": "santa-rosa-de-lima"
+  },
+  {
+    "id": "2806404",
+    "nome": "Santana do São Francisco",
+    "uf": "SE",
+    "slug": "santana-do-sao-francisco"
+  },
+  {
+    "id": "2806602",
+    "nome": "Santo Amaro das Brotas",
+    "uf": "SE",
+    "slug": "santo-amaro-das-brotas"
+  },
+  {
+    "id": "2806701",
+    "nome": "São Cristóvão",
+    "uf": "SE",
+    "slug": "sao-cristovao"
+  },
+  {
+    "id": "2806800",
+    "nome": "São Domingos",
+    "uf": "SE",
+    "slug": "sao-domingos"
+  },
+  {
+    "id": "2806909",
+    "nome": "São Francisco",
+    "uf": "SE",
+    "slug": "sao-francisco"
+  },
+  {
+    "id": "2807006",
+    "nome": "São Miguel do Aleixo",
+    "uf": "SE",
+    "slug": "sao-miguel-do-aleixo"
+  },
+  {
+    "id": "2807105",
+    "nome": "Simão Dias",
+    "uf": "SE",
+    "slug": "simao-dias"
+  },
+  {
+    "id": "2807204",
+    "nome": "Siriri",
+    "uf": "SE",
+    "slug": "siriri"
+  },
+  {
+    "id": "2807303",
+    "nome": "Telha",
+    "uf": "SE",
+    "slug": "telha"
+  },
+  {
+    "id": "2807402",
+    "nome": "Tobias Barreto",
+    "uf": "SE",
+    "slug": "tobias-barreto"
+  },
+  {
+    "id": "2807501",
+    "nome": "Tomar do Geru",
+    "uf": "SE",
+    "slug": "tomar-do-geru"
+  },
+  {
+    "id": "2807600",
+    "nome": "Umbaúba",
+    "uf": "SE",
+    "slug": "umbauba"
+  }
+]

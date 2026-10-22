@@ -1,0 +1,227 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "46228841": {
+        "pageid": 46228841,
+        "ns": 6,
+        "title": "File:Bosco Verticale Map.png",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bosco_Verticale_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1600,
+            "thumbheight": 1104,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bosco_Verticale_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1104
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bosco_Verticale_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bosco_Verticale_Map.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46228841",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-01-08 18:59:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bosco Verticale Map",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "LGPL|Free screenshots|OpenStreetMap Carto maps",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Map of the 'Porta Nuova' financial district in Milan",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-01-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "OpenStreetMap",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "OpenStreetMap",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "54918539": {
+        "pageid": 54918539,
+        "ns": 6,
+        "title": "File:Milan skyline with Unicredit Tower and Bosco Verticale.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg/1920px-Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1094,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg/3840px-Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg/1920px-Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1094,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg/3840px-Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54918539",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-01-10 05:36:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Milan skyline with Unicredit Tower and Bosco Verticale",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|UniCredit Tower (Milan)|Porta Nuova business district|License migration redundant|Self-published work|Images with extracted images|Media with estimated locations|NoFoP-Italy|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.483110",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "9.188900",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of the <a href=\"https://en.wikipedia.org/wiki/Porta_Nuova_(Milan)\" class=\"extiw\" title=\"w:Porta Nuova (Milan)\">Porta Nuova</a> area skyline from the <a href=\"https://en.wikipedia.org/wiki/Milan_Cathedral\" class=\"extiw\" title=\"w:Milan Cathedral\">Duomo</a> in Milan.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "You may select the license of your choice.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

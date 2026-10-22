@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1200013",
+    "nome": "Acrelândia",
+    "uf": "AC",
+    "slug": "acrelandia"
+  },
+  {
+    "id": "1200054",
+    "nome": "Assis Brasil",
+    "uf": "AC",
+    "slug": "assis-brasil"
+  },
+  {
+    "id": "1200104",
+    "nome": "Brasiléia",
+    "uf": "AC",
+    "slug": "brasileia"
+  },
+  {
+    "id": "1200138",
+    "nome": "Bujari",
+    "uf": "AC",
+    "slug": "bujari"
+  },
+  {
+    "id": "1200179",
+    "nome": "Capixaba",
+    "uf": "AC",
+    "slug": "capixaba"
+  },
+  {
+    "id": "1200203",
+    "nome": "Cruzeiro do Sul",
+    "uf": "AC",
+    "slug": "cruzeiro-do-sul"
+  },
+  {
+    "id": "1200252",
+    "nome": "Epitaciolândia",
+    "uf": "AC",
+    "slug": "epitaciolandia"
+  },
+  {
+    "id": "1200302",
+    "nome": "Feijó",
+    "uf": "AC",
+    "slug": "feijo"
+  },
+  {
+    "id": "1200328",
+    "nome": "Jordão",
+    "uf": "AC",
+    "slug": "jordao"
+  },
+  {
+    "id": "1200336",
+    "nome": "Mâncio Lima",
+    "uf": "AC",
+    "slug": "mancio-lima"
+  },
+  {
+    "id": "1200344",
+    "nome": "Manoel Urbano",
+    "uf": "AC",
+    "slug": "manoel-urbano"
+  },
+  {
+    "id": "1200351",
+    "nome": "Marechal Thaumaturgo",
+    "uf": "AC",
+    "slug": "marechal-thaumaturgo"
+  },
+  {
+    "id": "1200385",
+    "nome": "Plácido de Castro",
+    "uf": "AC",
+    "slug": "placido-de-castro"
+  },
+  {
+    "id": "1200807",
+    "nome": "Porto Acre",
+    "uf": "AC",
+    "slug": "porto-acre"
+  },
+  {
+    "id": "1200393",
+    "nome": "Porto Walter",
+    "uf": "AC",
+    "slug": "porto-walter"
+  },
+  {
+    "id": "1200401",
+    "nome": "Rio Branco",
+    "uf": "AC",
+    "slug": "rio-branco"
+  },
+  {
+    "id": "1200427",
+    "nome": "Rodrigues Alves",
+    "uf": "AC",
+    "slug": "rodrigues-alves"
+  },
+  {
+    "id": "1200435",
+    "nome": "Santa Rosa do Purus",
+    "uf": "AC",
+    "slug": "santa-rosa-do-purus"
+  },
+  {
+    "id": "1200500",
+    "nome": "Sena Madureira",
+    "uf": "AC",
+    "slug": "sena-madureira"
+  },
+  {
+    "id": "1200450",
+    "nome": "Senador Guiomard",
+    "uf": "AC",
+    "slug": "senador-guiomard"
+  },
+  {
+    "id": "1200609",
+    "nome": "Tarauacá",
+    "uf": "AC",
+    "slug": "tarauaca"
+  },
+  {
+    "id": "1200708",
+    "nome": "Xapuri",
+    "uf": "AC",
+    "slug": "xapuri"
+  }
+]

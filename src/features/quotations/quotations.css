@@ -1,0 +1,165 @@
+.quotation-section {
+  margin: 40px 0;
+  padding: 35px;
+  background: #f2f4ee;
+  border: 1px solid #d6dfd4;
+  scroll-margin-top: 120px;
+}
+.quotation-section h2 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.quotation-form {
+  display: grid;
+  gap: 20px;
+}
+.quotation-form label,
+.quotation-inbox > label,
+.quote-detail label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #263c31;
+}
+.quote-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.quotation-form input:not([type="checkbox"]),
+.quotation-form select,
+.quotation-form textarea,
+.quotation-inbox select,
+.quote-detail textarea {
+  width: 100%;
+  padding: 12px;
+  min-height: 46px;
+  border: 1px solid #9bab9e;
+  background: white;
+  color: #172e24;
+}
+.quotation-form .quote-check {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+.quote-check input {
+  flex: 0 0 auto;
+}
+.quotation-form fieldset {
+  border: 1px solid #a3b3a6;
+  padding: 16px;
+}
+.quotation-form legend {
+  font-size: 0.9rem;
+}
+.quote-error {
+  color: #942b24;
+  font-size: 0.9rem;
+}
+.quote-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.quote-success {
+  padding: 20px;
+  background: #e1eddd;
+}
+.quote-inbox-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 24px;
+  margin-top: 25px;
+}
+.quote-list {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+.quote-list > button {
+  display: grid;
+  gap: 7px;
+  text-align: left;
+  padding: 18px;
+  border: 1px solid #cad5c7;
+  background: #f7f8f3;
+  color: #203e30;
+}
+.quote-list > button.selected {
+  border: 2px solid #345c45;
+  background: #e8efdf;
+}
+.quote-list span,
+.quote-list time {
+  font-size: 0.8rem;
+}
+.quote-detail {
+  border: 1px solid #d1dccd;
+  padding: 25px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.quote-detail h3 {
+  font-family: Georgia, serif;
+  font-size: 1.6rem;
+}
+.quote-contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+.quote-contact-actions a,
+.quote-detail button {
+  padding: 10px;
+  border: 1px solid #7a947a;
+}
+.quote-detail blockquote {
+  border-left: 3px solid #6b876a;
+  padding: 5px 15px;
+  background: #f5f6ef;
+}
+.quote-timeline {
+  padding-left: 20px;
+  line-height: 1.8;
+  font-size: 0.85rem;
+}
+.quote-detail-placeholder {
+  padding: 30px;
+  color: #536354;
+}
+.quotation-inbox > label {
+  max-width: 340px;
+}
+.quotation-inbox button:disabled,
+.quotation-form button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.quotation-section :focus-visible,
+.quotation-inbox :focus-visible {
+  outline: 3px solid #87632d;
+  outline-offset: 3px;
+}
+@media (max-width: 900px) {
+  .quote-inbox-layout {
+    grid-template-columns: 1fr;
+  }
+  .quote-list {
+    max-height: 350px;
+    overflow: auto;
+  }
+  .quotation-section {
+    padding: 20px;
+  }
+  .quote-fields {
+    grid-template-columns: 1fr;
+  }
+}

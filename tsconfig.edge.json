@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": [],
+    "allowJs": true,
+    "checkJs": false,
+    "paths": {
+      "npm:@supabase/supabase-js@2.118.0": [
+        "./node_modules/@supabase/supabase-js/dist/index.d.mts"
+      ]
+    }
+  },
+  "include": ["supabase/functions/**/*.ts", "supabase/functions/**/*.mjs"]
+}

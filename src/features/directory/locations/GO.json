@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "5200050",
+    "nome": "Abadia de Goiás",
+    "uf": "GO",
+    "slug": "abadia-de-goias"
+  },
+  {
+    "id": "5200100",
+    "nome": "Abadiânia",
+    "uf": "GO",
+    "slug": "abadiania"
+  },
+  {
+    "id": "5200134",
+    "nome": "Acreúna",
+    "uf": "GO",
+    "slug": "acreuna"
+  },
+  {
+    "id": "5200159",
+    "nome": "Adelândia",
+    "uf": "GO",
+    "slug": "adelandia"
+  },
+  {
+    "id": "5200175",
+    "nome": "Água Fria de Goiás",
+    "uf": "GO",
+    "slug": "agua-fria-de-goias"
+  },
+  {
+    "id": "5200209",
+    "nome": "Água Limpa",
+    "uf": "GO",
+    "slug": "agua-limpa"
+  },
+  {
+    "id": "5200258",
+    "nome": "Águas Lindas de Goiás",
+    "uf": "GO",
+    "slug": "aguas-lindas-de-goias"
+  },
+  {
+    "id": "5200308",
+    "nome": "Alexânia",
+    "uf": "GO",
+    "slug": "alexania"
+  },
+  {
+    "id": "5200506",
+    "nome": "Aloândia",
+    "uf": "GO",
+    "slug": "aloandia"
+  },
+  {
+    "id": "5200555",
+    "nome": "Alto Horizonte",
+    "uf": "GO",
+    "slug": "alto-horizonte"
+  },
+  {
+    "id": "5200605",
+    "nome": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "slug": "alto-paraiso-de-goias"
+  },
+  {
+    "id": "5200803",
+    "nome": "Alvorada do Norte",
+    "uf": "GO",
+    "slug": "alvorada-do-norte"
+  },
+  {
+    "id": "5200829",
+    "nome": "Amaralina",
+    "uf": "GO",
+    "slug": "amaralina"
+  },
+  {
+    "id": "5200852",
+    "nome": "Americano do Brasil",
+    "uf": "GO",
+    "slug": "americano-do-brasil"
+  },
+  {
+    "id": "5200902",
+    "nome": "Amorinópolis",
+    "uf": "GO",
+    "slug": "amorinopolis"
+  },
+  {
+    "id": "5201108",
+    "nome": "Anápolis",
+    "uf": "GO",
+    "slug": "anapolis"
+  },
+  {
+    "id": "5201207",
+    "nome": "Anhanguera",
+    "uf": "GO",
+    "slug": "anhanguera"
+  },
+  {
+    "id": "5201306",
+    "nome": "Anicuns",
+    "uf": "GO",
+    "slug": "anicuns"
+  },
+  {
+    "id": "5201405",
+    "nome": "Aparecida de Goiânia",
+    "uf": "GO",
+    "slug": "aparecida-de-goiania"
+  },
+  {
+    "id": "5201454",
+    "nome": "Aparecida do Rio Doce",
+    "uf": "GO",
+    "slug": "aparecida-do-rio-doce"
+  },
+  {
+    "id": "5201504",
+    "nome": "Aporé",
+    "uf": "GO",
+    "slug": "apore"
+  },
+  {
+    "id": "5201603",
+    "nome": "Araçu",
+    "uf": "GO",
+    "slug": "aracu"
+  },
+  {
+    "id": "5201702",
+    "nome": "Aragarças",
+    "uf": "GO",
+    "slug": "aragarcas"
+  },
+  {
+    "id": "5201801",
+    "nome": "Aragoiânia",
+    "uf": "GO",
+    "slug": "aragoiania"
+  },
+  {
+    "id": "5202155",
+    "nome": "Araguapaz",
+    "uf": "GO",
+    "slug": "araguapaz"
+  },
+  {
+    "id": "5202353",
+    "nome": "Arenópolis",
+    "uf": "GO",
+    "slug": "arenopolis"
+  },
+  {
+    "id": "5202502",
+    "nome": "Aruanã",
+    "uf": "GO",
+    "slug": "aruana"
+  },
+  {
+    "id": "5202601",
+    "nome": "Aurilândia",
+    "uf": "GO",
+    "slug": "aurilandia"
+  },
+  {
+    "id": "5202809",
+    "nome": "Avelinópolis",
+    "uf": "GO",
+    "slug": "avelinopolis"
+  },
+  {
+    "id": "5203104",
+    "nome": "Baliza",
+    "uf": "GO",
+    "slug": "baliza"
+  },
+  {
+    "id": "5203203",
+    "nome": "Barro Alto",
+    "uf": "GO",
+    "slug": "barro-alto"
+  },
+  {
+    "id": "5203302",
+    "nome": "Bela Vista de Goiás",
+    "uf": "GO",
+    "slug": "bela-vista-de-goias"
+  },
+  {
+    "id": "5203401",
+    "nome": "Bom Jardim de Goiás",
+    "uf": "GO",
+    "slug": "bom-jardim-de-goias"
+  },
+  {
+    "id": "5203500",
+    "nome": "Bom Jesus de Goiás",
+    "uf": "GO",
+    "slug": "bom-jesus-de-goias"
+  },
+  {
+    "id": "5203559",
+    "nome": "Bonfinópolis",
+    "uf": "GO",
+    "slug": "bonfinopolis"
+  },
+  {
+    "id": "5203575",
+    "nome": "Bonópolis",
+    "uf": "GO",
+    "slug": "bonopolis"
+  },
+  {
+    "id": "5203609",
+    "nome": "Brazabrantes",
+    "uf": "GO",
+    "slug": "brazabrantes"
+  },
+  {
+    "id": "5203807",
+    "nome": "Britânia",
+    "uf": "GO",
+    "slug": "britania"
+  },
+  {
+    "id": "5203906",
+    "nome": "Buriti Alegre",
+    "uf": "GO",
+    "slug": "buriti-alegre"
+  },
+  {
+    "id": "5203939",
+    "nome": "Buriti de Goiás",
+    "uf": "GO",
+    "slug": "buriti-de-goias"
+  },
+  {
+    "id": "5203962",
+    "nome": "Buritinópolis",
+    "uf": "GO",
+    "slug": "buritinopolis"
+  },
+  {
+    "id": "5204003",
+    "nome": "Cabeceiras",
+    "uf": "GO",
+    "slug": "cabeceiras"
+  },
+  {
+    "id": "5204102",
+    "nome": "Cachoeira Alta",
+    "uf": "GO",
+    "slug": "cachoeira-alta"
+  },
+  {
+    "id": "5204201",
+    "nome": "Cachoeira de Goiás",
+    "uf": "GO",
+    "slug": "cachoeira-de-goias"
+  },
+  {
+    "id": "5204250",
+    "nome": "Cachoeira Dourada",
+    "uf": "GO",
+    "slug": "cachoeira-dourada"
+  },
+  {
+    "id": "5204300",
+    "nome": "Caçu",
+    "uf": "GO",
+    "slug": "cacu"
+  },
+  {
+    "id": "5204409",
+    "nome": "Caiapônia",
+    "uf": "GO",
+    "slug": "caiaponia"
+  },
+  {
+    "id": "5204508",
+    "nome": "Caldas Novas",
+    "uf": "GO",
+    "slug": "caldas-novas"
+  },
+  {
+    "id": "5204557",
+    "nome": "Caldazinha",
+    "uf": "GO",
+    "slug": "caldazinha"
+  },
+  {
+    "id": "5204607",
+    "nome": "Campestre de Goiás",
+    "uf": "GO",
+    "slug": "campestre-de-goias"
+  },
+  {
+    "id": "5204656",
+    "nome": "Campinaçu",
+    "uf": "GO",
+    "slug": "campinacu"
+  },
+  {
+    "id": "5204706",
+    "nome": "Campinorte",
+    "uf": "GO",
+    "slug": "campinorte"
+  },
+  {
+    "id": "5204805",
+    "nome": "Campo Alegre de Goiás",
+    "uf": "GO",
+    "slug": "campo-alegre-de-goias"
+  },
+  {
+    "id": "5204854",
+    "nome": "Campo Limpo de Goiás",
+    "uf": "GO",
+    "slug": "campo-limpo-de-goias"
+  },
+  {
+    "id": "5204904",
+    "nome": "Campos Belos",
+    "uf": "GO",
+    "slug": "campos-belos"
+  },
+  {
+    "id": "5204953",
+    "nome": "Campos Verdes",
+    "uf": "GO",
+    "slug": "campos-verdes"
+  },
+  {
+    "id": "5205000",
+    "nome": "Carmo do Rio Verde",
+    "uf": "GO",
+    "slug": "carmo-do-rio-verde"
+  },
+  {
+    "id": "5205059",
+    "nome": "Castelândia",
+    "uf": "GO",
+    "slug": "castelandia"
+  },
+  {
+    "id": "5205109",
+    "nome": "Catalão",
+    "uf": "GO",
+    "slug": "catalao"
+  },
+  {
+    "id": "5205208",
+    "nome": "Caturaí",
+    "uf": "GO",
+    "slug": "caturai"
+  },
+  {
+    "id": "5205307",
+    "nome": "Cavalcante",
+    "uf": "GO",
+    "slug": "cavalcante"
+  },
+  {
+    "id": "5205406",
+    "nome": "Ceres",
+    "uf": "GO",
+    "slug": "ceres"
+  },
+  {
+    "id": "5205455",
+    "nome": "Cezarina",
+    "uf": "GO",
+    "slug": "cezarina"
+  },
+  {
+    "id": "5205471",
+    "nome": "Chapadão do Céu",
+    "uf": "GO",
+    "slug": "chapadao-do-ceu"
+  },
+  {
+    "id": "5205497",
+    "nome": "Cidade Ocidental",
+    "uf": "GO",
+    "slug": "cidade-ocidental"
+  },
+  {
+    "id": "5205513",
+    "nome": "Cocalzinho de Goiás",
+    "uf": "GO",
+    "slug": "cocalzinho-de-goias"
+  },
+  {
+    "id": "5205521",
+    "nome": "Colinas do Sul",
+    "uf": "GO",
+    "slug": "colinas-do-sul"
+  },
+  {
+    "id": "5205703",
+    "nome": "Córrego do Ouro",
+    "uf": "GO",
+    "slug": "corrego-do-ouro"
+  },
+  {
+    "id": "5205802",
+    "nome": "Corumbá de Goiás",
+    "uf": "GO",
+    "slug": "corumba-de-goias"
+  },
+  {
+    "id": "5205901",
+    "nome": "Corumbaíba",
+    "uf": "GO",
+    "slug": "corumbaiba"
+  },
+  {
+    "id": "5206206",
+    "nome": "Cristalina",
+    "uf": "GO",
+    "slug": "cristalina"
+  },
+  {
+    "id": "5206305",
+    "nome": "Cristianópolis",
+    "uf": "GO",
+    "slug": "cristianopolis"
+  },
+  {
+    "id": "5206404",
+    "nome": "Crixás",
+    "uf": "GO",
+    "slug": "crixas"
+  },
+  {
+    "id": "5206503",
+    "nome": "Cromínia",
+    "uf": "GO",
+    "slug": "crominia"
+  },
+  {
+    "id": "5206602",
+    "nome": "Cumari",
+    "uf": "GO",
+    "slug": "cumari"
+  },
+  {
+    "id": "5206701",
+    "nome": "Damianópolis",
+    "uf": "GO",
+    "slug": "damianopolis"
+  },
+  {
+    "id": "5206800",
+    "nome": "Damolândia",
+    "uf": "GO",
+    "slug": "damolandia"
+  },
+  {
+    "id": "5206909",
+    "nome": "Davinópolis",
+    "uf": "GO",
+    "slug": "davinopolis"
+  },
+  {
+    "id": "5207105",
+    "nome": "Diorama",
+    "uf": "GO",
+    "slug": "diorama"
+  },
+  {
+    "id": "5208301",
+    "nome": "Divinópolis de Goiás",
+    "uf": "GO",
+    "slug": "divinopolis-de-goias"
+  },
+  {
+    "id": "5207253",
+    "nome": "Doverlândia",
+    "uf": "GO",
+    "slug": "doverlandia"
+  },
+  {
+    "id": "5207352",
+    "nome": "Edealina",
+    "uf": "GO",
+    "slug": "edealina"
+  },
+  {
+    "id": "5207402",
+    "nome": "Edéia",
+    "uf": "GO",
+    "slug": "edeia"
+  },
+  {
+    "id": "5207501",
+    "nome": "Estrela do Norte",
+    "uf": "GO",
+    "slug": "estrela-do-norte"
+  },
+  {
+    "id": "5207535",
+    "nome": "Faina",
+    "uf": "GO",
+    "slug": "faina"
+  },
+  {
+    "id": "5207600",
+    "nome": "Fazenda Nova",
+    "uf": "GO",
+    "slug": "fazenda-nova"
+  },
+  {
+    "id": "5207808",
+    "nome": "Firminópolis",
+    "uf": "GO",
+    "slug": "firminopolis"
+  },
+  {
+    "id": "5207907",
+    "nome": "Flores de Goiás",
+    "uf": "GO",
+    "slug": "flores-de-goias"
+  },
+  {
+    "id": "5208004",
+    "nome": "Formosa",
+    "uf": "GO",
+    "slug": "formosa"
+  },
+  {
+    "id": "5208103",
+    "nome": "Formoso",
+    "uf": "GO",
+    "slug": "formoso"
+  },
+  {
+    "id": "5208152",
+    "nome": "Gameleira de Goiás",
+    "uf": "GO",
+    "slug": "gameleira-de-goias"
+  },
+  {
+    "id": "5208400",
+    "nome": "Goianápolis",
+    "uf": "GO",
+    "slug": "goianapolis"
+  },
+  {
+    "id": "5208509",
+    "nome": "Goiandira",
+    "uf": "GO",
+    "slug": "goiandira"
+  },
+  {
+    "id": "5208608",
+    "nome": "Goianésia",
+    "uf": "GO",
+    "slug": "goianesia"
+  },
+  {
+    "id": "5208707",
+    "nome": "Goiânia",
+    "uf": "GO",
+    "slug": "goiania"
+  },
+  {
+    "id": "5208806",
+    "nome": "Goianira",
+    "uf": "GO",
+    "slug": "goianira"
+  },
+  {
+    "id": "5208905",
+    "nome": "Goiás",
+    "uf": "GO",
+    "slug": "goias"
+  },
+  {
+    "id": "5209101",
+    "nome": "Goiatuba",
+    "uf": "GO",
+    "slug": "goiatuba"
+  },
+  {
+    "id": "5209150",
+    "nome": "Gouvelândia",
+    "uf": "GO",
+    "slug": "gouvelandia"
+  },
+  {
+    "id": "5209200",
+    "nome": "Guapó",
+    "uf": "GO",
+    "slug": "guapo"
+  },
+  {
+    "id": "5209291",
+    "nome": "Guaraíta",
+    "uf": "GO",
+    "slug": "guaraita"
+  },
+  {
+    "id": "5209408",
+    "nome": "Guarani de Goiás",
+    "uf": "GO",
+    "slug": "guarani-de-goias"
+  },
+  {
+    "id": "5209457",
+    "nome": "Guarinos",
+    "uf": "GO",
+    "slug": "guarinos"
+  },
+  {
+    "id": "5209606",
+    "nome": "Heitoraí",
+    "uf": "GO",
+    "slug": "heitorai"
+  },
+  {
+    "id": "5209705",
+    "nome": "Hidrolândia",
+    "uf": "GO",
+    "slug": "hidrolandia"
+  },
+  {
+    "id": "5209804",
+    "nome": "Hidrolina",
+    "uf": "GO",
+    "slug": "hidrolina"
+  },
+  {
+    "id": "5209903",
+    "nome": "Iaciara",
+    "uf": "GO",
+    "slug": "iaciara"
+  },
+  {
+    "id": "5209937",
+    "nome": "Inaciolândia",
+    "uf": "GO",
+    "slug": "inaciolandia"
+  },
+  {
+    "id": "5209952",
+    "nome": "Indiara",
+    "uf": "GO",
+    "slug": "indiara"
+  },
+  {
+    "id": "5210000",
+    "nome": "Inhumas",
+    "uf": "GO",
+    "slug": "inhumas"
+  },
+  {
+    "id": "5210109",
+    "nome": "Ipameri",
+    "uf": "GO",
+    "slug": "ipameri"
+  },
+  {
+    "id": "5210158",
+    "nome": "Ipiranga de Goiás",
+    "uf": "GO",
+    "slug": "ipiranga-de-goias"
+  },
+  {
+    "id": "5210208",
+    "nome": "Iporá",
+    "uf": "GO",
+    "slug": "ipora"
+  },
+  {
+    "id": "5210307",
+    "nome": "Israelândia",
+    "uf": "GO",
+    "slug": "israelandia"
+  },
+  {
+    "id": "5210406",
+    "nome": "Itaberaí",
+    "uf": "GO",
+    "slug": "itaberai"
+  },
+  {
+    "id": "5210562",
+    "nome": "Itaguari",
+    "uf": "GO",
+    "slug": "itaguari"
+  },
+  {
+    "id": "5210604",
+    "nome": "Itaguaru",
+    "uf": "GO",
+    "slug": "itaguaru"
+  },
+  {
+    "id": "5210802",
+    "nome": "Itajá",
+    "uf": "GO",
+    "slug": "itaja"
+  },
+  {
+    "id": "5210901",
+    "nome": "Itapaci",
+    "uf": "GO",
+    "slug": "itapaci"
+  },
+  {
+    "id": "5211008",
+    "nome": "Itapirapuã",
+    "uf": "GO",
+    "slug": "itapirapua"
+  },
+  {
+    "id": "5211206",
+    "nome": "Itapuranga",
+    "uf": "GO",
+    "slug": "itapuranga"
+  },
+  {
+    "id": "5211305",
+    "nome": "Itarumã",
+    "uf": "GO",
+    "slug": "itaruma"
+  },
+  {
+    "id": "5211404",
+    "nome": "Itauçu",
+    "uf": "GO",
+    "slug": "itaucu"
+  },
+  {
+    "id": "5211503",
+    "nome": "Itumbiara",
+    "uf": "GO",
+    "slug": "itumbiara"
+  },
+  {
+    "id": "5211602",
+    "nome": "Ivolândia",
+    "uf": "GO",
+    "slug": "ivolandia"
+  },
+  {
+    "id": "5211701",
+    "nome": "Jandaia",
+    "uf": "GO",
+    "slug": "jandaia"
+  },
+  {
+    "id": "5211800",
+    "nome": "Jaraguá",
+    "uf": "GO",
+    "slug": "jaragua"
+  },
+  {
+    "id": "5211909",
+    "nome": "Jataí",
+    "uf": "GO",
+    "slug": "jatai"
+  },
+  {
+    "id": "5212006",
+    "nome": "Jaupaci",
+    "uf": "GO",
+    "slug": "jaupaci"
+  },
+  {
+    "id": "5212055",
+    "nome": "Jesúpolis",
+    "uf": "GO",
+    "slug": "jesupolis"
+  },
+  {
+    "id": "5212105",
+    "nome": "Joviânia",
+    "uf": "GO",
+    "slug": "joviania"
+  },
+  {
+    "id": "5212204",
+    "nome": "Jussara",
+    "uf": "GO",
+    "slug": "jussara"
+  },
+  {
+    "id": "5212253",
+    "nome": "Lagoa Santa",
+    "uf": "GO",
+    "slug": "lagoa-santa"
+  },
+  {
+    "id": "5212303",
+    "nome": "Leopoldo de Bulhões",
+    "uf": "GO",
+    "slug": "leopoldo-de-bulhoes"
+  },
+  {
+    "id": "5212501",
+    "nome": "Luziânia",
+    "uf": "GO",
+    "slug": "luziania"
+  },
+  {
+    "id": "5212600",
+    "nome": "Mairipotaba",
+    "uf": "GO",
+    "slug": "mairipotaba"
+  },
+  {
+    "id": "5212709",
+    "nome": "Mambaí",
+    "uf": "GO",
+    "slug": "mambai"
+  },
+  {
+    "id": "5212808",
+    "nome": "Mara Rosa",
+    "uf": "GO",
+    "slug": "mara-rosa"
+  },
+  {
+    "id": "5212907",
+    "nome": "Marzagão",
+    "uf": "GO",
+    "slug": "marzagao"
+  },
+  {
+    "id": "5212956",
+    "nome": "Matrinchã",
+    "uf": "GO",
+    "slug": "matrincha"
+  },
+  {
+    "id": "5213004",
+    "nome": "Maurilândia",
+    "uf": "GO",
+    "slug": "maurilandia"
+  },
+  {
+    "id": "5213053",
+    "nome": "Mimoso de Goiás",
+    "uf": "GO",
+    "slug": "mimoso-de-goias"
+  },
+  {
+    "id": "5213087",
+    "nome": "Minaçu",
+    "uf": "GO",
+    "slug": "minacu"
+  },
+  {
+    "id": "5213103",
+    "nome": "Mineiros",
+    "uf": "GO",
+    "slug": "mineiros"
+  },
+  {
+    "id": "5213400",
+    "nome": "Moiporá",
+    "uf": "GO",
+    "slug": "moipora"
+  },
+  {
+    "id": "5213509",
+    "nome": "Monte Alegre de Goiás",
+    "uf": "GO",
+    "slug": "monte-alegre-de-goias"
+  },
+  {
+    "id": "5213707",
+    "nome": "Montes Claros de Goiás",
+    "uf": "GO",
+    "slug": "montes-claros-de-goias"
+  },
+  {
+    "id": "5213756",
+    "nome": "Montividiu",
+    "uf": "GO",
+    "slug": "montividiu"
+  },
+  {
+    "id": "5213772",
+    "nome": "Montividiu do Norte",
+    "uf": "GO",
+    "slug": "montividiu-do-norte"
+  },
+  {
+    "id": "5213806",
+    "nome": "Morrinhos",
+    "uf": "GO",
+    "slug": "morrinhos"
+  },
+  {
+    "id": "5213855",
+    "nome": "Morro Agudo de Goiás",
+    "uf": "GO",
+    "slug": "morro-agudo-de-goias"
+  },
+  {
+    "id": "5213905",
+    "nome": "Mossâmedes",
+    "uf": "GO",
+    "slug": "mossamedes"
+  },
+  {
+    "id": "5214002",
+    "nome": "Mozarlândia",
+    "uf": "GO",
+    "slug": "mozarlandia"
+  },
+  {
+    "id": "5214051",
+    "nome": "Mundo Novo",
+    "uf": "GO",
+    "slug": "mundo-novo"
+  },
+  {
+    "id": "5214101",
+    "nome": "Mutunópolis",
+    "uf": "GO",
+    "slug": "mutunopolis"
+  },
+  {
+    "id": "5214408",
+    "nome": "Nazário",
+    "uf": "GO",
+    "slug": "nazario"
+  },
+  {
+    "id": "5214507",
+    "nome": "Nerópolis",
+    "uf": "GO",
+    "slug": "neropolis"
+  },
+  {
+    "id": "5214606",
+    "nome": "Niquelândia",
+    "uf": "GO",
+    "slug": "niquelandia"
+  },
+  {
+    "id": "5214705",
+    "nome": "Nova América",
+    "uf": "GO",
+    "slug": "nova-america"
+  },
+  {
+    "id": "5214804",
+    "nome": "Nova Aurora",
+    "uf": "GO",
+    "slug": "nova-aurora"
+  },
+  {
+    "id": "5214838",
+    "nome": "Nova Crixás",
+    "uf": "GO",
+    "slug": "nova-crixas"
+  },
+  {
+    "id": "5214861",
+    "nome": "Nova Glória",
+    "uf": "GO",
+    "slug": "nova-gloria"
+  },
+  {
+    "id": "5214879",
+    "nome": "Nova Iguaçu de Goiás",
+    "uf": "GO",
+    "slug": "nova-iguacu-de-goias"
+  },
+  {
+    "id": "5214903",
+    "nome": "Nova Roma",
+    "uf": "GO",
+    "slug": "nova-roma"
+  },
+  {
+    "id": "5215009",
+    "nome": "Nova Veneza",
+    "uf": "GO",
+    "slug": "nova-veneza"
+  },
+  {
+    "id": "5215207",
+    "nome": "Novo Brasil",
+    "uf": "GO",
+    "slug": "novo-brasil"
+  },
+  {
+    "id": "5215231",
+    "nome": "Novo Gama",
+    "uf": "GO",
+    "slug": "novo-gama"
+  },
+  {
+    "id": "5215256",
+    "nome": "Novo Planalto",
+    "uf": "GO",
+    "slug": "novo-planalto"
+  },
+  {
+    "id": "5215306",
+    "nome": "Orizona",
+    "uf": "GO",
+    "slug": "orizona"
+  },
+  {
+    "id": "5215405",
+    "nome": "Ouro Verde de Goiás",
+    "uf": "GO",
+    "slug": "ouro-verde-de-goias"
+  },
+  {
+    "id": "5215504",
+    "nome": "Ouvidor",
+    "uf": "GO",
+    "slug": "ouvidor"
+  },
+  {
+    "id": "5215603",
+    "nome": "Padre Bernardo",
+    "uf": "GO",
+    "slug": "padre-bernardo"
+  },
+  {
+    "id": "5215652",
+    "nome": "Palestina de Goiás",
+    "uf": "GO",
+    "slug": "palestina-de-goias"
+  },
+  {
+    "id": "5215702",
+    "nome": "Palmeiras de Goiás",
+    "uf": "GO",
+    "slug": "palmeiras-de-goias"
+  },
+  {
+    "id": "5215801",
+    "nome": "Palmelo",
+    "uf": "GO",
+    "slug": "palmelo"
+  },
+  {
+    "id": "5215900",
+    "nome": "Palminópolis",
+    "uf": "GO",
+    "slug": "palminopolis"
+  },
+  {
+    "id": "5216007",
+    "nome": "Panamá",
+    "uf": "GO",
+    "slug": "panama"
+  },
+  {
+    "id": "5216304",
+    "nome": "Paranaiguara",
+    "uf": "GO",
+    "slug": "paranaiguara"
+  },
+  {
+    "id": "5216403",
+    "nome": "Paraúna",
+    "uf": "GO",
+    "slug": "parauna"
+  },
+  {
+    "id": "5216452",
+    "nome": "Perolândia",
+    "uf": "GO",
+    "slug": "perolandia"
+  },
+  {
+    "id": "5216809",
+    "nome": "Petrolina de Goiás",
+    "uf": "GO",
+    "slug": "petrolina-de-goias"
+  },
+  {
+    "id": "5216908",
+    "nome": "Pilar de Goiás",
+    "uf": "GO",
+    "slug": "pilar-de-goias"
+  },
+  {
+    "id": "5217104",
+    "nome": "Piracanjuba",
+    "uf": "GO",
+    "slug": "piracanjuba"
+  },
+  {
+    "id": "5217203",
+    "nome": "Piranhas",
+    "uf": "GO",
+    "slug": "piranhas"
+  },
+  {
+    "id": "5217302",
+    "nome": "Pirenópolis",
+    "uf": "GO",
+    "slug": "pirenopolis"
+  },
+  {
+    "id": "5217401",
+    "nome": "Pires do Rio",
+    "uf": "GO",
+    "slug": "pires-do-rio"
+  },
+  {
+    "id": "5217609",
+    "nome": "Planaltina",
+    "uf": "GO",
+    "slug": "planaltina"
+  },
+  {
+    "id": "5217708",
+    "nome": "Pontalina",
+    "uf": "GO",
+    "slug": "pontalina"
+  },
+  {
+    "id": "5218003",
+    "nome": "Porangatu",
+    "uf": "GO",
+    "slug": "porangatu"
+  },
+  {
+    "id": "5218052",
+    "nome": "Porteirão",
+    "uf": "GO",
+    "slug": "porteirao"
+  },
+  {
+    "id": "5218102",
+    "nome": "Portelândia",
+    "uf": "GO",
+    "slug": "portelandia"
+  },
+  {
+    "id": "5218300",
+    "nome": "Posse",
+    "uf": "GO",
+    "slug": "posse"
+  },
+  {
+    "id": "5218391",
+    "nome": "Professor Jamil",
+    "uf": "GO",
+    "slug": "professor-jamil"
+  },
+  {
+    "id": "5218508",
+    "nome": "Quirinópolis",
+    "uf": "GO",
+    "slug": "quirinopolis"
+  },
+  {
+    "id": "5218607",
+    "nome": "Rialma",
+    "uf": "GO",
+    "slug": "rialma"
+  },
+  {
+    "id": "5218706",
+    "nome": "Rianápolis",
+    "uf": "GO",
+    "slug": "rianapolis"
+  },
+  {
+    "id": "5218789",
+    "nome": "Rio Quente",
+    "uf": "GO",
+    "slug": "rio-quente"
+  },
+  {
+    "id": "5218805",
+    "nome": "Rio Verde",
+    "uf": "GO",
+    "slug": "rio-verde"
+  },
+  {
+    "id": "5218904",
+    "nome": "Rubiataba",
+    "uf": "GO",
+    "slug": "rubiataba"
+  },
+  {
+    "id": "5219001",
+    "nome": "Sanclerlândia",
+    "uf": "GO",
+    "slug": "sanclerlandia"
+  },
+  {
+    "id": "5219100",
+    "nome": "Santa Bárbara de Goiás",
+    "uf": "GO",
+    "slug": "santa-barbara-de-goias"
+  },
+  {
+    "id": "5219209",
+    "nome": "Santa Cruz de Goiás",
+    "uf": "GO",
+    "slug": "santa-cruz-de-goias"
+  },
+  {
+    "id": "5219258",
+    "nome": "Santa Fé de Goiás",
+    "uf": "GO",
+    "slug": "santa-fe-de-goias"
+  },
+  {
+    "id": "5219308",
+    "nome": "Santa Helena de Goiás",
+    "uf": "GO",
+    "slug": "santa-helena-de-goias"
+  },
+  {
+    "id": "5219357",
+    "nome": "Santa Isabel",
+    "uf": "GO",
+    "slug": "santa-isabel"
+  },
+  {
+    "id": "5219407",
+    "nome": "Santa Rita do Araguaia",
+    "uf": "GO",
+    "slug": "santa-rita-do-araguaia"
+  },
+  {
+    "id": "5219456",
+    "nome": "Santa Rita do Novo Destino",
+    "uf": "GO",
+    "slug": "santa-rita-do-novo-destino"
+  },
+  {
+    "id": "5219506",
+    "nome": "Santa Rosa de Goiás",
+    "uf": "GO",
+    "slug": "santa-rosa-de-goias"
+  },
+  {
+    "id": "5219605",
+    "nome": "Santa Tereza de Goiás",
+    "uf": "GO",
+    "slug": "santa-tereza-de-goias"
+  },
+  {
+    "id": "5219704",
+    "nome": "Santa Terezinha de Goiás",
+    "uf": "GO",
+    "slug": "santa-terezinha-de-goias"
+  },
+  {
+    "id": "5219712",
+    "nome": "Santo Antônio da Barra",
+    "uf": "GO",
+    "slug": "santo-antonio-da-barra"
+  },
+  {
+    "id": "5219738",
+    "nome": "Santo Antônio de Goiás",
+    "uf": "GO",
+    "slug": "santo-antonio-de-goias"
+  },
+  {
+    "id": "5219753",
+    "nome": "Santo Antônio do Descoberto",
+    "uf": "GO",
+    "slug": "santo-antonio-do-descoberto"
+  },
+  {
+    "id": "5219803",
+    "nome": "São Domingos",
+    "uf": "GO",
+    "slug": "sao-domingos"
+  },
+  {
+    "id": "5219902",
+    "nome": "São Francisco de Goiás",
+    "uf": "GO",
+    "slug": "sao-francisco-de-goias"
+  },
+  {
+    "id": "5220009",
+    "nome": "São João d'Aliança",
+    "uf": "GO",
+    "slug": "sao-joao-d'alianca"
+  },
+  {
+    "id": "5220058",
+    "nome": "São João da Paraúna",
+    "uf": "GO",
+    "slug": "sao-joao-da-parauna"
+  },
+  {
+    "id": "5220108",
+    "nome": "São Luís de Montes Belos",
+    "uf": "GO",
+    "slug": "sao-luis-de-montes-belos"
+  },
+  {
+    "id": "5220157",
+    "nome": "São Luiz do Norte",
+    "uf": "GO",
+    "slug": "sao-luiz-do-norte"
+  },
+  {
+    "id": "5220207",
+    "nome": "São Miguel do Araguaia",
+    "uf": "GO",
+    "slug": "sao-miguel-do-araguaia"
+  },
+  {
+    "id": "5220264",
+    "nome": "São Miguel do Passa Quatro",
+    "uf": "GO",
+    "slug": "sao-miguel-do-passa-quatro"
+  },
+  {
+    "id": "5220280",
+    "nome": "São Patrício",
+    "uf": "GO",
+    "slug": "sao-patricio"
+  },
+  {
+    "id": "5220405",
+    "nome": "São Simão",
+    "uf": "GO",
+    "slug": "sao-simao"
+  },
+  {
+    "id": "5220454",
+    "nome": "Senador Canedo",
+    "uf": "GO",
+    "slug": "senador-canedo"
+  },
+  {
+    "id": "5220504",
+    "nome": "Serranópolis",
+    "uf": "GO",
+    "slug": "serranopolis"
+  },
+  {
+    "id": "5220603",
+    "nome": "Silvânia",
+    "uf": "GO",
+    "slug": "silvania"
+  },
+  {
+    "id": "5220686",
+    "nome": "Simolândia",
+    "uf": "GO",
+    "slug": "simolandia"
+  },
+  {
+    "id": "5220702",
+    "nome": "Sítio d'Abadia",
+    "uf": "GO",
+    "slug": "sitio-d'abadia"
+  },
+  {
+    "id": "5221007",
+    "nome": "Taquaral de Goiás",
+    "uf": "GO",
+    "slug": "taquaral-de-goias"
+  },
+  {
+    "id": "5221080",
+    "nome": "Teresina de Goiás",
+    "uf": "GO",
+    "slug": "teresina-de-goias"
+  },
+  {
+    "id": "5221197",
+    "nome": "Terezópolis de Goiás",
+    "uf": "GO",
+    "slug": "terezopolis-de-goias"
+  },
+  {
+    "id": "5221304",
+    "nome": "Três Ranchos",
+    "uf": "GO",
+    "slug": "tres-ranchos"
+  },
+  {
+    "id": "5221403",
+    "nome": "Trindade",
+    "uf": "GO",
+    "slug": "trindade"
+  },
+  {
+    "id": "5221452",
+    "nome": "Trombas",
+    "uf": "GO",
+    "slug": "trombas"
+  },
+  {
+    "id": "5221502",
+    "nome": "Turvânia",
+    "uf": "GO",
+    "slug": "turvania"
+  },
+  {
+    "id": "5221551",
+    "nome": "Turvelândia",
+    "uf": "GO",
+    "slug": "turvelandia"
+  },
+  {
+    "id": "5221577",
+    "nome": "Uirapuru",
+    "uf": "GO",
+    "slug": "uirapuru"
+  },
+  {
+    "id": "5221601",
+    "nome": "Uruaçu",
+    "uf": "GO",
+    "slug": "uruacu"
+  },
+  {
+    "id": "5221700",
+    "nome": "Uruana",
+    "uf": "GO",
+    "slug": "uruana"
+  },
+  {
+    "id": "5221809",
+    "nome": "Urutaí",
+    "uf": "GO",
+    "slug": "urutai"
+  },
+  {
+    "id": "5221858",
+    "nome": "Valparaíso de Goiás",
+    "uf": "GO",
+    "slug": "valparaiso-de-goias"
+  },
+  {
+    "id": "5221908",
+    "nome": "Varjão",
+    "uf": "GO",
+    "slug": "varjao"
+  },
+  {
+    "id": "5222005",
+    "nome": "Vianópolis",
+    "uf": "GO",
+    "slug": "vianopolis"
+  },
+  {
+    "id": "5222054",
+    "nome": "Vicentinópolis",
+    "uf": "GO",
+    "slug": "vicentinopolis"
+  },
+  {
+    "id": "5222203",
+    "nome": "Vila Boa",
+    "uf": "GO",
+    "slug": "vila-boa"
+  },
+  {
+    "id": "5222302",
+    "nome": "Vila Propício",
+    "uf": "GO",
+    "slug": "vila-propicio"
+  }
+]

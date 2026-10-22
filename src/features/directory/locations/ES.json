@@ -1,0 +1,470 @@
+[
+  {
+    "id": "3200102",
+    "nome": "Afonso Cláudio",
+    "uf": "ES",
+    "slug": "afonso-claudio"
+  },
+  {
+    "id": "3200169",
+    "nome": "Água Doce do Norte",
+    "uf": "ES",
+    "slug": "agua-doce-do-norte"
+  },
+  {
+    "id": "3200136",
+    "nome": "Águia Branca",
+    "uf": "ES",
+    "slug": "aguia-branca"
+  },
+  {
+    "id": "3200201",
+    "nome": "Alegre",
+    "uf": "ES",
+    "slug": "alegre"
+  },
+  {
+    "id": "3200300",
+    "nome": "Alfredo Chaves",
+    "uf": "ES",
+    "slug": "alfredo-chaves"
+  },
+  {
+    "id": "3200359",
+    "nome": "Alto Rio Novo",
+    "uf": "ES",
+    "slug": "alto-rio-novo"
+  },
+  {
+    "id": "3200409",
+    "nome": "Anchieta",
+    "uf": "ES",
+    "slug": "anchieta"
+  },
+  {
+    "id": "3200508",
+    "nome": "Apiacá",
+    "uf": "ES",
+    "slug": "apiaca"
+  },
+  {
+    "id": "3200607",
+    "nome": "Aracruz",
+    "uf": "ES",
+    "slug": "aracruz"
+  },
+  {
+    "id": "3200706",
+    "nome": "Atílio Vivácqua",
+    "uf": "ES",
+    "slug": "atilio-vivacqua"
+  },
+  {
+    "id": "3200805",
+    "nome": "Baixo Guandu",
+    "uf": "ES",
+    "slug": "baixo-guandu"
+  },
+  {
+    "id": "3200904",
+    "nome": "Barra de São Francisco",
+    "uf": "ES",
+    "slug": "barra-de-sao-francisco"
+  },
+  {
+    "id": "3201001",
+    "nome": "Boa Esperança",
+    "uf": "ES",
+    "slug": "boa-esperanca"
+  },
+  {
+    "id": "3201100",
+    "nome": "Bom Jesus do Norte",
+    "uf": "ES",
+    "slug": "bom-jesus-do-norte"
+  },
+  {
+    "id": "3201159",
+    "nome": "Brejetuba",
+    "uf": "ES",
+    "slug": "brejetuba"
+  },
+  {
+    "id": "3201209",
+    "nome": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "slug": "cachoeiro-de-itapemirim"
+  },
+  {
+    "id": "3201308",
+    "nome": "Cariacica",
+    "uf": "ES",
+    "slug": "cariacica"
+  },
+  {
+    "id": "3201407",
+    "nome": "Castelo",
+    "uf": "ES",
+    "slug": "castelo"
+  },
+  {
+    "id": "3201506",
+    "nome": "Colatina",
+    "uf": "ES",
+    "slug": "colatina"
+  },
+  {
+    "id": "3201605",
+    "nome": "Conceição da Barra",
+    "uf": "ES",
+    "slug": "conceicao-da-barra"
+  },
+  {
+    "id": "3201704",
+    "nome": "Conceição do Castelo",
+    "uf": "ES",
+    "slug": "conceicao-do-castelo"
+  },
+  {
+    "id": "3201803",
+    "nome": "Divino de São Lourenço",
+    "uf": "ES",
+    "slug": "divino-de-sao-lourenco"
+  },
+  {
+    "id": "3201902",
+    "nome": "Domingos Martins",
+    "uf": "ES",
+    "slug": "domingos-martins"
+  },
+  {
+    "id": "3202009",
+    "nome": "Dores do Rio Preto",
+    "uf": "ES",
+    "slug": "dores-do-rio-preto"
+  },
+  {
+    "id": "3202108",
+    "nome": "Ecoporanga",
+    "uf": "ES",
+    "slug": "ecoporanga"
+  },
+  {
+    "id": "3202207",
+    "nome": "Fundão",
+    "uf": "ES",
+    "slug": "fundao"
+  },
+  {
+    "id": "3202256",
+    "nome": "Governador Lindenberg",
+    "uf": "ES",
+    "slug": "governador-lindenberg"
+  },
+  {
+    "id": "3202306",
+    "nome": "Guaçuí",
+    "uf": "ES",
+    "slug": "guacui"
+  },
+  {
+    "id": "3202405",
+    "nome": "Guarapari",
+    "uf": "ES",
+    "slug": "guarapari"
+  },
+  {
+    "id": "3202454",
+    "nome": "Ibatiba",
+    "uf": "ES",
+    "slug": "ibatiba"
+  },
+  {
+    "id": "3202504",
+    "nome": "Ibiraçu",
+    "uf": "ES",
+    "slug": "ibiracu"
+  },
+  {
+    "id": "3202553",
+    "nome": "Ibitirama",
+    "uf": "ES",
+    "slug": "ibitirama"
+  },
+  {
+    "id": "3202603",
+    "nome": "Iconha",
+    "uf": "ES",
+    "slug": "iconha"
+  },
+  {
+    "id": "3202652",
+    "nome": "Irupi",
+    "uf": "ES",
+    "slug": "irupi"
+  },
+  {
+    "id": "3202702",
+    "nome": "Itaguaçu",
+    "uf": "ES",
+    "slug": "itaguacu"
+  },
+  {
+    "id": "3202801",
+    "nome": "Itapemirim",
+    "uf": "ES",
+    "slug": "itapemirim"
+  },
+  {
+    "id": "3202900",
+    "nome": "Itarana",
+    "uf": "ES",
+    "slug": "itarana"
+  },
+  {
+    "id": "3203007",
+    "nome": "Iúna",
+    "uf": "ES",
+    "slug": "iuna"
+  },
+  {
+    "id": "3203056",
+    "nome": "Jaguaré",
+    "uf": "ES",
+    "slug": "jaguare"
+  },
+  {
+    "id": "3203106",
+    "nome": "Jerônimo Monteiro",
+    "uf": "ES",
+    "slug": "jeronimo-monteiro"
+  },
+  {
+    "id": "3203130",
+    "nome": "João Neiva",
+    "uf": "ES",
+    "slug": "joao-neiva"
+  },
+  {
+    "id": "3203163",
+    "nome": "Laranja da Terra",
+    "uf": "ES",
+    "slug": "laranja-da-terra"
+  },
+  {
+    "id": "3203205",
+    "nome": "Linhares",
+    "uf": "ES",
+    "slug": "linhares"
+  },
+  {
+    "id": "3203304",
+    "nome": "Mantenópolis",
+    "uf": "ES",
+    "slug": "mantenopolis"
+  },
+  {
+    "id": "3203320",
+    "nome": "Marataízes",
+    "uf": "ES",
+    "slug": "marataizes"
+  },
+  {
+    "id": "3203346",
+    "nome": "Marechal Floriano",
+    "uf": "ES",
+    "slug": "marechal-floriano"
+  },
+  {
+    "id": "3203353",
+    "nome": "Marilândia",
+    "uf": "ES",
+    "slug": "marilandia"
+  },
+  {
+    "id": "3203403",
+    "nome": "Mimoso do Sul",
+    "uf": "ES",
+    "slug": "mimoso-do-sul"
+  },
+  {
+    "id": "3203502",
+    "nome": "Montanha",
+    "uf": "ES",
+    "slug": "montanha"
+  },
+  {
+    "id": "3203601",
+    "nome": "Mucurici",
+    "uf": "ES",
+    "slug": "mucurici"
+  },
+  {
+    "id": "3203700",
+    "nome": "Muniz Freire",
+    "uf": "ES",
+    "slug": "muniz-freire"
+  },
+  {
+    "id": "3203809",
+    "nome": "Muqui",
+    "uf": "ES",
+    "slug": "muqui"
+  },
+  {
+    "id": "3203908",
+    "nome": "Nova Venécia",
+    "uf": "ES",
+    "slug": "nova-venecia"
+  },
+  {
+    "id": "3204005",
+    "nome": "Pancas",
+    "uf": "ES",
+    "slug": "pancas"
+  },
+  {
+    "id": "3204054",
+    "nome": "Pedro Canário",
+    "uf": "ES",
+    "slug": "pedro-canario"
+  },
+  {
+    "id": "3204104",
+    "nome": "Pinheiros",
+    "uf": "ES",
+    "slug": "pinheiros"
+  },
+  {
+    "id": "3204203",
+    "nome": "Piúma",
+    "uf": "ES",
+    "slug": "piuma"
+  },
+  {
+    "id": "3204252",
+    "nome": "Ponto Belo",
+    "uf": "ES",
+    "slug": "ponto-belo"
+  },
+  {
+    "id": "3204302",
+    "nome": "Presidente Kennedy",
+    "uf": "ES",
+    "slug": "presidente-kennedy"
+  },
+  {
+    "id": "3204351",
+    "nome": "Rio Bananal",
+    "uf": "ES",
+    "slug": "rio-bananal"
+  },
+  {
+    "id": "3204401",
+    "nome": "Rio Novo do Sul",
+    "uf": "ES",
+    "slug": "rio-novo-do-sul"
+  },
+  {
+    "id": "3204500",
+    "nome": "Santa Leopoldina",
+    "uf": "ES",
+    "slug": "santa-leopoldina"
+  },
+  {
+    "id": "3204559",
+    "nome": "Santa Maria de Jetibá",
+    "uf": "ES",
+    "slug": "santa-maria-de-jetiba"
+  },
+  {
+    "id": "3204609",
+    "nome": "Santa Teresa",
+    "uf": "ES",
+    "slug": "santa-teresa"
+  },
+  {
+    "id": "3204658",
+    "nome": "São Domingos do Norte",
+    "uf": "ES",
+    "slug": "sao-domingos-do-norte"
+  },
+  {
+    "id": "3204708",
+    "nome": "São Gabriel da Palha",
+    "uf": "ES",
+    "slug": "sao-gabriel-da-palha"
+  },
+  {
+    "id": "3204807",
+    "nome": "São José do Calçado",
+    "uf": "ES",
+    "slug": "sao-jose-do-calcado"
+  },
+  {
+    "id": "3204906",
+    "nome": "São Mateus",
+    "uf": "ES",
+    "slug": "sao-mateus"
+  },
+  {
+    "id": "3204955",
+    "nome": "São Roque do Canaã",
+    "uf": "ES",
+    "slug": "sao-roque-do-canaa"
+  },
+  {
+    "id": "3205002",
+    "nome": "Serra",
+    "uf": "ES",
+    "slug": "serra"
+  },
+  {
+    "id": "3205010",
+    "nome": "Sooretama",
+    "uf": "ES",
+    "slug": "sooretama"
+  },
+  {
+    "id": "3205036",
+    "nome": "Vargem Alta",
+    "uf": "ES",
+    "slug": "vargem-alta"
+  },
+  {
+    "id": "3205069",
+    "nome": "Venda Nova do Imigrante",
+    "uf": "ES",
+    "slug": "venda-nova-do-imigrante"
+  },
+  {
+    "id": "3205101",
+    "nome": "Viana",
+    "uf": "ES",
+    "slug": "viana"
+  },
+  {
+    "id": "3205150",
+    "nome": "Vila Pavão",
+    "uf": "ES",
+    "slug": "vila-pavao"
+  },
+  {
+    "id": "3205176",
+    "nome": "Vila Valério",
+    "uf": "ES",
+    "slug": "vila-valerio"
+  },
+  {
+    "id": "3205200",
+    "nome": "Vila Velha",
+    "uf": "ES",
+    "slug": "vila-velha"
+  },
+  {
+    "id": "3205309",
+    "nome": "Vitória",
+    "uf": "ES",
+    "slug": "vitoria"
+  }
+]

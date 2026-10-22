@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1400050",
+    "nome": "Alto Alegre",
+    "uf": "RR",
+    "slug": "alto-alegre"
+  },
+  {
+    "id": "1400027",
+    "nome": "Amajari",
+    "uf": "RR",
+    "slug": "amajari"
+  },
+  {
+    "id": "1400100",
+    "nome": "Boa Vista",
+    "uf": "RR",
+    "slug": "boa-vista"
+  },
+  {
+    "id": "1400159",
+    "nome": "Bonfim",
+    "uf": "RR",
+    "slug": "bonfim"
+  },
+  {
+    "id": "1400175",
+    "nome": "Cantá",
+    "uf": "RR",
+    "slug": "canta"
+  },
+  {
+    "id": "1400209",
+    "nome": "Caracaraí",
+    "uf": "RR",
+    "slug": "caracarai"
+  },
+  {
+    "id": "1400233",
+    "nome": "Caroebe",
+    "uf": "RR",
+    "slug": "caroebe"
+  },
+  {
+    "id": "1400282",
+    "nome": "Iracema",
+    "uf": "RR",
+    "slug": "iracema"
+  },
+  {
+    "id": "1400308",
+    "nome": "Mucajaí",
+    "uf": "RR",
+    "slug": "mucajai"
+  },
+  {
+    "id": "1400407",
+    "nome": "Normandia",
+    "uf": "RR",
+    "slug": "normandia"
+  },
+  {
+    "id": "1400456",
+    "nome": "Pacaraima",
+    "uf": "RR",
+    "slug": "pacaraima"
+  },
+  {
+    "id": "1400472",
+    "nome": "Rorainópolis",
+    "uf": "RR",
+    "slug": "rorainopolis"
+  },
+  {
+    "id": "1400506",
+    "nome": "São João da Baliza",
+    "uf": "RR",
+    "slug": "sao-joao-da-baliza"
+  },
+  {
+    "id": "1400605",
+    "nome": "São Luiz do Anauá",
+    "uf": "RR",
+    "slug": "sao-luiz-do-anaua"
+  },
+  {
+    "id": "1400704",
+    "nome": "Uiramutã",
+    "uf": "RR",
+    "slug": "uiramuta"
+  }
+]

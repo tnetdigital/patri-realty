@@ -1,0 +1,10 @@
+{
+  "label": "before",
+  "date": "2026-10-22T09:36:47.739Z",
+  "url": "http://127.0.0.1:5180/guia",
+  "lighthouse": "13.5.0",
+  "performance": 60,
+  "accessibility": 100,
+  "seo": 100,
+  "lcpMs": 6959.735541679676
+}

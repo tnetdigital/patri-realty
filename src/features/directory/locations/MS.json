@@ -1,0 +1,476 @@
+[
+  {
+    "id": "5000203",
+    "nome": "Água Clara",
+    "uf": "MS",
+    "slug": "agua-clara"
+  },
+  {
+    "id": "5000252",
+    "nome": "Alcinópolis",
+    "uf": "MS",
+    "slug": "alcinopolis"
+  },
+  {
+    "id": "5000609",
+    "nome": "Amambai",
+    "uf": "MS",
+    "slug": "amambai"
+  },
+  {
+    "id": "5000708",
+    "nome": "Anastácio",
+    "uf": "MS",
+    "slug": "anastacio"
+  },
+  {
+    "id": "5000807",
+    "nome": "Anaurilândia",
+    "uf": "MS",
+    "slug": "anaurilandia"
+  },
+  {
+    "id": "5000856",
+    "nome": "Angélica",
+    "uf": "MS",
+    "slug": "angelica"
+  },
+  {
+    "id": "5000906",
+    "nome": "Antônio João",
+    "uf": "MS",
+    "slug": "antonio-joao"
+  },
+  {
+    "id": "5001003",
+    "nome": "Aparecida do Taboado",
+    "uf": "MS",
+    "slug": "aparecida-do-taboado"
+  },
+  {
+    "id": "5001102",
+    "nome": "Aquidauana",
+    "uf": "MS",
+    "slug": "aquidauana"
+  },
+  {
+    "id": "5001243",
+    "nome": "Aral Moreira",
+    "uf": "MS",
+    "slug": "aral-moreira"
+  },
+  {
+    "id": "5001508",
+    "nome": "Bandeirantes",
+    "uf": "MS",
+    "slug": "bandeirantes"
+  },
+  {
+    "id": "5001904",
+    "nome": "Bataguassu",
+    "uf": "MS",
+    "slug": "bataguassu"
+  },
+  {
+    "id": "5002001",
+    "nome": "Batayporã",
+    "uf": "MS",
+    "slug": "bataypora"
+  },
+  {
+    "id": "5002100",
+    "nome": "Bela Vista",
+    "uf": "MS",
+    "slug": "bela-vista"
+  },
+  {
+    "id": "5002159",
+    "nome": "Bodoquena",
+    "uf": "MS",
+    "slug": "bodoquena"
+  },
+  {
+    "id": "5002209",
+    "nome": "Bonito",
+    "uf": "MS",
+    "slug": "bonito"
+  },
+  {
+    "id": "5002308",
+    "nome": "Brasilândia",
+    "uf": "MS",
+    "slug": "brasilandia"
+  },
+  {
+    "id": "5002407",
+    "nome": "Caarapó",
+    "uf": "MS",
+    "slug": "caarapo"
+  },
+  {
+    "id": "5002605",
+    "nome": "Camapuã",
+    "uf": "MS",
+    "slug": "camapua"
+  },
+  {
+    "id": "5002704",
+    "nome": "Campo Grande",
+    "uf": "MS",
+    "slug": "campo-grande"
+  },
+  {
+    "id": "5002803",
+    "nome": "Caracol",
+    "uf": "MS",
+    "slug": "caracol"
+  },
+  {
+    "id": "5002902",
+    "nome": "Cassilândia",
+    "uf": "MS",
+    "slug": "cassilandia"
+  },
+  {
+    "id": "5002951",
+    "nome": "Chapadão do Sul",
+    "uf": "MS",
+    "slug": "chapadao-do-sul"
+  },
+  {
+    "id": "5003108",
+    "nome": "Corguinho",
+    "uf": "MS",
+    "slug": "corguinho"
+  },
+  {
+    "id": "5003157",
+    "nome": "Coronel Sapucaia",
+    "uf": "MS",
+    "slug": "coronel-sapucaia"
+  },
+  {
+    "id": "5003207",
+    "nome": "Corumbá",
+    "uf": "MS",
+    "slug": "corumba"
+  },
+  {
+    "id": "5003256",
+    "nome": "Costa Rica",
+    "uf": "MS",
+    "slug": "costa-rica"
+  },
+  {
+    "id": "5003306",
+    "nome": "Coxim",
+    "uf": "MS",
+    "slug": "coxim"
+  },
+  {
+    "id": "5003454",
+    "nome": "Deodápolis",
+    "uf": "MS",
+    "slug": "deodapolis"
+  },
+  {
+    "id": "5003488",
+    "nome": "Dois Irmãos do Buriti",
+    "uf": "MS",
+    "slug": "dois-irmaos-do-buriti"
+  },
+  {
+    "id": "5003504",
+    "nome": "Douradina",
+    "uf": "MS",
+    "slug": "douradina"
+  },
+  {
+    "id": "5003702",
+    "nome": "Dourados",
+    "uf": "MS",
+    "slug": "dourados"
+  },
+  {
+    "id": "5003751",
+    "nome": "Eldorado",
+    "uf": "MS",
+    "slug": "eldorado"
+  },
+  {
+    "id": "5003801",
+    "nome": "Fátima do Sul",
+    "uf": "MS",
+    "slug": "fatima-do-sul"
+  },
+  {
+    "id": "5003900",
+    "nome": "Figueirão",
+    "uf": "MS",
+    "slug": "figueirao"
+  },
+  {
+    "id": "5004007",
+    "nome": "Glória de Dourados",
+    "uf": "MS",
+    "slug": "gloria-de-dourados"
+  },
+  {
+    "id": "5004106",
+    "nome": "Guia Lopes da Laguna",
+    "uf": "MS",
+    "slug": "guia-lopes-da-laguna"
+  },
+  {
+    "id": "5004304",
+    "nome": "Iguatemi",
+    "uf": "MS",
+    "slug": "iguatemi"
+  },
+  {
+    "id": "5004403",
+    "nome": "Inocência",
+    "uf": "MS",
+    "slug": "inocencia"
+  },
+  {
+    "id": "5004502",
+    "nome": "Itaporã",
+    "uf": "MS",
+    "slug": "itapora"
+  },
+  {
+    "id": "5004601",
+    "nome": "Itaquiraí",
+    "uf": "MS",
+    "slug": "itaquirai"
+  },
+  {
+    "id": "5004700",
+    "nome": "Ivinhema",
+    "uf": "MS",
+    "slug": "ivinhema"
+  },
+  {
+    "id": "5004809",
+    "nome": "Japorã",
+    "uf": "MS",
+    "slug": "japora"
+  },
+  {
+    "id": "5004908",
+    "nome": "Jaraguari",
+    "uf": "MS",
+    "slug": "jaraguari"
+  },
+  {
+    "id": "5005004",
+    "nome": "Jardim",
+    "uf": "MS",
+    "slug": "jardim"
+  },
+  {
+    "id": "5005103",
+    "nome": "Jateí",
+    "uf": "MS",
+    "slug": "jatei"
+  },
+  {
+    "id": "5005152",
+    "nome": "Juti",
+    "uf": "MS",
+    "slug": "juti"
+  },
+  {
+    "id": "5005202",
+    "nome": "Ladário",
+    "uf": "MS",
+    "slug": "ladario"
+  },
+  {
+    "id": "5005251",
+    "nome": "Laguna Carapã",
+    "uf": "MS",
+    "slug": "laguna-carapa"
+  },
+  {
+    "id": "5005400",
+    "nome": "Maracaju",
+    "uf": "MS",
+    "slug": "maracaju"
+  },
+  {
+    "id": "5005608",
+    "nome": "Miranda",
+    "uf": "MS",
+    "slug": "miranda"
+  },
+  {
+    "id": "5005681",
+    "nome": "Mundo Novo",
+    "uf": "MS",
+    "slug": "mundo-novo"
+  },
+  {
+    "id": "5005707",
+    "nome": "Naviraí",
+    "uf": "MS",
+    "slug": "navirai"
+  },
+  {
+    "id": "5005806",
+    "nome": "Nioaque",
+    "uf": "MS",
+    "slug": "nioaque"
+  },
+  {
+    "id": "5006002",
+    "nome": "Nova Alvorada do Sul",
+    "uf": "MS",
+    "slug": "nova-alvorada-do-sul"
+  },
+  {
+    "id": "5006200",
+    "nome": "Nova Andradina",
+    "uf": "MS",
+    "slug": "nova-andradina"
+  },
+  {
+    "id": "5006259",
+    "nome": "Novo Horizonte do Sul",
+    "uf": "MS",
+    "slug": "novo-horizonte-do-sul"
+  },
+  {
+    "id": "5006275",
+    "nome": "Paraíso das Águas",
+    "uf": "MS",
+    "slug": "paraiso-das-aguas"
+  },
+  {
+    "id": "5006309",
+    "nome": "Paranaíba",
+    "uf": "MS",
+    "slug": "paranaiba"
+  },
+  {
+    "id": "5006358",
+    "nome": "Paranhos",
+    "uf": "MS",
+    "slug": "paranhos"
+  },
+  {
+    "id": "5006408",
+    "nome": "Pedro Gomes",
+    "uf": "MS",
+    "slug": "pedro-gomes"
+  },
+  {
+    "id": "5006606",
+    "nome": "Ponta Porã",
+    "uf": "MS",
+    "slug": "ponta-pora"
+  },
+  {
+    "id": "5006903",
+    "nome": "Porto Murtinho",
+    "uf": "MS",
+    "slug": "porto-murtinho"
+  },
+  {
+    "id": "5007109",
+    "nome": "Ribas do Rio Pardo",
+    "uf": "MS",
+    "slug": "ribas-do-rio-pardo"
+  },
+  {
+    "id": "5007208",
+    "nome": "Rio Brilhante",
+    "uf": "MS",
+    "slug": "rio-brilhante"
+  },
+  {
+    "id": "5007307",
+    "nome": "Rio Negro",
+    "uf": "MS",
+    "slug": "rio-negro"
+  },
+  {
+    "id": "5007406",
+    "nome": "Rio Verde de Mato Grosso",
+    "uf": "MS",
+    "slug": "rio-verde-de-mato-grosso"
+  },
+  {
+    "id": "5007505",
+    "nome": "Rochedo",
+    "uf": "MS",
+    "slug": "rochedo"
+  },
+  {
+    "id": "5007554",
+    "nome": "Santa Rita do Pardo",
+    "uf": "MS",
+    "slug": "santa-rita-do-pardo"
+  },
+  {
+    "id": "5007695",
+    "nome": "São Gabriel do Oeste",
+    "uf": "MS",
+    "slug": "sao-gabriel-do-oeste"
+  },
+  {
+    "id": "5007802",
+    "nome": "Selvíria",
+    "uf": "MS",
+    "slug": "selviria"
+  },
+  {
+    "id": "5007703",
+    "nome": "Sete Quedas",
+    "uf": "MS",
+    "slug": "sete-quedas"
+  },
+  {
+    "id": "5007901",
+    "nome": "Sidrolândia",
+    "uf": "MS",
+    "slug": "sidrolandia"
+  },
+  {
+    "id": "5007935",
+    "nome": "Sonora",
+    "uf": "MS",
+    "slug": "sonora"
+  },
+  {
+    "id": "5007950",
+    "nome": "Tacuru",
+    "uf": "MS",
+    "slug": "tacuru"
+  },
+  {
+    "id": "5007976",
+    "nome": "Taquarussu",
+    "uf": "MS",
+    "slug": "taquarussu"
+  },
+  {
+    "id": "5008008",
+    "nome": "Terenos",
+    "uf": "MS",
+    "slug": "terenos"
+  },
+  {
+    "id": "5008305",
+    "nome": "Três Lagoas",
+    "uf": "MS",
+    "slug": "tres-lagoas"
+  },
+  {
+    "id": "5008404",
+    "nome": "Vicentina",
+    "uf": "MS",
+    "slug": "vicentina"
+  }
+]

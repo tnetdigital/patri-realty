@@ -1,0 +1,21 @@
+name: Quality
+on: [push, pull_request]
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run check:env
+      - run: npm run check:architecture
+      - run: node scripts/scan-secrets.mjs
+      - run: npm test
+      - run: npm run test:http
+      - run: npm run build:ssr
+      - run: npm audit --audit-level=high

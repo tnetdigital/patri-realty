@@ -1,0 +1,32 @@
+begin;
+create extension if not exists pgtap with schema extensions;
+set local search_path=public,extensions;
+grant usage on schema extensions to authenticated,anon,service_role;
+select no_plan();
+insert into auth.users(id,email,raw_user_meta_data) values
+('fa000000-0000-4000-8000-000000000001','correction@test.example','{"nome":"Teste","tipo":"fornecedor","empresa":"Teste Correção","cnpj":"11222333000181","telefone":"11999999999","termos":true,"termos_versao":"2026-10-21","privacidade_versao":"2026-10-21"}'),
+('fa000000-0000-4000-8000-000000000002','staff@test.example','{"nome":"Staff","tipo":"sindico","cidade":"São Paulo","estado":"SP","termos":true,"termos_versao":"2026-10-21","privacidade_versao":"2026-10-21"}');
+select set_config('test.sid',(select id::text from public.fornecedores where dono_id='fa000000-0000-4000-8000-000000000001'),true);
+insert into public.user_roles(user_id,role) values('fa000000-0000-4000-8000-000000000002','comercial');
+insert into public.assinaturas(fornecedor_id,plano,status,periodo_ate,stripe_subscription_id) values(current_setting('test.sid')::uuid,'premium','ativa',now()+interval '30 days','sub_fix');
+select set_config('request.jwt.claims','{"role":"service_role"}',true);
+select lives_ok($$select public.aplicar_evento_stripe('fix_invoice','invoice.paid','{"subscription":"sub_fix","status":"active","period_end":2000000000,"invoice_id":"in_fix","charge_id":"ch_fix","payment_intent":"pi_fix","currency":"brl","amount_due":10000,"billing_reason":"subscription_cycle"}')$$,'F01 renovação');
+select lives_ok($$select public.aplicar_evento_stripe('fix_refund','charge.refunded','{"invoice_id":"in_fix","charge_id":"ch_fix","payment_intent":"pi_fix","amount_refunded":2500}')$$,'F01 estorno parcial renovação');
+select is((select estornado_centavos from public.pagamentos where stripe_subscription_id='sub_fix'),2500,'F01 valor parcial');
+select lives_ok($$select public.aplicar_evento_stripe('fix_refund2','charge.refunded','{"charge_id":"ch_fix","amount_refunded":2500}')$$,'F01 concilia charge e idempotência acumulada');
+select is((select estornado_centavos from public.pagamentos where stripe_subscription_id='sub_fix'),2500,'F01 não duplica');
+select lives_ok($$select public.aplicar_evento_stripe('fix_refund3','charge.refunded','{"invoice_id":"in_fix","amount_refunded":10000}')$$,'F01 concilia invoice estorno total');
+set local role authenticated;
+select set_config('request.jwt.claim.sub','fa000000-0000-4000-8000-000000000002',true);
+select lives_ok($$select public.configurar_cobranca('plano',(select id from public.planos where codigo='premium'),'{"preco_centavos":9900}')$$,'F11 comercial ajusta preço');
+reset role;
+insert into public.user_roles(user_id,role) values('fa000000-0000-4000-8000-000000000002','admin');
+set local role authenticated;
+select lives_ok($$select public.set_plano_fornecedor(current_setting('test.sid')::uuid,'destaque',now()+interval '5 days','Concessão com justificativa')$$,'F02 concessão auditada');
+select throws_ok($$update public.fornecedores set plano_codigo='destaque' where id=current_setting('test.sid')::uuid$$,'42501',null,'F02 admin não altera diretamente');
+reset role;
+select is(private.effective_plan(current_setting('test.sid')::uuid),'premium','F02 plano pago prevalece');
+update public.assinaturas set status='cancelada';
+select is(private.effective_plan(current_setting('test.sid')::uuid),'destaque','F02 concessão vigente após fim pago');
+select ok(exists(select 1 from public.audit_log where acao='CONCESSAO_PLANO'),'F02 auditoria com motivo');
+select * from finish();rollback;

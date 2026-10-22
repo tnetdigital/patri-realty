@@ -1,0 +1,13 @@
+begin;
+create extension if not exists pgtap with schema extensions;
+set local search_path=public,extensions;
+select no_plan();
+select ok((select not public from storage.buckets where id='importacoes'),'F23 importações privadas');
+select ok((select public and file_size_limit=20971520 from storage.buckets where id='revistas'),'F23 PDF público limitado');
+select ok(not has_function_privilege('authenticated','public.registrar_falha_rotina(text,text)','execute'),'F21 cliente não forja logs');
+select set_config('request.jwt.claims','{"role":"service_role"}',true);
+select lives_ok($$select public.registrar_falha_rotina('teste','SIMULATED_FAILURE')$$,'F21 registra falha segura');
+select is((select count(*) from public.rotina_falhas where rotina='teste'),1::bigint,'F21 falha persistida');
+select throws_ok($$select public.executar_rotina('unsafe;drop table profiles')$$,'P0001','Rotina inválida','F04 rotina por whitelist');
+select is(public.executar_rotina('publicar_agendadas'),true,'F04 execução configurada');
+select * from finish();rollback;

@@ -1,0 +1,614 @@
+[
+  {
+    "id": "2700102",
+    "nome": "Água Branca",
+    "uf": "AL",
+    "slug": "agua-branca"
+  },
+  {
+    "id": "2700201",
+    "nome": "Anadia",
+    "uf": "AL",
+    "slug": "anadia"
+  },
+  {
+    "id": "2700300",
+    "nome": "Arapiraca",
+    "uf": "AL",
+    "slug": "arapiraca"
+  },
+  {
+    "id": "2700409",
+    "nome": "Atalaia",
+    "uf": "AL",
+    "slug": "atalaia"
+  },
+  {
+    "id": "2700508",
+    "nome": "Barra de Santo Antônio",
+    "uf": "AL",
+    "slug": "barra-de-santo-antonio"
+  },
+  {
+    "id": "2700607",
+    "nome": "Barra de São Miguel",
+    "uf": "AL",
+    "slug": "barra-de-sao-miguel"
+  },
+  {
+    "id": "2700706",
+    "nome": "Batalha",
+    "uf": "AL",
+    "slug": "batalha"
+  },
+  {
+    "id": "2700805",
+    "nome": "Belém",
+    "uf": "AL",
+    "slug": "belem"
+  },
+  {
+    "id": "2700904",
+    "nome": "Belo Monte",
+    "uf": "AL",
+    "slug": "belo-monte"
+  },
+  {
+    "id": "2701001",
+    "nome": "Boca da Mata",
+    "uf": "AL",
+    "slug": "boca-da-mata"
+  },
+  {
+    "id": "2701100",
+    "nome": "Branquinha",
+    "uf": "AL",
+    "slug": "branquinha"
+  },
+  {
+    "id": "2701209",
+    "nome": "Cacimbinhas",
+    "uf": "AL",
+    "slug": "cacimbinhas"
+  },
+  {
+    "id": "2701308",
+    "nome": "Cajueiro",
+    "uf": "AL",
+    "slug": "cajueiro"
+  },
+  {
+    "id": "2701357",
+    "nome": "Campestre",
+    "uf": "AL",
+    "slug": "campestre"
+  },
+  {
+    "id": "2701407",
+    "nome": "Campo Alegre",
+    "uf": "AL",
+    "slug": "campo-alegre"
+  },
+  {
+    "id": "2701506",
+    "nome": "Campo Grande",
+    "uf": "AL",
+    "slug": "campo-grande"
+  },
+  {
+    "id": "2701605",
+    "nome": "Canapi",
+    "uf": "AL",
+    "slug": "canapi"
+  },
+  {
+    "id": "2701704",
+    "nome": "Capela",
+    "uf": "AL",
+    "slug": "capela"
+  },
+  {
+    "id": "2701803",
+    "nome": "Carneiros",
+    "uf": "AL",
+    "slug": "carneiros"
+  },
+  {
+    "id": "2701902",
+    "nome": "Chã Preta",
+    "uf": "AL",
+    "slug": "cha-preta"
+  },
+  {
+    "id": "2702009",
+    "nome": "Coité do Nóia",
+    "uf": "AL",
+    "slug": "coite-do-noia"
+  },
+  {
+    "id": "2702108",
+    "nome": "Colônia Leopoldina",
+    "uf": "AL",
+    "slug": "colonia-leopoldina"
+  },
+  {
+    "id": "2702207",
+    "nome": "Coqueiro Seco",
+    "uf": "AL",
+    "slug": "coqueiro-seco"
+  },
+  {
+    "id": "2702306",
+    "nome": "Coruripe",
+    "uf": "AL",
+    "slug": "coruripe"
+  },
+  {
+    "id": "2702355",
+    "nome": "Craíbas",
+    "uf": "AL",
+    "slug": "craibas"
+  },
+  {
+    "id": "2702405",
+    "nome": "Delmiro Gouveia",
+    "uf": "AL",
+    "slug": "delmiro-gouveia"
+  },
+  {
+    "id": "2702504",
+    "nome": "Dois Riachos",
+    "uf": "AL",
+    "slug": "dois-riachos"
+  },
+  {
+    "id": "2702553",
+    "nome": "Estrela de Alagoas",
+    "uf": "AL",
+    "slug": "estrela-de-alagoas"
+  },
+  {
+    "id": "2702603",
+    "nome": "Feira Grande",
+    "uf": "AL",
+    "slug": "feira-grande"
+  },
+  {
+    "id": "2702702",
+    "nome": "Feliz Deserto",
+    "uf": "AL",
+    "slug": "feliz-deserto"
+  },
+  {
+    "id": "2702801",
+    "nome": "Flexeiras",
+    "uf": "AL",
+    "slug": "flexeiras"
+  },
+  {
+    "id": "2702900",
+    "nome": "Girau do Ponciano",
+    "uf": "AL",
+    "slug": "girau-do-ponciano"
+  },
+  {
+    "id": "2703007",
+    "nome": "Ibateguara",
+    "uf": "AL",
+    "slug": "ibateguara"
+  },
+  {
+    "id": "2703106",
+    "nome": "Igaci",
+    "uf": "AL",
+    "slug": "igaci"
+  },
+  {
+    "id": "2703205",
+    "nome": "Igreja Nova",
+    "uf": "AL",
+    "slug": "igreja-nova"
+  },
+  {
+    "id": "2703304",
+    "nome": "Inhapi",
+    "uf": "AL",
+    "slug": "inhapi"
+  },
+  {
+    "id": "2703403",
+    "nome": "Jacaré dos Homens",
+    "uf": "AL",
+    "slug": "jacare-dos-homens"
+  },
+  {
+    "id": "2703502",
+    "nome": "Jacuípe",
+    "uf": "AL",
+    "slug": "jacuipe"
+  },
+  {
+    "id": "2703601",
+    "nome": "Japaratinga",
+    "uf": "AL",
+    "slug": "japaratinga"
+  },
+  {
+    "id": "2703700",
+    "nome": "Jaramataia",
+    "uf": "AL",
+    "slug": "jaramataia"
+  },
+  {
+    "id": "2703759",
+    "nome": "Jequiá da Praia",
+    "uf": "AL",
+    "slug": "jequia-da-praia"
+  },
+  {
+    "id": "2703809",
+    "nome": "Joaquim Gomes",
+    "uf": "AL",
+    "slug": "joaquim-gomes"
+  },
+  {
+    "id": "2703908",
+    "nome": "Jundiá",
+    "uf": "AL",
+    "slug": "jundia"
+  },
+  {
+    "id": "2704005",
+    "nome": "Junqueiro",
+    "uf": "AL",
+    "slug": "junqueiro"
+  },
+  {
+    "id": "2704104",
+    "nome": "Lagoa da Canoa",
+    "uf": "AL",
+    "slug": "lagoa-da-canoa"
+  },
+  {
+    "id": "2704203",
+    "nome": "Limoeiro de Anadia",
+    "uf": "AL",
+    "slug": "limoeiro-de-anadia"
+  },
+  {
+    "id": "2704302",
+    "nome": "Maceió",
+    "uf": "AL",
+    "slug": "maceio"
+  },
+  {
+    "id": "2704401",
+    "nome": "Major Isidoro",
+    "uf": "AL",
+    "slug": "major-isidoro"
+  },
+  {
+    "id": "2704906",
+    "nome": "Mar Vermelho",
+    "uf": "AL",
+    "slug": "mar-vermelho"
+  },
+  {
+    "id": "2704500",
+    "nome": "Maragogi",
+    "uf": "AL",
+    "slug": "maragogi"
+  },
+  {
+    "id": "2704609",
+    "nome": "Maravilha",
+    "uf": "AL",
+    "slug": "maravilha"
+  },
+  {
+    "id": "2704708",
+    "nome": "Marechal Deodoro",
+    "uf": "AL",
+    "slug": "marechal-deodoro"
+  },
+  {
+    "id": "2704807",
+    "nome": "Maribondo",
+    "uf": "AL",
+    "slug": "maribondo"
+  },
+  {
+    "id": "2705002",
+    "nome": "Mata Grande",
+    "uf": "AL",
+    "slug": "mata-grande"
+  },
+  {
+    "id": "2705101",
+    "nome": "Matriz de Camaragibe",
+    "uf": "AL",
+    "slug": "matriz-de-camaragibe"
+  },
+  {
+    "id": "2705200",
+    "nome": "Messias",
+    "uf": "AL",
+    "slug": "messias"
+  },
+  {
+    "id": "2705309",
+    "nome": "Minador do Negrão",
+    "uf": "AL",
+    "slug": "minador-do-negrao"
+  },
+  {
+    "id": "2705408",
+    "nome": "Monteirópolis",
+    "uf": "AL",
+    "slug": "monteiropolis"
+  },
+  {
+    "id": "2705507",
+    "nome": "Murici",
+    "uf": "AL",
+    "slug": "murici"
+  },
+  {
+    "id": "2705606",
+    "nome": "Novo Lino",
+    "uf": "AL",
+    "slug": "novo-lino"
+  },
+  {
+    "id": "2705705",
+    "nome": "Olho d'Água das Flores",
+    "uf": "AL",
+    "slug": "olho-d'agua-das-flores"
+  },
+  {
+    "id": "2705804",
+    "nome": "Olho d'Água do Casado",
+    "uf": "AL",
+    "slug": "olho-d'agua-do-casado"
+  },
+  {
+    "id": "2705903",
+    "nome": "Olho d'Água Grande",
+    "uf": "AL",
+    "slug": "olho-d'agua-grande"
+  },
+  {
+    "id": "2706000",
+    "nome": "Olivença",
+    "uf": "AL",
+    "slug": "olivenca"
+  },
+  {
+    "id": "2706109",
+    "nome": "Ouro Branco",
+    "uf": "AL",
+    "slug": "ouro-branco"
+  },
+  {
+    "id": "2706208",
+    "nome": "Palestina",
+    "uf": "AL",
+    "slug": "palestina"
+  },
+  {
+    "id": "2706307",
+    "nome": "Palmeira dos Índios",
+    "uf": "AL",
+    "slug": "palmeira-dos-indios"
+  },
+  {
+    "id": "2706406",
+    "nome": "Pão de Açúcar",
+    "uf": "AL",
+    "slug": "pao-de-acucar"
+  },
+  {
+    "id": "2706422",
+    "nome": "Pariconha",
+    "uf": "AL",
+    "slug": "pariconha"
+  },
+  {
+    "id": "2706448",
+    "nome": "Paripueira",
+    "uf": "AL",
+    "slug": "paripueira"
+  },
+  {
+    "id": "2706505",
+    "nome": "Passo de Camaragibe",
+    "uf": "AL",
+    "slug": "passo-de-camaragibe"
+  },
+  {
+    "id": "2706604",
+    "nome": "Paulo Jacinto",
+    "uf": "AL",
+    "slug": "paulo-jacinto"
+  },
+  {
+    "id": "2706703",
+    "nome": "Penedo",
+    "uf": "AL",
+    "slug": "penedo"
+  },
+  {
+    "id": "2706802",
+    "nome": "Piaçabuçu",
+    "uf": "AL",
+    "slug": "piacabucu"
+  },
+  {
+    "id": "2706901",
+    "nome": "Pilar",
+    "uf": "AL",
+    "slug": "pilar"
+  },
+  {
+    "id": "2707008",
+    "nome": "Pindoba",
+    "uf": "AL",
+    "slug": "pindoba"
+  },
+  {
+    "id": "2707107",
+    "nome": "Piranhas",
+    "uf": "AL",
+    "slug": "piranhas"
+  },
+  {
+    "id": "2707206",
+    "nome": "Poço das Trincheiras",
+    "uf": "AL",
+    "slug": "poco-das-trincheiras"
+  },
+  {
+    "id": "2707305",
+    "nome": "Porto Calvo",
+    "uf": "AL",
+    "slug": "porto-calvo"
+  },
+  {
+    "id": "2707404",
+    "nome": "Porto de Pedras",
+    "uf": "AL",
+    "slug": "porto-de-pedras"
+  },
+  {
+    "id": "2707503",
+    "nome": "Porto Real do Colégio",
+    "uf": "AL",
+    "slug": "porto-real-do-colegio"
+  },
+  {
+    "id": "2707602",
+    "nome": "Quebrangulo",
+    "uf": "AL",
+    "slug": "quebrangulo"
+  },
+  {
+    "id": "2707701",
+    "nome": "Rio Largo",
+    "uf": "AL",
+    "slug": "rio-largo"
+  },
+  {
+    "id": "2707800",
+    "nome": "Roteiro",
+    "uf": "AL",
+    "slug": "roteiro"
+  },
+  {
+    "id": "2707909",
+    "nome": "Santa Luzia do Norte",
+    "uf": "AL",
+    "slug": "santa-luzia-do-norte"
+  },
+  {
+    "id": "2708006",
+    "nome": "Santana do Ipanema",
+    "uf": "AL",
+    "slug": "santana-do-ipanema"
+  },
+  {
+    "id": "2708105",
+    "nome": "Santana do Mundaú",
+    "uf": "AL",
+    "slug": "santana-do-mundau"
+  },
+  {
+    "id": "2708204",
+    "nome": "São Brás",
+    "uf": "AL",
+    "slug": "sao-bras"
+  },
+  {
+    "id": "2708303",
+    "nome": "São José da Laje",
+    "uf": "AL",
+    "slug": "sao-jose-da-laje"
+  },
+  {
+    "id": "2708402",
+    "nome": "São José da Tapera",
+    "uf": "AL",
+    "slug": "sao-jose-da-tapera"
+  },
+  {
+    "id": "2708501",
+    "nome": "São Luís do Quitunde",
+    "uf": "AL",
+    "slug": "sao-luis-do-quitunde"
+  },
+  {
+    "id": "2708600",
+    "nome": "São Miguel dos Campos",
+    "uf": "AL",
+    "slug": "sao-miguel-dos-campos"
+  },
+  {
+    "id": "2708709",
+    "nome": "São Miguel dos Milagres",
+    "uf": "AL",
+    "slug": "sao-miguel-dos-milagres"
+  },
+  {
+    "id": "2708808",
+    "nome": "São Sebastião",
+    "uf": "AL",
+    "slug": "sao-sebastiao"
+  },
+  {
+    "id": "2708907",
+    "nome": "Satuba",
+    "uf": "AL",
+    "slug": "satuba"
+  },
+  {
+    "id": "2708956",
+    "nome": "Senador Rui Palmeira",
+    "uf": "AL",
+    "slug": "senador-rui-palmeira"
+  },
+  {
+    "id": "2709004",
+    "nome": "Tanque d'Arca",
+    "uf": "AL",
+    "slug": "tanque-d'arca"
+  },
+  {
+    "id": "2709103",
+    "nome": "Taquarana",
+    "uf": "AL",
+    "slug": "taquarana"
+  },
+  {
+    "id": "2709152",
+    "nome": "Teotônio Vilela",
+    "uf": "AL",
+    "slug": "teotonio-vilela"
+  },
+  {
+    "id": "2709202",
+    "nome": "Traipu",
+    "uf": "AL",
+    "slug": "traipu"
+  },
+  {
+    "id": "2709301",
+    "nome": "União dos Palmares",
+    "uf": "AL",
+    "slug": "uniao-dos-palmares"
+  },
+  {
+    "id": "2709400",
+    "nome": "Viçosa",
+    "uf": "AL",
+    "slug": "vicosa"
+  }
+]

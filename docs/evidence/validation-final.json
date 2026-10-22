@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "sql": 454,
+  "unit": 33,
+  "http_regressions": 55,
+  "playwright": 35,
+  "ssr_suites": 5,
+  "typecheck": "passed",
+  "lint": "passed",
+  "format": "passed",
+  "env_contract": "passed",
+  "secret_scan": "passed",
+  "rollbacks": "passed_disposable_only",
+  "npm_audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "lighthouse_before": {
+    "label": "before",
+    "date": "2026-10-22T09:36:47.739Z",
+    "url": "http://127.0.0.1:5180/guia",
+    "lighthouse": "13.5.0",
+    "performance": 60,
+    "accessibility": 100,
+    "seo": 100,
+    "lcpMs": 6959.735541679676
+  },
+  "lighthouse_after": {
+    "label": "after",
+    "date": "2026-10-22T09:56:31.753Z",
+    "url": "http://127.0.0.1:5180/guia",
+    "lighthouse": "13.5.0",
+    "performance": 96,
+    "accessibility": 100,
+    "seo": 100,
+    "lcpMs": 2207.0416999999998
+  },
+  "preview_snapshot": "1792663241097",
+  "production_deployed": false,
+  "external_credentials": "blocked"
+}

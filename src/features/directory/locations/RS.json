@@ -1,0 +1,2984 @@
+[
+  {
+    "id": "4300034",
+    "nome": "Aceguá",
+    "uf": "RS",
+    "slug": "acegua"
+  },
+  {
+    "id": "4300059",
+    "nome": "Água Santa",
+    "uf": "RS",
+    "slug": "agua-santa"
+  },
+  {
+    "id": "4300109",
+    "nome": "Agudo",
+    "uf": "RS",
+    "slug": "agudo"
+  },
+  {
+    "id": "4300208",
+    "nome": "Ajuricaba",
+    "uf": "RS",
+    "slug": "ajuricaba"
+  },
+  {
+    "id": "4300307",
+    "nome": "Alecrim",
+    "uf": "RS",
+    "slug": "alecrim"
+  },
+  {
+    "id": "4300406",
+    "nome": "Alegrete",
+    "uf": "RS",
+    "slug": "alegrete"
+  },
+  {
+    "id": "4300455",
+    "nome": "Alegria",
+    "uf": "RS",
+    "slug": "alegria"
+  },
+  {
+    "id": "4300471",
+    "nome": "Almirante Tamandaré do Sul",
+    "uf": "RS",
+    "slug": "almirante-tamandare-do-sul"
+  },
+  {
+    "id": "4300505",
+    "nome": "Alpestre",
+    "uf": "RS",
+    "slug": "alpestre"
+  },
+  {
+    "id": "4300554",
+    "nome": "Alto Alegre",
+    "uf": "RS",
+    "slug": "alto-alegre"
+  },
+  {
+    "id": "4300570",
+    "nome": "Alto Feliz",
+    "uf": "RS",
+    "slug": "alto-feliz"
+  },
+  {
+    "id": "4300604",
+    "nome": "Alvorada",
+    "uf": "RS",
+    "slug": "alvorada"
+  },
+  {
+    "id": "4300638",
+    "nome": "Amaral Ferrador",
+    "uf": "RS",
+    "slug": "amaral-ferrador"
+  },
+  {
+    "id": "4300646",
+    "nome": "Ametista do Sul",
+    "uf": "RS",
+    "slug": "ametista-do-sul"
+  },
+  {
+    "id": "4300661",
+    "nome": "André da Rocha",
+    "uf": "RS",
+    "slug": "andre-da-rocha"
+  },
+  {
+    "id": "4300703",
+    "nome": "Anta Gorda",
+    "uf": "RS",
+    "slug": "anta-gorda"
+  },
+  {
+    "id": "4300802",
+    "nome": "Antônio Prado",
+    "uf": "RS",
+    "slug": "antonio-prado"
+  },
+  {
+    "id": "4300851",
+    "nome": "Arambaré",
+    "uf": "RS",
+    "slug": "arambare"
+  },
+  {
+    "id": "4300877",
+    "nome": "Araricá",
+    "uf": "RS",
+    "slug": "ararica"
+  },
+  {
+    "id": "4300901",
+    "nome": "Aratiba",
+    "uf": "RS",
+    "slug": "aratiba"
+  },
+  {
+    "id": "4301008",
+    "nome": "Arroio do Meio",
+    "uf": "RS",
+    "slug": "arroio-do-meio"
+  },
+  {
+    "id": "4301073",
+    "nome": "Arroio do Padre",
+    "uf": "RS",
+    "slug": "arroio-do-padre"
+  },
+  {
+    "id": "4301057",
+    "nome": "Arroio do Sal",
+    "uf": "RS",
+    "slug": "arroio-do-sal"
+  },
+  {
+    "id": "4301206",
+    "nome": "Arroio do Tigre",
+    "uf": "RS",
+    "slug": "arroio-do-tigre"
+  },
+  {
+    "id": "4301107",
+    "nome": "Arroio dos Ratos",
+    "uf": "RS",
+    "slug": "arroio-dos-ratos"
+  },
+  {
+    "id": "4301305",
+    "nome": "Arroio Grande",
+    "uf": "RS",
+    "slug": "arroio-grande"
+  },
+  {
+    "id": "4301404",
+    "nome": "Arvorezinha",
+    "uf": "RS",
+    "slug": "arvorezinha"
+  },
+  {
+    "id": "4301503",
+    "nome": "Augusto Pestana",
+    "uf": "RS",
+    "slug": "augusto-pestana"
+  },
+  {
+    "id": "4301552",
+    "nome": "Áurea",
+    "uf": "RS",
+    "slug": "aurea"
+  },
+  {
+    "id": "4301602",
+    "nome": "Bagé",
+    "uf": "RS",
+    "slug": "bage"
+  },
+  {
+    "id": "4301636",
+    "nome": "Balneário Pinhal",
+    "uf": "RS",
+    "slug": "balneario-pinhal"
+  },
+  {
+    "id": "4301651",
+    "nome": "Barão",
+    "uf": "RS",
+    "slug": "barao"
+  },
+  {
+    "id": "4301701",
+    "nome": "Barão de Cotegipe",
+    "uf": "RS",
+    "slug": "barao-de-cotegipe"
+  },
+  {
+    "id": "4301750",
+    "nome": "Barão do Triunfo",
+    "uf": "RS",
+    "slug": "barao-do-triunfo"
+  },
+  {
+    "id": "4301859",
+    "nome": "Barra do Guarita",
+    "uf": "RS",
+    "slug": "barra-do-guarita"
+  },
+  {
+    "id": "4301875",
+    "nome": "Barra do Quaraí",
+    "uf": "RS",
+    "slug": "barra-do-quarai"
+  },
+  {
+    "id": "4301909",
+    "nome": "Barra do Ribeiro",
+    "uf": "RS",
+    "slug": "barra-do-ribeiro"
+  },
+  {
+    "id": "4301925",
+    "nome": "Barra do Rio Azul",
+    "uf": "RS",
+    "slug": "barra-do-rio-azul"
+  },
+  {
+    "id": "4301958",
+    "nome": "Barra Funda",
+    "uf": "RS",
+    "slug": "barra-funda"
+  },
+  {
+    "id": "4301800",
+    "nome": "Barracão",
+    "uf": "RS",
+    "slug": "barracao"
+  },
+  {
+    "id": "4302006",
+    "nome": "Barros Cassal",
+    "uf": "RS",
+    "slug": "barros-cassal"
+  },
+  {
+    "id": "4302055",
+    "nome": "Benjamin Constant do Sul",
+    "uf": "RS",
+    "slug": "benjamin-constant-do-sul"
+  },
+  {
+    "id": "4302105",
+    "nome": "Bento Gonçalves",
+    "uf": "RS",
+    "slug": "bento-goncalves"
+  },
+  {
+    "id": "4302154",
+    "nome": "Boa Vista das Missões",
+    "uf": "RS",
+    "slug": "boa-vista-das-missoes"
+  },
+  {
+    "id": "4302204",
+    "nome": "Boa Vista do Buricá",
+    "uf": "RS",
+    "slug": "boa-vista-do-burica"
+  },
+  {
+    "id": "4302220",
+    "nome": "Boa Vista do Cadeado",
+    "uf": "RS",
+    "slug": "boa-vista-do-cadeado"
+  },
+  {
+    "id": "4302238",
+    "nome": "Boa Vista do Incra",
+    "uf": "RS",
+    "slug": "boa-vista-do-incra"
+  },
+  {
+    "id": "4302253",
+    "nome": "Boa Vista do Sul",
+    "uf": "RS",
+    "slug": "boa-vista-do-sul"
+  },
+  {
+    "id": "4302303",
+    "nome": "Bom Jesus",
+    "uf": "RS",
+    "slug": "bom-jesus"
+  },
+  {
+    "id": "4302352",
+    "nome": "Bom Princípio",
+    "uf": "RS",
+    "slug": "bom-principio"
+  },
+  {
+    "id": "4302378",
+    "nome": "Bom Progresso",
+    "uf": "RS",
+    "slug": "bom-progresso"
+  },
+  {
+    "id": "4302402",
+    "nome": "Bom Retiro do Sul",
+    "uf": "RS",
+    "slug": "bom-retiro-do-sul"
+  },
+  {
+    "id": "4302451",
+    "nome": "Boqueirão do Leão",
+    "uf": "RS",
+    "slug": "boqueirao-do-leao"
+  },
+  {
+    "id": "4302501",
+    "nome": "Bossoroca",
+    "uf": "RS",
+    "slug": "bossoroca"
+  },
+  {
+    "id": "4302584",
+    "nome": "Bozano",
+    "uf": "RS",
+    "slug": "bozano"
+  },
+  {
+    "id": "4302600",
+    "nome": "Braga",
+    "uf": "RS",
+    "slug": "braga"
+  },
+  {
+    "id": "4302659",
+    "nome": "Brochier",
+    "uf": "RS",
+    "slug": "brochier"
+  },
+  {
+    "id": "4302709",
+    "nome": "Butiá",
+    "uf": "RS",
+    "slug": "butia"
+  },
+  {
+    "id": "4302808",
+    "nome": "Caçapava do Sul",
+    "uf": "RS",
+    "slug": "cacapava-do-sul"
+  },
+  {
+    "id": "4302907",
+    "nome": "Cacequi",
+    "uf": "RS",
+    "slug": "cacequi"
+  },
+  {
+    "id": "4303004",
+    "nome": "Cachoeira do Sul",
+    "uf": "RS",
+    "slug": "cachoeira-do-sul"
+  },
+  {
+    "id": "4303103",
+    "nome": "Cachoeirinha",
+    "uf": "RS",
+    "slug": "cachoeirinha"
+  },
+  {
+    "id": "4303202",
+    "nome": "Cacique Doble",
+    "uf": "RS",
+    "slug": "cacique-doble"
+  },
+  {
+    "id": "4303301",
+    "nome": "Caibaté",
+    "uf": "RS",
+    "slug": "caibate"
+  },
+  {
+    "id": "4303400",
+    "nome": "Caiçara",
+    "uf": "RS",
+    "slug": "caicara"
+  },
+  {
+    "id": "4303509",
+    "nome": "Camaquã",
+    "uf": "RS",
+    "slug": "camaqua"
+  },
+  {
+    "id": "4303558",
+    "nome": "Camargo",
+    "uf": "RS",
+    "slug": "camargo"
+  },
+  {
+    "id": "4303608",
+    "nome": "Cambará do Sul",
+    "uf": "RS",
+    "slug": "cambara-do-sul"
+  },
+  {
+    "id": "4303673",
+    "nome": "Campestre da Serra",
+    "uf": "RS",
+    "slug": "campestre-da-serra"
+  },
+  {
+    "id": "4303707",
+    "nome": "Campina das Missões",
+    "uf": "RS",
+    "slug": "campina-das-missoes"
+  },
+  {
+    "id": "4303806",
+    "nome": "Campinas do Sul",
+    "uf": "RS",
+    "slug": "campinas-do-sul"
+  },
+  {
+    "id": "4303905",
+    "nome": "Campo Bom",
+    "uf": "RS",
+    "slug": "campo-bom"
+  },
+  {
+    "id": "4304002",
+    "nome": "Campo Novo",
+    "uf": "RS",
+    "slug": "campo-novo"
+  },
+  {
+    "id": "4304101",
+    "nome": "Campos Borges",
+    "uf": "RS",
+    "slug": "campos-borges"
+  },
+  {
+    "id": "4304200",
+    "nome": "Candelária",
+    "uf": "RS",
+    "slug": "candelaria"
+  },
+  {
+    "id": "4304309",
+    "nome": "Cândido Godói",
+    "uf": "RS",
+    "slug": "candido-godoi"
+  },
+  {
+    "id": "4304358",
+    "nome": "Candiota",
+    "uf": "RS",
+    "slug": "candiota"
+  },
+  {
+    "id": "4304408",
+    "nome": "Canela",
+    "uf": "RS",
+    "slug": "canela"
+  },
+  {
+    "id": "4304507",
+    "nome": "Canguçu",
+    "uf": "RS",
+    "slug": "cangucu"
+  },
+  {
+    "id": "4304606",
+    "nome": "Canoas",
+    "uf": "RS",
+    "slug": "canoas"
+  },
+  {
+    "id": "4304614",
+    "nome": "Canudos do Vale",
+    "uf": "RS",
+    "slug": "canudos-do-vale"
+  },
+  {
+    "id": "4304622",
+    "nome": "Capão Bonito do Sul",
+    "uf": "RS",
+    "slug": "capao-bonito-do-sul"
+  },
+  {
+    "id": "4304630",
+    "nome": "Capão da Canoa",
+    "uf": "RS",
+    "slug": "capao-da-canoa"
+  },
+  {
+    "id": "4304655",
+    "nome": "Capão do Cipó",
+    "uf": "RS",
+    "slug": "capao-do-cipo"
+  },
+  {
+    "id": "4304663",
+    "nome": "Capão do Leão",
+    "uf": "RS",
+    "slug": "capao-do-leao"
+  },
+  {
+    "id": "4304689",
+    "nome": "Capela de Santana",
+    "uf": "RS",
+    "slug": "capela-de-santana"
+  },
+  {
+    "id": "4304697",
+    "nome": "Capitão",
+    "uf": "RS",
+    "slug": "capitao"
+  },
+  {
+    "id": "4304671",
+    "nome": "Capivari do Sul",
+    "uf": "RS",
+    "slug": "capivari-do-sul"
+  },
+  {
+    "id": "4304713",
+    "nome": "Caraá",
+    "uf": "RS",
+    "slug": "caraa"
+  },
+  {
+    "id": "4304705",
+    "nome": "Carazinho",
+    "uf": "RS",
+    "slug": "carazinho"
+  },
+  {
+    "id": "4304804",
+    "nome": "Carlos Barbosa",
+    "uf": "RS",
+    "slug": "carlos-barbosa"
+  },
+  {
+    "id": "4304853",
+    "nome": "Carlos Gomes",
+    "uf": "RS",
+    "slug": "carlos-gomes"
+  },
+  {
+    "id": "4304903",
+    "nome": "Casca",
+    "uf": "RS",
+    "slug": "casca"
+  },
+  {
+    "id": "4304952",
+    "nome": "Caseiros",
+    "uf": "RS",
+    "slug": "caseiros"
+  },
+  {
+    "id": "4305009",
+    "nome": "Catuípe",
+    "uf": "RS",
+    "slug": "catuipe"
+  },
+  {
+    "id": "4305108",
+    "nome": "Caxias do Sul",
+    "uf": "RS",
+    "slug": "caxias-do-sul"
+  },
+  {
+    "id": "4305116",
+    "nome": "Centenário",
+    "uf": "RS",
+    "slug": "centenario"
+  },
+  {
+    "id": "4305124",
+    "nome": "Cerrito",
+    "uf": "RS",
+    "slug": "cerrito"
+  },
+  {
+    "id": "4305132",
+    "nome": "Cerro Branco",
+    "uf": "RS",
+    "slug": "cerro-branco"
+  },
+  {
+    "id": "4305157",
+    "nome": "Cerro Grande",
+    "uf": "RS",
+    "slug": "cerro-grande"
+  },
+  {
+    "id": "4305173",
+    "nome": "Cerro Grande do Sul",
+    "uf": "RS",
+    "slug": "cerro-grande-do-sul"
+  },
+  {
+    "id": "4305207",
+    "nome": "Cerro Largo",
+    "uf": "RS",
+    "slug": "cerro-largo"
+  },
+  {
+    "id": "4305306",
+    "nome": "Chapada",
+    "uf": "RS",
+    "slug": "chapada"
+  },
+  {
+    "id": "4305355",
+    "nome": "Charqueadas",
+    "uf": "RS",
+    "slug": "charqueadas"
+  },
+  {
+    "id": "4305371",
+    "nome": "Charrua",
+    "uf": "RS",
+    "slug": "charrua"
+  },
+  {
+    "id": "4305405",
+    "nome": "Chiapetta",
+    "uf": "RS",
+    "slug": "chiapetta"
+  },
+  {
+    "id": "4305439",
+    "nome": "Chuí",
+    "uf": "RS",
+    "slug": "chui"
+  },
+  {
+    "id": "4305447",
+    "nome": "Chuvisca",
+    "uf": "RS",
+    "slug": "chuvisca"
+  },
+  {
+    "id": "4305454",
+    "nome": "Cidreira",
+    "uf": "RS",
+    "slug": "cidreira"
+  },
+  {
+    "id": "4305504",
+    "nome": "Ciríaco",
+    "uf": "RS",
+    "slug": "ciriaco"
+  },
+  {
+    "id": "4305587",
+    "nome": "Colinas",
+    "uf": "RS",
+    "slug": "colinas"
+  },
+  {
+    "id": "4305603",
+    "nome": "Colorado",
+    "uf": "RS",
+    "slug": "colorado"
+  },
+  {
+    "id": "4305702",
+    "nome": "Condor",
+    "uf": "RS",
+    "slug": "condor"
+  },
+  {
+    "id": "4305801",
+    "nome": "Constantina",
+    "uf": "RS",
+    "slug": "constantina"
+  },
+  {
+    "id": "4305835",
+    "nome": "Coqueiro Baixo",
+    "uf": "RS",
+    "slug": "coqueiro-baixo"
+  },
+  {
+    "id": "4305850",
+    "nome": "Coqueiros do Sul",
+    "uf": "RS",
+    "slug": "coqueiros-do-sul"
+  },
+  {
+    "id": "4305871",
+    "nome": "Coronel Barros",
+    "uf": "RS",
+    "slug": "coronel-barros"
+  },
+  {
+    "id": "4305900",
+    "nome": "Coronel Bicaco",
+    "uf": "RS",
+    "slug": "coronel-bicaco"
+  },
+  {
+    "id": "4305934",
+    "nome": "Coronel Pilar",
+    "uf": "RS",
+    "slug": "coronel-pilar"
+  },
+  {
+    "id": "4305959",
+    "nome": "Cotiporã",
+    "uf": "RS",
+    "slug": "cotipora"
+  },
+  {
+    "id": "4305975",
+    "nome": "Coxilha",
+    "uf": "RS",
+    "slug": "coxilha"
+  },
+  {
+    "id": "4306007",
+    "nome": "Crissiumal",
+    "uf": "RS",
+    "slug": "crissiumal"
+  },
+  {
+    "id": "4306056",
+    "nome": "Cristal",
+    "uf": "RS",
+    "slug": "cristal"
+  },
+  {
+    "id": "4306072",
+    "nome": "Cristal do Sul",
+    "uf": "RS",
+    "slug": "cristal-do-sul"
+  },
+  {
+    "id": "4306106",
+    "nome": "Cruz Alta",
+    "uf": "RS",
+    "slug": "cruz-alta"
+  },
+  {
+    "id": "4306130",
+    "nome": "Cruzaltense",
+    "uf": "RS",
+    "slug": "cruzaltense"
+  },
+  {
+    "id": "4306205",
+    "nome": "Cruzeiro do Sul",
+    "uf": "RS",
+    "slug": "cruzeiro-do-sul"
+  },
+  {
+    "id": "4306304",
+    "nome": "David Canabarro",
+    "uf": "RS",
+    "slug": "david-canabarro"
+  },
+  {
+    "id": "4306320",
+    "nome": "Derrubadas",
+    "uf": "RS",
+    "slug": "derrubadas"
+  },
+  {
+    "id": "4306353",
+    "nome": "Dezesseis de Novembro",
+    "uf": "RS",
+    "slug": "dezesseis-de-novembro"
+  },
+  {
+    "id": "4306379",
+    "nome": "Dilermando de Aguiar",
+    "uf": "RS",
+    "slug": "dilermando-de-aguiar"
+  },
+  {
+    "id": "4306403",
+    "nome": "Dois Irmãos",
+    "uf": "RS",
+    "slug": "dois-irmaos"
+  },
+  {
+    "id": "4306429",
+    "nome": "Dois Irmãos das Missões",
+    "uf": "RS",
+    "slug": "dois-irmaos-das-missoes"
+  },
+  {
+    "id": "4306452",
+    "nome": "Dois Lajeados",
+    "uf": "RS",
+    "slug": "dois-lajeados"
+  },
+  {
+    "id": "4306502",
+    "nome": "Dom Feliciano",
+    "uf": "RS",
+    "slug": "dom-feliciano"
+  },
+  {
+    "id": "4306601",
+    "nome": "Dom Pedrito",
+    "uf": "RS",
+    "slug": "dom-pedrito"
+  },
+  {
+    "id": "4306551",
+    "nome": "Dom Pedro de Alcântara",
+    "uf": "RS",
+    "slug": "dom-pedro-de-alcantara"
+  },
+  {
+    "id": "4306700",
+    "nome": "Dona Francisca",
+    "uf": "RS",
+    "slug": "dona-francisca"
+  },
+  {
+    "id": "4306734",
+    "nome": "Doutor Maurício Cardoso",
+    "uf": "RS",
+    "slug": "doutor-mauricio-cardoso"
+  },
+  {
+    "id": "4306759",
+    "nome": "Doutor Ricardo",
+    "uf": "RS",
+    "slug": "doutor-ricardo"
+  },
+  {
+    "id": "4306767",
+    "nome": "Eldorado do Sul",
+    "uf": "RS",
+    "slug": "eldorado-do-sul"
+  },
+  {
+    "id": "4306809",
+    "nome": "Encantado",
+    "uf": "RS",
+    "slug": "encantado"
+  },
+  {
+    "id": "4306908",
+    "nome": "Encruzilhada do Sul",
+    "uf": "RS",
+    "slug": "encruzilhada-do-sul"
+  },
+  {
+    "id": "4306924",
+    "nome": "Engenho Velho",
+    "uf": "RS",
+    "slug": "engenho-velho"
+  },
+  {
+    "id": "4306932",
+    "nome": "Entre-Ijuís",
+    "uf": "RS",
+    "slug": "entre-ijuis"
+  },
+  {
+    "id": "4306957",
+    "nome": "Entre Rios do Sul",
+    "uf": "RS",
+    "slug": "entre-rios-do-sul"
+  },
+  {
+    "id": "4306973",
+    "nome": "Erebango",
+    "uf": "RS",
+    "slug": "erebango"
+  },
+  {
+    "id": "4307005",
+    "nome": "Erechim",
+    "uf": "RS",
+    "slug": "erechim"
+  },
+  {
+    "id": "4307054",
+    "nome": "Ernestina",
+    "uf": "RS",
+    "slug": "ernestina"
+  },
+  {
+    "id": "4307203",
+    "nome": "Erval Grande",
+    "uf": "RS",
+    "slug": "erval-grande"
+  },
+  {
+    "id": "4307302",
+    "nome": "Erval Seco",
+    "uf": "RS",
+    "slug": "erval-seco"
+  },
+  {
+    "id": "4307401",
+    "nome": "Esmeralda",
+    "uf": "RS",
+    "slug": "esmeralda"
+  },
+  {
+    "id": "4307450",
+    "nome": "Esperança do Sul",
+    "uf": "RS",
+    "slug": "esperanca-do-sul"
+  },
+  {
+    "id": "4307500",
+    "nome": "Espumoso",
+    "uf": "RS",
+    "slug": "espumoso"
+  },
+  {
+    "id": "4307559",
+    "nome": "Estação",
+    "uf": "RS",
+    "slug": "estacao"
+  },
+  {
+    "id": "4307609",
+    "nome": "Estância Velha",
+    "uf": "RS",
+    "slug": "estancia-velha"
+  },
+  {
+    "id": "4307708",
+    "nome": "Esteio",
+    "uf": "RS",
+    "slug": "esteio"
+  },
+  {
+    "id": "4307807",
+    "nome": "Estrela",
+    "uf": "RS",
+    "slug": "estrela"
+  },
+  {
+    "id": "4307815",
+    "nome": "Estrela Velha",
+    "uf": "RS",
+    "slug": "estrela-velha"
+  },
+  {
+    "id": "4307831",
+    "nome": "Eugênio de Castro",
+    "uf": "RS",
+    "slug": "eugenio-de-castro"
+  },
+  {
+    "id": "4307864",
+    "nome": "Fagundes Varela",
+    "uf": "RS",
+    "slug": "fagundes-varela"
+  },
+  {
+    "id": "4307906",
+    "nome": "Farroupilha",
+    "uf": "RS",
+    "slug": "farroupilha"
+  },
+  {
+    "id": "4308003",
+    "nome": "Faxinal do Soturno",
+    "uf": "RS",
+    "slug": "faxinal-do-soturno"
+  },
+  {
+    "id": "4308052",
+    "nome": "Faxinalzinho",
+    "uf": "RS",
+    "slug": "faxinalzinho"
+  },
+  {
+    "id": "4308078",
+    "nome": "Fazenda Vilanova",
+    "uf": "RS",
+    "slug": "fazenda-vilanova"
+  },
+  {
+    "id": "4308102",
+    "nome": "Feliz",
+    "uf": "RS",
+    "slug": "feliz"
+  },
+  {
+    "id": "4308201",
+    "nome": "Flores da Cunha",
+    "uf": "RS",
+    "slug": "flores-da-cunha"
+  },
+  {
+    "id": "4308250",
+    "nome": "Floriano Peixoto",
+    "uf": "RS",
+    "slug": "floriano-peixoto"
+  },
+  {
+    "id": "4308300",
+    "nome": "Fontoura Xavier",
+    "uf": "RS",
+    "slug": "fontoura-xavier"
+  },
+  {
+    "id": "4308409",
+    "nome": "Formigueiro",
+    "uf": "RS",
+    "slug": "formigueiro"
+  },
+  {
+    "id": "4308433",
+    "nome": "Forquetinha",
+    "uf": "RS",
+    "slug": "forquetinha"
+  },
+  {
+    "id": "4308458",
+    "nome": "Fortaleza dos Valos",
+    "uf": "RS",
+    "slug": "fortaleza-dos-valos"
+  },
+  {
+    "id": "4308508",
+    "nome": "Frederico Westphalen",
+    "uf": "RS",
+    "slug": "frederico-westphalen"
+  },
+  {
+    "id": "4308607",
+    "nome": "Garibaldi",
+    "uf": "RS",
+    "slug": "garibaldi"
+  },
+  {
+    "id": "4308656",
+    "nome": "Garruchos",
+    "uf": "RS",
+    "slug": "garruchos"
+  },
+  {
+    "id": "4308706",
+    "nome": "Gaurama",
+    "uf": "RS",
+    "slug": "gaurama"
+  },
+  {
+    "id": "4308805",
+    "nome": "General Câmara",
+    "uf": "RS",
+    "slug": "general-camara"
+  },
+  {
+    "id": "4308854",
+    "nome": "Gentil",
+    "uf": "RS",
+    "slug": "gentil"
+  },
+  {
+    "id": "4308904",
+    "nome": "Getúlio Vargas",
+    "uf": "RS",
+    "slug": "getulio-vargas"
+  },
+  {
+    "id": "4309001",
+    "nome": "Giruá",
+    "uf": "RS",
+    "slug": "girua"
+  },
+  {
+    "id": "4309050",
+    "nome": "Glorinha",
+    "uf": "RS",
+    "slug": "glorinha"
+  },
+  {
+    "id": "4309100",
+    "nome": "Gramado",
+    "uf": "RS",
+    "slug": "gramado"
+  },
+  {
+    "id": "4309126",
+    "nome": "Gramado dos Loureiros",
+    "uf": "RS",
+    "slug": "gramado-dos-loureiros"
+  },
+  {
+    "id": "4309159",
+    "nome": "Gramado Xavier",
+    "uf": "RS",
+    "slug": "gramado-xavier"
+  },
+  {
+    "id": "4309209",
+    "nome": "Gravataí",
+    "uf": "RS",
+    "slug": "gravatai"
+  },
+  {
+    "id": "4309258",
+    "nome": "Guabiju",
+    "uf": "RS",
+    "slug": "guabiju"
+  },
+  {
+    "id": "4309308",
+    "nome": "Guaíba",
+    "uf": "RS",
+    "slug": "guaiba"
+  },
+  {
+    "id": "4309407",
+    "nome": "Guaporé",
+    "uf": "RS",
+    "slug": "guapore"
+  },
+  {
+    "id": "4309506",
+    "nome": "Guarani das Missões",
+    "uf": "RS",
+    "slug": "guarani-das-missoes"
+  },
+  {
+    "id": "4309555",
+    "nome": "Harmonia",
+    "uf": "RS",
+    "slug": "harmonia"
+  },
+  {
+    "id": "4307104",
+    "nome": "Herval",
+    "uf": "RS",
+    "slug": "herval"
+  },
+  {
+    "id": "4309571",
+    "nome": "Herveiras",
+    "uf": "RS",
+    "slug": "herveiras"
+  },
+  {
+    "id": "4309605",
+    "nome": "Horizontina",
+    "uf": "RS",
+    "slug": "horizontina"
+  },
+  {
+    "id": "4309654",
+    "nome": "Hulha Negra",
+    "uf": "RS",
+    "slug": "hulha-negra"
+  },
+  {
+    "id": "4309704",
+    "nome": "Humaitá",
+    "uf": "RS",
+    "slug": "humaita"
+  },
+  {
+    "id": "4309753",
+    "nome": "Ibarama",
+    "uf": "RS",
+    "slug": "ibarama"
+  },
+  {
+    "id": "4309803",
+    "nome": "Ibiaçá",
+    "uf": "RS",
+    "slug": "ibiaca"
+  },
+  {
+    "id": "4309902",
+    "nome": "Ibiraiaras",
+    "uf": "RS",
+    "slug": "ibiraiaras"
+  },
+  {
+    "id": "4309951",
+    "nome": "Ibirapuitã",
+    "uf": "RS",
+    "slug": "ibirapuita"
+  },
+  {
+    "id": "4310009",
+    "nome": "Ibirubá",
+    "uf": "RS",
+    "slug": "ibiruba"
+  },
+  {
+    "id": "4310108",
+    "nome": "Igrejinha",
+    "uf": "RS",
+    "slug": "igrejinha"
+  },
+  {
+    "id": "4310207",
+    "nome": "Ijuí",
+    "uf": "RS",
+    "slug": "ijui"
+  },
+  {
+    "id": "4310306",
+    "nome": "Ilópolis",
+    "uf": "RS",
+    "slug": "ilopolis"
+  },
+  {
+    "id": "4310330",
+    "nome": "Imbé",
+    "uf": "RS",
+    "slug": "imbe"
+  },
+  {
+    "id": "4310363",
+    "nome": "Imigrante",
+    "uf": "RS",
+    "slug": "imigrante"
+  },
+  {
+    "id": "4310405",
+    "nome": "Independência",
+    "uf": "RS",
+    "slug": "independencia"
+  },
+  {
+    "id": "4310413",
+    "nome": "Inhacorá",
+    "uf": "RS",
+    "slug": "inhacora"
+  },
+  {
+    "id": "4310439",
+    "nome": "Ipê",
+    "uf": "RS",
+    "slug": "ipe"
+  },
+  {
+    "id": "4310462",
+    "nome": "Ipiranga do Sul",
+    "uf": "RS",
+    "slug": "ipiranga-do-sul"
+  },
+  {
+    "id": "4310504",
+    "nome": "Iraí",
+    "uf": "RS",
+    "slug": "irai"
+  },
+  {
+    "id": "4310538",
+    "nome": "Itaara",
+    "uf": "RS",
+    "slug": "itaara"
+  },
+  {
+    "id": "4310553",
+    "nome": "Itacurubi",
+    "uf": "RS",
+    "slug": "itacurubi"
+  },
+  {
+    "id": "4310579",
+    "nome": "Itapuca",
+    "uf": "RS",
+    "slug": "itapuca"
+  },
+  {
+    "id": "4310603",
+    "nome": "Itaqui",
+    "uf": "RS",
+    "slug": "itaqui"
+  },
+  {
+    "id": "4310652",
+    "nome": "Itati",
+    "uf": "RS",
+    "slug": "itati"
+  },
+  {
+    "id": "4310702",
+    "nome": "Itatiba do Sul",
+    "uf": "RS",
+    "slug": "itatiba-do-sul"
+  },
+  {
+    "id": "4310751",
+    "nome": "Ivorá",
+    "uf": "RS",
+    "slug": "ivora"
+  },
+  {
+    "id": "4310801",
+    "nome": "Ivoti",
+    "uf": "RS",
+    "slug": "ivoti"
+  },
+  {
+    "id": "4310850",
+    "nome": "Jaboticaba",
+    "uf": "RS",
+    "slug": "jaboticaba"
+  },
+  {
+    "id": "4310876",
+    "nome": "Jacuizinho",
+    "uf": "RS",
+    "slug": "jacuizinho"
+  },
+  {
+    "id": "4310900",
+    "nome": "Jacutinga",
+    "uf": "RS",
+    "slug": "jacutinga"
+  },
+  {
+    "id": "4311007",
+    "nome": "Jaguarão",
+    "uf": "RS",
+    "slug": "jaguarao"
+  },
+  {
+    "id": "4311106",
+    "nome": "Jaguari",
+    "uf": "RS",
+    "slug": "jaguari"
+  },
+  {
+    "id": "4311122",
+    "nome": "Jaquirana",
+    "uf": "RS",
+    "slug": "jaquirana"
+  },
+  {
+    "id": "4311130",
+    "nome": "Jari",
+    "uf": "RS",
+    "slug": "jari"
+  },
+  {
+    "id": "4311155",
+    "nome": "Jóia",
+    "uf": "RS",
+    "slug": "joia"
+  },
+  {
+    "id": "4311205",
+    "nome": "Júlio de Castilhos",
+    "uf": "RS",
+    "slug": "julio-de-castilhos"
+  },
+  {
+    "id": "4311239",
+    "nome": "Lagoa Bonita do Sul",
+    "uf": "RS",
+    "slug": "lagoa-bonita-do-sul"
+  },
+  {
+    "id": "4311270",
+    "nome": "Lagoa dos Três Cantos",
+    "uf": "RS",
+    "slug": "lagoa-dos-tres-cantos"
+  },
+  {
+    "id": "4311304",
+    "nome": "Lagoa Vermelha",
+    "uf": "RS",
+    "slug": "lagoa-vermelha"
+  },
+  {
+    "id": "4311254",
+    "nome": "Lagoão",
+    "uf": "RS",
+    "slug": "lagoao"
+  },
+  {
+    "id": "4311403",
+    "nome": "Lajeado",
+    "uf": "RS",
+    "slug": "lajeado"
+  },
+  {
+    "id": "4311429",
+    "nome": "Lajeado do Bugre",
+    "uf": "RS",
+    "slug": "lajeado-do-bugre"
+  },
+  {
+    "id": "4311502",
+    "nome": "Lavras do Sul",
+    "uf": "RS",
+    "slug": "lavras-do-sul"
+  },
+  {
+    "id": "4311601",
+    "nome": "Liberato Salzano",
+    "uf": "RS",
+    "slug": "liberato-salzano"
+  },
+  {
+    "id": "4311627",
+    "nome": "Lindolfo Collor",
+    "uf": "RS",
+    "slug": "lindolfo-collor"
+  },
+  {
+    "id": "4311643",
+    "nome": "Linha Nova",
+    "uf": "RS",
+    "slug": "linha-nova"
+  },
+  {
+    "id": "4311718",
+    "nome": "Maçambará",
+    "uf": "RS",
+    "slug": "macambara"
+  },
+  {
+    "id": "4311700",
+    "nome": "Machadinho",
+    "uf": "RS",
+    "slug": "machadinho"
+  },
+  {
+    "id": "4311734",
+    "nome": "Mampituba",
+    "uf": "RS",
+    "slug": "mampituba"
+  },
+  {
+    "id": "4311759",
+    "nome": "Manoel Viana",
+    "uf": "RS",
+    "slug": "manoel-viana"
+  },
+  {
+    "id": "4311775",
+    "nome": "Maquiné",
+    "uf": "RS",
+    "slug": "maquine"
+  },
+  {
+    "id": "4311791",
+    "nome": "Maratá",
+    "uf": "RS",
+    "slug": "marata"
+  },
+  {
+    "id": "4311809",
+    "nome": "Marau",
+    "uf": "RS",
+    "slug": "marau"
+  },
+  {
+    "id": "4311908",
+    "nome": "Marcelino Ramos",
+    "uf": "RS",
+    "slug": "marcelino-ramos"
+  },
+  {
+    "id": "4311981",
+    "nome": "Mariana Pimentel",
+    "uf": "RS",
+    "slug": "mariana-pimentel"
+  },
+  {
+    "id": "4312005",
+    "nome": "Mariano Moro",
+    "uf": "RS",
+    "slug": "mariano-moro"
+  },
+  {
+    "id": "4312054",
+    "nome": "Marques de Souza",
+    "uf": "RS",
+    "slug": "marques-de-souza"
+  },
+  {
+    "id": "4312104",
+    "nome": "Mata",
+    "uf": "RS",
+    "slug": "mata"
+  },
+  {
+    "id": "4312138",
+    "nome": "Mato Castelhano",
+    "uf": "RS",
+    "slug": "mato-castelhano"
+  },
+  {
+    "id": "4312153",
+    "nome": "Mato Leitão",
+    "uf": "RS",
+    "slug": "mato-leitao"
+  },
+  {
+    "id": "4312179",
+    "nome": "Mato Queimado",
+    "uf": "RS",
+    "slug": "mato-queimado"
+  },
+  {
+    "id": "4312203",
+    "nome": "Maximiliano de Almeida",
+    "uf": "RS",
+    "slug": "maximiliano-de-almeida"
+  },
+  {
+    "id": "4312252",
+    "nome": "Minas do Leão",
+    "uf": "RS",
+    "slug": "minas-do-leao"
+  },
+  {
+    "id": "4312302",
+    "nome": "Miraguaí",
+    "uf": "RS",
+    "slug": "miraguai"
+  },
+  {
+    "id": "4312351",
+    "nome": "Montauri",
+    "uf": "RS",
+    "slug": "montauri"
+  },
+  {
+    "id": "4312377",
+    "nome": "Monte Alegre dos Campos",
+    "uf": "RS",
+    "slug": "monte-alegre-dos-campos"
+  },
+  {
+    "id": "4312385",
+    "nome": "Monte Belo do Sul",
+    "uf": "RS",
+    "slug": "monte-belo-do-sul"
+  },
+  {
+    "id": "4312401",
+    "nome": "Montenegro",
+    "uf": "RS",
+    "slug": "montenegro"
+  },
+  {
+    "id": "4312427",
+    "nome": "Mormaço",
+    "uf": "RS",
+    "slug": "mormaco"
+  },
+  {
+    "id": "4312443",
+    "nome": "Morrinhos do Sul",
+    "uf": "RS",
+    "slug": "morrinhos-do-sul"
+  },
+  {
+    "id": "4312450",
+    "nome": "Morro Redondo",
+    "uf": "RS",
+    "slug": "morro-redondo"
+  },
+  {
+    "id": "4312476",
+    "nome": "Morro Reuter",
+    "uf": "RS",
+    "slug": "morro-reuter"
+  },
+  {
+    "id": "4312500",
+    "nome": "Mostardas",
+    "uf": "RS",
+    "slug": "mostardas"
+  },
+  {
+    "id": "4312609",
+    "nome": "Muçum",
+    "uf": "RS",
+    "slug": "mucum"
+  },
+  {
+    "id": "4312617",
+    "nome": "Muitos Capões",
+    "uf": "RS",
+    "slug": "muitos-capoes"
+  },
+  {
+    "id": "4312625",
+    "nome": "Muliterno",
+    "uf": "RS",
+    "slug": "muliterno"
+  },
+  {
+    "id": "4312658",
+    "nome": "Não-Me-Toque",
+    "uf": "RS",
+    "slug": "nao-me-toque"
+  },
+  {
+    "id": "4312674",
+    "nome": "Nicolau Vergueiro",
+    "uf": "RS",
+    "slug": "nicolau-vergueiro"
+  },
+  {
+    "id": "4312708",
+    "nome": "Nonoai",
+    "uf": "RS",
+    "slug": "nonoai"
+  },
+  {
+    "id": "4312757",
+    "nome": "Nova Alvorada",
+    "uf": "RS",
+    "slug": "nova-alvorada"
+  },
+  {
+    "id": "4312807",
+    "nome": "Nova Araçá",
+    "uf": "RS",
+    "slug": "nova-araca"
+  },
+  {
+    "id": "4312906",
+    "nome": "Nova Bassano",
+    "uf": "RS",
+    "slug": "nova-bassano"
+  },
+  {
+    "id": "4312955",
+    "nome": "Nova Boa Vista",
+    "uf": "RS",
+    "slug": "nova-boa-vista"
+  },
+  {
+    "id": "4313003",
+    "nome": "Nova Bréscia",
+    "uf": "RS",
+    "slug": "nova-brescia"
+  },
+  {
+    "id": "4313011",
+    "nome": "Nova Candelária",
+    "uf": "RS",
+    "slug": "nova-candelaria"
+  },
+  {
+    "id": "4313037",
+    "nome": "Nova Esperança do Sul",
+    "uf": "RS",
+    "slug": "nova-esperanca-do-sul"
+  },
+  {
+    "id": "4313060",
+    "nome": "Nova Hartz",
+    "uf": "RS",
+    "slug": "nova-hartz"
+  },
+  {
+    "id": "4313086",
+    "nome": "Nova Pádua",
+    "uf": "RS",
+    "slug": "nova-padua"
+  },
+  {
+    "id": "4313102",
+    "nome": "Nova Palma",
+    "uf": "RS",
+    "slug": "nova-palma"
+  },
+  {
+    "id": "4313201",
+    "nome": "Nova Petrópolis",
+    "uf": "RS",
+    "slug": "nova-petropolis"
+  },
+  {
+    "id": "4313300",
+    "nome": "Nova Prata",
+    "uf": "RS",
+    "slug": "nova-prata"
+  },
+  {
+    "id": "4313334",
+    "nome": "Nova Ramada",
+    "uf": "RS",
+    "slug": "nova-ramada"
+  },
+  {
+    "id": "4313359",
+    "nome": "Nova Roma do Sul",
+    "uf": "RS",
+    "slug": "nova-roma-do-sul"
+  },
+  {
+    "id": "4313375",
+    "nome": "Nova Santa Rita",
+    "uf": "RS",
+    "slug": "nova-santa-rita"
+  },
+  {
+    "id": "4313490",
+    "nome": "Novo Barreiro",
+    "uf": "RS",
+    "slug": "novo-barreiro"
+  },
+  {
+    "id": "4313391",
+    "nome": "Novo Cabrais",
+    "uf": "RS",
+    "slug": "novo-cabrais"
+  },
+  {
+    "id": "4313409",
+    "nome": "Novo Hamburgo",
+    "uf": "RS",
+    "slug": "novo-hamburgo"
+  },
+  {
+    "id": "4313425",
+    "nome": "Novo Machado",
+    "uf": "RS",
+    "slug": "novo-machado"
+  },
+  {
+    "id": "4313441",
+    "nome": "Novo Tiradentes",
+    "uf": "RS",
+    "slug": "novo-tiradentes"
+  },
+  {
+    "id": "4313466",
+    "nome": "Novo Xingu",
+    "uf": "RS",
+    "slug": "novo-xingu"
+  },
+  {
+    "id": "4313508",
+    "nome": "Osório",
+    "uf": "RS",
+    "slug": "osorio"
+  },
+  {
+    "id": "4313607",
+    "nome": "Paim Filho",
+    "uf": "RS",
+    "slug": "paim-filho"
+  },
+  {
+    "id": "4313656",
+    "nome": "Palmares do Sul",
+    "uf": "RS",
+    "slug": "palmares-do-sul"
+  },
+  {
+    "id": "4313706",
+    "nome": "Palmeira das Missões",
+    "uf": "RS",
+    "slug": "palmeira-das-missoes"
+  },
+  {
+    "id": "4313805",
+    "nome": "Palmitinho",
+    "uf": "RS",
+    "slug": "palmitinho"
+  },
+  {
+    "id": "4313904",
+    "nome": "Panambi",
+    "uf": "RS",
+    "slug": "panambi"
+  },
+  {
+    "id": "4313953",
+    "nome": "Pantano Grande",
+    "uf": "RS",
+    "slug": "pantano-grande"
+  },
+  {
+    "id": "4314001",
+    "nome": "Paraí",
+    "uf": "RS",
+    "slug": "parai"
+  },
+  {
+    "id": "4314027",
+    "nome": "Paraíso do Sul",
+    "uf": "RS",
+    "slug": "paraiso-do-sul"
+  },
+  {
+    "id": "4314035",
+    "nome": "Pareci Novo",
+    "uf": "RS",
+    "slug": "pareci-novo"
+  },
+  {
+    "id": "4314050",
+    "nome": "Parobé",
+    "uf": "RS",
+    "slug": "parobe"
+  },
+  {
+    "id": "4314068",
+    "nome": "Passa Sete",
+    "uf": "RS",
+    "slug": "passa-sete"
+  },
+  {
+    "id": "4314076",
+    "nome": "Passo do Sobrado",
+    "uf": "RS",
+    "slug": "passo-do-sobrado"
+  },
+  {
+    "id": "4314100",
+    "nome": "Passo Fundo",
+    "uf": "RS",
+    "slug": "passo-fundo"
+  },
+  {
+    "id": "4314134",
+    "nome": "Paulo Bento",
+    "uf": "RS",
+    "slug": "paulo-bento"
+  },
+  {
+    "id": "4314159",
+    "nome": "Paverama",
+    "uf": "RS",
+    "slug": "paverama"
+  },
+  {
+    "id": "4314175",
+    "nome": "Pedras Altas",
+    "uf": "RS",
+    "slug": "pedras-altas"
+  },
+  {
+    "id": "4314209",
+    "nome": "Pedro Osório",
+    "uf": "RS",
+    "slug": "pedro-osorio"
+  },
+  {
+    "id": "4314308",
+    "nome": "Pejuçara",
+    "uf": "RS",
+    "slug": "pejucara"
+  },
+  {
+    "id": "4314407",
+    "nome": "Pelotas",
+    "uf": "RS",
+    "slug": "pelotas"
+  },
+  {
+    "id": "4314423",
+    "nome": "Picada Café",
+    "uf": "RS",
+    "slug": "picada-cafe"
+  },
+  {
+    "id": "4314456",
+    "nome": "Pinhal",
+    "uf": "RS",
+    "slug": "pinhal"
+  },
+  {
+    "id": "4314464",
+    "nome": "Pinhal da Serra",
+    "uf": "RS",
+    "slug": "pinhal-da-serra"
+  },
+  {
+    "id": "4314472",
+    "nome": "Pinhal Grande",
+    "uf": "RS",
+    "slug": "pinhal-grande"
+  },
+  {
+    "id": "4314498",
+    "nome": "Pinheirinho do Vale",
+    "uf": "RS",
+    "slug": "pinheirinho-do-vale"
+  },
+  {
+    "id": "4314506",
+    "nome": "Pinheiro Machado",
+    "uf": "RS",
+    "slug": "pinheiro-machado"
+  },
+  {
+    "id": "4314548",
+    "nome": "Pinto Bandeira",
+    "uf": "RS",
+    "slug": "pinto-bandeira"
+  },
+  {
+    "id": "4314555",
+    "nome": "Pirapó",
+    "uf": "RS",
+    "slug": "pirapo"
+  },
+  {
+    "id": "4314605",
+    "nome": "Piratini",
+    "uf": "RS",
+    "slug": "piratini"
+  },
+  {
+    "id": "4314704",
+    "nome": "Planalto",
+    "uf": "RS",
+    "slug": "planalto"
+  },
+  {
+    "id": "4314753",
+    "nome": "Poço das Antas",
+    "uf": "RS",
+    "slug": "poco-das-antas"
+  },
+  {
+    "id": "4314779",
+    "nome": "Pontão",
+    "uf": "RS",
+    "slug": "pontao"
+  },
+  {
+    "id": "4314787",
+    "nome": "Ponte Preta",
+    "uf": "RS",
+    "slug": "ponte-preta"
+  },
+  {
+    "id": "4314803",
+    "nome": "Portão",
+    "uf": "RS",
+    "slug": "portao"
+  },
+  {
+    "id": "4314902",
+    "nome": "Porto Alegre",
+    "uf": "RS",
+    "slug": "porto-alegre"
+  },
+  {
+    "id": "4315008",
+    "nome": "Porto Lucena",
+    "uf": "RS",
+    "slug": "porto-lucena"
+  },
+  {
+    "id": "4315057",
+    "nome": "Porto Mauá",
+    "uf": "RS",
+    "slug": "porto-maua"
+  },
+  {
+    "id": "4315073",
+    "nome": "Porto Vera Cruz",
+    "uf": "RS",
+    "slug": "porto-vera-cruz"
+  },
+  {
+    "id": "4315107",
+    "nome": "Porto Xavier",
+    "uf": "RS",
+    "slug": "porto-xavier"
+  },
+  {
+    "id": "4315131",
+    "nome": "Pouso Novo",
+    "uf": "RS",
+    "slug": "pouso-novo"
+  },
+  {
+    "id": "4315149",
+    "nome": "Presidente Lucena",
+    "uf": "RS",
+    "slug": "presidente-lucena"
+  },
+  {
+    "id": "4315156",
+    "nome": "Progresso",
+    "uf": "RS",
+    "slug": "progresso"
+  },
+  {
+    "id": "4315172",
+    "nome": "Protásio Alves",
+    "uf": "RS",
+    "slug": "protasio-alves"
+  },
+  {
+    "id": "4315206",
+    "nome": "Putinga",
+    "uf": "RS",
+    "slug": "putinga"
+  },
+  {
+    "id": "4315305",
+    "nome": "Quaraí",
+    "uf": "RS",
+    "slug": "quarai"
+  },
+  {
+    "id": "4315313",
+    "nome": "Quatro Irmãos",
+    "uf": "RS",
+    "slug": "quatro-irmaos"
+  },
+  {
+    "id": "4315321",
+    "nome": "Quevedos",
+    "uf": "RS",
+    "slug": "quevedos"
+  },
+  {
+    "id": "4315354",
+    "nome": "Quinze de Novembro",
+    "uf": "RS",
+    "slug": "quinze-de-novembro"
+  },
+  {
+    "id": "4315404",
+    "nome": "Redentora",
+    "uf": "RS",
+    "slug": "redentora"
+  },
+  {
+    "id": "4315453",
+    "nome": "Relvado",
+    "uf": "RS",
+    "slug": "relvado"
+  },
+  {
+    "id": "4315503",
+    "nome": "Restinga Sêca",
+    "uf": "RS",
+    "slug": "restinga-seca"
+  },
+  {
+    "id": "4315552",
+    "nome": "Rio dos Índios",
+    "uf": "RS",
+    "slug": "rio-dos-indios"
+  },
+  {
+    "id": "4315602",
+    "nome": "Rio Grande",
+    "uf": "RS",
+    "slug": "rio-grande"
+  },
+  {
+    "id": "4315701",
+    "nome": "Rio Pardo",
+    "uf": "RS",
+    "slug": "rio-pardo"
+  },
+  {
+    "id": "4315750",
+    "nome": "Riozinho",
+    "uf": "RS",
+    "slug": "riozinho"
+  },
+  {
+    "id": "4315800",
+    "nome": "Roca Sales",
+    "uf": "RS",
+    "slug": "roca-sales"
+  },
+  {
+    "id": "4315909",
+    "nome": "Rodeio Bonito",
+    "uf": "RS",
+    "slug": "rodeio-bonito"
+  },
+  {
+    "id": "4315958",
+    "nome": "Rolador",
+    "uf": "RS",
+    "slug": "rolador"
+  },
+  {
+    "id": "4316006",
+    "nome": "Rolante",
+    "uf": "RS",
+    "slug": "rolante"
+  },
+  {
+    "id": "4316105",
+    "nome": "Ronda Alta",
+    "uf": "RS",
+    "slug": "ronda-alta"
+  },
+  {
+    "id": "4316204",
+    "nome": "Rondinha",
+    "uf": "RS",
+    "slug": "rondinha"
+  },
+  {
+    "id": "4316303",
+    "nome": "Roque Gonzales",
+    "uf": "RS",
+    "slug": "roque-gonzales"
+  },
+  {
+    "id": "4316402",
+    "nome": "Rosário do Sul",
+    "uf": "RS",
+    "slug": "rosario-do-sul"
+  },
+  {
+    "id": "4316428",
+    "nome": "Sagrada Família",
+    "uf": "RS",
+    "slug": "sagrada-familia"
+  },
+  {
+    "id": "4316436",
+    "nome": "Saldanha Marinho",
+    "uf": "RS",
+    "slug": "saldanha-marinho"
+  },
+  {
+    "id": "4316451",
+    "nome": "Salto do Jacuí",
+    "uf": "RS",
+    "slug": "salto-do-jacui"
+  },
+  {
+    "id": "4316477",
+    "nome": "Salvador das Missões",
+    "uf": "RS",
+    "slug": "salvador-das-missoes"
+  },
+  {
+    "id": "4316501",
+    "nome": "Salvador do Sul",
+    "uf": "RS",
+    "slug": "salvador-do-sul"
+  },
+  {
+    "id": "4316600",
+    "nome": "Sananduva",
+    "uf": "RS",
+    "slug": "sananduva"
+  },
+  {
+    "id": "4317103",
+    "nome": "Sant'Ana do Livramento",
+    "uf": "RS",
+    "slug": "sant'ana-do-livramento"
+  },
+  {
+    "id": "4316709",
+    "nome": "Santa Bárbara do Sul",
+    "uf": "RS",
+    "slug": "santa-barbara-do-sul"
+  },
+  {
+    "id": "4316733",
+    "nome": "Santa Cecília do Sul",
+    "uf": "RS",
+    "slug": "santa-cecilia-do-sul"
+  },
+  {
+    "id": "4316758",
+    "nome": "Santa Clara do Sul",
+    "uf": "RS",
+    "slug": "santa-clara-do-sul"
+  },
+  {
+    "id": "4316808",
+    "nome": "Santa Cruz do Sul",
+    "uf": "RS",
+    "slug": "santa-cruz-do-sul"
+  },
+  {
+    "id": "4316972",
+    "nome": "Santa Margarida do Sul",
+    "uf": "RS",
+    "slug": "santa-margarida-do-sul"
+  },
+  {
+    "id": "4316907",
+    "nome": "Santa Maria",
+    "uf": "RS",
+    "slug": "santa-maria"
+  },
+  {
+    "id": "4316956",
+    "nome": "Santa Maria do Herval",
+    "uf": "RS",
+    "slug": "santa-maria-do-herval"
+  },
+  {
+    "id": "4317202",
+    "nome": "Santa Rosa",
+    "uf": "RS",
+    "slug": "santa-rosa"
+  },
+  {
+    "id": "4317251",
+    "nome": "Santa Tereza",
+    "uf": "RS",
+    "slug": "santa-tereza"
+  },
+  {
+    "id": "4317301",
+    "nome": "Santa Vitória do Palmar",
+    "uf": "RS",
+    "slug": "santa-vitoria-do-palmar"
+  },
+  {
+    "id": "4317004",
+    "nome": "Santana da Boa Vista",
+    "uf": "RS",
+    "slug": "santana-da-boa-vista"
+  },
+  {
+    "id": "4317400",
+    "nome": "Santiago",
+    "uf": "RS",
+    "slug": "santiago"
+  },
+  {
+    "id": "4317509",
+    "nome": "Santo Ângelo",
+    "uf": "RS",
+    "slug": "santo-angelo"
+  },
+  {
+    "id": "4317608",
+    "nome": "Santo Antônio da Patrulha",
+    "uf": "RS",
+    "slug": "santo-antonio-da-patrulha"
+  },
+  {
+    "id": "4317707",
+    "nome": "Santo Antônio das Missões",
+    "uf": "RS",
+    "slug": "santo-antonio-das-missoes"
+  },
+  {
+    "id": "4317558",
+    "nome": "Santo Antônio do Palma",
+    "uf": "RS",
+    "slug": "santo-antonio-do-palma"
+  },
+  {
+    "id": "4317756",
+    "nome": "Santo Antônio do Planalto",
+    "uf": "RS",
+    "slug": "santo-antonio-do-planalto"
+  },
+  {
+    "id": "4317806",
+    "nome": "Santo Augusto",
+    "uf": "RS",
+    "slug": "santo-augusto"
+  },
+  {
+    "id": "4317905",
+    "nome": "Santo Cristo",
+    "uf": "RS",
+    "slug": "santo-cristo"
+  },
+  {
+    "id": "4317954",
+    "nome": "Santo Expedito do Sul",
+    "uf": "RS",
+    "slug": "santo-expedito-do-sul"
+  },
+  {
+    "id": "4318002",
+    "nome": "São Borja",
+    "uf": "RS",
+    "slug": "sao-borja"
+  },
+  {
+    "id": "4318051",
+    "nome": "São Domingos do Sul",
+    "uf": "RS",
+    "slug": "sao-domingos-do-sul"
+  },
+  {
+    "id": "4318101",
+    "nome": "São Francisco de Assis",
+    "uf": "RS",
+    "slug": "sao-francisco-de-assis"
+  },
+  {
+    "id": "4318200",
+    "nome": "São Francisco de Paula",
+    "uf": "RS",
+    "slug": "sao-francisco-de-paula"
+  },
+  {
+    "id": "4318309",
+    "nome": "São Gabriel",
+    "uf": "RS",
+    "slug": "sao-gabriel"
+  },
+  {
+    "id": "4318408",
+    "nome": "São Jerônimo",
+    "uf": "RS",
+    "slug": "sao-jeronimo"
+  },
+  {
+    "id": "4318424",
+    "nome": "São João da Urtiga",
+    "uf": "RS",
+    "slug": "sao-joao-da-urtiga"
+  },
+  {
+    "id": "4318432",
+    "nome": "São João do Polêsine",
+    "uf": "RS",
+    "slug": "sao-joao-do-polesine"
+  },
+  {
+    "id": "4318440",
+    "nome": "São Jorge",
+    "uf": "RS",
+    "slug": "sao-jorge"
+  },
+  {
+    "id": "4318457",
+    "nome": "São José das Missões",
+    "uf": "RS",
+    "slug": "sao-jose-das-missoes"
+  },
+  {
+    "id": "4318465",
+    "nome": "São José do Herval",
+    "uf": "RS",
+    "slug": "sao-jose-do-herval"
+  },
+  {
+    "id": "4318481",
+    "nome": "São José do Hortêncio",
+    "uf": "RS",
+    "slug": "sao-jose-do-hortencio"
+  },
+  {
+    "id": "4318499",
+    "nome": "São José do Inhacorá",
+    "uf": "RS",
+    "slug": "sao-jose-do-inhacora"
+  },
+  {
+    "id": "4318507",
+    "nome": "São José do Norte",
+    "uf": "RS",
+    "slug": "sao-jose-do-norte"
+  },
+  {
+    "id": "4318606",
+    "nome": "São José do Ouro",
+    "uf": "RS",
+    "slug": "sao-jose-do-ouro"
+  },
+  {
+    "id": "4318614",
+    "nome": "São José do Sul",
+    "uf": "RS",
+    "slug": "sao-jose-do-sul"
+  },
+  {
+    "id": "4318622",
+    "nome": "São José dos Ausentes",
+    "uf": "RS",
+    "slug": "sao-jose-dos-ausentes"
+  },
+  {
+    "id": "4318705",
+    "nome": "São Leopoldo",
+    "uf": "RS",
+    "slug": "sao-leopoldo"
+  },
+  {
+    "id": "4318804",
+    "nome": "São Lourenço do Sul",
+    "uf": "RS",
+    "slug": "sao-lourenco-do-sul"
+  },
+  {
+    "id": "4318903",
+    "nome": "São Luiz Gonzaga",
+    "uf": "RS",
+    "slug": "sao-luiz-gonzaga"
+  },
+  {
+    "id": "4319000",
+    "nome": "São Marcos",
+    "uf": "RS",
+    "slug": "sao-marcos"
+  },
+  {
+    "id": "4319109",
+    "nome": "São Martinho",
+    "uf": "RS",
+    "slug": "sao-martinho"
+  },
+  {
+    "id": "4319125",
+    "nome": "São Martinho da Serra",
+    "uf": "RS",
+    "slug": "sao-martinho-da-serra"
+  },
+  {
+    "id": "4319158",
+    "nome": "São Miguel das Missões",
+    "uf": "RS",
+    "slug": "sao-miguel-das-missoes"
+  },
+  {
+    "id": "4319208",
+    "nome": "São Nicolau",
+    "uf": "RS",
+    "slug": "sao-nicolau"
+  },
+  {
+    "id": "4319307",
+    "nome": "São Paulo das Missões",
+    "uf": "RS",
+    "slug": "sao-paulo-das-missoes"
+  },
+  {
+    "id": "4319356",
+    "nome": "São Pedro da Serra",
+    "uf": "RS",
+    "slug": "sao-pedro-da-serra"
+  },
+  {
+    "id": "4319364",
+    "nome": "São Pedro das Missões",
+    "uf": "RS",
+    "slug": "sao-pedro-das-missoes"
+  },
+  {
+    "id": "4319372",
+    "nome": "São Pedro do Butiá",
+    "uf": "RS",
+    "slug": "sao-pedro-do-butia"
+  },
+  {
+    "id": "4319406",
+    "nome": "São Pedro do Sul",
+    "uf": "RS",
+    "slug": "sao-pedro-do-sul"
+  },
+  {
+    "id": "4319505",
+    "nome": "São Sebastião do Caí",
+    "uf": "RS",
+    "slug": "sao-sebastiao-do-cai"
+  },
+  {
+    "id": "4319604",
+    "nome": "São Sepé",
+    "uf": "RS",
+    "slug": "sao-sepe"
+  },
+  {
+    "id": "4319703",
+    "nome": "São Valentim",
+    "uf": "RS",
+    "slug": "sao-valentim"
+  },
+  {
+    "id": "4319711",
+    "nome": "São Valentim do Sul",
+    "uf": "RS",
+    "slug": "sao-valentim-do-sul"
+  },
+  {
+    "id": "4319737",
+    "nome": "São Valério do Sul",
+    "uf": "RS",
+    "slug": "sao-valerio-do-sul"
+  },
+  {
+    "id": "4319752",
+    "nome": "São Vendelino",
+    "uf": "RS",
+    "slug": "sao-vendelino"
+  },
+  {
+    "id": "4319802",
+    "nome": "São Vicente do Sul",
+    "uf": "RS",
+    "slug": "sao-vicente-do-sul"
+  },
+  {
+    "id": "4319901",
+    "nome": "Sapiranga",
+    "uf": "RS",
+    "slug": "sapiranga"
+  },
+  {
+    "id": "4320008",
+    "nome": "Sapucaia do Sul",
+    "uf": "RS",
+    "slug": "sapucaia-do-sul"
+  },
+  {
+    "id": "4320107",
+    "nome": "Sarandi",
+    "uf": "RS",
+    "slug": "sarandi"
+  },
+  {
+    "id": "4320206",
+    "nome": "Seberi",
+    "uf": "RS",
+    "slug": "seberi"
+  },
+  {
+    "id": "4320230",
+    "nome": "Sede Nova",
+    "uf": "RS",
+    "slug": "sede-nova"
+  },
+  {
+    "id": "4320263",
+    "nome": "Segredo",
+    "uf": "RS",
+    "slug": "segredo"
+  },
+  {
+    "id": "4320305",
+    "nome": "Selbach",
+    "uf": "RS",
+    "slug": "selbach"
+  },
+  {
+    "id": "4320321",
+    "nome": "Senador Salgado Filho",
+    "uf": "RS",
+    "slug": "senador-salgado-filho"
+  },
+  {
+    "id": "4320354",
+    "nome": "Sentinela do Sul",
+    "uf": "RS",
+    "slug": "sentinela-do-sul"
+  },
+  {
+    "id": "4320404",
+    "nome": "Serafina Corrêa",
+    "uf": "RS",
+    "slug": "serafina-correa"
+  },
+  {
+    "id": "4320453",
+    "nome": "Sério",
+    "uf": "RS",
+    "slug": "serio"
+  },
+  {
+    "id": "4320503",
+    "nome": "Sertão",
+    "uf": "RS",
+    "slug": "sertao"
+  },
+  {
+    "id": "4320552",
+    "nome": "Sertão Santana",
+    "uf": "RS",
+    "slug": "sertao-santana"
+  },
+  {
+    "id": "4320578",
+    "nome": "Sete de Setembro",
+    "uf": "RS",
+    "slug": "sete-de-setembro"
+  },
+  {
+    "id": "4320602",
+    "nome": "Severiano de Almeida",
+    "uf": "RS",
+    "slug": "severiano-de-almeida"
+  },
+  {
+    "id": "4320651",
+    "nome": "Silveira Martins",
+    "uf": "RS",
+    "slug": "silveira-martins"
+  },
+  {
+    "id": "4320677",
+    "nome": "Sinimbu",
+    "uf": "RS",
+    "slug": "sinimbu"
+  },
+  {
+    "id": "4320701",
+    "nome": "Sobradinho",
+    "uf": "RS",
+    "slug": "sobradinho"
+  },
+  {
+    "id": "4320800",
+    "nome": "Soledade",
+    "uf": "RS",
+    "slug": "soledade"
+  },
+  {
+    "id": "4320859",
+    "nome": "Tabaí",
+    "uf": "RS",
+    "slug": "tabai"
+  },
+  {
+    "id": "4320909",
+    "nome": "Tapejara",
+    "uf": "RS",
+    "slug": "tapejara"
+  },
+  {
+    "id": "4321006",
+    "nome": "Tapera",
+    "uf": "RS",
+    "slug": "tapera"
+  },
+  {
+    "id": "4321105",
+    "nome": "Tapes",
+    "uf": "RS",
+    "slug": "tapes"
+  },
+  {
+    "id": "4321204",
+    "nome": "Taquara",
+    "uf": "RS",
+    "slug": "taquara"
+  },
+  {
+    "id": "4321303",
+    "nome": "Taquari",
+    "uf": "RS",
+    "slug": "taquari"
+  },
+  {
+    "id": "4321329",
+    "nome": "Taquaruçu do Sul",
+    "uf": "RS",
+    "slug": "taquarucu-do-sul"
+  },
+  {
+    "id": "4321352",
+    "nome": "Tavares",
+    "uf": "RS",
+    "slug": "tavares"
+  },
+  {
+    "id": "4321402",
+    "nome": "Tenente Portela",
+    "uf": "RS",
+    "slug": "tenente-portela"
+  },
+  {
+    "id": "4321436",
+    "nome": "Terra de Areia",
+    "uf": "RS",
+    "slug": "terra-de-areia"
+  },
+  {
+    "id": "4321451",
+    "nome": "Teutônia",
+    "uf": "RS",
+    "slug": "teutonia"
+  },
+  {
+    "id": "4321469",
+    "nome": "Tio Hugo",
+    "uf": "RS",
+    "slug": "tio-hugo"
+  },
+  {
+    "id": "4321477",
+    "nome": "Tiradentes do Sul",
+    "uf": "RS",
+    "slug": "tiradentes-do-sul"
+  },
+  {
+    "id": "4321493",
+    "nome": "Toropi",
+    "uf": "RS",
+    "slug": "toropi"
+  },
+  {
+    "id": "4321501",
+    "nome": "Torres",
+    "uf": "RS",
+    "slug": "torres"
+  },
+  {
+    "id": "4321600",
+    "nome": "Tramandaí",
+    "uf": "RS",
+    "slug": "tramandai"
+  },
+  {
+    "id": "4321626",
+    "nome": "Travesseiro",
+    "uf": "RS",
+    "slug": "travesseiro"
+  },
+  {
+    "id": "4321634",
+    "nome": "Três Arroios",
+    "uf": "RS",
+    "slug": "tres-arroios"
+  },
+  {
+    "id": "4321667",
+    "nome": "Três Cachoeiras",
+    "uf": "RS",
+    "slug": "tres-cachoeiras"
+  },
+  {
+    "id": "4321709",
+    "nome": "Três Coroas",
+    "uf": "RS",
+    "slug": "tres-coroas"
+  },
+  {
+    "id": "4321808",
+    "nome": "Três de Maio",
+    "uf": "RS",
+    "slug": "tres-de-maio"
+  },
+  {
+    "id": "4321832",
+    "nome": "Três Forquilhas",
+    "uf": "RS",
+    "slug": "tres-forquilhas"
+  },
+  {
+    "id": "4321857",
+    "nome": "Três Palmeiras",
+    "uf": "RS",
+    "slug": "tres-palmeiras"
+  },
+  {
+    "id": "4321907",
+    "nome": "Três Passos",
+    "uf": "RS",
+    "slug": "tres-passos"
+  },
+  {
+    "id": "4321956",
+    "nome": "Trindade do Sul",
+    "uf": "RS",
+    "slug": "trindade-do-sul"
+  },
+  {
+    "id": "4322004",
+    "nome": "Triunfo",
+    "uf": "RS",
+    "slug": "triunfo"
+  },
+  {
+    "id": "4322103",
+    "nome": "Tucunduva",
+    "uf": "RS",
+    "slug": "tucunduva"
+  },
+  {
+    "id": "4322152",
+    "nome": "Tunas",
+    "uf": "RS",
+    "slug": "tunas"
+  },
+  {
+    "id": "4322186",
+    "nome": "Tupanci do Sul",
+    "uf": "RS",
+    "slug": "tupanci-do-sul"
+  },
+  {
+    "id": "4322202",
+    "nome": "Tupanciretã",
+    "uf": "RS",
+    "slug": "tupancireta"
+  },
+  {
+    "id": "4322251",
+    "nome": "Tupandi",
+    "uf": "RS",
+    "slug": "tupandi"
+  },
+  {
+    "id": "4322301",
+    "nome": "Tuparendi",
+    "uf": "RS",
+    "slug": "tuparendi"
+  },
+  {
+    "id": "4322327",
+    "nome": "Turuçu",
+    "uf": "RS",
+    "slug": "turucu"
+  },
+  {
+    "id": "4322343",
+    "nome": "Ubiretama",
+    "uf": "RS",
+    "slug": "ubiretama"
+  },
+  {
+    "id": "4322350",
+    "nome": "União da Serra",
+    "uf": "RS",
+    "slug": "uniao-da-serra"
+  },
+  {
+    "id": "4322376",
+    "nome": "Unistalda",
+    "uf": "RS",
+    "slug": "unistalda"
+  },
+  {
+    "id": "4322400",
+    "nome": "Uruguaiana",
+    "uf": "RS",
+    "slug": "uruguaiana"
+  },
+  {
+    "id": "4322509",
+    "nome": "Vacaria",
+    "uf": "RS",
+    "slug": "vacaria"
+  },
+  {
+    "id": "4322533",
+    "nome": "Vale do Sol",
+    "uf": "RS",
+    "slug": "vale-do-sol"
+  },
+  {
+    "id": "4322541",
+    "nome": "Vale Real",
+    "uf": "RS",
+    "slug": "vale-real"
+  },
+  {
+    "id": "4322525",
+    "nome": "Vale Verde",
+    "uf": "RS",
+    "slug": "vale-verde"
+  },
+  {
+    "id": "4322558",
+    "nome": "Vanini",
+    "uf": "RS",
+    "slug": "vanini"
+  },
+  {
+    "id": "4322608",
+    "nome": "Venâncio Aires",
+    "uf": "RS",
+    "slug": "venancio-aires"
+  },
+  {
+    "id": "4322707",
+    "nome": "Vera Cruz",
+    "uf": "RS",
+    "slug": "vera-cruz"
+  },
+  {
+    "id": "4322806",
+    "nome": "Veranópolis",
+    "uf": "RS",
+    "slug": "veranopolis"
+  },
+  {
+    "id": "4322855",
+    "nome": "Vespasiano Corrêa",
+    "uf": "RS",
+    "slug": "vespasiano-correa"
+  },
+  {
+    "id": "4322905",
+    "nome": "Viadutos",
+    "uf": "RS",
+    "slug": "viadutos"
+  },
+  {
+    "id": "4323002",
+    "nome": "Viamão",
+    "uf": "RS",
+    "slug": "viamao"
+  },
+  {
+    "id": "4323101",
+    "nome": "Vicente Dutra",
+    "uf": "RS",
+    "slug": "vicente-dutra"
+  },
+  {
+    "id": "4323200",
+    "nome": "Victor Graeff",
+    "uf": "RS",
+    "slug": "victor-graeff"
+  },
+  {
+    "id": "4323309",
+    "nome": "Vila Flores",
+    "uf": "RS",
+    "slug": "vila-flores"
+  },
+  {
+    "id": "4323358",
+    "nome": "Vila Lângaro",
+    "uf": "RS",
+    "slug": "vila-langaro"
+  },
+  {
+    "id": "4323408",
+    "nome": "Vila Maria",
+    "uf": "RS",
+    "slug": "vila-maria"
+  },
+  {
+    "id": "4323457",
+    "nome": "Vila Nova do Sul",
+    "uf": "RS",
+    "slug": "vila-nova-do-sul"
+  },
+  {
+    "id": "4323507",
+    "nome": "Vista Alegre",
+    "uf": "RS",
+    "slug": "vista-alegre"
+  },
+  {
+    "id": "4323606",
+    "nome": "Vista Alegre do Prata",
+    "uf": "RS",
+    "slug": "vista-alegre-do-prata"
+  },
+  {
+    "id": "4323705",
+    "nome": "Vista Gaúcha",
+    "uf": "RS",
+    "slug": "vista-gaucha"
+  },
+  {
+    "id": "4323754",
+    "nome": "Vitória das Missões",
+    "uf": "RS",
+    "slug": "vitoria-das-missoes"
+  },
+  {
+    "id": "4323770",
+    "nome": "Westfália",
+    "uf": "RS",
+    "slug": "westfalia"
+  },
+  {
+    "id": "4323804",
+    "nome": "Xangri-lá",
+    "uf": "RS",
+    "slug": "xangri-la"
+  }
+]

@@ -1,0 +1,854 @@
+[
+  {
+    "id": "5100102",
+    "nome": "Acorizal",
+    "uf": "MT",
+    "slug": "acorizal"
+  },
+  {
+    "id": "5100201",
+    "nome": "Água Boa",
+    "uf": "MT",
+    "slug": "agua-boa"
+  },
+  {
+    "id": "5100250",
+    "nome": "Alta Floresta",
+    "uf": "MT",
+    "slug": "alta-floresta"
+  },
+  {
+    "id": "5100300",
+    "nome": "Alto Araguaia",
+    "uf": "MT",
+    "slug": "alto-araguaia"
+  },
+  {
+    "id": "5100359",
+    "nome": "Alto Boa Vista",
+    "uf": "MT",
+    "slug": "alto-boa-vista"
+  },
+  {
+    "id": "5100409",
+    "nome": "Alto Garças",
+    "uf": "MT",
+    "slug": "alto-garcas"
+  },
+  {
+    "id": "5100508",
+    "nome": "Alto Paraguai",
+    "uf": "MT",
+    "slug": "alto-paraguai"
+  },
+  {
+    "id": "5100607",
+    "nome": "Alto Taquari",
+    "uf": "MT",
+    "slug": "alto-taquari"
+  },
+  {
+    "id": "5100805",
+    "nome": "Apiacás",
+    "uf": "MT",
+    "slug": "apiacas"
+  },
+  {
+    "id": "5101001",
+    "nome": "Araguaiana",
+    "uf": "MT",
+    "slug": "araguaiana"
+  },
+  {
+    "id": "5101209",
+    "nome": "Araguainha",
+    "uf": "MT",
+    "slug": "araguainha"
+  },
+  {
+    "id": "5101258",
+    "nome": "Araputanga",
+    "uf": "MT",
+    "slug": "araputanga"
+  },
+  {
+    "id": "5101308",
+    "nome": "Arenápolis",
+    "uf": "MT",
+    "slug": "arenapolis"
+  },
+  {
+    "id": "5101407",
+    "nome": "Aripuanã",
+    "uf": "MT",
+    "slug": "aripuana"
+  },
+  {
+    "id": "5101605",
+    "nome": "Barão de Melgaço",
+    "uf": "MT",
+    "slug": "barao-de-melgaco"
+  },
+  {
+    "id": "5101704",
+    "nome": "Barra do Bugres",
+    "uf": "MT",
+    "slug": "barra-do-bugres"
+  },
+  {
+    "id": "5101803",
+    "nome": "Barra do Garças",
+    "uf": "MT",
+    "slug": "barra-do-garcas"
+  },
+  {
+    "id": "5101837",
+    "nome": "Boa Esperança do Norte",
+    "uf": "MT",
+    "slug": "boa-esperanca-do-norte"
+  },
+  {
+    "id": "5101852",
+    "nome": "Bom Jesus do Araguaia",
+    "uf": "MT",
+    "slug": "bom-jesus-do-araguaia"
+  },
+  {
+    "id": "5101902",
+    "nome": "Brasnorte",
+    "uf": "MT",
+    "slug": "brasnorte"
+  },
+  {
+    "id": "5102504",
+    "nome": "Cáceres",
+    "uf": "MT",
+    "slug": "caceres"
+  },
+  {
+    "id": "5102603",
+    "nome": "Campinápolis",
+    "uf": "MT",
+    "slug": "campinapolis"
+  },
+  {
+    "id": "5102637",
+    "nome": "Campo Novo do Parecis",
+    "uf": "MT",
+    "slug": "campo-novo-do-parecis"
+  },
+  {
+    "id": "5102678",
+    "nome": "Campo Verde",
+    "uf": "MT",
+    "slug": "campo-verde"
+  },
+  {
+    "id": "5102686",
+    "nome": "Campos de Júlio",
+    "uf": "MT",
+    "slug": "campos-de-julio"
+  },
+  {
+    "id": "5102694",
+    "nome": "Canabrava do Norte",
+    "uf": "MT",
+    "slug": "canabrava-do-norte"
+  },
+  {
+    "id": "5102702",
+    "nome": "Canarana",
+    "uf": "MT",
+    "slug": "canarana"
+  },
+  {
+    "id": "5102793",
+    "nome": "Carlinda",
+    "uf": "MT",
+    "slug": "carlinda"
+  },
+  {
+    "id": "5102850",
+    "nome": "Castanheira",
+    "uf": "MT",
+    "slug": "castanheira"
+  },
+  {
+    "id": "5103007",
+    "nome": "Chapada dos Guimarães",
+    "uf": "MT",
+    "slug": "chapada-dos-guimaraes"
+  },
+  {
+    "id": "5103056",
+    "nome": "Cláudia",
+    "uf": "MT",
+    "slug": "claudia"
+  },
+  {
+    "id": "5103106",
+    "nome": "Cocalinho",
+    "uf": "MT",
+    "slug": "cocalinho"
+  },
+  {
+    "id": "5103205",
+    "nome": "Colíder",
+    "uf": "MT",
+    "slug": "colider"
+  },
+  {
+    "id": "5103254",
+    "nome": "Colniza",
+    "uf": "MT",
+    "slug": "colniza"
+  },
+  {
+    "id": "5103304",
+    "nome": "Comodoro",
+    "uf": "MT",
+    "slug": "comodoro"
+  },
+  {
+    "id": "5103353",
+    "nome": "Confresa",
+    "uf": "MT",
+    "slug": "confresa"
+  },
+  {
+    "id": "5103361",
+    "nome": "Conquista D'Oeste",
+    "uf": "MT",
+    "slug": "conquista-d'oeste"
+  },
+  {
+    "id": "5103379",
+    "nome": "Cotriguaçu",
+    "uf": "MT",
+    "slug": "cotriguacu"
+  },
+  {
+    "id": "5103403",
+    "nome": "Cuiabá",
+    "uf": "MT",
+    "slug": "cuiaba"
+  },
+  {
+    "id": "5103437",
+    "nome": "Curvelândia",
+    "uf": "MT",
+    "slug": "curvelandia"
+  },
+  {
+    "id": "5103452",
+    "nome": "Denise",
+    "uf": "MT",
+    "slug": "denise"
+  },
+  {
+    "id": "5103502",
+    "nome": "Diamantino",
+    "uf": "MT",
+    "slug": "diamantino"
+  },
+  {
+    "id": "5103601",
+    "nome": "Dom Aquino",
+    "uf": "MT",
+    "slug": "dom-aquino"
+  },
+  {
+    "id": "5103700",
+    "nome": "Feliz Natal",
+    "uf": "MT",
+    "slug": "feliz-natal"
+  },
+  {
+    "id": "5103809",
+    "nome": "Figueirópolis D'Oeste",
+    "uf": "MT",
+    "slug": "figueiropolis-d'oeste"
+  },
+  {
+    "id": "5103858",
+    "nome": "Gaúcha do Norte",
+    "uf": "MT",
+    "slug": "gaucha-do-norte"
+  },
+  {
+    "id": "5103908",
+    "nome": "General Carneiro",
+    "uf": "MT",
+    "slug": "general-carneiro"
+  },
+  {
+    "id": "5103957",
+    "nome": "Glória D'Oeste",
+    "uf": "MT",
+    "slug": "gloria-d'oeste"
+  },
+  {
+    "id": "5104104",
+    "nome": "Guarantã do Norte",
+    "uf": "MT",
+    "slug": "guaranta-do-norte"
+  },
+  {
+    "id": "5104203",
+    "nome": "Guiratinga",
+    "uf": "MT",
+    "slug": "guiratinga"
+  },
+  {
+    "id": "5104500",
+    "nome": "Indiavaí",
+    "uf": "MT",
+    "slug": "indiavai"
+  },
+  {
+    "id": "5104526",
+    "nome": "Ipiranga do Norte",
+    "uf": "MT",
+    "slug": "ipiranga-do-norte"
+  },
+  {
+    "id": "5104542",
+    "nome": "Itanhangá",
+    "uf": "MT",
+    "slug": "itanhanga"
+  },
+  {
+    "id": "5104559",
+    "nome": "Itaúba",
+    "uf": "MT",
+    "slug": "itauba"
+  },
+  {
+    "id": "5104609",
+    "nome": "Itiquira",
+    "uf": "MT",
+    "slug": "itiquira"
+  },
+  {
+    "id": "5104807",
+    "nome": "Jaciara",
+    "uf": "MT",
+    "slug": "jaciara"
+  },
+  {
+    "id": "5104906",
+    "nome": "Jangada",
+    "uf": "MT",
+    "slug": "jangada"
+  },
+  {
+    "id": "5105002",
+    "nome": "Jauru",
+    "uf": "MT",
+    "slug": "jauru"
+  },
+  {
+    "id": "5105101",
+    "nome": "Juara",
+    "uf": "MT",
+    "slug": "juara"
+  },
+  {
+    "id": "5105150",
+    "nome": "Juína",
+    "uf": "MT",
+    "slug": "juina"
+  },
+  {
+    "id": "5105176",
+    "nome": "Juruena",
+    "uf": "MT",
+    "slug": "juruena"
+  },
+  {
+    "id": "5105200",
+    "nome": "Juscimeira",
+    "uf": "MT",
+    "slug": "juscimeira"
+  },
+  {
+    "id": "5105234",
+    "nome": "Lambari D'Oeste",
+    "uf": "MT",
+    "slug": "lambari-d'oeste"
+  },
+  {
+    "id": "5105259",
+    "nome": "Lucas do Rio Verde",
+    "uf": "MT",
+    "slug": "lucas-do-rio-verde"
+  },
+  {
+    "id": "5105309",
+    "nome": "Luciara",
+    "uf": "MT",
+    "slug": "luciara"
+  },
+  {
+    "id": "5105580",
+    "nome": "Marcelândia",
+    "uf": "MT",
+    "slug": "marcelandia"
+  },
+  {
+    "id": "5105606",
+    "nome": "Matupá",
+    "uf": "MT",
+    "slug": "matupa"
+  },
+  {
+    "id": "5105622",
+    "nome": "Mirassol d'Oeste",
+    "uf": "MT",
+    "slug": "mirassol-d'oeste"
+  },
+  {
+    "id": "5105903",
+    "nome": "Nobres",
+    "uf": "MT",
+    "slug": "nobres"
+  },
+  {
+    "id": "5106000",
+    "nome": "Nortelândia",
+    "uf": "MT",
+    "slug": "nortelandia"
+  },
+  {
+    "id": "5106109",
+    "nome": "Nossa Senhora do Livramento",
+    "uf": "MT",
+    "slug": "nossa-senhora-do-livramento"
+  },
+  {
+    "id": "5106158",
+    "nome": "Nova Bandeirantes",
+    "uf": "MT",
+    "slug": "nova-bandeirantes"
+  },
+  {
+    "id": "5106208",
+    "nome": "Nova Brasilândia",
+    "uf": "MT",
+    "slug": "nova-brasilandia"
+  },
+  {
+    "id": "5106216",
+    "nome": "Nova Canaã do Norte",
+    "uf": "MT",
+    "slug": "nova-canaa-do-norte"
+  },
+  {
+    "id": "5108808",
+    "nome": "Nova Guarita",
+    "uf": "MT",
+    "slug": "nova-guarita"
+  },
+  {
+    "id": "5106182",
+    "nome": "Nova Lacerda",
+    "uf": "MT",
+    "slug": "nova-lacerda"
+  },
+  {
+    "id": "5108857",
+    "nome": "Nova Marilândia",
+    "uf": "MT",
+    "slug": "nova-marilandia"
+  },
+  {
+    "id": "5108907",
+    "nome": "Nova Maringá",
+    "uf": "MT",
+    "slug": "nova-maringa"
+  },
+  {
+    "id": "5108956",
+    "nome": "Nova Monte Verde",
+    "uf": "MT",
+    "slug": "nova-monte-verde"
+  },
+  {
+    "id": "5106224",
+    "nome": "Nova Mutum",
+    "uf": "MT",
+    "slug": "nova-mutum"
+  },
+  {
+    "id": "5106174",
+    "nome": "Nova Nazaré",
+    "uf": "MT",
+    "slug": "nova-nazare"
+  },
+  {
+    "id": "5106232",
+    "nome": "Nova Olímpia",
+    "uf": "MT",
+    "slug": "nova-olimpia"
+  },
+  {
+    "id": "5106190",
+    "nome": "Nova Santa Helena",
+    "uf": "MT",
+    "slug": "nova-santa-helena"
+  },
+  {
+    "id": "5106240",
+    "nome": "Nova Ubiratã",
+    "uf": "MT",
+    "slug": "nova-ubirata"
+  },
+  {
+    "id": "5106257",
+    "nome": "Nova Xavantina",
+    "uf": "MT",
+    "slug": "nova-xavantina"
+  },
+  {
+    "id": "5106273",
+    "nome": "Novo Horizonte do Norte",
+    "uf": "MT",
+    "slug": "novo-horizonte-do-norte"
+  },
+  {
+    "id": "5106265",
+    "nome": "Novo Mundo",
+    "uf": "MT",
+    "slug": "novo-mundo"
+  },
+  {
+    "id": "5106315",
+    "nome": "Novo Santo Antônio",
+    "uf": "MT",
+    "slug": "novo-santo-antonio"
+  },
+  {
+    "id": "5106281",
+    "nome": "Novo São Joaquim",
+    "uf": "MT",
+    "slug": "novo-sao-joaquim"
+  },
+  {
+    "id": "5106299",
+    "nome": "Paranaíta",
+    "uf": "MT",
+    "slug": "paranaita"
+  },
+  {
+    "id": "5106307",
+    "nome": "Paranatinga",
+    "uf": "MT",
+    "slug": "paranatinga"
+  },
+  {
+    "id": "5106372",
+    "nome": "Pedra Preta",
+    "uf": "MT",
+    "slug": "pedra-preta"
+  },
+  {
+    "id": "5106422",
+    "nome": "Peixoto de Azevedo",
+    "uf": "MT",
+    "slug": "peixoto-de-azevedo"
+  },
+  {
+    "id": "5106455",
+    "nome": "Planalto da Serra",
+    "uf": "MT",
+    "slug": "planalto-da-serra"
+  },
+  {
+    "id": "5106505",
+    "nome": "Poconé",
+    "uf": "MT",
+    "slug": "pocone"
+  },
+  {
+    "id": "5106653",
+    "nome": "Pontal do Araguaia",
+    "uf": "MT",
+    "slug": "pontal-do-araguaia"
+  },
+  {
+    "id": "5106703",
+    "nome": "Ponte Branca",
+    "uf": "MT",
+    "slug": "ponte-branca"
+  },
+  {
+    "id": "5106752",
+    "nome": "Pontes e Lacerda",
+    "uf": "MT",
+    "slug": "pontes-e-lacerda"
+  },
+  {
+    "id": "5106778",
+    "nome": "Porto Alegre do Norte",
+    "uf": "MT",
+    "slug": "porto-alegre-do-norte"
+  },
+  {
+    "id": "5106802",
+    "nome": "Porto dos Gaúchos",
+    "uf": "MT",
+    "slug": "porto-dos-gauchos"
+  },
+  {
+    "id": "5106828",
+    "nome": "Porto Esperidião",
+    "uf": "MT",
+    "slug": "porto-esperidiao"
+  },
+  {
+    "id": "5106851",
+    "nome": "Porto Estrela",
+    "uf": "MT",
+    "slug": "porto-estrela"
+  },
+  {
+    "id": "5107008",
+    "nome": "Poxoréu",
+    "uf": "MT",
+    "slug": "poxoreu"
+  },
+  {
+    "id": "5107040",
+    "nome": "Primavera do Leste",
+    "uf": "MT",
+    "slug": "primavera-do-leste"
+  },
+  {
+    "id": "5107065",
+    "nome": "Querência",
+    "uf": "MT",
+    "slug": "querencia"
+  },
+  {
+    "id": "5107156",
+    "nome": "Reserva do Cabaçal",
+    "uf": "MT",
+    "slug": "reserva-do-cabacal"
+  },
+  {
+    "id": "5107180",
+    "nome": "Ribeirão Cascalheira",
+    "uf": "MT",
+    "slug": "ribeirao-cascalheira"
+  },
+  {
+    "id": "5107198",
+    "nome": "Ribeirãozinho",
+    "uf": "MT",
+    "slug": "ribeiraozinho"
+  },
+  {
+    "id": "5107206",
+    "nome": "Rio Branco",
+    "uf": "MT",
+    "slug": "rio-branco"
+  },
+  {
+    "id": "5107578",
+    "nome": "Rondolândia",
+    "uf": "MT",
+    "slug": "rondolandia"
+  },
+  {
+    "id": "5107602",
+    "nome": "Rondonópolis",
+    "uf": "MT",
+    "slug": "rondonopolis"
+  },
+  {
+    "id": "5107701",
+    "nome": "Rosário Oeste",
+    "uf": "MT",
+    "slug": "rosario-oeste"
+  },
+  {
+    "id": "5107750",
+    "nome": "Salto do Céu",
+    "uf": "MT",
+    "slug": "salto-do-ceu"
+  },
+  {
+    "id": "5107248",
+    "nome": "Santa Carmem",
+    "uf": "MT",
+    "slug": "santa-carmem"
+  },
+  {
+    "id": "5107743",
+    "nome": "Santa Cruz do Xingu",
+    "uf": "MT",
+    "slug": "santa-cruz-do-xingu"
+  },
+  {
+    "id": "5107768",
+    "nome": "Santa Rita do Trivelato",
+    "uf": "MT",
+    "slug": "santa-rita-do-trivelato"
+  },
+  {
+    "id": "5107776",
+    "nome": "Santa Terezinha",
+    "uf": "MT",
+    "slug": "santa-terezinha"
+  },
+  {
+    "id": "5107263",
+    "nome": "Santo Afonso",
+    "uf": "MT",
+    "slug": "santo-afonso"
+  },
+  {
+    "id": "5107800",
+    "nome": "Santo Antônio de Leverger",
+    "uf": "MT",
+    "slug": "santo-antonio-de-leverger"
+  },
+  {
+    "id": "5107792",
+    "nome": "Santo Antônio do Leste",
+    "uf": "MT",
+    "slug": "santo-antonio-do-leste"
+  },
+  {
+    "id": "5107859",
+    "nome": "São Félix do Araguaia",
+    "uf": "MT",
+    "slug": "sao-felix-do-araguaia"
+  },
+  {
+    "id": "5107297",
+    "nome": "São José do Povo",
+    "uf": "MT",
+    "slug": "sao-jose-do-povo"
+  },
+  {
+    "id": "5107305",
+    "nome": "São José do Rio Claro",
+    "uf": "MT",
+    "slug": "sao-jose-do-rio-claro"
+  },
+  {
+    "id": "5107354",
+    "nome": "São José do Xingu",
+    "uf": "MT",
+    "slug": "sao-jose-do-xingu"
+  },
+  {
+    "id": "5107107",
+    "nome": "São José dos Quatro Marcos",
+    "uf": "MT",
+    "slug": "sao-jose-dos-quatro-marcos"
+  },
+  {
+    "id": "5107404",
+    "nome": "São Pedro da Cipa",
+    "uf": "MT",
+    "slug": "sao-pedro-da-cipa"
+  },
+  {
+    "id": "5107875",
+    "nome": "Sapezal",
+    "uf": "MT",
+    "slug": "sapezal"
+  },
+  {
+    "id": "5107883",
+    "nome": "Serra Nova Dourada",
+    "uf": "MT",
+    "slug": "serra-nova-dourada"
+  },
+  {
+    "id": "5107909",
+    "nome": "Sinop",
+    "uf": "MT",
+    "slug": "sinop"
+  },
+  {
+    "id": "5107925",
+    "nome": "Sorriso",
+    "uf": "MT",
+    "slug": "sorriso"
+  },
+  {
+    "id": "5107941",
+    "nome": "Tabaporã",
+    "uf": "MT",
+    "slug": "tabapora"
+  },
+  {
+    "id": "5107958",
+    "nome": "Tangará da Serra",
+    "uf": "MT",
+    "slug": "tangara-da-serra"
+  },
+  {
+    "id": "5108006",
+    "nome": "Tapurah",
+    "uf": "MT",
+    "slug": "tapurah"
+  },
+  {
+    "id": "5108055",
+    "nome": "Terra Nova do Norte",
+    "uf": "MT",
+    "slug": "terra-nova-do-norte"
+  },
+  {
+    "id": "5108105",
+    "nome": "Tesouro",
+    "uf": "MT",
+    "slug": "tesouro"
+  },
+  {
+    "id": "5108204",
+    "nome": "Torixoréu",
+    "uf": "MT",
+    "slug": "torixoreu"
+  },
+  {
+    "id": "5108303",
+    "nome": "União do Sul",
+    "uf": "MT",
+    "slug": "uniao-do-sul"
+  },
+  {
+    "id": "5108352",
+    "nome": "Vale de São Domingos",
+    "uf": "MT",
+    "slug": "vale-de-sao-domingos"
+  },
+  {
+    "id": "5108402",
+    "nome": "Várzea Grande",
+    "uf": "MT",
+    "slug": "varzea-grande"
+  },
+  {
+    "id": "5108501",
+    "nome": "Vera",
+    "uf": "MT",
+    "slug": "vera"
+  },
+  {
+    "id": "5105507",
+    "nome": "Vila Bela da Santíssima Trindade",
+    "uf": "MT",
+    "slug": "vila-bela-da-santissima-trindade"
+  },
+  {
+    "id": "5108600",
+    "nome": "Vila Rica",
+    "uf": "MT",
+    "slug": "vila-rica"
+  }
+]

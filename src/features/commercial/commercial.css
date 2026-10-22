@@ -1,0 +1,238 @@
+.commercial-page {
+  padding-block: 36px 64px;
+  max-width: 1200px;
+}
+.commercial-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.commercial-hero h1 {
+  font-size: clamp(30px, 5vw, 48px);
+  margin: 8px 0;
+}
+.commercial-hero p {
+  color: var(--muted, #626966);
+}
+.commercial-demo {
+  background: #f3eee4;
+  border: 1px solid #ddcfb6;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.commercial-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+}
+.commercial-tabs button,
+.commercial-page button,
+.commercial-page .action-link {
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #d8ded9;
+  border-radius: 8px;
+  background: white;
+  color: #183e34;
+  font-weight: 600;
+}
+.commercial-tabs [aria-pressed="true"],
+.commercial-page button.primary {
+  background: #193f35;
+  color: white;
+  border-color: #193f35;
+}
+.commercial-layout {
+  display: grid;
+  gap: 24px;
+  align-items: start;
+}
+.commercial-form,
+.commercial-card {
+  background: white;
+  border: 1px solid #dbe1dc;
+  border-radius: 14px;
+  padding: 20px;
+  min-width: 0;
+}
+.commercial-form {
+  display: grid;
+  gap: 15px;
+}
+.commercial-form h2 {
+  margin: 0;
+}
+.commercial-form label {
+  display: grid;
+  gap: 6px;
+  font-weight: 500;
+}
+.commercial-form input,
+.commercial-form select,
+.commercial-form textarea,
+.report-filters input {
+  width: 100%;
+  min-height: 46px;
+  font-size: 16px;
+  border: 1px solid #cbd5ce;
+  border-radius: 7px;
+  padding: 10px;
+  background: white;
+  min-width: 0;
+}
+.commercial-form input[type="checkbox"] {
+  width: 20px;
+  min-height: 20px;
+}
+.commercial-form .check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.commercial-cards {
+  display: grid;
+  gap: 14px;
+}
+.commercial-card h3 {
+  margin: 0 0 10px;
+}
+.commercial-card p {
+  margin: 8px 0;
+  overflow-wrap: anywhere;
+}
+.commercial-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+.commercial-status {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #466557;
+}
+.commercial-message {
+  padding: 14px;
+  border: 1px solid #cbd5ce;
+  border-radius: 8px;
+  margin-block: 16px;
+  overflow-wrap: anywhere;
+}
+.commercial-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 24px 0;
+}
+.commercial-stats > div {
+  padding: 18px 10px;
+  background: #eef3ef;
+  border-radius: 12px;
+  overflow-wrap: anywhere;
+}
+.commercial-stats strong {
+  display: block;
+  font-size: clamp(24px, 4vw, 40px);
+}
+.commercial-stats span {
+  font-size: 13px;
+}
+.report-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+}
+.report-filters label {
+  display: grid;
+  gap: 6px;
+}
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  font-size: 14px;
+}
+.report-table td,
+.report-table th {
+  padding: 12px 6px;
+  border-bottom: 1px solid #dae1dc;
+  text-align: left;
+}
+.ad-slot {
+  padding-block: 18px;
+  max-width: 1200px;
+}
+.ad-slot > span {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: #707871;
+  margin-bottom: 7px;
+}
+.ad-slot a {
+  display: block;
+}
+.ad-slot img {
+  width: 100%;
+  max-height: 270px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.commercial-price {
+  display: grid;
+  gap: 10px;
+}
+.commercial-price input {
+  max-width: 180px;
+}
+.commercial-link {
+  overflow-wrap: anywhere;
+}
+.commercial-empty {
+  padding: 25px;
+  border: 1px dashed #b8c8bd;
+  border-radius: 12px;
+  color: #5a6c61;
+}
+@media (min-width: 900px) {
+  .commercial-layout {
+    grid-template-columns: 380px minmax(0, 1fr);
+  }
+  .commercial-form {
+    position: sticky;
+    top: 100px;
+  }
+  .commercial-stats {
+    gap: 18px;
+  }
+  .commercial-stats > div {
+    padding: 24px;
+  }
+}
+@media print {
+  header,
+  footer,
+  .cookies,
+  .report-filters,
+  .commercial-actions,
+  .commercial-demo {
+    display: none !important;
+  }
+  .commercial-page {
+    max-width: none;
+    padding: 0;
+  }
+  .commercial-stats > div {
+    border: 1px solid #ccc;
+    background: white;
+  }
+}

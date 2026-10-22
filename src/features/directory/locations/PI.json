@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "2200053",
+    "nome": "Acauã",
+    "uf": "PI",
+    "slug": "acaua"
+  },
+  {
+    "id": "2200103",
+    "nome": "Agricolândia",
+    "uf": "PI",
+    "slug": "agricolandia"
+  },
+  {
+    "id": "2200202",
+    "nome": "Água Branca",
+    "uf": "PI",
+    "slug": "agua-branca"
+  },
+  {
+    "id": "2200251",
+    "nome": "Alagoinha do Piauí",
+    "uf": "PI",
+    "slug": "alagoinha-do-piaui"
+  },
+  {
+    "id": "2200277",
+    "nome": "Alegrete do Piauí",
+    "uf": "PI",
+    "slug": "alegrete-do-piaui"
+  },
+  {
+    "id": "2200301",
+    "nome": "Alto Longá",
+    "uf": "PI",
+    "slug": "alto-longa"
+  },
+  {
+    "id": "2200400",
+    "nome": "Altos",
+    "uf": "PI",
+    "slug": "altos"
+  },
+  {
+    "id": "2200459",
+    "nome": "Alvorada do Gurguéia",
+    "uf": "PI",
+    "slug": "alvorada-do-gurgueia"
+  },
+  {
+    "id": "2200509",
+    "nome": "Amarante",
+    "uf": "PI",
+    "slug": "amarante"
+  },
+  {
+    "id": "2200608",
+    "nome": "Angical do Piauí",
+    "uf": "PI",
+    "slug": "angical-do-piaui"
+  },
+  {
+    "id": "2200707",
+    "nome": "Anísio de Abreu",
+    "uf": "PI",
+    "slug": "anisio-de-abreu"
+  },
+  {
+    "id": "2200806",
+    "nome": "Antônio Almeida",
+    "uf": "PI",
+    "slug": "antonio-almeida"
+  },
+  {
+    "id": "2200905",
+    "nome": "Aroazes",
+    "uf": "PI",
+    "slug": "aroazes"
+  },
+  {
+    "id": "2200954",
+    "nome": "Aroeiras do Itaim",
+    "uf": "PI",
+    "slug": "aroeiras-do-itaim"
+  },
+  {
+    "id": "2201002",
+    "nome": "Arraial",
+    "uf": "PI",
+    "slug": "arraial"
+  },
+  {
+    "id": "2201051",
+    "nome": "Assunção do Piauí",
+    "uf": "PI",
+    "slug": "assuncao-do-piaui"
+  },
+  {
+    "id": "2201101",
+    "nome": "Avelino Lopes",
+    "uf": "PI",
+    "slug": "avelino-lopes"
+  },
+  {
+    "id": "2201150",
+    "nome": "Baixa Grande do Ribeiro",
+    "uf": "PI",
+    "slug": "baixa-grande-do-ribeiro"
+  },
+  {
+    "id": "2201176",
+    "nome": "Barra D'Alcântara",
+    "uf": "PI",
+    "slug": "barra-d'alcantara"
+  },
+  {
+    "id": "2201200",
+    "nome": "Barras",
+    "uf": "PI",
+    "slug": "barras"
+  },
+  {
+    "id": "2201309",
+    "nome": "Barreiras do Piauí",
+    "uf": "PI",
+    "slug": "barreiras-do-piaui"
+  },
+  {
+    "id": "2201408",
+    "nome": "Barro Duro",
+    "uf": "PI",
+    "slug": "barro-duro"
+  },
+  {
+    "id": "2201507",
+    "nome": "Batalha",
+    "uf": "PI",
+    "slug": "batalha"
+  },
+  {
+    "id": "2201556",
+    "nome": "Bela Vista do Piauí",
+    "uf": "PI",
+    "slug": "bela-vista-do-piaui"
+  },
+  {
+    "id": "2201572",
+    "nome": "Belém do Piauí",
+    "uf": "PI",
+    "slug": "belem-do-piaui"
+  },
+  {
+    "id": "2201606",
+    "nome": "Beneditinos",
+    "uf": "PI",
+    "slug": "beneditinos"
+  },
+  {
+    "id": "2201705",
+    "nome": "Bertolínia",
+    "uf": "PI",
+    "slug": "bertolinia"
+  },
+  {
+    "id": "2201739",
+    "nome": "Betânia do Piauí",
+    "uf": "PI",
+    "slug": "betania-do-piaui"
+  },
+  {
+    "id": "2201770",
+    "nome": "Boa Hora",
+    "uf": "PI",
+    "slug": "boa-hora"
+  },
+  {
+    "id": "2201804",
+    "nome": "Bocaina",
+    "uf": "PI",
+    "slug": "bocaina"
+  },
+  {
+    "id": "2201903",
+    "nome": "Bom Jesus",
+    "uf": "PI",
+    "slug": "bom-jesus"
+  },
+  {
+    "id": "2201919",
+    "nome": "Bom Princípio do Piauí",
+    "uf": "PI",
+    "slug": "bom-principio-do-piaui"
+  },
+  {
+    "id": "2201929",
+    "nome": "Bonfim do Piauí",
+    "uf": "PI",
+    "slug": "bonfim-do-piaui"
+  },
+  {
+    "id": "2201945",
+    "nome": "Boqueirão do Piauí",
+    "uf": "PI",
+    "slug": "boqueirao-do-piaui"
+  },
+  {
+    "id": "2201960",
+    "nome": "Brasileira",
+    "uf": "PI",
+    "slug": "brasileira"
+  },
+  {
+    "id": "2201988",
+    "nome": "Brejo do Piauí",
+    "uf": "PI",
+    "slug": "brejo-do-piaui"
+  },
+  {
+    "id": "2202000",
+    "nome": "Buriti dos Lopes",
+    "uf": "PI",
+    "slug": "buriti-dos-lopes"
+  },
+  {
+    "id": "2202026",
+    "nome": "Buriti dos Montes",
+    "uf": "PI",
+    "slug": "buriti-dos-montes"
+  },
+  {
+    "id": "2202059",
+    "nome": "Cabeceiras do Piauí",
+    "uf": "PI",
+    "slug": "cabeceiras-do-piaui"
+  },
+  {
+    "id": "2202075",
+    "nome": "Cajazeiras do Piauí",
+    "uf": "PI",
+    "slug": "cajazeiras-do-piaui"
+  },
+  {
+    "id": "2202083",
+    "nome": "Cajueiro da Praia",
+    "uf": "PI",
+    "slug": "cajueiro-da-praia"
+  },
+  {
+    "id": "2202091",
+    "nome": "Caldeirão Grande do Piauí",
+    "uf": "PI",
+    "slug": "caldeirao-grande-do-piaui"
+  },
+  {
+    "id": "2202109",
+    "nome": "Campinas do Piauí",
+    "uf": "PI",
+    "slug": "campinas-do-piaui"
+  },
+  {
+    "id": "2202117",
+    "nome": "Campo Alegre do Fidalgo",
+    "uf": "PI",
+    "slug": "campo-alegre-do-fidalgo"
+  },
+  {
+    "id": "2202133",
+    "nome": "Campo Grande do Piauí",
+    "uf": "PI",
+    "slug": "campo-grande-do-piaui"
+  },
+  {
+    "id": "2202174",
+    "nome": "Campo Largo do Piauí",
+    "uf": "PI",
+    "slug": "campo-largo-do-piaui"
+  },
+  {
+    "id": "2202208",
+    "nome": "Campo Maior",
+    "uf": "PI",
+    "slug": "campo-maior"
+  },
+  {
+    "id": "2202251",
+    "nome": "Canavieira",
+    "uf": "PI",
+    "slug": "canavieira"
+  },
+  {
+    "id": "2202307",
+    "nome": "Canto do Buriti",
+    "uf": "PI",
+    "slug": "canto-do-buriti"
+  },
+  {
+    "id": "2202406",
+    "nome": "Capitão de Campos",
+    "uf": "PI",
+    "slug": "capitao-de-campos"
+  },
+  {
+    "id": "2202455",
+    "nome": "Capitão Gervásio Oliveira",
+    "uf": "PI",
+    "slug": "capitao-gervasio-oliveira"
+  },
+  {
+    "id": "2202505",
+    "nome": "Caracol",
+    "uf": "PI",
+    "slug": "caracol"
+  },
+  {
+    "id": "2202539",
+    "nome": "Caraúbas do Piauí",
+    "uf": "PI",
+    "slug": "caraubas-do-piaui"
+  },
+  {
+    "id": "2202554",
+    "nome": "Caridade do Piauí",
+    "uf": "PI",
+    "slug": "caridade-do-piaui"
+  },
+  {
+    "id": "2202604",
+    "nome": "Castelo do Piauí",
+    "uf": "PI",
+    "slug": "castelo-do-piaui"
+  },
+  {
+    "id": "2202653",
+    "nome": "Caxingó",
+    "uf": "PI",
+    "slug": "caxingo"
+  },
+  {
+    "id": "2202703",
+    "nome": "Cocal",
+    "uf": "PI",
+    "slug": "cocal"
+  },
+  {
+    "id": "2202711",
+    "nome": "Cocal de Telha",
+    "uf": "PI",
+    "slug": "cocal-de-telha"
+  },
+  {
+    "id": "2202729",
+    "nome": "Cocal dos Alves",
+    "uf": "PI",
+    "slug": "cocal-dos-alves"
+  },
+  {
+    "id": "2202737",
+    "nome": "Coivaras",
+    "uf": "PI",
+    "slug": "coivaras"
+  },
+  {
+    "id": "2202752",
+    "nome": "Colônia do Gurguéia",
+    "uf": "PI",
+    "slug": "colonia-do-gurgueia"
+  },
+  {
+    "id": "2202778",
+    "nome": "Colônia do Piauí",
+    "uf": "PI",
+    "slug": "colonia-do-piaui"
+  },
+  {
+    "id": "2202802",
+    "nome": "Conceição do Canindé",
+    "uf": "PI",
+    "slug": "conceicao-do-caninde"
+  },
+  {
+    "id": "2202851",
+    "nome": "Coronel José Dias",
+    "uf": "PI",
+    "slug": "coronel-jose-dias"
+  },
+  {
+    "id": "2202901",
+    "nome": "Corrente",
+    "uf": "PI",
+    "slug": "corrente"
+  },
+  {
+    "id": "2203008",
+    "nome": "Cristalândia do Piauí",
+    "uf": "PI",
+    "slug": "cristalandia-do-piaui"
+  },
+  {
+    "id": "2203107",
+    "nome": "Cristino Castro",
+    "uf": "PI",
+    "slug": "cristino-castro"
+  },
+  {
+    "id": "2203206",
+    "nome": "Curimatá",
+    "uf": "PI",
+    "slug": "curimata"
+  },
+  {
+    "id": "2203230",
+    "nome": "Currais",
+    "uf": "PI",
+    "slug": "currais"
+  },
+  {
+    "id": "2203271",
+    "nome": "Curral Novo do Piauí",
+    "uf": "PI",
+    "slug": "curral-novo-do-piaui"
+  },
+  {
+    "id": "2203255",
+    "nome": "Curralinhos",
+    "uf": "PI",
+    "slug": "curralinhos"
+  },
+  {
+    "id": "2203305",
+    "nome": "Demerval Lobão",
+    "uf": "PI",
+    "slug": "demerval-lobao"
+  },
+  {
+    "id": "2203354",
+    "nome": "Dirceu Arcoverde",
+    "uf": "PI",
+    "slug": "dirceu-arcoverde"
+  },
+  {
+    "id": "2203404",
+    "nome": "Dom Expedito Lopes",
+    "uf": "PI",
+    "slug": "dom-expedito-lopes"
+  },
+  {
+    "id": "2203453",
+    "nome": "Dom Inocêncio",
+    "uf": "PI",
+    "slug": "dom-inocencio"
+  },
+  {
+    "id": "2203420",
+    "nome": "Domingos Mourão",
+    "uf": "PI",
+    "slug": "domingos-mourao"
+  },
+  {
+    "id": "2203503",
+    "nome": "Elesbão Veloso",
+    "uf": "PI",
+    "slug": "elesbao-veloso"
+  },
+  {
+    "id": "2203602",
+    "nome": "Eliseu Martins",
+    "uf": "PI",
+    "slug": "eliseu-martins"
+  },
+  {
+    "id": "2203701",
+    "nome": "Esperantina",
+    "uf": "PI",
+    "slug": "esperantina"
+  },
+  {
+    "id": "2203750",
+    "nome": "Fartura do Piauí",
+    "uf": "PI",
+    "slug": "fartura-do-piaui"
+  },
+  {
+    "id": "2203800",
+    "nome": "Flores do Piauí",
+    "uf": "PI",
+    "slug": "flores-do-piaui"
+  },
+  {
+    "id": "2203859",
+    "nome": "Floresta do Piauí",
+    "uf": "PI",
+    "slug": "floresta-do-piaui"
+  },
+  {
+    "id": "2203909",
+    "nome": "Floriano",
+    "uf": "PI",
+    "slug": "floriano"
+  },
+  {
+    "id": "2204006",
+    "nome": "Francinópolis",
+    "uf": "PI",
+    "slug": "francinopolis"
+  },
+  {
+    "id": "2204105",
+    "nome": "Francisco Ayres",
+    "uf": "PI",
+    "slug": "francisco-ayres"
+  },
+  {
+    "id": "2204154",
+    "nome": "Francisco Macedo",
+    "uf": "PI",
+    "slug": "francisco-macedo"
+  },
+  {
+    "id": "2204204",
+    "nome": "Francisco Santos",
+    "uf": "PI",
+    "slug": "francisco-santos"
+  },
+  {
+    "id": "2204303",
+    "nome": "Fronteiras",
+    "uf": "PI",
+    "slug": "fronteiras"
+  },
+  {
+    "id": "2204352",
+    "nome": "Geminiano",
+    "uf": "PI",
+    "slug": "geminiano"
+  },
+  {
+    "id": "2204402",
+    "nome": "Gilbués",
+    "uf": "PI",
+    "slug": "gilbues"
+  },
+  {
+    "id": "2204501",
+    "nome": "Guadalupe",
+    "uf": "PI",
+    "slug": "guadalupe"
+  },
+  {
+    "id": "2204550",
+    "nome": "Guaribas",
+    "uf": "PI",
+    "slug": "guaribas"
+  },
+  {
+    "id": "2204600",
+    "nome": "Hugo Napoleão",
+    "uf": "PI",
+    "slug": "hugo-napoleao"
+  },
+  {
+    "id": "2204659",
+    "nome": "Ilha Grande",
+    "uf": "PI",
+    "slug": "ilha-grande"
+  },
+  {
+    "id": "2204709",
+    "nome": "Inhuma",
+    "uf": "PI",
+    "slug": "inhuma"
+  },
+  {
+    "id": "2204808",
+    "nome": "Ipiranga do Piauí",
+    "uf": "PI",
+    "slug": "ipiranga-do-piaui"
+  },
+  {
+    "id": "2204907",
+    "nome": "Isaías Coelho",
+    "uf": "PI",
+    "slug": "isaias-coelho"
+  },
+  {
+    "id": "2205003",
+    "nome": "Itainópolis",
+    "uf": "PI",
+    "slug": "itainopolis"
+  },
+  {
+    "id": "2205102",
+    "nome": "Itaueira",
+    "uf": "PI",
+    "slug": "itaueira"
+  },
+  {
+    "id": "2205151",
+    "nome": "Jacobina do Piauí",
+    "uf": "PI",
+    "slug": "jacobina-do-piaui"
+  },
+  {
+    "id": "2205201",
+    "nome": "Jaicós",
+    "uf": "PI",
+    "slug": "jaicos"
+  },
+  {
+    "id": "2205250",
+    "nome": "Jardim do Mulato",
+    "uf": "PI",
+    "slug": "jardim-do-mulato"
+  },
+  {
+    "id": "2205276",
+    "nome": "Jatobá do Piauí",
+    "uf": "PI",
+    "slug": "jatoba-do-piaui"
+  },
+  {
+    "id": "2205300",
+    "nome": "Jerumenha",
+    "uf": "PI",
+    "slug": "jerumenha"
+  },
+  {
+    "id": "2205359",
+    "nome": "João Costa",
+    "uf": "PI",
+    "slug": "joao-costa"
+  },
+  {
+    "id": "2205409",
+    "nome": "Joaquim Pires",
+    "uf": "PI",
+    "slug": "joaquim-pires"
+  },
+  {
+    "id": "2205458",
+    "nome": "Joca Marques",
+    "uf": "PI",
+    "slug": "joca-marques"
+  },
+  {
+    "id": "2205508",
+    "nome": "José de Freitas",
+    "uf": "PI",
+    "slug": "jose-de-freitas"
+  },
+  {
+    "id": "2205516",
+    "nome": "Juazeiro do Piauí",
+    "uf": "PI",
+    "slug": "juazeiro-do-piaui"
+  },
+  {
+    "id": "2205524",
+    "nome": "Júlio Borges",
+    "uf": "PI",
+    "slug": "julio-borges"
+  },
+  {
+    "id": "2205532",
+    "nome": "Jurema",
+    "uf": "PI",
+    "slug": "jurema"
+  },
+  {
+    "id": "2205557",
+    "nome": "Lagoa Alegre",
+    "uf": "PI",
+    "slug": "lagoa-alegre"
+  },
+  {
+    "id": "2205573",
+    "nome": "Lagoa de São Francisco",
+    "uf": "PI",
+    "slug": "lagoa-de-sao-francisco"
+  },
+  {
+    "id": "2205565",
+    "nome": "Lagoa do Barro do Piauí",
+    "uf": "PI",
+    "slug": "lagoa-do-barro-do-piaui"
+  },
+  {
+    "id": "2205581",
+    "nome": "Lagoa do Piauí",
+    "uf": "PI",
+    "slug": "lagoa-do-piaui"
+  },
+  {
+    "id": "2205599",
+    "nome": "Lagoa do Sítio",
+    "uf": "PI",
+    "slug": "lagoa-do-sitio"
+  },
+  {
+    "id": "2205540",
+    "nome": "Lagoinha do Piauí",
+    "uf": "PI",
+    "slug": "lagoinha-do-piaui"
+  },
+  {
+    "id": "2205607",
+    "nome": "Landri Sales",
+    "uf": "PI",
+    "slug": "landri-sales"
+  },
+  {
+    "id": "2205706",
+    "nome": "Luís Correia",
+    "uf": "PI",
+    "slug": "luis-correia"
+  },
+  {
+    "id": "2205805",
+    "nome": "Luzilândia",
+    "uf": "PI",
+    "slug": "luzilandia"
+  },
+  {
+    "id": "2205854",
+    "nome": "Madeiro",
+    "uf": "PI",
+    "slug": "madeiro"
+  },
+  {
+    "id": "2205904",
+    "nome": "Manoel Emídio",
+    "uf": "PI",
+    "slug": "manoel-emidio"
+  },
+  {
+    "id": "2205953",
+    "nome": "Marcolândia",
+    "uf": "PI",
+    "slug": "marcolandia"
+  },
+  {
+    "id": "2206001",
+    "nome": "Marcos Parente",
+    "uf": "PI",
+    "slug": "marcos-parente"
+  },
+  {
+    "id": "2206050",
+    "nome": "Massapê do Piauí",
+    "uf": "PI",
+    "slug": "massape-do-piaui"
+  },
+  {
+    "id": "2206100",
+    "nome": "Matias Olímpio",
+    "uf": "PI",
+    "slug": "matias-olimpio"
+  },
+  {
+    "id": "2206209",
+    "nome": "Miguel Alves",
+    "uf": "PI",
+    "slug": "miguel-alves"
+  },
+  {
+    "id": "2206308",
+    "nome": "Miguel Leão",
+    "uf": "PI",
+    "slug": "miguel-leao"
+  },
+  {
+    "id": "2206357",
+    "nome": "Milton Brandão",
+    "uf": "PI",
+    "slug": "milton-brandao"
+  },
+  {
+    "id": "2206407",
+    "nome": "Monsenhor Gil",
+    "uf": "PI",
+    "slug": "monsenhor-gil"
+  },
+  {
+    "id": "2206506",
+    "nome": "Monsenhor Hipólito",
+    "uf": "PI",
+    "slug": "monsenhor-hipolito"
+  },
+  {
+    "id": "2206605",
+    "nome": "Monte Alegre do Piauí",
+    "uf": "PI",
+    "slug": "monte-alegre-do-piaui"
+  },
+  {
+    "id": "2206654",
+    "nome": "Morro Cabeça no Tempo",
+    "uf": "PI",
+    "slug": "morro-cabeca-no-tempo"
+  },
+  {
+    "id": "2206670",
+    "nome": "Morro do Chapéu do Piauí",
+    "uf": "PI",
+    "slug": "morro-do-chapeu-do-piaui"
+  },
+  {
+    "id": "2206696",
+    "nome": "Murici dos Portelas",
+    "uf": "PI",
+    "slug": "murici-dos-portelas"
+  },
+  {
+    "id": "2206704",
+    "nome": "Nazaré do Piauí",
+    "uf": "PI",
+    "slug": "nazare-do-piaui"
+  },
+  {
+    "id": "2206720",
+    "nome": "Nazária",
+    "uf": "PI",
+    "slug": "nazaria"
+  },
+  {
+    "id": "2206753",
+    "nome": "Nossa Senhora de Nazaré",
+    "uf": "PI",
+    "slug": "nossa-senhora-de-nazare"
+  },
+  {
+    "id": "2206803",
+    "nome": "Nossa Senhora dos Remédios",
+    "uf": "PI",
+    "slug": "nossa-senhora-dos-remedios"
+  },
+  {
+    "id": "2207959",
+    "nome": "Nova Santa Rita",
+    "uf": "PI",
+    "slug": "nova-santa-rita"
+  },
+  {
+    "id": "2206902",
+    "nome": "Novo Oriente do Piauí",
+    "uf": "PI",
+    "slug": "novo-oriente-do-piaui"
+  },
+  {
+    "id": "2206951",
+    "nome": "Novo Santo Antônio",
+    "uf": "PI",
+    "slug": "novo-santo-antonio"
+  },
+  {
+    "id": "2207009",
+    "nome": "Oeiras",
+    "uf": "PI",
+    "slug": "oeiras"
+  },
+  {
+    "id": "2207108",
+    "nome": "Olho D'Água do Piauí",
+    "uf": "PI",
+    "slug": "olho-d'agua-do-piaui"
+  },
+  {
+    "id": "2207207",
+    "nome": "Padre Marcos",
+    "uf": "PI",
+    "slug": "padre-marcos"
+  },
+  {
+    "id": "2207306",
+    "nome": "Paes Landim",
+    "uf": "PI",
+    "slug": "paes-landim"
+  },
+  {
+    "id": "2207355",
+    "nome": "Pajeú do Piauí",
+    "uf": "PI",
+    "slug": "pajeu-do-piaui"
+  },
+  {
+    "id": "2207405",
+    "nome": "Palmeira do Piauí",
+    "uf": "PI",
+    "slug": "palmeira-do-piaui"
+  },
+  {
+    "id": "2207504",
+    "nome": "Palmeirais",
+    "uf": "PI",
+    "slug": "palmeirais"
+  },
+  {
+    "id": "2207553",
+    "nome": "Paquetá",
+    "uf": "PI",
+    "slug": "paqueta"
+  },
+  {
+    "id": "2207603",
+    "nome": "Parnaguá",
+    "uf": "PI",
+    "slug": "parnagua"
+  },
+  {
+    "id": "2207702",
+    "nome": "Parnaíba",
+    "uf": "PI",
+    "slug": "parnaiba"
+  },
+  {
+    "id": "2207751",
+    "nome": "Passagem Franca do Piauí",
+    "uf": "PI",
+    "slug": "passagem-franca-do-piaui"
+  },
+  {
+    "id": "2207777",
+    "nome": "Patos do Piauí",
+    "uf": "PI",
+    "slug": "patos-do-piaui"
+  },
+  {
+    "id": "2207793",
+    "nome": "Pau D'Arco do Piauí",
+    "uf": "PI",
+    "slug": "pau-d'arco-do-piaui"
+  },
+  {
+    "id": "2207801",
+    "nome": "Paulistana",
+    "uf": "PI",
+    "slug": "paulistana"
+  },
+  {
+    "id": "2207850",
+    "nome": "Pavussu",
+    "uf": "PI",
+    "slug": "pavussu"
+  },
+  {
+    "id": "2207900",
+    "nome": "Pedro II",
+    "uf": "PI",
+    "slug": "pedro-ii"
+  },
+  {
+    "id": "2207934",
+    "nome": "Pedro Laurentino",
+    "uf": "PI",
+    "slug": "pedro-laurentino"
+  },
+  {
+    "id": "2208007",
+    "nome": "Picos",
+    "uf": "PI",
+    "slug": "picos"
+  },
+  {
+    "id": "2208106",
+    "nome": "Pimenteiras",
+    "uf": "PI",
+    "slug": "pimenteiras"
+  },
+  {
+    "id": "2208205",
+    "nome": "Pio IX",
+    "uf": "PI",
+    "slug": "pio-ix"
+  },
+  {
+    "id": "2208304",
+    "nome": "Piracuruca",
+    "uf": "PI",
+    "slug": "piracuruca"
+  },
+  {
+    "id": "2208403",
+    "nome": "Piripiri",
+    "uf": "PI",
+    "slug": "piripiri"
+  },
+  {
+    "id": "2208502",
+    "nome": "Porto",
+    "uf": "PI",
+    "slug": "porto"
+  },
+  {
+    "id": "2208551",
+    "nome": "Porto Alegre do Piauí",
+    "uf": "PI",
+    "slug": "porto-alegre-do-piaui"
+  },
+  {
+    "id": "2208601",
+    "nome": "Prata do Piauí",
+    "uf": "PI",
+    "slug": "prata-do-piaui"
+  },
+  {
+    "id": "2208650",
+    "nome": "Queimada Nova",
+    "uf": "PI",
+    "slug": "queimada-nova"
+  },
+  {
+    "id": "2208700",
+    "nome": "Redenção do Gurguéia",
+    "uf": "PI",
+    "slug": "redencao-do-gurgueia"
+  },
+  {
+    "id": "2208809",
+    "nome": "Regeneração",
+    "uf": "PI",
+    "slug": "regeneracao"
+  },
+  {
+    "id": "2208858",
+    "nome": "Riacho Frio",
+    "uf": "PI",
+    "slug": "riacho-frio"
+  },
+  {
+    "id": "2208874",
+    "nome": "Ribeira do Piauí",
+    "uf": "PI",
+    "slug": "ribeira-do-piaui"
+  },
+  {
+    "id": "2208908",
+    "nome": "Ribeiro Gonçalves",
+    "uf": "PI",
+    "slug": "ribeiro-goncalves"
+  },
+  {
+    "id": "2209005",
+    "nome": "Rio Grande do Piauí",
+    "uf": "PI",
+    "slug": "rio-grande-do-piaui"
+  },
+  {
+    "id": "2209104",
+    "nome": "Santa Cruz do Piauí",
+    "uf": "PI",
+    "slug": "santa-cruz-do-piaui"
+  },
+  {
+    "id": "2209153",
+    "nome": "Santa Cruz dos Milagres",
+    "uf": "PI",
+    "slug": "santa-cruz-dos-milagres"
+  },
+  {
+    "id": "2209203",
+    "nome": "Santa Filomena",
+    "uf": "PI",
+    "slug": "santa-filomena"
+  },
+  {
+    "id": "2209302",
+    "nome": "Santa Luz",
+    "uf": "PI",
+    "slug": "santa-luz"
+  },
+  {
+    "id": "2209377",
+    "nome": "Santa Rosa do Piauí",
+    "uf": "PI",
+    "slug": "santa-rosa-do-piaui"
+  },
+  {
+    "id": "2209351",
+    "nome": "Santana do Piauí",
+    "uf": "PI",
+    "slug": "santana-do-piaui"
+  },
+  {
+    "id": "2209401",
+    "nome": "Santo Antônio de Lisboa",
+    "uf": "PI",
+    "slug": "santo-antonio-de-lisboa"
+  },
+  {
+    "id": "2209450",
+    "nome": "Santo Antônio dos Milagres",
+    "uf": "PI",
+    "slug": "santo-antonio-dos-milagres"
+  },
+  {
+    "id": "2209500",
+    "nome": "Santo Inácio do Piauí",
+    "uf": "PI",
+    "slug": "santo-inacio-do-piaui"
+  },
+  {
+    "id": "2209559",
+    "nome": "São Braz do Piauí",
+    "uf": "PI",
+    "slug": "sao-braz-do-piaui"
+  },
+  {
+    "id": "2209609",
+    "nome": "São Félix do Piauí",
+    "uf": "PI",
+    "slug": "sao-felix-do-piaui"
+  },
+  {
+    "id": "2209658",
+    "nome": "São Francisco de Assis do Piauí",
+    "uf": "PI",
+    "slug": "sao-francisco-de-assis-do-piaui"
+  },
+  {
+    "id": "2209708",
+    "nome": "São Francisco do Piauí",
+    "uf": "PI",
+    "slug": "sao-francisco-do-piaui"
+  },
+  {
+    "id": "2209757",
+    "nome": "São Gonçalo do Gurguéia",
+    "uf": "PI",
+    "slug": "sao-goncalo-do-gurgueia"
+  },
+  {
+    "id": "2209807",
+    "nome": "São Gonçalo do Piauí",
+    "uf": "PI",
+    "slug": "sao-goncalo-do-piaui"
+  },
+  {
+    "id": "2209856",
+    "nome": "São João da Canabrava",
+    "uf": "PI",
+    "slug": "sao-joao-da-canabrava"
+  },
+  {
+    "id": "2209872",
+    "nome": "São João da Fronteira",
+    "uf": "PI",
+    "slug": "sao-joao-da-fronteira"
+  },
+  {
+    "id": "2209906",
+    "nome": "São João da Serra",
+    "uf": "PI",
+    "slug": "sao-joao-da-serra"
+  },
+  {
+    "id": "2209955",
+    "nome": "São João da Varjota",
+    "uf": "PI",
+    "slug": "sao-joao-da-varjota"
+  },
+  {
+    "id": "2209971",
+    "nome": "São João do Arraial",
+    "uf": "PI",
+    "slug": "sao-joao-do-arraial"
+  },
+  {
+    "id": "2210003",
+    "nome": "São João do Piauí",
+    "uf": "PI",
+    "slug": "sao-joao-do-piaui"
+  },
+  {
+    "id": "2210052",
+    "nome": "São José do Divino",
+    "uf": "PI",
+    "slug": "sao-jose-do-divino"
+  },
+  {
+    "id": "2210102",
+    "nome": "São José do Peixe",
+    "uf": "PI",
+    "slug": "sao-jose-do-peixe"
+  },
+  {
+    "id": "2210201",
+    "nome": "São José do Piauí",
+    "uf": "PI",
+    "slug": "sao-jose-do-piaui"
+  },
+  {
+    "id": "2210300",
+    "nome": "São Julião",
+    "uf": "PI",
+    "slug": "sao-juliao"
+  },
+  {
+    "id": "2210359",
+    "nome": "São Lourenço do Piauí",
+    "uf": "PI",
+    "slug": "sao-lourenco-do-piaui"
+  },
+  {
+    "id": "2210375",
+    "nome": "São Luis do Piauí",
+    "uf": "PI",
+    "slug": "sao-luis-do-piaui"
+  },
+  {
+    "id": "2210383",
+    "nome": "São Miguel da Baixa Grande",
+    "uf": "PI",
+    "slug": "sao-miguel-da-baixa-grande"
+  },
+  {
+    "id": "2210391",
+    "nome": "São Miguel do Fidalgo",
+    "uf": "PI",
+    "slug": "sao-miguel-do-fidalgo"
+  },
+  {
+    "id": "2210409",
+    "nome": "São Miguel do Tapuio",
+    "uf": "PI",
+    "slug": "sao-miguel-do-tapuio"
+  },
+  {
+    "id": "2210508",
+    "nome": "São Pedro do Piauí",
+    "uf": "PI",
+    "slug": "sao-pedro-do-piaui"
+  },
+  {
+    "id": "2210607",
+    "nome": "São Raimundo Nonato",
+    "uf": "PI",
+    "slug": "sao-raimundo-nonato"
+  },
+  {
+    "id": "2210623",
+    "nome": "Sebastião Barros",
+    "uf": "PI",
+    "slug": "sebastiao-barros"
+  },
+  {
+    "id": "2210631",
+    "nome": "Sebastião Leal",
+    "uf": "PI",
+    "slug": "sebastiao-leal"
+  },
+  {
+    "id": "2210656",
+    "nome": "Sigefredo Pacheco",
+    "uf": "PI",
+    "slug": "sigefredo-pacheco"
+  },
+  {
+    "id": "2210706",
+    "nome": "Simões",
+    "uf": "PI",
+    "slug": "simoes"
+  },
+  {
+    "id": "2210805",
+    "nome": "Simplício Mendes",
+    "uf": "PI",
+    "slug": "simplicio-mendes"
+  },
+  {
+    "id": "2210904",
+    "nome": "Socorro do Piauí",
+    "uf": "PI",
+    "slug": "socorro-do-piaui"
+  },
+  {
+    "id": "2210938",
+    "nome": "Sussuapara",
+    "uf": "PI",
+    "slug": "sussuapara"
+  },
+  {
+    "id": "2210953",
+    "nome": "Tamboril do Piauí",
+    "uf": "PI",
+    "slug": "tamboril-do-piaui"
+  },
+  {
+    "id": "2210979",
+    "nome": "Tanque do Piauí",
+    "uf": "PI",
+    "slug": "tanque-do-piaui"
+  },
+  {
+    "id": "2211001",
+    "nome": "Teresina",
+    "uf": "PI",
+    "slug": "teresina"
+  },
+  {
+    "id": "2211100",
+    "nome": "União",
+    "uf": "PI",
+    "slug": "uniao"
+  },
+  {
+    "id": "2211209",
+    "nome": "Uruçuí",
+    "uf": "PI",
+    "slug": "urucui"
+  },
+  {
+    "id": "2211308",
+    "nome": "Valença do Piauí",
+    "uf": "PI",
+    "slug": "valenca-do-piaui"
+  },
+  {
+    "id": "2211357",
+    "nome": "Várzea Branca",
+    "uf": "PI",
+    "slug": "varzea-branca"
+  },
+  {
+    "id": "2211407",
+    "nome": "Várzea Grande",
+    "uf": "PI",
+    "slug": "varzea-grande"
+  },
+  {
+    "id": "2211506",
+    "nome": "Vera Mendes",
+    "uf": "PI",
+    "slug": "vera-mendes"
+  },
+  {
+    "id": "2211605",
+    "nome": "Vila Nova do Piauí",
+    "uf": "PI",
+    "slug": "vila-nova-do-piaui"
+  },
+  {
+    "id": "2211704",
+    "nome": "Wall Ferraz",
+    "uf": "PI",
+    "slug": "wall-ferraz"
+  }
+]

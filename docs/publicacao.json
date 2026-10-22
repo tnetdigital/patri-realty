@@ -1,0 +1,13 @@
+{
+  "provider": "AppDeploy",
+  "app_id": "patri-realty-previa-05je1j",
+  "url": "https://patri-realty-previa-05je1j.v2.appdeploy.ai/",
+  "purpose": "Prévia pública para análise visual",
+  "update_rule": "Reutilizar este app_id para manter o mesmo endereço. Ler o snapshot remoto atual antes de aplicar alterações; não criar outro app.",
+  "authentication": "Não configurada nesta prévia; nunca publicar .env.local ou credenciais do ambiente Docker.",
+  "snapshot_version": "1792476362206",
+  "phase": "Fase 4 — interface mobile first sem emojis",
+  "review_url": "https://patri-realty-previa-05je1j.v2.appdeploy.ai/#/guia",
+  "status": "ready",
+  "review_note": "Interface revisada para celular, com testes em 320/390/768/1280px e remoção de setas decorativas. Prévia fictícia sem backend definitivo conectado."
+}

@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "2600054",
+    "nome": "Abreu e Lima",
+    "uf": "PE",
+    "slug": "abreu-e-lima"
+  },
+  {
+    "id": "2600104",
+    "nome": "Afogados da Ingazeira",
+    "uf": "PE",
+    "slug": "afogados-da-ingazeira"
+  },
+  {
+    "id": "2600203",
+    "nome": "Afrânio",
+    "uf": "PE",
+    "slug": "afranio"
+  },
+  {
+    "id": "2600302",
+    "nome": "Agrestina",
+    "uf": "PE",
+    "slug": "agrestina"
+  },
+  {
+    "id": "2600401",
+    "nome": "Água Preta",
+    "uf": "PE",
+    "slug": "agua-preta"
+  },
+  {
+    "id": "2600500",
+    "nome": "Águas Belas",
+    "uf": "PE",
+    "slug": "aguas-belas"
+  },
+  {
+    "id": "2600609",
+    "nome": "Alagoinha",
+    "uf": "PE",
+    "slug": "alagoinha"
+  },
+  {
+    "id": "2600708",
+    "nome": "Aliança",
+    "uf": "PE",
+    "slug": "alianca"
+  },
+  {
+    "id": "2600807",
+    "nome": "Altinho",
+    "uf": "PE",
+    "slug": "altinho"
+  },
+  {
+    "id": "2600906",
+    "nome": "Amaraji",
+    "uf": "PE",
+    "slug": "amaraji"
+  },
+  {
+    "id": "2601003",
+    "nome": "Angelim",
+    "uf": "PE",
+    "slug": "angelim"
+  },
+  {
+    "id": "2601052",
+    "nome": "Araçoiaba",
+    "uf": "PE",
+    "slug": "aracoiaba"
+  },
+  {
+    "id": "2601102",
+    "nome": "Araripina",
+    "uf": "PE",
+    "slug": "araripina"
+  },
+  {
+    "id": "2601201",
+    "nome": "Arcoverde",
+    "uf": "PE",
+    "slug": "arcoverde"
+  },
+  {
+    "id": "2601300",
+    "nome": "Barra de Guabiraba",
+    "uf": "PE",
+    "slug": "barra-de-guabiraba"
+  },
+  {
+    "id": "2601409",
+    "nome": "Barreiros",
+    "uf": "PE",
+    "slug": "barreiros"
+  },
+  {
+    "id": "2601508",
+    "nome": "Belém de Maria",
+    "uf": "PE",
+    "slug": "belem-de-maria"
+  },
+  {
+    "id": "2601607",
+    "nome": "Belém do São Francisco",
+    "uf": "PE",
+    "slug": "belem-do-sao-francisco"
+  },
+  {
+    "id": "2601706",
+    "nome": "Belo Jardim",
+    "uf": "PE",
+    "slug": "belo-jardim"
+  },
+  {
+    "id": "2601805",
+    "nome": "Betânia",
+    "uf": "PE",
+    "slug": "betania"
+  },
+  {
+    "id": "2601904",
+    "nome": "Bezerros",
+    "uf": "PE",
+    "slug": "bezerros"
+  },
+  {
+    "id": "2602001",
+    "nome": "Bodocó",
+    "uf": "PE",
+    "slug": "bodoco"
+  },
+  {
+    "id": "2602100",
+    "nome": "Bom Conselho",
+    "uf": "PE",
+    "slug": "bom-conselho"
+  },
+  {
+    "id": "2602209",
+    "nome": "Bom Jardim",
+    "uf": "PE",
+    "slug": "bom-jardim"
+  },
+  {
+    "id": "2602308",
+    "nome": "Bonito",
+    "uf": "PE",
+    "slug": "bonito"
+  },
+  {
+    "id": "2602407",
+    "nome": "Brejão",
+    "uf": "PE",
+    "slug": "brejao"
+  },
+  {
+    "id": "2602506",
+    "nome": "Brejinho",
+    "uf": "PE",
+    "slug": "brejinho"
+  },
+  {
+    "id": "2602605",
+    "nome": "Brejo da Madre de Deus",
+    "uf": "PE",
+    "slug": "brejo-da-madre-de-deus"
+  },
+  {
+    "id": "2602704",
+    "nome": "Buenos Aires",
+    "uf": "PE",
+    "slug": "buenos-aires"
+  },
+  {
+    "id": "2602803",
+    "nome": "Buíque",
+    "uf": "PE",
+    "slug": "buique"
+  },
+  {
+    "id": "2602902",
+    "nome": "Cabo de Santo Agostinho",
+    "uf": "PE",
+    "slug": "cabo-de-santo-agostinho"
+  },
+  {
+    "id": "2603009",
+    "nome": "Cabrobó",
+    "uf": "PE",
+    "slug": "cabrobo"
+  },
+  {
+    "id": "2603108",
+    "nome": "Cachoeirinha",
+    "uf": "PE",
+    "slug": "cachoeirinha"
+  },
+  {
+    "id": "2603207",
+    "nome": "Caetés",
+    "uf": "PE",
+    "slug": "caetes"
+  },
+  {
+    "id": "2603306",
+    "nome": "Calçado",
+    "uf": "PE",
+    "slug": "calcado"
+  },
+  {
+    "id": "2603405",
+    "nome": "Calumbi",
+    "uf": "PE",
+    "slug": "calumbi"
+  },
+  {
+    "id": "2603454",
+    "nome": "Camaragibe",
+    "uf": "PE",
+    "slug": "camaragibe"
+  },
+  {
+    "id": "2603504",
+    "nome": "Camocim de São Félix",
+    "uf": "PE",
+    "slug": "camocim-de-sao-felix"
+  },
+  {
+    "id": "2603603",
+    "nome": "Camutanga",
+    "uf": "PE",
+    "slug": "camutanga"
+  },
+  {
+    "id": "2603702",
+    "nome": "Canhotinho",
+    "uf": "PE",
+    "slug": "canhotinho"
+  },
+  {
+    "id": "2603801",
+    "nome": "Capoeiras",
+    "uf": "PE",
+    "slug": "capoeiras"
+  },
+  {
+    "id": "2603900",
+    "nome": "Carnaíba",
+    "uf": "PE",
+    "slug": "carnaiba"
+  },
+  {
+    "id": "2603926",
+    "nome": "Carnaubeira da Penha",
+    "uf": "PE",
+    "slug": "carnaubeira-da-penha"
+  },
+  {
+    "id": "2604007",
+    "nome": "Carpina",
+    "uf": "PE",
+    "slug": "carpina"
+  },
+  {
+    "id": "2604106",
+    "nome": "Caruaru",
+    "uf": "PE",
+    "slug": "caruaru"
+  },
+  {
+    "id": "2604155",
+    "nome": "Casinhas",
+    "uf": "PE",
+    "slug": "casinhas"
+  },
+  {
+    "id": "2604205",
+    "nome": "Catende",
+    "uf": "PE",
+    "slug": "catende"
+  },
+  {
+    "id": "2604304",
+    "nome": "Cedro",
+    "uf": "PE",
+    "slug": "cedro"
+  },
+  {
+    "id": "2604403",
+    "nome": "Chã de Alegria",
+    "uf": "PE",
+    "slug": "cha-de-alegria"
+  },
+  {
+    "id": "2604502",
+    "nome": "Chã Grande",
+    "uf": "PE",
+    "slug": "cha-grande"
+  },
+  {
+    "id": "2604601",
+    "nome": "Condado",
+    "uf": "PE",
+    "slug": "condado"
+  },
+  {
+    "id": "2604700",
+    "nome": "Correntes",
+    "uf": "PE",
+    "slug": "correntes"
+  },
+  {
+    "id": "2604809",
+    "nome": "Cortês",
+    "uf": "PE",
+    "slug": "cortes"
+  },
+  {
+    "id": "2604908",
+    "nome": "Cumaru",
+    "uf": "PE",
+    "slug": "cumaru"
+  },
+  {
+    "id": "2605004",
+    "nome": "Cupira",
+    "uf": "PE",
+    "slug": "cupira"
+  },
+  {
+    "id": "2605103",
+    "nome": "Custódia",
+    "uf": "PE",
+    "slug": "custodia"
+  },
+  {
+    "id": "2605152",
+    "nome": "Dormentes",
+    "uf": "PE",
+    "slug": "dormentes"
+  },
+  {
+    "id": "2605202",
+    "nome": "Escada",
+    "uf": "PE",
+    "slug": "escada"
+  },
+  {
+    "id": "2605301",
+    "nome": "Exu",
+    "uf": "PE",
+    "slug": "exu"
+  },
+  {
+    "id": "2605400",
+    "nome": "Feira Nova",
+    "uf": "PE",
+    "slug": "feira-nova"
+  },
+  {
+    "id": "2605459",
+    "nome": "Fernando de Noronha",
+    "uf": "PE",
+    "slug": "fernando-de-noronha"
+  },
+  {
+    "id": "2605509",
+    "nome": "Ferreiros",
+    "uf": "PE",
+    "slug": "ferreiros"
+  },
+  {
+    "id": "2605608",
+    "nome": "Flores",
+    "uf": "PE",
+    "slug": "flores"
+  },
+  {
+    "id": "2605707",
+    "nome": "Floresta",
+    "uf": "PE",
+    "slug": "floresta"
+  },
+  {
+    "id": "2605806",
+    "nome": "Frei Miguelinho",
+    "uf": "PE",
+    "slug": "frei-miguelinho"
+  },
+  {
+    "id": "2605905",
+    "nome": "Gameleira",
+    "uf": "PE",
+    "slug": "gameleira"
+  },
+  {
+    "id": "2606002",
+    "nome": "Garanhuns",
+    "uf": "PE",
+    "slug": "garanhuns"
+  },
+  {
+    "id": "2606101",
+    "nome": "Glória do Goitá",
+    "uf": "PE",
+    "slug": "gloria-do-goita"
+  },
+  {
+    "id": "2606200",
+    "nome": "Goiana",
+    "uf": "PE",
+    "slug": "goiana"
+  },
+  {
+    "id": "2606309",
+    "nome": "Granito",
+    "uf": "PE",
+    "slug": "granito"
+  },
+  {
+    "id": "2606408",
+    "nome": "Gravatá",
+    "uf": "PE",
+    "slug": "gravata"
+  },
+  {
+    "id": "2606507",
+    "nome": "Iati",
+    "uf": "PE",
+    "slug": "iati"
+  },
+  {
+    "id": "2606606",
+    "nome": "Ibimirim",
+    "uf": "PE",
+    "slug": "ibimirim"
+  },
+  {
+    "id": "2606705",
+    "nome": "Ibirajuba",
+    "uf": "PE",
+    "slug": "ibirajuba"
+  },
+  {
+    "id": "2606804",
+    "nome": "Igarassu",
+    "uf": "PE",
+    "slug": "igarassu"
+  },
+  {
+    "id": "2606903",
+    "nome": "Iguaracy",
+    "uf": "PE",
+    "slug": "iguaracy"
+  },
+  {
+    "id": "2607604",
+    "nome": "Ilha de Itamaracá",
+    "uf": "PE",
+    "slug": "ilha-de-itamaraca"
+  },
+  {
+    "id": "2607000",
+    "nome": "Inajá",
+    "uf": "PE",
+    "slug": "inaja"
+  },
+  {
+    "id": "2607109",
+    "nome": "Ingazeira",
+    "uf": "PE",
+    "slug": "ingazeira"
+  },
+  {
+    "id": "2607208",
+    "nome": "Ipojuca",
+    "uf": "PE",
+    "slug": "ipojuca"
+  },
+  {
+    "id": "2607307",
+    "nome": "Ipubi",
+    "uf": "PE",
+    "slug": "ipubi"
+  },
+  {
+    "id": "2607406",
+    "nome": "Itacuruba",
+    "uf": "PE",
+    "slug": "itacuruba"
+  },
+  {
+    "id": "2607505",
+    "nome": "Itaíba",
+    "uf": "PE",
+    "slug": "itaiba"
+  },
+  {
+    "id": "2607653",
+    "nome": "Itambé",
+    "uf": "PE",
+    "slug": "itambe"
+  },
+  {
+    "id": "2607703",
+    "nome": "Itapetim",
+    "uf": "PE",
+    "slug": "itapetim"
+  },
+  {
+    "id": "2607752",
+    "nome": "Itapissuma",
+    "uf": "PE",
+    "slug": "itapissuma"
+  },
+  {
+    "id": "2607802",
+    "nome": "Itaquitinga",
+    "uf": "PE",
+    "slug": "itaquitinga"
+  },
+  {
+    "id": "2607901",
+    "nome": "Jaboatão dos Guararapes",
+    "uf": "PE",
+    "slug": "jaboatao-dos-guararapes"
+  },
+  {
+    "id": "2607950",
+    "nome": "Jaqueira",
+    "uf": "PE",
+    "slug": "jaqueira"
+  },
+  {
+    "id": "2608008",
+    "nome": "Jataúba",
+    "uf": "PE",
+    "slug": "jatauba"
+  },
+  {
+    "id": "2608057",
+    "nome": "Jatobá",
+    "uf": "PE",
+    "slug": "jatoba"
+  },
+  {
+    "id": "2608107",
+    "nome": "João Alfredo",
+    "uf": "PE",
+    "slug": "joao-alfredo"
+  },
+  {
+    "id": "2608206",
+    "nome": "Joaquim Nabuco",
+    "uf": "PE",
+    "slug": "joaquim-nabuco"
+  },
+  {
+    "id": "2608255",
+    "nome": "Jucati",
+    "uf": "PE",
+    "slug": "jucati"
+  },
+  {
+    "id": "2608305",
+    "nome": "Jupi",
+    "uf": "PE",
+    "slug": "jupi"
+  },
+  {
+    "id": "2608404",
+    "nome": "Jurema",
+    "uf": "PE",
+    "slug": "jurema"
+  },
+  {
+    "id": "2608503",
+    "nome": "Lagoa de Itaenga",
+    "uf": "PE",
+    "slug": "lagoa-de-itaenga"
+  },
+  {
+    "id": "2608453",
+    "nome": "Lagoa do Carro",
+    "uf": "PE",
+    "slug": "lagoa-do-carro"
+  },
+  {
+    "id": "2608602",
+    "nome": "Lagoa do Ouro",
+    "uf": "PE",
+    "slug": "lagoa-do-ouro"
+  },
+  {
+    "id": "2608701",
+    "nome": "Lagoa dos Gatos",
+    "uf": "PE",
+    "slug": "lagoa-dos-gatos"
+  },
+  {
+    "id": "2608750",
+    "nome": "Lagoa Grande",
+    "uf": "PE",
+    "slug": "lagoa-grande"
+  },
+  {
+    "id": "2608800",
+    "nome": "Lajedo",
+    "uf": "PE",
+    "slug": "lajedo"
+  },
+  {
+    "id": "2608909",
+    "nome": "Limoeiro",
+    "uf": "PE",
+    "slug": "limoeiro"
+  },
+  {
+    "id": "2609006",
+    "nome": "Macaparana",
+    "uf": "PE",
+    "slug": "macaparana"
+  },
+  {
+    "id": "2609105",
+    "nome": "Machados",
+    "uf": "PE",
+    "slug": "machados"
+  },
+  {
+    "id": "2609154",
+    "nome": "Manari",
+    "uf": "PE",
+    "slug": "manari"
+  },
+  {
+    "id": "2609204",
+    "nome": "Maraial",
+    "uf": "PE",
+    "slug": "maraial"
+  },
+  {
+    "id": "2609303",
+    "nome": "Mirandiba",
+    "uf": "PE",
+    "slug": "mirandiba"
+  },
+  {
+    "id": "2614303",
+    "nome": "Moreilândia",
+    "uf": "PE",
+    "slug": "moreilandia"
+  },
+  {
+    "id": "2609402",
+    "nome": "Moreno",
+    "uf": "PE",
+    "slug": "moreno"
+  },
+  {
+    "id": "2609501",
+    "nome": "Nazaré da Mata",
+    "uf": "PE",
+    "slug": "nazare-da-mata"
+  },
+  {
+    "id": "2609600",
+    "nome": "Olinda",
+    "uf": "PE",
+    "slug": "olinda"
+  },
+  {
+    "id": "2609709",
+    "nome": "Orobó",
+    "uf": "PE",
+    "slug": "orobo"
+  },
+  {
+    "id": "2609808",
+    "nome": "Orocó",
+    "uf": "PE",
+    "slug": "oroco"
+  },
+  {
+    "id": "2609907",
+    "nome": "Ouricuri",
+    "uf": "PE",
+    "slug": "ouricuri"
+  },
+  {
+    "id": "2610004",
+    "nome": "Palmares",
+    "uf": "PE",
+    "slug": "palmares"
+  },
+  {
+    "id": "2610103",
+    "nome": "Palmeirina",
+    "uf": "PE",
+    "slug": "palmeirina"
+  },
+  {
+    "id": "2610202",
+    "nome": "Panelas",
+    "uf": "PE",
+    "slug": "panelas"
+  },
+  {
+    "id": "2610301",
+    "nome": "Paranatama",
+    "uf": "PE",
+    "slug": "paranatama"
+  },
+  {
+    "id": "2610400",
+    "nome": "Parnamirim",
+    "uf": "PE",
+    "slug": "parnamirim"
+  },
+  {
+    "id": "2610509",
+    "nome": "Passira",
+    "uf": "PE",
+    "slug": "passira"
+  },
+  {
+    "id": "2610608",
+    "nome": "Paudalho",
+    "uf": "PE",
+    "slug": "paudalho"
+  },
+  {
+    "id": "2610707",
+    "nome": "Paulista",
+    "uf": "PE",
+    "slug": "paulista"
+  },
+  {
+    "id": "2610806",
+    "nome": "Pedra",
+    "uf": "PE",
+    "slug": "pedra"
+  },
+  {
+    "id": "2610905",
+    "nome": "Pesqueira",
+    "uf": "PE",
+    "slug": "pesqueira"
+  },
+  {
+    "id": "2611002",
+    "nome": "Petrolândia",
+    "uf": "PE",
+    "slug": "petrolandia"
+  },
+  {
+    "id": "2611101",
+    "nome": "Petrolina",
+    "uf": "PE",
+    "slug": "petrolina"
+  },
+  {
+    "id": "2611200",
+    "nome": "Poção",
+    "uf": "PE",
+    "slug": "pocao"
+  },
+  {
+    "id": "2611309",
+    "nome": "Pombos",
+    "uf": "PE",
+    "slug": "pombos"
+  },
+  {
+    "id": "2611408",
+    "nome": "Primavera",
+    "uf": "PE",
+    "slug": "primavera"
+  },
+  {
+    "id": "2611507",
+    "nome": "Quipapá",
+    "uf": "PE",
+    "slug": "quipapa"
+  },
+  {
+    "id": "2611533",
+    "nome": "Quixaba",
+    "uf": "PE",
+    "slug": "quixaba"
+  },
+  {
+    "id": "2611606",
+    "nome": "Recife",
+    "uf": "PE",
+    "slug": "recife"
+  },
+  {
+    "id": "2611705",
+    "nome": "Riacho das Almas",
+    "uf": "PE",
+    "slug": "riacho-das-almas"
+  },
+  {
+    "id": "2611804",
+    "nome": "Ribeirão",
+    "uf": "PE",
+    "slug": "ribeirao"
+  },
+  {
+    "id": "2611903",
+    "nome": "Rio Formoso",
+    "uf": "PE",
+    "slug": "rio-formoso"
+  },
+  {
+    "id": "2612000",
+    "nome": "Sairé",
+    "uf": "PE",
+    "slug": "saire"
+  },
+  {
+    "id": "2612109",
+    "nome": "Salgadinho",
+    "uf": "PE",
+    "slug": "salgadinho"
+  },
+  {
+    "id": "2612208",
+    "nome": "Salgueiro",
+    "uf": "PE",
+    "slug": "salgueiro"
+  },
+  {
+    "id": "2612307",
+    "nome": "Saloá",
+    "uf": "PE",
+    "slug": "saloa"
+  },
+  {
+    "id": "2612406",
+    "nome": "Sanharó",
+    "uf": "PE",
+    "slug": "sanharo"
+  },
+  {
+    "id": "2612455",
+    "nome": "Santa Cruz",
+    "uf": "PE",
+    "slug": "santa-cruz"
+  },
+  {
+    "id": "2612471",
+    "nome": "Santa Cruz da Baixa Verde",
+    "uf": "PE",
+    "slug": "santa-cruz-da-baixa-verde"
+  },
+  {
+    "id": "2612505",
+    "nome": "Santa Cruz do Capibaribe",
+    "uf": "PE",
+    "slug": "santa-cruz-do-capibaribe"
+  },
+  {
+    "id": "2612554",
+    "nome": "Santa Filomena",
+    "uf": "PE",
+    "slug": "santa-filomena"
+  },
+  {
+    "id": "2612604",
+    "nome": "Santa Maria da Boa Vista",
+    "uf": "PE",
+    "slug": "santa-maria-da-boa-vista"
+  },
+  {
+    "id": "2612703",
+    "nome": "Santa Maria do Cambucá",
+    "uf": "PE",
+    "slug": "santa-maria-do-cambuca"
+  },
+  {
+    "id": "2612802",
+    "nome": "Santa Terezinha",
+    "uf": "PE",
+    "slug": "santa-terezinha"
+  },
+  {
+    "id": "2612901",
+    "nome": "São Benedito do Sul",
+    "uf": "PE",
+    "slug": "sao-benedito-do-sul"
+  },
+  {
+    "id": "2613008",
+    "nome": "São Bento do Una",
+    "uf": "PE",
+    "slug": "sao-bento-do-una"
+  },
+  {
+    "id": "2613107",
+    "nome": "São Caitano",
+    "uf": "PE",
+    "slug": "sao-caitano"
+  },
+  {
+    "id": "2613206",
+    "nome": "São João",
+    "uf": "PE",
+    "slug": "sao-joao"
+  },
+  {
+    "id": "2613305",
+    "nome": "São Joaquim do Monte",
+    "uf": "PE",
+    "slug": "sao-joaquim-do-monte"
+  },
+  {
+    "id": "2613404",
+    "nome": "São José da Coroa Grande",
+    "uf": "PE",
+    "slug": "sao-jose-da-coroa-grande"
+  },
+  {
+    "id": "2613503",
+    "nome": "São José do Belmonte",
+    "uf": "PE",
+    "slug": "sao-jose-do-belmonte"
+  },
+  {
+    "id": "2613602",
+    "nome": "São José do Egito",
+    "uf": "PE",
+    "slug": "sao-jose-do-egito"
+  },
+  {
+    "id": "2613701",
+    "nome": "São Lourenço da Mata",
+    "uf": "PE",
+    "slug": "sao-lourenco-da-mata"
+  },
+  {
+    "id": "2613800",
+    "nome": "São Vicente Férrer",
+    "uf": "PE",
+    "slug": "sao-vicente-ferrer"
+  },
+  {
+    "id": "2613909",
+    "nome": "Serra Talhada",
+    "uf": "PE",
+    "slug": "serra-talhada"
+  },
+  {
+    "id": "2614006",
+    "nome": "Serrita",
+    "uf": "PE",
+    "slug": "serrita"
+  },
+  {
+    "id": "2614105",
+    "nome": "Sertânia",
+    "uf": "PE",
+    "slug": "sertania"
+  },
+  {
+    "id": "2614204",
+    "nome": "Sirinhaém",
+    "uf": "PE",
+    "slug": "sirinhaem"
+  },
+  {
+    "id": "2614402",
+    "nome": "Solidão",
+    "uf": "PE",
+    "slug": "solidao"
+  },
+  {
+    "id": "2614501",
+    "nome": "Surubim",
+    "uf": "PE",
+    "slug": "surubim"
+  },
+  {
+    "id": "2614600",
+    "nome": "Tabira",
+    "uf": "PE",
+    "slug": "tabira"
+  },
+  {
+    "id": "2614709",
+    "nome": "Tacaimbó",
+    "uf": "PE",
+    "slug": "tacaimbo"
+  },
+  {
+    "id": "2614808",
+    "nome": "Tacaratu",
+    "uf": "PE",
+    "slug": "tacaratu"
+  },
+  {
+    "id": "2614857",
+    "nome": "Tamandaré",
+    "uf": "PE",
+    "slug": "tamandare"
+  },
+  {
+    "id": "2615003",
+    "nome": "Taquaritinga do Norte",
+    "uf": "PE",
+    "slug": "taquaritinga-do-norte"
+  },
+  {
+    "id": "2615102",
+    "nome": "Terezinha",
+    "uf": "PE",
+    "slug": "terezinha"
+  },
+  {
+    "id": "2615201",
+    "nome": "Terra Nova",
+    "uf": "PE",
+    "slug": "terra-nova"
+  },
+  {
+    "id": "2615300",
+    "nome": "Timbaúba",
+    "uf": "PE",
+    "slug": "timbauba"
+  },
+  {
+    "id": "2615409",
+    "nome": "Toritama",
+    "uf": "PE",
+    "slug": "toritama"
+  },
+  {
+    "id": "2615508",
+    "nome": "Tracunhaém",
+    "uf": "PE",
+    "slug": "tracunhaem"
+  },
+  {
+    "id": "2615607",
+    "nome": "Trindade",
+    "uf": "PE",
+    "slug": "trindade"
+  },
+  {
+    "id": "2615706",
+    "nome": "Triunfo",
+    "uf": "PE",
+    "slug": "triunfo"
+  },
+  {
+    "id": "2615805",
+    "nome": "Tupanatinga",
+    "uf": "PE",
+    "slug": "tupanatinga"
+  },
+  {
+    "id": "2615904",
+    "nome": "Tuparetama",
+    "uf": "PE",
+    "slug": "tuparetama"
+  },
+  {
+    "id": "2616001",
+    "nome": "Venturosa",
+    "uf": "PE",
+    "slug": "venturosa"
+  },
+  {
+    "id": "2616100",
+    "nome": "Verdejante",
+    "uf": "PE",
+    "slug": "verdejante"
+  },
+  {
+    "id": "2616183",
+    "nome": "Vertente do Lério",
+    "uf": "PE",
+    "slug": "vertente-do-lerio"
+  },
+  {
+    "id": "2616209",
+    "nome": "Vertentes",
+    "uf": "PE",
+    "slug": "vertentes"
+  },
+  {
+    "id": "2616308",
+    "nome": "Vicência",
+    "uf": "PE",
+    "slug": "vicencia"
+  },
+  {
+    "id": "2616407",
+    "nome": "Vitória de Santo Antão",
+    "uf": "PE",
+    "slug": "vitoria-de-santo-antao"
+  },
+  {
+    "id": "2616506",
+    "nome": "Xexéu",
+    "uf": "PE",
+    "slug": "xexeu"
+  }
+]

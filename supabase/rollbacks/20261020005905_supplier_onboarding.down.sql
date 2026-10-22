@@ -1,0 +1,8 @@
+-- Destructive development rollback. Apply phase 2 rollbacks in reverse order.
+begin;
+drop policy if exists supplier_read on public.fornecedores;
+drop table if exists public.email_outbox,public.email_log,public.reivindicacoes,public.convites,public.fornecedor_alteracoes,public.faqs,public.cases,public.midias,public.servicos,public.cobertura,public.fornecedor_segmentos,public.fornecedor_membros cascade;
+DO $$declare item record;begin for item in select p.oid::regprocedure::text signature from pg_proc p join pg_namespace n on n.oid=p.pronamespace where n.nspname in ('public','private') and p.proname=any(array['can_edit_supplier','owns_supplier','limits_supplier','text_safe','media_safe','gerar_slug','supplier_snapshot','calcular_completude','save_supplier','submit_supplier','obter_fornecedor','salvar_fornecedor','enviar_fornecedor']) loop execute 'drop function if exists '||item.signature||' cascade';end loop;end$$;
+alter table public.fornecedores drop column razao_social,drop column slug,drop column whatsapp,drop column telefone,drop column email,drop column site,drop column instagram,drop column cep,drop column endereco,drop column cidade_id,drop column logo_url,drop column logo_thumb_url,drop column capa_url,drop column capa_thumb_url,drop column descricao_curta,drop column sobre,drop column ano_fundacao,drop column video_url,drop column certificacoes,drop column instagram_posts,drop column motivo_status,drop column completude,drop column etapa;
+create policy supplier_read on public.fornecedores for select to authenticated using(private.is_active() and (dono_id=auth.uid() or private.has_role(auth.uid(),'admin') or private.has_role(auth.uid(),'comercial')));
+commit;

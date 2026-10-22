@@ -1,0 +1,10 @@
+create or replace function private.sync_entitlements(sid uuid) returns void language plpgsql security definer set search_path='' as $$declare lim jsonb:=private.plan_limits(sid);begin
+ update public.midias m set oculto_por_plano=(x.n>coalesce((lim->>'fotos')::int,2147483647)) from (select id,row_number() over(order by ordem,criado_em,id) n from public.midias where fornecedor_id=sid and deletado_em is null) x where m.id=x.id and m.oculto_por_plano is distinct from (x.n>coalesce((lim->>'fotos')::int,2147483647));
+ update public.servicos m set oculto_por_plano=(x.n>coalesce((lim->>'servicos')::int,2147483647)) from (select id,row_number() over(order by ordem,criado_em,id) n from public.servicos where fornecedor_id=sid and deletado_em is null) x where m.id=x.id and m.oculto_por_plano is distinct from (x.n>coalesce((lim->>'servicos')::int,2147483647));
+ update public.cases m set oculto_por_plano=(x.n>coalesce((lim->>'cases')::int,2147483647)) from (select id,row_number() over(order by ordem,criado_em,id) n from public.cases where fornecedor_id=sid and deletado_em is null) x where m.id=x.id and m.oculto_por_plano is distinct from (x.n>coalesce((lim->>'cases')::int,2147483647));
+ if lim->>'leads' is null then update public.leads set status='novo' where fornecedor_id=sid and status='bloqueado_plano';end if;
+ update public.fornecedores set plano_codigo=private.effective_plan(sid) where id=sid and plano_codigo is distinct from private.effective_plan(sid);
+end;$$;
+create function private.guard_plan_write() returns trigger language plpgsql set search_path='' as $$begin if current_user in ('anon','authenticated','service_role') and new.plano_codigo is distinct from old.plano_codigo then raise exception 'Use a concessão auditada de plano' using errcode='42501';end if;return new;end;$$;
+revoke all on function private.guard_plan_write() from public;
+create trigger guard_plan_write before update of plano_codigo on public.fornecedores for each row execute function private.guard_plan_write();

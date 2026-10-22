@@ -1,0 +1,2077 @@
+{
+  "retrieved_at": "2026-10-20",
+  "carrara_count": 119,
+  "direcional_count": 85,
+  "canonical_count": 150,
+  "mapping": [
+    {
+      "canonical": "Segurança e portaria",
+      "slug": "seguranca-e-portaria",
+      "group": "seguranca",
+      "sources": []
+    },
+    {
+      "canonical": "Limpeza e conservação",
+      "slug": "limpeza-e-conservacao",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Higiene e Limpeza",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Higiene e Limpeza",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/higiene-e-limpeza/"
+        }
+      ]
+    },
+    {
+      "canonical": "Manutenção predial",
+      "slug": "manutencao-predial",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Manutenção Predial",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Manutenção Predial",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/manutencao-predial/"
+        }
+      ]
+    },
+    {
+      "canonical": "Elevadores",
+      "slug": "elevadores",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Elevadores",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Elevadores",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/elevadores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Administração condominial",
+      "slug": "administracao-condominial",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Administradora Condomínios",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Administradoras",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/administradoras/"
+        }
+      ]
+    },
+    {
+      "canonical": "Jardinagem e paisagismo",
+      "slug": "jardinagem-e-paisagismo",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Jardinagem",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Carrara",
+          "label": "Paisagismo",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Jardinagem",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/jardinagem/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Paisagismo",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/paisagismo/"
+        }
+      ]
+    },
+    {
+      "canonical": "Acessórios",
+      "slug": "acessorios",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Acessórios",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/acessorios/"
+        }
+      ]
+    },
+    {
+      "canonical": "Acessórios Esportivos",
+      "slug": "acessorios-esportivos",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Acessórios Esportivos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Acolchoados e Capas para Elevador",
+      "slug": "acolchoados-e-capas-para-elevador",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Acolchoados e Capas para Elevador",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Advocacia e assessoria jurídica",
+      "slug": "advocacia-e-assessoria-juridica",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Advocacia",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/advocacia/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Assessoria Jurídica",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/assessoria/"
+        }
+      ]
+    },
+    {
+      "canonical": "Amortecedores de Impacto para Garagem",
+      "slug": "amortecedores-de-impacto-para-garagem",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Amortecedores de Impacto para Garagem",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/amortecedores-de-impacto-para-garagem/"
+        }
+      ]
+    },
+    {
+      "canonical": "Antenas",
+      "slug": "antenas",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Antenas",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/antenas/"
+        }
+      ]
+    },
+    {
+      "canonical": "Aplicativos para condomínios",
+      "slug": "aplicativos-para-condominios",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Aplicativo para Condomínios | APP",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Ar Condicionado",
+      "slug": "ar-condicionado",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Ar Condicionado",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Areia e Pedra Portuguesa",
+      "slug": "areia-e-pedra-portuguesa",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Areia e Pedra Portuguesa",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Armários Inteligentes",
+      "slug": "armarios-inteligentes",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Armários Inteligentes",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Armários Inteligentes",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/armarios-inteligentes/"
+        }
+      ]
+    },
+    {
+      "canonical": "Arquitetura e design",
+      "slug": "arquitetura-e-design",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Arquitetura e Design",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Assistência Técnica Especializada",
+      "slug": "assistencia-tecnica-especializada",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Assistência Técnica Especializada",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Auditoria Condominial",
+      "slug": "auditoria-condominial",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Auditoria Condominial",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Automação",
+      "slug": "automacao",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Automação",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Automação",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/automacao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Automóveis",
+      "slug": "automoveis",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Automóveis",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "AVCB e regularização do Corpo de Bombeiros",
+      "slug": "avcb-e-regularizacao-do-corpo-de-bombeiros",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "AVCB - Auto Vistoria Corpo Bombeiros",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "AVCB",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/avcb/"
+        }
+      ]
+    },
+    {
+      "canonical": "Baterias e nobreaks",
+      "slug": "baterias-e-nobreaks",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Baterias e Nobreaks",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Baterias",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/baterias/"
+        }
+      ]
+    },
+    {
+      "canonical": "Bicicletário",
+      "slug": "bicicletario",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Bicicletário",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/bicicletario/"
+        }
+      ]
+    },
+    {
+      "canonical": "Bombas d’água",
+      "slug": "bombas-dagua",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Bombas D' Água",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Bombas d’água",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/bombas-dagua/"
+        }
+      ]
+    },
+    {
+      "canonical": "Brigada de Incêndio",
+      "slug": "brigada-de-incendio",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Brigada de Incêndio",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Cabeamento e Redes Informática",
+      "slug": "cabeamento-e-redes-informatica",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Cabeamento e Redes Informática",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Cadeiras",
+      "slug": "cadeiras",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Cadeiras",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/cadeiras/"
+        }
+      ]
+    },
+    {
+      "canonical": "Café",
+      "slug": "cafe",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Café",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Caixa de Correio",
+      "slug": "caixa-de-correio",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Caixa de Correio",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/caixa-de-correio/"
+        }
+      ]
+    },
+    {
+      "canonical": "Caixas D'Água",
+      "slug": "caixas-d-agua",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Caixas D'Água",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Calhas e Rufos",
+      "slug": "calhas-e-rufos",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Calhas e Rufos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Carregadores para veículos elétricos",
+      "slug": "carregadores-para-veiculos-eletricos",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Carregador de Veiculos Elétricos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Carregamento Veicular",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/carregamento-veicular/"
+        }
+      ]
+    },
+    {
+      "canonical": "Carrinhos de compras e aramados",
+      "slug": "carrinhos-de-compras-e-aramados",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Carrinhos de Compra | Aramados",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Carrinhos",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/carrinhos/"
+        }
+      ]
+    },
+    {
+      "canonical": "Casa de Câmbio",
+      "slug": "casa-de-cambio",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Casa de Câmbio",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Centro de Medição",
+      "slug": "centro-de-medicao",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Centro de Medição",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/centro-de-medicao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Cerca elétrica e sensores",
+      "slug": "cerca-eletrica-e-sensores",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Cerca Elétrica e Censores",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Cerca Elétrica",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/cerca-eletrica/"
+        }
+      ]
+    },
+    {
+      "canonical": "CFTV, câmeras e alarmes",
+      "slug": "cftv-cameras-e-alarmes",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "CFTV e Alarmes de Segurança",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Alarmes",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/alarmes/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Câmeras",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/cameras/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "CFTV",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/cftv/"
+        }
+      ]
+    },
+    {
+      "canonical": "Churrasqueiras",
+      "slug": "churrasqueiras",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Churrasqueiras",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Chuveiros",
+      "slug": "chuveiros",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Chuveiros",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Cimento e Argamassa",
+      "slug": "cimento-e-argamassa",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Cimento e Argamassa",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Coberturas e toldos",
+      "slug": "coberturas-e-toldos",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Coberturas para Garagem",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Coberturas & Toldos",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/coberturas-toldos/"
+        }
+      ]
+    },
+    {
+      "canonical": "Coleta seletiva",
+      "slug": "coleta-seletiva",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Coleta Seletiva",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Coleta Seletiva de Lixo",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/coleta-seletiva-de-lixo/"
+        }
+      ]
+    },
+    {
+      "canonical": "Comunicação visual e sinalização",
+      "slug": "comunicacao-visual-e-sinalizacao",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Comunicação Visual",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Sinalização",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/sinalizacao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Concertinas",
+      "slug": "concertinas",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Concertinas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Confeitaria e panificação",
+      "slug": "confeitaria-e-panificacao",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Confeitaria e Panetteria",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Consultoria",
+      "slug": "consultoria",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Consultoria",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/consultoria/"
+        }
+      ]
+    },
+    {
+      "canonical": "Consultoria Ambiental",
+      "slug": "consultoria-ambiental",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Consultoria Ambiental",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Consultoria de Segurança e Projetos",
+      "slug": "consultoria-de-seguranca-e-projetos",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Consultoria de Segurança e Projetos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Consultórios Médicos",
+      "slug": "consultorios-medicos",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Consultórios Médicos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Contabilidade",
+      "slug": "contabilidade",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Contabilidade",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Controle de Acesso",
+      "slug": "controle-de-acesso",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Controle de Acesso",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Controle de Acesso",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/controle-de-acesso/"
+        }
+      ]
+    },
+    {
+      "canonical": "Controle de pragas e dedetização",
+      "slug": "controle-de-pragas-e-dedetizacao",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Dedetização e Controle Pragas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Controle de Pragas",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/controle-de-pragas/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Dedetização",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/dedetizacao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Corrimão",
+      "slug": "corrimao",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Corrimão",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/corrimao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Cursos e Treinamentos",
+      "slug": "cursos-e-treinamentos",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Cursos e Treinamentos",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/cursos-e-treinamentos/"
+        }
+      ]
+    },
+    {
+      "canonical": "Decks e Varandas",
+      "slug": "decks-e-varandas",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Decks e Varandas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Departamento Pessoal",
+      "slug": "departamento-pessoal",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Departamento Pessoal",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Desentupidora",
+      "slug": "desentupidora",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Desentupidora",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Desentupidora",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/desentupidora/"
+        }
+      ]
+    },
+    {
+      "canonical": "Drywall",
+      "slug": "drywall",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Drywall",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Elétrica",
+      "slug": "eletrica",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Elétrica",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Elétrica",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/eletrica/"
+        }
+      ]
+    },
+    {
+      "canonical": "Energia Solar",
+      "slug": "energia-solar",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Energia Solar",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Engenharia e perícia predial",
+      "slug": "engenharia-e-pericia-predial",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Engenharia Civil, Perícia e Estrutural",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Engenharia",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/engenharia/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Perícia Predial",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/pericia-predial/"
+        }
+      ]
+    },
+    {
+      "canonical": "Envidraçamento de Sacadas",
+      "slug": "envidracamento-de-sacadas",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Envidraçamento de Sacadas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "EPIs e equipamentos de segurança",
+      "slug": "epis-e-equipamentos-de-seguranca",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "EPI'S | Equipamentos Segurança",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Equipamentos de ginástica",
+      "slug": "equipamentos-de-ginastica",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Equipamentos de Ginástica",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Fitness Equipamentos de Ginástica",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/fitness/"
+        }
+      ]
+    },
+    {
+      "canonical": "Escolas",
+      "slug": "escolas",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Escolas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Esquadrias de Alumínio",
+      "slug": "esquadrias-de-aluminio",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Esquadrias de Alumínio",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/esquadrias-de-aluminio/"
+        }
+      ]
+    },
+    {
+      "canonical": "Estacionamento e valet",
+      "slug": "estacionamento-e-valet",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Estacionamento | Valet Park",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Estrutura Metálica",
+      "slug": "estrutura-metalica",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Estrutura Metálica",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Extintores e Hidrantes de Incêndio",
+      "slug": "extintores-e-hidrantes-de-incendio",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Extintores e Hidrantes de Incêndio",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Floriculturas",
+      "slug": "floriculturas",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Floriculturas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Garagem",
+      "slug": "garagem",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Garagem",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/garagem/"
+        }
+      ]
+    },
+    {
+      "canonical": "Garantidora",
+      "slug": "garantidora",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Garantidora",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Garantidora",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/garantidora/"
+        }
+      ]
+    },
+    {
+      "canonical": "Gás",
+      "slug": "gas",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Gás",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/gas/"
+        }
+      ]
+    },
+    {
+      "canonical": "Geradores",
+      "slug": "geradores",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Geradores",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Geradores",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/geradores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Gerenciamento e Fiscalização Obras",
+      "slug": "gerenciamento-e-fiscalizacao-obras",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Gerenciamento e Fiscalização Obras",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Governança | Hospitalidade",
+      "slug": "governanca-hospitalidade",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Governança | Hospitalidade",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Grades",
+      "slug": "grades",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Grades",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/grades/"
+        }
+      ]
+    },
+    {
+      "canonical": "Gramas naturais e sintéticas",
+      "slug": "gramas-naturais-e-sinteticas",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Grama Sintética e Natural",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Grama Sintética",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/grama-sintetica/"
+        }
+      ]
+    },
+    {
+      "canonical": "Hidráulica",
+      "slug": "hidraulica",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Hidráulica",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Hidráulica",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/hidraulica/"
+        }
+      ]
+    },
+    {
+      "canonical": "Higienização de Sofá",
+      "slug": "higienizacao-de-sofa",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Higienização de Sofá",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Hotéis, resorts e spas",
+      "slug": "hoteis-resorts-e-spas",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Hotel, Resorts e SPA",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Iluminação de áreas comuns",
+      "slug": "iluminacao-de-areas-comuns",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Iluminação | Área Comum",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Iluminação",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/iluminacao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Iluminação de Emergência",
+      "slug": "iluminacao-de-emergencia",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Iluminação de Emergência",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Iluminação de Emergência",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/iluminacao-de-emergencia/"
+        }
+      ]
+    },
+    {
+      "canonical": "Impermeabilização",
+      "slug": "impermeabilizacao",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Impermeabilização",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Impermeabilização",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/impermeabilizacao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Impermeabilização de Caixa d’água",
+      "slug": "impermeabilizacao-de-caixa-dagua",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Impermeabilização de Caixa d’água",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/impermeabilizacao-de-caixa-dagua/"
+        }
+      ]
+    },
+    {
+      "canonical": "Individualização de Água e Gás",
+      "slug": "individualizacao-de-agua-e-gas",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Individualização de Água e Gás",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Inspeção Predial",
+      "slug": "inspecao-predial",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Inspeção Predial",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/inspecao-predial/"
+        }
+      ]
+    },
+    {
+      "canonical": "Interfones",
+      "slug": "interfones",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Interfones",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Interfones",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/interfones/"
+        }
+      ]
+    },
+    {
+      "canonical": "Lavanderia",
+      "slug": "lavanderia",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Lavanderia",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Lavanderia",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/lavanderia/"
+        }
+      ]
+    },
+    {
+      "canonical": "Lixeiras e Containers",
+      "slug": "lixeiras-e-containers",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Lixeiras e Containers",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Madeireira",
+      "slug": "madeireira",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Madeireira",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Marina e Embarcações",
+      "slug": "marina-e-embarcacoes",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Marina e Embarcações",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Mármores, granitos e pedras",
+      "slug": "marmores-granitos-e-pedras",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Marmoraria | Granito | Jazidas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Material de Construção",
+      "slug": "material-de-construcao",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Material de Construção",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Material Elétrico",
+      "slug": "material-eletrico",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Material Elétrico",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/material-eletrico/"
+        }
+      ]
+    },
+    {
+      "canonical": "Mídia",
+      "slug": "midia",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Mídia",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/midia/"
+        }
+      ]
+    },
+    {
+      "canonical": "Minimercado",
+      "slug": "minimercado",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Minimercado",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Móveis",
+      "slug": "moveis",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Móveis",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Móveis para Área Externa",
+      "slug": "moveis-para-area-externa",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Móveis para Área Externa",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Móveis Planejados",
+      "slug": "moveis-planejados",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Móveis Planejados",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Mudanças e Transportes",
+      "slug": "mudancas-e-transportes",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Mudanças e Transportes",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Ombrelones e Guarda-Sol",
+      "slug": "ombrelones-e-guarda-sol",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Ombrelones e Guarda-Sol",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Organização Profissional",
+      "slug": "organizacao-profissional",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Organização Profissional",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Para-raios",
+      "slug": "para-raios",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Para-Raios",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Para-raios",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/para-raios/"
+        }
+      ]
+    },
+    {
+      "canonical": "Película Solar",
+      "slug": "pelicula-solar",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Película Solar",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Pets e serviços para animais",
+      "slug": "pets-e-servicos-para-animais",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Animais | Pets",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Pintura e restauração de fachadas",
+      "slug": "pintura-e-restauracao-de-fachadas",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Fachadas | Restauração e Pintura",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Fachadas",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/fachadas/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Pinturas Prediais",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/pinturas-prediais/"
+        }
+      ]
+    },
+    {
+      "canonical": "Piscinas",
+      "slug": "piscinas",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Piscinas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Piscinas",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/piscinas/"
+        }
+      ]
+    },
+    {
+      "canonical": "Pisos de Segurança",
+      "slug": "pisos-de-seguranca",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Pisos de Segurança",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/pisos-de-seguranca/"
+        }
+      ]
+    },
+    {
+      "canonical": "Pisos e revestimentos",
+      "slug": "pisos-e-revestimentos",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Pisos e Revestimentos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Pisos",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/pisos/"
+        }
+      ]
+    },
+    {
+      "canonical": "Pisos para Garagens",
+      "slug": "pisos-para-garagens",
+      "group": "estrutura",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Pisos para Garagens",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/pisos-para-garagens/"
+        }
+      ]
+    },
+    {
+      "canonical": "Playgrounds e brinquedos",
+      "slug": "playgrounds-e-brinquedos",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Playground | Brinquedos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Playground",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/playground/"
+        }
+      ]
+    },
+    {
+      "canonical": "Poços Artesianos",
+      "slug": "pocos-artesianos",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Poços Artesianos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Portaria Remota",
+      "slug": "portaria-remota",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Portaria Remota",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Portaria Remota",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/portaria-remota/"
+        }
+      ]
+    },
+    {
+      "canonical": "Portas, Batentes e Janelas",
+      "slug": "portas-batentes-e-janelas",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Portas, Batentes e Janelas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Portas Corta-fogo",
+      "slug": "portas-corta-fogo",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Portas Corta-fogo",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Portões automáticos e manuais",
+      "slug": "portoes-automaticos-e-manuais",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Portões Automáticos e Manuais",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Portões Automáticos",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/portoes-automaticos/"
+        }
+      ]
+    },
+    {
+      "canonical": "Prevenção e combate a incêndio",
+      "slug": "prevencao-e-combate-a-incendio",
+      "group": "incendio",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Incêndio",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/incendio/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Prevenção Contra Incêndio",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/prevencao-contra-incendio/"
+        }
+      ]
+    },
+    {
+      "canonical": "Produtos de limpeza",
+      "slug": "produtos-de-limpeza",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Produtos de limpeza",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/produtos-de-limpeza/"
+        }
+      ]
+    },
+    {
+      "canonical": "Prumadas Elétricas",
+      "slug": "prumadas-eletricas",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Prumadas Elétricas",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/prumadas-eletricas/"
+        }
+      ]
+    },
+    {
+      "canonical": "Purificadores de água e bebedouros",
+      "slug": "purificadores-de-agua-e-bebedouros",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Purificador de Água",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Bebedouro",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/bebedouro/"
+        }
+      ]
+    },
+    {
+      "canonical": "Quadras Poliesportivas",
+      "slug": "quadras-poliesportivas",
+      "group": "lazer",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Quadras Poliesportivas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Quadras Poliesportivas",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/quadras-poliesportivas/"
+        }
+      ]
+    },
+    {
+      "canonical": "Quadros e Molduras",
+      "slug": "quadros-e-molduras",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Quadros e Molduras",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Recuperação Estrutural",
+      "slug": "recuperacao-estrutural",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Recuperação Estrutural",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/recuperacao-estrutural/"
+        }
+      ]
+    },
+    {
+      "canonical": "Redes de Proteção",
+      "slug": "redes-de-protecao",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Redes de Proteção",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Restaurantes",
+      "slug": "restaurantes",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Restaurantes",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Retrofit",
+      "slug": "retrofit",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Retrofit",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/retrofit/"
+        }
+      ]
+    },
+    {
+      "canonical": "Saco de lixo",
+      "slug": "saco-de-lixo",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Saco de lixo",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/saco-de-lixo/"
+        }
+      ]
+    },
+    {
+      "canonical": "Segurança Eletrônica",
+      "slug": "seguranca-eletronica",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Segurança Eletrônica",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Segurança Eletrônica",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/seguranca-eletronica/"
+        }
+      ]
+    },
+    {
+      "canonical": "Seguros",
+      "slug": "seguros",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Seguros",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Seguros",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/seguros/"
+        }
+      ]
+    },
+    {
+      "canonical": "Self Storage",
+      "slug": "self-storage",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Self Storage",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Sensores de Presença",
+      "slug": "sensores-de-presenca",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Sensores de Presença",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/sensores-de-presenca/"
+        }
+      ]
+    },
+    {
+      "canonical": "Serralheria",
+      "slug": "serralheria",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Serralheria",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/serralheria/"
+        }
+      ]
+    },
+    {
+      "canonical": "Síndico Profissional",
+      "slug": "sindico-profissional",
+      "group": "gestao",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Síndico Profissional",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Sistemas de Segurança",
+      "slug": "sistemas-de-seguranca",
+      "group": "seguranca",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Sistemas de Segurança",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/sistemas-de-seguranca/"
+        }
+      ]
+    },
+    {
+      "canonical": "Tampas de Alumínio",
+      "slug": "tampas-de-aluminio",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Tampas de Alumínio",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Tapetes e capachos",
+      "slug": "tapetes-e-capachos",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Tapetes Personalizados | Capacho",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Tapetes",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/tapetes/"
+        }
+      ]
+    },
+    {
+      "canonical": "Telhados e Telhas",
+      "slug": "telhados-e-telhas",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Telhados e Telhas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Terceirização e facilities",
+      "slug": "terceirizacao-e-facilities",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Terceirização e Facilities",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Terceirização",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/terceirizacao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Teste de Estanqueidade",
+      "slug": "teste-de-estanqueidade",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Teste de Estanqueidade",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Tintas",
+      "slug": "tintas",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Tintas",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Totem Carregador",
+      "slug": "totem-carregador",
+      "group": "energia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Totem Carregador",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Tratamento de Pisos",
+      "slug": "tratamento-de-pisos",
+      "group": "limpeza",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Tratamento de Pisos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        },
+        {
+          "portal": "Direcional",
+          "label": "Tratamento de Pisos",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/tratamento-de-pisos/"
+        }
+      ]
+    },
+    {
+      "canonical": "Tratamento e Análise de Água",
+      "slug": "tratamento-e-analise-de-agua",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Tratamento e Análise de Água",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Tubos e Conexões",
+      "slug": "tubos-e-conexoes",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Tubos e Conexões",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "TV por Assinatura",
+      "slug": "tv-por-assinatura",
+      "group": "tecnologia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "TV por Assinatura",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Válvulas Redutoras de Pressão",
+      "slug": "valvulas-redutoras-de-pressao",
+      "group": "agua",
+      "sources": [
+        {
+          "portal": "Direcional",
+          "label": "Válvulas Redutoras de Pressão",
+          "url": "https://direcionalcondominios.com.br/categoria_fornecedor/valvulas-redutoras-de-pressao/"
+        }
+      ]
+    },
+    {
+      "canonical": "Vidros e Espelhos",
+      "slug": "vidros-e-espelhos",
+      "group": "obras",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Vidros e Espelhos",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    },
+    {
+      "canonical": "Vinhos e Espumantes",
+      "slug": "vinhos-e-espumantes",
+      "group": "moradia",
+      "sources": [
+        {
+          "portal": "Carrara",
+          "label": "Vinhos e Espumantes",
+          "url": "https://www.carraracondominios.com.br/fornecedores/"
+        }
+      ]
+    }
+  ]
+}

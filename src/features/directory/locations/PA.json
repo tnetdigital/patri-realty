@@ -1,0 +1,866 @@
+[
+  {
+    "id": "1500107",
+    "nome": "Abaetetuba",
+    "uf": "PA",
+    "slug": "abaetetuba"
+  },
+  {
+    "id": "1500131",
+    "nome": "Abel Figueiredo",
+    "uf": "PA",
+    "slug": "abel-figueiredo"
+  },
+  {
+    "id": "1500206",
+    "nome": "Acará",
+    "uf": "PA",
+    "slug": "acara"
+  },
+  {
+    "id": "1500305",
+    "nome": "Afuá",
+    "uf": "PA",
+    "slug": "afua"
+  },
+  {
+    "id": "1500347",
+    "nome": "Água Azul do Norte",
+    "uf": "PA",
+    "slug": "agua-azul-do-norte"
+  },
+  {
+    "id": "1500404",
+    "nome": "Alenquer",
+    "uf": "PA",
+    "slug": "alenquer"
+  },
+  {
+    "id": "1500503",
+    "nome": "Almeirim",
+    "uf": "PA",
+    "slug": "almeirim"
+  },
+  {
+    "id": "1500602",
+    "nome": "Altamira",
+    "uf": "PA",
+    "slug": "altamira"
+  },
+  {
+    "id": "1500701",
+    "nome": "Anajás",
+    "uf": "PA",
+    "slug": "anajas"
+  },
+  {
+    "id": "1500800",
+    "nome": "Ananindeua",
+    "uf": "PA",
+    "slug": "ananindeua"
+  },
+  {
+    "id": "1500859",
+    "nome": "Anapu",
+    "uf": "PA",
+    "slug": "anapu"
+  },
+  {
+    "id": "1500909",
+    "nome": "Augusto Corrêa",
+    "uf": "PA",
+    "slug": "augusto-correa"
+  },
+  {
+    "id": "1500958",
+    "nome": "Aurora do Pará",
+    "uf": "PA",
+    "slug": "aurora-do-para"
+  },
+  {
+    "id": "1501006",
+    "nome": "Aveiro",
+    "uf": "PA",
+    "slug": "aveiro"
+  },
+  {
+    "id": "1501105",
+    "nome": "Bagre",
+    "uf": "PA",
+    "slug": "bagre"
+  },
+  {
+    "id": "1501204",
+    "nome": "Baião",
+    "uf": "PA",
+    "slug": "baiao"
+  },
+  {
+    "id": "1501253",
+    "nome": "Bannach",
+    "uf": "PA",
+    "slug": "bannach"
+  },
+  {
+    "id": "1501303",
+    "nome": "Barcarena",
+    "uf": "PA",
+    "slug": "barcarena"
+  },
+  {
+    "id": "1501402",
+    "nome": "Belém",
+    "uf": "PA",
+    "slug": "belem"
+  },
+  {
+    "id": "1501451",
+    "nome": "Belterra",
+    "uf": "PA",
+    "slug": "belterra"
+  },
+  {
+    "id": "1501501",
+    "nome": "Benevides",
+    "uf": "PA",
+    "slug": "benevides"
+  },
+  {
+    "id": "1501576",
+    "nome": "Bom Jesus do Tocantins",
+    "uf": "PA",
+    "slug": "bom-jesus-do-tocantins"
+  },
+  {
+    "id": "1501600",
+    "nome": "Bonito",
+    "uf": "PA",
+    "slug": "bonito"
+  },
+  {
+    "id": "1501709",
+    "nome": "Bragança",
+    "uf": "PA",
+    "slug": "braganca"
+  },
+  {
+    "id": "1501725",
+    "nome": "Brasil Novo",
+    "uf": "PA",
+    "slug": "brasil-novo"
+  },
+  {
+    "id": "1501758",
+    "nome": "Brejo Grande do Araguaia",
+    "uf": "PA",
+    "slug": "brejo-grande-do-araguaia"
+  },
+  {
+    "id": "1501782",
+    "nome": "Breu Branco",
+    "uf": "PA",
+    "slug": "breu-branco"
+  },
+  {
+    "id": "1501808",
+    "nome": "Breves",
+    "uf": "PA",
+    "slug": "breves"
+  },
+  {
+    "id": "1501907",
+    "nome": "Bujaru",
+    "uf": "PA",
+    "slug": "bujaru"
+  },
+  {
+    "id": "1502004",
+    "nome": "Cachoeira do Arari",
+    "uf": "PA",
+    "slug": "cachoeira-do-arari"
+  },
+  {
+    "id": "1501956",
+    "nome": "Cachoeira do Piriá",
+    "uf": "PA",
+    "slug": "cachoeira-do-piria"
+  },
+  {
+    "id": "1502103",
+    "nome": "Cametá",
+    "uf": "PA",
+    "slug": "cameta"
+  },
+  {
+    "id": "1502152",
+    "nome": "Canaã dos Carajás",
+    "uf": "PA",
+    "slug": "canaa-dos-carajas"
+  },
+  {
+    "id": "1502202",
+    "nome": "Capanema",
+    "uf": "PA",
+    "slug": "capanema"
+  },
+  {
+    "id": "1502301",
+    "nome": "Capitão Poço",
+    "uf": "PA",
+    "slug": "capitao-poco"
+  },
+  {
+    "id": "1502400",
+    "nome": "Castanhal",
+    "uf": "PA",
+    "slug": "castanhal"
+  },
+  {
+    "id": "1502509",
+    "nome": "Chaves",
+    "uf": "PA",
+    "slug": "chaves"
+  },
+  {
+    "id": "1502608",
+    "nome": "Colares",
+    "uf": "PA",
+    "slug": "colares"
+  },
+  {
+    "id": "1502707",
+    "nome": "Conceição do Araguaia",
+    "uf": "PA",
+    "slug": "conceicao-do-araguaia"
+  },
+  {
+    "id": "1502756",
+    "nome": "Concórdia do Pará",
+    "uf": "PA",
+    "slug": "concordia-do-para"
+  },
+  {
+    "id": "1502764",
+    "nome": "Cumaru do Norte",
+    "uf": "PA",
+    "slug": "cumaru-do-norte"
+  },
+  {
+    "id": "1502772",
+    "nome": "Curionópolis",
+    "uf": "PA",
+    "slug": "curionopolis"
+  },
+  {
+    "id": "1502806",
+    "nome": "Curralinho",
+    "uf": "PA",
+    "slug": "curralinho"
+  },
+  {
+    "id": "1502855",
+    "nome": "Curuá",
+    "uf": "PA",
+    "slug": "curua"
+  },
+  {
+    "id": "1502905",
+    "nome": "Curuçá",
+    "uf": "PA",
+    "slug": "curuca"
+  },
+  {
+    "id": "1502939",
+    "nome": "Dom Eliseu",
+    "uf": "PA",
+    "slug": "dom-eliseu"
+  },
+  {
+    "id": "1502954",
+    "nome": "Eldorado do Carajás",
+    "uf": "PA",
+    "slug": "eldorado-do-carajas"
+  },
+  {
+    "id": "1503002",
+    "nome": "Faro",
+    "uf": "PA",
+    "slug": "faro"
+  },
+  {
+    "id": "1503044",
+    "nome": "Floresta do Araguaia",
+    "uf": "PA",
+    "slug": "floresta-do-araguaia"
+  },
+  {
+    "id": "1503077",
+    "nome": "Garrafão do Norte",
+    "uf": "PA",
+    "slug": "garrafao-do-norte"
+  },
+  {
+    "id": "1503093",
+    "nome": "Goianésia do Pará",
+    "uf": "PA",
+    "slug": "goianesia-do-para"
+  },
+  {
+    "id": "1503101",
+    "nome": "Gurupá",
+    "uf": "PA",
+    "slug": "gurupa"
+  },
+  {
+    "id": "1503200",
+    "nome": "Igarapé-Açu",
+    "uf": "PA",
+    "slug": "igarape-acu"
+  },
+  {
+    "id": "1503309",
+    "nome": "Igarapé-Miri",
+    "uf": "PA",
+    "slug": "igarape-miri"
+  },
+  {
+    "id": "1503408",
+    "nome": "Inhangapi",
+    "uf": "PA",
+    "slug": "inhangapi"
+  },
+  {
+    "id": "1503457",
+    "nome": "Ipixuna do Pará",
+    "uf": "PA",
+    "slug": "ipixuna-do-para"
+  },
+  {
+    "id": "1503507",
+    "nome": "Irituia",
+    "uf": "PA",
+    "slug": "irituia"
+  },
+  {
+    "id": "1503606",
+    "nome": "Itaituba",
+    "uf": "PA",
+    "slug": "itaituba"
+  },
+  {
+    "id": "1503705",
+    "nome": "Itupiranga",
+    "uf": "PA",
+    "slug": "itupiranga"
+  },
+  {
+    "id": "1503754",
+    "nome": "Jacareacanga",
+    "uf": "PA",
+    "slug": "jacareacanga"
+  },
+  {
+    "id": "1503804",
+    "nome": "Jacundá",
+    "uf": "PA",
+    "slug": "jacunda"
+  },
+  {
+    "id": "1503903",
+    "nome": "Juruti",
+    "uf": "PA",
+    "slug": "juruti"
+  },
+  {
+    "id": "1504000",
+    "nome": "Limoeiro do Ajuru",
+    "uf": "PA",
+    "slug": "limoeiro-do-ajuru"
+  },
+  {
+    "id": "1504059",
+    "nome": "Mãe do Rio",
+    "uf": "PA",
+    "slug": "mae-do-rio"
+  },
+  {
+    "id": "1504109",
+    "nome": "Magalhães Barata",
+    "uf": "PA",
+    "slug": "magalhaes-barata"
+  },
+  {
+    "id": "1504208",
+    "nome": "Marabá",
+    "uf": "PA",
+    "slug": "maraba"
+  },
+  {
+    "id": "1504307",
+    "nome": "Maracanã",
+    "uf": "PA",
+    "slug": "maracana"
+  },
+  {
+    "id": "1504406",
+    "nome": "Marapanim",
+    "uf": "PA",
+    "slug": "marapanim"
+  },
+  {
+    "id": "1504422",
+    "nome": "Marituba",
+    "uf": "PA",
+    "slug": "marituba"
+  },
+  {
+    "id": "1504455",
+    "nome": "Medicilândia",
+    "uf": "PA",
+    "slug": "medicilandia"
+  },
+  {
+    "id": "1504505",
+    "nome": "Melgaço",
+    "uf": "PA",
+    "slug": "melgaco"
+  },
+  {
+    "id": "1504604",
+    "nome": "Mocajuba",
+    "uf": "PA",
+    "slug": "mocajuba"
+  },
+  {
+    "id": "1504703",
+    "nome": "Moju",
+    "uf": "PA",
+    "slug": "moju"
+  },
+  {
+    "id": "1504752",
+    "nome": "Mojuí dos Campos",
+    "uf": "PA",
+    "slug": "mojui-dos-campos"
+  },
+  {
+    "id": "1504802",
+    "nome": "Monte Alegre",
+    "uf": "PA",
+    "slug": "monte-alegre"
+  },
+  {
+    "id": "1504901",
+    "nome": "Muaná",
+    "uf": "PA",
+    "slug": "muana"
+  },
+  {
+    "id": "1504950",
+    "nome": "Nova Esperança do Piriá",
+    "uf": "PA",
+    "slug": "nova-esperanca-do-piria"
+  },
+  {
+    "id": "1504976",
+    "nome": "Nova Ipixuna",
+    "uf": "PA",
+    "slug": "nova-ipixuna"
+  },
+  {
+    "id": "1505007",
+    "nome": "Nova Timboteua",
+    "uf": "PA",
+    "slug": "nova-timboteua"
+  },
+  {
+    "id": "1505031",
+    "nome": "Novo Progresso",
+    "uf": "PA",
+    "slug": "novo-progresso"
+  },
+  {
+    "id": "1505064",
+    "nome": "Novo Repartimento",
+    "uf": "PA",
+    "slug": "novo-repartimento"
+  },
+  {
+    "id": "1505106",
+    "nome": "Óbidos",
+    "uf": "PA",
+    "slug": "obidos"
+  },
+  {
+    "id": "1505205",
+    "nome": "Oeiras do Pará",
+    "uf": "PA",
+    "slug": "oeiras-do-para"
+  },
+  {
+    "id": "1505304",
+    "nome": "Oriximiná",
+    "uf": "PA",
+    "slug": "oriximina"
+  },
+  {
+    "id": "1505403",
+    "nome": "Ourém",
+    "uf": "PA",
+    "slug": "ourem"
+  },
+  {
+    "id": "1505437",
+    "nome": "Ourilândia do Norte",
+    "uf": "PA",
+    "slug": "ourilandia-do-norte"
+  },
+  {
+    "id": "1505486",
+    "nome": "Pacajá",
+    "uf": "PA",
+    "slug": "pacaja"
+  },
+  {
+    "id": "1505494",
+    "nome": "Palestina do Pará",
+    "uf": "PA",
+    "slug": "palestina-do-para"
+  },
+  {
+    "id": "1505502",
+    "nome": "Paragominas",
+    "uf": "PA",
+    "slug": "paragominas"
+  },
+  {
+    "id": "1505536",
+    "nome": "Parauapebas",
+    "uf": "PA",
+    "slug": "parauapebas"
+  },
+  {
+    "id": "1505551",
+    "nome": "Pau D'Arco",
+    "uf": "PA",
+    "slug": "pau-d'arco"
+  },
+  {
+    "id": "1505601",
+    "nome": "Peixe-Boi",
+    "uf": "PA",
+    "slug": "peixe-boi"
+  },
+  {
+    "id": "1505635",
+    "nome": "Piçarra",
+    "uf": "PA",
+    "slug": "picarra"
+  },
+  {
+    "id": "1505650",
+    "nome": "Placas",
+    "uf": "PA",
+    "slug": "placas"
+  },
+  {
+    "id": "1505700",
+    "nome": "Ponta de Pedras",
+    "uf": "PA",
+    "slug": "ponta-de-pedras"
+  },
+  {
+    "id": "1505809",
+    "nome": "Portel",
+    "uf": "PA",
+    "slug": "portel"
+  },
+  {
+    "id": "1505908",
+    "nome": "Porto de Moz",
+    "uf": "PA",
+    "slug": "porto-de-moz"
+  },
+  {
+    "id": "1506005",
+    "nome": "Prainha",
+    "uf": "PA",
+    "slug": "prainha"
+  },
+  {
+    "id": "1506104",
+    "nome": "Primavera",
+    "uf": "PA",
+    "slug": "primavera"
+  },
+  {
+    "id": "1506112",
+    "nome": "Quatipuru",
+    "uf": "PA",
+    "slug": "quatipuru"
+  },
+  {
+    "id": "1506138",
+    "nome": "Redenção",
+    "uf": "PA",
+    "slug": "redencao"
+  },
+  {
+    "id": "1506161",
+    "nome": "Rio Maria",
+    "uf": "PA",
+    "slug": "rio-maria"
+  },
+  {
+    "id": "1506187",
+    "nome": "Rondon do Pará",
+    "uf": "PA",
+    "slug": "rondon-do-para"
+  },
+  {
+    "id": "1506195",
+    "nome": "Rurópolis",
+    "uf": "PA",
+    "slug": "ruropolis"
+  },
+  {
+    "id": "1506203",
+    "nome": "Salinópolis",
+    "uf": "PA",
+    "slug": "salinopolis"
+  },
+  {
+    "id": "1506302",
+    "nome": "Salvaterra",
+    "uf": "PA",
+    "slug": "salvaterra"
+  },
+  {
+    "id": "1506351",
+    "nome": "Santa Bárbara do Pará",
+    "uf": "PA",
+    "slug": "santa-barbara-do-para"
+  },
+  {
+    "id": "1506401",
+    "nome": "Santa Cruz do Arari",
+    "uf": "PA",
+    "slug": "santa-cruz-do-arari"
+  },
+  {
+    "id": "1506500",
+    "nome": "Santa Izabel do Pará",
+    "uf": "PA",
+    "slug": "santa-izabel-do-para"
+  },
+  {
+    "id": "1506559",
+    "nome": "Santa Luzia do Pará",
+    "uf": "PA",
+    "slug": "santa-luzia-do-para"
+  },
+  {
+    "id": "1506583",
+    "nome": "Santa Maria das Barreiras",
+    "uf": "PA",
+    "slug": "santa-maria-das-barreiras"
+  },
+  {
+    "id": "1506609",
+    "nome": "Santa Maria do Pará",
+    "uf": "PA",
+    "slug": "santa-maria-do-para"
+  },
+  {
+    "id": "1506708",
+    "nome": "Santana do Araguaia",
+    "uf": "PA",
+    "slug": "santana-do-araguaia"
+  },
+  {
+    "id": "1506807",
+    "nome": "Santarém",
+    "uf": "PA",
+    "slug": "santarem"
+  },
+  {
+    "id": "1506906",
+    "nome": "Santarém Novo",
+    "uf": "PA",
+    "slug": "santarem-novo"
+  },
+  {
+    "id": "1507003",
+    "nome": "Santo Antônio do Tauá",
+    "uf": "PA",
+    "slug": "santo-antonio-do-taua"
+  },
+  {
+    "id": "1507102",
+    "nome": "São Caetano de Odivelas",
+    "uf": "PA",
+    "slug": "sao-caetano-de-odivelas"
+  },
+  {
+    "id": "1507151",
+    "nome": "São Domingos do Araguaia",
+    "uf": "PA",
+    "slug": "sao-domingos-do-araguaia"
+  },
+  {
+    "id": "1507201",
+    "nome": "São Domingos do Capim",
+    "uf": "PA",
+    "slug": "sao-domingos-do-capim"
+  },
+  {
+    "id": "1507300",
+    "nome": "São Félix do Xingu",
+    "uf": "PA",
+    "slug": "sao-felix-do-xingu"
+  },
+  {
+    "id": "1507409",
+    "nome": "São Francisco do Pará",
+    "uf": "PA",
+    "slug": "sao-francisco-do-para"
+  },
+  {
+    "id": "1507458",
+    "nome": "São Geraldo do Araguaia",
+    "uf": "PA",
+    "slug": "sao-geraldo-do-araguaia"
+  },
+  {
+    "id": "1507466",
+    "nome": "São João da Ponta",
+    "uf": "PA",
+    "slug": "sao-joao-da-ponta"
+  },
+  {
+    "id": "1507474",
+    "nome": "São João de Pirabas",
+    "uf": "PA",
+    "slug": "sao-joao-de-pirabas"
+  },
+  {
+    "id": "1507508",
+    "nome": "São João do Araguaia",
+    "uf": "PA",
+    "slug": "sao-joao-do-araguaia"
+  },
+  {
+    "id": "1507607",
+    "nome": "São Miguel do Guamá",
+    "uf": "PA",
+    "slug": "sao-miguel-do-guama"
+  },
+  {
+    "id": "1507706",
+    "nome": "São Sebastião da Boa Vista",
+    "uf": "PA",
+    "slug": "sao-sebastiao-da-boa-vista"
+  },
+  {
+    "id": "1507755",
+    "nome": "Sapucaia",
+    "uf": "PA",
+    "slug": "sapucaia"
+  },
+  {
+    "id": "1507805",
+    "nome": "Senador José Porfírio",
+    "uf": "PA",
+    "slug": "senador-jose-porfirio"
+  },
+  {
+    "id": "1507904",
+    "nome": "Soure",
+    "uf": "PA",
+    "slug": "soure"
+  },
+  {
+    "id": "1507953",
+    "nome": "Tailândia",
+    "uf": "PA",
+    "slug": "tailandia"
+  },
+  {
+    "id": "1507961",
+    "nome": "Terra Alta",
+    "uf": "PA",
+    "slug": "terra-alta"
+  },
+  {
+    "id": "1507979",
+    "nome": "Terra Santa",
+    "uf": "PA",
+    "slug": "terra-santa"
+  },
+  {
+    "id": "1508001",
+    "nome": "Tomé-Açu",
+    "uf": "PA",
+    "slug": "tome-acu"
+  },
+  {
+    "id": "1508035",
+    "nome": "Tracuateua",
+    "uf": "PA",
+    "slug": "tracuateua"
+  },
+  {
+    "id": "1508050",
+    "nome": "Trairão",
+    "uf": "PA",
+    "slug": "trairao"
+  },
+  {
+    "id": "1508084",
+    "nome": "Tucumã",
+    "uf": "PA",
+    "slug": "tucuma"
+  },
+  {
+    "id": "1508100",
+    "nome": "Tucuruí",
+    "uf": "PA",
+    "slug": "tucurui"
+  },
+  {
+    "id": "1508126",
+    "nome": "Ulianópolis",
+    "uf": "PA",
+    "slug": "ulianopolis"
+  },
+  {
+    "id": "1508159",
+    "nome": "Uruará",
+    "uf": "PA",
+    "slug": "uruara"
+  },
+  {
+    "id": "1508209",
+    "nome": "Vigia",
+    "uf": "PA",
+    "slug": "vigia"
+  },
+  {
+    "id": "1508308",
+    "nome": "Viseu",
+    "uf": "PA",
+    "slug": "viseu"
+  },
+  {
+    "id": "1508357",
+    "nome": "Vitória do Xingu",
+    "uf": "PA",
+    "slug": "vitoria-do-xingu"
+  },
+  {
+    "id": "1508407",
+    "nome": "Xinguara",
+    "uf": "PA",
+    "slug": "xinguara"
+  }
+]

@@ -1,0 +1,629 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "92977901": {
+        "pageid": 92977901,
+        "ns": 6,
+        "title": "File:Moltrasio - Villa Lucini Passalacqua 0657.JPG",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1067,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1067,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moltrasio_-_Villa_Lucini_Passalacqua_0657.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92977901",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-08 18:45:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moltrasio - Villa Lucini Passalacqua 0657",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3400|Villa Lucini Passalacqua|Self-published work|Files by Phyrexian - Moltrasio|March 2019 in Lombardy|Italy photographs taken on 2019-03-24",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Lake_Como\" class=\"extiw\" title=\"en:Lake Como\">Lake Como</a> seen from the gardens of Villa Lucini Passalacqua, <a href=\"https://en.wikipedia.org/wiki/Moltrasio\" class=\"extiw\" title=\"en:Moltrasio\">Moltrasio</a>, <a href=\"https://en.wikipedia.org/wiki/province_of_Como\" class=\"extiw\" title=\"en:province of Como\">province of Como</a>, Italy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92871910": {
+        "pageid": 92871910,
+        "ns": 6,
+        "title": "File:Moltrasio - Villa Lucini Passalacqua 0733.JPG",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1067,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1067,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moltrasio_-_Villa_Lucini_Passalacqua_0733.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92871910",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-04 13:28:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moltrasio - Villa Lucini Passalacqua 0733",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3400|Villa Lucini Passalacqua|Self-published work|Files by Phyrexian - Moltrasio|March 2019 in Lombardy|Italy photographs taken on 2019-03-24",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Villa Lucini Passalacqua, in <a href=\"https://en.wikipedia.org/wiki/Moltrasio\" class=\"extiw\" title=\"en:Moltrasio\">Moltrasio</a>, <a href=\"https://en.wikipedia.org/wiki/province_of_Como\" class=\"extiw\" title=\"en:province of Como\">province of Como</a>, Italy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92873410": {
+        "pageid": 92873410,
+        "ns": 6,
+        "title": "File:Moltrasio - Villa Lucini Passalacqua 0758.JPG",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 2400,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 2400,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moltrasio_-_Villa_Lucini_Passalacqua_0758.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92873410",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-04 14:41:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moltrasio - Villa Lucini Passalacqua 0758",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3400|Villa Lucini Passalacqua|Self-published work|Files by Phyrexian - Moltrasio|Fountains in the province of Como|March 2019 in Lombardy|Italy photographs taken on 2019-03-24",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Villa Lucini Passalacqua, in <a href=\"https://en.wikipedia.org/wiki/Moltrasio\" class=\"extiw\" title=\"en:Moltrasio\">Moltrasio</a>, <a href=\"https://en.wikipedia.org/wiki/province_of_Como\" class=\"extiw\" title=\"en:province of Como\">province of Como</a>, Italy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "93029326": {
+        "pageid": 93029326,
+        "ns": 6,
+        "title": "File:Moltrasio - Villa Lucini Passalacqua 0764.JPG",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 2400,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 2400,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moltrasio_-_Villa_Lucini_Passalacqua_0764.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93029326",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-10 21:29:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moltrasio - Villa Lucini Passalacqua 0764",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3400|Villa Lucini Passalacqua|Sant'Agata (Vignola, Moltrasio)|Self-published work|Files by Phyrexian - Moltrasio|March 2019 in Lombardy|Italy photographs taken on 2019-03-24",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The bell tower of Sant'Agata church seen from the gardens of Villa Lucini Passalacqua in <a href=\"https://en.wikipedia.org/wiki/Moltrasio\" class=\"extiw\" title=\"en:Moltrasio\">Moltrasio</a>, <a href=\"https://en.wikipedia.org/wiki/province_of_Como\" class=\"extiw\" title=\"en:province of Como\">province of Como</a>, Italy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92875260": {
+        "pageid": 92875260,
+        "ns": 6,
+        "title": "File:Moltrasio - Villa Lucini Passalacqua 0774.JPG",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 2400,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 2400,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG/3840px-Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moltrasio_-_Villa_Lucini_Passalacqua_0774.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92875260",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-04 15:54:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moltrasio - Villa Lucini Passalacqua 0774",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3400|Villa Lucini Passalacqua|Self-published work|Files by Phyrexian - Moltrasio|Fountains in the province of Como|March 2019 in Lombardy|Italy photographs taken on 2019-03-24",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Villa Lucini Passalacqua, in <a href=\"https://en.wikipedia.org/wiki/Moltrasio\" class=\"extiw\" title=\"en:Moltrasio\">Moltrasio</a>, <a href=\"https://en.wikipedia.org/wiki/province_of_Como\" class=\"extiw\" title=\"en:province of Como\">province of Como</a>, Italy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92904085": {
+        "pageid": 92904085,
+        "ns": 6,
+        "title": "File:Moltrasio - Villa Lucini Passalacqua 0837.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 2400,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/31/Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg/1920px-Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 2400,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/31/Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moltrasio_-_Villa_Lucini_Passalacqua_0837.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92904085",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-05 17:21:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Moltrasio - Villa Lucini Passalacqua 0837",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3400|Secretary desks|Self-published work|Files by Phyrexian - Moltrasio|March 2019 in Lombardy|Italy photographs taken on 2019-03-24|Slant-front desks|Villa Lucini Passalacqua - Interior|Carved wooden storage furniture|Bombé (furniture)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Villa Lucini Passalacqua, in <a href=\"https://en.wikipedia.org/wiki/Moltrasio\" class=\"extiw\" title=\"en:Moltrasio\">Moltrasio</a>, <a href=\"https://en.wikipedia.org/wiki/province_of_Como\" class=\"extiw\" title=\"en:province of Como\">province of Como</a>, Italy.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+# Isolated, lightweight integration harness. Never use these credentials in production.
+services:
+  db:
+    image: postgres:17-bookworm
+    environment:
+      POSTGRES_PASSWORD: __PATRI_LOCAL_DB_PASSWORD__
+    ports: ['127.0.0.1:55432:5432']
+    volumes:
+      - ./bootstrap.sql:/docker-entrypoint-initdb.d/00-bootstrap.sql:ro
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 2s
+      retries: 30
+  mail:
+    image: ghcr.io/supabase/mailpit:v1.31.3
+    ports: ['127.0.0.1:54324:8025', '127.0.0.1:54325:1025']
+  auth:
+    image: supabase/gotrue:v2.197.0
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      GOTRUE_API_HOST: 0.0.0.0
+      GOTRUE_API_PORT: 9999
+      API_EXTERNAL_URL: http://127.0.0.1:54321
+      GOTRUE_DB_DRIVER: postgres
+      GOTRUE_DB_DATABASE_URL: postgres://postgres:__PATRI_LOCAL_DB_PASSWORD__@db:5432/postgres?search_path=auth
+      GOTRUE_SITE_URL: http://127.0.0.1:5173
+      GOTRUE_URI_ALLOW_LIST: http://127.0.0.1:5173/**,http://localhost:5173/**
+      GOTRUE_JWT_SECRET: __PATRI_LOCAL_JWT_SECRET__
+      GOTRUE_JWT_EXP: 3600
+      GOTRUE_JWT_AUD: authenticated
+      GOTRUE_JWT_DEFAULT_GROUP_NAME: authenticated
+      GOTRUE_DISABLE_SIGNUP: 'false'
+      GOTRUE_EXTERNAL_EMAIL_ENABLED: 'true'
+      GOTRUE_MAILER_AUTOCONFIRM: 'false'
+      GOTRUE_SESSIONS_INACTIVITY_TIMEOUT: 168h
+      GOTRUE_MAILER_SECURE_EMAIL_CHANGE_ENABLED: 'true'
+      GOTRUE_HOOK_PASSWORD_VERIFICATION_ATTEMPT_ENABLED: 'true'
+      GOTRUE_HOOK_PASSWORD_VERIFICATION_ATTEMPT_URI: pg-functions://postgres/public/verificar_login
+      GOTRUE_SMTP_HOST: mail
+      GOTRUE_SMTP_PORT: 1025
+      GOTRUE_SMTP_ADMIN_EMAIL: teste@patri.local
+      GOTRUE_SMTP_SENDER_NAME: Patri Realty Local
+      GOTRUE_MAILER_URLPATHS_CONFIRMATION: /auth/v1/verify
+      GOTRUE_MAILER_URLPATHS_RECOVERY: /auth/v1/verify
+      GOTRUE_PASSWORD_MIN_LENGTH: 8
+      GOTRUE_RATE_LIMIT_EMAIL_SENT: 1000
+  rest:
+    image: public.ecr.aws/supabase/postgrest:v16.4
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      PGRST_DB_URI: postgres://authenticator:__PATRI_LOCAL_REST_PASSWORD__@db:5432/postgres
+      PGRST_DB_SCHEMAS: public
+      PGRST_DB_ANON_ROLE: anon
+      PGRST_JWT_SECRET: __PATRI_LOCAL_JWT_SECRET__
+  gateway:
+    image: ghcr.io/supabase/kong:2.8.1
+    depends_on: [auth, rest]
+    ports: ['127.0.0.1:54321:8000']
+    volumes: ['./kong.yml:/kong.yml:ro']
+    environment:
+      KONG_DATABASE: 'off'
+      KONG_DECLARATIVE_CONFIG: /kong.yml
+      KONG_DNS_ORDER: LAST,A,CNAME
+      KONG_PLUGINS: cors
+  storage:
+    image: supabase/storage-api:v1.82.1
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      SERVER_HOST: 0.0.0.0
+      SERVER_PORT: 5000
+      AUTH_JWT_SECRET: __PATRI_LOCAL_JWT_SECRET__
+      PGRST_JWT_SECRET: __PATRI_LOCAL_JWT_SECRET__
+      DATABASE_URL: postgres://postgres:__PATRI_LOCAL_DB_PASSWORD__@db:5432/postgres
+      POSTGREST_URL: http://rest:3000
+      DATABASE_SEARCH_PATH: storage
+      DB_INSTALL_ROLES: 'true'
+      DB_ANON_ROLE: anon
+      DB_SERVICE_ROLE: service_role
+      DB_AUTHENTICATED_ROLE: authenticated
+      DB_SUPER_USER: postgres
+      STORAGE_BACKEND: file
+      STORAGE_FILE_BACKEND_PATH: /var/lib/storage
+      FILE_STORAGE_BACKEND_PATH: /var/lib/storage
+      TENANT_ID: local-patri
+      REGION: local
+      GLOBAL_S3_BUCKET: local
+      IMAGE_TRANSFORMATION_ENABLED: 'false'
+      ENABLE_IMAGE_TRANSFORMATION: 'false'
+      UPLOAD_FILE_SIZE_LIMIT: 5242880
+      FILE_SIZE_LIMIT: 5242880
+      PG_QUEUE_ENABLE: 'false'
+    volumes: ['patri-storage:/var/lib/storage']
+volumes:
+  patri-storage:

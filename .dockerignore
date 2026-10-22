@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-server
+.git
+.env
+.env.local
+.env.*.local
+infra/local
+.preview
+test-results
+playwright-report

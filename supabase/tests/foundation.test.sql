@@ -1,0 +1,62 @@
+begin;
+create extension if not exists pgtap with schema extensions;
+grant usage on schema extensions to anon,authenticated;
+select plan(35);
+-- Fixture creation runs the same transactional trigger as Auth signup.
+insert into auth.users(id,email,raw_user_meta_data) values
+('00000000-0000-0000-0000-000000000001','admin@test.local','{"nome":"Admin Teste","tipo":"sindico","cidade":"São Paulo","estado":"SP","termos":true,"termos_versao":"2026-10-19","privacidade_versao":"2026-10-19"}'),
+('00000000-0000-0000-0000-000000000002','supplier@test.local','{"nome":"Fornecedor Teste","tipo":"fornecedor","empresa":"Empresa Teste","cnpj":"04252011000110","telefone":"11999999999","termos":true,"termos_versao":"2026-10-19","privacidade_versao":"2026-10-19"}'),
+('00000000-0000-0000-0000-000000000003','sindico@test.local','{"nome":"Síndico Teste","tipo":"sindico","cidade":"São Paulo","estado":"SP","termos":true,"termos_versao":"2026-10-19","privacidade_versao":"2026-10-19"}');
+insert into public.user_roles(user_id,role) values ('00000000-0000-0000-0000-000000000001','admin');
+select is((select count(*) from public.profiles where id::text like '00000000-0000-0000-0000-%'),3::bigint,'profile criado automaticamente');
+select is((select count(*) from public.consentimentos where user_id::text like '00000000-0000-0000-0000-%'),6::bigint,'aceites criados atomicamente');
+select is((select status from public.fornecedores where dono_id='00000000-0000-0000-0000-000000000002'),'rascunho','fornecedor inicia em rascunho');
+select is((select count(*) from pg_tables where schemaname='public' and not rowsecurity),0::bigint,'RLS em todas as tabelas');
+select ok(private.valid_cnpj('11222333000181'),'CNPJ válido');
+select ok(not private.valid_cnpj('11222333000180'),'CNPJ inválido');
+set local role anon;
+select is((select count(*) from public.segmentos where ativo),150::bigint,'visitante lê segmentos');
+select is((select count(*) from public.estados),27::bigint,'IBGE estados');
+select ok((select count(*) from public.cidades)>5500,'IBGE municípios');
+select is((select count(*) from public.configuracoes where not publica),0::bigint,'configurações privadas ocultas');
+select throws_ok('select * from public.profiles','42501',null,'visitante não lê perfis');
+reset role;
+set local role authenticated;
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000002',true);
+select is((select count(*) from public.profiles),1::bigint,'fornecedor só lê próprio perfil');
+select is((select count(*) from public.user_roles),1::bigint,'fornecedor só lê próprios papéis');
+select ok(not public.has_role(auth.uid(),'admin'),'fornecedor não tem papel admin');
+select throws_ok($$insert into public.user_roles(user_id,role) values(auth.uid(),'admin')$$,'42501',null,'autopromoção bloqueada');
+select is((select count(*) from public.audit_log),0::bigint,'auditoria oculta do fornecedor');
+select is((select count(*) from public.consentimentos),0::bigint,'consentimentos restritos ao admin');
+select is((select count(*) from public.fornecedores),1::bigint,'fornecedor lê sua empresa');
+select throws_ok($$update public.profiles set ativo=false where id=auth.uid()$$,'P0001','Campo protegido','fornecedor não altera ativo');
+select lives_ok($$update public.profiles set nome='Nome Alterado' where id=auth.uid()$$,'edita nome próprio');
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000003',true);
+select is((select count(*) from public.fornecedores),0::bigint,'síndico não vê rascunhos');
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',true);
+select is((select count(*) from public.profiles where id::text like '00000000-0000-0000-0000-%'),3::bigint,'admin lê todos os perfis');
+select ok(public.has_role(auth.uid(),'admin'),'admin direto no banco tem acesso');
+select ok((select count(*) from public.audit_log)>0,'ações gravadas na auditoria');
+select throws_ok($$delete from public.user_roles where user_id=auth.uid() and role='admin'$$,'P0001','O último admin ativo não pode ser removido','protege último admin');
+select throws_ok($$update public.profiles set ativo=false where id=auth.uid()$$,'P0001','O último admin ativo não pode ser desativado','protege admin ativo');
+select throws_ok($$insert into public.audit_log(acao,tabela) values('FAKE','profiles')$$,'42501',null,'ninguém falsifica auditoria');
+
+insert into public.user_roles(user_id,role) values('00000000-0000-0000-0000-000000000003','editor');
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000003',true);
+select is((select count(*) from public.fornecedores),0::bigint,'editor não lê rascunhos');
+select is((select count(*) from public.audit_log),0::bigint,'editor não lê auditoria');
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',true);
+insert into public.user_roles(user_id,role) values('00000000-0000-0000-0000-000000000003','comercial');
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000003',true);
+select ok((select count(*) from public.fornecedores)>0,'comercial lê fornecedores');
+select is((select count(*) from public.profiles),1::bigint,'comercial não lê perfis alheios');
+with attempt as (update public.configuracoes set valor='0' where chave='dias_teste' returning id) select is((select count(*) from attempt),0::bigint,'comercial não altera configurações');
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',true);
+update public.profiles set ativo=false where id='00000000-0000-0000-0000-000000000002';
+select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000002',true);
+select is((select count(*) from public.profiles),0::bigint,'conta inativa não lê dados');
+select is((select count(*) from public.fornecedores),0::bigint,'conta inativa não lê empresa');
+select ok(not public.has_role(auth.uid(),'fornecedor'),'conta inativa não autoriza papel');
+select * from finish();
+rollback;

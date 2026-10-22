@@ -1,0 +1,554 @@
+[
+  {
+    "id": "3300100",
+    "nome": "Angra dos Reis",
+    "uf": "RJ",
+    "slug": "angra-dos-reis"
+  },
+  {
+    "id": "3300159",
+    "nome": "Aperibé",
+    "uf": "RJ",
+    "slug": "aperibe"
+  },
+  {
+    "id": "3300209",
+    "nome": "Araruama",
+    "uf": "RJ",
+    "slug": "araruama"
+  },
+  {
+    "id": "3300225",
+    "nome": "Areal",
+    "uf": "RJ",
+    "slug": "areal"
+  },
+  {
+    "id": "3300233",
+    "nome": "Armação dos Búzios",
+    "uf": "RJ",
+    "slug": "armacao-dos-buzios"
+  },
+  {
+    "id": "3300258",
+    "nome": "Arraial do Cabo",
+    "uf": "RJ",
+    "slug": "arraial-do-cabo"
+  },
+  {
+    "id": "3300308",
+    "nome": "Barra do Piraí",
+    "uf": "RJ",
+    "slug": "barra-do-pirai"
+  },
+  {
+    "id": "3300407",
+    "nome": "Barra Mansa",
+    "uf": "RJ",
+    "slug": "barra-mansa"
+  },
+  {
+    "id": "3300456",
+    "nome": "Belford Roxo",
+    "uf": "RJ",
+    "slug": "belford-roxo"
+  },
+  {
+    "id": "3300506",
+    "nome": "Bom Jardim",
+    "uf": "RJ",
+    "slug": "bom-jardim"
+  },
+  {
+    "id": "3300605",
+    "nome": "Bom Jesus do Itabapoana",
+    "uf": "RJ",
+    "slug": "bom-jesus-do-itabapoana"
+  },
+  {
+    "id": "3300704",
+    "nome": "Cabo Frio",
+    "uf": "RJ",
+    "slug": "cabo-frio"
+  },
+  {
+    "id": "3300803",
+    "nome": "Cachoeiras de Macacu",
+    "uf": "RJ",
+    "slug": "cachoeiras-de-macacu"
+  },
+  {
+    "id": "3300902",
+    "nome": "Cambuci",
+    "uf": "RJ",
+    "slug": "cambuci"
+  },
+  {
+    "id": "3301009",
+    "nome": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "slug": "campos-dos-goytacazes"
+  },
+  {
+    "id": "3301108",
+    "nome": "Cantagalo",
+    "uf": "RJ",
+    "slug": "cantagalo"
+  },
+  {
+    "id": "3300936",
+    "nome": "Carapebus",
+    "uf": "RJ",
+    "slug": "carapebus"
+  },
+  {
+    "id": "3301157",
+    "nome": "Cardoso Moreira",
+    "uf": "RJ",
+    "slug": "cardoso-moreira"
+  },
+  {
+    "id": "3301207",
+    "nome": "Carmo",
+    "uf": "RJ",
+    "slug": "carmo"
+  },
+  {
+    "id": "3301306",
+    "nome": "Casimiro de Abreu",
+    "uf": "RJ",
+    "slug": "casimiro-de-abreu"
+  },
+  {
+    "id": "3300951",
+    "nome": "Comendador Levy Gasparian",
+    "uf": "RJ",
+    "slug": "comendador-levy-gasparian"
+  },
+  {
+    "id": "3301405",
+    "nome": "Conceição de Macabu",
+    "uf": "RJ",
+    "slug": "conceicao-de-macabu"
+  },
+  {
+    "id": "3301504",
+    "nome": "Cordeiro",
+    "uf": "RJ",
+    "slug": "cordeiro"
+  },
+  {
+    "id": "3301603",
+    "nome": "Duas Barras",
+    "uf": "RJ",
+    "slug": "duas-barras"
+  },
+  {
+    "id": "3301702",
+    "nome": "Duque de Caxias",
+    "uf": "RJ",
+    "slug": "duque-de-caxias"
+  },
+  {
+    "id": "3301801",
+    "nome": "Engenheiro Paulo de Frontin",
+    "uf": "RJ",
+    "slug": "engenheiro-paulo-de-frontin"
+  },
+  {
+    "id": "3301850",
+    "nome": "Guapimirim",
+    "uf": "RJ",
+    "slug": "guapimirim"
+  },
+  {
+    "id": "3301876",
+    "nome": "Iguaba Grande",
+    "uf": "RJ",
+    "slug": "iguaba-grande"
+  },
+  {
+    "id": "3301900",
+    "nome": "Itaboraí",
+    "uf": "RJ",
+    "slug": "itaborai"
+  },
+  {
+    "id": "3302007",
+    "nome": "Itaguaí",
+    "uf": "RJ",
+    "slug": "itaguai"
+  },
+  {
+    "id": "3302056",
+    "nome": "Italva",
+    "uf": "RJ",
+    "slug": "italva"
+  },
+  {
+    "id": "3302106",
+    "nome": "Itaocara",
+    "uf": "RJ",
+    "slug": "itaocara"
+  },
+  {
+    "id": "3302205",
+    "nome": "Itaperuna",
+    "uf": "RJ",
+    "slug": "itaperuna"
+  },
+  {
+    "id": "3302254",
+    "nome": "Itatiaia",
+    "uf": "RJ",
+    "slug": "itatiaia"
+  },
+  {
+    "id": "3302270",
+    "nome": "Japeri",
+    "uf": "RJ",
+    "slug": "japeri"
+  },
+  {
+    "id": "3302304",
+    "nome": "Laje do Muriaé",
+    "uf": "RJ",
+    "slug": "laje-do-muriae"
+  },
+  {
+    "id": "3302403",
+    "nome": "Macaé",
+    "uf": "RJ",
+    "slug": "macae"
+  },
+  {
+    "id": "3302452",
+    "nome": "Macuco",
+    "uf": "RJ",
+    "slug": "macuco"
+  },
+  {
+    "id": "3302502",
+    "nome": "Magé",
+    "uf": "RJ",
+    "slug": "mage"
+  },
+  {
+    "id": "3302601",
+    "nome": "Mangaratiba",
+    "uf": "RJ",
+    "slug": "mangaratiba"
+  },
+  {
+    "id": "3302700",
+    "nome": "Maricá",
+    "uf": "RJ",
+    "slug": "marica"
+  },
+  {
+    "id": "3302809",
+    "nome": "Mendes",
+    "uf": "RJ",
+    "slug": "mendes"
+  },
+  {
+    "id": "3302858",
+    "nome": "Mesquita",
+    "uf": "RJ",
+    "slug": "mesquita"
+  },
+  {
+    "id": "3302908",
+    "nome": "Miguel Pereira",
+    "uf": "RJ",
+    "slug": "miguel-pereira"
+  },
+  {
+    "id": "3303005",
+    "nome": "Miracema",
+    "uf": "RJ",
+    "slug": "miracema"
+  },
+  {
+    "id": "3303104",
+    "nome": "Natividade",
+    "uf": "RJ",
+    "slug": "natividade"
+  },
+  {
+    "id": "3303203",
+    "nome": "Nilópolis",
+    "uf": "RJ",
+    "slug": "nilopolis"
+  },
+  {
+    "id": "3303302",
+    "nome": "Niterói",
+    "uf": "RJ",
+    "slug": "niteroi"
+  },
+  {
+    "id": "3303401",
+    "nome": "Nova Friburgo",
+    "uf": "RJ",
+    "slug": "nova-friburgo"
+  },
+  {
+    "id": "3303500",
+    "nome": "Nova Iguaçu",
+    "uf": "RJ",
+    "slug": "nova-iguacu"
+  },
+  {
+    "id": "3303609",
+    "nome": "Paracambi",
+    "uf": "RJ",
+    "slug": "paracambi"
+  },
+  {
+    "id": "3303708",
+    "nome": "Paraíba do Sul",
+    "uf": "RJ",
+    "slug": "paraiba-do-sul"
+  },
+  {
+    "id": "3303807",
+    "nome": "Paraty",
+    "uf": "RJ",
+    "slug": "paraty"
+  },
+  {
+    "id": "3303856",
+    "nome": "Paty do Alferes",
+    "uf": "RJ",
+    "slug": "paty-do-alferes"
+  },
+  {
+    "id": "3303906",
+    "nome": "Petrópolis",
+    "uf": "RJ",
+    "slug": "petropolis"
+  },
+  {
+    "id": "3303955",
+    "nome": "Pinheiral",
+    "uf": "RJ",
+    "slug": "pinheiral"
+  },
+  {
+    "id": "3304003",
+    "nome": "Piraí",
+    "uf": "RJ",
+    "slug": "pirai"
+  },
+  {
+    "id": "3304102",
+    "nome": "Porciúncula",
+    "uf": "RJ",
+    "slug": "porciuncula"
+  },
+  {
+    "id": "3304110",
+    "nome": "Porto Real",
+    "uf": "RJ",
+    "slug": "porto-real"
+  },
+  {
+    "id": "3304128",
+    "nome": "Quatis",
+    "uf": "RJ",
+    "slug": "quatis"
+  },
+  {
+    "id": "3304144",
+    "nome": "Queimados",
+    "uf": "RJ",
+    "slug": "queimados"
+  },
+  {
+    "id": "3304151",
+    "nome": "Quissamã",
+    "uf": "RJ",
+    "slug": "quissama"
+  },
+  {
+    "id": "3304201",
+    "nome": "Resende",
+    "uf": "RJ",
+    "slug": "resende"
+  },
+  {
+    "id": "3304300",
+    "nome": "Rio Bonito",
+    "uf": "RJ",
+    "slug": "rio-bonito"
+  },
+  {
+    "id": "3304409",
+    "nome": "Rio Claro",
+    "uf": "RJ",
+    "slug": "rio-claro"
+  },
+  {
+    "id": "3304508",
+    "nome": "Rio das Flores",
+    "uf": "RJ",
+    "slug": "rio-das-flores"
+  },
+  {
+    "id": "3304524",
+    "nome": "Rio das Ostras",
+    "uf": "RJ",
+    "slug": "rio-das-ostras"
+  },
+  {
+    "id": "3304557",
+    "nome": "Rio de Janeiro",
+    "uf": "RJ",
+    "slug": "rio-de-janeiro"
+  },
+  {
+    "id": "3304607",
+    "nome": "Santa Maria Madalena",
+    "uf": "RJ",
+    "slug": "santa-maria-madalena"
+  },
+  {
+    "id": "3304706",
+    "nome": "Santo Antônio de Pádua",
+    "uf": "RJ",
+    "slug": "santo-antonio-de-padua"
+  },
+  {
+    "id": "3304805",
+    "nome": "São Fidélis",
+    "uf": "RJ",
+    "slug": "sao-fidelis"
+  },
+  {
+    "id": "3304755",
+    "nome": "São Francisco de Itabapoana",
+    "uf": "RJ",
+    "slug": "sao-francisco-de-itabapoana"
+  },
+  {
+    "id": "3304904",
+    "nome": "São Gonçalo",
+    "uf": "RJ",
+    "slug": "sao-goncalo"
+  },
+  {
+    "id": "3305000",
+    "nome": "São João da Barra",
+    "uf": "RJ",
+    "slug": "sao-joao-da-barra"
+  },
+  {
+    "id": "3305109",
+    "nome": "São João de Meriti",
+    "uf": "RJ",
+    "slug": "sao-joao-de-meriti"
+  },
+  {
+    "id": "3305133",
+    "nome": "São José de Ubá",
+    "uf": "RJ",
+    "slug": "sao-jose-de-uba"
+  },
+  {
+    "id": "3305158",
+    "nome": "São José do Vale do Rio Preto",
+    "uf": "RJ",
+    "slug": "sao-jose-do-vale-do-rio-preto"
+  },
+  {
+    "id": "3305208",
+    "nome": "São Pedro da Aldeia",
+    "uf": "RJ",
+    "slug": "sao-pedro-da-aldeia"
+  },
+  {
+    "id": "3305307",
+    "nome": "São Sebastião do Alto",
+    "uf": "RJ",
+    "slug": "sao-sebastiao-do-alto"
+  },
+  {
+    "id": "3305406",
+    "nome": "Sapucaia",
+    "uf": "RJ",
+    "slug": "sapucaia"
+  },
+  {
+    "id": "3305505",
+    "nome": "Saquarema",
+    "uf": "RJ",
+    "slug": "saquarema"
+  },
+  {
+    "id": "3305554",
+    "nome": "Seropédica",
+    "uf": "RJ",
+    "slug": "seropedica"
+  },
+  {
+    "id": "3305604",
+    "nome": "Silva Jardim",
+    "uf": "RJ",
+    "slug": "silva-jardim"
+  },
+  {
+    "id": "3305703",
+    "nome": "Sumidouro",
+    "uf": "RJ",
+    "slug": "sumidouro"
+  },
+  {
+    "id": "3305752",
+    "nome": "Tanguá",
+    "uf": "RJ",
+    "slug": "tangua"
+  },
+  {
+    "id": "3305802",
+    "nome": "Teresópolis",
+    "uf": "RJ",
+    "slug": "teresopolis"
+  },
+  {
+    "id": "3305901",
+    "nome": "Trajano de Moraes",
+    "uf": "RJ",
+    "slug": "trajano-de-moraes"
+  },
+  {
+    "id": "3306008",
+    "nome": "Três Rios",
+    "uf": "RJ",
+    "slug": "tres-rios"
+  },
+  {
+    "id": "3306107",
+    "nome": "Valença",
+    "uf": "RJ",
+    "slug": "valenca"
+  },
+  {
+    "id": "3306156",
+    "nome": "Varre-Sai",
+    "uf": "RJ",
+    "slug": "varre-sai"
+  },
+  {
+    "id": "3306206",
+    "nome": "Vassouras",
+    "uf": "RJ",
+    "slug": "vassouras"
+  },
+  {
+    "id": "3306305",
+    "nome": "Volta Redonda",
+    "uf": "RJ",
+    "slug": "volta-redonda"
+  }
+]

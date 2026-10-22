@@ -1,0 +1,5120 @@
+[
+  {
+    "id": "3100104",
+    "nome": "Abadia dos Dourados",
+    "uf": "MG",
+    "slug": "abadia-dos-dourados"
+  },
+  {
+    "id": "3100203",
+    "nome": "Abaeté",
+    "uf": "MG",
+    "slug": "abaete"
+  },
+  {
+    "id": "3100302",
+    "nome": "Abre Campo",
+    "uf": "MG",
+    "slug": "abre-campo"
+  },
+  {
+    "id": "3100401",
+    "nome": "Acaiaca",
+    "uf": "MG",
+    "slug": "acaiaca"
+  },
+  {
+    "id": "3100500",
+    "nome": "Açucena",
+    "uf": "MG",
+    "slug": "acucena"
+  },
+  {
+    "id": "3100609",
+    "nome": "Água Boa",
+    "uf": "MG",
+    "slug": "agua-boa"
+  },
+  {
+    "id": "3100708",
+    "nome": "Água Comprida",
+    "uf": "MG",
+    "slug": "agua-comprida"
+  },
+  {
+    "id": "3100807",
+    "nome": "Aguanil",
+    "uf": "MG",
+    "slug": "aguanil"
+  },
+  {
+    "id": "3100906",
+    "nome": "Águas Formosas",
+    "uf": "MG",
+    "slug": "aguas-formosas"
+  },
+  {
+    "id": "3101003",
+    "nome": "Águas Vermelhas",
+    "uf": "MG",
+    "slug": "aguas-vermelhas"
+  },
+  {
+    "id": "3101102",
+    "nome": "Aimorés",
+    "uf": "MG",
+    "slug": "aimores"
+  },
+  {
+    "id": "3101201",
+    "nome": "Aiuruoca",
+    "uf": "MG",
+    "slug": "aiuruoca"
+  },
+  {
+    "id": "3101300",
+    "nome": "Alagoa",
+    "uf": "MG",
+    "slug": "alagoa"
+  },
+  {
+    "id": "3101409",
+    "nome": "Albertina",
+    "uf": "MG",
+    "slug": "albertina"
+  },
+  {
+    "id": "3101508",
+    "nome": "Além Paraíba",
+    "uf": "MG",
+    "slug": "alem-paraiba"
+  },
+  {
+    "id": "3101607",
+    "nome": "Alfenas",
+    "uf": "MG",
+    "slug": "alfenas"
+  },
+  {
+    "id": "3101631",
+    "nome": "Alfredo Vasconcelos",
+    "uf": "MG",
+    "slug": "alfredo-vasconcelos"
+  },
+  {
+    "id": "3101706",
+    "nome": "Almenara",
+    "uf": "MG",
+    "slug": "almenara"
+  },
+  {
+    "id": "3101805",
+    "nome": "Alpercata",
+    "uf": "MG",
+    "slug": "alpercata"
+  },
+  {
+    "id": "3101904",
+    "nome": "Alpinópolis",
+    "uf": "MG",
+    "slug": "alpinopolis"
+  },
+  {
+    "id": "3102001",
+    "nome": "Alterosa",
+    "uf": "MG",
+    "slug": "alterosa"
+  },
+  {
+    "id": "3102050",
+    "nome": "Alto Caparaó",
+    "uf": "MG",
+    "slug": "alto-caparao"
+  },
+  {
+    "id": "3153509",
+    "nome": "Alto Jequitibá",
+    "uf": "MG",
+    "slug": "alto-jequitiba"
+  },
+  {
+    "id": "3102100",
+    "nome": "Alto Rio Doce",
+    "uf": "MG",
+    "slug": "alto-rio-doce"
+  },
+  {
+    "id": "3102209",
+    "nome": "Alvarenga",
+    "uf": "MG",
+    "slug": "alvarenga"
+  },
+  {
+    "id": "3102308",
+    "nome": "Alvinópolis",
+    "uf": "MG",
+    "slug": "alvinopolis"
+  },
+  {
+    "id": "3102407",
+    "nome": "Alvorada de Minas",
+    "uf": "MG",
+    "slug": "alvorada-de-minas"
+  },
+  {
+    "id": "3102506",
+    "nome": "Amparo do Serra",
+    "uf": "MG",
+    "slug": "amparo-do-serra"
+  },
+  {
+    "id": "3102605",
+    "nome": "Andradas",
+    "uf": "MG",
+    "slug": "andradas"
+  },
+  {
+    "id": "3102803",
+    "nome": "Andrelândia",
+    "uf": "MG",
+    "slug": "andrelandia"
+  },
+  {
+    "id": "3102852",
+    "nome": "Angelândia",
+    "uf": "MG",
+    "slug": "angelandia"
+  },
+  {
+    "id": "3102902",
+    "nome": "Antônio Carlos",
+    "uf": "MG",
+    "slug": "antonio-carlos"
+  },
+  {
+    "id": "3103009",
+    "nome": "Antônio Dias",
+    "uf": "MG",
+    "slug": "antonio-dias"
+  },
+  {
+    "id": "3103108",
+    "nome": "Antônio Prado de Minas",
+    "uf": "MG",
+    "slug": "antonio-prado-de-minas"
+  },
+  {
+    "id": "3103207",
+    "nome": "Araçaí",
+    "uf": "MG",
+    "slug": "aracai"
+  },
+  {
+    "id": "3103306",
+    "nome": "Aracitaba",
+    "uf": "MG",
+    "slug": "aracitaba"
+  },
+  {
+    "id": "3103405",
+    "nome": "Araçuaí",
+    "uf": "MG",
+    "slug": "aracuai"
+  },
+  {
+    "id": "3103504",
+    "nome": "Araguari",
+    "uf": "MG",
+    "slug": "araguari"
+  },
+  {
+    "id": "3103603",
+    "nome": "Arantina",
+    "uf": "MG",
+    "slug": "arantina"
+  },
+  {
+    "id": "3103702",
+    "nome": "Araponga",
+    "uf": "MG",
+    "slug": "araponga"
+  },
+  {
+    "id": "3103751",
+    "nome": "Araporã",
+    "uf": "MG",
+    "slug": "arapora"
+  },
+  {
+    "id": "3103801",
+    "nome": "Arapuá",
+    "uf": "MG",
+    "slug": "arapua"
+  },
+  {
+    "id": "3103900",
+    "nome": "Araújos",
+    "uf": "MG",
+    "slug": "araujos"
+  },
+  {
+    "id": "3104007",
+    "nome": "Araxá",
+    "uf": "MG",
+    "slug": "araxa"
+  },
+  {
+    "id": "3104106",
+    "nome": "Arceburgo",
+    "uf": "MG",
+    "slug": "arceburgo"
+  },
+  {
+    "id": "3104205",
+    "nome": "Arcos",
+    "uf": "MG",
+    "slug": "arcos"
+  },
+  {
+    "id": "3104304",
+    "nome": "Areado",
+    "uf": "MG",
+    "slug": "areado"
+  },
+  {
+    "id": "3104403",
+    "nome": "Argirita",
+    "uf": "MG",
+    "slug": "argirita"
+  },
+  {
+    "id": "3104452",
+    "nome": "Aricanduva",
+    "uf": "MG",
+    "slug": "aricanduva"
+  },
+  {
+    "id": "3104502",
+    "nome": "Arinos",
+    "uf": "MG",
+    "slug": "arinos"
+  },
+  {
+    "id": "3104601",
+    "nome": "Astolfo Dutra",
+    "uf": "MG",
+    "slug": "astolfo-dutra"
+  },
+  {
+    "id": "3104700",
+    "nome": "Ataléia",
+    "uf": "MG",
+    "slug": "ataleia"
+  },
+  {
+    "id": "3104809",
+    "nome": "Augusto de Lima",
+    "uf": "MG",
+    "slug": "augusto-de-lima"
+  },
+  {
+    "id": "3104908",
+    "nome": "Baependi",
+    "uf": "MG",
+    "slug": "baependi"
+  },
+  {
+    "id": "3105004",
+    "nome": "Baldim",
+    "uf": "MG",
+    "slug": "baldim"
+  },
+  {
+    "id": "3105103",
+    "nome": "Bambuí",
+    "uf": "MG",
+    "slug": "bambui"
+  },
+  {
+    "id": "3105202",
+    "nome": "Bandeira",
+    "uf": "MG",
+    "slug": "bandeira"
+  },
+  {
+    "id": "3105301",
+    "nome": "Bandeira do Sul",
+    "uf": "MG",
+    "slug": "bandeira-do-sul"
+  },
+  {
+    "id": "3105400",
+    "nome": "Barão de Cocais",
+    "uf": "MG",
+    "slug": "barao-de-cocais"
+  },
+  {
+    "id": "3105509",
+    "nome": "Barão do Monte Alto",
+    "uf": "MG",
+    "slug": "barao-do-monte-alto"
+  },
+  {
+    "id": "3105608",
+    "nome": "Barbacena",
+    "uf": "MG",
+    "slug": "barbacena"
+  },
+  {
+    "id": "3105707",
+    "nome": "Barra Longa",
+    "uf": "MG",
+    "slug": "barra-longa"
+  },
+  {
+    "id": "3105905",
+    "nome": "Barroso",
+    "uf": "MG",
+    "slug": "barroso"
+  },
+  {
+    "id": "3106002",
+    "nome": "Bela Vista de Minas",
+    "uf": "MG",
+    "slug": "bela-vista-de-minas"
+  },
+  {
+    "id": "3106101",
+    "nome": "Belmiro Braga",
+    "uf": "MG",
+    "slug": "belmiro-braga"
+  },
+  {
+    "id": "3106200",
+    "nome": "Belo Horizonte",
+    "uf": "MG",
+    "slug": "belo-horizonte"
+  },
+  {
+    "id": "3106309",
+    "nome": "Belo Oriente",
+    "uf": "MG",
+    "slug": "belo-oriente"
+  },
+  {
+    "id": "3106408",
+    "nome": "Belo Vale",
+    "uf": "MG",
+    "slug": "belo-vale"
+  },
+  {
+    "id": "3106507",
+    "nome": "Berilo",
+    "uf": "MG",
+    "slug": "berilo"
+  },
+  {
+    "id": "3106655",
+    "nome": "Berizal",
+    "uf": "MG",
+    "slug": "berizal"
+  },
+  {
+    "id": "3106606",
+    "nome": "Bertópolis",
+    "uf": "MG",
+    "slug": "bertopolis"
+  },
+  {
+    "id": "3106705",
+    "nome": "Betim",
+    "uf": "MG",
+    "slug": "betim"
+  },
+  {
+    "id": "3106804",
+    "nome": "Bias Fortes",
+    "uf": "MG",
+    "slug": "bias-fortes"
+  },
+  {
+    "id": "3106903",
+    "nome": "Bicas",
+    "uf": "MG",
+    "slug": "bicas"
+  },
+  {
+    "id": "3107000",
+    "nome": "Biquinhas",
+    "uf": "MG",
+    "slug": "biquinhas"
+  },
+  {
+    "id": "3107109",
+    "nome": "Boa Esperança",
+    "uf": "MG",
+    "slug": "boa-esperanca"
+  },
+  {
+    "id": "3107208",
+    "nome": "Bocaina de Minas",
+    "uf": "MG",
+    "slug": "bocaina-de-minas"
+  },
+  {
+    "id": "3107307",
+    "nome": "Bocaiúva",
+    "uf": "MG",
+    "slug": "bocaiuva"
+  },
+  {
+    "id": "3107406",
+    "nome": "Bom Despacho",
+    "uf": "MG",
+    "slug": "bom-despacho"
+  },
+  {
+    "id": "3107505",
+    "nome": "Bom Jardim de Minas",
+    "uf": "MG",
+    "slug": "bom-jardim-de-minas"
+  },
+  {
+    "id": "3107604",
+    "nome": "Bom Jesus da Penha",
+    "uf": "MG",
+    "slug": "bom-jesus-da-penha"
+  },
+  {
+    "id": "3107703",
+    "nome": "Bom Jesus do Amparo",
+    "uf": "MG",
+    "slug": "bom-jesus-do-amparo"
+  },
+  {
+    "id": "3107802",
+    "nome": "Bom Jesus do Galho",
+    "uf": "MG",
+    "slug": "bom-jesus-do-galho"
+  },
+  {
+    "id": "3107901",
+    "nome": "Bom Repouso",
+    "uf": "MG",
+    "slug": "bom-repouso"
+  },
+  {
+    "id": "3108008",
+    "nome": "Bom Sucesso",
+    "uf": "MG",
+    "slug": "bom-sucesso"
+  },
+  {
+    "id": "3108107",
+    "nome": "Bonfim",
+    "uf": "MG",
+    "slug": "bonfim"
+  },
+  {
+    "id": "3108206",
+    "nome": "Bonfinópolis de Minas",
+    "uf": "MG",
+    "slug": "bonfinopolis-de-minas"
+  },
+  {
+    "id": "3108255",
+    "nome": "Bonito de Minas",
+    "uf": "MG",
+    "slug": "bonito-de-minas"
+  },
+  {
+    "id": "3108305",
+    "nome": "Borda da Mata",
+    "uf": "MG",
+    "slug": "borda-da-mata"
+  },
+  {
+    "id": "3108404",
+    "nome": "Botelhos",
+    "uf": "MG",
+    "slug": "botelhos"
+  },
+  {
+    "id": "3108503",
+    "nome": "Botumirim",
+    "uf": "MG",
+    "slug": "botumirim"
+  },
+  {
+    "id": "3108701",
+    "nome": "Brás Pires",
+    "uf": "MG",
+    "slug": "bras-pires"
+  },
+  {
+    "id": "3108552",
+    "nome": "Brasilândia de Minas",
+    "uf": "MG",
+    "slug": "brasilandia-de-minas"
+  },
+  {
+    "id": "3108602",
+    "nome": "Brasília de Minas",
+    "uf": "MG",
+    "slug": "brasilia-de-minas"
+  },
+  {
+    "id": "3108800",
+    "nome": "Braúnas",
+    "uf": "MG",
+    "slug": "braunas"
+  },
+  {
+    "id": "3108909",
+    "nome": "Brazópolis",
+    "uf": "MG",
+    "slug": "brazopolis"
+  },
+  {
+    "id": "3109006",
+    "nome": "Brumadinho",
+    "uf": "MG",
+    "slug": "brumadinho"
+  },
+  {
+    "id": "3109105",
+    "nome": "Bueno Brandão",
+    "uf": "MG",
+    "slug": "bueno-brandao"
+  },
+  {
+    "id": "3109204",
+    "nome": "Buenópolis",
+    "uf": "MG",
+    "slug": "buenopolis"
+  },
+  {
+    "id": "3109253",
+    "nome": "Bugre",
+    "uf": "MG",
+    "slug": "bugre"
+  },
+  {
+    "id": "3109303",
+    "nome": "Buritis",
+    "uf": "MG",
+    "slug": "buritis"
+  },
+  {
+    "id": "3109402",
+    "nome": "Buritizeiro",
+    "uf": "MG",
+    "slug": "buritizeiro"
+  },
+  {
+    "id": "3109451",
+    "nome": "Cabeceira Grande",
+    "uf": "MG",
+    "slug": "cabeceira-grande"
+  },
+  {
+    "id": "3109501",
+    "nome": "Cabo Verde",
+    "uf": "MG",
+    "slug": "cabo-verde"
+  },
+  {
+    "id": "3109600",
+    "nome": "Cachoeira da Prata",
+    "uf": "MG",
+    "slug": "cachoeira-da-prata"
+  },
+  {
+    "id": "3109709",
+    "nome": "Cachoeira de Minas",
+    "uf": "MG",
+    "slug": "cachoeira-de-minas"
+  },
+  {
+    "id": "3102704",
+    "nome": "Cachoeira de Pajeú",
+    "uf": "MG",
+    "slug": "cachoeira-de-pajeu"
+  },
+  {
+    "id": "3109808",
+    "nome": "Cachoeira Dourada",
+    "uf": "MG",
+    "slug": "cachoeira-dourada"
+  },
+  {
+    "id": "3109907",
+    "nome": "Caetanópolis",
+    "uf": "MG",
+    "slug": "caetanopolis"
+  },
+  {
+    "id": "3110004",
+    "nome": "Caeté",
+    "uf": "MG",
+    "slug": "caete"
+  },
+  {
+    "id": "3110103",
+    "nome": "Caiana",
+    "uf": "MG",
+    "slug": "caiana"
+  },
+  {
+    "id": "3110202",
+    "nome": "Cajuri",
+    "uf": "MG",
+    "slug": "cajuri"
+  },
+  {
+    "id": "3110301",
+    "nome": "Caldas",
+    "uf": "MG",
+    "slug": "caldas"
+  },
+  {
+    "id": "3110400",
+    "nome": "Camacho",
+    "uf": "MG",
+    "slug": "camacho"
+  },
+  {
+    "id": "3110509",
+    "nome": "Camanducaia",
+    "uf": "MG",
+    "slug": "camanducaia"
+  },
+  {
+    "id": "3110608",
+    "nome": "Cambuí",
+    "uf": "MG",
+    "slug": "cambui"
+  },
+  {
+    "id": "3110707",
+    "nome": "Cambuquira",
+    "uf": "MG",
+    "slug": "cambuquira"
+  },
+  {
+    "id": "3110806",
+    "nome": "Campanário",
+    "uf": "MG",
+    "slug": "campanario"
+  },
+  {
+    "id": "3110905",
+    "nome": "Campanha",
+    "uf": "MG",
+    "slug": "campanha"
+  },
+  {
+    "id": "3111002",
+    "nome": "Campestre",
+    "uf": "MG",
+    "slug": "campestre"
+  },
+  {
+    "id": "3111101",
+    "nome": "Campina Verde",
+    "uf": "MG",
+    "slug": "campina-verde"
+  },
+  {
+    "id": "3111150",
+    "nome": "Campo Azul",
+    "uf": "MG",
+    "slug": "campo-azul"
+  },
+  {
+    "id": "3111200",
+    "nome": "Campo Belo",
+    "uf": "MG",
+    "slug": "campo-belo"
+  },
+  {
+    "id": "3111309",
+    "nome": "Campo do Meio",
+    "uf": "MG",
+    "slug": "campo-do-meio"
+  },
+  {
+    "id": "3111408",
+    "nome": "Campo Florido",
+    "uf": "MG",
+    "slug": "campo-florido"
+  },
+  {
+    "id": "3111507",
+    "nome": "Campos Altos",
+    "uf": "MG",
+    "slug": "campos-altos"
+  },
+  {
+    "id": "3111606",
+    "nome": "Campos Gerais",
+    "uf": "MG",
+    "slug": "campos-gerais"
+  },
+  {
+    "id": "3111903",
+    "nome": "Cana Verde",
+    "uf": "MG",
+    "slug": "cana-verde"
+  },
+  {
+    "id": "3111705",
+    "nome": "Canaã",
+    "uf": "MG",
+    "slug": "canaa"
+  },
+  {
+    "id": "3111804",
+    "nome": "Canápolis",
+    "uf": "MG",
+    "slug": "canapolis"
+  },
+  {
+    "id": "3112000",
+    "nome": "Candeias",
+    "uf": "MG",
+    "slug": "candeias"
+  },
+  {
+    "id": "3112059",
+    "nome": "Cantagalo",
+    "uf": "MG",
+    "slug": "cantagalo"
+  },
+  {
+    "id": "3112109",
+    "nome": "Caparaó",
+    "uf": "MG",
+    "slug": "caparao"
+  },
+  {
+    "id": "3112208",
+    "nome": "Capela Nova",
+    "uf": "MG",
+    "slug": "capela-nova"
+  },
+  {
+    "id": "3112307",
+    "nome": "Capelinha",
+    "uf": "MG",
+    "slug": "capelinha"
+  },
+  {
+    "id": "3112406",
+    "nome": "Capetinga",
+    "uf": "MG",
+    "slug": "capetinga"
+  },
+  {
+    "id": "3112505",
+    "nome": "Capim Branco",
+    "uf": "MG",
+    "slug": "capim-branco"
+  },
+  {
+    "id": "3112604",
+    "nome": "Capinópolis",
+    "uf": "MG",
+    "slug": "capinopolis"
+  },
+  {
+    "id": "3112653",
+    "nome": "Capitão Andrade",
+    "uf": "MG",
+    "slug": "capitao-andrade"
+  },
+  {
+    "id": "3112703",
+    "nome": "Capitão Enéas",
+    "uf": "MG",
+    "slug": "capitao-eneas"
+  },
+  {
+    "id": "3112802",
+    "nome": "Capitólio",
+    "uf": "MG",
+    "slug": "capitolio"
+  },
+  {
+    "id": "3112901",
+    "nome": "Caputira",
+    "uf": "MG",
+    "slug": "caputira"
+  },
+  {
+    "id": "3113008",
+    "nome": "Caraí",
+    "uf": "MG",
+    "slug": "carai"
+  },
+  {
+    "id": "3113107",
+    "nome": "Caranaíba",
+    "uf": "MG",
+    "slug": "caranaiba"
+  },
+  {
+    "id": "3113206",
+    "nome": "Carandaí",
+    "uf": "MG",
+    "slug": "carandai"
+  },
+  {
+    "id": "3113305",
+    "nome": "Carangola",
+    "uf": "MG",
+    "slug": "carangola"
+  },
+  {
+    "id": "3113404",
+    "nome": "Caratinga",
+    "uf": "MG",
+    "slug": "caratinga"
+  },
+  {
+    "id": "3113503",
+    "nome": "Carbonita",
+    "uf": "MG",
+    "slug": "carbonita"
+  },
+  {
+    "id": "3113602",
+    "nome": "Careaçu",
+    "uf": "MG",
+    "slug": "careacu"
+  },
+  {
+    "id": "3113701",
+    "nome": "Carlos Chagas",
+    "uf": "MG",
+    "slug": "carlos-chagas"
+  },
+  {
+    "id": "3113800",
+    "nome": "Carmésia",
+    "uf": "MG",
+    "slug": "carmesia"
+  },
+  {
+    "id": "3113909",
+    "nome": "Carmo da Cachoeira",
+    "uf": "MG",
+    "slug": "carmo-da-cachoeira"
+  },
+  {
+    "id": "3114006",
+    "nome": "Carmo da Mata",
+    "uf": "MG",
+    "slug": "carmo-da-mata"
+  },
+  {
+    "id": "3114105",
+    "nome": "Carmo de Minas",
+    "uf": "MG",
+    "slug": "carmo-de-minas"
+  },
+  {
+    "id": "3114204",
+    "nome": "Carmo do Cajuru",
+    "uf": "MG",
+    "slug": "carmo-do-cajuru"
+  },
+  {
+    "id": "3114303",
+    "nome": "Carmo do Paranaíba",
+    "uf": "MG",
+    "slug": "carmo-do-paranaiba"
+  },
+  {
+    "id": "3114402",
+    "nome": "Carmo do Rio Claro",
+    "uf": "MG",
+    "slug": "carmo-do-rio-claro"
+  },
+  {
+    "id": "3114501",
+    "nome": "Carmópolis de Minas",
+    "uf": "MG",
+    "slug": "carmopolis-de-minas"
+  },
+  {
+    "id": "3114550",
+    "nome": "Carneirinho",
+    "uf": "MG",
+    "slug": "carneirinho"
+  },
+  {
+    "id": "3114600",
+    "nome": "Carrancas",
+    "uf": "MG",
+    "slug": "carrancas"
+  },
+  {
+    "id": "3114709",
+    "nome": "Carvalhópolis",
+    "uf": "MG",
+    "slug": "carvalhopolis"
+  },
+  {
+    "id": "3114808",
+    "nome": "Carvalhos",
+    "uf": "MG",
+    "slug": "carvalhos"
+  },
+  {
+    "id": "3114907",
+    "nome": "Casa Grande",
+    "uf": "MG",
+    "slug": "casa-grande"
+  },
+  {
+    "id": "3115003",
+    "nome": "Cascalho Rico",
+    "uf": "MG",
+    "slug": "cascalho-rico"
+  },
+  {
+    "id": "3115102",
+    "nome": "Cássia",
+    "uf": "MG",
+    "slug": "cassia"
+  },
+  {
+    "id": "3115300",
+    "nome": "Cataguases",
+    "uf": "MG",
+    "slug": "cataguases"
+  },
+  {
+    "id": "3115359",
+    "nome": "Catas Altas",
+    "uf": "MG",
+    "slug": "catas-altas"
+  },
+  {
+    "id": "3115409",
+    "nome": "Catas Altas da Noruega",
+    "uf": "MG",
+    "slug": "catas-altas-da-noruega"
+  },
+  {
+    "id": "3115458",
+    "nome": "Catuji",
+    "uf": "MG",
+    "slug": "catuji"
+  },
+  {
+    "id": "3115474",
+    "nome": "Catuti",
+    "uf": "MG",
+    "slug": "catuti"
+  },
+  {
+    "id": "3115508",
+    "nome": "Caxambu",
+    "uf": "MG",
+    "slug": "caxambu"
+  },
+  {
+    "id": "3115607",
+    "nome": "Cedro do Abaeté",
+    "uf": "MG",
+    "slug": "cedro-do-abaete"
+  },
+  {
+    "id": "3115706",
+    "nome": "Central de Minas",
+    "uf": "MG",
+    "slug": "central-de-minas"
+  },
+  {
+    "id": "3115805",
+    "nome": "Centralina",
+    "uf": "MG",
+    "slug": "centralina"
+  },
+  {
+    "id": "3115904",
+    "nome": "Chácara",
+    "uf": "MG",
+    "slug": "chacara"
+  },
+  {
+    "id": "3116001",
+    "nome": "Chalé",
+    "uf": "MG",
+    "slug": "chale"
+  },
+  {
+    "id": "3116100",
+    "nome": "Chapada do Norte",
+    "uf": "MG",
+    "slug": "chapada-do-norte"
+  },
+  {
+    "id": "3116159",
+    "nome": "Chapada Gaúcha",
+    "uf": "MG",
+    "slug": "chapada-gaucha"
+  },
+  {
+    "id": "3116209",
+    "nome": "Chiador",
+    "uf": "MG",
+    "slug": "chiador"
+  },
+  {
+    "id": "3116308",
+    "nome": "Cipotânea",
+    "uf": "MG",
+    "slug": "cipotanea"
+  },
+  {
+    "id": "3116407",
+    "nome": "Claraval",
+    "uf": "MG",
+    "slug": "claraval"
+  },
+  {
+    "id": "3116506",
+    "nome": "Claro dos Poções",
+    "uf": "MG",
+    "slug": "claro-dos-pocoes"
+  },
+  {
+    "id": "3116605",
+    "nome": "Cláudio",
+    "uf": "MG",
+    "slug": "claudio"
+  },
+  {
+    "id": "3116704",
+    "nome": "Coimbra",
+    "uf": "MG",
+    "slug": "coimbra"
+  },
+  {
+    "id": "3116803",
+    "nome": "Coluna",
+    "uf": "MG",
+    "slug": "coluna"
+  },
+  {
+    "id": "3116902",
+    "nome": "Comendador Gomes",
+    "uf": "MG",
+    "slug": "comendador-gomes"
+  },
+  {
+    "id": "3117009",
+    "nome": "Comercinho",
+    "uf": "MG",
+    "slug": "comercinho"
+  },
+  {
+    "id": "3117108",
+    "nome": "Conceição da Aparecida",
+    "uf": "MG",
+    "slug": "conceicao-da-aparecida"
+  },
+  {
+    "id": "3115201",
+    "nome": "Conceição da Barra de Minas",
+    "uf": "MG",
+    "slug": "conceicao-da-barra-de-minas"
+  },
+  {
+    "id": "3117306",
+    "nome": "Conceição das Alagoas",
+    "uf": "MG",
+    "slug": "conceicao-das-alagoas"
+  },
+  {
+    "id": "3117207",
+    "nome": "Conceição das Pedras",
+    "uf": "MG",
+    "slug": "conceicao-das-pedras"
+  },
+  {
+    "id": "3117405",
+    "nome": "Conceição de Ipanema",
+    "uf": "MG",
+    "slug": "conceicao-de-ipanema"
+  },
+  {
+    "id": "3117504",
+    "nome": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "slug": "conceicao-do-mato-dentro"
+  },
+  {
+    "id": "3117603",
+    "nome": "Conceição do Pará",
+    "uf": "MG",
+    "slug": "conceicao-do-para"
+  },
+  {
+    "id": "3117702",
+    "nome": "Conceição do Rio Verde",
+    "uf": "MG",
+    "slug": "conceicao-do-rio-verde"
+  },
+  {
+    "id": "3117801",
+    "nome": "Conceição dos Ouros",
+    "uf": "MG",
+    "slug": "conceicao-dos-ouros"
+  },
+  {
+    "id": "3117836",
+    "nome": "Cônego Marinho",
+    "uf": "MG",
+    "slug": "conego-marinho"
+  },
+  {
+    "id": "3117876",
+    "nome": "Confins",
+    "uf": "MG",
+    "slug": "confins"
+  },
+  {
+    "id": "3117900",
+    "nome": "Congonhal",
+    "uf": "MG",
+    "slug": "congonhal"
+  },
+  {
+    "id": "3118007",
+    "nome": "Congonhas",
+    "uf": "MG",
+    "slug": "congonhas"
+  },
+  {
+    "id": "3118106",
+    "nome": "Congonhas do Norte",
+    "uf": "MG",
+    "slug": "congonhas-do-norte"
+  },
+  {
+    "id": "3118205",
+    "nome": "Conquista",
+    "uf": "MG",
+    "slug": "conquista"
+  },
+  {
+    "id": "3118304",
+    "nome": "Conselheiro Lafaiete",
+    "uf": "MG",
+    "slug": "conselheiro-lafaiete"
+  },
+  {
+    "id": "3118403",
+    "nome": "Conselheiro Pena",
+    "uf": "MG",
+    "slug": "conselheiro-pena"
+  },
+  {
+    "id": "3118502",
+    "nome": "Consolação",
+    "uf": "MG",
+    "slug": "consolacao"
+  },
+  {
+    "id": "3118601",
+    "nome": "Contagem",
+    "uf": "MG",
+    "slug": "contagem"
+  },
+  {
+    "id": "3118700",
+    "nome": "Coqueiral",
+    "uf": "MG",
+    "slug": "coqueiral"
+  },
+  {
+    "id": "3118809",
+    "nome": "Coração de Jesus",
+    "uf": "MG",
+    "slug": "coracao-de-jesus"
+  },
+  {
+    "id": "3118908",
+    "nome": "Cordisburgo",
+    "uf": "MG",
+    "slug": "cordisburgo"
+  },
+  {
+    "id": "3119005",
+    "nome": "Cordislândia",
+    "uf": "MG",
+    "slug": "cordislandia"
+  },
+  {
+    "id": "3119104",
+    "nome": "Corinto",
+    "uf": "MG",
+    "slug": "corinto"
+  },
+  {
+    "id": "3119203",
+    "nome": "Coroaci",
+    "uf": "MG",
+    "slug": "coroaci"
+  },
+  {
+    "id": "3119302",
+    "nome": "Coromandel",
+    "uf": "MG",
+    "slug": "coromandel"
+  },
+  {
+    "id": "3119401",
+    "nome": "Coronel Fabriciano",
+    "uf": "MG",
+    "slug": "coronel-fabriciano"
+  },
+  {
+    "id": "3119500",
+    "nome": "Coronel Murta",
+    "uf": "MG",
+    "slug": "coronel-murta"
+  },
+  {
+    "id": "3119609",
+    "nome": "Coronel Pacheco",
+    "uf": "MG",
+    "slug": "coronel-pacheco"
+  },
+  {
+    "id": "3119708",
+    "nome": "Coronel Xavier Chaves",
+    "uf": "MG",
+    "slug": "coronel-xavier-chaves"
+  },
+  {
+    "id": "3119807",
+    "nome": "Córrego Danta",
+    "uf": "MG",
+    "slug": "corrego-danta"
+  },
+  {
+    "id": "3119906",
+    "nome": "Córrego do Bom Jesus",
+    "uf": "MG",
+    "slug": "corrego-do-bom-jesus"
+  },
+  {
+    "id": "3119955",
+    "nome": "Córrego Fundo",
+    "uf": "MG",
+    "slug": "corrego-fundo"
+  },
+  {
+    "id": "3120003",
+    "nome": "Córrego Novo",
+    "uf": "MG",
+    "slug": "corrego-novo"
+  },
+  {
+    "id": "3120102",
+    "nome": "Couto de Magalhães de Minas",
+    "uf": "MG",
+    "slug": "couto-de-magalhaes-de-minas"
+  },
+  {
+    "id": "3120151",
+    "nome": "Crisólita",
+    "uf": "MG",
+    "slug": "crisolita"
+  },
+  {
+    "id": "3120201",
+    "nome": "Cristais",
+    "uf": "MG",
+    "slug": "cristais"
+  },
+  {
+    "id": "3120300",
+    "nome": "Cristália",
+    "uf": "MG",
+    "slug": "cristalia"
+  },
+  {
+    "id": "3120409",
+    "nome": "Cristiano Otoni",
+    "uf": "MG",
+    "slug": "cristiano-otoni"
+  },
+  {
+    "id": "3120508",
+    "nome": "Cristina",
+    "uf": "MG",
+    "slug": "cristina"
+  },
+  {
+    "id": "3120607",
+    "nome": "Crucilândia",
+    "uf": "MG",
+    "slug": "crucilandia"
+  },
+  {
+    "id": "3120706",
+    "nome": "Cruzeiro da Fortaleza",
+    "uf": "MG",
+    "slug": "cruzeiro-da-fortaleza"
+  },
+  {
+    "id": "3120805",
+    "nome": "Cruzília",
+    "uf": "MG",
+    "slug": "cruzilia"
+  },
+  {
+    "id": "3120839",
+    "nome": "Cuparaque",
+    "uf": "MG",
+    "slug": "cuparaque"
+  },
+  {
+    "id": "3120870",
+    "nome": "Curral de Dentro",
+    "uf": "MG",
+    "slug": "curral-de-dentro"
+  },
+  {
+    "id": "3120904",
+    "nome": "Curvelo",
+    "uf": "MG",
+    "slug": "curvelo"
+  },
+  {
+    "id": "3121001",
+    "nome": "Datas",
+    "uf": "MG",
+    "slug": "datas"
+  },
+  {
+    "id": "3121100",
+    "nome": "Delfim Moreira",
+    "uf": "MG",
+    "slug": "delfim-moreira"
+  },
+  {
+    "id": "3121209",
+    "nome": "Delfinópolis",
+    "uf": "MG",
+    "slug": "delfinopolis"
+  },
+  {
+    "id": "3121258",
+    "nome": "Delta",
+    "uf": "MG",
+    "slug": "delta"
+  },
+  {
+    "id": "3121308",
+    "nome": "Descoberto",
+    "uf": "MG",
+    "slug": "descoberto"
+  },
+  {
+    "id": "3121407",
+    "nome": "Desterro de Entre Rios",
+    "uf": "MG",
+    "slug": "desterro-de-entre-rios"
+  },
+  {
+    "id": "3121506",
+    "nome": "Desterro do Melo",
+    "uf": "MG",
+    "slug": "desterro-do-melo"
+  },
+  {
+    "id": "3121605",
+    "nome": "Diamantina",
+    "uf": "MG",
+    "slug": "diamantina"
+  },
+  {
+    "id": "3121704",
+    "nome": "Diogo de Vasconcelos",
+    "uf": "MG",
+    "slug": "diogo-de-vasconcelos"
+  },
+  {
+    "id": "3121803",
+    "nome": "Dionísio",
+    "uf": "MG",
+    "slug": "dionisio"
+  },
+  {
+    "id": "3121902",
+    "nome": "Divinésia",
+    "uf": "MG",
+    "slug": "divinesia"
+  },
+  {
+    "id": "3122009",
+    "nome": "Divino",
+    "uf": "MG",
+    "slug": "divino"
+  },
+  {
+    "id": "3122108",
+    "nome": "Divino das Laranjeiras",
+    "uf": "MG",
+    "slug": "divino-das-laranjeiras"
+  },
+  {
+    "id": "3122207",
+    "nome": "Divinolândia de Minas",
+    "uf": "MG",
+    "slug": "divinolandia-de-minas"
+  },
+  {
+    "id": "3122306",
+    "nome": "Divinópolis",
+    "uf": "MG",
+    "slug": "divinopolis"
+  },
+  {
+    "id": "3122355",
+    "nome": "Divisa Alegre",
+    "uf": "MG",
+    "slug": "divisa-alegre"
+  },
+  {
+    "id": "3122405",
+    "nome": "Divisa Nova",
+    "uf": "MG",
+    "slug": "divisa-nova"
+  },
+  {
+    "id": "3122454",
+    "nome": "Divisópolis",
+    "uf": "MG",
+    "slug": "divisopolis"
+  },
+  {
+    "id": "3122470",
+    "nome": "Dom Bosco",
+    "uf": "MG",
+    "slug": "dom-bosco"
+  },
+  {
+    "id": "3122504",
+    "nome": "Dom Cavati",
+    "uf": "MG",
+    "slug": "dom-cavati"
+  },
+  {
+    "id": "3122603",
+    "nome": "Dom Joaquim",
+    "uf": "MG",
+    "slug": "dom-joaquim"
+  },
+  {
+    "id": "3122702",
+    "nome": "Dom Silvério",
+    "uf": "MG",
+    "slug": "dom-silverio"
+  },
+  {
+    "id": "3122801",
+    "nome": "Dom Viçoso",
+    "uf": "MG",
+    "slug": "dom-vicoso"
+  },
+  {
+    "id": "3122900",
+    "nome": "Dona Euzébia",
+    "uf": "MG",
+    "slug": "dona-euzebia"
+  },
+  {
+    "id": "3123007",
+    "nome": "Dores de Campos",
+    "uf": "MG",
+    "slug": "dores-de-campos"
+  },
+  {
+    "id": "3123106",
+    "nome": "Dores de Guanhães",
+    "uf": "MG",
+    "slug": "dores-de-guanhaes"
+  },
+  {
+    "id": "3123205",
+    "nome": "Dores do Indaiá",
+    "uf": "MG",
+    "slug": "dores-do-indaia"
+  },
+  {
+    "id": "3123304",
+    "nome": "Dores do Turvo",
+    "uf": "MG",
+    "slug": "dores-do-turvo"
+  },
+  {
+    "id": "3123403",
+    "nome": "Doresópolis",
+    "uf": "MG",
+    "slug": "doresopolis"
+  },
+  {
+    "id": "3123502",
+    "nome": "Douradoquara",
+    "uf": "MG",
+    "slug": "douradoquara"
+  },
+  {
+    "id": "3123528",
+    "nome": "Durandé",
+    "uf": "MG",
+    "slug": "durande"
+  },
+  {
+    "id": "3123601",
+    "nome": "Elói Mendes",
+    "uf": "MG",
+    "slug": "eloi-mendes"
+  },
+  {
+    "id": "3123700",
+    "nome": "Engenheiro Caldas",
+    "uf": "MG",
+    "slug": "engenheiro-caldas"
+  },
+  {
+    "id": "3123809",
+    "nome": "Engenheiro Navarro",
+    "uf": "MG",
+    "slug": "engenheiro-navarro"
+  },
+  {
+    "id": "3123858",
+    "nome": "Entre Folhas",
+    "uf": "MG",
+    "slug": "entre-folhas"
+  },
+  {
+    "id": "3123908",
+    "nome": "Entre Rios de Minas",
+    "uf": "MG",
+    "slug": "entre-rios-de-minas"
+  },
+  {
+    "id": "3124005",
+    "nome": "Ervália",
+    "uf": "MG",
+    "slug": "ervalia"
+  },
+  {
+    "id": "3124104",
+    "nome": "Esmeraldas",
+    "uf": "MG",
+    "slug": "esmeraldas"
+  },
+  {
+    "id": "3124203",
+    "nome": "Espera Feliz",
+    "uf": "MG",
+    "slug": "espera-feliz"
+  },
+  {
+    "id": "3124302",
+    "nome": "Espinosa",
+    "uf": "MG",
+    "slug": "espinosa"
+  },
+  {
+    "id": "3124401",
+    "nome": "Espírito Santo do Dourado",
+    "uf": "MG",
+    "slug": "espirito-santo-do-dourado"
+  },
+  {
+    "id": "3124500",
+    "nome": "Estiva",
+    "uf": "MG",
+    "slug": "estiva"
+  },
+  {
+    "id": "3124609",
+    "nome": "Estrela Dalva",
+    "uf": "MG",
+    "slug": "estrela-dalva"
+  },
+  {
+    "id": "3124708",
+    "nome": "Estrela do Indaiá",
+    "uf": "MG",
+    "slug": "estrela-do-indaia"
+  },
+  {
+    "id": "3124807",
+    "nome": "Estrela do Sul",
+    "uf": "MG",
+    "slug": "estrela-do-sul"
+  },
+  {
+    "id": "3124906",
+    "nome": "Eugenópolis",
+    "uf": "MG",
+    "slug": "eugenopolis"
+  },
+  {
+    "id": "3125002",
+    "nome": "Ewbank da Câmara",
+    "uf": "MG",
+    "slug": "ewbank-da-camara"
+  },
+  {
+    "id": "3125101",
+    "nome": "Extrema",
+    "uf": "MG",
+    "slug": "extrema"
+  },
+  {
+    "id": "3125200",
+    "nome": "Fama",
+    "uf": "MG",
+    "slug": "fama"
+  },
+  {
+    "id": "3125309",
+    "nome": "Faria Lemos",
+    "uf": "MG",
+    "slug": "faria-lemos"
+  },
+  {
+    "id": "3125408",
+    "nome": "Felício dos Santos",
+    "uf": "MG",
+    "slug": "felicio-dos-santos"
+  },
+  {
+    "id": "3125606",
+    "nome": "Felisburgo",
+    "uf": "MG",
+    "slug": "felisburgo"
+  },
+  {
+    "id": "3125705",
+    "nome": "Felixlândia",
+    "uf": "MG",
+    "slug": "felixlandia"
+  },
+  {
+    "id": "3125804",
+    "nome": "Fernandes Tourinho",
+    "uf": "MG",
+    "slug": "fernandes-tourinho"
+  },
+  {
+    "id": "3125903",
+    "nome": "Ferros",
+    "uf": "MG",
+    "slug": "ferros"
+  },
+  {
+    "id": "3125952",
+    "nome": "Fervedouro",
+    "uf": "MG",
+    "slug": "fervedouro"
+  },
+  {
+    "id": "3126000",
+    "nome": "Florestal",
+    "uf": "MG",
+    "slug": "florestal"
+  },
+  {
+    "id": "3126109",
+    "nome": "Formiga",
+    "uf": "MG",
+    "slug": "formiga"
+  },
+  {
+    "id": "3126208",
+    "nome": "Formoso",
+    "uf": "MG",
+    "slug": "formoso"
+  },
+  {
+    "id": "3126307",
+    "nome": "Fortaleza de Minas",
+    "uf": "MG",
+    "slug": "fortaleza-de-minas"
+  },
+  {
+    "id": "3126406",
+    "nome": "Fortuna de Minas",
+    "uf": "MG",
+    "slug": "fortuna-de-minas"
+  },
+  {
+    "id": "3126505",
+    "nome": "Francisco Badaró",
+    "uf": "MG",
+    "slug": "francisco-badaro"
+  },
+  {
+    "id": "3126604",
+    "nome": "Francisco Dumont",
+    "uf": "MG",
+    "slug": "francisco-dumont"
+  },
+  {
+    "id": "3126703",
+    "nome": "Francisco Sá",
+    "uf": "MG",
+    "slug": "francisco-sa"
+  },
+  {
+    "id": "3126752",
+    "nome": "Franciscópolis",
+    "uf": "MG",
+    "slug": "franciscopolis"
+  },
+  {
+    "id": "3126802",
+    "nome": "Frei Gaspar",
+    "uf": "MG",
+    "slug": "frei-gaspar"
+  },
+  {
+    "id": "3126901",
+    "nome": "Frei Inocêncio",
+    "uf": "MG",
+    "slug": "frei-inocencio"
+  },
+  {
+    "id": "3126950",
+    "nome": "Frei Lagonegro",
+    "uf": "MG",
+    "slug": "frei-lagonegro"
+  },
+  {
+    "id": "3127008",
+    "nome": "Fronteira",
+    "uf": "MG",
+    "slug": "fronteira"
+  },
+  {
+    "id": "3127057",
+    "nome": "Fronteira dos Vales",
+    "uf": "MG",
+    "slug": "fronteira-dos-vales"
+  },
+  {
+    "id": "3127073",
+    "nome": "Fruta de Leite",
+    "uf": "MG",
+    "slug": "fruta-de-leite"
+  },
+  {
+    "id": "3127107",
+    "nome": "Frutal",
+    "uf": "MG",
+    "slug": "frutal"
+  },
+  {
+    "id": "3127206",
+    "nome": "Funilândia",
+    "uf": "MG",
+    "slug": "funilandia"
+  },
+  {
+    "id": "3127305",
+    "nome": "Galiléia",
+    "uf": "MG",
+    "slug": "galileia"
+  },
+  {
+    "id": "3127339",
+    "nome": "Gameleiras",
+    "uf": "MG",
+    "slug": "gameleiras"
+  },
+  {
+    "id": "3127354",
+    "nome": "Glaucilândia",
+    "uf": "MG",
+    "slug": "glaucilandia"
+  },
+  {
+    "id": "3127370",
+    "nome": "Goiabeira",
+    "uf": "MG",
+    "slug": "goiabeira"
+  },
+  {
+    "id": "3127388",
+    "nome": "Goianá",
+    "uf": "MG",
+    "slug": "goiana"
+  },
+  {
+    "id": "3127404",
+    "nome": "Gonçalves",
+    "uf": "MG",
+    "slug": "goncalves"
+  },
+  {
+    "id": "3127503",
+    "nome": "Gonzaga",
+    "uf": "MG",
+    "slug": "gonzaga"
+  },
+  {
+    "id": "3127602",
+    "nome": "Gouveia",
+    "uf": "MG",
+    "slug": "gouveia"
+  },
+  {
+    "id": "3127701",
+    "nome": "Governador Valadares",
+    "uf": "MG",
+    "slug": "governador-valadares"
+  },
+  {
+    "id": "3127800",
+    "nome": "Grão Mogol",
+    "uf": "MG",
+    "slug": "grao-mogol"
+  },
+  {
+    "id": "3127909",
+    "nome": "Grupiara",
+    "uf": "MG",
+    "slug": "grupiara"
+  },
+  {
+    "id": "3128006",
+    "nome": "Guanhães",
+    "uf": "MG",
+    "slug": "guanhaes"
+  },
+  {
+    "id": "3128105",
+    "nome": "Guapé",
+    "uf": "MG",
+    "slug": "guape"
+  },
+  {
+    "id": "3128204",
+    "nome": "Guaraciaba",
+    "uf": "MG",
+    "slug": "guaraciaba"
+  },
+  {
+    "id": "3128253",
+    "nome": "Guaraciama",
+    "uf": "MG",
+    "slug": "guaraciama"
+  },
+  {
+    "id": "3128303",
+    "nome": "Guaranésia",
+    "uf": "MG",
+    "slug": "guaranesia"
+  },
+  {
+    "id": "3128402",
+    "nome": "Guarani",
+    "uf": "MG",
+    "slug": "guarani"
+  },
+  {
+    "id": "3128501",
+    "nome": "Guarará",
+    "uf": "MG",
+    "slug": "guarara"
+  },
+  {
+    "id": "3128600",
+    "nome": "Guarda-Mor",
+    "uf": "MG",
+    "slug": "guarda-mor"
+  },
+  {
+    "id": "3128709",
+    "nome": "Guaxupé",
+    "uf": "MG",
+    "slug": "guaxupe"
+  },
+  {
+    "id": "3128808",
+    "nome": "Guidoval",
+    "uf": "MG",
+    "slug": "guidoval"
+  },
+  {
+    "id": "3128907",
+    "nome": "Guimarânia",
+    "uf": "MG",
+    "slug": "guimarania"
+  },
+  {
+    "id": "3129004",
+    "nome": "Guiricema",
+    "uf": "MG",
+    "slug": "guiricema"
+  },
+  {
+    "id": "3129103",
+    "nome": "Gurinhatã",
+    "uf": "MG",
+    "slug": "gurinhata"
+  },
+  {
+    "id": "3129202",
+    "nome": "Heliodora",
+    "uf": "MG",
+    "slug": "heliodora"
+  },
+  {
+    "id": "3129301",
+    "nome": "Iapu",
+    "uf": "MG",
+    "slug": "iapu"
+  },
+  {
+    "id": "3129400",
+    "nome": "Ibertioga",
+    "uf": "MG",
+    "slug": "ibertioga"
+  },
+  {
+    "id": "3129509",
+    "nome": "Ibiá",
+    "uf": "MG",
+    "slug": "ibia"
+  },
+  {
+    "id": "3129608",
+    "nome": "Ibiaí",
+    "uf": "MG",
+    "slug": "ibiai"
+  },
+  {
+    "id": "3129657",
+    "nome": "Ibiracatu",
+    "uf": "MG",
+    "slug": "ibiracatu"
+  },
+  {
+    "id": "3129707",
+    "nome": "Ibiraci",
+    "uf": "MG",
+    "slug": "ibiraci"
+  },
+  {
+    "id": "3129806",
+    "nome": "Ibirité",
+    "uf": "MG",
+    "slug": "ibirite"
+  },
+  {
+    "id": "3129905",
+    "nome": "Ibitiúra de Minas",
+    "uf": "MG",
+    "slug": "ibitiura-de-minas"
+  },
+  {
+    "id": "3130002",
+    "nome": "Ibituruna",
+    "uf": "MG",
+    "slug": "ibituruna"
+  },
+  {
+    "id": "3130051",
+    "nome": "Icaraí de Minas",
+    "uf": "MG",
+    "slug": "icarai-de-minas"
+  },
+  {
+    "id": "3130101",
+    "nome": "Igarapé",
+    "uf": "MG",
+    "slug": "igarape"
+  },
+  {
+    "id": "3130200",
+    "nome": "Igaratinga",
+    "uf": "MG",
+    "slug": "igaratinga"
+  },
+  {
+    "id": "3130309",
+    "nome": "Iguatama",
+    "uf": "MG",
+    "slug": "iguatama"
+  },
+  {
+    "id": "3130408",
+    "nome": "Ijaci",
+    "uf": "MG",
+    "slug": "ijaci"
+  },
+  {
+    "id": "3130507",
+    "nome": "Ilicínea",
+    "uf": "MG",
+    "slug": "ilicinea"
+  },
+  {
+    "id": "3130556",
+    "nome": "Imbé de Minas",
+    "uf": "MG",
+    "slug": "imbe-de-minas"
+  },
+  {
+    "id": "3130606",
+    "nome": "Inconfidentes",
+    "uf": "MG",
+    "slug": "inconfidentes"
+  },
+  {
+    "id": "3130655",
+    "nome": "Indaiabira",
+    "uf": "MG",
+    "slug": "indaiabira"
+  },
+  {
+    "id": "3130705",
+    "nome": "Indianópolis",
+    "uf": "MG",
+    "slug": "indianopolis"
+  },
+  {
+    "id": "3130804",
+    "nome": "Ingaí",
+    "uf": "MG",
+    "slug": "ingai"
+  },
+  {
+    "id": "3130903",
+    "nome": "Inhapim",
+    "uf": "MG",
+    "slug": "inhapim"
+  },
+  {
+    "id": "3131000",
+    "nome": "Inhaúma",
+    "uf": "MG",
+    "slug": "inhauma"
+  },
+  {
+    "id": "3131109",
+    "nome": "Inimutaba",
+    "uf": "MG",
+    "slug": "inimutaba"
+  },
+  {
+    "id": "3131158",
+    "nome": "Ipaba",
+    "uf": "MG",
+    "slug": "ipaba"
+  },
+  {
+    "id": "3131208",
+    "nome": "Ipanema",
+    "uf": "MG",
+    "slug": "ipanema"
+  },
+  {
+    "id": "3131307",
+    "nome": "Ipatinga",
+    "uf": "MG",
+    "slug": "ipatinga"
+  },
+  {
+    "id": "3131406",
+    "nome": "Ipiaçu",
+    "uf": "MG",
+    "slug": "ipiacu"
+  },
+  {
+    "id": "3131505",
+    "nome": "Ipuiúna",
+    "uf": "MG",
+    "slug": "ipuiuna"
+  },
+  {
+    "id": "3131604",
+    "nome": "Iraí de Minas",
+    "uf": "MG",
+    "slug": "irai-de-minas"
+  },
+  {
+    "id": "3131703",
+    "nome": "Itabira",
+    "uf": "MG",
+    "slug": "itabira"
+  },
+  {
+    "id": "3131802",
+    "nome": "Itabirinha",
+    "uf": "MG",
+    "slug": "itabirinha"
+  },
+  {
+    "id": "3131901",
+    "nome": "Itabirito",
+    "uf": "MG",
+    "slug": "itabirito"
+  },
+  {
+    "id": "3132008",
+    "nome": "Itacambira",
+    "uf": "MG",
+    "slug": "itacambira"
+  },
+  {
+    "id": "3132107",
+    "nome": "Itacarambi",
+    "uf": "MG",
+    "slug": "itacarambi"
+  },
+  {
+    "id": "3132206",
+    "nome": "Itaguara",
+    "uf": "MG",
+    "slug": "itaguara"
+  },
+  {
+    "id": "3132305",
+    "nome": "Itaipé",
+    "uf": "MG",
+    "slug": "itaipe"
+  },
+  {
+    "id": "3132404",
+    "nome": "Itajubá",
+    "uf": "MG",
+    "slug": "itajuba"
+  },
+  {
+    "id": "3132503",
+    "nome": "Itamarandiba",
+    "uf": "MG",
+    "slug": "itamarandiba"
+  },
+  {
+    "id": "3132602",
+    "nome": "Itamarati de Minas",
+    "uf": "MG",
+    "slug": "itamarati-de-minas"
+  },
+  {
+    "id": "3132701",
+    "nome": "Itambacuri",
+    "uf": "MG",
+    "slug": "itambacuri"
+  },
+  {
+    "id": "3132800",
+    "nome": "Itambé do Mato Dentro",
+    "uf": "MG",
+    "slug": "itambe-do-mato-dentro"
+  },
+  {
+    "id": "3132909",
+    "nome": "Itamogi",
+    "uf": "MG",
+    "slug": "itamogi"
+  },
+  {
+    "id": "3133006",
+    "nome": "Itamonte",
+    "uf": "MG",
+    "slug": "itamonte"
+  },
+  {
+    "id": "3133105",
+    "nome": "Itanhandu",
+    "uf": "MG",
+    "slug": "itanhandu"
+  },
+  {
+    "id": "3133204",
+    "nome": "Itanhomi",
+    "uf": "MG",
+    "slug": "itanhomi"
+  },
+  {
+    "id": "3133303",
+    "nome": "Itaobim",
+    "uf": "MG",
+    "slug": "itaobim"
+  },
+  {
+    "id": "3133402",
+    "nome": "Itapagipe",
+    "uf": "MG",
+    "slug": "itapagipe"
+  },
+  {
+    "id": "3133501",
+    "nome": "Itapecerica",
+    "uf": "MG",
+    "slug": "itapecerica"
+  },
+  {
+    "id": "3133600",
+    "nome": "Itapeva",
+    "uf": "MG",
+    "slug": "itapeva"
+  },
+  {
+    "id": "3133709",
+    "nome": "Itatiaiuçu",
+    "uf": "MG",
+    "slug": "itatiaiucu"
+  },
+  {
+    "id": "3133758",
+    "nome": "Itaú de Minas",
+    "uf": "MG",
+    "slug": "itau-de-minas"
+  },
+  {
+    "id": "3133808",
+    "nome": "Itaúna",
+    "uf": "MG",
+    "slug": "itauna"
+  },
+  {
+    "id": "3133907",
+    "nome": "Itaverava",
+    "uf": "MG",
+    "slug": "itaverava"
+  },
+  {
+    "id": "3134004",
+    "nome": "Itinga",
+    "uf": "MG",
+    "slug": "itinga"
+  },
+  {
+    "id": "3134103",
+    "nome": "Itueta",
+    "uf": "MG",
+    "slug": "itueta"
+  },
+  {
+    "id": "3134202",
+    "nome": "Ituiutaba",
+    "uf": "MG",
+    "slug": "ituiutaba"
+  },
+  {
+    "id": "3134301",
+    "nome": "Itumirim",
+    "uf": "MG",
+    "slug": "itumirim"
+  },
+  {
+    "id": "3134400",
+    "nome": "Iturama",
+    "uf": "MG",
+    "slug": "iturama"
+  },
+  {
+    "id": "3134509",
+    "nome": "Itutinga",
+    "uf": "MG",
+    "slug": "itutinga"
+  },
+  {
+    "id": "3134608",
+    "nome": "Jaboticatubas",
+    "uf": "MG",
+    "slug": "jaboticatubas"
+  },
+  {
+    "id": "3134707",
+    "nome": "Jacinto",
+    "uf": "MG",
+    "slug": "jacinto"
+  },
+  {
+    "id": "3134806",
+    "nome": "Jacuí",
+    "uf": "MG",
+    "slug": "jacui"
+  },
+  {
+    "id": "3134905",
+    "nome": "Jacutinga",
+    "uf": "MG",
+    "slug": "jacutinga"
+  },
+  {
+    "id": "3135001",
+    "nome": "Jaguaraçu",
+    "uf": "MG",
+    "slug": "jaguaracu"
+  },
+  {
+    "id": "3135050",
+    "nome": "Jaíba",
+    "uf": "MG",
+    "slug": "jaiba"
+  },
+  {
+    "id": "3135076",
+    "nome": "Jampruca",
+    "uf": "MG",
+    "slug": "jampruca"
+  },
+  {
+    "id": "3135100",
+    "nome": "Janaúba",
+    "uf": "MG",
+    "slug": "janauba"
+  },
+  {
+    "id": "3135209",
+    "nome": "Januária",
+    "uf": "MG",
+    "slug": "januaria"
+  },
+  {
+    "id": "3135308",
+    "nome": "Japaraíba",
+    "uf": "MG",
+    "slug": "japaraiba"
+  },
+  {
+    "id": "3135357",
+    "nome": "Japonvar",
+    "uf": "MG",
+    "slug": "japonvar"
+  },
+  {
+    "id": "3135407",
+    "nome": "Jeceaba",
+    "uf": "MG",
+    "slug": "jeceaba"
+  },
+  {
+    "id": "3135456",
+    "nome": "Jenipapo de Minas",
+    "uf": "MG",
+    "slug": "jenipapo-de-minas"
+  },
+  {
+    "id": "3135506",
+    "nome": "Jequeri",
+    "uf": "MG",
+    "slug": "jequeri"
+  },
+  {
+    "id": "3135605",
+    "nome": "Jequitaí",
+    "uf": "MG",
+    "slug": "jequitai"
+  },
+  {
+    "id": "3135704",
+    "nome": "Jequitibá",
+    "uf": "MG",
+    "slug": "jequitiba"
+  },
+  {
+    "id": "3135803",
+    "nome": "Jequitinhonha",
+    "uf": "MG",
+    "slug": "jequitinhonha"
+  },
+  {
+    "id": "3135902",
+    "nome": "Jesuânia",
+    "uf": "MG",
+    "slug": "jesuania"
+  },
+  {
+    "id": "3136009",
+    "nome": "Joaíma",
+    "uf": "MG",
+    "slug": "joaima"
+  },
+  {
+    "id": "3136108",
+    "nome": "Joanésia",
+    "uf": "MG",
+    "slug": "joanesia"
+  },
+  {
+    "id": "3136207",
+    "nome": "João Monlevade",
+    "uf": "MG",
+    "slug": "joao-monlevade"
+  },
+  {
+    "id": "3136306",
+    "nome": "João Pinheiro",
+    "uf": "MG",
+    "slug": "joao-pinheiro"
+  },
+  {
+    "id": "3136405",
+    "nome": "Joaquim Felício",
+    "uf": "MG",
+    "slug": "joaquim-felicio"
+  },
+  {
+    "id": "3136504",
+    "nome": "Jordânia",
+    "uf": "MG",
+    "slug": "jordania"
+  },
+  {
+    "id": "3136520",
+    "nome": "José Gonçalves de Minas",
+    "uf": "MG",
+    "slug": "jose-goncalves-de-minas"
+  },
+  {
+    "id": "3136553",
+    "nome": "José Raydan",
+    "uf": "MG",
+    "slug": "jose-raydan"
+  },
+  {
+    "id": "3136579",
+    "nome": "Josenópolis",
+    "uf": "MG",
+    "slug": "josenopolis"
+  },
+  {
+    "id": "3136652",
+    "nome": "Juatuba",
+    "uf": "MG",
+    "slug": "juatuba"
+  },
+  {
+    "id": "3136702",
+    "nome": "Juiz de Fora",
+    "uf": "MG",
+    "slug": "juiz-de-fora"
+  },
+  {
+    "id": "3136801",
+    "nome": "Juramento",
+    "uf": "MG",
+    "slug": "juramento"
+  },
+  {
+    "id": "3136900",
+    "nome": "Juruaia",
+    "uf": "MG",
+    "slug": "juruaia"
+  },
+  {
+    "id": "3136959",
+    "nome": "Juvenília",
+    "uf": "MG",
+    "slug": "juvenilia"
+  },
+  {
+    "id": "3137007",
+    "nome": "Ladainha",
+    "uf": "MG",
+    "slug": "ladainha"
+  },
+  {
+    "id": "3137106",
+    "nome": "Lagamar",
+    "uf": "MG",
+    "slug": "lagamar"
+  },
+  {
+    "id": "3137205",
+    "nome": "Lagoa da Prata",
+    "uf": "MG",
+    "slug": "lagoa-da-prata"
+  },
+  {
+    "id": "3137304",
+    "nome": "Lagoa dos Patos",
+    "uf": "MG",
+    "slug": "lagoa-dos-patos"
+  },
+  {
+    "id": "3137403",
+    "nome": "Lagoa Dourada",
+    "uf": "MG",
+    "slug": "lagoa-dourada"
+  },
+  {
+    "id": "3137502",
+    "nome": "Lagoa Formosa",
+    "uf": "MG",
+    "slug": "lagoa-formosa"
+  },
+  {
+    "id": "3137536",
+    "nome": "Lagoa Grande",
+    "uf": "MG",
+    "slug": "lagoa-grande"
+  },
+  {
+    "id": "3137601",
+    "nome": "Lagoa Santa",
+    "uf": "MG",
+    "slug": "lagoa-santa"
+  },
+  {
+    "id": "3137700",
+    "nome": "Lajinha",
+    "uf": "MG",
+    "slug": "lajinha"
+  },
+  {
+    "id": "3137809",
+    "nome": "Lambari",
+    "uf": "MG",
+    "slug": "lambari"
+  },
+  {
+    "id": "3137908",
+    "nome": "Lamim",
+    "uf": "MG",
+    "slug": "lamim"
+  },
+  {
+    "id": "3138005",
+    "nome": "Laranjal",
+    "uf": "MG",
+    "slug": "laranjal"
+  },
+  {
+    "id": "3138104",
+    "nome": "Lassance",
+    "uf": "MG",
+    "slug": "lassance"
+  },
+  {
+    "id": "3138203",
+    "nome": "Lavras",
+    "uf": "MG",
+    "slug": "lavras"
+  },
+  {
+    "id": "3138302",
+    "nome": "Leandro Ferreira",
+    "uf": "MG",
+    "slug": "leandro-ferreira"
+  },
+  {
+    "id": "3138351",
+    "nome": "Leme do Prado",
+    "uf": "MG",
+    "slug": "leme-do-prado"
+  },
+  {
+    "id": "3138401",
+    "nome": "Leopoldina",
+    "uf": "MG",
+    "slug": "leopoldina"
+  },
+  {
+    "id": "3138500",
+    "nome": "Liberdade",
+    "uf": "MG",
+    "slug": "liberdade"
+  },
+  {
+    "id": "3138609",
+    "nome": "Lima Duarte",
+    "uf": "MG",
+    "slug": "lima-duarte"
+  },
+  {
+    "id": "3138625",
+    "nome": "Limeira do Oeste",
+    "uf": "MG",
+    "slug": "limeira-do-oeste"
+  },
+  {
+    "id": "3138658",
+    "nome": "Lontra",
+    "uf": "MG",
+    "slug": "lontra"
+  },
+  {
+    "id": "3138674",
+    "nome": "Luisburgo",
+    "uf": "MG",
+    "slug": "luisburgo"
+  },
+  {
+    "id": "3138682",
+    "nome": "Luislândia",
+    "uf": "MG",
+    "slug": "luislandia"
+  },
+  {
+    "id": "3138708",
+    "nome": "Luminárias",
+    "uf": "MG",
+    "slug": "luminarias"
+  },
+  {
+    "id": "3138807",
+    "nome": "Luz",
+    "uf": "MG",
+    "slug": "luz"
+  },
+  {
+    "id": "3138906",
+    "nome": "Machacalis",
+    "uf": "MG",
+    "slug": "machacalis"
+  },
+  {
+    "id": "3139003",
+    "nome": "Machado",
+    "uf": "MG",
+    "slug": "machado"
+  },
+  {
+    "id": "3139102",
+    "nome": "Madre de Deus de Minas",
+    "uf": "MG",
+    "slug": "madre-de-deus-de-minas"
+  },
+  {
+    "id": "3139201",
+    "nome": "Malacacheta",
+    "uf": "MG",
+    "slug": "malacacheta"
+  },
+  {
+    "id": "3139250",
+    "nome": "Mamonas",
+    "uf": "MG",
+    "slug": "mamonas"
+  },
+  {
+    "id": "3139300",
+    "nome": "Manga",
+    "uf": "MG",
+    "slug": "manga"
+  },
+  {
+    "id": "3139409",
+    "nome": "Manhuaçu",
+    "uf": "MG",
+    "slug": "manhuacu"
+  },
+  {
+    "id": "3139508",
+    "nome": "Manhumirim",
+    "uf": "MG",
+    "slug": "manhumirim"
+  },
+  {
+    "id": "3139607",
+    "nome": "Mantena",
+    "uf": "MG",
+    "slug": "mantena"
+  },
+  {
+    "id": "3139805",
+    "nome": "Mar de Espanha",
+    "uf": "MG",
+    "slug": "mar-de-espanha"
+  },
+  {
+    "id": "3139706",
+    "nome": "Maravilhas",
+    "uf": "MG",
+    "slug": "maravilhas"
+  },
+  {
+    "id": "3139904",
+    "nome": "Maria da Fé",
+    "uf": "MG",
+    "slug": "maria-da-fe"
+  },
+  {
+    "id": "3140001",
+    "nome": "Mariana",
+    "uf": "MG",
+    "slug": "mariana"
+  },
+  {
+    "id": "3140100",
+    "nome": "Marilac",
+    "uf": "MG",
+    "slug": "marilac"
+  },
+  {
+    "id": "3140159",
+    "nome": "Mário Campos",
+    "uf": "MG",
+    "slug": "mario-campos"
+  },
+  {
+    "id": "3140209",
+    "nome": "Maripá de Minas",
+    "uf": "MG",
+    "slug": "maripa-de-minas"
+  },
+  {
+    "id": "3140308",
+    "nome": "Marliéria",
+    "uf": "MG",
+    "slug": "marlieria"
+  },
+  {
+    "id": "3140407",
+    "nome": "Marmelópolis",
+    "uf": "MG",
+    "slug": "marmelopolis"
+  },
+  {
+    "id": "3140506",
+    "nome": "Martinho Campos",
+    "uf": "MG",
+    "slug": "martinho-campos"
+  },
+  {
+    "id": "3140530",
+    "nome": "Martins Soares",
+    "uf": "MG",
+    "slug": "martins-soares"
+  },
+  {
+    "id": "3140555",
+    "nome": "Mata Verde",
+    "uf": "MG",
+    "slug": "mata-verde"
+  },
+  {
+    "id": "3140605",
+    "nome": "Materlândia",
+    "uf": "MG",
+    "slug": "materlandia"
+  },
+  {
+    "id": "3140704",
+    "nome": "Mateus Leme",
+    "uf": "MG",
+    "slug": "mateus-leme"
+  },
+  {
+    "id": "3171501",
+    "nome": "Mathias Lobato",
+    "uf": "MG",
+    "slug": "mathias-lobato"
+  },
+  {
+    "id": "3140803",
+    "nome": "Matias Barbosa",
+    "uf": "MG",
+    "slug": "matias-barbosa"
+  },
+  {
+    "id": "3140852",
+    "nome": "Matias Cardoso",
+    "uf": "MG",
+    "slug": "matias-cardoso"
+  },
+  {
+    "id": "3140902",
+    "nome": "Matipó",
+    "uf": "MG",
+    "slug": "matipo"
+  },
+  {
+    "id": "3141009",
+    "nome": "Mato Verde",
+    "uf": "MG",
+    "slug": "mato-verde"
+  },
+  {
+    "id": "3141108",
+    "nome": "Matozinhos",
+    "uf": "MG",
+    "slug": "matozinhos"
+  },
+  {
+    "id": "3141207",
+    "nome": "Matutina",
+    "uf": "MG",
+    "slug": "matutina"
+  },
+  {
+    "id": "3141306",
+    "nome": "Medeiros",
+    "uf": "MG",
+    "slug": "medeiros"
+  },
+  {
+    "id": "3141405",
+    "nome": "Medina",
+    "uf": "MG",
+    "slug": "medina"
+  },
+  {
+    "id": "3141504",
+    "nome": "Mendes Pimentel",
+    "uf": "MG",
+    "slug": "mendes-pimentel"
+  },
+  {
+    "id": "3141603",
+    "nome": "Mercês",
+    "uf": "MG",
+    "slug": "merces"
+  },
+  {
+    "id": "3141702",
+    "nome": "Mesquita",
+    "uf": "MG",
+    "slug": "mesquita"
+  },
+  {
+    "id": "3141801",
+    "nome": "Minas Novas",
+    "uf": "MG",
+    "slug": "minas-novas"
+  },
+  {
+    "id": "3141900",
+    "nome": "Minduri",
+    "uf": "MG",
+    "slug": "minduri"
+  },
+  {
+    "id": "3142007",
+    "nome": "Mirabela",
+    "uf": "MG",
+    "slug": "mirabela"
+  },
+  {
+    "id": "3142106",
+    "nome": "Miradouro",
+    "uf": "MG",
+    "slug": "miradouro"
+  },
+  {
+    "id": "3142205",
+    "nome": "Miraí",
+    "uf": "MG",
+    "slug": "mirai"
+  },
+  {
+    "id": "3142254",
+    "nome": "Miravânia",
+    "uf": "MG",
+    "slug": "miravania"
+  },
+  {
+    "id": "3142304",
+    "nome": "Moeda",
+    "uf": "MG",
+    "slug": "moeda"
+  },
+  {
+    "id": "3142403",
+    "nome": "Moema",
+    "uf": "MG",
+    "slug": "moema"
+  },
+  {
+    "id": "3142502",
+    "nome": "Monjolos",
+    "uf": "MG",
+    "slug": "monjolos"
+  },
+  {
+    "id": "3142601",
+    "nome": "Monsenhor Paulo",
+    "uf": "MG",
+    "slug": "monsenhor-paulo"
+  },
+  {
+    "id": "3142700",
+    "nome": "Montalvânia",
+    "uf": "MG",
+    "slug": "montalvania"
+  },
+  {
+    "id": "3142809",
+    "nome": "Monte Alegre de Minas",
+    "uf": "MG",
+    "slug": "monte-alegre-de-minas"
+  },
+  {
+    "id": "3142908",
+    "nome": "Monte Azul",
+    "uf": "MG",
+    "slug": "monte-azul"
+  },
+  {
+    "id": "3143005",
+    "nome": "Monte Belo",
+    "uf": "MG",
+    "slug": "monte-belo"
+  },
+  {
+    "id": "3143104",
+    "nome": "Monte Carmelo",
+    "uf": "MG",
+    "slug": "monte-carmelo"
+  },
+  {
+    "id": "3143153",
+    "nome": "Monte Formoso",
+    "uf": "MG",
+    "slug": "monte-formoso"
+  },
+  {
+    "id": "3143203",
+    "nome": "Monte Santo de Minas",
+    "uf": "MG",
+    "slug": "monte-santo-de-minas"
+  },
+  {
+    "id": "3143401",
+    "nome": "Monte Sião",
+    "uf": "MG",
+    "slug": "monte-siao"
+  },
+  {
+    "id": "3143302",
+    "nome": "Montes Claros",
+    "uf": "MG",
+    "slug": "montes-claros"
+  },
+  {
+    "id": "3143450",
+    "nome": "Montezuma",
+    "uf": "MG",
+    "slug": "montezuma"
+  },
+  {
+    "id": "3143500",
+    "nome": "Morada Nova de Minas",
+    "uf": "MG",
+    "slug": "morada-nova-de-minas"
+  },
+  {
+    "id": "3143609",
+    "nome": "Morro da Garça",
+    "uf": "MG",
+    "slug": "morro-da-garca"
+  },
+  {
+    "id": "3143708",
+    "nome": "Morro do Pilar",
+    "uf": "MG",
+    "slug": "morro-do-pilar"
+  },
+  {
+    "id": "3143807",
+    "nome": "Munhoz",
+    "uf": "MG",
+    "slug": "munhoz"
+  },
+  {
+    "id": "3143906",
+    "nome": "Muriaé",
+    "uf": "MG",
+    "slug": "muriae"
+  },
+  {
+    "id": "3144003",
+    "nome": "Mutum",
+    "uf": "MG",
+    "slug": "mutum"
+  },
+  {
+    "id": "3144102",
+    "nome": "Muzambinho",
+    "uf": "MG",
+    "slug": "muzambinho"
+  },
+  {
+    "id": "3144201",
+    "nome": "Nacip Raydan",
+    "uf": "MG",
+    "slug": "nacip-raydan"
+  },
+  {
+    "id": "3144300",
+    "nome": "Nanuque",
+    "uf": "MG",
+    "slug": "nanuque"
+  },
+  {
+    "id": "3144359",
+    "nome": "Naque",
+    "uf": "MG",
+    "slug": "naque"
+  },
+  {
+    "id": "3144375",
+    "nome": "Natalândia",
+    "uf": "MG",
+    "slug": "natalandia"
+  },
+  {
+    "id": "3144409",
+    "nome": "Natércia",
+    "uf": "MG",
+    "slug": "natercia"
+  },
+  {
+    "id": "3144508",
+    "nome": "Nazareno",
+    "uf": "MG",
+    "slug": "nazareno"
+  },
+  {
+    "id": "3144607",
+    "nome": "Nepomuceno",
+    "uf": "MG",
+    "slug": "nepomuceno"
+  },
+  {
+    "id": "3144656",
+    "nome": "Ninheira",
+    "uf": "MG",
+    "slug": "ninheira"
+  },
+  {
+    "id": "3144672",
+    "nome": "Nova Belém",
+    "uf": "MG",
+    "slug": "nova-belem"
+  },
+  {
+    "id": "3144706",
+    "nome": "Nova Era",
+    "uf": "MG",
+    "slug": "nova-era"
+  },
+  {
+    "id": "3144805",
+    "nome": "Nova Lima",
+    "uf": "MG",
+    "slug": "nova-lima"
+  },
+  {
+    "id": "3144904",
+    "nome": "Nova Módica",
+    "uf": "MG",
+    "slug": "nova-modica"
+  },
+  {
+    "id": "3145000",
+    "nome": "Nova Ponte",
+    "uf": "MG",
+    "slug": "nova-ponte"
+  },
+  {
+    "id": "3145059",
+    "nome": "Nova Porteirinha",
+    "uf": "MG",
+    "slug": "nova-porteirinha"
+  },
+  {
+    "id": "3145109",
+    "nome": "Nova Resende",
+    "uf": "MG",
+    "slug": "nova-resende"
+  },
+  {
+    "id": "3145208",
+    "nome": "Nova Serrana",
+    "uf": "MG",
+    "slug": "nova-serrana"
+  },
+  {
+    "id": "3136603",
+    "nome": "Nova União",
+    "uf": "MG",
+    "slug": "nova-uniao"
+  },
+  {
+    "id": "3145307",
+    "nome": "Novo Cruzeiro",
+    "uf": "MG",
+    "slug": "novo-cruzeiro"
+  },
+  {
+    "id": "3145356",
+    "nome": "Novo Oriente de Minas",
+    "uf": "MG",
+    "slug": "novo-oriente-de-minas"
+  },
+  {
+    "id": "3145372",
+    "nome": "Novorizonte",
+    "uf": "MG",
+    "slug": "novorizonte"
+  },
+  {
+    "id": "3145406",
+    "nome": "Olaria",
+    "uf": "MG",
+    "slug": "olaria"
+  },
+  {
+    "id": "3145455",
+    "nome": "Olhos-d'Água",
+    "uf": "MG",
+    "slug": "olhos-d'agua"
+  },
+  {
+    "id": "3145505",
+    "nome": "Olímpio Noronha",
+    "uf": "MG",
+    "slug": "olimpio-noronha"
+  },
+  {
+    "id": "3145604",
+    "nome": "Oliveira",
+    "uf": "MG",
+    "slug": "oliveira"
+  },
+  {
+    "id": "3145703",
+    "nome": "Oliveira Fortes",
+    "uf": "MG",
+    "slug": "oliveira-fortes"
+  },
+  {
+    "id": "3145802",
+    "nome": "Onça de Pitangui",
+    "uf": "MG",
+    "slug": "onca-de-pitangui"
+  },
+  {
+    "id": "3145851",
+    "nome": "Oratórios",
+    "uf": "MG",
+    "slug": "oratorios"
+  },
+  {
+    "id": "3145877",
+    "nome": "Orizânia",
+    "uf": "MG",
+    "slug": "orizania"
+  },
+  {
+    "id": "3145901",
+    "nome": "Ouro Branco",
+    "uf": "MG",
+    "slug": "ouro-branco"
+  },
+  {
+    "id": "3146008",
+    "nome": "Ouro Fino",
+    "uf": "MG",
+    "slug": "ouro-fino"
+  },
+  {
+    "id": "3146107",
+    "nome": "Ouro Preto",
+    "uf": "MG",
+    "slug": "ouro-preto"
+  },
+  {
+    "id": "3146206",
+    "nome": "Ouro Verde de Minas",
+    "uf": "MG",
+    "slug": "ouro-verde-de-minas"
+  },
+  {
+    "id": "3146255",
+    "nome": "Padre Carvalho",
+    "uf": "MG",
+    "slug": "padre-carvalho"
+  },
+  {
+    "id": "3146305",
+    "nome": "Padre Paraíso",
+    "uf": "MG",
+    "slug": "padre-paraiso"
+  },
+  {
+    "id": "3146552",
+    "nome": "Pai Pedro",
+    "uf": "MG",
+    "slug": "pai-pedro"
+  },
+  {
+    "id": "3146404",
+    "nome": "Paineiras",
+    "uf": "MG",
+    "slug": "paineiras"
+  },
+  {
+    "id": "3146503",
+    "nome": "Pains",
+    "uf": "MG",
+    "slug": "pains"
+  },
+  {
+    "id": "3146602",
+    "nome": "Paiva",
+    "uf": "MG",
+    "slug": "paiva"
+  },
+  {
+    "id": "3146701",
+    "nome": "Palma",
+    "uf": "MG",
+    "slug": "palma"
+  },
+  {
+    "id": "3146750",
+    "nome": "Palmópolis",
+    "uf": "MG",
+    "slug": "palmopolis"
+  },
+  {
+    "id": "3146909",
+    "nome": "Papagaios",
+    "uf": "MG",
+    "slug": "papagaios"
+  },
+  {
+    "id": "3147105",
+    "nome": "Pará de Minas",
+    "uf": "MG",
+    "slug": "para-de-minas"
+  },
+  {
+    "id": "3147006",
+    "nome": "Paracatu",
+    "uf": "MG",
+    "slug": "paracatu"
+  },
+  {
+    "id": "3147204",
+    "nome": "Paraguaçu",
+    "uf": "MG",
+    "slug": "paraguacu"
+  },
+  {
+    "id": "3147303",
+    "nome": "Paraisópolis",
+    "uf": "MG",
+    "slug": "paraisopolis"
+  },
+  {
+    "id": "3147402",
+    "nome": "Paraopeba",
+    "uf": "MG",
+    "slug": "paraopeba"
+  },
+  {
+    "id": "3147600",
+    "nome": "Passa Quatro",
+    "uf": "MG",
+    "slug": "passa-quatro"
+  },
+  {
+    "id": "3147709",
+    "nome": "Passa Tempo",
+    "uf": "MG",
+    "slug": "passa-tempo"
+  },
+  {
+    "id": "3147808",
+    "nome": "Passa Vinte",
+    "uf": "MG",
+    "slug": "passa-vinte"
+  },
+  {
+    "id": "3147501",
+    "nome": "Passabém",
+    "uf": "MG",
+    "slug": "passabem"
+  },
+  {
+    "id": "3147907",
+    "nome": "Passos",
+    "uf": "MG",
+    "slug": "passos"
+  },
+  {
+    "id": "3147956",
+    "nome": "Patis",
+    "uf": "MG",
+    "slug": "patis"
+  },
+  {
+    "id": "3148004",
+    "nome": "Patos de Minas",
+    "uf": "MG",
+    "slug": "patos-de-minas"
+  },
+  {
+    "id": "3148103",
+    "nome": "Patrocínio",
+    "uf": "MG",
+    "slug": "patrocinio"
+  },
+  {
+    "id": "3148202",
+    "nome": "Patrocínio do Muriaé",
+    "uf": "MG",
+    "slug": "patrocinio-do-muriae"
+  },
+  {
+    "id": "3148301",
+    "nome": "Paula Cândido",
+    "uf": "MG",
+    "slug": "paula-candido"
+  },
+  {
+    "id": "3148400",
+    "nome": "Paulistas",
+    "uf": "MG",
+    "slug": "paulistas"
+  },
+  {
+    "id": "3148509",
+    "nome": "Pavão",
+    "uf": "MG",
+    "slug": "pavao"
+  },
+  {
+    "id": "3148608",
+    "nome": "Peçanha",
+    "uf": "MG",
+    "slug": "pecanha"
+  },
+  {
+    "id": "3148707",
+    "nome": "Pedra Azul",
+    "uf": "MG",
+    "slug": "pedra-azul"
+  },
+  {
+    "id": "3148756",
+    "nome": "Pedra Bonita",
+    "uf": "MG",
+    "slug": "pedra-bonita"
+  },
+  {
+    "id": "3148806",
+    "nome": "Pedra do Anta",
+    "uf": "MG",
+    "slug": "pedra-do-anta"
+  },
+  {
+    "id": "3148905",
+    "nome": "Pedra do Indaiá",
+    "uf": "MG",
+    "slug": "pedra-do-indaia"
+  },
+  {
+    "id": "3149002",
+    "nome": "Pedra Dourada",
+    "uf": "MG",
+    "slug": "pedra-dourada"
+  },
+  {
+    "id": "3149101",
+    "nome": "Pedralva",
+    "uf": "MG",
+    "slug": "pedralva"
+  },
+  {
+    "id": "3149150",
+    "nome": "Pedras de Maria da Cruz",
+    "uf": "MG",
+    "slug": "pedras-de-maria-da-cruz"
+  },
+  {
+    "id": "3149200",
+    "nome": "Pedrinópolis",
+    "uf": "MG",
+    "slug": "pedrinopolis"
+  },
+  {
+    "id": "3149309",
+    "nome": "Pedro Leopoldo",
+    "uf": "MG",
+    "slug": "pedro-leopoldo"
+  },
+  {
+    "id": "3149408",
+    "nome": "Pedro Teixeira",
+    "uf": "MG",
+    "slug": "pedro-teixeira"
+  },
+  {
+    "id": "3149507",
+    "nome": "Pequeri",
+    "uf": "MG",
+    "slug": "pequeri"
+  },
+  {
+    "id": "3149606",
+    "nome": "Pequi",
+    "uf": "MG",
+    "slug": "pequi"
+  },
+  {
+    "id": "3149705",
+    "nome": "Perdigão",
+    "uf": "MG",
+    "slug": "perdigao"
+  },
+  {
+    "id": "3149804",
+    "nome": "Perdizes",
+    "uf": "MG",
+    "slug": "perdizes"
+  },
+  {
+    "id": "3149903",
+    "nome": "Perdões",
+    "uf": "MG",
+    "slug": "perdoes"
+  },
+  {
+    "id": "3149952",
+    "nome": "Periquito",
+    "uf": "MG",
+    "slug": "periquito"
+  },
+  {
+    "id": "3150000",
+    "nome": "Pescador",
+    "uf": "MG",
+    "slug": "pescador"
+  },
+  {
+    "id": "3150109",
+    "nome": "Piau",
+    "uf": "MG",
+    "slug": "piau"
+  },
+  {
+    "id": "3150158",
+    "nome": "Piedade de Caratinga",
+    "uf": "MG",
+    "slug": "piedade-de-caratinga"
+  },
+  {
+    "id": "3150208",
+    "nome": "Piedade de Ponte Nova",
+    "uf": "MG",
+    "slug": "piedade-de-ponte-nova"
+  },
+  {
+    "id": "3150307",
+    "nome": "Piedade do Rio Grande",
+    "uf": "MG",
+    "slug": "piedade-do-rio-grande"
+  },
+  {
+    "id": "3150406",
+    "nome": "Piedade dos Gerais",
+    "uf": "MG",
+    "slug": "piedade-dos-gerais"
+  },
+  {
+    "id": "3150505",
+    "nome": "Pimenta",
+    "uf": "MG",
+    "slug": "pimenta"
+  },
+  {
+    "id": "3150539",
+    "nome": "Pingo-d'Água",
+    "uf": "MG",
+    "slug": "pingo-d'agua"
+  },
+  {
+    "id": "3150570",
+    "nome": "Pintópolis",
+    "uf": "MG",
+    "slug": "pintopolis"
+  },
+  {
+    "id": "3150604",
+    "nome": "Piracema",
+    "uf": "MG",
+    "slug": "piracema"
+  },
+  {
+    "id": "3150703",
+    "nome": "Pirajuba",
+    "uf": "MG",
+    "slug": "pirajuba"
+  },
+  {
+    "id": "3150802",
+    "nome": "Piranga",
+    "uf": "MG",
+    "slug": "piranga"
+  },
+  {
+    "id": "3150901",
+    "nome": "Piranguçu",
+    "uf": "MG",
+    "slug": "pirangucu"
+  },
+  {
+    "id": "3151008",
+    "nome": "Piranguinho",
+    "uf": "MG",
+    "slug": "piranguinho"
+  },
+  {
+    "id": "3151107",
+    "nome": "Pirapetinga",
+    "uf": "MG",
+    "slug": "pirapetinga"
+  },
+  {
+    "id": "3151206",
+    "nome": "Pirapora",
+    "uf": "MG",
+    "slug": "pirapora"
+  },
+  {
+    "id": "3151305",
+    "nome": "Piraúba",
+    "uf": "MG",
+    "slug": "pirauba"
+  },
+  {
+    "id": "3151404",
+    "nome": "Pitangui",
+    "uf": "MG",
+    "slug": "pitangui"
+  },
+  {
+    "id": "3151503",
+    "nome": "Piumhi",
+    "uf": "MG",
+    "slug": "piumhi"
+  },
+  {
+    "id": "3151602",
+    "nome": "Planura",
+    "uf": "MG",
+    "slug": "planura"
+  },
+  {
+    "id": "3151701",
+    "nome": "Poço Fundo",
+    "uf": "MG",
+    "slug": "poco-fundo"
+  },
+  {
+    "id": "3151800",
+    "nome": "Poços de Caldas",
+    "uf": "MG",
+    "slug": "pocos-de-caldas"
+  },
+  {
+    "id": "3151909",
+    "nome": "Pocrane",
+    "uf": "MG",
+    "slug": "pocrane"
+  },
+  {
+    "id": "3152006",
+    "nome": "Pompéu",
+    "uf": "MG",
+    "slug": "pompeu"
+  },
+  {
+    "id": "3152105",
+    "nome": "Ponte Nova",
+    "uf": "MG",
+    "slug": "ponte-nova"
+  },
+  {
+    "id": "3152131",
+    "nome": "Ponto Chique",
+    "uf": "MG",
+    "slug": "ponto-chique"
+  },
+  {
+    "id": "3152170",
+    "nome": "Ponto dos Volantes",
+    "uf": "MG",
+    "slug": "ponto-dos-volantes"
+  },
+  {
+    "id": "3152204",
+    "nome": "Porteirinha",
+    "uf": "MG",
+    "slug": "porteirinha"
+  },
+  {
+    "id": "3152303",
+    "nome": "Porto Firme",
+    "uf": "MG",
+    "slug": "porto-firme"
+  },
+  {
+    "id": "3152402",
+    "nome": "Poté",
+    "uf": "MG",
+    "slug": "pote"
+  },
+  {
+    "id": "3152501",
+    "nome": "Pouso Alegre",
+    "uf": "MG",
+    "slug": "pouso-alegre"
+  },
+  {
+    "id": "3152600",
+    "nome": "Pouso Alto",
+    "uf": "MG",
+    "slug": "pouso-alto"
+  },
+  {
+    "id": "3152709",
+    "nome": "Prados",
+    "uf": "MG",
+    "slug": "prados"
+  },
+  {
+    "id": "3152808",
+    "nome": "Prata",
+    "uf": "MG",
+    "slug": "prata"
+  },
+  {
+    "id": "3152907",
+    "nome": "Pratápolis",
+    "uf": "MG",
+    "slug": "pratapolis"
+  },
+  {
+    "id": "3153004",
+    "nome": "Pratinha",
+    "uf": "MG",
+    "slug": "pratinha"
+  },
+  {
+    "id": "3153103",
+    "nome": "Presidente Bernardes",
+    "uf": "MG",
+    "slug": "presidente-bernardes"
+  },
+  {
+    "id": "3153202",
+    "nome": "Presidente Juscelino",
+    "uf": "MG",
+    "slug": "presidente-juscelino"
+  },
+  {
+    "id": "3153301",
+    "nome": "Presidente Kubitschek",
+    "uf": "MG",
+    "slug": "presidente-kubitschek"
+  },
+  {
+    "id": "3153400",
+    "nome": "Presidente Olegário",
+    "uf": "MG",
+    "slug": "presidente-olegario"
+  },
+  {
+    "id": "3153608",
+    "nome": "Prudente de Morais",
+    "uf": "MG",
+    "slug": "prudente-de-morais"
+  },
+  {
+    "id": "3153707",
+    "nome": "Quartel Geral",
+    "uf": "MG",
+    "slug": "quartel-geral"
+  },
+  {
+    "id": "3153806",
+    "nome": "Queluzito",
+    "uf": "MG",
+    "slug": "queluzito"
+  },
+  {
+    "id": "3153905",
+    "nome": "Raposos",
+    "uf": "MG",
+    "slug": "raposos"
+  },
+  {
+    "id": "3154002",
+    "nome": "Raul Soares",
+    "uf": "MG",
+    "slug": "raul-soares"
+  },
+  {
+    "id": "3154101",
+    "nome": "Recreio",
+    "uf": "MG",
+    "slug": "recreio"
+  },
+  {
+    "id": "3154150",
+    "nome": "Reduto",
+    "uf": "MG",
+    "slug": "reduto"
+  },
+  {
+    "id": "3154200",
+    "nome": "Resende Costa",
+    "uf": "MG",
+    "slug": "resende-costa"
+  },
+  {
+    "id": "3154309",
+    "nome": "Resplendor",
+    "uf": "MG",
+    "slug": "resplendor"
+  },
+  {
+    "id": "3154408",
+    "nome": "Ressaquinha",
+    "uf": "MG",
+    "slug": "ressaquinha"
+  },
+  {
+    "id": "3154457",
+    "nome": "Riachinho",
+    "uf": "MG",
+    "slug": "riachinho"
+  },
+  {
+    "id": "3154507",
+    "nome": "Riacho dos Machados",
+    "uf": "MG",
+    "slug": "riacho-dos-machados"
+  },
+  {
+    "id": "3154606",
+    "nome": "Ribeirão das Neves",
+    "uf": "MG",
+    "slug": "ribeirao-das-neves"
+  },
+  {
+    "id": "3154705",
+    "nome": "Ribeirão Vermelho",
+    "uf": "MG",
+    "slug": "ribeirao-vermelho"
+  },
+  {
+    "id": "3154804",
+    "nome": "Rio Acima",
+    "uf": "MG",
+    "slug": "rio-acima"
+  },
+  {
+    "id": "3154903",
+    "nome": "Rio Casca",
+    "uf": "MG",
+    "slug": "rio-casca"
+  },
+  {
+    "id": "3155108",
+    "nome": "Rio do Prado",
+    "uf": "MG",
+    "slug": "rio-do-prado"
+  },
+  {
+    "id": "3155009",
+    "nome": "Rio Doce",
+    "uf": "MG",
+    "slug": "rio-doce"
+  },
+  {
+    "id": "3155207",
+    "nome": "Rio Espera",
+    "uf": "MG",
+    "slug": "rio-espera"
+  },
+  {
+    "id": "3155306",
+    "nome": "Rio Manso",
+    "uf": "MG",
+    "slug": "rio-manso"
+  },
+  {
+    "id": "3155405",
+    "nome": "Rio Novo",
+    "uf": "MG",
+    "slug": "rio-novo"
+  },
+  {
+    "id": "3155504",
+    "nome": "Rio Paranaíba",
+    "uf": "MG",
+    "slug": "rio-paranaiba"
+  },
+  {
+    "id": "3155603",
+    "nome": "Rio Pardo de Minas",
+    "uf": "MG",
+    "slug": "rio-pardo-de-minas"
+  },
+  {
+    "id": "3155702",
+    "nome": "Rio Piracicaba",
+    "uf": "MG",
+    "slug": "rio-piracicaba"
+  },
+  {
+    "id": "3155801",
+    "nome": "Rio Pomba",
+    "uf": "MG",
+    "slug": "rio-pomba"
+  },
+  {
+    "id": "3155900",
+    "nome": "Rio Preto",
+    "uf": "MG",
+    "slug": "rio-preto"
+  },
+  {
+    "id": "3156007",
+    "nome": "Rio Vermelho",
+    "uf": "MG",
+    "slug": "rio-vermelho"
+  },
+  {
+    "id": "3156106",
+    "nome": "Ritápolis",
+    "uf": "MG",
+    "slug": "ritapolis"
+  },
+  {
+    "id": "3156205",
+    "nome": "Rochedo de Minas",
+    "uf": "MG",
+    "slug": "rochedo-de-minas"
+  },
+  {
+    "id": "3156304",
+    "nome": "Rodeiro",
+    "uf": "MG",
+    "slug": "rodeiro"
+  },
+  {
+    "id": "3156403",
+    "nome": "Romaria",
+    "uf": "MG",
+    "slug": "romaria"
+  },
+  {
+    "id": "3156452",
+    "nome": "Rosário da Limeira",
+    "uf": "MG",
+    "slug": "rosario-da-limeira"
+  },
+  {
+    "id": "3156502",
+    "nome": "Rubelita",
+    "uf": "MG",
+    "slug": "rubelita"
+  },
+  {
+    "id": "3156601",
+    "nome": "Rubim",
+    "uf": "MG",
+    "slug": "rubim"
+  },
+  {
+    "id": "3156700",
+    "nome": "Sabará",
+    "uf": "MG",
+    "slug": "sabara"
+  },
+  {
+    "id": "3156809",
+    "nome": "Sabinópolis",
+    "uf": "MG",
+    "slug": "sabinopolis"
+  },
+  {
+    "id": "3156908",
+    "nome": "Sacramento",
+    "uf": "MG",
+    "slug": "sacramento"
+  },
+  {
+    "id": "3157005",
+    "nome": "Salinas",
+    "uf": "MG",
+    "slug": "salinas"
+  },
+  {
+    "id": "3157104",
+    "nome": "Salto da Divisa",
+    "uf": "MG",
+    "slug": "salto-da-divisa"
+  },
+  {
+    "id": "3157203",
+    "nome": "Santa Bárbara",
+    "uf": "MG",
+    "slug": "santa-barbara"
+  },
+  {
+    "id": "3157252",
+    "nome": "Santa Bárbara do Leste",
+    "uf": "MG",
+    "slug": "santa-barbara-do-leste"
+  },
+  {
+    "id": "3157278",
+    "nome": "Santa Bárbara do Monte Verde",
+    "uf": "MG",
+    "slug": "santa-barbara-do-monte-verde"
+  },
+  {
+    "id": "3157302",
+    "nome": "Santa Bárbara do Tugúrio",
+    "uf": "MG",
+    "slug": "santa-barbara-do-tugurio"
+  },
+  {
+    "id": "3157336",
+    "nome": "Santa Cruz de Minas",
+    "uf": "MG",
+    "slug": "santa-cruz-de-minas"
+  },
+  {
+    "id": "3157377",
+    "nome": "Santa Cruz de Salinas",
+    "uf": "MG",
+    "slug": "santa-cruz-de-salinas"
+  },
+  {
+    "id": "3157401",
+    "nome": "Santa Cruz do Escalvado",
+    "uf": "MG",
+    "slug": "santa-cruz-do-escalvado"
+  },
+  {
+    "id": "3157500",
+    "nome": "Santa Efigênia de Minas",
+    "uf": "MG",
+    "slug": "santa-efigenia-de-minas"
+  },
+  {
+    "id": "3157609",
+    "nome": "Santa Fé de Minas",
+    "uf": "MG",
+    "slug": "santa-fe-de-minas"
+  },
+  {
+    "id": "3157658",
+    "nome": "Santa Helena de Minas",
+    "uf": "MG",
+    "slug": "santa-helena-de-minas"
+  },
+  {
+    "id": "3157708",
+    "nome": "Santa Juliana",
+    "uf": "MG",
+    "slug": "santa-juliana"
+  },
+  {
+    "id": "3157807",
+    "nome": "Santa Luzia",
+    "uf": "MG",
+    "slug": "santa-luzia"
+  },
+  {
+    "id": "3157906",
+    "nome": "Santa Margarida",
+    "uf": "MG",
+    "slug": "santa-margarida"
+  },
+  {
+    "id": "3158003",
+    "nome": "Santa Maria de Itabira",
+    "uf": "MG",
+    "slug": "santa-maria-de-itabira"
+  },
+  {
+    "id": "3158102",
+    "nome": "Santa Maria do Salto",
+    "uf": "MG",
+    "slug": "santa-maria-do-salto"
+  },
+  {
+    "id": "3158201",
+    "nome": "Santa Maria do Suaçuí",
+    "uf": "MG",
+    "slug": "santa-maria-do-suacui"
+  },
+  {
+    "id": "3159209",
+    "nome": "Santa Rita de Caldas",
+    "uf": "MG",
+    "slug": "santa-rita-de-caldas"
+  },
+  {
+    "id": "3159407",
+    "nome": "Santa Rita de Ibitipoca",
+    "uf": "MG",
+    "slug": "santa-rita-de-ibitipoca"
+  },
+  {
+    "id": "3159308",
+    "nome": "Santa Rita de Jacutinga",
+    "uf": "MG",
+    "slug": "santa-rita-de-jacutinga"
+  },
+  {
+    "id": "3159357",
+    "nome": "Santa Rita de Minas",
+    "uf": "MG",
+    "slug": "santa-rita-de-minas"
+  },
+  {
+    "id": "3159506",
+    "nome": "Santa Rita do Itueto",
+    "uf": "MG",
+    "slug": "santa-rita-do-itueto"
+  },
+  {
+    "id": "3159605",
+    "nome": "Santa Rita do Sapucaí",
+    "uf": "MG",
+    "slug": "santa-rita-do-sapucai"
+  },
+  {
+    "id": "3159704",
+    "nome": "Santa Rosa da Serra",
+    "uf": "MG",
+    "slug": "santa-rosa-da-serra"
+  },
+  {
+    "id": "3159803",
+    "nome": "Santa Vitória",
+    "uf": "MG",
+    "slug": "santa-vitoria"
+  },
+  {
+    "id": "3158300",
+    "nome": "Santana da Vargem",
+    "uf": "MG",
+    "slug": "santana-da-vargem"
+  },
+  {
+    "id": "3158409",
+    "nome": "Santana de Cataguases",
+    "uf": "MG",
+    "slug": "santana-de-cataguases"
+  },
+  {
+    "id": "3158508",
+    "nome": "Santana de Pirapama",
+    "uf": "MG",
+    "slug": "santana-de-pirapama"
+  },
+  {
+    "id": "3158607",
+    "nome": "Santana do Deserto",
+    "uf": "MG",
+    "slug": "santana-do-deserto"
+  },
+  {
+    "id": "3158706",
+    "nome": "Santana do Garambéu",
+    "uf": "MG",
+    "slug": "santana-do-garambeu"
+  },
+  {
+    "id": "3158805",
+    "nome": "Santana do Jacaré",
+    "uf": "MG",
+    "slug": "santana-do-jacare"
+  },
+  {
+    "id": "3158904",
+    "nome": "Santana do Manhuaçu",
+    "uf": "MG",
+    "slug": "santana-do-manhuacu"
+  },
+  {
+    "id": "3158953",
+    "nome": "Santana do Paraíso",
+    "uf": "MG",
+    "slug": "santana-do-paraiso"
+  },
+  {
+    "id": "3159001",
+    "nome": "Santana do Riacho",
+    "uf": "MG",
+    "slug": "santana-do-riacho"
+  },
+  {
+    "id": "3159100",
+    "nome": "Santana dos Montes",
+    "uf": "MG",
+    "slug": "santana-dos-montes"
+  },
+  {
+    "id": "3159902",
+    "nome": "Santo Antônio do Amparo",
+    "uf": "MG",
+    "slug": "santo-antonio-do-amparo"
+  },
+  {
+    "id": "3160009",
+    "nome": "Santo Antônio do Aventureiro",
+    "uf": "MG",
+    "slug": "santo-antonio-do-aventureiro"
+  },
+  {
+    "id": "3160108",
+    "nome": "Santo Antônio do Grama",
+    "uf": "MG",
+    "slug": "santo-antonio-do-grama"
+  },
+  {
+    "id": "3160207",
+    "nome": "Santo Antônio do Itambé",
+    "uf": "MG",
+    "slug": "santo-antonio-do-itambe"
+  },
+  {
+    "id": "3160306",
+    "nome": "Santo Antônio do Jacinto",
+    "uf": "MG",
+    "slug": "santo-antonio-do-jacinto"
+  },
+  {
+    "id": "3160405",
+    "nome": "Santo Antônio do Monte",
+    "uf": "MG",
+    "slug": "santo-antonio-do-monte"
+  },
+  {
+    "id": "3160454",
+    "nome": "Santo Antônio do Retiro",
+    "uf": "MG",
+    "slug": "santo-antonio-do-retiro"
+  },
+  {
+    "id": "3160504",
+    "nome": "Santo Antônio do Rio Abaixo",
+    "uf": "MG",
+    "slug": "santo-antonio-do-rio-abaixo"
+  },
+  {
+    "id": "3160603",
+    "nome": "Santo Hipólito",
+    "uf": "MG",
+    "slug": "santo-hipolito"
+  },
+  {
+    "id": "3160702",
+    "nome": "Santos Dumont",
+    "uf": "MG",
+    "slug": "santos-dumont"
+  },
+  {
+    "id": "3160801",
+    "nome": "São Bento Abade",
+    "uf": "MG",
+    "slug": "sao-bento-abade"
+  },
+  {
+    "id": "3160900",
+    "nome": "São Brás do Suaçuí",
+    "uf": "MG",
+    "slug": "sao-bras-do-suacui"
+  },
+  {
+    "id": "3160959",
+    "nome": "São Domingos das Dores",
+    "uf": "MG",
+    "slug": "sao-domingos-das-dores"
+  },
+  {
+    "id": "3161007",
+    "nome": "São Domingos do Prata",
+    "uf": "MG",
+    "slug": "sao-domingos-do-prata"
+  },
+  {
+    "id": "3161056",
+    "nome": "São Félix de Minas",
+    "uf": "MG",
+    "slug": "sao-felix-de-minas"
+  },
+  {
+    "id": "3161106",
+    "nome": "São Francisco",
+    "uf": "MG",
+    "slug": "sao-francisco"
+  },
+  {
+    "id": "3161205",
+    "nome": "São Francisco de Paula",
+    "uf": "MG",
+    "slug": "sao-francisco-de-paula"
+  },
+  {
+    "id": "3161304",
+    "nome": "São Francisco de Sales",
+    "uf": "MG",
+    "slug": "sao-francisco-de-sales"
+  },
+  {
+    "id": "3161403",
+    "nome": "São Francisco do Glória",
+    "uf": "MG",
+    "slug": "sao-francisco-do-gloria"
+  },
+  {
+    "id": "3161502",
+    "nome": "São Geraldo",
+    "uf": "MG",
+    "slug": "sao-geraldo"
+  },
+  {
+    "id": "3161601",
+    "nome": "São Geraldo da Piedade",
+    "uf": "MG",
+    "slug": "sao-geraldo-da-piedade"
+  },
+  {
+    "id": "3161650",
+    "nome": "São Geraldo do Baixio",
+    "uf": "MG",
+    "slug": "sao-geraldo-do-baixio"
+  },
+  {
+    "id": "3161700",
+    "nome": "São Gonçalo do Abaeté",
+    "uf": "MG",
+    "slug": "sao-goncalo-do-abaete"
+  },
+  {
+    "id": "3161809",
+    "nome": "São Gonçalo do Pará",
+    "uf": "MG",
+    "slug": "sao-goncalo-do-para"
+  },
+  {
+    "id": "3161908",
+    "nome": "São Gonçalo do Rio Abaixo",
+    "uf": "MG",
+    "slug": "sao-goncalo-do-rio-abaixo"
+  },
+  {
+    "id": "3125507",
+    "nome": "São Gonçalo do Rio Preto",
+    "uf": "MG",
+    "slug": "sao-goncalo-do-rio-preto"
+  },
+  {
+    "id": "3162005",
+    "nome": "São Gonçalo do Sapucaí",
+    "uf": "MG",
+    "slug": "sao-goncalo-do-sapucai"
+  },
+  {
+    "id": "3162104",
+    "nome": "São Gotardo",
+    "uf": "MG",
+    "slug": "sao-gotardo"
+  },
+  {
+    "id": "3162203",
+    "nome": "São João Batista do Glória",
+    "uf": "MG",
+    "slug": "sao-joao-batista-do-gloria"
+  },
+  {
+    "id": "3162252",
+    "nome": "São João da Lagoa",
+    "uf": "MG",
+    "slug": "sao-joao-da-lagoa"
+  },
+  {
+    "id": "3162302",
+    "nome": "São João da Mata",
+    "uf": "MG",
+    "slug": "sao-joao-da-mata"
+  },
+  {
+    "id": "3162401",
+    "nome": "São João da Ponte",
+    "uf": "MG",
+    "slug": "sao-joao-da-ponte"
+  },
+  {
+    "id": "3162450",
+    "nome": "São João das Missões",
+    "uf": "MG",
+    "slug": "sao-joao-das-missoes"
+  },
+  {
+    "id": "3162500",
+    "nome": "São João del Rei",
+    "uf": "MG",
+    "slug": "sao-joao-del-rei"
+  },
+  {
+    "id": "3162559",
+    "nome": "São João do Manhuaçu",
+    "uf": "MG",
+    "slug": "sao-joao-do-manhuacu"
+  },
+  {
+    "id": "3162575",
+    "nome": "São João do Manteninha",
+    "uf": "MG",
+    "slug": "sao-joao-do-manteninha"
+  },
+  {
+    "id": "3162609",
+    "nome": "São João do Oriente",
+    "uf": "MG",
+    "slug": "sao-joao-do-oriente"
+  },
+  {
+    "id": "3162658",
+    "nome": "São João do Pacuí",
+    "uf": "MG",
+    "slug": "sao-joao-do-pacui"
+  },
+  {
+    "id": "3162708",
+    "nome": "São João do Paraíso",
+    "uf": "MG",
+    "slug": "sao-joao-do-paraiso"
+  },
+  {
+    "id": "3162807",
+    "nome": "São João Evangelista",
+    "uf": "MG",
+    "slug": "sao-joao-evangelista"
+  },
+  {
+    "id": "3162906",
+    "nome": "São João Nepomuceno",
+    "uf": "MG",
+    "slug": "sao-joao-nepomuceno"
+  },
+  {
+    "id": "3162922",
+    "nome": "São Joaquim de Bicas",
+    "uf": "MG",
+    "slug": "sao-joaquim-de-bicas"
+  },
+  {
+    "id": "3162948",
+    "nome": "São José da Barra",
+    "uf": "MG",
+    "slug": "sao-jose-da-barra"
+  },
+  {
+    "id": "3162955",
+    "nome": "São José da Lapa",
+    "uf": "MG",
+    "slug": "sao-jose-da-lapa"
+  },
+  {
+    "id": "3163003",
+    "nome": "São José da Safira",
+    "uf": "MG",
+    "slug": "sao-jose-da-safira"
+  },
+  {
+    "id": "3163102",
+    "nome": "São José da Varginha",
+    "uf": "MG",
+    "slug": "sao-jose-da-varginha"
+  },
+  {
+    "id": "3163201",
+    "nome": "São José do Alegre",
+    "uf": "MG",
+    "slug": "sao-jose-do-alegre"
+  },
+  {
+    "id": "3163300",
+    "nome": "São José do Divino",
+    "uf": "MG",
+    "slug": "sao-jose-do-divino"
+  },
+  {
+    "id": "3163409",
+    "nome": "São José do Goiabal",
+    "uf": "MG",
+    "slug": "sao-jose-do-goiabal"
+  },
+  {
+    "id": "3163508",
+    "nome": "São José do Jacuri",
+    "uf": "MG",
+    "slug": "sao-jose-do-jacuri"
+  },
+  {
+    "id": "3163607",
+    "nome": "São José do Mantimento",
+    "uf": "MG",
+    "slug": "sao-jose-do-mantimento"
+  },
+  {
+    "id": "3163706",
+    "nome": "São Lourenço",
+    "uf": "MG",
+    "slug": "sao-lourenco"
+  },
+  {
+    "id": "3163805",
+    "nome": "São Miguel do Anta",
+    "uf": "MG",
+    "slug": "sao-miguel-do-anta"
+  },
+  {
+    "id": "3163904",
+    "nome": "São Pedro da União",
+    "uf": "MG",
+    "slug": "sao-pedro-da-uniao"
+  },
+  {
+    "id": "3164100",
+    "nome": "São Pedro do Suaçuí",
+    "uf": "MG",
+    "slug": "sao-pedro-do-suacui"
+  },
+  {
+    "id": "3164001",
+    "nome": "São Pedro dos Ferros",
+    "uf": "MG",
+    "slug": "sao-pedro-dos-ferros"
+  },
+  {
+    "id": "3164209",
+    "nome": "São Romão",
+    "uf": "MG",
+    "slug": "sao-romao"
+  },
+  {
+    "id": "3164308",
+    "nome": "São Roque de Minas",
+    "uf": "MG",
+    "slug": "sao-roque-de-minas"
+  },
+  {
+    "id": "3164407",
+    "nome": "São Sebastião da Bela Vista",
+    "uf": "MG",
+    "slug": "sao-sebastiao-da-bela-vista"
+  },
+  {
+    "id": "3164431",
+    "nome": "São Sebastião da Vargem Alegre",
+    "uf": "MG",
+    "slug": "sao-sebastiao-da-vargem-alegre"
+  },
+  {
+    "id": "3164472",
+    "nome": "São Sebastião do Anta",
+    "uf": "MG",
+    "slug": "sao-sebastiao-do-anta"
+  },
+  {
+    "id": "3164506",
+    "nome": "São Sebastião do Maranhão",
+    "uf": "MG",
+    "slug": "sao-sebastiao-do-maranhao"
+  },
+  {
+    "id": "3164605",
+    "nome": "São Sebastião do Oeste",
+    "uf": "MG",
+    "slug": "sao-sebastiao-do-oeste"
+  },
+  {
+    "id": "3164704",
+    "nome": "São Sebastião do Paraíso",
+    "uf": "MG",
+    "slug": "sao-sebastiao-do-paraiso"
+  },
+  {
+    "id": "3164803",
+    "nome": "São Sebastião do Rio Preto",
+    "uf": "MG",
+    "slug": "sao-sebastiao-do-rio-preto"
+  },
+  {
+    "id": "3164902",
+    "nome": "São Sebastião do Rio Verde",
+    "uf": "MG",
+    "slug": "sao-sebastiao-do-rio-verde"
+  },
+  {
+    "id": "3165008",
+    "nome": "São Tiago",
+    "uf": "MG",
+    "slug": "sao-tiago"
+  },
+  {
+    "id": "3165107",
+    "nome": "São Tomás de Aquino",
+    "uf": "MG",
+    "slug": "sao-tomas-de-aquino"
+  },
+  {
+    "id": "3165206",
+    "nome": "São Tomé das Letras",
+    "uf": "MG",
+    "slug": "sao-tome-das-letras"
+  },
+  {
+    "id": "3165305",
+    "nome": "São Vicente de Minas",
+    "uf": "MG",
+    "slug": "sao-vicente-de-minas"
+  },
+  {
+    "id": "3165404",
+    "nome": "Sapucaí-Mirim",
+    "uf": "MG",
+    "slug": "sapucai-mirim"
+  },
+  {
+    "id": "3165503",
+    "nome": "Sardoá",
+    "uf": "MG",
+    "slug": "sardoa"
+  },
+  {
+    "id": "3165537",
+    "nome": "Sarzedo",
+    "uf": "MG",
+    "slug": "sarzedo"
+  },
+  {
+    "id": "3165560",
+    "nome": "Sem-Peixe",
+    "uf": "MG",
+    "slug": "sem-peixe"
+  },
+  {
+    "id": "3165578",
+    "nome": "Senador Amaral",
+    "uf": "MG",
+    "slug": "senador-amaral"
+  },
+  {
+    "id": "3165602",
+    "nome": "Senador Cortes",
+    "uf": "MG",
+    "slug": "senador-cortes"
+  },
+  {
+    "id": "3165701",
+    "nome": "Senador Firmino",
+    "uf": "MG",
+    "slug": "senador-firmino"
+  },
+  {
+    "id": "3165800",
+    "nome": "Senador José Bento",
+    "uf": "MG",
+    "slug": "senador-jose-bento"
+  },
+  {
+    "id": "3165909",
+    "nome": "Senador Modestino Gonçalves",
+    "uf": "MG",
+    "slug": "senador-modestino-goncalves"
+  },
+  {
+    "id": "3166006",
+    "nome": "Senhora de Oliveira",
+    "uf": "MG",
+    "slug": "senhora-de-oliveira"
+  },
+  {
+    "id": "3166105",
+    "nome": "Senhora do Porto",
+    "uf": "MG",
+    "slug": "senhora-do-porto"
+  },
+  {
+    "id": "3166204",
+    "nome": "Senhora dos Remédios",
+    "uf": "MG",
+    "slug": "senhora-dos-remedios"
+  },
+  {
+    "id": "3166303",
+    "nome": "Sericita",
+    "uf": "MG",
+    "slug": "sericita"
+  },
+  {
+    "id": "3166402",
+    "nome": "Seritinga",
+    "uf": "MG",
+    "slug": "seritinga"
+  },
+  {
+    "id": "3166501",
+    "nome": "Serra Azul de Minas",
+    "uf": "MG",
+    "slug": "serra-azul-de-minas"
+  },
+  {
+    "id": "3166600",
+    "nome": "Serra da Saudade",
+    "uf": "MG",
+    "slug": "serra-da-saudade"
+  },
+  {
+    "id": "3166808",
+    "nome": "Serra do Salitre",
+    "uf": "MG",
+    "slug": "serra-do-salitre"
+  },
+  {
+    "id": "3166709",
+    "nome": "Serra dos Aimorés",
+    "uf": "MG",
+    "slug": "serra-dos-aimores"
+  },
+  {
+    "id": "3166907",
+    "nome": "Serrania",
+    "uf": "MG",
+    "slug": "serrania"
+  },
+  {
+    "id": "3166956",
+    "nome": "Serranópolis de Minas",
+    "uf": "MG",
+    "slug": "serranopolis-de-minas"
+  },
+  {
+    "id": "3167004",
+    "nome": "Serranos",
+    "uf": "MG",
+    "slug": "serranos"
+  },
+  {
+    "id": "3167103",
+    "nome": "Serro",
+    "uf": "MG",
+    "slug": "serro"
+  },
+  {
+    "id": "3167202",
+    "nome": "Sete Lagoas",
+    "uf": "MG",
+    "slug": "sete-lagoas"
+  },
+  {
+    "id": "3165552",
+    "nome": "Setubinha",
+    "uf": "MG",
+    "slug": "setubinha"
+  },
+  {
+    "id": "3167301",
+    "nome": "Silveirânia",
+    "uf": "MG",
+    "slug": "silveirania"
+  },
+  {
+    "id": "3167400",
+    "nome": "Silvianópolis",
+    "uf": "MG",
+    "slug": "silvianopolis"
+  },
+  {
+    "id": "3167509",
+    "nome": "Simão Pereira",
+    "uf": "MG",
+    "slug": "simao-pereira"
+  },
+  {
+    "id": "3167608",
+    "nome": "Simonésia",
+    "uf": "MG",
+    "slug": "simonesia"
+  },
+  {
+    "id": "3167707",
+    "nome": "Sobrália",
+    "uf": "MG",
+    "slug": "sobralia"
+  },
+  {
+    "id": "3167806",
+    "nome": "Soledade de Minas",
+    "uf": "MG",
+    "slug": "soledade-de-minas"
+  },
+  {
+    "id": "3167905",
+    "nome": "Tabuleiro",
+    "uf": "MG",
+    "slug": "tabuleiro"
+  },
+  {
+    "id": "3168002",
+    "nome": "Taiobeiras",
+    "uf": "MG",
+    "slug": "taiobeiras"
+  },
+  {
+    "id": "3168051",
+    "nome": "Taparuba",
+    "uf": "MG",
+    "slug": "taparuba"
+  },
+  {
+    "id": "3168101",
+    "nome": "Tapira",
+    "uf": "MG",
+    "slug": "tapira"
+  },
+  {
+    "id": "3168200",
+    "nome": "Tapiraí",
+    "uf": "MG",
+    "slug": "tapirai"
+  },
+  {
+    "id": "3168309",
+    "nome": "Taquaraçu de Minas",
+    "uf": "MG",
+    "slug": "taquaracu-de-minas"
+  },
+  {
+    "id": "3168408",
+    "nome": "Tarumirim",
+    "uf": "MG",
+    "slug": "tarumirim"
+  },
+  {
+    "id": "3168507",
+    "nome": "Teixeiras",
+    "uf": "MG",
+    "slug": "teixeiras"
+  },
+  {
+    "id": "3168606",
+    "nome": "Teófilo Otoni",
+    "uf": "MG",
+    "slug": "teofilo-otoni"
+  },
+  {
+    "id": "3168705",
+    "nome": "Timóteo",
+    "uf": "MG",
+    "slug": "timoteo"
+  },
+  {
+    "id": "3168804",
+    "nome": "Tiradentes",
+    "uf": "MG",
+    "slug": "tiradentes"
+  },
+  {
+    "id": "3168903",
+    "nome": "Tiros",
+    "uf": "MG",
+    "slug": "tiros"
+  },
+  {
+    "id": "3169000",
+    "nome": "Tocantins",
+    "uf": "MG",
+    "slug": "tocantins"
+  },
+  {
+    "id": "3169059",
+    "nome": "Tocos do Moji",
+    "uf": "MG",
+    "slug": "tocos-do-moji"
+  },
+  {
+    "id": "3169109",
+    "nome": "Toledo",
+    "uf": "MG",
+    "slug": "toledo"
+  },
+  {
+    "id": "3169208",
+    "nome": "Tombos",
+    "uf": "MG",
+    "slug": "tombos"
+  },
+  {
+    "id": "3169307",
+    "nome": "Três Corações",
+    "uf": "MG",
+    "slug": "tres-coracoes"
+  },
+  {
+    "id": "3169356",
+    "nome": "Três Marias",
+    "uf": "MG",
+    "slug": "tres-marias"
+  },
+  {
+    "id": "3169406",
+    "nome": "Três Pontas",
+    "uf": "MG",
+    "slug": "tres-pontas"
+  },
+  {
+    "id": "3169505",
+    "nome": "Tumiritinga",
+    "uf": "MG",
+    "slug": "tumiritinga"
+  },
+  {
+    "id": "3169604",
+    "nome": "Tupaciguara",
+    "uf": "MG",
+    "slug": "tupaciguara"
+  },
+  {
+    "id": "3169703",
+    "nome": "Turmalina",
+    "uf": "MG",
+    "slug": "turmalina"
+  },
+  {
+    "id": "3169802",
+    "nome": "Turvolândia",
+    "uf": "MG",
+    "slug": "turvolandia"
+  },
+  {
+    "id": "3169901",
+    "nome": "Ubá",
+    "uf": "MG",
+    "slug": "uba"
+  },
+  {
+    "id": "3170008",
+    "nome": "Ubaí",
+    "uf": "MG",
+    "slug": "ubai"
+  },
+  {
+    "id": "3170057",
+    "nome": "Ubaporanga",
+    "uf": "MG",
+    "slug": "ubaporanga"
+  },
+  {
+    "id": "3170107",
+    "nome": "Uberaba",
+    "uf": "MG",
+    "slug": "uberaba"
+  },
+  {
+    "id": "3170206",
+    "nome": "Uberlândia",
+    "uf": "MG",
+    "slug": "uberlandia"
+  },
+  {
+    "id": "3170305",
+    "nome": "Umburatiba",
+    "uf": "MG",
+    "slug": "umburatiba"
+  },
+  {
+    "id": "3170404",
+    "nome": "Unaí",
+    "uf": "MG",
+    "slug": "unai"
+  },
+  {
+    "id": "3170438",
+    "nome": "União de Minas",
+    "uf": "MG",
+    "slug": "uniao-de-minas"
+  },
+  {
+    "id": "3170479",
+    "nome": "Uruana de Minas",
+    "uf": "MG",
+    "slug": "uruana-de-minas"
+  },
+  {
+    "id": "3170503",
+    "nome": "Urucânia",
+    "uf": "MG",
+    "slug": "urucania"
+  },
+  {
+    "id": "3170529",
+    "nome": "Urucuia",
+    "uf": "MG",
+    "slug": "urucuia"
+  },
+  {
+    "id": "3170578",
+    "nome": "Vargem Alegre",
+    "uf": "MG",
+    "slug": "vargem-alegre"
+  },
+  {
+    "id": "3170602",
+    "nome": "Vargem Bonita",
+    "uf": "MG",
+    "slug": "vargem-bonita"
+  },
+  {
+    "id": "3170651",
+    "nome": "Vargem Grande do Rio Pardo",
+    "uf": "MG",
+    "slug": "vargem-grande-do-rio-pardo"
+  },
+  {
+    "id": "3170701",
+    "nome": "Varginha",
+    "uf": "MG",
+    "slug": "varginha"
+  },
+  {
+    "id": "3170750",
+    "nome": "Varjão de Minas",
+    "uf": "MG",
+    "slug": "varjao-de-minas"
+  },
+  {
+    "id": "3170800",
+    "nome": "Várzea da Palma",
+    "uf": "MG",
+    "slug": "varzea-da-palma"
+  },
+  {
+    "id": "3170909",
+    "nome": "Varzelândia",
+    "uf": "MG",
+    "slug": "varzelandia"
+  },
+  {
+    "id": "3171006",
+    "nome": "Vazante",
+    "uf": "MG",
+    "slug": "vazante"
+  },
+  {
+    "id": "3171030",
+    "nome": "Verdelândia",
+    "uf": "MG",
+    "slug": "verdelandia"
+  },
+  {
+    "id": "3171071",
+    "nome": "Veredinha",
+    "uf": "MG",
+    "slug": "veredinha"
+  },
+  {
+    "id": "3171105",
+    "nome": "Veríssimo",
+    "uf": "MG",
+    "slug": "verissimo"
+  },
+  {
+    "id": "3171154",
+    "nome": "Vermelho Novo",
+    "uf": "MG",
+    "slug": "vermelho-novo"
+  },
+  {
+    "id": "3171204",
+    "nome": "Vespasiano",
+    "uf": "MG",
+    "slug": "vespasiano"
+  },
+  {
+    "id": "3171303",
+    "nome": "Viçosa",
+    "uf": "MG",
+    "slug": "vicosa"
+  },
+  {
+    "id": "3171402",
+    "nome": "Vieiras",
+    "uf": "MG",
+    "slug": "vieiras"
+  },
+  {
+    "id": "3171600",
+    "nome": "Virgem da Lapa",
+    "uf": "MG",
+    "slug": "virgem-da-lapa"
+  },
+  {
+    "id": "3171709",
+    "nome": "Virgínia",
+    "uf": "MG",
+    "slug": "virginia"
+  },
+  {
+    "id": "3171808",
+    "nome": "Virginópolis",
+    "uf": "MG",
+    "slug": "virginopolis"
+  },
+  {
+    "id": "3171907",
+    "nome": "Virgolândia",
+    "uf": "MG",
+    "slug": "virgolandia"
+  },
+  {
+    "id": "3172004",
+    "nome": "Visconde do Rio Branco",
+    "uf": "MG",
+    "slug": "visconde-do-rio-branco"
+  },
+  {
+    "id": "3172103",
+    "nome": "Volta Grande",
+    "uf": "MG",
+    "slug": "volta-grande"
+  },
+  {
+    "id": "3172202",
+    "nome": "Wenceslau Braz",
+    "uf": "MG",
+    "slug": "wenceslau-braz"
+  }
+]

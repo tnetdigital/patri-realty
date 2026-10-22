@@ -1,0 +1,975 @@
+/* Mobile is the base layout. Wider screens progressively add columns and navigation. */
+html {
+  scroll-padding-top: 96px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  min-width: 0;
+}
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+button,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+input,
+select,
+textarea {
+  font-size: 16px;
+  max-width: 100%;
+}
+textarea {
+  font-family: inherit;
+}
+.container,
+main .supplier-area > .container {
+  width: calc(100% - 32px);
+  max-width: 1240px;
+}
+main,
+section,
+article,
+aside,
+form,
+fieldset,
+.header > * {
+  min-width: 0;
+}
+main h1,
+main h2,
+main h3 {
+  overflow-wrap: break-word;
+}
+main p {
+  overflow-wrap: anywhere;
+}
+.btn,
+button {
+  min-height: 44px;
+}
+button {
+  min-width: 44px;
+}
+button:focus-visible,
+a:focus-visible {
+  outline-offset: 3px;
+}
+.prime-header {
+  position: sticky;
+  top: 0;
+  z-index: 45;
+  background: white;
+}
+.prime-header .topbar {
+  display: none;
+}
+.prime-header .header {
+  height: 72px;
+  gap: 10px;
+  justify-content: space-between;
+}
+.prime-header .brand {
+  font-size: 20px;
+  gap: 7px;
+  flex-shrink: 0;
+  min-height: 44px;
+  letter-spacing: 1.5px;
+}
+.prime-header .brand > svg {
+  width: 27px;
+  height: 32px;
+}
+.prime-header .brand-sub {
+  font-size: 8px;
+  letter-spacing: 4px;
+}
+.prime-header .header-actions {
+  margin-left: auto;
+  gap: 6px;
+}
+.prime-header .header-actions > a:first-child {
+  display: none;
+}
+.prime-header .header-actions .btn {
+  min-height: 44px;
+  padding: 10px 12px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.prime-header .header-actions .btn svg {
+  display: none;
+}
+.prime-header .mobile-menu {
+  display: flex;
+  order: 3;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.prime-header .header nav {
+  display: none;
+}
+.prime-header .header nav.open {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  gap: 0;
+  padding: 12px 16px max(20px, env(safe-area-inset-bottom));
+  max-height: calc(100dvh - 72px);
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 14px 20px #17372b14;
+  border-top: 1px solid #e3e8df;
+}
+.prime-header .header nav.open a {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  font-size: 15px;
+  padding: 12px 8px;
+  line-height: 1.4;
+}
+.prime-header .nav-account {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dce5d6;
+  margin-top: 8px;
+  padding-top: 8px;
+}
+.prime-hero {
+  min-height: 0;
+}
+.prime-hero .prime-hero-content {
+  padding-top: 44px;
+  padding-bottom: 40px;
+}
+.prime-hero h1 {
+  font-size: clamp(32px, 8.5vw, 46px);
+  line-height: 1.16;
+  letter-spacing: -1px;
+  margin: 22px 0;
+}
+.prime-hero .hero-opening {
+  font-size: inherit;
+}
+.prime-hero-content > p {
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 38rem;
+}
+.prime-hero .prime-hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  margin-top: 26px;
+}
+.prime-hero-actions .btn,
+.prime-hero-actions .hero-secondary {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.prime-hero .hero-bottom {
+  position: relative;
+  inset: auto;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 18px 0 24px;
+  font-size: 12px;
+}
+.hero-bottom a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+main .prime-intro,
+main .editorial-grid,
+main .prime-tiles,
+main .auth-layout,
+main .supplier-layout,
+main .directory-grid,
+main .directory-profile-layout,
+main .directory-services,
+main .quote-fields,
+main .quote-inbox-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+main .prime-intro,
+main .directory-home {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+main .prime-editorial {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+main .section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+main .section-heading h2,
+main .prime-intro h2,
+main .directory-home h2 {
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+main .editorial-statement {
+  min-height: 300px;
+}
+main .story-image {
+  height: 240px;
+}
+main .prime-cta {
+  padding: 40px 0;
+}
+main .prime-cta h2 {
+  font-size: 28px;
+  line-height: 1.25;
+}
+main .prime-tiles .tile {
+  padding: 24px;
+}
+main .auth-layout {
+  padding: 28px 0 40px;
+}
+main .auth-layout aside h1 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+main .auth-layout aside p,
+main .auth-card > p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+main .auth-card {
+  padding: 22px 18px;
+}
+main .auth-card input,
+main .auth-card select,
+main .auth-card textarea {
+  font-size: 16px;
+  min-height: 48px;
+}
+main .auth-card .form-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+main .auth-card label {
+  font-size: 14px;
+}
+main .auth-card .btn {
+  font-size: 14px;
+  min-height: 48px;
+  width: 100%;
+}
+main .auth-bottom a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+main .directory-page {
+  padding-top: 24px;
+  padding-bottom: calc(92px + env(safe-area-inset-bottom));
+}
+main .directory-page > nav:first-child {
+  font-size: 13px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+main .directory-heading {
+  padding: 28px 0 16px;
+}
+main .directory-heading h1,
+main .directory-profile-heading h1 {
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: -0.6px;
+}
+main .directory-heading p,
+main .directory-profile-heading > p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+main .directory-search {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  padding: 18px;
+  margin: 20px 0 28px;
+}
+main .directory-search input,
+main .directory-search select {
+  font-size: 16px;
+}
+main .directory-search > label {
+  grid-column: auto;
+}
+main .directory-search label,
+main .smart-combo > label,
+main .smart-label {
+  font-size: 14px;
+}
+main .directory-search > button[type="submit"] {
+  width: 100%;
+  justify-self: stretch;
+  min-height: 48px;
+  font-size: 14px;
+}
+main .smart-combo-control {
+  height: 50px;
+  padding: 0 10px;
+}
+main .smart-combo-control input {
+  min-height: 46px;
+  font-size: 16px;
+}
+main .smart-combo-control button {
+  width: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  flex-shrink: 0;
+}
+main .smart-combo-popover {
+  top: 78px;
+  max-height: 280px;
+  overscroll-behavior: contain;
+}
+main .smart-combo-popover li {
+  min-height: 48px;
+  font-size: 15px;
+}
+main .smart-hint,
+main .smart-error {
+  font-size: 12px;
+  line-height: 1.5;
+}
+main .specialty-trigger {
+  font-size: 14px;
+  min-height: 50px;
+  padding: 12px;
+}
+main .specialty-groups {
+  grid-template-columns: minmax(0, 1fr);
+  max-height: 360px;
+  overscroll-behavior: contain;
+}
+main .specialty-panel {
+  padding: 12px;
+}
+main .specialty-panel-heading strong {
+  font-size: 20px;
+  line-height: 1.3;
+}
+main .specialty-panel-heading p {
+  font-size: 13px;
+}
+main .specialty-groups summary {
+  padding: 14px 10px;
+  font-size: 14px;
+  min-height: 56px;
+}
+main .specialty-group-items .specialty-check {
+  font-size: 14px;
+  min-height: 48px;
+  gap: 10px;
+}
+main .specialty-check input {
+  width: 20px !important;
+  height: 20px;
+  min-height: 20px !important;
+}
+main .specialty-chips > button {
+  min-height: 44px;
+  max-width: 100%;
+  font-size: 13px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+main .specialty-chips > button svg {
+  flex-shrink: 0;
+}
+main .specialty-panel-footer {
+  flex-wrap: wrap;
+}
+main .specialty-panel-footer > .directory-button {
+  width: 100%;
+  text-align: center;
+  min-height: 46px;
+}
+main .directory-results {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+main .directory-results p {
+  margin: 0;
+  font-size: 14px;
+}
+main .directory-results label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+main .directory-results select {
+  font-size: 16px;
+  min-height: 46px;
+  max-width: 65%;
+}
+main .directory-results > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  align-self: flex-start;
+}
+main .directory-card > div {
+  padding: 22px;
+}
+main .directory-card h2 {
+  font-size: 26px;
+}
+main .directory-card p {
+  font-size: 15px;
+}
+main .directory-card .directory-link,
+main .directory-popular a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+}
+main .directory-demo {
+  padding: 14px 16px;
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 1.65;
+}
+main .directory-cover {
+  height: 200px;
+  margin-top: 24px;
+}
+main .directory-profile-heading {
+  padding: 26px 0;
+}
+main .directory-profile-layout h2 {
+  font-size: 26px;
+}
+main .directory-profile-layout section {
+  padding-bottom: 24px;
+}
+main .directory-contact {
+  position: static;
+  padding: 22px;
+}
+main .directory-button {
+  min-height: 48px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.4;
+}
+main .directory-mobile-contact {
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px max(10px, env(safe-area-inset-bottom));
+  align-items: stretch;
+  box-shadow: 0 -3px 20px #193b2515;
+}
+main .directory-mobile-contact a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: center;
+}
+main .quotation-section {
+  padding: 22px 16px;
+  margin-top: 32px;
+  scroll-margin-top: 96px;
+}
+main .quotation-section h2 {
+  font-size: 27px;
+}
+main .quotation-section > p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+main .quotation-form label,
+main .quote-detail label {
+  font-size: 14px;
+}
+main .quotation-form input:not([type="checkbox"]),
+main .quotation-form select,
+main .quotation-form textarea,
+main .quote-detail textarea {
+  font-size: 16px;
+  min-height: 48px;
+}
+main .quotation-form .quote-check {
+  font-size: 14px;
+  line-height: 1.7;
+}
+main .quote-check input {
+  width: 20px;
+  height: 20px;
+}
+main .quotation-form > .directory-button {
+  width: 100%;
+}
+main .quote-detail {
+  padding: 20px 16px;
+}
+main .quote-contact-actions {
+  flex-direction: column;
+  align-items: stretch;
+}
+main .quote-contact-actions a,
+main .quote-contact-actions button,
+main .quote-detail form > button {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+}
+main .quote-list {
+  max-height: 300px;
+  overscroll-behavior: contain;
+}
+main .quote-list > button {
+  padding: 16px;
+  font-size: 15px;
+}
+main .supplier-area {
+  padding-top: 20px;
+}
+main .supplier-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+main .supplier-heading h1 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+main .supplier-heading p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+main .supplier-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+main .supplier-sidebar nav {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 8px;
+}
+main .supplier-sidebar nav button {
+  min-height: 48px;
+  justify-content: flex-start;
+  font-size: 14px;
+  padding: 12px;
+}
+main .supplier-id {
+  padding: 18px;
+}
+main .profile-diagnosis {
+  padding: 18px;
+}
+main .supplier-section {
+  padding: 20px 16px;
+}
+main .supplier-section .form-grid,
+main .gallery-editor,
+main .preview-cards {
+  grid-template-columns: minmax(0, 1fr);
+}
+main .supplier-section label {
+  font-size: 14px;
+}
+main .supplier-section input:not([type="checkbox"]):not([type="range"]),
+main .supplier-section select,
+main .supplier-section textarea {
+  font-size: 16px;
+  min-height: 48px;
+}
+main .wizard-stepper {
+  padding: 10px 0;
+  gap: 3px;
+}
+main .wizard-stepper button {
+  min-width: 0;
+  min-height: 60px;
+  font-size: 12px;
+  gap: 6px;
+  padding: 4px 0;
+}
+main .wizard-stepper small {
+  font-size: 10px;
+  line-height: 1.2;
+}
+main .wizard-title {
+  flex-direction: column;
+  gap: 12px;
+}
+main .wizard-title h2 {
+  font-size: 26px;
+}
+main .wizard-title p {
+  font-size: 14px;
+  max-width: none;
+}
+main .wizard-actions {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+main .wizard-actions > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .wizard-actions .btn {
+  width: 100%;
+  min-height: 48px;
+  font-size: 14px;
+}
+main .demo-banner {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  padding: 16px;
+}
+main .demo-banner p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+main .demo-banner > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.cookies {
+  left: 12px;
+  right: 12px;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  max-height: 75dvh;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 18px;
+  font-size: 14px;
+  z-index: 70;
+}
+.cookies > div {
+  grid-column: 1/-1;
+}
+.cookies p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.cookies > button:not(.btn) {
+  grid-column: 1/-1;
+  font-size: 13px;
+  min-height: 44px;
+}
+.cookies .btn {
+  padding: 10px;
+  font-size: 12px;
+  min-height: 46px;
+  white-space: normal;
+}
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 28px 0;
+}
+footer .footer p {
+  font-size: 13px;
+  line-height: 1.6;
+  display: block;
+}
+footer .footer > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  font-size: 12px;
+}
+footer .footer a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+@media (min-width: 700px) {
+  .container,
+  main .supplier-area > .container {
+    width: calc(100% - 48px);
+  }
+  main .directory-search {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 24px;
+  }
+  main .directory-search > label {
+    grid-column: 1/-1;
+  }
+  main .directory-grid,
+  main .directory-services,
+  main .quote-fields,
+  main .prime-tiles,
+  main .supplier-section .form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  main .specialty-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: 440px;
+  }
+  main .specialty-panel-footer > .directory-button {
+    width: auto;
+  }
+  main .specialty-panel {
+    padding: 20px;
+  }
+  main .prime-hero .prime-hero-actions {
+    flex-direction: row;
+    align-items: center;
+  }
+  .prime-hero-actions .btn,
+  .prime-hero-actions .hero-secondary {
+    width: auto;
+  }
+  .prime-hero h1 {
+    font-size: 50px;
+  }
+  main .directory-heading h1,
+  main .directory-profile-heading h1 {
+    font-size: 44px;
+  }
+  main .section-heading h2,
+  main .prime-intro h2,
+  main .directory-home h2 {
+    font-size: 36px;
+  }
+  main .supplier-sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  main .supplier-sidebar nav {
+    grid-column: 1/-1;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .cookies {
+    left: 24px;
+    right: 24px;
+    grid-template-columns: 1fr auto auto auto;
+    align-items: center;
+  }
+  .cookies > div {
+    grid-column: auto;
+  }
+  .cookies > button:not(.btn) {
+    grid-column: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .prime-header .topbar {
+    display: block;
+  }
+  .prime-header .header {
+    height: 92px;
+    gap: 24px;
+  }
+  .prime-header .header nav {
+    display: flex;
+    gap: 18px;
+  }
+  .prime-header .header nav > a {
+    font-size: 12px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .prime-header .mobile-menu,
+  .prime-header .nav-account {
+    display: none;
+  }
+  .prime-header .header-actions > a:first-child {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 13px;
+  }
+  .prime-header .header-actions .btn {
+    font-size: 12px;
+    padding: 12px 18px;
+  }
+  main .prime-intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+  main .editorial-grid {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 32px;
+  }
+  main .prime-tiles,
+  main .directory-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .prime-hero .prime-hero-content {
+    padding: 72px 0 80px;
+  }
+  .prime-hero h1 {
+    font-size: 62px;
+    max-width: 850px;
+  }
+  main .directory-search {
+    grid-template-columns: 1.2fr 1fr 1fr;
+    padding: 28px;
+  }
+  main .directory-search > label {
+    grid-column: auto;
+  }
+  main .directory-search > button[type="submit"] {
+    width: auto;
+    justify-self: end;
+    padding: 14px 28px;
+  }
+  main .directory-results {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .directory-results label {
+    gap: 12px;
+  }
+  main .directory-profile-layout {
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 48px;
+  }
+  main .directory-contact {
+    position: sticky;
+    top: 150px;
+  }
+  main .directory-mobile-contact {
+    display: none;
+  }
+  main .directory-cover {
+    height: 340px;
+  }
+  main .auth-layout {
+    grid-template-columns: 0.9fr 1fr;
+    gap: 60px;
+    padding: 50px 0;
+  }
+  main .auth-card {
+    padding: 36px;
+  }
+  main .supplier-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 28px;
+  }
+  main .supplier-sidebar {
+    display: flex;
+  }
+  main .supplier-sidebar nav {
+    display: flex;
+    flex-direction: column;
+  }
+  main .supplier-heading {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .supplier-section {
+    padding: 30px;
+  }
+  main .wizard-title {
+    flex-direction: row;
+  }
+  main .wizard-actions {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .wizard-actions > div {
+    flex-direction: row;
+  }
+  main .wizard-actions .btn {
+    width: auto;
+  }
+  main .quote-inbox-layout {
+    grid-template-columns: 250px minmax(0, 1fr);
+  }
+  main .demo-banner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Keep the expanded content navigation comfortable on small laptops. */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .prime-header .header nav {
+    display: none;
+  }
+  .prime-header .header nav.open {
+    display: flex;
+  }
+  .prime-header .mobile-menu {
+    display: flex;
+  }
+  .prime-header .nav-account {
+    display: flex;
+  }
+  .prime-header .header-actions > a:first-child {
+    display: none;
+  }
+}

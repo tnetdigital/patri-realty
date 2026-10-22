@@ -1,0 +1,314 @@
+[
+  {
+    "id": "1100015",
+    "nome": "Alta Floresta D'Oeste",
+    "uf": "RO",
+    "slug": "alta-floresta-d'oeste"
+  },
+  {
+    "id": "1100379",
+    "nome": "Alto Alegre dos Parecis",
+    "uf": "RO",
+    "slug": "alto-alegre-dos-parecis"
+  },
+  {
+    "id": "1100403",
+    "nome": "Alto Paraíso",
+    "uf": "RO",
+    "slug": "alto-paraiso"
+  },
+  {
+    "id": "1100346",
+    "nome": "Alvorada D'Oeste",
+    "uf": "RO",
+    "slug": "alvorada-d'oeste"
+  },
+  {
+    "id": "1100023",
+    "nome": "Ariquemes",
+    "uf": "RO",
+    "slug": "ariquemes"
+  },
+  {
+    "id": "1100452",
+    "nome": "Buritis",
+    "uf": "RO",
+    "slug": "buritis"
+  },
+  {
+    "id": "1100031",
+    "nome": "Cabixi",
+    "uf": "RO",
+    "slug": "cabixi"
+  },
+  {
+    "id": "1100601",
+    "nome": "Cacaulândia",
+    "uf": "RO",
+    "slug": "cacaulandia"
+  },
+  {
+    "id": "1100049",
+    "nome": "Cacoal",
+    "uf": "RO",
+    "slug": "cacoal"
+  },
+  {
+    "id": "1100700",
+    "nome": "Campo Novo de Rondônia",
+    "uf": "RO",
+    "slug": "campo-novo-de-rondonia"
+  },
+  {
+    "id": "1100809",
+    "nome": "Candeias do Jamari",
+    "uf": "RO",
+    "slug": "candeias-do-jamari"
+  },
+  {
+    "id": "1100908",
+    "nome": "Castanheiras",
+    "uf": "RO",
+    "slug": "castanheiras"
+  },
+  {
+    "id": "1100056",
+    "nome": "Cerejeiras",
+    "uf": "RO",
+    "slug": "cerejeiras"
+  },
+  {
+    "id": "1100924",
+    "nome": "Chupinguaia",
+    "uf": "RO",
+    "slug": "chupinguaia"
+  },
+  {
+    "id": "1100064",
+    "nome": "Colorado do Oeste",
+    "uf": "RO",
+    "slug": "colorado-do-oeste"
+  },
+  {
+    "id": "1100072",
+    "nome": "Corumbiara",
+    "uf": "RO",
+    "slug": "corumbiara"
+  },
+  {
+    "id": "1100080",
+    "nome": "Costa Marques",
+    "uf": "RO",
+    "slug": "costa-marques"
+  },
+  {
+    "id": "1100940",
+    "nome": "Cujubim",
+    "uf": "RO",
+    "slug": "cujubim"
+  },
+  {
+    "id": "1100098",
+    "nome": "Espigão D'Oeste",
+    "uf": "RO",
+    "slug": "espigao-d'oeste"
+  },
+  {
+    "id": "1101005",
+    "nome": "Governador Jorge Teixeira",
+    "uf": "RO",
+    "slug": "governador-jorge-teixeira"
+  },
+  {
+    "id": "1100106",
+    "nome": "Guajará-Mirim",
+    "uf": "RO",
+    "slug": "guajara-mirim"
+  },
+  {
+    "id": "1101104",
+    "nome": "Itapuã do Oeste",
+    "uf": "RO",
+    "slug": "itapua-do-oeste"
+  },
+  {
+    "id": "1100114",
+    "nome": "Jaru",
+    "uf": "RO",
+    "slug": "jaru"
+  },
+  {
+    "id": "1100122",
+    "nome": "Ji-Paraná",
+    "uf": "RO",
+    "slug": "ji-parana"
+  },
+  {
+    "id": "1100130",
+    "nome": "Machadinho D'Oeste",
+    "uf": "RO",
+    "slug": "machadinho-d'oeste"
+  },
+  {
+    "id": "1101203",
+    "nome": "Ministro Andreazza",
+    "uf": "RO",
+    "slug": "ministro-andreazza"
+  },
+  {
+    "id": "1101302",
+    "nome": "Mirante da Serra",
+    "uf": "RO",
+    "slug": "mirante-da-serra"
+  },
+  {
+    "id": "1101401",
+    "nome": "Monte Negro",
+    "uf": "RO",
+    "slug": "monte-negro"
+  },
+  {
+    "id": "1100148",
+    "nome": "Nova Brasilândia D'Oeste",
+    "uf": "RO",
+    "slug": "nova-brasilandia-d'oeste"
+  },
+  {
+    "id": "1100338",
+    "nome": "Nova Mamoré",
+    "uf": "RO",
+    "slug": "nova-mamore"
+  },
+  {
+    "id": "1101435",
+    "nome": "Nova União",
+    "uf": "RO",
+    "slug": "nova-uniao"
+  },
+  {
+    "id": "1100502",
+    "nome": "Novo Horizonte do Oeste",
+    "uf": "RO",
+    "slug": "novo-horizonte-do-oeste"
+  },
+  {
+    "id": "1100155",
+    "nome": "Ouro Preto do Oeste",
+    "uf": "RO",
+    "slug": "ouro-preto-do-oeste"
+  },
+  {
+    "id": "1101450",
+    "nome": "Parecis",
+    "uf": "RO",
+    "slug": "parecis"
+  },
+  {
+    "id": "1100189",
+    "nome": "Pimenta Bueno",
+    "uf": "RO",
+    "slug": "pimenta-bueno"
+  },
+  {
+    "id": "1101468",
+    "nome": "Pimenteiras do Oeste",
+    "uf": "RO",
+    "slug": "pimenteiras-do-oeste"
+  },
+  {
+    "id": "1100205",
+    "nome": "Porto Velho",
+    "uf": "RO",
+    "slug": "porto-velho"
+  },
+  {
+    "id": "1100254",
+    "nome": "Presidente Médici",
+    "uf": "RO",
+    "slug": "presidente-medici"
+  },
+  {
+    "id": "1101476",
+    "nome": "Primavera de Rondônia",
+    "uf": "RO",
+    "slug": "primavera-de-rondonia"
+  },
+  {
+    "id": "1100262",
+    "nome": "Rio Crespo",
+    "uf": "RO",
+    "slug": "rio-crespo"
+  },
+  {
+    "id": "1100288",
+    "nome": "Rolim de Moura",
+    "uf": "RO",
+    "slug": "rolim-de-moura"
+  },
+  {
+    "id": "1100296",
+    "nome": "Santa Luzia D'Oeste",
+    "uf": "RO",
+    "slug": "santa-luzia-d'oeste"
+  },
+  {
+    "id": "1101484",
+    "nome": "São Felipe D'Oeste",
+    "uf": "RO",
+    "slug": "sao-felipe-d'oeste"
+  },
+  {
+    "id": "1101492",
+    "nome": "São Francisco do Guaporé",
+    "uf": "RO",
+    "slug": "sao-francisco-do-guapore"
+  },
+  {
+    "id": "1100320",
+    "nome": "São Miguel do Guaporé",
+    "uf": "RO",
+    "slug": "sao-miguel-do-guapore"
+  },
+  {
+    "id": "1101500",
+    "nome": "Seringueiras",
+    "uf": "RO",
+    "slug": "seringueiras"
+  },
+  {
+    "id": "1101559",
+    "nome": "Teixeirópolis",
+    "uf": "RO",
+    "slug": "teixeiropolis"
+  },
+  {
+    "id": "1101609",
+    "nome": "Theobroma",
+    "uf": "RO",
+    "slug": "theobroma"
+  },
+  {
+    "id": "1101708",
+    "nome": "Urupá",
+    "uf": "RO",
+    "slug": "urupa"
+  },
+  {
+    "id": "1101757",
+    "nome": "Vale do Anari",
+    "uf": "RO",
+    "slug": "vale-do-anari"
+  },
+  {
+    "id": "1101807",
+    "nome": "Vale do Paraíso",
+    "uf": "RO",
+    "slug": "vale-do-paraiso"
+  },
+  {
+    "id": "1100304",
+    "nome": "Vilhena",
+    "uf": "RO",
+    "slug": "vilhena"
+  }
+]

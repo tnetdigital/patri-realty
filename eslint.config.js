@@ -1,0 +1,64 @@
+import js from "@eslint/js";
+import ts from "typescript-eslint";
+export default ts.config(
+  {
+    ignores: [
+      "dist/**",
+      "dist-server/**",
+      "node_modules/**",
+      "src/lib/database.types.ts",
+    ],
+  },
+  {
+    files: ["**/*.{ts,tsx,mjs,js}"],
+    languageOptions: {
+      globals: {
+        console: "readonly",
+        process: "readonly",
+        Buffer: "readonly",
+        fetch: "readonly",
+        Response: "readonly",
+        Request: "readonly",
+        URL: "readonly",
+        URLSearchParams: "readonly",
+        setTimeout: "readonly",
+        clearTimeout: "readonly",
+        setInterval: "readonly",
+        clearInterval: "readonly",
+        crypto: "readonly",
+        document: "readonly",
+        window: "readonly",
+        location: "readonly",
+        localStorage: "readonly",
+        sessionStorage: "readonly",
+        navigator: "readonly",
+        Blob: "readonly",
+        File: "readonly",
+        FormData: "readonly",
+        TextEncoder: "readonly",
+        AbortSignal: "readonly",
+        Deno: "readonly",
+        Image: "readonly",
+        createImageBitmap: "readonly",
+        indexedDB: "readonly",
+        CustomEvent: "readonly",
+      },
+    },
+    rules: {
+      "no-unreachable": "error",
+      "no-constant-condition": ["error", { checkLoops: false }],
+      "no-debugger": "error",
+      "no-dupe-args": "error",
+      "no-dupe-keys": "error",
+    },
+  },
+  ...ts.configs.recommended.map((c) => ({
+    ...c,
+    rules: {
+      ...c.rules,
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-empty-object-type": "off",
+    },
+  })),
+);

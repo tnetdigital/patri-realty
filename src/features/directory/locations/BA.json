@@ -1,0 +1,2504 @@
+[
+  {
+    "id": "2900108",
+    "nome": "Abaíra",
+    "uf": "BA",
+    "slug": "abaira"
+  },
+  {
+    "id": "2900207",
+    "nome": "Abaré",
+    "uf": "BA",
+    "slug": "abare"
+  },
+  {
+    "id": "2900306",
+    "nome": "Acajutiba",
+    "uf": "BA",
+    "slug": "acajutiba"
+  },
+  {
+    "id": "2900355",
+    "nome": "Adustina",
+    "uf": "BA",
+    "slug": "adustina"
+  },
+  {
+    "id": "2900405",
+    "nome": "Água Fria",
+    "uf": "BA",
+    "slug": "agua-fria"
+  },
+  {
+    "id": "2900603",
+    "nome": "Aiquara",
+    "uf": "BA",
+    "slug": "aiquara"
+  },
+  {
+    "id": "2900702",
+    "nome": "Alagoinhas",
+    "uf": "BA",
+    "slug": "alagoinhas"
+  },
+  {
+    "id": "2900801",
+    "nome": "Alcobaça",
+    "uf": "BA",
+    "slug": "alcobaca"
+  },
+  {
+    "id": "2900900",
+    "nome": "Almadina",
+    "uf": "BA",
+    "slug": "almadina"
+  },
+  {
+    "id": "2901007",
+    "nome": "Amargosa",
+    "uf": "BA",
+    "slug": "amargosa"
+  },
+  {
+    "id": "2901106",
+    "nome": "Amélia Rodrigues",
+    "uf": "BA",
+    "slug": "amelia-rodrigues"
+  },
+  {
+    "id": "2901155",
+    "nome": "América Dourada",
+    "uf": "BA",
+    "slug": "america-dourada"
+  },
+  {
+    "id": "2901205",
+    "nome": "Anagé",
+    "uf": "BA",
+    "slug": "anage"
+  },
+  {
+    "id": "2901304",
+    "nome": "Andaraí",
+    "uf": "BA",
+    "slug": "andarai"
+  },
+  {
+    "id": "2901353",
+    "nome": "Andorinha",
+    "uf": "BA",
+    "slug": "andorinha"
+  },
+  {
+    "id": "2901403",
+    "nome": "Angical",
+    "uf": "BA",
+    "slug": "angical"
+  },
+  {
+    "id": "2901502",
+    "nome": "Anguera",
+    "uf": "BA",
+    "slug": "anguera"
+  },
+  {
+    "id": "2901601",
+    "nome": "Antas",
+    "uf": "BA",
+    "slug": "antas"
+  },
+  {
+    "id": "2901700",
+    "nome": "Antônio Cardoso",
+    "uf": "BA",
+    "slug": "antonio-cardoso"
+  },
+  {
+    "id": "2901809",
+    "nome": "Antônio Gonçalves",
+    "uf": "BA",
+    "slug": "antonio-goncalves"
+  },
+  {
+    "id": "2901908",
+    "nome": "Aporá",
+    "uf": "BA",
+    "slug": "apora"
+  },
+  {
+    "id": "2901957",
+    "nome": "Apuarema",
+    "uf": "BA",
+    "slug": "apuarema"
+  },
+  {
+    "id": "2902054",
+    "nome": "Araçás",
+    "uf": "BA",
+    "slug": "aracas"
+  },
+  {
+    "id": "2902005",
+    "nome": "Aracatu",
+    "uf": "BA",
+    "slug": "aracatu"
+  },
+  {
+    "id": "2902104",
+    "nome": "Araci",
+    "uf": "BA",
+    "slug": "araci"
+  },
+  {
+    "id": "2902203",
+    "nome": "Aramari",
+    "uf": "BA",
+    "slug": "aramari"
+  },
+  {
+    "id": "2902252",
+    "nome": "Arataca",
+    "uf": "BA",
+    "slug": "arataca"
+  },
+  {
+    "id": "2902302",
+    "nome": "Aratuípe",
+    "uf": "BA",
+    "slug": "aratuipe"
+  },
+  {
+    "id": "2902401",
+    "nome": "Aurelino Leal",
+    "uf": "BA",
+    "slug": "aurelino-leal"
+  },
+  {
+    "id": "2902500",
+    "nome": "Baianópolis",
+    "uf": "BA",
+    "slug": "baianopolis"
+  },
+  {
+    "id": "2902609",
+    "nome": "Baixa Grande",
+    "uf": "BA",
+    "slug": "baixa-grande"
+  },
+  {
+    "id": "2902658",
+    "nome": "Banzaê",
+    "uf": "BA",
+    "slug": "banzae"
+  },
+  {
+    "id": "2902708",
+    "nome": "Barra",
+    "uf": "BA",
+    "slug": "barra"
+  },
+  {
+    "id": "2902807",
+    "nome": "Barra da Estiva",
+    "uf": "BA",
+    "slug": "barra-da-estiva"
+  },
+  {
+    "id": "2902906",
+    "nome": "Barra do Choça",
+    "uf": "BA",
+    "slug": "barra-do-choca"
+  },
+  {
+    "id": "2903003",
+    "nome": "Barra do Mendes",
+    "uf": "BA",
+    "slug": "barra-do-mendes"
+  },
+  {
+    "id": "2903102",
+    "nome": "Barra do Rocha",
+    "uf": "BA",
+    "slug": "barra-do-rocha"
+  },
+  {
+    "id": "2903201",
+    "nome": "Barreiras",
+    "uf": "BA",
+    "slug": "barreiras"
+  },
+  {
+    "id": "2903235",
+    "nome": "Barro Alto",
+    "uf": "BA",
+    "slug": "barro-alto"
+  },
+  {
+    "id": "2903300",
+    "nome": "Barro Preto",
+    "uf": "BA",
+    "slug": "barro-preto"
+  },
+  {
+    "id": "2903276",
+    "nome": "Barrocas",
+    "uf": "BA",
+    "slug": "barrocas"
+  },
+  {
+    "id": "2903409",
+    "nome": "Belmonte",
+    "uf": "BA",
+    "slug": "belmonte"
+  },
+  {
+    "id": "2903508",
+    "nome": "Belo Campo",
+    "uf": "BA",
+    "slug": "belo-campo"
+  },
+  {
+    "id": "2903607",
+    "nome": "Biritinga",
+    "uf": "BA",
+    "slug": "biritinga"
+  },
+  {
+    "id": "2903706",
+    "nome": "Boa Nova",
+    "uf": "BA",
+    "slug": "boa-nova"
+  },
+  {
+    "id": "2903805",
+    "nome": "Boa Vista do Tupim",
+    "uf": "BA",
+    "slug": "boa-vista-do-tupim"
+  },
+  {
+    "id": "2903904",
+    "nome": "Bom Jesus da Lapa",
+    "uf": "BA",
+    "slug": "bom-jesus-da-lapa"
+  },
+  {
+    "id": "2903953",
+    "nome": "Bom Jesus da Serra",
+    "uf": "BA",
+    "slug": "bom-jesus-da-serra"
+  },
+  {
+    "id": "2904001",
+    "nome": "Boninal",
+    "uf": "BA",
+    "slug": "boninal"
+  },
+  {
+    "id": "2904050",
+    "nome": "Bonito",
+    "uf": "BA",
+    "slug": "bonito"
+  },
+  {
+    "id": "2904100",
+    "nome": "Boquira",
+    "uf": "BA",
+    "slug": "boquira"
+  },
+  {
+    "id": "2904209",
+    "nome": "Botuporã",
+    "uf": "BA",
+    "slug": "botupora"
+  },
+  {
+    "id": "2904308",
+    "nome": "Brejões",
+    "uf": "BA",
+    "slug": "brejoes"
+  },
+  {
+    "id": "2904407",
+    "nome": "Brejolândia",
+    "uf": "BA",
+    "slug": "brejolandia"
+  },
+  {
+    "id": "2904506",
+    "nome": "Brotas de Macaúbas",
+    "uf": "BA",
+    "slug": "brotas-de-macaubas"
+  },
+  {
+    "id": "2904605",
+    "nome": "Brumado",
+    "uf": "BA",
+    "slug": "brumado"
+  },
+  {
+    "id": "2904704",
+    "nome": "Buerarema",
+    "uf": "BA",
+    "slug": "buerarema"
+  },
+  {
+    "id": "2904753",
+    "nome": "Buritirama",
+    "uf": "BA",
+    "slug": "buritirama"
+  },
+  {
+    "id": "2904803",
+    "nome": "Caatiba",
+    "uf": "BA",
+    "slug": "caatiba"
+  },
+  {
+    "id": "2904852",
+    "nome": "Cabaceiras do Paraguaçu",
+    "uf": "BA",
+    "slug": "cabaceiras-do-paraguacu"
+  },
+  {
+    "id": "2904902",
+    "nome": "Cachoeira",
+    "uf": "BA",
+    "slug": "cachoeira"
+  },
+  {
+    "id": "2905008",
+    "nome": "Caculé",
+    "uf": "BA",
+    "slug": "cacule"
+  },
+  {
+    "id": "2905107",
+    "nome": "Caém",
+    "uf": "BA",
+    "slug": "caem"
+  },
+  {
+    "id": "2905156",
+    "nome": "Caetanos",
+    "uf": "BA",
+    "slug": "caetanos"
+  },
+  {
+    "id": "2905206",
+    "nome": "Caetité",
+    "uf": "BA",
+    "slug": "caetite"
+  },
+  {
+    "id": "2905305",
+    "nome": "Cafarnaum",
+    "uf": "BA",
+    "slug": "cafarnaum"
+  },
+  {
+    "id": "2905404",
+    "nome": "Cairu",
+    "uf": "BA",
+    "slug": "cairu"
+  },
+  {
+    "id": "2905503",
+    "nome": "Caldeirão Grande",
+    "uf": "BA",
+    "slug": "caldeirao-grande"
+  },
+  {
+    "id": "2905602",
+    "nome": "Camacan",
+    "uf": "BA",
+    "slug": "camacan"
+  },
+  {
+    "id": "2905701",
+    "nome": "Camaçari",
+    "uf": "BA",
+    "slug": "camacari"
+  },
+  {
+    "id": "2905800",
+    "nome": "Camamu",
+    "uf": "BA",
+    "slug": "camamu"
+  },
+  {
+    "id": "2905909",
+    "nome": "Campo Alegre de Lourdes",
+    "uf": "BA",
+    "slug": "campo-alegre-de-lourdes"
+  },
+  {
+    "id": "2906006",
+    "nome": "Campo Formoso",
+    "uf": "BA",
+    "slug": "campo-formoso"
+  },
+  {
+    "id": "2906105",
+    "nome": "Canápolis",
+    "uf": "BA",
+    "slug": "canapolis"
+  },
+  {
+    "id": "2906204",
+    "nome": "Canarana",
+    "uf": "BA",
+    "slug": "canarana"
+  },
+  {
+    "id": "2906303",
+    "nome": "Canavieiras",
+    "uf": "BA",
+    "slug": "canavieiras"
+  },
+  {
+    "id": "2906402",
+    "nome": "Candeal",
+    "uf": "BA",
+    "slug": "candeal"
+  },
+  {
+    "id": "2906501",
+    "nome": "Candeias",
+    "uf": "BA",
+    "slug": "candeias"
+  },
+  {
+    "id": "2906600",
+    "nome": "Candiba",
+    "uf": "BA",
+    "slug": "candiba"
+  },
+  {
+    "id": "2906709",
+    "nome": "Cândido Sales",
+    "uf": "BA",
+    "slug": "candido-sales"
+  },
+  {
+    "id": "2906808",
+    "nome": "Cansanção",
+    "uf": "BA",
+    "slug": "cansancao"
+  },
+  {
+    "id": "2906824",
+    "nome": "Canudos",
+    "uf": "BA",
+    "slug": "canudos"
+  },
+  {
+    "id": "2906857",
+    "nome": "Capela do Alto Alegre",
+    "uf": "BA",
+    "slug": "capela-do-alto-alegre"
+  },
+  {
+    "id": "2906873",
+    "nome": "Capim Grosso",
+    "uf": "BA",
+    "slug": "capim-grosso"
+  },
+  {
+    "id": "2906899",
+    "nome": "Caraíbas",
+    "uf": "BA",
+    "slug": "caraibas"
+  },
+  {
+    "id": "2906907",
+    "nome": "Caravelas",
+    "uf": "BA",
+    "slug": "caravelas"
+  },
+  {
+    "id": "2907004",
+    "nome": "Cardeal da Silva",
+    "uf": "BA",
+    "slug": "cardeal-da-silva"
+  },
+  {
+    "id": "2907103",
+    "nome": "Carinhanha",
+    "uf": "BA",
+    "slug": "carinhanha"
+  },
+  {
+    "id": "2907202",
+    "nome": "Casa Nova",
+    "uf": "BA",
+    "slug": "casa-nova"
+  },
+  {
+    "id": "2907301",
+    "nome": "Castro Alves",
+    "uf": "BA",
+    "slug": "castro-alves"
+  },
+  {
+    "id": "2907400",
+    "nome": "Catolândia",
+    "uf": "BA",
+    "slug": "catolandia"
+  },
+  {
+    "id": "2907509",
+    "nome": "Catu",
+    "uf": "BA",
+    "slug": "catu"
+  },
+  {
+    "id": "2907558",
+    "nome": "Caturama",
+    "uf": "BA",
+    "slug": "caturama"
+  },
+  {
+    "id": "2907608",
+    "nome": "Central",
+    "uf": "BA",
+    "slug": "central"
+  },
+  {
+    "id": "2907707",
+    "nome": "Chorrochó",
+    "uf": "BA",
+    "slug": "chorrocho"
+  },
+  {
+    "id": "2907806",
+    "nome": "Cícero Dantas",
+    "uf": "BA",
+    "slug": "cicero-dantas"
+  },
+  {
+    "id": "2907905",
+    "nome": "Cipó",
+    "uf": "BA",
+    "slug": "cipo"
+  },
+  {
+    "id": "2908002",
+    "nome": "Coaraci",
+    "uf": "BA",
+    "slug": "coaraci"
+  },
+  {
+    "id": "2908101",
+    "nome": "Cocos",
+    "uf": "BA",
+    "slug": "cocos"
+  },
+  {
+    "id": "2908200",
+    "nome": "Conceição da Feira",
+    "uf": "BA",
+    "slug": "conceicao-da-feira"
+  },
+  {
+    "id": "2908309",
+    "nome": "Conceição do Almeida",
+    "uf": "BA",
+    "slug": "conceicao-do-almeida"
+  },
+  {
+    "id": "2908408",
+    "nome": "Conceição do Coité",
+    "uf": "BA",
+    "slug": "conceicao-do-coite"
+  },
+  {
+    "id": "2908507",
+    "nome": "Conceição do Jacuípe",
+    "uf": "BA",
+    "slug": "conceicao-do-jacuipe"
+  },
+  {
+    "id": "2908606",
+    "nome": "Conde",
+    "uf": "BA",
+    "slug": "conde"
+  },
+  {
+    "id": "2908705",
+    "nome": "Condeúba",
+    "uf": "BA",
+    "slug": "condeuba"
+  },
+  {
+    "id": "2908804",
+    "nome": "Contendas do Sincorá",
+    "uf": "BA",
+    "slug": "contendas-do-sincora"
+  },
+  {
+    "id": "2908903",
+    "nome": "Coração de Maria",
+    "uf": "BA",
+    "slug": "coracao-de-maria"
+  },
+  {
+    "id": "2909000",
+    "nome": "Cordeiros",
+    "uf": "BA",
+    "slug": "cordeiros"
+  },
+  {
+    "id": "2909109",
+    "nome": "Coribe",
+    "uf": "BA",
+    "slug": "coribe"
+  },
+  {
+    "id": "2909208",
+    "nome": "Coronel João Sá",
+    "uf": "BA",
+    "slug": "coronel-joao-sa"
+  },
+  {
+    "id": "2909307",
+    "nome": "Correntina",
+    "uf": "BA",
+    "slug": "correntina"
+  },
+  {
+    "id": "2909406",
+    "nome": "Cotegipe",
+    "uf": "BA",
+    "slug": "cotegipe"
+  },
+  {
+    "id": "2909505",
+    "nome": "Cravolândia",
+    "uf": "BA",
+    "slug": "cravolandia"
+  },
+  {
+    "id": "2909604",
+    "nome": "Crisópolis",
+    "uf": "BA",
+    "slug": "crisopolis"
+  },
+  {
+    "id": "2909703",
+    "nome": "Cristópolis",
+    "uf": "BA",
+    "slug": "cristopolis"
+  },
+  {
+    "id": "2909802",
+    "nome": "Cruz das Almas",
+    "uf": "BA",
+    "slug": "cruz-das-almas"
+  },
+  {
+    "id": "2909901",
+    "nome": "Curaçá",
+    "uf": "BA",
+    "slug": "curaca"
+  },
+  {
+    "id": "2910008",
+    "nome": "Dário Meira",
+    "uf": "BA",
+    "slug": "dario-meira"
+  },
+  {
+    "id": "2910057",
+    "nome": "Dias d'Ávila",
+    "uf": "BA",
+    "slug": "dias-d'avila"
+  },
+  {
+    "id": "2910107",
+    "nome": "Dom Basílio",
+    "uf": "BA",
+    "slug": "dom-basilio"
+  },
+  {
+    "id": "2910206",
+    "nome": "Dom Macedo Costa",
+    "uf": "BA",
+    "slug": "dom-macedo-costa"
+  },
+  {
+    "id": "2910305",
+    "nome": "Elísio Medrado",
+    "uf": "BA",
+    "slug": "elisio-medrado"
+  },
+  {
+    "id": "2910404",
+    "nome": "Encruzilhada",
+    "uf": "BA",
+    "slug": "encruzilhada"
+  },
+  {
+    "id": "2910503",
+    "nome": "Entre Rios",
+    "uf": "BA",
+    "slug": "entre-rios"
+  },
+  {
+    "id": "2900504",
+    "nome": "Érico Cardoso",
+    "uf": "BA",
+    "slug": "erico-cardoso"
+  },
+  {
+    "id": "2910602",
+    "nome": "Esplanada",
+    "uf": "BA",
+    "slug": "esplanada"
+  },
+  {
+    "id": "2910701",
+    "nome": "Euclides da Cunha",
+    "uf": "BA",
+    "slug": "euclides-da-cunha"
+  },
+  {
+    "id": "2910727",
+    "nome": "Eunápolis",
+    "uf": "BA",
+    "slug": "eunapolis"
+  },
+  {
+    "id": "2910750",
+    "nome": "Fátima",
+    "uf": "BA",
+    "slug": "fatima"
+  },
+  {
+    "id": "2910776",
+    "nome": "Feira da Mata",
+    "uf": "BA",
+    "slug": "feira-da-mata"
+  },
+  {
+    "id": "2910800",
+    "nome": "Feira de Santana",
+    "uf": "BA",
+    "slug": "feira-de-santana"
+  },
+  {
+    "id": "2910859",
+    "nome": "Filadélfia",
+    "uf": "BA",
+    "slug": "filadelfia"
+  },
+  {
+    "id": "2910909",
+    "nome": "Firmino Alves",
+    "uf": "BA",
+    "slug": "firmino-alves"
+  },
+  {
+    "id": "2911006",
+    "nome": "Floresta Azul",
+    "uf": "BA",
+    "slug": "floresta-azul"
+  },
+  {
+    "id": "2911105",
+    "nome": "Formosa do Rio Preto",
+    "uf": "BA",
+    "slug": "formosa-do-rio-preto"
+  },
+  {
+    "id": "2911204",
+    "nome": "Gandu",
+    "uf": "BA",
+    "slug": "gandu"
+  },
+  {
+    "id": "2911253",
+    "nome": "Gavião",
+    "uf": "BA",
+    "slug": "gaviao"
+  },
+  {
+    "id": "2911303",
+    "nome": "Gentio do Ouro",
+    "uf": "BA",
+    "slug": "gentio-do-ouro"
+  },
+  {
+    "id": "2911402",
+    "nome": "Glória",
+    "uf": "BA",
+    "slug": "gloria"
+  },
+  {
+    "id": "2911501",
+    "nome": "Gongogi",
+    "uf": "BA",
+    "slug": "gongogi"
+  },
+  {
+    "id": "2911600",
+    "nome": "Governador Mangabeira",
+    "uf": "BA",
+    "slug": "governador-mangabeira"
+  },
+  {
+    "id": "2911659",
+    "nome": "Guajeru",
+    "uf": "BA",
+    "slug": "guajeru"
+  },
+  {
+    "id": "2911709",
+    "nome": "Guanambi",
+    "uf": "BA",
+    "slug": "guanambi"
+  },
+  {
+    "id": "2911808",
+    "nome": "Guaratinga",
+    "uf": "BA",
+    "slug": "guaratinga"
+  },
+  {
+    "id": "2911857",
+    "nome": "Heliópolis",
+    "uf": "BA",
+    "slug": "heliopolis"
+  },
+  {
+    "id": "2911907",
+    "nome": "Iaçu",
+    "uf": "BA",
+    "slug": "iacu"
+  },
+  {
+    "id": "2912004",
+    "nome": "Ibiassucê",
+    "uf": "BA",
+    "slug": "ibiassuce"
+  },
+  {
+    "id": "2912103",
+    "nome": "Ibicaraí",
+    "uf": "BA",
+    "slug": "ibicarai"
+  },
+  {
+    "id": "2912202",
+    "nome": "Ibicoara",
+    "uf": "BA",
+    "slug": "ibicoara"
+  },
+  {
+    "id": "2912301",
+    "nome": "Ibicuí",
+    "uf": "BA",
+    "slug": "ibicui"
+  },
+  {
+    "id": "2912400",
+    "nome": "Ibipeba",
+    "uf": "BA",
+    "slug": "ibipeba"
+  },
+  {
+    "id": "2912509",
+    "nome": "Ibipitanga",
+    "uf": "BA",
+    "slug": "ibipitanga"
+  },
+  {
+    "id": "2912608",
+    "nome": "Ibiquera",
+    "uf": "BA",
+    "slug": "ibiquera"
+  },
+  {
+    "id": "2912707",
+    "nome": "Ibirapitanga",
+    "uf": "BA",
+    "slug": "ibirapitanga"
+  },
+  {
+    "id": "2912806",
+    "nome": "Ibirapuã",
+    "uf": "BA",
+    "slug": "ibirapua"
+  },
+  {
+    "id": "2912905",
+    "nome": "Ibirataia",
+    "uf": "BA",
+    "slug": "ibirataia"
+  },
+  {
+    "id": "2913002",
+    "nome": "Ibitiara",
+    "uf": "BA",
+    "slug": "ibitiara"
+  },
+  {
+    "id": "2913101",
+    "nome": "Ibititá",
+    "uf": "BA",
+    "slug": "ibitita"
+  },
+  {
+    "id": "2913200",
+    "nome": "Ibotirama",
+    "uf": "BA",
+    "slug": "ibotirama"
+  },
+  {
+    "id": "2913309",
+    "nome": "Ichu",
+    "uf": "BA",
+    "slug": "ichu"
+  },
+  {
+    "id": "2913408",
+    "nome": "Igaporã",
+    "uf": "BA",
+    "slug": "igapora"
+  },
+  {
+    "id": "2913457",
+    "nome": "Igrapiúna",
+    "uf": "BA",
+    "slug": "igrapiuna"
+  },
+  {
+    "id": "2913507",
+    "nome": "Iguaí",
+    "uf": "BA",
+    "slug": "iguai"
+  },
+  {
+    "id": "2913606",
+    "nome": "Ilhéus",
+    "uf": "BA",
+    "slug": "ilheus"
+  },
+  {
+    "id": "2913705",
+    "nome": "Inhambupe",
+    "uf": "BA",
+    "slug": "inhambupe"
+  },
+  {
+    "id": "2913804",
+    "nome": "Ipecaetá",
+    "uf": "BA",
+    "slug": "ipecaeta"
+  },
+  {
+    "id": "2913903",
+    "nome": "Ipiaú",
+    "uf": "BA",
+    "slug": "ipiau"
+  },
+  {
+    "id": "2914000",
+    "nome": "Ipirá",
+    "uf": "BA",
+    "slug": "ipira"
+  },
+  {
+    "id": "2914109",
+    "nome": "Ipupiara",
+    "uf": "BA",
+    "slug": "ipupiara"
+  },
+  {
+    "id": "2914208",
+    "nome": "Irajuba",
+    "uf": "BA",
+    "slug": "irajuba"
+  },
+  {
+    "id": "2914307",
+    "nome": "Iramaia",
+    "uf": "BA",
+    "slug": "iramaia"
+  },
+  {
+    "id": "2914406",
+    "nome": "Iraquara",
+    "uf": "BA",
+    "slug": "iraquara"
+  },
+  {
+    "id": "2914505",
+    "nome": "Irará",
+    "uf": "BA",
+    "slug": "irara"
+  },
+  {
+    "id": "2914604",
+    "nome": "Irecê",
+    "uf": "BA",
+    "slug": "irece"
+  },
+  {
+    "id": "2914653",
+    "nome": "Itabela",
+    "uf": "BA",
+    "slug": "itabela"
+  },
+  {
+    "id": "2914703",
+    "nome": "Itaberaba",
+    "uf": "BA",
+    "slug": "itaberaba"
+  },
+  {
+    "id": "2914802",
+    "nome": "Itabuna",
+    "uf": "BA",
+    "slug": "itabuna"
+  },
+  {
+    "id": "2914901",
+    "nome": "Itacaré",
+    "uf": "BA",
+    "slug": "itacare"
+  },
+  {
+    "id": "2915007",
+    "nome": "Itaeté",
+    "uf": "BA",
+    "slug": "itaete"
+  },
+  {
+    "id": "2915106",
+    "nome": "Itagi",
+    "uf": "BA",
+    "slug": "itagi"
+  },
+  {
+    "id": "2915205",
+    "nome": "Itagibá",
+    "uf": "BA",
+    "slug": "itagiba"
+  },
+  {
+    "id": "2915304",
+    "nome": "Itagimirim",
+    "uf": "BA",
+    "slug": "itagimirim"
+  },
+  {
+    "id": "2915353",
+    "nome": "Itaguaçu da Bahia",
+    "uf": "BA",
+    "slug": "itaguacu-da-bahia"
+  },
+  {
+    "id": "2915403",
+    "nome": "Itaju do Colônia",
+    "uf": "BA",
+    "slug": "itaju-do-colonia"
+  },
+  {
+    "id": "2915502",
+    "nome": "Itajuípe",
+    "uf": "BA",
+    "slug": "itajuipe"
+  },
+  {
+    "id": "2915601",
+    "nome": "Itamaraju",
+    "uf": "BA",
+    "slug": "itamaraju"
+  },
+  {
+    "id": "2915700",
+    "nome": "Itamari",
+    "uf": "BA",
+    "slug": "itamari"
+  },
+  {
+    "id": "2915809",
+    "nome": "Itambé",
+    "uf": "BA",
+    "slug": "itambe"
+  },
+  {
+    "id": "2915908",
+    "nome": "Itanagra",
+    "uf": "BA",
+    "slug": "itanagra"
+  },
+  {
+    "id": "2916005",
+    "nome": "Itanhém",
+    "uf": "BA",
+    "slug": "itanhem"
+  },
+  {
+    "id": "2916104",
+    "nome": "Itaparica",
+    "uf": "BA",
+    "slug": "itaparica"
+  },
+  {
+    "id": "2916203",
+    "nome": "Itapé",
+    "uf": "BA",
+    "slug": "itape"
+  },
+  {
+    "id": "2916302",
+    "nome": "Itapebi",
+    "uf": "BA",
+    "slug": "itapebi"
+  },
+  {
+    "id": "2916401",
+    "nome": "Itapetinga",
+    "uf": "BA",
+    "slug": "itapetinga"
+  },
+  {
+    "id": "2916500",
+    "nome": "Itapicuru",
+    "uf": "BA",
+    "slug": "itapicuru"
+  },
+  {
+    "id": "2916609",
+    "nome": "Itapitanga",
+    "uf": "BA",
+    "slug": "itapitanga"
+  },
+  {
+    "id": "2916708",
+    "nome": "Itaquara",
+    "uf": "BA",
+    "slug": "itaquara"
+  },
+  {
+    "id": "2916807",
+    "nome": "Itarantim",
+    "uf": "BA",
+    "slug": "itarantim"
+  },
+  {
+    "id": "2916856",
+    "nome": "Itatim",
+    "uf": "BA",
+    "slug": "itatim"
+  },
+  {
+    "id": "2916906",
+    "nome": "Itiruçu",
+    "uf": "BA",
+    "slug": "itirucu"
+  },
+  {
+    "id": "2917003",
+    "nome": "Itiúba",
+    "uf": "BA",
+    "slug": "itiuba"
+  },
+  {
+    "id": "2917102",
+    "nome": "Itororó",
+    "uf": "BA",
+    "slug": "itororo"
+  },
+  {
+    "id": "2917201",
+    "nome": "Ituaçu",
+    "uf": "BA",
+    "slug": "ituacu"
+  },
+  {
+    "id": "2917300",
+    "nome": "Ituberá",
+    "uf": "BA",
+    "slug": "itubera"
+  },
+  {
+    "id": "2917334",
+    "nome": "Iuiu",
+    "uf": "BA",
+    "slug": "iuiu"
+  },
+  {
+    "id": "2917359",
+    "nome": "Jaborandi",
+    "uf": "BA",
+    "slug": "jaborandi"
+  },
+  {
+    "id": "2917409",
+    "nome": "Jacaraci",
+    "uf": "BA",
+    "slug": "jacaraci"
+  },
+  {
+    "id": "2917508",
+    "nome": "Jacobina",
+    "uf": "BA",
+    "slug": "jacobina"
+  },
+  {
+    "id": "2917607",
+    "nome": "Jaguaquara",
+    "uf": "BA",
+    "slug": "jaguaquara"
+  },
+  {
+    "id": "2917706",
+    "nome": "Jaguarari",
+    "uf": "BA",
+    "slug": "jaguarari"
+  },
+  {
+    "id": "2917805",
+    "nome": "Jaguaripe",
+    "uf": "BA",
+    "slug": "jaguaripe"
+  },
+  {
+    "id": "2917904",
+    "nome": "Jandaíra",
+    "uf": "BA",
+    "slug": "jandaira"
+  },
+  {
+    "id": "2918001",
+    "nome": "Jequié",
+    "uf": "BA",
+    "slug": "jequie"
+  },
+  {
+    "id": "2918100",
+    "nome": "Jeremoabo",
+    "uf": "BA",
+    "slug": "jeremoabo"
+  },
+  {
+    "id": "2918209",
+    "nome": "Jiquiriçá",
+    "uf": "BA",
+    "slug": "jiquirica"
+  },
+  {
+    "id": "2918308",
+    "nome": "Jitaúna",
+    "uf": "BA",
+    "slug": "jitauna"
+  },
+  {
+    "id": "2918357",
+    "nome": "João Dourado",
+    "uf": "BA",
+    "slug": "joao-dourado"
+  },
+  {
+    "id": "2918407",
+    "nome": "Juazeiro",
+    "uf": "BA",
+    "slug": "juazeiro"
+  },
+  {
+    "id": "2918456",
+    "nome": "Jucuruçu",
+    "uf": "BA",
+    "slug": "jucurucu"
+  },
+  {
+    "id": "2918506",
+    "nome": "Jussara",
+    "uf": "BA",
+    "slug": "jussara"
+  },
+  {
+    "id": "2918555",
+    "nome": "Jussari",
+    "uf": "BA",
+    "slug": "jussari"
+  },
+  {
+    "id": "2918605",
+    "nome": "Jussiape",
+    "uf": "BA",
+    "slug": "jussiape"
+  },
+  {
+    "id": "2918704",
+    "nome": "Lafaiete Coutinho",
+    "uf": "BA",
+    "slug": "lafaiete-coutinho"
+  },
+  {
+    "id": "2918753",
+    "nome": "Lagoa Real",
+    "uf": "BA",
+    "slug": "lagoa-real"
+  },
+  {
+    "id": "2918803",
+    "nome": "Laje",
+    "uf": "BA",
+    "slug": "laje"
+  },
+  {
+    "id": "2918902",
+    "nome": "Lajedão",
+    "uf": "BA",
+    "slug": "lajedao"
+  },
+  {
+    "id": "2919009",
+    "nome": "Lajedinho",
+    "uf": "BA",
+    "slug": "lajedinho"
+  },
+  {
+    "id": "2919058",
+    "nome": "Lajedo do Tabocal",
+    "uf": "BA",
+    "slug": "lajedo-do-tabocal"
+  },
+  {
+    "id": "2919108",
+    "nome": "Lamarão",
+    "uf": "BA",
+    "slug": "lamarao"
+  },
+  {
+    "id": "2919157",
+    "nome": "Lapão",
+    "uf": "BA",
+    "slug": "lapao"
+  },
+  {
+    "id": "2919207",
+    "nome": "Lauro de Freitas",
+    "uf": "BA",
+    "slug": "lauro-de-freitas"
+  },
+  {
+    "id": "2919306",
+    "nome": "Lençóis",
+    "uf": "BA",
+    "slug": "lencois"
+  },
+  {
+    "id": "2919405",
+    "nome": "Licínio de Almeida",
+    "uf": "BA",
+    "slug": "licinio-de-almeida"
+  },
+  {
+    "id": "2919504",
+    "nome": "Livramento de Nossa Senhora",
+    "uf": "BA",
+    "slug": "livramento-de-nossa-senhora"
+  },
+  {
+    "id": "2919553",
+    "nome": "Luís Eduardo Magalhães",
+    "uf": "BA",
+    "slug": "luis-eduardo-magalhaes"
+  },
+  {
+    "id": "2919603",
+    "nome": "Macajuba",
+    "uf": "BA",
+    "slug": "macajuba"
+  },
+  {
+    "id": "2919702",
+    "nome": "Macarani",
+    "uf": "BA",
+    "slug": "macarani"
+  },
+  {
+    "id": "2919801",
+    "nome": "Macaúbas",
+    "uf": "BA",
+    "slug": "macaubas"
+  },
+  {
+    "id": "2919900",
+    "nome": "Macururé",
+    "uf": "BA",
+    "slug": "macurure"
+  },
+  {
+    "id": "2919926",
+    "nome": "Madre de Deus",
+    "uf": "BA",
+    "slug": "madre-de-deus"
+  },
+  {
+    "id": "2919959",
+    "nome": "Maetinga",
+    "uf": "BA",
+    "slug": "maetinga"
+  },
+  {
+    "id": "2920007",
+    "nome": "Maiquinique",
+    "uf": "BA",
+    "slug": "maiquinique"
+  },
+  {
+    "id": "2920106",
+    "nome": "Mairi",
+    "uf": "BA",
+    "slug": "mairi"
+  },
+  {
+    "id": "2920205",
+    "nome": "Malhada",
+    "uf": "BA",
+    "slug": "malhada"
+  },
+  {
+    "id": "2920304",
+    "nome": "Malhada de Pedras",
+    "uf": "BA",
+    "slug": "malhada-de-pedras"
+  },
+  {
+    "id": "2920403",
+    "nome": "Manoel Vitorino",
+    "uf": "BA",
+    "slug": "manoel-vitorino"
+  },
+  {
+    "id": "2920452",
+    "nome": "Mansidão",
+    "uf": "BA",
+    "slug": "mansidao"
+  },
+  {
+    "id": "2920502",
+    "nome": "Maracás",
+    "uf": "BA",
+    "slug": "maracas"
+  },
+  {
+    "id": "2920601",
+    "nome": "Maragogipe",
+    "uf": "BA",
+    "slug": "maragogipe"
+  },
+  {
+    "id": "2920700",
+    "nome": "Maraú",
+    "uf": "BA",
+    "slug": "marau"
+  },
+  {
+    "id": "2920809",
+    "nome": "Marcionílio Souza",
+    "uf": "BA",
+    "slug": "marcionilio-souza"
+  },
+  {
+    "id": "2920908",
+    "nome": "Mascote",
+    "uf": "BA",
+    "slug": "mascote"
+  },
+  {
+    "id": "2921005",
+    "nome": "Mata de São João",
+    "uf": "BA",
+    "slug": "mata-de-sao-joao"
+  },
+  {
+    "id": "2921054",
+    "nome": "Matina",
+    "uf": "BA",
+    "slug": "matina"
+  },
+  {
+    "id": "2921104",
+    "nome": "Medeiros Neto",
+    "uf": "BA",
+    "slug": "medeiros-neto"
+  },
+  {
+    "id": "2921203",
+    "nome": "Miguel Calmon",
+    "uf": "BA",
+    "slug": "miguel-calmon"
+  },
+  {
+    "id": "2921302",
+    "nome": "Milagres",
+    "uf": "BA",
+    "slug": "milagres"
+  },
+  {
+    "id": "2921401",
+    "nome": "Mirangaba",
+    "uf": "BA",
+    "slug": "mirangaba"
+  },
+  {
+    "id": "2921450",
+    "nome": "Mirante",
+    "uf": "BA",
+    "slug": "mirante"
+  },
+  {
+    "id": "2921500",
+    "nome": "Monte Santo",
+    "uf": "BA",
+    "slug": "monte-santo"
+  },
+  {
+    "id": "2921609",
+    "nome": "Morpará",
+    "uf": "BA",
+    "slug": "morpara"
+  },
+  {
+    "id": "2921708",
+    "nome": "Morro do Chapéu",
+    "uf": "BA",
+    "slug": "morro-do-chapeu"
+  },
+  {
+    "id": "2921807",
+    "nome": "Mortugaba",
+    "uf": "BA",
+    "slug": "mortugaba"
+  },
+  {
+    "id": "2921906",
+    "nome": "Mucugê",
+    "uf": "BA",
+    "slug": "mucuge"
+  },
+  {
+    "id": "2922003",
+    "nome": "Mucuri",
+    "uf": "BA",
+    "slug": "mucuri"
+  },
+  {
+    "id": "2922052",
+    "nome": "Mulungu do Morro",
+    "uf": "BA",
+    "slug": "mulungu-do-morro"
+  },
+  {
+    "id": "2922102",
+    "nome": "Mundo Novo",
+    "uf": "BA",
+    "slug": "mundo-novo"
+  },
+  {
+    "id": "2922201",
+    "nome": "Muniz Ferreira",
+    "uf": "BA",
+    "slug": "muniz-ferreira"
+  },
+  {
+    "id": "2922250",
+    "nome": "Muquém do São Francisco",
+    "uf": "BA",
+    "slug": "muquem-do-sao-francisco"
+  },
+  {
+    "id": "2922300",
+    "nome": "Muritiba",
+    "uf": "BA",
+    "slug": "muritiba"
+  },
+  {
+    "id": "2922409",
+    "nome": "Mutuípe",
+    "uf": "BA",
+    "slug": "mutuipe"
+  },
+  {
+    "id": "2922508",
+    "nome": "Nazaré",
+    "uf": "BA",
+    "slug": "nazare"
+  },
+  {
+    "id": "2922607",
+    "nome": "Nilo Peçanha",
+    "uf": "BA",
+    "slug": "nilo-pecanha"
+  },
+  {
+    "id": "2922656",
+    "nome": "Nordestina",
+    "uf": "BA",
+    "slug": "nordestina"
+  },
+  {
+    "id": "2922706",
+    "nome": "Nova Canaã",
+    "uf": "BA",
+    "slug": "nova-canaa"
+  },
+  {
+    "id": "2922730",
+    "nome": "Nova Fátima",
+    "uf": "BA",
+    "slug": "nova-fatima"
+  },
+  {
+    "id": "2922755",
+    "nome": "Nova Ibiá",
+    "uf": "BA",
+    "slug": "nova-ibia"
+  },
+  {
+    "id": "2922805",
+    "nome": "Nova Itarana",
+    "uf": "BA",
+    "slug": "nova-itarana"
+  },
+  {
+    "id": "2922854",
+    "nome": "Nova Redenção",
+    "uf": "BA",
+    "slug": "nova-redencao"
+  },
+  {
+    "id": "2922904",
+    "nome": "Nova Soure",
+    "uf": "BA",
+    "slug": "nova-soure"
+  },
+  {
+    "id": "2923001",
+    "nome": "Nova Viçosa",
+    "uf": "BA",
+    "slug": "nova-vicosa"
+  },
+  {
+    "id": "2923035",
+    "nome": "Novo Horizonte",
+    "uf": "BA",
+    "slug": "novo-horizonte"
+  },
+  {
+    "id": "2923050",
+    "nome": "Novo Triunfo",
+    "uf": "BA",
+    "slug": "novo-triunfo"
+  },
+  {
+    "id": "2923100",
+    "nome": "Olindina",
+    "uf": "BA",
+    "slug": "olindina"
+  },
+  {
+    "id": "2923209",
+    "nome": "Oliveira dos Brejinhos",
+    "uf": "BA",
+    "slug": "oliveira-dos-brejinhos"
+  },
+  {
+    "id": "2923308",
+    "nome": "Ouriçangas",
+    "uf": "BA",
+    "slug": "ouricangas"
+  },
+  {
+    "id": "2923357",
+    "nome": "Ourolândia",
+    "uf": "BA",
+    "slug": "ourolandia"
+  },
+  {
+    "id": "2923407",
+    "nome": "Palmas de Monte Alto",
+    "uf": "BA",
+    "slug": "palmas-de-monte-alto"
+  },
+  {
+    "id": "2923506",
+    "nome": "Palmeiras",
+    "uf": "BA",
+    "slug": "palmeiras"
+  },
+  {
+    "id": "2923605",
+    "nome": "Paramirim",
+    "uf": "BA",
+    "slug": "paramirim"
+  },
+  {
+    "id": "2923704",
+    "nome": "Paratinga",
+    "uf": "BA",
+    "slug": "paratinga"
+  },
+  {
+    "id": "2923803",
+    "nome": "Paripiranga",
+    "uf": "BA",
+    "slug": "paripiranga"
+  },
+  {
+    "id": "2923902",
+    "nome": "Pau Brasil",
+    "uf": "BA",
+    "slug": "pau-brasil"
+  },
+  {
+    "id": "2924009",
+    "nome": "Paulo Afonso",
+    "uf": "BA",
+    "slug": "paulo-afonso"
+  },
+  {
+    "id": "2924058",
+    "nome": "Pé de Serra",
+    "uf": "BA",
+    "slug": "pe-de-serra"
+  },
+  {
+    "id": "2924108",
+    "nome": "Pedrão",
+    "uf": "BA",
+    "slug": "pedrao"
+  },
+  {
+    "id": "2924207",
+    "nome": "Pedro Alexandre",
+    "uf": "BA",
+    "slug": "pedro-alexandre"
+  },
+  {
+    "id": "2924306",
+    "nome": "Piatã",
+    "uf": "BA",
+    "slug": "piata"
+  },
+  {
+    "id": "2924405",
+    "nome": "Pilão Arcado",
+    "uf": "BA",
+    "slug": "pilao-arcado"
+  },
+  {
+    "id": "2924504",
+    "nome": "Pindaí",
+    "uf": "BA",
+    "slug": "pindai"
+  },
+  {
+    "id": "2924603",
+    "nome": "Pindobaçu",
+    "uf": "BA",
+    "slug": "pindobacu"
+  },
+  {
+    "id": "2924652",
+    "nome": "Pintadas",
+    "uf": "BA",
+    "slug": "pintadas"
+  },
+  {
+    "id": "2924678",
+    "nome": "Piraí do Norte",
+    "uf": "BA",
+    "slug": "pirai-do-norte"
+  },
+  {
+    "id": "2924702",
+    "nome": "Piripá",
+    "uf": "BA",
+    "slug": "piripa"
+  },
+  {
+    "id": "2924801",
+    "nome": "Piritiba",
+    "uf": "BA",
+    "slug": "piritiba"
+  },
+  {
+    "id": "2924900",
+    "nome": "Planaltino",
+    "uf": "BA",
+    "slug": "planaltino"
+  },
+  {
+    "id": "2925006",
+    "nome": "Planalto",
+    "uf": "BA",
+    "slug": "planalto"
+  },
+  {
+    "id": "2925105",
+    "nome": "Poções",
+    "uf": "BA",
+    "slug": "pocoes"
+  },
+  {
+    "id": "2925204",
+    "nome": "Pojuca",
+    "uf": "BA",
+    "slug": "pojuca"
+  },
+  {
+    "id": "2925253",
+    "nome": "Ponto Novo",
+    "uf": "BA",
+    "slug": "ponto-novo"
+  },
+  {
+    "id": "2925303",
+    "nome": "Porto Seguro",
+    "uf": "BA",
+    "slug": "porto-seguro"
+  },
+  {
+    "id": "2925402",
+    "nome": "Potiraguá",
+    "uf": "BA",
+    "slug": "potiragua"
+  },
+  {
+    "id": "2925501",
+    "nome": "Prado",
+    "uf": "BA",
+    "slug": "prado"
+  },
+  {
+    "id": "2925600",
+    "nome": "Presidente Dutra",
+    "uf": "BA",
+    "slug": "presidente-dutra"
+  },
+  {
+    "id": "2925709",
+    "nome": "Presidente Jânio Quadros",
+    "uf": "BA",
+    "slug": "presidente-janio-quadros"
+  },
+  {
+    "id": "2925758",
+    "nome": "Presidente Tancredo Neves",
+    "uf": "BA",
+    "slug": "presidente-tancredo-neves"
+  },
+  {
+    "id": "2925808",
+    "nome": "Queimadas",
+    "uf": "BA",
+    "slug": "queimadas"
+  },
+  {
+    "id": "2925907",
+    "nome": "Quijingue",
+    "uf": "BA",
+    "slug": "quijingue"
+  },
+  {
+    "id": "2925931",
+    "nome": "Quixabeira",
+    "uf": "BA",
+    "slug": "quixabeira"
+  },
+  {
+    "id": "2925956",
+    "nome": "Rafael Jambeiro",
+    "uf": "BA",
+    "slug": "rafael-jambeiro"
+  },
+  {
+    "id": "2926004",
+    "nome": "Remanso",
+    "uf": "BA",
+    "slug": "remanso"
+  },
+  {
+    "id": "2926103",
+    "nome": "Retirolândia",
+    "uf": "BA",
+    "slug": "retirolandia"
+  },
+  {
+    "id": "2926202",
+    "nome": "Riachão das Neves",
+    "uf": "BA",
+    "slug": "riachao-das-neves"
+  },
+  {
+    "id": "2926301",
+    "nome": "Riachão do Jacuípe",
+    "uf": "BA",
+    "slug": "riachao-do-jacuipe"
+  },
+  {
+    "id": "2926400",
+    "nome": "Riacho de Santana",
+    "uf": "BA",
+    "slug": "riacho-de-santana"
+  },
+  {
+    "id": "2926509",
+    "nome": "Ribeira do Amparo",
+    "uf": "BA",
+    "slug": "ribeira-do-amparo"
+  },
+  {
+    "id": "2926608",
+    "nome": "Ribeira do Pombal",
+    "uf": "BA",
+    "slug": "ribeira-do-pombal"
+  },
+  {
+    "id": "2926657",
+    "nome": "Ribeirão do Largo",
+    "uf": "BA",
+    "slug": "ribeirao-do-largo"
+  },
+  {
+    "id": "2926707",
+    "nome": "Rio de Contas",
+    "uf": "BA",
+    "slug": "rio-de-contas"
+  },
+  {
+    "id": "2926806",
+    "nome": "Rio do Antônio",
+    "uf": "BA",
+    "slug": "rio-do-antonio"
+  },
+  {
+    "id": "2926905",
+    "nome": "Rio do Pires",
+    "uf": "BA",
+    "slug": "rio-do-pires"
+  },
+  {
+    "id": "2927002",
+    "nome": "Rio Real",
+    "uf": "BA",
+    "slug": "rio-real"
+  },
+  {
+    "id": "2927101",
+    "nome": "Rodelas",
+    "uf": "BA",
+    "slug": "rodelas"
+  },
+  {
+    "id": "2927200",
+    "nome": "Ruy Barbosa",
+    "uf": "BA",
+    "slug": "ruy-barbosa"
+  },
+  {
+    "id": "2927309",
+    "nome": "Salinas da Margarida",
+    "uf": "BA",
+    "slug": "salinas-da-margarida"
+  },
+  {
+    "id": "2927408",
+    "nome": "Salvador",
+    "uf": "BA",
+    "slug": "salvador"
+  },
+  {
+    "id": "2927507",
+    "nome": "Santa Bárbara",
+    "uf": "BA",
+    "slug": "santa-barbara"
+  },
+  {
+    "id": "2927606",
+    "nome": "Santa Brígida",
+    "uf": "BA",
+    "slug": "santa-brigida"
+  },
+  {
+    "id": "2927705",
+    "nome": "Santa Cruz Cabrália",
+    "uf": "BA",
+    "slug": "santa-cruz-cabralia"
+  },
+  {
+    "id": "2927804",
+    "nome": "Santa Cruz da Vitória",
+    "uf": "BA",
+    "slug": "santa-cruz-da-vitoria"
+  },
+  {
+    "id": "2927903",
+    "nome": "Santa Inês",
+    "uf": "BA",
+    "slug": "santa-ines"
+  },
+  {
+    "id": "2928059",
+    "nome": "Santa Luzia",
+    "uf": "BA",
+    "slug": "santa-luzia"
+  },
+  {
+    "id": "2928109",
+    "nome": "Santa Maria da Vitória",
+    "uf": "BA",
+    "slug": "santa-maria-da-vitoria"
+  },
+  {
+    "id": "2928406",
+    "nome": "Santa Rita de Cássia",
+    "uf": "BA",
+    "slug": "santa-rita-de-cassia"
+  },
+  {
+    "id": "2928505",
+    "nome": "Santa Terezinha",
+    "uf": "BA",
+    "slug": "santa-terezinha"
+  },
+  {
+    "id": "2928000",
+    "nome": "Santaluz",
+    "uf": "BA",
+    "slug": "santaluz"
+  },
+  {
+    "id": "2928208",
+    "nome": "Santana",
+    "uf": "BA",
+    "slug": "santana"
+  },
+  {
+    "id": "2928307",
+    "nome": "Santanópolis",
+    "uf": "BA",
+    "slug": "santanopolis"
+  },
+  {
+    "id": "2928604",
+    "nome": "Santo Amaro",
+    "uf": "BA",
+    "slug": "santo-amaro"
+  },
+  {
+    "id": "2928703",
+    "nome": "Santo Antônio de Jesus",
+    "uf": "BA",
+    "slug": "santo-antonio-de-jesus"
+  },
+  {
+    "id": "2928802",
+    "nome": "Santo Estêvão",
+    "uf": "BA",
+    "slug": "santo-estevao"
+  },
+  {
+    "id": "2928901",
+    "nome": "São Desidério",
+    "uf": "BA",
+    "slug": "sao-desiderio"
+  },
+  {
+    "id": "2928950",
+    "nome": "São Domingos",
+    "uf": "BA",
+    "slug": "sao-domingos"
+  },
+  {
+    "id": "2929107",
+    "nome": "São Felipe",
+    "uf": "BA",
+    "slug": "sao-felipe"
+  },
+  {
+    "id": "2929008",
+    "nome": "São Félix",
+    "uf": "BA",
+    "slug": "sao-felix"
+  },
+  {
+    "id": "2929057",
+    "nome": "São Félix do Coribe",
+    "uf": "BA",
+    "slug": "sao-felix-do-coribe"
+  },
+  {
+    "id": "2929206",
+    "nome": "São Francisco do Conde",
+    "uf": "BA",
+    "slug": "sao-francisco-do-conde"
+  },
+  {
+    "id": "2929255",
+    "nome": "São Gabriel",
+    "uf": "BA",
+    "slug": "sao-gabriel"
+  },
+  {
+    "id": "2929305",
+    "nome": "São Gonçalo dos Campos",
+    "uf": "BA",
+    "slug": "sao-goncalo-dos-campos"
+  },
+  {
+    "id": "2929354",
+    "nome": "São José da Vitória",
+    "uf": "BA",
+    "slug": "sao-jose-da-vitoria"
+  },
+  {
+    "id": "2929370",
+    "nome": "São José do Jacuípe",
+    "uf": "BA",
+    "slug": "sao-jose-do-jacuipe"
+  },
+  {
+    "id": "2929404",
+    "nome": "São Miguel das Matas",
+    "uf": "BA",
+    "slug": "sao-miguel-das-matas"
+  },
+  {
+    "id": "2929503",
+    "nome": "São Sebastião do Passé",
+    "uf": "BA",
+    "slug": "sao-sebastiao-do-passe"
+  },
+  {
+    "id": "2929602",
+    "nome": "Sapeaçu",
+    "uf": "BA",
+    "slug": "sapeacu"
+  },
+  {
+    "id": "2929701",
+    "nome": "Sátiro Dias",
+    "uf": "BA",
+    "slug": "satiro-dias"
+  },
+  {
+    "id": "2929750",
+    "nome": "Saubara",
+    "uf": "BA",
+    "slug": "saubara"
+  },
+  {
+    "id": "2929800",
+    "nome": "Saúde",
+    "uf": "BA",
+    "slug": "saude"
+  },
+  {
+    "id": "2929909",
+    "nome": "Seabra",
+    "uf": "BA",
+    "slug": "seabra"
+  },
+  {
+    "id": "2930006",
+    "nome": "Sebastião Laranjeiras",
+    "uf": "BA",
+    "slug": "sebastiao-laranjeiras"
+  },
+  {
+    "id": "2930105",
+    "nome": "Senhor do Bonfim",
+    "uf": "BA",
+    "slug": "senhor-do-bonfim"
+  },
+  {
+    "id": "2930204",
+    "nome": "Sento Sé",
+    "uf": "BA",
+    "slug": "sento-se"
+  },
+  {
+    "id": "2930154",
+    "nome": "Serra do Ramalho",
+    "uf": "BA",
+    "slug": "serra-do-ramalho"
+  },
+  {
+    "id": "2930303",
+    "nome": "Serra Dourada",
+    "uf": "BA",
+    "slug": "serra-dourada"
+  },
+  {
+    "id": "2930402",
+    "nome": "Serra Preta",
+    "uf": "BA",
+    "slug": "serra-preta"
+  },
+  {
+    "id": "2930501",
+    "nome": "Serrinha",
+    "uf": "BA",
+    "slug": "serrinha"
+  },
+  {
+    "id": "2930600",
+    "nome": "Serrolândia",
+    "uf": "BA",
+    "slug": "serrolandia"
+  },
+  {
+    "id": "2930709",
+    "nome": "Simões Filho",
+    "uf": "BA",
+    "slug": "simoes-filho"
+  },
+  {
+    "id": "2930758",
+    "nome": "Sítio do Mato",
+    "uf": "BA",
+    "slug": "sitio-do-mato"
+  },
+  {
+    "id": "2930766",
+    "nome": "Sítio do Quinto",
+    "uf": "BA",
+    "slug": "sitio-do-quinto"
+  },
+  {
+    "id": "2930774",
+    "nome": "Sobradinho",
+    "uf": "BA",
+    "slug": "sobradinho"
+  },
+  {
+    "id": "2930808",
+    "nome": "Souto Soares",
+    "uf": "BA",
+    "slug": "souto-soares"
+  },
+  {
+    "id": "2930907",
+    "nome": "Tabocas do Brejo Velho",
+    "uf": "BA",
+    "slug": "tabocas-do-brejo-velho"
+  },
+  {
+    "id": "2931004",
+    "nome": "Tanhaçu",
+    "uf": "BA",
+    "slug": "tanhacu"
+  },
+  {
+    "id": "2931053",
+    "nome": "Tanque Novo",
+    "uf": "BA",
+    "slug": "tanque-novo"
+  },
+  {
+    "id": "2931103",
+    "nome": "Tanquinho",
+    "uf": "BA",
+    "slug": "tanquinho"
+  },
+  {
+    "id": "2931202",
+    "nome": "Taperoá",
+    "uf": "BA",
+    "slug": "taperoa"
+  },
+  {
+    "id": "2931301",
+    "nome": "Tapiramutá",
+    "uf": "BA",
+    "slug": "tapiramuta"
+  },
+  {
+    "id": "2931350",
+    "nome": "Teixeira de Freitas",
+    "uf": "BA",
+    "slug": "teixeira-de-freitas"
+  },
+  {
+    "id": "2931400",
+    "nome": "Teodoro Sampaio",
+    "uf": "BA",
+    "slug": "teodoro-sampaio"
+  },
+  {
+    "id": "2931509",
+    "nome": "Teofilândia",
+    "uf": "BA",
+    "slug": "teofilandia"
+  },
+  {
+    "id": "2931608",
+    "nome": "Teolândia",
+    "uf": "BA",
+    "slug": "teolandia"
+  },
+  {
+    "id": "2931707",
+    "nome": "Terra Nova",
+    "uf": "BA",
+    "slug": "terra-nova"
+  },
+  {
+    "id": "2931806",
+    "nome": "Tremedal",
+    "uf": "BA",
+    "slug": "tremedal"
+  },
+  {
+    "id": "2931905",
+    "nome": "Tucano",
+    "uf": "BA",
+    "slug": "tucano"
+  },
+  {
+    "id": "2932002",
+    "nome": "Uauá",
+    "uf": "BA",
+    "slug": "uaua"
+  },
+  {
+    "id": "2932101",
+    "nome": "Ubaíra",
+    "uf": "BA",
+    "slug": "ubaira"
+  },
+  {
+    "id": "2932200",
+    "nome": "Ubaitaba",
+    "uf": "BA",
+    "slug": "ubaitaba"
+  },
+  {
+    "id": "2932309",
+    "nome": "Ubatã",
+    "uf": "BA",
+    "slug": "ubata"
+  },
+  {
+    "id": "2932408",
+    "nome": "Uibaí",
+    "uf": "BA",
+    "slug": "uibai"
+  },
+  {
+    "id": "2932457",
+    "nome": "Umburanas",
+    "uf": "BA",
+    "slug": "umburanas"
+  },
+  {
+    "id": "2932507",
+    "nome": "Una",
+    "uf": "BA",
+    "slug": "una"
+  },
+  {
+    "id": "2932606",
+    "nome": "Urandi",
+    "uf": "BA",
+    "slug": "urandi"
+  },
+  {
+    "id": "2932705",
+    "nome": "Uruçuca",
+    "uf": "BA",
+    "slug": "urucuca"
+  },
+  {
+    "id": "2932804",
+    "nome": "Utinga",
+    "uf": "BA",
+    "slug": "utinga"
+  },
+  {
+    "id": "2932903",
+    "nome": "Valença",
+    "uf": "BA",
+    "slug": "valenca"
+  },
+  {
+    "id": "2933000",
+    "nome": "Valente",
+    "uf": "BA",
+    "slug": "valente"
+  },
+  {
+    "id": "2933059",
+    "nome": "Várzea da Roça",
+    "uf": "BA",
+    "slug": "varzea-da-roca"
+  },
+  {
+    "id": "2933109",
+    "nome": "Várzea do Poço",
+    "uf": "BA",
+    "slug": "varzea-do-poco"
+  },
+  {
+    "id": "2933158",
+    "nome": "Várzea Nova",
+    "uf": "BA",
+    "slug": "varzea-nova"
+  },
+  {
+    "id": "2933174",
+    "nome": "Varzedo",
+    "uf": "BA",
+    "slug": "varzedo"
+  },
+  {
+    "id": "2933208",
+    "nome": "Vera Cruz",
+    "uf": "BA",
+    "slug": "vera-cruz"
+  },
+  {
+    "id": "2933257",
+    "nome": "Vereda",
+    "uf": "BA",
+    "slug": "vereda"
+  },
+  {
+    "id": "2933307",
+    "nome": "Vitória da Conquista",
+    "uf": "BA",
+    "slug": "vitoria-da-conquista"
+  },
+  {
+    "id": "2933406",
+    "nome": "Wagner",
+    "uf": "BA",
+    "slug": "wagner"
+  },
+  {
+    "id": "2933455",
+    "nome": "Wanderley",
+    "uf": "BA",
+    "slug": "wanderley"
+  },
+  {
+    "id": "2933505",
+    "nome": "Wenceslau Guimarães",
+    "uf": "BA",
+    "slug": "wenceslau-guimaraes"
+  },
+  {
+    "id": "2933604",
+    "nome": "Xique-Xique",
+    "uf": "BA",
+    "slug": "xique-xique"
+  }
+]

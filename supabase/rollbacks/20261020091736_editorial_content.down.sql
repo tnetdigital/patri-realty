@@ -1,0 +1,36 @@
+-- Destructive schema reversal: disposable databases or reviewed restore procedure only.
+-- Reverse newer migrations first. Backup required for business data.
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='is_editor' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='article_visible' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='validate_article' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='content_balance' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='saldo_materias' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='save_article' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='salvar_materia' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='article_action' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='acao_materia' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='publish_scheduled' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='publicar_agendadas' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='content_public' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='conteudo_publico' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='content_staff_list' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='editorial_listar' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='content_save_resource' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='editorial_salvar' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='newsletter_signup' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='inscrever_newsletter' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='newsletter_token' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='public'::regnamespace and proname='newsletter_token' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+do $drop$declare f record;begin for f in select oid::regprocedure sig from pg_proc where pronamespace='private'::regnamespace and proname='can_upload_article' loop execute 'drop function if exists '||f.sig||' cascade';end loop;end$drop$;
+drop table if exists private.newsletter_attempts cascade;
+drop table if exists public.newsletter_inscritos cascade;
+drop table if exists public.conteudo_redirects cascade;
+drop table if exists public.pautas cascade;
+drop table if exists public.revistas cascade;
+drop table if exists public.materia_entregas cascade;
+drop table if exists public.materia_consumos cascade;
+drop table if exists public.materias cascade;
+drop table if exists public.portais_parceiros cascade;
+drop table if exists public.categorias cascade;
+drop policy if exists article_media_read on storage.objects;
+drop policy if exists article_media_insert on storage.objects;

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "1300029",
+    "nome": "Alvarães",
+    "uf": "AM",
+    "slug": "alvaraes"
+  },
+  {
+    "id": "1300060",
+    "nome": "Amaturá",
+    "uf": "AM",
+    "slug": "amatura"
+  },
+  {
+    "id": "1300086",
+    "nome": "Anamã",
+    "uf": "AM",
+    "slug": "anama"
+  },
+  {
+    "id": "1300102",
+    "nome": "Anori",
+    "uf": "AM",
+    "slug": "anori"
+  },
+  {
+    "id": "1300144",
+    "nome": "Apuí",
+    "uf": "AM",
+    "slug": "apui"
+  },
+  {
+    "id": "1300201",
+    "nome": "Atalaia do Norte",
+    "uf": "AM",
+    "slug": "atalaia-do-norte"
+  },
+  {
+    "id": "1300300",
+    "nome": "Autazes",
+    "uf": "AM",
+    "slug": "autazes"
+  },
+  {
+    "id": "1300409",
+    "nome": "Barcelos",
+    "uf": "AM",
+    "slug": "barcelos"
+  },
+  {
+    "id": "1300508",
+    "nome": "Barreirinha",
+    "uf": "AM",
+    "slug": "barreirinha"
+  },
+  {
+    "id": "1300607",
+    "nome": "Benjamin Constant",
+    "uf": "AM",
+    "slug": "benjamin-constant"
+  },
+  {
+    "id": "1300631",
+    "nome": "Beruri",
+    "uf": "AM",
+    "slug": "beruri"
+  },
+  {
+    "id": "1300680",
+    "nome": "Boa Vista do Ramos",
+    "uf": "AM",
+    "slug": "boa-vista-do-ramos"
+  },
+  {
+    "id": "1300706",
+    "nome": "Boca do Acre",
+    "uf": "AM",
+    "slug": "boca-do-acre"
+  },
+  {
+    "id": "1300805",
+    "nome": "Borba",
+    "uf": "AM",
+    "slug": "borba"
+  },
+  {
+    "id": "1300839",
+    "nome": "Caapiranga",
+    "uf": "AM",
+    "slug": "caapiranga"
+  },
+  {
+    "id": "1300904",
+    "nome": "Canutama",
+    "uf": "AM",
+    "slug": "canutama"
+  },
+  {
+    "id": "1301001",
+    "nome": "Carauari",
+    "uf": "AM",
+    "slug": "carauari"
+  },
+  {
+    "id": "1301100",
+    "nome": "Careiro",
+    "uf": "AM",
+    "slug": "careiro"
+  },
+  {
+    "id": "1301159",
+    "nome": "Careiro da Várzea",
+    "uf": "AM",
+    "slug": "careiro-da-varzea"
+  },
+  {
+    "id": "1301209",
+    "nome": "Coari",
+    "uf": "AM",
+    "slug": "coari"
+  },
+  {
+    "id": "1301308",
+    "nome": "Codajás",
+    "uf": "AM",
+    "slug": "codajas"
+  },
+  {
+    "id": "1301407",
+    "nome": "Eirunepé",
+    "uf": "AM",
+    "slug": "eirunepe"
+  },
+  {
+    "id": "1301506",
+    "nome": "Envira",
+    "uf": "AM",
+    "slug": "envira"
+  },
+  {
+    "id": "1301605",
+    "nome": "Fonte Boa",
+    "uf": "AM",
+    "slug": "fonte-boa"
+  },
+  {
+    "id": "1301654",
+    "nome": "Guajará",
+    "uf": "AM",
+    "slug": "guajara"
+  },
+  {
+    "id": "1301704",
+    "nome": "Humaitá",
+    "uf": "AM",
+    "slug": "humaita"
+  },
+  {
+    "id": "1301803",
+    "nome": "Ipixuna",
+    "uf": "AM",
+    "slug": "ipixuna"
+  },
+  {
+    "id": "1301852",
+    "nome": "Iranduba",
+    "uf": "AM",
+    "slug": "iranduba"
+  },
+  {
+    "id": "1301902",
+    "nome": "Itacoatiara",
+    "uf": "AM",
+    "slug": "itacoatiara"
+  },
+  {
+    "id": "1301951",
+    "nome": "Itamarati",
+    "uf": "AM",
+    "slug": "itamarati"
+  },
+  {
+    "id": "1302009",
+    "nome": "Itapiranga",
+    "uf": "AM",
+    "slug": "itapiranga"
+  },
+  {
+    "id": "1302108",
+    "nome": "Japurá",
+    "uf": "AM",
+    "slug": "japura"
+  },
+  {
+    "id": "1302207",
+    "nome": "Juruá",
+    "uf": "AM",
+    "slug": "jurua"
+  },
+  {
+    "id": "1302306",
+    "nome": "Jutaí",
+    "uf": "AM",
+    "slug": "jutai"
+  },
+  {
+    "id": "1302405",
+    "nome": "Lábrea",
+    "uf": "AM",
+    "slug": "labrea"
+  },
+  {
+    "id": "1302504",
+    "nome": "Manacapuru",
+    "uf": "AM",
+    "slug": "manacapuru"
+  },
+  {
+    "id": "1302553",
+    "nome": "Manaquiri",
+    "uf": "AM",
+    "slug": "manaquiri"
+  },
+  {
+    "id": "1302603",
+    "nome": "Manaus",
+    "uf": "AM",
+    "slug": "manaus"
+  },
+  {
+    "id": "1302702",
+    "nome": "Manicoré",
+    "uf": "AM",
+    "slug": "manicore"
+  },
+  {
+    "id": "1302801",
+    "nome": "Maraã",
+    "uf": "AM",
+    "slug": "maraa"
+  },
+  {
+    "id": "1302900",
+    "nome": "Maués",
+    "uf": "AM",
+    "slug": "maues"
+  },
+  {
+    "id": "1303007",
+    "nome": "Nhamundá",
+    "uf": "AM",
+    "slug": "nhamunda"
+  },
+  {
+    "id": "1303106",
+    "nome": "Nova Olinda do Norte",
+    "uf": "AM",
+    "slug": "nova-olinda-do-norte"
+  },
+  {
+    "id": "1303205",
+    "nome": "Novo Airão",
+    "uf": "AM",
+    "slug": "novo-airao"
+  },
+  {
+    "id": "1303304",
+    "nome": "Novo Aripuanã",
+    "uf": "AM",
+    "slug": "novo-aripuana"
+  },
+  {
+    "id": "1303403",
+    "nome": "Parintins",
+    "uf": "AM",
+    "slug": "parintins"
+  },
+  {
+    "id": "1303502",
+    "nome": "Pauini",
+    "uf": "AM",
+    "slug": "pauini"
+  },
+  {
+    "id": "1303536",
+    "nome": "Presidente Figueiredo",
+    "uf": "AM",
+    "slug": "presidente-figueiredo"
+  },
+  {
+    "id": "1303569",
+    "nome": "Rio Preto da Eva",
+    "uf": "AM",
+    "slug": "rio-preto-da-eva"
+  },
+  {
+    "id": "1303601",
+    "nome": "Santa Isabel do Rio Negro",
+    "uf": "AM",
+    "slug": "santa-isabel-do-rio-negro"
+  },
+  {
+    "id": "1303700",
+    "nome": "Santo Antônio do Içá",
+    "uf": "AM",
+    "slug": "santo-antonio-do-ica"
+  },
+  {
+    "id": "1303809",
+    "nome": "São Gabriel da Cachoeira",
+    "uf": "AM",
+    "slug": "sao-gabriel-da-cachoeira"
+  },
+  {
+    "id": "1303908",
+    "nome": "São Paulo de Olivença",
+    "uf": "AM",
+    "slug": "sao-paulo-de-olivenca"
+  },
+  {
+    "id": "1303957",
+    "nome": "São Sebastião do Uatumã",
+    "uf": "AM",
+    "slug": "sao-sebastiao-do-uatuma"
+  },
+  {
+    "id": "1304005",
+    "nome": "Silves",
+    "uf": "AM",
+    "slug": "silves"
+  },
+  {
+    "id": "1304062",
+    "nome": "Tabatinga",
+    "uf": "AM",
+    "slug": "tabatinga"
+  },
+  {
+    "id": "1304104",
+    "nome": "Tapauá",
+    "uf": "AM",
+    "slug": "tapaua"
+  },
+  {
+    "id": "1304203",
+    "nome": "Tefé",
+    "uf": "AM",
+    "slug": "tefe"
+  },
+  {
+    "id": "1304237",
+    "nome": "Tonantins",
+    "uf": "AM",
+    "slug": "tonantins"
+  },
+  {
+    "id": "1304260",
+    "nome": "Uarini",
+    "uf": "AM",
+    "slug": "uarini"
+  },
+  {
+    "id": "1304302",
+    "nome": "Urucará",
+    "uf": "AM",
+    "slug": "urucara"
+  },
+  {
+    "id": "1304401",
+    "nome": "Urucurituba",
+    "uf": "AM",
+    "slug": "urucurituba"
+  }
+]

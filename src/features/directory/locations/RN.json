@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "2400109",
+    "nome": "Acari",
+    "uf": "RN",
+    "slug": "acari"
+  },
+  {
+    "id": "2400307",
+    "nome": "Afonso Bezerra",
+    "uf": "RN",
+    "slug": "afonso-bezerra"
+  },
+  {
+    "id": "2400406",
+    "nome": "Água Nova",
+    "uf": "RN",
+    "slug": "agua-nova"
+  },
+  {
+    "id": "2400505",
+    "nome": "Alexandria",
+    "uf": "RN",
+    "slug": "alexandria"
+  },
+  {
+    "id": "2400604",
+    "nome": "Almino Afonso",
+    "uf": "RN",
+    "slug": "almino-afonso"
+  },
+  {
+    "id": "2400703",
+    "nome": "Alto do Rodrigues",
+    "uf": "RN",
+    "slug": "alto-do-rodrigues"
+  },
+  {
+    "id": "2400802",
+    "nome": "Angicos",
+    "uf": "RN",
+    "slug": "angicos"
+  },
+  {
+    "id": "2400901",
+    "nome": "Antônio Martins",
+    "uf": "RN",
+    "slug": "antonio-martins"
+  },
+  {
+    "id": "2401008",
+    "nome": "Apodi",
+    "uf": "RN",
+    "slug": "apodi"
+  },
+  {
+    "id": "2401107",
+    "nome": "Areia Branca",
+    "uf": "RN",
+    "slug": "areia-branca"
+  },
+  {
+    "id": "2401206",
+    "nome": "Arez",
+    "uf": "RN",
+    "slug": "arez"
+  },
+  {
+    "id": "2400208",
+    "nome": "Assú",
+    "uf": "RN",
+    "slug": "assu"
+  },
+  {
+    "id": "2401404",
+    "nome": "Baía Formosa",
+    "uf": "RN",
+    "slug": "baia-formosa"
+  },
+  {
+    "id": "2401453",
+    "nome": "Baraúna",
+    "uf": "RN",
+    "slug": "barauna"
+  },
+  {
+    "id": "2401503",
+    "nome": "Barcelona",
+    "uf": "RN",
+    "slug": "barcelona"
+  },
+  {
+    "id": "2401602",
+    "nome": "Bento Fernandes",
+    "uf": "RN",
+    "slug": "bento-fernandes"
+  },
+  {
+    "id": "2401651",
+    "nome": "Bodó",
+    "uf": "RN",
+    "slug": "bodo"
+  },
+  {
+    "id": "2401701",
+    "nome": "Bom Jesus",
+    "uf": "RN",
+    "slug": "bom-jesus"
+  },
+  {
+    "id": "2401800",
+    "nome": "Brejinho",
+    "uf": "RN",
+    "slug": "brejinho"
+  },
+  {
+    "id": "2401859",
+    "nome": "Caiçara do Norte",
+    "uf": "RN",
+    "slug": "caicara-do-norte"
+  },
+  {
+    "id": "2401909",
+    "nome": "Caiçara do Rio do Vento",
+    "uf": "RN",
+    "slug": "caicara-do-rio-do-vento"
+  },
+  {
+    "id": "2402006",
+    "nome": "Caicó",
+    "uf": "RN",
+    "slug": "caico"
+  },
+  {
+    "id": "2401305",
+    "nome": "Campo Grande",
+    "uf": "RN",
+    "slug": "campo-grande"
+  },
+  {
+    "id": "2402105",
+    "nome": "Campo Redondo",
+    "uf": "RN",
+    "slug": "campo-redondo"
+  },
+  {
+    "id": "2402204",
+    "nome": "Canguaretama",
+    "uf": "RN",
+    "slug": "canguaretama"
+  },
+  {
+    "id": "2402303",
+    "nome": "Caraúbas",
+    "uf": "RN",
+    "slug": "caraubas"
+  },
+  {
+    "id": "2402402",
+    "nome": "Carnaúba dos Dantas",
+    "uf": "RN",
+    "slug": "carnauba-dos-dantas"
+  },
+  {
+    "id": "2402501",
+    "nome": "Carnaubais",
+    "uf": "RN",
+    "slug": "carnaubais"
+  },
+  {
+    "id": "2402600",
+    "nome": "Ceará-Mirim",
+    "uf": "RN",
+    "slug": "ceara-mirim"
+  },
+  {
+    "id": "2402709",
+    "nome": "Cerro Corá",
+    "uf": "RN",
+    "slug": "cerro-cora"
+  },
+  {
+    "id": "2402808",
+    "nome": "Coronel Ezequiel",
+    "uf": "RN",
+    "slug": "coronel-ezequiel"
+  },
+  {
+    "id": "2402907",
+    "nome": "Coronel João Pessoa",
+    "uf": "RN",
+    "slug": "coronel-joao-pessoa"
+  },
+  {
+    "id": "2403004",
+    "nome": "Cruzeta",
+    "uf": "RN",
+    "slug": "cruzeta"
+  },
+  {
+    "id": "2403103",
+    "nome": "Currais Novos",
+    "uf": "RN",
+    "slug": "currais-novos"
+  },
+  {
+    "id": "2403202",
+    "nome": "Doutor Severiano",
+    "uf": "RN",
+    "slug": "doutor-severiano"
+  },
+  {
+    "id": "2403301",
+    "nome": "Encanto",
+    "uf": "RN",
+    "slug": "encanto"
+  },
+  {
+    "id": "2403400",
+    "nome": "Equador",
+    "uf": "RN",
+    "slug": "equador"
+  },
+  {
+    "id": "2403509",
+    "nome": "Espírito Santo",
+    "uf": "RN",
+    "slug": "espirito-santo"
+  },
+  {
+    "id": "2403608",
+    "nome": "Extremoz",
+    "uf": "RN",
+    "slug": "extremoz"
+  },
+  {
+    "id": "2403707",
+    "nome": "Felipe Guerra",
+    "uf": "RN",
+    "slug": "felipe-guerra"
+  },
+  {
+    "id": "2403756",
+    "nome": "Fernando Pedroza",
+    "uf": "RN",
+    "slug": "fernando-pedroza"
+  },
+  {
+    "id": "2403806",
+    "nome": "Florânia",
+    "uf": "RN",
+    "slug": "florania"
+  },
+  {
+    "id": "2403905",
+    "nome": "Francisco Dantas",
+    "uf": "RN",
+    "slug": "francisco-dantas"
+  },
+  {
+    "id": "2404002",
+    "nome": "Frutuoso Gomes",
+    "uf": "RN",
+    "slug": "frutuoso-gomes"
+  },
+  {
+    "id": "2404101",
+    "nome": "Galinhos",
+    "uf": "RN",
+    "slug": "galinhos"
+  },
+  {
+    "id": "2404200",
+    "nome": "Goianinha",
+    "uf": "RN",
+    "slug": "goianinha"
+  },
+  {
+    "id": "2404309",
+    "nome": "Governador Dix-Sept Rosado",
+    "uf": "RN",
+    "slug": "governador-dix-sept-rosado"
+  },
+  {
+    "id": "2404408",
+    "nome": "Grossos",
+    "uf": "RN",
+    "slug": "grossos"
+  },
+  {
+    "id": "2404507",
+    "nome": "Guamaré",
+    "uf": "RN",
+    "slug": "guamare"
+  },
+  {
+    "id": "2404606",
+    "nome": "Ielmo Marinho",
+    "uf": "RN",
+    "slug": "ielmo-marinho"
+  },
+  {
+    "id": "2404705",
+    "nome": "Ipanguaçu",
+    "uf": "RN",
+    "slug": "ipanguacu"
+  },
+  {
+    "id": "2404804",
+    "nome": "Ipueira",
+    "uf": "RN",
+    "slug": "ipueira"
+  },
+  {
+    "id": "2404853",
+    "nome": "Itajá",
+    "uf": "RN",
+    "slug": "itaja"
+  },
+  {
+    "id": "2404903",
+    "nome": "Itaú",
+    "uf": "RN",
+    "slug": "itau"
+  },
+  {
+    "id": "2405009",
+    "nome": "Jaçanã",
+    "uf": "RN",
+    "slug": "jacana"
+  },
+  {
+    "id": "2405108",
+    "nome": "Jandaíra",
+    "uf": "RN",
+    "slug": "jandaira"
+  },
+  {
+    "id": "2405207",
+    "nome": "Janduís",
+    "uf": "RN",
+    "slug": "janduis"
+  },
+  {
+    "id": "2405306",
+    "nome": "Januário Cicco",
+    "uf": "RN",
+    "slug": "januario-cicco"
+  },
+  {
+    "id": "2405405",
+    "nome": "Japi",
+    "uf": "RN",
+    "slug": "japi"
+  },
+  {
+    "id": "2405504",
+    "nome": "Jardim de Angicos",
+    "uf": "RN",
+    "slug": "jardim-de-angicos"
+  },
+  {
+    "id": "2405603",
+    "nome": "Jardim de Piranhas",
+    "uf": "RN",
+    "slug": "jardim-de-piranhas"
+  },
+  {
+    "id": "2405702",
+    "nome": "Jardim do Seridó",
+    "uf": "RN",
+    "slug": "jardim-do-serido"
+  },
+  {
+    "id": "2405801",
+    "nome": "João Câmara",
+    "uf": "RN",
+    "slug": "joao-camara"
+  },
+  {
+    "id": "2405900",
+    "nome": "João Dias",
+    "uf": "RN",
+    "slug": "joao-dias"
+  },
+  {
+    "id": "2406007",
+    "nome": "José da Penha",
+    "uf": "RN",
+    "slug": "jose-da-penha"
+  },
+  {
+    "id": "2406106",
+    "nome": "Jucurutu",
+    "uf": "RN",
+    "slug": "jucurutu"
+  },
+  {
+    "id": "2406155",
+    "nome": "Jundiá",
+    "uf": "RN",
+    "slug": "jundia"
+  },
+  {
+    "id": "2406205",
+    "nome": "Lagoa d'Anta",
+    "uf": "RN",
+    "slug": "lagoa-d'anta"
+  },
+  {
+    "id": "2406304",
+    "nome": "Lagoa de Pedras",
+    "uf": "RN",
+    "slug": "lagoa-de-pedras"
+  },
+  {
+    "id": "2406403",
+    "nome": "Lagoa de Velhos",
+    "uf": "RN",
+    "slug": "lagoa-de-velhos"
+  },
+  {
+    "id": "2406502",
+    "nome": "Lagoa Nova",
+    "uf": "RN",
+    "slug": "lagoa-nova"
+  },
+  {
+    "id": "2406601",
+    "nome": "Lagoa Salgada",
+    "uf": "RN",
+    "slug": "lagoa-salgada"
+  },
+  {
+    "id": "2406700",
+    "nome": "Lajes",
+    "uf": "RN",
+    "slug": "lajes"
+  },
+  {
+    "id": "2406809",
+    "nome": "Lajes Pintadas",
+    "uf": "RN",
+    "slug": "lajes-pintadas"
+  },
+  {
+    "id": "2406908",
+    "nome": "Lucrécia",
+    "uf": "RN",
+    "slug": "lucrecia"
+  },
+  {
+    "id": "2407005",
+    "nome": "Luís Gomes",
+    "uf": "RN",
+    "slug": "luis-gomes"
+  },
+  {
+    "id": "2407104",
+    "nome": "Macaíba",
+    "uf": "RN",
+    "slug": "macaiba"
+  },
+  {
+    "id": "2407203",
+    "nome": "Macau",
+    "uf": "RN",
+    "slug": "macau"
+  },
+  {
+    "id": "2407252",
+    "nome": "Major Sales",
+    "uf": "RN",
+    "slug": "major-sales"
+  },
+  {
+    "id": "2407302",
+    "nome": "Marcelino Vieira",
+    "uf": "RN",
+    "slug": "marcelino-vieira"
+  },
+  {
+    "id": "2407401",
+    "nome": "Martins",
+    "uf": "RN",
+    "slug": "martins"
+  },
+  {
+    "id": "2407500",
+    "nome": "Maxaranguape",
+    "uf": "RN",
+    "slug": "maxaranguape"
+  },
+  {
+    "id": "2407609",
+    "nome": "Messias Targino",
+    "uf": "RN",
+    "slug": "messias-targino"
+  },
+  {
+    "id": "2407708",
+    "nome": "Montanhas",
+    "uf": "RN",
+    "slug": "montanhas"
+  },
+  {
+    "id": "2407807",
+    "nome": "Monte Alegre",
+    "uf": "RN",
+    "slug": "monte-alegre"
+  },
+  {
+    "id": "2407906",
+    "nome": "Monte das Gameleiras",
+    "uf": "RN",
+    "slug": "monte-das-gameleiras"
+  },
+  {
+    "id": "2408003",
+    "nome": "Mossoró",
+    "uf": "RN",
+    "slug": "mossoro"
+  },
+  {
+    "id": "2408102",
+    "nome": "Natal",
+    "uf": "RN",
+    "slug": "natal"
+  },
+  {
+    "id": "2408201",
+    "nome": "Nísia Floresta",
+    "uf": "RN",
+    "slug": "nisia-floresta"
+  },
+  {
+    "id": "2408300",
+    "nome": "Nova Cruz",
+    "uf": "RN",
+    "slug": "nova-cruz"
+  },
+  {
+    "id": "2408409",
+    "nome": "Olho d'Água do Borges",
+    "uf": "RN",
+    "slug": "olho-d'agua-do-borges"
+  },
+  {
+    "id": "2408508",
+    "nome": "Ouro Branco",
+    "uf": "RN",
+    "slug": "ouro-branco"
+  },
+  {
+    "id": "2408607",
+    "nome": "Paraná",
+    "uf": "RN",
+    "slug": "parana"
+  },
+  {
+    "id": "2408706",
+    "nome": "Paraú",
+    "uf": "RN",
+    "slug": "parau"
+  },
+  {
+    "id": "2408805",
+    "nome": "Parazinho",
+    "uf": "RN",
+    "slug": "parazinho"
+  },
+  {
+    "id": "2408904",
+    "nome": "Parelhas",
+    "uf": "RN",
+    "slug": "parelhas"
+  },
+  {
+    "id": "2403251",
+    "nome": "Parnamirim",
+    "uf": "RN",
+    "slug": "parnamirim"
+  },
+  {
+    "id": "2409100",
+    "nome": "Passa e Fica",
+    "uf": "RN",
+    "slug": "passa-e-fica"
+  },
+  {
+    "id": "2409209",
+    "nome": "Passagem",
+    "uf": "RN",
+    "slug": "passagem"
+  },
+  {
+    "id": "2409308",
+    "nome": "Patu",
+    "uf": "RN",
+    "slug": "patu"
+  },
+  {
+    "id": "2409407",
+    "nome": "Pau dos Ferros",
+    "uf": "RN",
+    "slug": "pau-dos-ferros"
+  },
+  {
+    "id": "2409506",
+    "nome": "Pedra Grande",
+    "uf": "RN",
+    "slug": "pedra-grande"
+  },
+  {
+    "id": "2409605",
+    "nome": "Pedra Preta",
+    "uf": "RN",
+    "slug": "pedra-preta"
+  },
+  {
+    "id": "2409704",
+    "nome": "Pedro Avelino",
+    "uf": "RN",
+    "slug": "pedro-avelino"
+  },
+  {
+    "id": "2409803",
+    "nome": "Pedro Velho",
+    "uf": "RN",
+    "slug": "pedro-velho"
+  },
+  {
+    "id": "2409902",
+    "nome": "Pendências",
+    "uf": "RN",
+    "slug": "pendencias"
+  },
+  {
+    "id": "2410009",
+    "nome": "Pilões",
+    "uf": "RN",
+    "slug": "piloes"
+  },
+  {
+    "id": "2410108",
+    "nome": "Poço Branco",
+    "uf": "RN",
+    "slug": "poco-branco"
+  },
+  {
+    "id": "2410207",
+    "nome": "Portalegre",
+    "uf": "RN",
+    "slug": "portalegre"
+  },
+  {
+    "id": "2410256",
+    "nome": "Porto do Mangue",
+    "uf": "RN",
+    "slug": "porto-do-mangue"
+  },
+  {
+    "id": "2410405",
+    "nome": "Pureza",
+    "uf": "RN",
+    "slug": "pureza"
+  },
+  {
+    "id": "2410504",
+    "nome": "Rafael Fernandes",
+    "uf": "RN",
+    "slug": "rafael-fernandes"
+  },
+  {
+    "id": "2410603",
+    "nome": "Rafael Godeiro",
+    "uf": "RN",
+    "slug": "rafael-godeiro"
+  },
+  {
+    "id": "2410702",
+    "nome": "Riacho da Cruz",
+    "uf": "RN",
+    "slug": "riacho-da-cruz"
+  },
+  {
+    "id": "2410801",
+    "nome": "Riacho de Santana",
+    "uf": "RN",
+    "slug": "riacho-de-santana"
+  },
+  {
+    "id": "2410900",
+    "nome": "Riachuelo",
+    "uf": "RN",
+    "slug": "riachuelo"
+  },
+  {
+    "id": "2408953",
+    "nome": "Rio do Fogo",
+    "uf": "RN",
+    "slug": "rio-do-fogo"
+  },
+  {
+    "id": "2411007",
+    "nome": "Rodolfo Fernandes",
+    "uf": "RN",
+    "slug": "rodolfo-fernandes"
+  },
+  {
+    "id": "2411106",
+    "nome": "Ruy Barbosa",
+    "uf": "RN",
+    "slug": "ruy-barbosa"
+  },
+  {
+    "id": "2411205",
+    "nome": "Santa Cruz",
+    "uf": "RN",
+    "slug": "santa-cruz"
+  },
+  {
+    "id": "2409332",
+    "nome": "Santa Maria",
+    "uf": "RN",
+    "slug": "santa-maria"
+  },
+  {
+    "id": "2411403",
+    "nome": "Santana do Matos",
+    "uf": "RN",
+    "slug": "santana-do-matos"
+  },
+  {
+    "id": "2411429",
+    "nome": "Santana do Seridó",
+    "uf": "RN",
+    "slug": "santana-do-serido"
+  },
+  {
+    "id": "2411502",
+    "nome": "Santo Antônio",
+    "uf": "RN",
+    "slug": "santo-antonio"
+  },
+  {
+    "id": "2411601",
+    "nome": "São Bento do Norte",
+    "uf": "RN",
+    "slug": "sao-bento-do-norte"
+  },
+  {
+    "id": "2411700",
+    "nome": "São Bento do Trairí",
+    "uf": "RN",
+    "slug": "sao-bento-do-trairi"
+  },
+  {
+    "id": "2411809",
+    "nome": "São Fernando",
+    "uf": "RN",
+    "slug": "sao-fernando"
+  },
+  {
+    "id": "2411908",
+    "nome": "São Francisco do Oeste",
+    "uf": "RN",
+    "slug": "sao-francisco-do-oeste"
+  },
+  {
+    "id": "2412005",
+    "nome": "São Gonçalo do Amarante",
+    "uf": "RN",
+    "slug": "sao-goncalo-do-amarante"
+  },
+  {
+    "id": "2412104",
+    "nome": "São João do Sabugi",
+    "uf": "RN",
+    "slug": "sao-joao-do-sabugi"
+  },
+  {
+    "id": "2412203",
+    "nome": "São José de Mipibu",
+    "uf": "RN",
+    "slug": "sao-jose-de-mipibu"
+  },
+  {
+    "id": "2412302",
+    "nome": "São José do Campestre",
+    "uf": "RN",
+    "slug": "sao-jose-do-campestre"
+  },
+  {
+    "id": "2412401",
+    "nome": "São José do Seridó",
+    "uf": "RN",
+    "slug": "sao-jose-do-serido"
+  },
+  {
+    "id": "2412500",
+    "nome": "São Miguel",
+    "uf": "RN",
+    "slug": "sao-miguel"
+  },
+  {
+    "id": "2412559",
+    "nome": "São Miguel do Gostoso",
+    "uf": "RN",
+    "slug": "sao-miguel-do-gostoso"
+  },
+  {
+    "id": "2412609",
+    "nome": "São Paulo do Potengi",
+    "uf": "RN",
+    "slug": "sao-paulo-do-potengi"
+  },
+  {
+    "id": "2412708",
+    "nome": "São Pedro",
+    "uf": "RN",
+    "slug": "sao-pedro"
+  },
+  {
+    "id": "2412807",
+    "nome": "São Rafael",
+    "uf": "RN",
+    "slug": "sao-rafael"
+  },
+  {
+    "id": "2412906",
+    "nome": "São Tomé",
+    "uf": "RN",
+    "slug": "sao-tome"
+  },
+  {
+    "id": "2413003",
+    "nome": "São Vicente",
+    "uf": "RN",
+    "slug": "sao-vicente"
+  },
+  {
+    "id": "2413102",
+    "nome": "Senador Elói de Souza",
+    "uf": "RN",
+    "slug": "senador-eloi-de-souza"
+  },
+  {
+    "id": "2413201",
+    "nome": "Senador Georgino Avelino",
+    "uf": "RN",
+    "slug": "senador-georgino-avelino"
+  },
+  {
+    "id": "2410306",
+    "nome": "Serra Caiada",
+    "uf": "RN",
+    "slug": "serra-caiada"
+  },
+  {
+    "id": "2413300",
+    "nome": "Serra de São Bento",
+    "uf": "RN",
+    "slug": "serra-de-sao-bento"
+  },
+  {
+    "id": "2413359",
+    "nome": "Serra do Mel",
+    "uf": "RN",
+    "slug": "serra-do-mel"
+  },
+  {
+    "id": "2413409",
+    "nome": "Serra Negra do Norte",
+    "uf": "RN",
+    "slug": "serra-negra-do-norte"
+  },
+  {
+    "id": "2413508",
+    "nome": "Serrinha",
+    "uf": "RN",
+    "slug": "serrinha"
+  },
+  {
+    "id": "2413557",
+    "nome": "Serrinha dos Pintos",
+    "uf": "RN",
+    "slug": "serrinha-dos-pintos"
+  },
+  {
+    "id": "2413607",
+    "nome": "Severiano Melo",
+    "uf": "RN",
+    "slug": "severiano-melo"
+  },
+  {
+    "id": "2413706",
+    "nome": "Sítio Novo",
+    "uf": "RN",
+    "slug": "sitio-novo"
+  },
+  {
+    "id": "2413805",
+    "nome": "Taboleiro Grande",
+    "uf": "RN",
+    "slug": "taboleiro-grande"
+  },
+  {
+    "id": "2413904",
+    "nome": "Taipu",
+    "uf": "RN",
+    "slug": "taipu"
+  },
+  {
+    "id": "2414001",
+    "nome": "Tangará",
+    "uf": "RN",
+    "slug": "tangara"
+  },
+  {
+    "id": "2414100",
+    "nome": "Tenente Ananias",
+    "uf": "RN",
+    "slug": "tenente-ananias"
+  },
+  {
+    "id": "2414159",
+    "nome": "Tenente Laurentino Cruz",
+    "uf": "RN",
+    "slug": "tenente-laurentino-cruz"
+  },
+  {
+    "id": "2411056",
+    "nome": "Tibau",
+    "uf": "RN",
+    "slug": "tibau"
+  },
+  {
+    "id": "2414209",
+    "nome": "Tibau do Sul",
+    "uf": "RN",
+    "slug": "tibau-do-sul"
+  },
+  {
+    "id": "2414308",
+    "nome": "Timbaúba dos Batistas",
+    "uf": "RN",
+    "slug": "timbauba-dos-batistas"
+  },
+  {
+    "id": "2414407",
+    "nome": "Touros",
+    "uf": "RN",
+    "slug": "touros"
+  },
+  {
+    "id": "2414456",
+    "nome": "Triunfo Potiguar",
+    "uf": "RN",
+    "slug": "triunfo-potiguar"
+  },
+  {
+    "id": "2414506",
+    "nome": "Umarizal",
+    "uf": "RN",
+    "slug": "umarizal"
+  },
+  {
+    "id": "2414605",
+    "nome": "Upanema",
+    "uf": "RN",
+    "slug": "upanema"
+  },
+  {
+    "id": "2414704",
+    "nome": "Várzea",
+    "uf": "RN",
+    "slug": "varzea"
+  },
+  {
+    "id": "2414753",
+    "nome": "Venha-Ver",
+    "uf": "RN",
+    "slug": "venha-ver"
+  },
+  {
+    "id": "2414803",
+    "nome": "Vera Cruz",
+    "uf": "RN",
+    "slug": "vera-cruz"
+  },
+  {
+    "id": "2414902",
+    "nome": "Viçosa",
+    "uf": "RN",
+    "slug": "vicosa"
+  },
+  {
+    "id": "2415008",
+    "nome": "Vila Flor",
+    "uf": "RN",
+    "slug": "vila-flor"
+  }
+]

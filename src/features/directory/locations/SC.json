@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "4200051",
+    "nome": "Abdon Batista",
+    "uf": "SC",
+    "slug": "abdon-batista"
+  },
+  {
+    "id": "4200101",
+    "nome": "Abelardo Luz",
+    "uf": "SC",
+    "slug": "abelardo-luz"
+  },
+  {
+    "id": "4200200",
+    "nome": "Agrolândia",
+    "uf": "SC",
+    "slug": "agrolandia"
+  },
+  {
+    "id": "4200309",
+    "nome": "Agronômica",
+    "uf": "SC",
+    "slug": "agronomica"
+  },
+  {
+    "id": "4200408",
+    "nome": "Água Doce",
+    "uf": "SC",
+    "slug": "agua-doce"
+  },
+  {
+    "id": "4200507",
+    "nome": "Águas de Chapecó",
+    "uf": "SC",
+    "slug": "aguas-de-chapeco"
+  },
+  {
+    "id": "4200556",
+    "nome": "Águas Frias",
+    "uf": "SC",
+    "slug": "aguas-frias"
+  },
+  {
+    "id": "4200606",
+    "nome": "Águas Mornas",
+    "uf": "SC",
+    "slug": "aguas-mornas"
+  },
+  {
+    "id": "4200705",
+    "nome": "Alfredo Wagner",
+    "uf": "SC",
+    "slug": "alfredo-wagner"
+  },
+  {
+    "id": "4200754",
+    "nome": "Alto Bela Vista",
+    "uf": "SC",
+    "slug": "alto-bela-vista"
+  },
+  {
+    "id": "4200804",
+    "nome": "Anchieta",
+    "uf": "SC",
+    "slug": "anchieta"
+  },
+  {
+    "id": "4200903",
+    "nome": "Angelina",
+    "uf": "SC",
+    "slug": "angelina"
+  },
+  {
+    "id": "4201000",
+    "nome": "Anita Garibaldi",
+    "uf": "SC",
+    "slug": "anita-garibaldi"
+  },
+  {
+    "id": "4201109",
+    "nome": "Anitápolis",
+    "uf": "SC",
+    "slug": "anitapolis"
+  },
+  {
+    "id": "4201208",
+    "nome": "Antônio Carlos",
+    "uf": "SC",
+    "slug": "antonio-carlos"
+  },
+  {
+    "id": "4201257",
+    "nome": "Apiúna",
+    "uf": "SC",
+    "slug": "apiuna"
+  },
+  {
+    "id": "4201273",
+    "nome": "Arabutã",
+    "uf": "SC",
+    "slug": "arabuta"
+  },
+  {
+    "id": "4201307",
+    "nome": "Araquari",
+    "uf": "SC",
+    "slug": "araquari"
+  },
+  {
+    "id": "4201406",
+    "nome": "Araranguá",
+    "uf": "SC",
+    "slug": "ararangua"
+  },
+  {
+    "id": "4201505",
+    "nome": "Armazém",
+    "uf": "SC",
+    "slug": "armazem"
+  },
+  {
+    "id": "4201604",
+    "nome": "Arroio Trinta",
+    "uf": "SC",
+    "slug": "arroio-trinta"
+  },
+  {
+    "id": "4201653",
+    "nome": "Arvoredo",
+    "uf": "SC",
+    "slug": "arvoredo"
+  },
+  {
+    "id": "4201703",
+    "nome": "Ascurra",
+    "uf": "SC",
+    "slug": "ascurra"
+  },
+  {
+    "id": "4201802",
+    "nome": "Atalanta",
+    "uf": "SC",
+    "slug": "atalanta"
+  },
+  {
+    "id": "4201901",
+    "nome": "Aurora",
+    "uf": "SC",
+    "slug": "aurora"
+  },
+  {
+    "id": "4201950",
+    "nome": "Balneário Arroio do Silva",
+    "uf": "SC",
+    "slug": "balneario-arroio-do-silva"
+  },
+  {
+    "id": "4202057",
+    "nome": "Balneário Barra do Sul",
+    "uf": "SC",
+    "slug": "balneario-barra-do-sul"
+  },
+  {
+    "id": "4202008",
+    "nome": "Balneário Camboriú",
+    "uf": "SC",
+    "slug": "balneario-camboriu"
+  },
+  {
+    "id": "4202073",
+    "nome": "Balneário Gaivota",
+    "uf": "SC",
+    "slug": "balneario-gaivota"
+  },
+  {
+    "id": "4212809",
+    "nome": "Balneário Piçarras",
+    "uf": "SC",
+    "slug": "balneario-picarras"
+  },
+  {
+    "id": "4220000",
+    "nome": "Balneário Rincão",
+    "uf": "SC",
+    "slug": "balneario-rincao"
+  },
+  {
+    "id": "4202081",
+    "nome": "Bandeirante",
+    "uf": "SC",
+    "slug": "bandeirante"
+  },
+  {
+    "id": "4202099",
+    "nome": "Barra Bonita",
+    "uf": "SC",
+    "slug": "barra-bonita"
+  },
+  {
+    "id": "4202107",
+    "nome": "Barra Velha",
+    "uf": "SC",
+    "slug": "barra-velha"
+  },
+  {
+    "id": "4202131",
+    "nome": "Bela Vista do Toldo",
+    "uf": "SC",
+    "slug": "bela-vista-do-toldo"
+  },
+  {
+    "id": "4202156",
+    "nome": "Belmonte",
+    "uf": "SC",
+    "slug": "belmonte"
+  },
+  {
+    "id": "4202206",
+    "nome": "Benedito Novo",
+    "uf": "SC",
+    "slug": "benedito-novo"
+  },
+  {
+    "id": "4202305",
+    "nome": "Biguaçu",
+    "uf": "SC",
+    "slug": "biguacu"
+  },
+  {
+    "id": "4202404",
+    "nome": "Blumenau",
+    "uf": "SC",
+    "slug": "blumenau"
+  },
+  {
+    "id": "4202438",
+    "nome": "Bocaina do Sul",
+    "uf": "SC",
+    "slug": "bocaina-do-sul"
+  },
+  {
+    "id": "4202503",
+    "nome": "Bom Jardim da Serra",
+    "uf": "SC",
+    "slug": "bom-jardim-da-serra"
+  },
+  {
+    "id": "4202537",
+    "nome": "Bom Jesus",
+    "uf": "SC",
+    "slug": "bom-jesus"
+  },
+  {
+    "id": "4202578",
+    "nome": "Bom Jesus do Oeste",
+    "uf": "SC",
+    "slug": "bom-jesus-do-oeste"
+  },
+  {
+    "id": "4202602",
+    "nome": "Bom Retiro",
+    "uf": "SC",
+    "slug": "bom-retiro"
+  },
+  {
+    "id": "4202453",
+    "nome": "Bombinhas",
+    "uf": "SC",
+    "slug": "bombinhas"
+  },
+  {
+    "id": "4202701",
+    "nome": "Botuverá",
+    "uf": "SC",
+    "slug": "botuvera"
+  },
+  {
+    "id": "4202800",
+    "nome": "Braço do Norte",
+    "uf": "SC",
+    "slug": "braco-do-norte"
+  },
+  {
+    "id": "4202859",
+    "nome": "Braço do Trombudo",
+    "uf": "SC",
+    "slug": "braco-do-trombudo"
+  },
+  {
+    "id": "4202875",
+    "nome": "Brunópolis",
+    "uf": "SC",
+    "slug": "brunopolis"
+  },
+  {
+    "id": "4202909",
+    "nome": "Brusque",
+    "uf": "SC",
+    "slug": "brusque"
+  },
+  {
+    "id": "4203006",
+    "nome": "Caçador",
+    "uf": "SC",
+    "slug": "cacador"
+  },
+  {
+    "id": "4203105",
+    "nome": "Caibi",
+    "uf": "SC",
+    "slug": "caibi"
+  },
+  {
+    "id": "4203154",
+    "nome": "Calmon",
+    "uf": "SC",
+    "slug": "calmon"
+  },
+  {
+    "id": "4203204",
+    "nome": "Camboriú",
+    "uf": "SC",
+    "slug": "camboriu"
+  },
+  {
+    "id": "4203303",
+    "nome": "Campo Alegre",
+    "uf": "SC",
+    "slug": "campo-alegre"
+  },
+  {
+    "id": "4203402",
+    "nome": "Campo Belo do Sul",
+    "uf": "SC",
+    "slug": "campo-belo-do-sul"
+  },
+  {
+    "id": "4203501",
+    "nome": "Campo Erê",
+    "uf": "SC",
+    "slug": "campo-ere"
+  },
+  {
+    "id": "4203600",
+    "nome": "Campos Novos",
+    "uf": "SC",
+    "slug": "campos-novos"
+  },
+  {
+    "id": "4203709",
+    "nome": "Canelinha",
+    "uf": "SC",
+    "slug": "canelinha"
+  },
+  {
+    "id": "4203808",
+    "nome": "Canoinhas",
+    "uf": "SC",
+    "slug": "canoinhas"
+  },
+  {
+    "id": "4203253",
+    "nome": "Capão Alto",
+    "uf": "SC",
+    "slug": "capao-alto"
+  },
+  {
+    "id": "4203907",
+    "nome": "Capinzal",
+    "uf": "SC",
+    "slug": "capinzal"
+  },
+  {
+    "id": "4203956",
+    "nome": "Capivari de Baixo",
+    "uf": "SC",
+    "slug": "capivari-de-baixo"
+  },
+  {
+    "id": "4204004",
+    "nome": "Catanduvas",
+    "uf": "SC",
+    "slug": "catanduvas"
+  },
+  {
+    "id": "4204103",
+    "nome": "Caxambu do Sul",
+    "uf": "SC",
+    "slug": "caxambu-do-sul"
+  },
+  {
+    "id": "4204152",
+    "nome": "Celso Ramos",
+    "uf": "SC",
+    "slug": "celso-ramos"
+  },
+  {
+    "id": "4204178",
+    "nome": "Cerro Negro",
+    "uf": "SC",
+    "slug": "cerro-negro"
+  },
+  {
+    "id": "4204194",
+    "nome": "Chapadão do Lageado",
+    "uf": "SC",
+    "slug": "chapadao-do-lageado"
+  },
+  {
+    "id": "4204202",
+    "nome": "Chapecó",
+    "uf": "SC",
+    "slug": "chapeco"
+  },
+  {
+    "id": "4204251",
+    "nome": "Cocal do Sul",
+    "uf": "SC",
+    "slug": "cocal-do-sul"
+  },
+  {
+    "id": "4204301",
+    "nome": "Concórdia",
+    "uf": "SC",
+    "slug": "concordia"
+  },
+  {
+    "id": "4204350",
+    "nome": "Cordilheira Alta",
+    "uf": "SC",
+    "slug": "cordilheira-alta"
+  },
+  {
+    "id": "4204400",
+    "nome": "Coronel Freitas",
+    "uf": "SC",
+    "slug": "coronel-freitas"
+  },
+  {
+    "id": "4204459",
+    "nome": "Coronel Martins",
+    "uf": "SC",
+    "slug": "coronel-martins"
+  },
+  {
+    "id": "4204558",
+    "nome": "Correia Pinto",
+    "uf": "SC",
+    "slug": "correia-pinto"
+  },
+  {
+    "id": "4204509",
+    "nome": "Corupá",
+    "uf": "SC",
+    "slug": "corupa"
+  },
+  {
+    "id": "4204608",
+    "nome": "Criciúma",
+    "uf": "SC",
+    "slug": "criciuma"
+  },
+  {
+    "id": "4204707",
+    "nome": "Cunha Porã",
+    "uf": "SC",
+    "slug": "cunha-pora"
+  },
+  {
+    "id": "4204756",
+    "nome": "Cunhataí",
+    "uf": "SC",
+    "slug": "cunhatai"
+  },
+  {
+    "id": "4204806",
+    "nome": "Curitibanos",
+    "uf": "SC",
+    "slug": "curitibanos"
+  },
+  {
+    "id": "4204905",
+    "nome": "Descanso",
+    "uf": "SC",
+    "slug": "descanso"
+  },
+  {
+    "id": "4205001",
+    "nome": "Dionísio Cerqueira",
+    "uf": "SC",
+    "slug": "dionisio-cerqueira"
+  },
+  {
+    "id": "4205100",
+    "nome": "Dona Emma",
+    "uf": "SC",
+    "slug": "dona-emma"
+  },
+  {
+    "id": "4205159",
+    "nome": "Doutor Pedrinho",
+    "uf": "SC",
+    "slug": "doutor-pedrinho"
+  },
+  {
+    "id": "4205175",
+    "nome": "Entre Rios",
+    "uf": "SC",
+    "slug": "entre-rios"
+  },
+  {
+    "id": "4205191",
+    "nome": "Ermo",
+    "uf": "SC",
+    "slug": "ermo"
+  },
+  {
+    "id": "4205209",
+    "nome": "Erval Velho",
+    "uf": "SC",
+    "slug": "erval-velho"
+  },
+  {
+    "id": "4205308",
+    "nome": "Faxinal dos Guedes",
+    "uf": "SC",
+    "slug": "faxinal-dos-guedes"
+  },
+  {
+    "id": "4205357",
+    "nome": "Flor do Sertão",
+    "uf": "SC",
+    "slug": "flor-do-sertao"
+  },
+  {
+    "id": "4205407",
+    "nome": "Florianópolis",
+    "uf": "SC",
+    "slug": "florianopolis"
+  },
+  {
+    "id": "4205431",
+    "nome": "Formosa do Sul",
+    "uf": "SC",
+    "slug": "formosa-do-sul"
+  },
+  {
+    "id": "4205456",
+    "nome": "Forquilhinha",
+    "uf": "SC",
+    "slug": "forquilhinha"
+  },
+  {
+    "id": "4205506",
+    "nome": "Fraiburgo",
+    "uf": "SC",
+    "slug": "fraiburgo"
+  },
+  {
+    "id": "4205555",
+    "nome": "Frei Rogério",
+    "uf": "SC",
+    "slug": "frei-rogerio"
+  },
+  {
+    "id": "4205605",
+    "nome": "Galvão",
+    "uf": "SC",
+    "slug": "galvao"
+  },
+  {
+    "id": "4205704",
+    "nome": "Garopaba",
+    "uf": "SC",
+    "slug": "garopaba"
+  },
+  {
+    "id": "4205803",
+    "nome": "Garuva",
+    "uf": "SC",
+    "slug": "garuva"
+  },
+  {
+    "id": "4205902",
+    "nome": "Gaspar",
+    "uf": "SC",
+    "slug": "gaspar"
+  },
+  {
+    "id": "4206009",
+    "nome": "Governador Celso Ramos",
+    "uf": "SC",
+    "slug": "governador-celso-ramos"
+  },
+  {
+    "id": "4206108",
+    "nome": "Grão-Pará",
+    "uf": "SC",
+    "slug": "grao-para"
+  },
+  {
+    "id": "4206207",
+    "nome": "Gravatal",
+    "uf": "SC",
+    "slug": "gravatal"
+  },
+  {
+    "id": "4206306",
+    "nome": "Guabiruba",
+    "uf": "SC",
+    "slug": "guabiruba"
+  },
+  {
+    "id": "4206405",
+    "nome": "Guaraciaba",
+    "uf": "SC",
+    "slug": "guaraciaba"
+  },
+  {
+    "id": "4206504",
+    "nome": "Guaramirim",
+    "uf": "SC",
+    "slug": "guaramirim"
+  },
+  {
+    "id": "4206603",
+    "nome": "Guarujá do Sul",
+    "uf": "SC",
+    "slug": "guaruja-do-sul"
+  },
+  {
+    "id": "4206652",
+    "nome": "Guatambú",
+    "uf": "SC",
+    "slug": "guatambu"
+  },
+  {
+    "id": "4206702",
+    "nome": "Herval d'Oeste",
+    "uf": "SC",
+    "slug": "herval-d'oeste"
+  },
+  {
+    "id": "4206751",
+    "nome": "Ibiam",
+    "uf": "SC",
+    "slug": "ibiam"
+  },
+  {
+    "id": "4206801",
+    "nome": "Ibicaré",
+    "uf": "SC",
+    "slug": "ibicare"
+  },
+  {
+    "id": "4206900",
+    "nome": "Ibirama",
+    "uf": "SC",
+    "slug": "ibirama"
+  },
+  {
+    "id": "4207007",
+    "nome": "Içara",
+    "uf": "SC",
+    "slug": "icara"
+  },
+  {
+    "id": "4207106",
+    "nome": "Ilhota",
+    "uf": "SC",
+    "slug": "ilhota"
+  },
+  {
+    "id": "4207205",
+    "nome": "Imaruí",
+    "uf": "SC",
+    "slug": "imarui"
+  },
+  {
+    "id": "4207304",
+    "nome": "Imbituba",
+    "uf": "SC",
+    "slug": "imbituba"
+  },
+  {
+    "id": "4207403",
+    "nome": "Imbuia",
+    "uf": "SC",
+    "slug": "imbuia"
+  },
+  {
+    "id": "4207502",
+    "nome": "Indaial",
+    "uf": "SC",
+    "slug": "indaial"
+  },
+  {
+    "id": "4207577",
+    "nome": "Iomerê",
+    "uf": "SC",
+    "slug": "iomere"
+  },
+  {
+    "id": "4207601",
+    "nome": "Ipira",
+    "uf": "SC",
+    "slug": "ipira"
+  },
+  {
+    "id": "4207650",
+    "nome": "Iporã do Oeste",
+    "uf": "SC",
+    "slug": "ipora-do-oeste"
+  },
+  {
+    "id": "4207684",
+    "nome": "Ipuaçu",
+    "uf": "SC",
+    "slug": "ipuacu"
+  },
+  {
+    "id": "4207700",
+    "nome": "Ipumirim",
+    "uf": "SC",
+    "slug": "ipumirim"
+  },
+  {
+    "id": "4207759",
+    "nome": "Iraceminha",
+    "uf": "SC",
+    "slug": "iraceminha"
+  },
+  {
+    "id": "4207809",
+    "nome": "Irani",
+    "uf": "SC",
+    "slug": "irani"
+  },
+  {
+    "id": "4207858",
+    "nome": "Irati",
+    "uf": "SC",
+    "slug": "irati"
+  },
+  {
+    "id": "4207908",
+    "nome": "Irineópolis",
+    "uf": "SC",
+    "slug": "irineopolis"
+  },
+  {
+    "id": "4208005",
+    "nome": "Itá",
+    "uf": "SC",
+    "slug": "ita"
+  },
+  {
+    "id": "4208104",
+    "nome": "Itaiópolis",
+    "uf": "SC",
+    "slug": "itaiopolis"
+  },
+  {
+    "id": "4208203",
+    "nome": "Itajaí",
+    "uf": "SC",
+    "slug": "itajai"
+  },
+  {
+    "id": "4208302",
+    "nome": "Itapema",
+    "uf": "SC",
+    "slug": "itapema"
+  },
+  {
+    "id": "4208401",
+    "nome": "Itapiranga",
+    "uf": "SC",
+    "slug": "itapiranga"
+  },
+  {
+    "id": "4208450",
+    "nome": "Itapoá",
+    "uf": "SC",
+    "slug": "itapoa"
+  },
+  {
+    "id": "4208500",
+    "nome": "Ituporanga",
+    "uf": "SC",
+    "slug": "ituporanga"
+  },
+  {
+    "id": "4208609",
+    "nome": "Jaborá",
+    "uf": "SC",
+    "slug": "jabora"
+  },
+  {
+    "id": "4208708",
+    "nome": "Jacinto Machado",
+    "uf": "SC",
+    "slug": "jacinto-machado"
+  },
+  {
+    "id": "4208807",
+    "nome": "Jaguaruna",
+    "uf": "SC",
+    "slug": "jaguaruna"
+  },
+  {
+    "id": "4208906",
+    "nome": "Jaraguá do Sul",
+    "uf": "SC",
+    "slug": "jaragua-do-sul"
+  },
+  {
+    "id": "4208955",
+    "nome": "Jardinópolis",
+    "uf": "SC",
+    "slug": "jardinopolis"
+  },
+  {
+    "id": "4209003",
+    "nome": "Joaçaba",
+    "uf": "SC",
+    "slug": "joacaba"
+  },
+  {
+    "id": "4209102",
+    "nome": "Joinville",
+    "uf": "SC",
+    "slug": "joinville"
+  },
+  {
+    "id": "4209151",
+    "nome": "José Boiteux",
+    "uf": "SC",
+    "slug": "jose-boiteux"
+  },
+  {
+    "id": "4209177",
+    "nome": "Jupiá",
+    "uf": "SC",
+    "slug": "jupia"
+  },
+  {
+    "id": "4209201",
+    "nome": "Lacerdópolis",
+    "uf": "SC",
+    "slug": "lacerdopolis"
+  },
+  {
+    "id": "4209300",
+    "nome": "Lages",
+    "uf": "SC",
+    "slug": "lages"
+  },
+  {
+    "id": "4209409",
+    "nome": "Laguna",
+    "uf": "SC",
+    "slug": "laguna"
+  },
+  {
+    "id": "4209458",
+    "nome": "Lajeado Grande",
+    "uf": "SC",
+    "slug": "lajeado-grande"
+  },
+  {
+    "id": "4209508",
+    "nome": "Laurentino",
+    "uf": "SC",
+    "slug": "laurentino"
+  },
+  {
+    "id": "4209607",
+    "nome": "Lauro Müller",
+    "uf": "SC",
+    "slug": "lauro-muller"
+  },
+  {
+    "id": "4209706",
+    "nome": "Lebon Régis",
+    "uf": "SC",
+    "slug": "lebon-regis"
+  },
+  {
+    "id": "4209805",
+    "nome": "Leoberto Leal",
+    "uf": "SC",
+    "slug": "leoberto-leal"
+  },
+  {
+    "id": "4209854",
+    "nome": "Lindóia do Sul",
+    "uf": "SC",
+    "slug": "lindoia-do-sul"
+  },
+  {
+    "id": "4209904",
+    "nome": "Lontras",
+    "uf": "SC",
+    "slug": "lontras"
+  },
+  {
+    "id": "4210001",
+    "nome": "Luiz Alves",
+    "uf": "SC",
+    "slug": "luiz-alves"
+  },
+  {
+    "id": "4210035",
+    "nome": "Luzerna",
+    "uf": "SC",
+    "slug": "luzerna"
+  },
+  {
+    "id": "4210050",
+    "nome": "Macieira",
+    "uf": "SC",
+    "slug": "macieira"
+  },
+  {
+    "id": "4210100",
+    "nome": "Mafra",
+    "uf": "SC",
+    "slug": "mafra"
+  },
+  {
+    "id": "4210209",
+    "nome": "Major Gercino",
+    "uf": "SC",
+    "slug": "major-gercino"
+  },
+  {
+    "id": "4210308",
+    "nome": "Major Vieira",
+    "uf": "SC",
+    "slug": "major-vieira"
+  },
+  {
+    "id": "4210407",
+    "nome": "Maracajá",
+    "uf": "SC",
+    "slug": "maracaja"
+  },
+  {
+    "id": "4210506",
+    "nome": "Maravilha",
+    "uf": "SC",
+    "slug": "maravilha"
+  },
+  {
+    "id": "4210555",
+    "nome": "Marema",
+    "uf": "SC",
+    "slug": "marema"
+  },
+  {
+    "id": "4210605",
+    "nome": "Massaranduba",
+    "uf": "SC",
+    "slug": "massaranduba"
+  },
+  {
+    "id": "4210704",
+    "nome": "Matos Costa",
+    "uf": "SC",
+    "slug": "matos-costa"
+  },
+  {
+    "id": "4210803",
+    "nome": "Meleiro",
+    "uf": "SC",
+    "slug": "meleiro"
+  },
+  {
+    "id": "4210852",
+    "nome": "Mirim Doce",
+    "uf": "SC",
+    "slug": "mirim-doce"
+  },
+  {
+    "id": "4210902",
+    "nome": "Modelo",
+    "uf": "SC",
+    "slug": "modelo"
+  },
+  {
+    "id": "4211009",
+    "nome": "Mondaí",
+    "uf": "SC",
+    "slug": "mondai"
+  },
+  {
+    "id": "4211058",
+    "nome": "Monte Carlo",
+    "uf": "SC",
+    "slug": "monte-carlo"
+  },
+  {
+    "id": "4211108",
+    "nome": "Monte Castelo",
+    "uf": "SC",
+    "slug": "monte-castelo"
+  },
+  {
+    "id": "4211207",
+    "nome": "Morro da Fumaça",
+    "uf": "SC",
+    "slug": "morro-da-fumaca"
+  },
+  {
+    "id": "4211256",
+    "nome": "Morro Grande",
+    "uf": "SC",
+    "slug": "morro-grande"
+  },
+  {
+    "id": "4211306",
+    "nome": "Navegantes",
+    "uf": "SC",
+    "slug": "navegantes"
+  },
+  {
+    "id": "4211405",
+    "nome": "Nova Erechim",
+    "uf": "SC",
+    "slug": "nova-erechim"
+  },
+  {
+    "id": "4211454",
+    "nome": "Nova Itaberaba",
+    "uf": "SC",
+    "slug": "nova-itaberaba"
+  },
+  {
+    "id": "4211504",
+    "nome": "Nova Trento",
+    "uf": "SC",
+    "slug": "nova-trento"
+  },
+  {
+    "id": "4211603",
+    "nome": "Nova Veneza",
+    "uf": "SC",
+    "slug": "nova-veneza"
+  },
+  {
+    "id": "4211652",
+    "nome": "Novo Horizonte",
+    "uf": "SC",
+    "slug": "novo-horizonte"
+  },
+  {
+    "id": "4211702",
+    "nome": "Orleans",
+    "uf": "SC",
+    "slug": "orleans"
+  },
+  {
+    "id": "4211751",
+    "nome": "Otacílio Costa",
+    "uf": "SC",
+    "slug": "otacilio-costa"
+  },
+  {
+    "id": "4211801",
+    "nome": "Ouro",
+    "uf": "SC",
+    "slug": "ouro"
+  },
+  {
+    "id": "4211850",
+    "nome": "Ouro Verde",
+    "uf": "SC",
+    "slug": "ouro-verde"
+  },
+  {
+    "id": "4211876",
+    "nome": "Paial",
+    "uf": "SC",
+    "slug": "paial"
+  },
+  {
+    "id": "4211892",
+    "nome": "Painel",
+    "uf": "SC",
+    "slug": "painel"
+  },
+  {
+    "id": "4211900",
+    "nome": "Palhoça",
+    "uf": "SC",
+    "slug": "palhoca"
+  },
+  {
+    "id": "4212007",
+    "nome": "Palma Sola",
+    "uf": "SC",
+    "slug": "palma-sola"
+  },
+  {
+    "id": "4212056",
+    "nome": "Palmeira",
+    "uf": "SC",
+    "slug": "palmeira"
+  },
+  {
+    "id": "4212106",
+    "nome": "Palmitos",
+    "uf": "SC",
+    "slug": "palmitos"
+  },
+  {
+    "id": "4212205",
+    "nome": "Papanduva",
+    "uf": "SC",
+    "slug": "papanduva"
+  },
+  {
+    "id": "4212239",
+    "nome": "Paraíso",
+    "uf": "SC",
+    "slug": "paraiso"
+  },
+  {
+    "id": "4212254",
+    "nome": "Passo de Torres",
+    "uf": "SC",
+    "slug": "passo-de-torres"
+  },
+  {
+    "id": "4212270",
+    "nome": "Passos Maia",
+    "uf": "SC",
+    "slug": "passos-maia"
+  },
+  {
+    "id": "4212304",
+    "nome": "Paulo Lopes",
+    "uf": "SC",
+    "slug": "paulo-lopes"
+  },
+  {
+    "id": "4212403",
+    "nome": "Pedras Grandes",
+    "uf": "SC",
+    "slug": "pedras-grandes"
+  },
+  {
+    "id": "4212502",
+    "nome": "Penha",
+    "uf": "SC",
+    "slug": "penha"
+  },
+  {
+    "id": "4212601",
+    "nome": "Peritiba",
+    "uf": "SC",
+    "slug": "peritiba"
+  },
+  {
+    "id": "4212650",
+    "nome": "Pescaria Brava",
+    "uf": "SC",
+    "slug": "pescaria-brava"
+  },
+  {
+    "id": "4212700",
+    "nome": "Petrolândia",
+    "uf": "SC",
+    "slug": "petrolandia"
+  },
+  {
+    "id": "4212908",
+    "nome": "Pinhalzinho",
+    "uf": "SC",
+    "slug": "pinhalzinho"
+  },
+  {
+    "id": "4213005",
+    "nome": "Pinheiro Preto",
+    "uf": "SC",
+    "slug": "pinheiro-preto"
+  },
+  {
+    "id": "4213104",
+    "nome": "Piratuba",
+    "uf": "SC",
+    "slug": "piratuba"
+  },
+  {
+    "id": "4213153",
+    "nome": "Planalto Alegre",
+    "uf": "SC",
+    "slug": "planalto-alegre"
+  },
+  {
+    "id": "4213203",
+    "nome": "Pomerode",
+    "uf": "SC",
+    "slug": "pomerode"
+  },
+  {
+    "id": "4213302",
+    "nome": "Ponte Alta",
+    "uf": "SC",
+    "slug": "ponte-alta"
+  },
+  {
+    "id": "4213351",
+    "nome": "Ponte Alta do Norte",
+    "uf": "SC",
+    "slug": "ponte-alta-do-norte"
+  },
+  {
+    "id": "4213401",
+    "nome": "Ponte Serrada",
+    "uf": "SC",
+    "slug": "ponte-serrada"
+  },
+  {
+    "id": "4213500",
+    "nome": "Porto Belo",
+    "uf": "SC",
+    "slug": "porto-belo"
+  },
+  {
+    "id": "4213609",
+    "nome": "Porto União",
+    "uf": "SC",
+    "slug": "porto-uniao"
+  },
+  {
+    "id": "4213708",
+    "nome": "Pouso Redondo",
+    "uf": "SC",
+    "slug": "pouso-redondo"
+  },
+  {
+    "id": "4213807",
+    "nome": "Praia Grande",
+    "uf": "SC",
+    "slug": "praia-grande"
+  },
+  {
+    "id": "4213906",
+    "nome": "Presidente Castello Branco",
+    "uf": "SC",
+    "slug": "presidente-castello-branco"
+  },
+  {
+    "id": "4214003",
+    "nome": "Presidente Getúlio",
+    "uf": "SC",
+    "slug": "presidente-getulio"
+  },
+  {
+    "id": "4214102",
+    "nome": "Presidente Nereu",
+    "uf": "SC",
+    "slug": "presidente-nereu"
+  },
+  {
+    "id": "4214151",
+    "nome": "Princesa",
+    "uf": "SC",
+    "slug": "princesa"
+  },
+  {
+    "id": "4214201",
+    "nome": "Quilombo",
+    "uf": "SC",
+    "slug": "quilombo"
+  },
+  {
+    "id": "4214300",
+    "nome": "Rancho Queimado",
+    "uf": "SC",
+    "slug": "rancho-queimado"
+  },
+  {
+    "id": "4214409",
+    "nome": "Rio das Antas",
+    "uf": "SC",
+    "slug": "rio-das-antas"
+  },
+  {
+    "id": "4214508",
+    "nome": "Rio do Campo",
+    "uf": "SC",
+    "slug": "rio-do-campo"
+  },
+  {
+    "id": "4214607",
+    "nome": "Rio do Oeste",
+    "uf": "SC",
+    "slug": "rio-do-oeste"
+  },
+  {
+    "id": "4214805",
+    "nome": "Rio do Sul",
+    "uf": "SC",
+    "slug": "rio-do-sul"
+  },
+  {
+    "id": "4214706",
+    "nome": "Rio dos Cedros",
+    "uf": "SC",
+    "slug": "rio-dos-cedros"
+  },
+  {
+    "id": "4214904",
+    "nome": "Rio Fortuna",
+    "uf": "SC",
+    "slug": "rio-fortuna"
+  },
+  {
+    "id": "4215000",
+    "nome": "Rio Negrinho",
+    "uf": "SC",
+    "slug": "rio-negrinho"
+  },
+  {
+    "id": "4215059",
+    "nome": "Rio Rufino",
+    "uf": "SC",
+    "slug": "rio-rufino"
+  },
+  {
+    "id": "4215075",
+    "nome": "Riqueza",
+    "uf": "SC",
+    "slug": "riqueza"
+  },
+  {
+    "id": "4215109",
+    "nome": "Rodeio",
+    "uf": "SC",
+    "slug": "rodeio"
+  },
+  {
+    "id": "4215208",
+    "nome": "Romelândia",
+    "uf": "SC",
+    "slug": "romelandia"
+  },
+  {
+    "id": "4215307",
+    "nome": "Salete",
+    "uf": "SC",
+    "slug": "salete"
+  },
+  {
+    "id": "4215356",
+    "nome": "Saltinho",
+    "uf": "SC",
+    "slug": "saltinho"
+  },
+  {
+    "id": "4215406",
+    "nome": "Salto Veloso",
+    "uf": "SC",
+    "slug": "salto-veloso"
+  },
+  {
+    "id": "4215455",
+    "nome": "Sangão",
+    "uf": "SC",
+    "slug": "sangao"
+  },
+  {
+    "id": "4215505",
+    "nome": "Santa Cecília",
+    "uf": "SC",
+    "slug": "santa-cecilia"
+  },
+  {
+    "id": "4215554",
+    "nome": "Santa Helena",
+    "uf": "SC",
+    "slug": "santa-helena"
+  },
+  {
+    "id": "4215604",
+    "nome": "Santa Rosa de Lima",
+    "uf": "SC",
+    "slug": "santa-rosa-de-lima"
+  },
+  {
+    "id": "4215653",
+    "nome": "Santa Rosa do Sul",
+    "uf": "SC",
+    "slug": "santa-rosa-do-sul"
+  },
+  {
+    "id": "4215679",
+    "nome": "Santa Terezinha",
+    "uf": "SC",
+    "slug": "santa-terezinha"
+  },
+  {
+    "id": "4215687",
+    "nome": "Santa Terezinha do Progresso",
+    "uf": "SC",
+    "slug": "santa-terezinha-do-progresso"
+  },
+  {
+    "id": "4215695",
+    "nome": "Santiago do Sul",
+    "uf": "SC",
+    "slug": "santiago-do-sul"
+  },
+  {
+    "id": "4215703",
+    "nome": "Santo Amaro da Imperatriz",
+    "uf": "SC",
+    "slug": "santo-amaro-da-imperatriz"
+  },
+  {
+    "id": "4215802",
+    "nome": "São Bento do Sul",
+    "uf": "SC",
+    "slug": "sao-bento-do-sul"
+  },
+  {
+    "id": "4215752",
+    "nome": "São Bernardino",
+    "uf": "SC",
+    "slug": "sao-bernardino"
+  },
+  {
+    "id": "4215901",
+    "nome": "São Bonifácio",
+    "uf": "SC",
+    "slug": "sao-bonifacio"
+  },
+  {
+    "id": "4216008",
+    "nome": "São Carlos",
+    "uf": "SC",
+    "slug": "sao-carlos"
+  },
+  {
+    "id": "4216057",
+    "nome": "São Cristóvão do Sul",
+    "uf": "SC",
+    "slug": "sao-cristovao-do-sul"
+  },
+  {
+    "id": "4216107",
+    "nome": "São Domingos",
+    "uf": "SC",
+    "slug": "sao-domingos"
+  },
+  {
+    "id": "4216206",
+    "nome": "São Francisco do Sul",
+    "uf": "SC",
+    "slug": "sao-francisco-do-sul"
+  },
+  {
+    "id": "4216305",
+    "nome": "São João Batista",
+    "uf": "SC",
+    "slug": "sao-joao-batista"
+  },
+  {
+    "id": "4216354",
+    "nome": "São João do Itaperiú",
+    "uf": "SC",
+    "slug": "sao-joao-do-itaperiu"
+  },
+  {
+    "id": "4216255",
+    "nome": "São João do Oeste",
+    "uf": "SC",
+    "slug": "sao-joao-do-oeste"
+  },
+  {
+    "id": "4216404",
+    "nome": "São João do Sul",
+    "uf": "SC",
+    "slug": "sao-joao-do-sul"
+  },
+  {
+    "id": "4216503",
+    "nome": "São Joaquim",
+    "uf": "SC",
+    "slug": "sao-joaquim"
+  },
+  {
+    "id": "4216602",
+    "nome": "São José",
+    "uf": "SC",
+    "slug": "sao-jose"
+  },
+  {
+    "id": "4216701",
+    "nome": "São José do Cedro",
+    "uf": "SC",
+    "slug": "sao-jose-do-cedro"
+  },
+  {
+    "id": "4216800",
+    "nome": "São José do Cerrito",
+    "uf": "SC",
+    "slug": "sao-jose-do-cerrito"
+  },
+  {
+    "id": "4216909",
+    "nome": "São Lourenço do Oeste",
+    "uf": "SC",
+    "slug": "sao-lourenco-do-oeste"
+  },
+  {
+    "id": "4217006",
+    "nome": "São Ludgero",
+    "uf": "SC",
+    "slug": "sao-ludgero"
+  },
+  {
+    "id": "4217105",
+    "nome": "São Martinho",
+    "uf": "SC",
+    "slug": "sao-martinho"
+  },
+  {
+    "id": "4217154",
+    "nome": "São Miguel da Boa Vista",
+    "uf": "SC",
+    "slug": "sao-miguel-da-boa-vista"
+  },
+  {
+    "id": "4217204",
+    "nome": "São Miguel do Oeste",
+    "uf": "SC",
+    "slug": "sao-miguel-do-oeste"
+  },
+  {
+    "id": "4217253",
+    "nome": "São Pedro de Alcântara",
+    "uf": "SC",
+    "slug": "sao-pedro-de-alcantara"
+  },
+  {
+    "id": "4217303",
+    "nome": "Saudades",
+    "uf": "SC",
+    "slug": "saudades"
+  },
+  {
+    "id": "4217402",
+    "nome": "Schroeder",
+    "uf": "SC",
+    "slug": "schroeder"
+  },
+  {
+    "id": "4217501",
+    "nome": "Seara",
+    "uf": "SC",
+    "slug": "seara"
+  },
+  {
+    "id": "4217550",
+    "nome": "Serra Alta",
+    "uf": "SC",
+    "slug": "serra-alta"
+  },
+  {
+    "id": "4217600",
+    "nome": "Siderópolis",
+    "uf": "SC",
+    "slug": "sideropolis"
+  },
+  {
+    "id": "4217709",
+    "nome": "Sombrio",
+    "uf": "SC",
+    "slug": "sombrio"
+  },
+  {
+    "id": "4217758",
+    "nome": "Sul Brasil",
+    "uf": "SC",
+    "slug": "sul-brasil"
+  },
+  {
+    "id": "4217808",
+    "nome": "Taió",
+    "uf": "SC",
+    "slug": "taio"
+  },
+  {
+    "id": "4217907",
+    "nome": "Tangará",
+    "uf": "SC",
+    "slug": "tangara"
+  },
+  {
+    "id": "4217956",
+    "nome": "Tigrinhos",
+    "uf": "SC",
+    "slug": "tigrinhos"
+  },
+  {
+    "id": "4218004",
+    "nome": "Tijucas",
+    "uf": "SC",
+    "slug": "tijucas"
+  },
+  {
+    "id": "4218103",
+    "nome": "Timbé do Sul",
+    "uf": "SC",
+    "slug": "timbe-do-sul"
+  },
+  {
+    "id": "4218202",
+    "nome": "Timbó",
+    "uf": "SC",
+    "slug": "timbo"
+  },
+  {
+    "id": "4218251",
+    "nome": "Timbó Grande",
+    "uf": "SC",
+    "slug": "timbo-grande"
+  },
+  {
+    "id": "4218301",
+    "nome": "Três Barras",
+    "uf": "SC",
+    "slug": "tres-barras"
+  },
+  {
+    "id": "4218350",
+    "nome": "Treviso",
+    "uf": "SC",
+    "slug": "treviso"
+  },
+  {
+    "id": "4218400",
+    "nome": "Treze de Maio",
+    "uf": "SC",
+    "slug": "treze-de-maio"
+  },
+  {
+    "id": "4218509",
+    "nome": "Treze Tílias",
+    "uf": "SC",
+    "slug": "treze-tilias"
+  },
+  {
+    "id": "4218608",
+    "nome": "Trombudo Central",
+    "uf": "SC",
+    "slug": "trombudo-central"
+  },
+  {
+    "id": "4218707",
+    "nome": "Tubarão",
+    "uf": "SC",
+    "slug": "tubarao"
+  },
+  {
+    "id": "4218756",
+    "nome": "Tunápolis",
+    "uf": "SC",
+    "slug": "tunapolis"
+  },
+  {
+    "id": "4218806",
+    "nome": "Turvo",
+    "uf": "SC",
+    "slug": "turvo"
+  },
+  {
+    "id": "4218855",
+    "nome": "União do Oeste",
+    "uf": "SC",
+    "slug": "uniao-do-oeste"
+  },
+  {
+    "id": "4218905",
+    "nome": "Urubici",
+    "uf": "SC",
+    "slug": "urubici"
+  },
+  {
+    "id": "4218954",
+    "nome": "Urupema",
+    "uf": "SC",
+    "slug": "urupema"
+  },
+  {
+    "id": "4219002",
+    "nome": "Urussanga",
+    "uf": "SC",
+    "slug": "urussanga"
+  },
+  {
+    "id": "4219101",
+    "nome": "Vargeão",
+    "uf": "SC",
+    "slug": "vargeao"
+  },
+  {
+    "id": "4219150",
+    "nome": "Vargem",
+    "uf": "SC",
+    "slug": "vargem"
+  },
+  {
+    "id": "4219176",
+    "nome": "Vargem Bonita",
+    "uf": "SC",
+    "slug": "vargem-bonita"
+  },
+  {
+    "id": "4219200",
+    "nome": "Vidal Ramos",
+    "uf": "SC",
+    "slug": "vidal-ramos"
+  },
+  {
+    "id": "4219309",
+    "nome": "Videira",
+    "uf": "SC",
+    "slug": "videira"
+  },
+  {
+    "id": "4219358",
+    "nome": "Vitor Meireles",
+    "uf": "SC",
+    "slug": "vitor-meireles"
+  },
+  {
+    "id": "4219408",
+    "nome": "Witmarsum",
+    "uf": "SC",
+    "slug": "witmarsum"
+  },
+  {
+    "id": "4219507",
+    "nome": "Xanxerê",
+    "uf": "SC",
+    "slug": "xanxere"
+  },
+  {
+    "id": "4219606",
+    "nome": "Xavantina",
+    "uf": "SC",
+    "slug": "xavantina"
+  },
+  {
+    "id": "4219705",
+    "nome": "Xaxim",
+    "uf": "SC",
+    "slug": "xaxim"
+  },
+  {
+    "id": "4219853",
+    "nome": "Zortéa",
+    "uf": "SC",
+    "slug": "zortea"
+  }
+]

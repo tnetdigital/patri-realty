@@ -1,0 +1,197 @@
+.billing-page {
+  padding-top: 34px;
+  padding-bottom: 60px;
+  min-width: 0;
+}
+.billing-page h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  line-height: 1.12;
+  margin: 14px 0;
+}
+.billing-page h2 {
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  margin: 20px 0;
+}
+.billing-page p {
+  line-height: 1.65;
+}
+.billing-notice,
+.billing-current,
+.billing-card,
+.billing-scenario {
+  border: 1px solid #dedbd2;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 18px 0;
+  background: #fff;
+}
+.billing-notice {
+  background: #f5f1e6;
+}
+.billing-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+.billing-card {
+  margin: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.billing-card[data-selected="true"] {
+  border-color: #a87b3a;
+  background: #fcfaf5;
+}
+.billing-card ul {
+  padding: 0;
+  list-style: none;
+  flex: 1;
+}
+.billing-card li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid #ece9e1;
+  padding: 10px 0;
+  font-size: 0.88rem;
+}
+.billing-card li span {
+  overflow-wrap: anywhere;
+}
+.billing-price {
+  font-size: 1.7rem;
+  font-family: Georgia, serif;
+}
+.billing-page button,
+.billing-page .billing-link {
+  min-height: 46px;
+  border: 1px solid #bba77f;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 16px;
+  color: #18352e;
+  cursor: pointer;
+  white-space: normal;
+}
+.billing-page button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.billing-page button.primary {
+  background: #183f35;
+  color: white;
+  border-color: #183f35;
+}
+.billing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+.billing-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.billing-metrics strong {
+  font-size: 1.8rem;
+  display: block;
+  font-family: Georgia, serif;
+}
+.billing-table {
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid #ddd7cc;
+  border-radius: 10px;
+  margin: 16px 0;
+}
+.billing-table table {
+  border-collapse: collapse;
+  min-width: 560px;
+  width: 100%;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.billing-table th,
+.billing-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e1d8;
+  overflow-wrap: anywhere;
+}
+.billing-page input,
+.billing-page select {
+  font-size: 16px;
+  min-height: 46px;
+  max-width: 100%;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #c9c4b8;
+  border-radius: 6px;
+}
+.billing-page label {
+  display: block;
+  margin: 12px 0;
+}
+.billing-page input[type="checkbox"] {
+  width: 22px;
+  min-height: 22px;
+}
+.billing-error {
+  color: #8f2424;
+  background: #fff2f2;
+  padding: 12px;
+}
+.billing-page :focus-visible {
+  outline: 3px solid #ae8045;
+  outline-offset: 3px;
+}
+.billing-page details {
+  margin: 16px 0;
+}
+.billing-page summary {
+  cursor: pointer;
+  padding: 12px 0;
+  min-height: 46px;
+}
+.billing-current {
+  background: #183b32;
+  color: #fff;
+}
+.billing-current a {
+  color: white;
+}
+.billing-current .billing-actions button {
+  color: #183b32;
+}
+.billing-muted {
+  color: #646a65;
+  font-size: 0.9rem;
+}
+.billing-table caption {
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+}
+.billing-page .billing-success {
+  background: #eef5ef;
+  padding: 12px;
+}
+.billing-admin-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+@media (min-width: 760px) {
+  .billing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .billing-admin-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .billing-metrics {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

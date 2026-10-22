@@ -1,0 +1,12 @@
+create or replace function private.record_event(eid uuid,etype text,target uuid,session_id uuid,ip_hash text,consented boolean,segment uuid default null,region text default '') returns jsonb language plpgsql security definer set search_path='' as $$declare sid uuid;entity text;seg uuid;state text;begin
+ perform private.service_guard();if not consented then return '{"ignorado":true}';end if;
+ if eid is null or session_id is null or length(coalesce(ip_hash,''))<>64 then raise exception 'Evento inválido';end if;
+ if etype not in ('visualizacao_perfil','clique_whatsapp','clique_telefone','clique_site','clique_instagram','orcamento_enviado','visualizacao_materia','busca') then raise exception 'Evento inválido';end if;
+ if etype='busca' then entity:='portal';target:='00000000-0000-4000-8000-000000000000';seg:=segment;state:=nullif(upper(region),'');if seg is not null and not exists(select 1 from public.segmentos where id=seg and ativo) then return '{"ignorado":true}';end if;
+ elsif etype='visualizacao_materia' then entity:='materia';select fornecedor_id into sid from public.materias m where m.id=target and private.article_visible(m);if not found then return '{"ignorado":true}';end if;
+ else entity:='fornecedor';sid:=target;if not private.is_supplier_public(sid) then return '{"ignorado":true}';end if;end if;
+ if sid is not null then select segmento_id into seg from public.fornecedor_segmentos where fornecedor_id=sid and deletado_em is null order by segmento_id limit 1;select c.uf into state from public.fornecedores f left join public.cidades c on c.id=f.cidade_id where f.id=sid;end if;
+ perform pg_advisory_xact_lock(hashtextextended(eid::text,901));if exists(select 1 from public.eventos where id=eid) then return '{"duplicado":true}';end if;
+ perform pg_advisory_xact_lock(hashtextextended(ip_hash,902));if (select count(*) from private.analytics_limits l where l.ip_hash=record_event.ip_hash and criado_em>now()-interval '1 hour')>=300 then raise exception 'LIMITE_HORA';end if;
+ insert into public.eventos(id,tipo,entidade,entidade_id,fornecedor_id,segmento_id,uf,sessao_anonima) values(eid,etype,entity,target,sid,seg,state,session_id);insert into private.analytics_limits(ip_hash) values(ip_hash);return '{"registrado":true}';end;$$;
+drop function public.relatorio_editorial(uuid,date,date,int);drop function private.editorial_report(uuid,date,date,int);drop function public.calendario_comercial(date,date,int);drop function private.commercial_calendar(date,date,int);
