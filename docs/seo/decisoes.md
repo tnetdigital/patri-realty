@@ -35,3 +35,7 @@ Data: 22/10/2026. Este registro consolida instruções explícitas, sem alterar 
 ## Prompt 02 — decisão explícita do usuário
 
 Manter tnetdigital/patri-realty público e continuar a execução. Não reescrever histórico. Proteger a prévia e remover os rascunhos da distribuição atual, preservando React/Vite/SSR e a URL permanente. Cópias históricas permanecem públicas por essa decisão. Segredo somente em entrada segura do provedor; ausência de configuração bloqueia o acesso.
+
+## Prompt 03 — política HTTP e metadata
+
+Origem canônica explícita e validada; não inferir de Host ou da prévia. Atribuição não gera noindex; filtros e busca mantêm identidade própria com noindex; paginação de conjuntos distintos tem canonical próprio. 404 é ausência; 503 é falha temporária. Normalização e metadata são comuns ao SSR e navegador. Demonstrações/tokens não recebem canonical público. A prévia segue protegida e não comprova o contrato HTTP de um host produtivo. Quality Gate municipal continua reservado ao Prompt 04.

@@ -23,8 +23,21 @@ const previewGuard = createPreviewGuard({
   enabled: previewMode,
   password: env.PREVIEW_ACCESS_PASSWORD,
 });
-const { render, sitemapData, contentSitemap } =
+const { render, sitemapData, contentSitemap, canonicalOrigin, decideSeo } =
   await import('./dist-server/entry-server.js');
+if (runtime.source === 'live' && (!env.VITE_SITE_URL || !canonicalOrigin(base)))
+  throw new Error(
+    'VITE_SITE_URL deve ser uma origem HTTPS pública válida, sem caminho, query ou fragmento.',
+  );
+runtime.preview = previewMode;
+const allowedHosts = new Set([
+  new URL(base).host.toLowerCase(),
+  ...(env.PATRI_ALLOWED_HOSTS || '')
+    .split(',')
+    .map((h) => h.trim().toLowerCase())
+    .filter(Boolean),
+]);
+
 const ssrCache = new Map();
 const template = await readFile('dist/index.html', 'utf8');
 const esc = (s) =>
@@ -68,6 +81,28 @@ http
     res.setHeader('X-Frame-Options', 'SAMEORIGIN');
     if (!previewGuard(req, res)) return;
     try {
+      if (!allowedHosts.has(String(req.headers.host || '').toLowerCase())) {
+        res
+          .writeHead(421, {
+            'Cache-Control': 'no-store',
+            'X-Robots-Tag': 'noindex,nofollow',
+          })
+          .end('Host não autorizado.');
+        return;
+      }
+      if (
+        !req.url.startsWith('/') ||
+        req.url.startsWith('//') ||
+        /[\\\r\n]/.test(req.url)
+      ) {
+        res
+          .writeHead(400, {
+            'Cache-Control': 'no-store',
+            'X-Robots-Tag': 'noindex,nofollow',
+          })
+          .end('Endereço inválido.');
+        return;
+      }
       const u = new URL(req.url, base);
       if (u.pathname === '/api/editorial-review') {
         if (!previewMode || !env.PATRI_EDITORIAL_REVIEW_FILE) {
@@ -86,7 +121,12 @@ http
           });
           res.end(JSON.stringify(items));
         } catch {
-          res.writeHead(503, { 'Content-Type': 'text/plain; charset=utf-8' });
+          res.writeHead(503, {
+            'Content-Type': 'text/plain; charset=utf-8',
+            'Cache-Control': 'no-store',
+            'X-Robots-Tag': 'noindex,nofollow',
+            'Retry-After': '60',
+          });
           res.end('Revisão editorial indisponível.');
         }
         return;
@@ -97,6 +137,7 @@ http
         return;
       }
       if (/^\/r\/[a-f0-9-]{36}$/.test(u.pathname)) {
+        res.setHeader('X-Robots-Tag', 'noindex,nofollow');
         res.setHeader(
           'Cache-Control',
           previewMode ? PRIVATE_HEADERS['Cache-Control'] : 'no-store',
@@ -117,7 +158,9 @@ http
               signal: AbortSignal.timeout(10000),
             },
           );
-          if (response.ok) target = await response.json();
+          if (!response.ok)
+            throw new Error('Destino temporariamente indisponível.');
+          target = await response.json();
         }
         if (typeof target === 'string' && /^https:\/\//.test(target)) {
           res.writeHead(302, { Location: target }).end();
@@ -132,7 +175,7 @@ http
       if (u.pathname === '/robots.txt') {
         res.setHeader('Content-Type', 'text/plain');
         res.end(
-          `User-agent: *\n${runtime.source === 'demo' ? 'Disallow: /' : 'Allow: /\nDisallow: /painel\nDisallow: /admin\nDisallow: /busca'}\nSitemap: ${base}/sitemap.xml\n`,
+          `User-agent: *\n${previewMode ? 'Disallow: /' : 'Allow: /\nDisallow: /painel\nDisallow: /admin\nDisallow: /busca'}\nSitemap: ${base}/sitemap.xml\n`,
         );
         return;
       }
@@ -141,40 +184,39 @@ http
             sitemapData(runtime),
             contentSitemap(runtime),
           ]),
-          paths =
-            runtime.source === 'demo'
-              ? []
-              : [
-                  { path: '/' },
-                  { path: '/guia' },
-                  { path: '/materias' },
-                  { path: '/revista' },
-                  ...[
-                    '/sobre-o-projeto',
-                    '/para-fornecedores',
-                    '/termos',
-                    '/privacidade',
-                    '/evento',
-                    '/contato',
-                    '/contrato-fornecedor',
-                  ].map((path) => ({ path })),
-                  ...editorial.materias.map((slug) => ({
-                    path: '/materia/' + slug,
-                  })),
-                  ...editorial.revistas.map((slug) => ({
-                    path: '/revista/' + slug,
-                  })),
-                  ...editorial.categorias.map((slug) => ({
-                    path: '/materias/' + slug,
-                  })),
-                  ...d.segmentos.map((s) => ({ path: '/guia/' + s })),
-                  ...d.locais.map((x) => ({
-                    path: `/guia/${x.segmento}/${x.uf.toLowerCase()}/${x.cidade}`,
-                  })),
-                  ...d.fornecedores.map((s) => ({
-                    path: '/fornecedor/' + s.slug,
-                  })),
-                ];
+          paths = previewMode
+            ? []
+            : [
+                { path: '/' },
+                { path: '/guia' },
+                { path: '/materias' },
+                { path: '/revista' },
+                ...[
+                  '/sobre-o-projeto',
+                  '/para-fornecedores',
+                  '/termos',
+                  '/privacidade',
+                  '/evento',
+                  '/contato',
+                  '/contrato-fornecedor',
+                ].map((path) => ({ path })),
+                ...editorial.materias.map((slug) => ({
+                  path: '/materia/' + slug,
+                })),
+                ...editorial.revistas.map((slug) => ({
+                  path: '/revista/' + slug,
+                })),
+                ...editorial.categorias.map((slug) => ({
+                  path: '/materias/' + slug,
+                })),
+                ...d.segmentos.map((s) => ({ path: '/guia/' + s })),
+                ...d.locais.map((x) => ({
+                  path: `/guia/${x.segmento}/${x.uf.toLowerCase()}/${x.cidade}`,
+                })),
+                ...d.fornecedores.map((s) => ({
+                  path: '/fornecedor/' + s.slug,
+                })),
+              ];
         res.setHeader('Content-Type', 'application/xml');
         res.setHeader(
           'Cache-Control',
@@ -242,27 +284,32 @@ http
       if (result.redirect) {
         res
           .writeHead(301, {
-            Location: result.redirect.startsWith('/')
-              ? result.redirect
-              : '/fornecedor/' + encodeURIComponent(result.redirect),
+            Location: result.redirect,
           })
           .end();
         return;
       }
       const state = JSON.stringify(result.state).replace(/</g, '\\u003c');
+      // Only the existing public runtime (including the anonymous key), never server secrets.
+      const publicRuntime = JSON.stringify(runtime).replace(/</g, '\\u003c');
       let html = template
         .replace(/<title>.*?<\/title>/s, `<title>${esc(result.title)}</title>`)
-        .replace(/<meta\s+name="(description|robots)"[^>]*>/g, '');
+        .replace(
+          /<meta\s+(?:name="(?:description|robots|twitter:card)"|property="og:[^"]+")[^>]*>/g,
+          '',
+        )
+        .replace(/<link\s+rel="canonical"[^>]*>/g, '');
       html = html
         .replace(
           '</head>',
-          `${result.structured ? `<script type="application/ld+json">${JSON.stringify(result.structured).replace(/</g, '\\u003c')}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base + '/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(base + u.pathname)}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.noindex ? 'noindex,follow' : 'index,follow'}"><link rel="canonical" href="${esc(base + u.pathname + u.search)}"></head>`,
+          `${result.structured ? `<script type="application/ld+json">${JSON.stringify(result.structured).replace(/</g, '\\u003c')}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base + '/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(result.canonical || '')}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.robots}">${result.canonical ? `<link rel="canonical" href="${esc(result.canonical)}">` : ''}</head>`,
         )
         .replace(
           '<div id="root"></div>',
-          `<div id="root">${result.html}</div><script>window.__PATRI_STATE__=${state}</script>`,
+          `<div id="root">${result.html}</div><script>window.__PATRI_STATE__=${state};window.__PATRI_RUNTIME__=${publicRuntime}</script>`,
         );
       res.statusCode = result.status;
+      res.setHeader('X-Robots-Tag', result.robots);
       res.setHeader('Content-Type', 'text/html; charset=utf-8');
       res.setHeader(
         'Cache-Control',
@@ -272,7 +319,12 @@ http
     } catch (e) {
       console.error(e.message);
       res
-        .writeHead(503, { 'Content-Type': 'text/plain; charset=utf-8' })
+        .writeHead(503, {
+          'Content-Type': 'text/plain; charset=utf-8',
+          'Cache-Control': 'no-store',
+          'X-Robots-Tag': 'noindex,nofollow',
+          'Retry-After': '60',
+        })
         .end('O guia está temporariamente indisponível. Tente novamente.');
     }
   })

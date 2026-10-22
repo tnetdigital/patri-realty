@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "privateDraftFound": false
+  },
+  {
+    "path": "/assets/EditorialPreview-Ct34TpfK.js",
+    "status": 403,
+    "privateDraftFound": false
+  },
+  {
+    "path": "/src/data/editorial-drafts.json",
+    "status": 403,
+    "privateDraftFound": false
+  },
+  {
+    "path": "/backend/private-preview.generated.ts",
+    "status": 403,
+    "privateDraftFound": false
+  },
+  {
+    "path": "backend GET /api/preview/open",
+    "status": 401,
+    "cache": "private, no-store",
+    "robots": "noindex, nofollow"
+  }
+]

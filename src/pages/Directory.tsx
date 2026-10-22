@@ -1,14 +1,14 @@
-import { PublicReviews } from "../features/growth/Reviews";
-import { InstagramPosts } from "../features/growth/Instagram";
-import { ViewEvent, track } from "../features/growth/events";
-import { AdSlot } from "../features/commercial/AdSlot";
-import { SupplierArticles } from "../features/content/PublicCards";
-import { SmartCombobox } from "../features/directory/SmartCombobox";
-import { SpecialtyPicker } from "../features/directory/SpecialtyPicker";
-import { QuotationForm } from "../features/quotations/Form";
-import { useEffect, useState } from "react";
-import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
-import { useQuery } from "@tanstack/react-query";
+import { PublicReviews } from '../features/growth/Reviews';
+import { InstagramPosts } from '../features/growth/Instagram';
+import { ViewEvent, track } from '../features/growth/events';
+import { AdSlot } from '../features/commercial/AdSlot';
+import { SupplierArticles } from '../features/content/PublicCards';
+import { SmartCombobox } from '../features/directory/SmartCombobox';
+import { SpecialtyPicker } from '../features/directory/SpecialtyPicker';
+import { QuotationForm } from '../features/quotations/Form';
+import { useEffect, useState } from 'react';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
 import {
   directoryCatalog,
   searchDirectory,
@@ -17,7 +17,7 @@ import {
   searchKey,
   profileKey,
   useDirectoryRuntime,
-} from "../features/directory/api";
+} from '../features/directory/api';
 import {
   directoryPath,
   filtersFromRoute,
@@ -25,58 +25,14 @@ import {
   videoId,
   type Filters,
   type PublicSupplier,
-} from "../features/directory/model";
-import { directoryTexts as t } from "../features/directory/texts";
-import "../features/directory/directory.css";
-export function DirectorySeo({
-  title,
-  description,
-  noindex = false,
-}: {
-  title: string;
-  description: string;
-  noindex?: boolean;
-}) {
-  const r = useDirectoryRuntime(),
-    loc = useLocation();
-  useEffect(() => {
-    document.title = title + " | Patri Realty";
-    for (const [name, content] of Object.entries({
-      description,
-      robots:
-        noindex || r.source === "demo" || r.hashRouting
-          ? "noindex,follow"
-          : "index,follow",
-    })) {
-      let m = document.querySelector(`meta[name="${name}"]`);
-      if (!m) {
-        m = document.createElement("meta");
-        m.setAttribute("name", name);
-        document.head.appendChild(m);
-      }
-      m.setAttribute("content", content);
-    }
-    let c = document.querySelector('link[rel="canonical"]');
-    if (!c) {
-      c = document.createElement("link");
-      c.setAttribute("rel", "canonical");
-      document.head.appendChild(c);
-    }
-    c.setAttribute("href", r.siteUrl + loc.pathname + loc.search);
-  }, [
-    title,
-    description,
-    noindex,
-    r.source,
-    r.hashRouting,
-    r.siteUrl,
-    loc.pathname,
-    loc.search,
-  ]);
-  return null;
-}
+} from '../features/directory/model';
+import { directoryTexts as t } from '../features/directory/texts';
+import '../features/directory/directory.css';
+export { PageMetadata as DirectorySeo } from '../seo/metadata';
+import { PageMetadata as DirectorySeo } from '../seo/metadata';
+import { directoryMetadata, publicRedirect } from '../seo/policy';
 export function DemoNotice() {
-  return useDirectoryRuntime().source === "demo" ? (
+  return useDirectoryRuntime().source === 'demo' ? (
     <aside className="directory-demo">
       <strong>{t.demoTitle}</strong>
       <p>{t.demoBody}</p>
@@ -84,12 +40,12 @@ export function DemoNotice() {
   ) : null;
 }
 const empty: Filters = {
-  segmento: "",
-  uf: "",
-  cidade: "",
-  q: "",
+  segmento: '',
+  uf: '',
+  cidade: '',
+  q: '',
   pagina: 1,
-  ordem: "relevancia",
+  ordem: 'relevancia',
 };
 export function SearchForm({
   initial = empty,
@@ -135,10 +91,10 @@ export function SearchForm({
         value={f.uf}
         options={(base.data?.estados || []).map((s) => ({
           value: s.uf,
-          label: s.nome + " (" + s.uf + ")",
+          label: s.nome + ' (' + s.uf + ')',
           search: s.uf,
         }))}
-        onChange={(uf) => setF({ ...f, uf, cidade: "" })}
+        onChange={(uf) => setF({ ...f, uf, cidade: '' })}
         placeholder="Ex.: SP, São Paulo ou Minas"
         loading={base.isPending}
         error={base.isError}
@@ -152,7 +108,7 @@ export function SearchForm({
           label: s.nome,
         }))}
         onChange={(cidade) => setF({ ...f, cidade })}
-        placeholder={f.uf ? "Digite o nome da cidade" : "Escolha um estado"}
+        placeholder={f.uf ? 'Digite o nome da cidade' : 'Escolha um estado'}
         resetKey={f.uf}
         disabled={!f.uf}
         loading={c.isFetching}
@@ -189,11 +145,11 @@ export function DirectoryHome() {
       <div className="directory-popular">
         <span>Mais procurados</span>
         {[
-          "manutencao-predial",
-          "elevadores",
-          "seguranca-e-portaria",
-          "limpeza-e-conservacao",
-          "administracao-condominial",
+          'manutencao-predial',
+          'elevadores',
+          'seguranca-e-portaria',
+          'limpeza-e-conservacao',
+          'administracao-condominial',
         ]
           .map((slug) => c.data?.segmentos.find((s) => s.slug === slug))
           .filter(Boolean)
@@ -214,7 +170,7 @@ function Card({ s }: { s: PublicSupplier }) {
       <div>
         <span className="eyebrow">{s.segmentos[0]?.nome}</span>
         <h2>
-          <Link to={"/fornecedor/" + s.slug}>{s.nome_fantasia}</Link>
+          <Link to={'/fornecedor/' + s.slug}>{s.nome_fantasia}</Link>
         </h2>
         {s.patrocinado && <p className="directory-verified">Patrocinado</p>}
         {s.avaliacoes > 0 && s.nota !== null && (
@@ -226,7 +182,7 @@ function Card({ s }: { s: PublicSupplier }) {
         <p className="directory-location">
           {s.cidade?.nome} · {s.cidade?.uf}
         </p>
-        <Link className="directory-link" to={"/fornecedor/" + s.slug}>
+        <Link className="directory-link" to={'/fornecedor/' + s.slug}>
           {t.viewProfile}
         </Link>
       </div>
@@ -247,23 +203,19 @@ export default function Directory() {
       queryFn: () => searchDirectory(r, f),
     });
   useEffect(() => {
-    if (q.data?.redirect) navigate(q.data.redirect, { replace: true });
+    const target = publicRedirect(q.data?.redirect);
+    if (target) navigate(target, { replace: true });
   }, [q.data?.redirect, navigate]);
-  const chosen = f.segmento.split(",").filter(Boolean);
+  const chosen = f.segmento.split(',').filter(Boolean);
   const labels = chosen
     .map((slug) => c.data?.segmentos.find((s) => s.slug === slug)?.nome)
     .filter(Boolean);
   const name =
     labels.length > 1
-      ? labels.slice(0, 2).join(" + ") +
-        (labels.length > 2 ? ` e mais ${labels.length - 2}` : "")
+      ? labels.slice(0, 2).join(' + ') +
+        (labels.length > 2 ? ` e mais ${labels.length - 2}` : '')
       : labels[0];
-  const title = [
-    f.q ? `${t.results}: ${f.q}` : name || t.title,
-    f.cidade ? c.data?.cidades.find((c) => c.slug === f.cidade)?.nome : f.uf,
-  ]
-    .filter(Boolean)
-    .join(" — ");
+  const { title, description } = directoryMetadata(f, c.data);
   return (
     <section className="container directory-page">
       <ViewEvent
@@ -277,19 +229,21 @@ export default function Directory() {
         }
       />
       <AdSlot
-        position={f.segmento ? "segmento_topo" : "guia_topo"}
+        position={f.segmento ? 'segmento_topo' : 'guia_topo'}
         segment={f.segmento}
         region={f.uf}
       />
       <DirectorySeo
         title={title}
-        description={title + ". " + t.intro}
-        noindex={!!f.q || !!q.data?.not_found}
+        description={description}
+        status={q.isError || c.isError ? 503 : q.data?.not_found ? 404 : 200}
+        pending={q.isPending || c.isPending}
+        pageItems={q.data?.items.length}
       />
       <nav aria-label="Caminho da página">
-        <Link to="/">Início</Link> /{" "}
+        <Link to="/">Início</Link> /{' '}
         <Link to="/guia">Guia de fornecedores</Link>
-        {name && " / " + name}
+        {name && ' / ' + name}
       </nav>
       <div className="directory-heading">
         <span className="eyebrow">{t.kicker}</span>
@@ -312,7 +266,7 @@ export default function Directory() {
               {q.data.total} {t.resultLabel.toLowerCase()}
             </p>
             <label>
-              {t.order}{" "}
+              {t.order}{' '}
               <select
                 value={f.ordem}
                 onChange={(e) =>
@@ -320,7 +274,7 @@ export default function Directory() {
                     directoryPath({
                       ...f,
                       pagina: 1,
-                      ordem: e.target.value as Filters["ordem"],
+                      ordem: e.target.value as Filters['ordem'],
                     }),
                   )
                 }
@@ -367,7 +321,7 @@ export default function Directory() {
   );
 }
 export function SupplierProfile() {
-  const { slug = "" } = useParams(),
+  const { slug = '' } = useParams(),
     r = useDirectoryRuntime(),
     navigate = useNavigate();
   const q = useQuery({
@@ -376,7 +330,7 @@ export function SupplierProfile() {
   });
   useEffect(() => {
     if (q.data?.redirect)
-      navigate("/fornecedor/" + q.data.redirect, { replace: true });
+      navigate('/fornecedor/' + q.data.redirect, { replace: true });
   }, [q.data?.redirect, navigate]);
   if (q.isPending)
     return (
@@ -387,6 +341,7 @@ export function SupplierProfile() {
   if (q.isError)
     return (
       <section className="container page">
+        <DirectorySeo status={503} />
         <p role="alert">{t.error}</p>
         <button onClick={() => q.refetch()}>{t.retry}</button>
       </section>
@@ -395,7 +350,11 @@ export function SupplierProfile() {
   if (!s)
     return (
       <section className="container page">
-        <DirectorySeo title={t.notFound} description={t.notFoundBody} noindex />
+        <DirectorySeo
+          title={t.notFound}
+          description={t.notFoundBody}
+          status={404}
+        />
         <h1>{t.notFound}</h1>
         <p>{t.notFoundBody}</p>
         <Link to="/guia">{t.back}</Link>
@@ -404,11 +363,11 @@ export function SupplierProfile() {
   const contacts = [
     s.whatsapp && {
       label: t.whatsapp,
-      url: "https://wa.me/" + s.whatsapp.replace(/\D/g, ""),
+      url: 'https://wa.me/' + s.whatsapp.replace(/\D/g, ''),
     },
     s.telefone && {
       label: t.phone,
-      url: "tel:+" + s.telefone.replace(/\D/g, ""),
+      url: 'tel:+' + s.telefone.replace(/\D/g, ''),
     },
     safeHttps(s.site) && { label: t.website, url: s.site },
     safeHttps(s.instagram) && { label: t.instagram, url: s.instagram },
@@ -418,7 +377,7 @@ export function SupplierProfile() {
     <article className="container directory-page">
       <ViewEvent runtime={r} type="visualizacao_perfil" target={s.id} />
       <DirectorySeo
-        title={s.nome_fantasia + " — " + (s.segmentos[0]?.nome || "Fornecedor")}
+        title={s.nome_fantasia + ' — ' + (s.segmentos[0]?.nome || 'Fornecedor')}
         description={s.descricao_curta}
       />
       <Link to="/guia">{t.back}</Link>
@@ -428,13 +387,13 @@ export function SupplierProfile() {
       )}
       <header className="directory-profile-heading">
         <span className="eyebrow">
-          {s.segmentos.map((x) => x.nome).join(" · ")}
+          {s.segmentos.map((x) => x.nome).join(' · ')}
         </span>
         {safeHttps(s.logo_thumb_url || s.logo_url) && (
           <img
             className="directory-logo"
             src={s.logo_thumb_url || s.logo_url}
-            alt={"Logo de " + s.nome_fantasia}
+            alt={'Logo de ' + s.nome_fantasia}
           />
         )}
         <h1>{s.nome_fantasia}</h1>
@@ -493,7 +452,7 @@ export function SupplierProfile() {
                   .filter((x) => safeHttps(x.url))
                   .map((x) => (
                     <figure key={x.id}>
-                      <img src={x.url} alt={x.legenda || ""} loading="lazy" />
+                      <img src={x.url} alt={x.legenda || ''} loading="lazy" />
                       <figcaption>{x.legenda}</figcaption>
                     </figure>
                   ))}
@@ -523,9 +482,9 @@ export function SupplierProfile() {
           )}
           {video && (
             <iframe
-              title={"Vídeo de " + s.nome_fantasia}
+              title={'Vídeo de ' + s.nome_fantasia}
               loading="lazy"
-              src={"https://www.youtube-nocookie.com/embed/" + video}
+              src={'https://www.youtube-nocookie.com/embed/' + video}
               allowFullScreen
             />
           )}
@@ -543,7 +502,7 @@ export function SupplierProfile() {
         </div>
         <aside className="directory-contact">
           <h2>{t.contacts}</h2>
-          {r.source === "demo" ? (
+          {r.source === 'demo' ? (
             <p>{t.demoContact}</p>
           ) : contacts.length ? (
             contacts.map((x) => (
@@ -551,18 +510,18 @@ export function SupplierProfile() {
                 className="directory-button"
                 key={x.label}
                 href={x.url}
-                target={x.url.startsWith("https:") ? "_blank" : undefined}
+                target={x.url.startsWith('https:') ? '_blank' : undefined}
                 rel="noopener noreferrer"
                 onClick={() =>
                   void track(
                     r,
-                    x.url.includes("wa.me")
-                      ? "clique_whatsapp"
-                      : x.url.startsWith("tel:")
-                        ? "clique_telefone"
-                        : x.url.includes("instagram.com")
-                          ? "clique_instagram"
-                          : "clique_site",
+                    x.url.includes('wa.me')
+                      ? 'clique_whatsapp'
+                      : x.url.startsWith('tel:')
+                        ? 'clique_telefone'
+                        : x.url.includes('instagram.com')
+                          ? 'clique_instagram'
+                          : 'clique_site',
                     s.id,
                   )
                 }
@@ -579,8 +538,8 @@ export function SupplierProfile() {
             onClick={(e) => {
               e.preventDefault();
               document
-                .getElementById("pedir-orcamento")
-                ?.scrollIntoView({ behavior: "smooth" });
+                .getElementById('pedir-orcamento')
+                ?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
             Pedir orçamento
@@ -599,8 +558,8 @@ export function SupplierProfile() {
         urls={s.instagram_posts}
         cover={s.capa_url}
         handle={s.instagram
-          .replace(/^https:\/\/(www\.)?instagram.com\//, "")
-          .replace(/\/$/, "")}
+          .replace(/^https:\/\/(www\.)?instagram.com\//, '')
+          .replace(/\/$/, '')}
       />
       <PublicReviews sid={s.id} />
       <SupplierArticles slug={s.slug} />
@@ -613,8 +572,8 @@ export function SupplierProfile() {
             onClick={(e) => {
               e.preventDefault();
               document
-                .getElementById("pedir-orcamento")
-                ?.scrollIntoView({ behavior: "smooth" });
+                .getElementById('pedir-orcamento')
+                ?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
             Pedir orçamento
@@ -632,7 +591,7 @@ export function SupplierProfile() {
 
 function Similar({ supplier }: { supplier: PublicSupplier }) {
   const r = useDirectoryRuntime();
-  const f = { ...empty, segmento: supplier.segmentos[0]?.slug || "" };
+  const f = { ...empty, segmento: supplier.segmentos[0]?.slug || '' };
   const q = useQuery({
     queryKey: searchKey(r, f),
     queryFn: () => searchDirectory(r, f),

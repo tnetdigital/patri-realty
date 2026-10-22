@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/guia?utm_source=teste",
+    "status": 200,
+    "title": "Boas soluções começam com boas conexões. | Patri Realty",
+    "description": "Boas soluções começam com boas conexões.. Encontre fornecedores por especialidade e região. Conheça a empresa, explore seus serviços e escolha seu próximo parceiro.",
+    "robots": "index,follow",
+    "canonical": "http://127.0.0.1:15183/guia"
+  },
+  {
+    "path": "/materias?pagina=2&utm_medium=teste",
+    "status": 200,
+    "title": "Matérias — página 2 | Patri Realty",
+    "description": "Conhecimento e perspectivas para a gestão condominial.",
+    "robots": "index,follow",
+    "canonical": "http://127.0.0.1:15183/materias?pagina=2"
+  },
+  {
+    "path": "/guia/teste/sp/cidade/extra",
+    "status": 404,
+    "title": "Página não encontrada | Patri Realty",
+    "description": "O endereço não está disponível. Explore o guia e as publicações da Patri Realty.",
+    "robots": "noindex,nofollow",
+    "canonical": null
+  },
+  {
+    "path": "/fornecedor/ausente",
+    "status": 404,
+    "title": "Página não encontrada | Patri Realty",
+    "description": "O endereço não está disponível. Explore o guia e as publicações da Patri Realty.",
+    "robots": "noindex,nofollow",
+    "canonical": null
+  },
+  {
+    "path": "/confirmar-email?token=synthetic",
+    "status": 200,
+    "title": "Patri Realty — conexões para condomínios | Patri Realty",
+    "description": "Encontre fornecedores por especialidade e região.",
+    "robots": "noindex,nofollow",
+    "canonical": null
+  }
+]

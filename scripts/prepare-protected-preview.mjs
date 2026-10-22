@@ -25,7 +25,12 @@ const result = await build({
       enforce: 'pre',
       transform(code, id) {
         if (id.replaceAll('\\', '/').endsWith('/src/main.tsx'))
-          return code.replaceAll('BrowserRouter', 'HashRouter');
+          return code
+            .replaceAll('BrowserRouter', 'HashRouter')
+            .replace(
+              'const legacyHashRouting = false;',
+              'const legacyHashRouting = true;',
+            );
         if (id.replaceAll('\\', '/').endsWith('/src/pages/Home.tsx'))
           return code
             .replaceAll(

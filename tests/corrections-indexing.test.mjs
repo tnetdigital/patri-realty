@@ -3,7 +3,8 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 const read = (p) => readFileSync(p, "utf8");
 test("F17 relatório SSR reconhecido e privado para indexação", () => {
-  const s = read("src/entry-server.tsx");
+  assert.match(read("src/entry-server.tsx"), /decideSeo/);
+  const s = read("src/seo/policy.ts");
   assert.match(s, /relatorio/);
   assert.match(s, /noindex[\s\S]*relatorio|relatorio[\s\S]*noindex/);
 });

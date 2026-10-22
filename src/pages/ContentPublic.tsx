@@ -1,90 +1,81 @@
-import { ArticleEngagement, track } from "../features/growth/events";
-import { ViewEvent } from "../features/growth/events";
-import { AdSlot } from "../features/commercial/AdSlot";
-import { ContentCards } from "../features/content/PublicCards";
-import { useEffect } from "react";
+import { usePageMetadata } from '../seo/metadata';
+import { contentMetadata, publicRedirect } from '../seo/policy';
+import { ArticleEngagement, track } from '../features/growth/events';
+import { ViewEvent } from '../features/growth/events';
+import { AdSlot } from '../features/commercial/AdSlot';
+import { ContentCards } from '../features/content/PublicCards';
+import { useEffect } from 'react';
 import {
   Link,
   useLocation,
   useNavigate,
   useParams,
   useSearchParams,
-} from "react-router-dom";
-import { useQuery } from "@tanstack/react-query";
-import { useDirectoryRuntime } from "../features/directory/api";
-import { contentKey, contentPublic } from "../features/content/api";
-import { ArticleBody } from "../features/content/Blocks";
-import { NewsletterForm } from "../features/content/Newsletter";
-import type { Article, Magazine } from "../features/content/model";
-import "../features/content/content.css";
+} from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+import { useDirectoryRuntime } from '../features/directory/api';
+import { contentKey, contentPublic } from '../features/content/api';
+import { ArticleBody } from '../features/content/Blocks';
+import { NewsletterForm } from '../features/content/Newsletter';
+import type { Article, Magazine } from '../features/content/model';
+import '../features/content/content.css';
 export default function ContentPublic({ demo = false }: { demo?: boolean }) {
   const runtime = useDirectoryRuntime(),
-    r = demo ? { ...runtime, source: "demo" as const } : runtime,
+    r = demo ? { ...runtime, source: 'demo' as const } : runtime,
     { slug, category } = useParams(),
     loc = useLocation(),
     nav = useNavigate(),
-    [params, setParams] = useSearchParams(),
-    base = demo ? "/demonstracao-editorial" : "",
+    [params] = useSearchParams(),
+    base = demo ? '/demonstracao-editorial' : '',
     path = loc.pathname.slice(base.length),
-    magazine = path.startsWith("/revista"),
+    magazine = path.startsWith('/revista'),
     detail = !!slug,
     kind = detail
       ? magazine
-        ? "revista"
-        : "materia"
+        ? 'revista'
+        : 'materia'
       : magazine
-        ? "catalogo"
-        : "lista",
-    page = Math.max(1, Math.min(10000, Number(params.get("pagina")) || 1));
+        ? 'catalogo'
+        : 'lista',
+    page = Math.max(1, Math.min(10000, Number(params.get('pagina')) || 1));
   const q = useQuery({
-      queryKey: contentKey(r, kind, slug || "", category || "", page),
-      queryFn: () => contentPublic(r, kind, slug || "", category || "", page),
+      queryKey: contentKey(r, kind, slug || '', category || '', page),
+      queryFn: () => contentPublic(r, kind, slug || '', category || '', page),
     }),
     catalog = useQuery({
-      queryKey: contentKey(r, "catalogo"),
-      queryFn: () => contentPublic(r, "catalogo"),
+      queryKey: contentKey(r, 'catalogo'),
+      queryFn: () => contentPublic(r, 'catalogo'),
     });
   const article =
       !magazine && detail ? (q.data?.item as Article | null) : undefined,
     issue = magazine && detail ? (q.data?.item as Magazine | null) : undefined;
   useEffect(() => {
-    if (q.data?.redirect) nav(base + q.data.redirect, { replace: true });
-    document.title =
-      (article?.seo_titulo ||
-        article?.titulo ||
-        issue?.titulo ||
-        (magazine ? "Revista" : "Matérias")) + " | Patri Realty";
-    const description =
-      article?.seo_descricao ||
-      article?.resumo ||
-      "Leituras e referências para a gestão condominial.";
-    let meta = document.querySelector("meta[name=description]");
-    if (!meta) {
-      meta = document.createElement("meta");
-      meta.setAttribute("name", "description");
-      document.head.append(meta);
-    }
-    meta.setAttribute("content", description);
-    let robots = document.querySelector("meta[name=robots]");
-    if (!robots) {
-      robots = document.createElement("meta");
-      robots.setAttribute("name", "robots");
-      document.head.append(robots);
-    }
-    robots.setAttribute(
-      "content",
-      r.source === "demo" ||
-        q.data?.not_found ||
-        (detail && !q.isPending && !q.data?.item)
-        ? "noindex,follow"
-        : "index,follow",
-    );
-  }, [article?.id, issue?.id, q.data?.redirect, magazine, base, nav]);
+    const target = publicRedirect(q.data?.redirect);
+    if (target) nav(base + target, { replace: true });
+  }, [q.data?.redirect, base, nav]);
+  const meta = contentMetadata({
+    path,
+    category,
+    title: article?.seo_titulo || article?.titulo || issue?.titulo,
+    description: article?.seo_descricao || article?.resumo,
+    edition: issue?.edicao,
+  });
+  usePageMetadata({
+    ...meta,
+    source: r.source,
+    status: q.isError
+      ? 503
+      : q.data?.not_found || (detail && !q.isPending && !q.data?.item)
+        ? 404
+        : 200,
+    pending: q.isPending,
+    pageItems: !detail && !magazine ? q.data?.items?.length : undefined,
+  });
   return (
     <section className="content-page container">
       <nav className="content-nav" aria-label="Conteúdo">
-        <Link to={base + (demo ? "" : "/materias")}>Matérias</Link>
-        <Link to={base + "/revista"}>Revista</Link>
+        <Link to={base + (demo ? '' : '/materias')}>Matérias</Link>
+        <Link to={base + '/revista'}>Revista</Link>
         {demo && (
           <>
             <Link to="/demonstracao-conteudo">Redação de demonstração</Link>
@@ -94,7 +85,7 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
           </>
         )}
       </nav>
-      {r.source === "demo" && (
+      {r.source === 'demo' && (
         <aside className="content-notice">
           <strong>Portal editorial de demonstração</strong>
           <p>
@@ -113,7 +104,7 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
       ) : detail ? (
         article ? (
           <article className="content-detail">
-            <Link to={base + "/materias/" + article.categoria_slug}>
+            <Link to={base + '/materias/' + article.categoria_slug}>
               {article.categoria}
             </Link>
             {article.selo && (
@@ -124,10 +115,10 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
             <h1>{article.titulo}</h1>
             <p className="content-lead">{article.resumo}</p>
             <div className="content-author">
-              <span>{article.autor || "Redação Patri Realty"}</span>
+              <span>{article.autor || 'Redação Patri Realty'}</span>
               <time>
                 {article.publicada_em &&
-                  new Date(article.publicada_em).toLocaleDateString("pt-BR")}
+                  new Date(article.publicada_em).toLocaleDateString('pt-BR')}
               </time>
               <span>{article.tempo_leitura || 1} min de leitura</span>
             </div>
@@ -163,9 +154,9 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
                 <p>{article.fornecedor.descricao}</p>
                 <Link
                   onClick={() =>
-                    void track(r, "clique_perfil_materia", article.id)
+                    void track(r, 'clique_perfil_materia', article.id)
                   }
-                  to={"/fornecedor/" + article.fornecedor.slug}
+                  to={'/fornecedor/' + article.fornecedor.slug}
                 >
                   Conhecer o fornecedor
                 </Link>
@@ -183,12 +174,12 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
                 decoding="async"
                 className="article-cover"
                 src={issue.capa_url}
-                alt={"Capa de " + issue.titulo}
+                alt={'Capa de ' + issue.titulo}
               />
             )}
             <p>
               {issue.publicada_em &&
-                new Date(issue.publicada_em).toLocaleDateString("pt-BR")}
+                new Date(issue.publicada_em).toLocaleDateString('pt-BR')}
             </p>
             <a
               className="content-button"
@@ -203,7 +194,7 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
           <>
             <h1>Publicação não encontrada</h1>
             <p>Ela pode estar em preparação ou fora do ar.</p>
-            <Link to={base + (demo ? "" : "/materias")}>
+            <Link to={base + (demo ? '' : '/materias')}>
               Explorar matérias publicadas
             </Link>
           </>
@@ -214,7 +205,7 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
           <h1>Perspectivas para novas conexões.</h1>
           {catalog.data?.revistas?.filter(
             (x) =>
-              x.status === "publicada" &&
+              x.status === 'publicada' &&
               !!x.publicada_em &&
               Date.parse(x.publicada_em) <= Date.now(),
           ).length ? (
@@ -222,7 +213,7 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
               {catalog.data.revistas
                 .filter(
                   (x) =>
-                    x.status === "publicada" &&
+                    x.status === 'publicada' &&
                     !!x.publicada_em &&
                     Date.parse(x.publicada_em) <= Date.now(),
                 )
@@ -234,15 +225,15 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
                         height={720}
                         decoding="async"
                         src={m.capa_url}
-                        alt={"Capa da edição " + m.edicao}
+                        alt={'Capa da edição ' + m.edicao}
                         loading="lazy"
                       />
                     )}
                     <h2>
-                      <Link to={base + "/revista/" + m.slug}>{m.titulo}</Link>
+                      <Link to={base + '/revista/' + m.slug}>{m.titulo}</Link>
                     </h2>
                     <p>Edição {m.edicao}</p>
-                    <Link to={base + "/revista/" + m.slug}>
+                    <Link to={base + '/revista/' + m.slug}>
                       Conhecer a edição
                     </Link>
                   </article>
@@ -265,9 +256,9 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
             </p>
           </div>
           <nav className="content-nav" aria-label="Categorias de matérias">
-            <Link to={base + (demo ? "" : "/materias")}>Todas</Link>
+            <Link to={base + (demo ? '' : '/materias')}>Todas</Link>
             {catalog.data?.categorias?.map((c) => (
-              <Link key={c.id} to={base + "/materias/" + c.slug}>
+              <Link key={c.id} to={base + '/materias/' + c.slug}>
                 {c.nome}
               </Link>
             ))}
@@ -281,27 +272,35 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
           )}
           {(q.data?.total || 0) > 12 && (
             <nav className="content-actions" aria-label="Páginas de matérias">
-              <button
-                disabled={page === 1}
-                onClick={() => setParams({ pagina: String(page - 1) })}
-              >
-                Anterior
-              </button>
+              {page > 1 && (
+                <Link
+                  to={{
+                    pathname: loc.pathname,
+                    search: '?pagina=' + (page - 1),
+                  }}
+                >
+                  Anterior
+                </Link>
+              )}
               <span>
                 Página {page} de {Math.ceil(q.data!.total! / 12)}
               </span>
-              <button
-                disabled={page * 12 >= (q.data?.total || 0)}
-                onClick={() => setParams({ pagina: String(page + 1) })}
-              >
-                Próxima
-              </button>
+              {page * 12 < (q.data?.total || 0) && (
+                <Link
+                  to={{
+                    pathname: loc.pathname,
+                    search: '?pagina=' + (page + 1),
+                  }}
+                >
+                  Próxima
+                </Link>
+              )}
             </nav>
           )}
         </>
       )}
       <div className="content-related">
-        <NewsletterForm demo={r.source === "demo"} />
+        <NewsletterForm demo={r.source === 'demo'} />
       </div>
     </section>
   );

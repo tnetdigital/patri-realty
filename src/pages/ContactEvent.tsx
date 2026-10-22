@@ -1,8 +1,10 @@
-import { useState, type FormEvent } from "react";
-import { Link } from "react-router-dom";
-import { useAuth } from "../features/auth/context";
-import { sendMessage } from "../features/shared/api";
+import { usePageMetadata } from '../seo/metadata';
+import { useState, type FormEvent } from 'react';
+import { Link } from 'react-router-dom';
+import { useAuth } from '../features/auth/context';
+import { sendMessage } from '../features/shared/api';
 export function EventPage() {
+  usePageMetadata();
   return (
     <section className="container page">
       <h1>Eventos Patri Realty</h1>
@@ -16,8 +18,9 @@ export function EventPage() {
   );
 }
 export function ContactPage() {
+  usePageMetadata();
   const { access } = useAuth();
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState('');
   const [busy, setBusy] = useState(false);
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -25,12 +28,12 @@ export function ContactPage() {
     setBusy(true);
     try {
       await sendMessage(
-        String(data.get("nome")),
-        String(data.get("email")),
-        String(data.get("mensagem")),
+        String(data.get('nome')),
+        String(data.get('email')),
+        String(data.get('mensagem')),
       );
       setMessage(
-        "Mensagem recebida. Você pode acompanhar o atendimento com nossa equipe.",
+        'Mensagem recebida. Você pode acompanhar o atendimento com nossa equipe.',
       );
     } catch (e) {
       setMessage((e as Error).message);

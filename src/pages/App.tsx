@@ -1,50 +1,53 @@
-import { ContactPage, EventPage } from "./ContactEvent";
-import { clearAnalyticsSession } from "../features/growth/events";
-import { ui } from "../lib/texts";
-import { useEffect, useState, lazy, Suspense } from "react";
-import { Link, Route, Routes, useLocation } from "react-router-dom";
-import BrandLogo from "../components/BrandLogo";
-import { portalCnpj } from "../lib/brand";
-import { About, Legal, NotFound } from "./InstitutionalPages";
-import { Button } from "../components/ui/button";
-import { RequireRole } from "../components/RequireRole";
-import Header from "../components/Header";
-import Home from "./Home";
-import Directory, { SupplierProfile } from "./Directory";
-import Area from "./Area";
-import { Account, AccountRemoved } from "./AccountPages";
+import { applyMetadata } from '../seo/metadata';
+import { decideSeo } from '../seo/policy';
+import { useDirectoryRuntime } from '../features/directory/api';
+import { ContactPage, EventPage } from './ContactEvent';
+import { clearAnalyticsSession } from '../features/growth/events';
+import { ui } from '../lib/texts';
+import { useEffect, useState, lazy, Suspense } from 'react';
+import { Link, Route, Routes, useLocation } from 'react-router-dom';
+import BrandLogo from '../components/BrandLogo';
+import { portalCnpj } from '../lib/brand';
+import { About, Legal, NotFound } from './InstitutionalPages';
+import { Button } from '../components/ui/button';
+import { RequireRole } from '../components/RequireRole';
+import Header from '../components/Header';
+import Home from './Home';
+import Directory, { SupplierProfile } from './Directory';
+import Area from './Area';
+import { Account, AccountRemoved } from './AccountPages';
 const DemoReviewsPage = lazy(() =>
-  import("../features/growth/Reviews").then((m) => ({
+  import('../features/growth/Reviews').then((m) => ({
     default: m.DemoReviewsPage,
   })),
 );
-const GrowthPage = lazy(() => import("./GrowthPage"));
-const SupplierAds = lazy(() => import("./SupplierAds"));
-const CommercialPage = lazy(() => import("./CommercialPage"));
-const AdvertiserReport = lazy(() => import("./AdvertiserReport"));
+const GrowthPage = lazy(() => import('./GrowthPage'));
+const SupplierAds = lazy(() => import('./SupplierAds'));
+const CommercialPage = lazy(() => import('./CommercialPage'));
+const AdvertiserReport = lazy(() => import('./AdvertiserReport'));
 const AdRedirect = lazy(() =>
-  import("./AdvertiserReport").then((m) => ({ default: m.AdRedirect })),
+  import('./AdvertiserReport').then((m) => ({ default: m.AdRedirect })),
 );
-const EditorialPreview = lazy(() => import("./EditorialPreview"));
-const ContentPublic = lazy(() => import("./ContentPublic"));
-const ContentPanel = lazy(() => import("./ContentPanel"));
-const NewsletterToken = lazy(() => import("./NewsletterToken"));
-const BillingPage = lazy(() => import("./BillingPage"));
-const AdminPage = lazy(() => import("./AdminPage"));
-const OwnerInvitation = lazy(() => import("./OwnerInvitation"));
-const SupplierPortal = lazy(() => import("./SupplierPortal"));
-const InvitePage = lazy(() => import("./InvitePage"));
-const AuthPage = lazy(() => import("./AuthPage"));
+const EditorialPreview = lazy(() => import('./EditorialPreview'));
+const ContentPublic = lazy(() => import('./ContentPublic'));
+const ContentPanel = lazy(() => import('./ContentPanel'));
+const NewsletterToken = lazy(() => import('./NewsletterToken'));
+const BillingPage = lazy(() => import('./BillingPage'));
+const AdminPage = lazy(() => import('./AdminPage'));
+const OwnerInvitation = lazy(() => import('./OwnerInvitation'));
+const SupplierPortal = lazy(() => import('./SupplierPortal'));
+const InvitePage = lazy(() => import('./InvitePage'));
+const AuthPage = lazy(() => import('./AuthPage'));
 function Cookies() {
   const [visible, setVisible] = useState(false),
     [custom, setCustom] = useState(false);
   useEffect(() => {
-    setVisible(!localStorage.getItem("patri:consent"));
+    setVisible(!localStorage.getItem('patri:consent'));
   }, []);
   function save(v: string) {
-    localStorage.setItem("patri:consent", v);
-    if (v !== "analytics") clearAnalyticsSession();
-    window.dispatchEvent(new Event("patri:consent"));
+    localStorage.setItem('patri:consent', v);
+    if (v !== 'analytics') clearAnalyticsSession();
+    window.dispatchEvent(new Event('patri:consent'));
     setVisible(false);
   }
   return visible ? (
@@ -67,43 +70,24 @@ function Cookies() {
         )}
       </div>
       <button onClick={() => setCustom(!custom)}>{ui.personalizar}</button>
-      <Button variant="outline" onClick={() => save("essential")}>
+      <Button variant="outline" onClick={() => save('essential')}>
         {ui.recusar_opcionais}
       </Button>
-      <Button onClick={() => save("analytics")}>Permitir análises</Button>
+      <Button onClick={() => save('analytics')}>Permitir análises</Button>
     </div>
   ) : null;
 }
 export default function App() {
   const loc = useLocation();
+  const seoRuntime = useDirectoryRuntime();
   useEffect(() => {
     if (
-      !/^\/(guia|busca|fornecedor|materias|materia|revista|previa-editorial|sobre-o-projeto|para-fornecedores|termos|privacidade|evento|contato|contrato-fornecedor)(\/|$)/.test(
+      decideSeo(loc.pathname + loc.search, seoRuntime).privateRoute ||
+      !/^\/(guia|busca|fornecedor|materias|materia|revista|sobre-o-projeto|para-fornecedores|termos|privacidade|evento|contato|contrato-fornecedor)(\/|$)/.test(
         loc.pathname,
       )
     ) {
-      document.title =
-        (loc.pathname === "/cadastrar"
-          ? ui.crie_sua_conta
-          : loc.pathname === "/entrar"
-            ? ui.entrar
-            : loc.pathname.startsWith("/admin")
-              ? ui.administracao
-              : ui.conexoes_para_condominios) + " | Patri Realty";
-      let meta = document.querySelector('meta[name="robots"]');
-      if (!meta) {
-        meta = document.createElement("meta");
-        meta.setAttribute("name", "robots");
-        document.head.appendChild(meta);
-      }
-      meta.setAttribute(
-        "content",
-        /admin|painel|conta|entrar|cadastrar|senha|area|demonstracao|relatorio|\/r\/|newsletter|assumir|convite/.test(
-          loc.pathname,
-        )
-          ? "noindex,nofollow"
-          : "index,follow",
-      );
+      applyMetadata(decideSeo(loc.pathname + loc.search, seoRuntime));
     }
     if (loc.hash) {
       requestAnimationFrame(() =>
@@ -112,7 +96,7 @@ export default function App() {
     } else {
       window.scrollTo(0, 0);
     }
-  }, [loc.pathname, loc.hash]);
+  }, [loc.pathname, loc.search, loc.hash, seoRuntime]);
   return (
     <>
       <Header />
@@ -141,17 +125,17 @@ export default function App() {
             <Route path="/sobre-o-projeto" element={<About />} />
             <Route path="/para-fornecedores" element={<About />} />
             {(
-              ["login", "register", "recover", "reset", "confirm"] as const
+              ['login', 'register', 'recover', 'reset', 'confirm'] as const
             ).map((mode, i) => (
               <Route
                 key={mode}
                 path={
                   [
-                    "/entrar",
-                    "/cadastrar",
-                    "/recuperar-senha",
-                    "/redefinir-senha",
-                    "/confirmar-email",
+                    '/entrar',
+                    '/cadastrar',
+                    '/recuperar-senha',
+                    '/redefinir-senha',
+                    '/confirmar-email',
                   ][i]
                 }
                 element={<AuthPage key={mode} mode={mode} />}
@@ -252,7 +236,7 @@ export default function App() {
             <Route path="/demonstracao" element={<SupplierPortal demo />} />
             <Route path="/demonstracao-plano" element={<BillingPage demo />} />
             <Route path="/convite/:token" element={<InvitePage />} />
-            <Route element={<RequireRole roles={["fornecedor"]} />}>
+            <Route element={<RequireRole roles={['fornecedor']} />}>
               <Route
                 path="/painel/materias/*"
                 element={<ContentPanel supplier />}
@@ -274,7 +258,7 @@ export default function App() {
               <Route path="/painel/plano" element={<BillingPage />} />
               <Route path="/painel/*" element={<SupplierPortal />} />
             </Route>
-            <Route element={<RequireRole roles={["admin", "comercial"]} />}>
+            <Route element={<RequireRole roles={['admin', 'comercial']} />}>
               <Route
                 path="/admin/fornecedores/:id/editar"
                 element={<AdminPage />}
@@ -287,24 +271,24 @@ export default function App() {
               <Route path="/admin/comercial/*" element={<CommercialPage />} />
               <Route path="/admin/*" element={<AdminPage />} />
             </Route>
-            <Route element={<RequireRole roles={["admin"]} />}>
+            <Route element={<RequireRole roles={['admin']} />}>
               <Route
                 path="/admin/avaliacoes"
                 element={<GrowthPage admin view="avaliacoes" />}
               />
             </Route>
-            <Route element={<RequireRole roles={["admin", "editor"]} />}>
+            <Route element={<RequireRole roles={['admin', 'editor']} />}>
               <Route path="/admin/conteudo/*" element={<ContentPanel />} />
             </Route>
             <Route
               element={
                 <RequireRole
                   roles={[
-                    "admin",
-                    "editor",
-                    "comercial",
-                    "fornecedor",
-                    "sindico",
+                    'admin',
+                    'editor',
+                    'comercial',
+                    'fornecedor',
+                    'sindico',
                   ]}
                 />
               }
@@ -346,7 +330,7 @@ export default function App() {
       <button
         className="container"
         onClick={() => {
-          localStorage.removeItem("patri:consent");
+          localStorage.removeItem('patri:consent');
           clearAnalyticsSession();
           window.location.reload();
         }}

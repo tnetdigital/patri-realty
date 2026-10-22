@@ -1,104 +1,71 @@
-import { portalCnpj } from "../lib/brand";
-import { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useQuery } from "@tanstack/react-query";
-import { useDirectoryRuntime } from "../features/directory/api";
+import { usePageMetadata } from '../seo/metadata';
+import { portalCnpj } from '../lib/brand';
+import { useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+import { useDirectoryRuntime } from '../features/directory/api';
 import {
-  institutionalMeta,
   publicDocumentVersion,
   documentVersionKey,
   legalIdentity,
   legalKey,
-} from "../features/privacy/legal";
-import "../features/privacy/privacy.css";
+} from '../features/privacy/legal';
+import '../features/privacy/privacy.css';
 function useInstitutionalMeta() {
-  const loc = useLocation();
-  const r = useDirectoryRuntime();
-  useEffect(() => {
-    const meta = institutionalMeta[loc.pathname];
-    if (!meta) return;
-    let robots = document.querySelector('meta[name="robots"]');
-    if (!robots) {
-      robots = document.createElement("meta");
-      robots.setAttribute("name", "robots");
-      document.head.appendChild(robots);
-    }
-    robots.setAttribute(
-      "content",
-      r.source === "demo" ? "noindex,follow" : "index,follow",
-    );
-    document.title = meta.title + " | Patri Realty";
-    let description = document.querySelector('meta[name="description"]');
-    if (!description) {
-      description = document.createElement("meta");
-      description.setAttribute("name", "description");
-      document.head.appendChild(description);
-    }
-    description.setAttribute("content", meta.description);
-    let canonical = document.querySelector('link[rel="canonical"]');
-    if (!canonical) {
-      canonical = document.createElement("link");
-      canonical.setAttribute("rel", "canonical");
-      document.head.appendChild(canonical);
-    }
-    canonical.setAttribute(
-      "href",
-      r.siteUrl.replace(/\/$/, "") + (r.hashRouting ? "/#" : "") + loc.pathname,
-    );
-  }, [loc.pathname, r.siteUrl, r.hashRouting, r.source]);
+  usePageMetadata();
 }
 export function About() {
   const { pathname } = useLocation();
-  const supplier = pathname === "/para-fornecedores";
+  const supplier = pathname === '/para-fornecedores';
   useInstitutionalMeta();
   return (
     <section className="container page privacy-page">
       <nav aria-label="Caminho da página">
-        <Link to="/">Início</Link> /{" "}
-        {supplier ? "Para fornecedores" : "Sobre a Patri"}
+        <Link to="/">Início</Link> /{' '}
+        {supplier ? 'Para fornecedores' : 'Sobre a Patri'}
       </nav>
       <div className="privacy-heading">
         <span className="eyebrow">
-          {supplier ? "SUA EMPRESA, MAIS PRÓXIMA" : "O UNIVERSO PATRI"}
+          {supplier ? 'SUA EMPRESA, MAIS PRÓXIMA' : 'O UNIVERSO PATRI'}
         </span>
         <h1>
           {supplier
-            ? "A próxima conexão do seu negócio começa aqui."
-            : "Boas conexões transformam condomínios."}
+            ? 'A próxima conexão do seu negócio começa aqui.'
+            : 'Boas conexões transformam condomínios.'}
         </h1>
         <p>
           {supplier
-            ? "Um espaço para apresentar sua especialidade com clareza, construir reputação e conversar com quem precisa dos seus serviços."
-            : "A Patri Realty aproxima síndicos, administradoras e fornecedores, reunindo serviços e informação em uma experiência simples de explorar."}
+            ? 'Um espaço para apresentar sua especialidade com clareza, construir reputação e conversar com quem precisa dos seus serviços.'
+            : 'A Patri Realty aproxima síndicos, administradoras e fornecedores, reunindo serviços e informação em uma experiência simples de explorar.'}
         </p>
       </div>
       <div className="institutional-grid">
         <article className="card">
           <h2>
-            {supplier ? "Uma apresentação completa" : "Encontre quem entende"}
+            {supplier ? 'Uma apresentação completa' : 'Encontre quem entende'}
           </h2>
           <p>
             {supplier
-              ? "Organize sua empresa por especialidades e regiões. Mostre serviços, fotos, diferenciais e perguntas frequentes em uma página própria."
-              : "Explore especialidades e encontre empresas pela região onde o condomínio precisa de atendimento."}
+              ? 'Organize sua empresa por especialidades e regiões. Mostre serviços, fotos, diferenciais e perguntas frequentes em uma página própria.'
+              : 'Explore especialidades e encontre empresas pela região onde o condomínio precisa de atendimento.'}
           </p>
-          <Link to={supplier ? "/demonstracao" : "/guia"}>
-            {supplier ? "Experimentar o painel" : "Explorar fornecedores"}
+          <Link to={supplier ? '/demonstracao' : '/guia'}>
+            {supplier ? 'Experimentar o painel' : 'Explorar fornecedores'}
           </Link>
         </article>
         <article className="card">
           <h2>
             {supplier
-              ? "Oportunidades organizadas"
-              : "Conhecimento para decidir"}
+              ? 'Oportunidades organizadas'
+              : 'Conhecimento para decidir'}
           </h2>
           <p>
             {supplier
-              ? "Acompanhe solicitações, mantenha o histórico do atendimento e confira os recursos disponíveis em cada plano."
-              : "Conteúdo editorial e revistas ajudam a acompanhar o setor. Publicidade e conteúdo de marca são identificados."}
+              ? 'Acompanhe solicitações, mantenha o histórico do atendimento e confira os recursos disponíveis em cada plano.'
+              : 'Conteúdo editorial e revistas ajudam a acompanhar o setor. Publicidade e conteúdo de marca são identificados.'}
           </p>
-          <Link to={supplier ? "/demonstracao-plano" : "/materias"}>
-            {supplier ? "Conhecer planos na prévia" : "Ler matérias"}
+          <Link to={supplier ? '/demonstracao-plano' : '/materias'}>
+            {supplier ? 'Conhecer planos na prévia' : 'Ler matérias'}
           </Link>
         </article>
         <article className="card">
@@ -122,11 +89,11 @@ export function About() {
       </div>
       <Link
         className="demo-cta-link"
-        to={supplier ? "/cadastrar?tipo=fornecedor" : "/para-fornecedores"}
+        to={supplier ? '/cadastrar?tipo=fornecedor' : '/para-fornecedores'}
       >
         {supplier
-          ? "Cadastrar minha empresa"
-          : "Sou fornecedor, quero participar"}
+          ? 'Cadastrar minha empresa'
+          : 'Sou fornecedor, quero participar'}
       </Link>
       <p className="privacy-notice">
         Prévia de avaliação: use dados fictícios nas demonstrações. A operação
@@ -136,10 +103,10 @@ export function About() {
   );
 }
 export function Legal() {
-  const { pathname } = useLocation();
-  const privacy = pathname === "/privacidade";
-  const contract = pathname === "/contrato-fornecedor";
   const r = useDirectoryRuntime();
+  const { pathname } = useLocation();
+  const privacy = pathname === '/privacidade';
+  const contract = pathname === '/contrato-fornecedor';
   const identity = useQuery({
     queryKey: legalKey(r),
     queryFn: () => legalIdentity(r),
@@ -151,21 +118,24 @@ export function Legal() {
     staleTime: 300000,
   });
   const operator = identity.data;
-  useInstitutionalMeta();
+  usePageMetadata({
+    status: identity.isError || version.isError ? 503 : 200,
+    pending: identity.isPending || version.isPending,
+  });
   return (
     <article className="container page legal-page">
       <nav aria-label="Caminho da página">
-        <Link to="/">Início</Link> / {privacy ? "Privacidade" : "Termos"}
+        <Link to="/">Início</Link> / {privacy ? 'Privacidade' : 'Termos'}
       </nav>
       <span className="eyebrow">TRANSPARÊNCIA</span>
       <h1>
         {privacy
-          ? "Política de privacidade"
+          ? 'Política de privacidade'
           : contract
-            ? "Contrato de fornecedor"
-            : "Termos de uso"}
+            ? 'Contrato de fornecedor'
+            : 'Termos de uso'}
       </h1>
-      <p>Versão {version.data || "[PENDENTE: versão dos documentos]"}</p>
+      <p>Versão {version.data || '[PENDENTE: versão dos documentos]'}</p>
       {
         <aside className="privacy-notice">
           <strong>[REVISÃO JURÍDICA NECESSÁRIA]</strong>
@@ -226,20 +196,20 @@ export function Legal() {
       <p>CNPJ informado pelo responsável: {portalCnpj}.</p>
       <p>
         {operator?.razao_social
-          ? `${operator.razao_social}${operator.cnpj ? " — CNPJ " + operator.cnpj : ""}.`
-          : "[PENDENTE: razão social do operador]"}{" "}
-        O canal de privacidade e exercício de direitos{" "}
+          ? `${operator.razao_social}${operator.cnpj ? ' — CNPJ ' + operator.cnpj : ''}.`
+          : '[PENDENTE: razão social do operador]'}{' '}
+        O canal de privacidade e exercício de direitos{' '}
         {operator?.email_privacidade ? (
-          <a href={"mailto:" + operator.email_privacidade}>
+          <a href={'mailto:' + operator.email_privacidade}>
             {operator.email_privacidade}
           </a>
         ) : (
-          "[PENDENTE: e-mail de privacidade]."
+          '[PENDENTE: e-mail de privacidade].'
         )}
       </p>
       <p>
-        Atendimento:{" "}
-        {operator?.email_atendimento || "[PENDENTE: e-mail de atendimento]"}.
+        Atendimento:{' '}
+        {operator?.email_atendimento || '[PENDENTE: e-mail de atendimento]'}.
         Domínio oficial: [PENDENTE: domínio].
       </p>
       {privacy ? (
@@ -326,7 +296,7 @@ export function Legal() {
             a conta. Alterações relevantes desta política serão comunicadas e os
             aceites necessários registrados com a versão aplicável.
           </p>
-          <Link to={r.source === "demo" ? "/demonstracao-conta" : "/conta"}>
+          <Link to={r.source === 'demo' ? '/demonstracao-conta' : '/conta'}>
             Gerenciar conta e dados
           </Link>
         </>
@@ -392,7 +362,8 @@ export function Legal() {
   );
 }
 export function NotFound() {
-  const [query, setQuery] = useState("");
+  usePageMetadata({ status: 404 });
+  const [query, setQuery] = useState('');
   const navigate = useNavigate();
   return (
     <section className="container page privacy-page">
@@ -406,7 +377,7 @@ export function NotFound() {
         className="card privacy-card"
         onSubmit={(e) => {
           e.preventDefault();
-          navigate("/guia?q=" + encodeURIComponent(query.trim()));
+          navigate('/guia?q=' + encodeURIComponent(query.trim()));
         }}
       >
         <label>
