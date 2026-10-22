@@ -1,0 +1,21 @@
+{
+  "especialidades": 150,
+  "grupos": 11,
+  "linhas_matriz": 26,
+  "familias": {
+    "guia nacional": 9,
+    "matéria": 11,
+    "guia municipal": 3,
+    "perfil": 3
+  },
+  "piloto": [
+    "MPI-002",
+    "MPI-004",
+    "MPI-006"
+  ],
+  "slugs_duplicados": [],
+  "nomes_normalizados_duplicados": [],
+  "aliases_multidestino": {},
+  "urls_matriz_duplicadas": [],
+  "municipais_aprovadas": 0
+}

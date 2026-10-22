@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 05 — proposta para análise, 22/10/2026
+
+Prompt 04 aprovado. Estratégia e 26 oportunidades entregues, com três matérias candidatas ao piloto; nenhuma autorização editorial/publicação criada. Preservar slugs, aliases e IDs; mudanças conceituais são propostas. Não multiplicar segmentos por cidades. Pesquisa exploratória não mede posição Google, volume ou dificuldade. Oferta/capacidade produtivas desconhecidas. Sem alteração na aplicação/banco/prévia; limite AppDeploy preservado. Ver estrategia.md e prompt05.md.
+
 Data: 22/10/2026. Este registro consolida instruções explícitas, sem alterar o código.
 
 ## Aprovadas pelo usuário

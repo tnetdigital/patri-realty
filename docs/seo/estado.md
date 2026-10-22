@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 05
+
+Prompt 04 aprovado; Prompt 05 executado em 22/10/2026. Estratégia em estrategia.md, matriz-mpi.csv com 26 oportunidades, auditoria de 150 especialidades, dez consultas exploratórias e relatório prompt05.md. Piloto proposto: MPI-002/004/006. Aplicação, banco e indexação preservados; zero liberações municipais. Oferta e capacidade editorial produtivas não comprovadas. Sem deploy; limite e diferença da prévia do Prompt 04 preservados. Registros abaixo são históricos.
+
 Data: 22/10/2026, referência do usuário America/Sao_Paulo.
 
 - Projeto: Patri Realty, tipo F, diretório de fornecedores com editorial.

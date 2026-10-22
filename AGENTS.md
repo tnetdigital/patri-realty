@@ -1,5 +1,7 @@
 # Continuidade do projeto Patri Realty
 
+- Prompt 04 aprovado; Prompt 05 executado em22/10/2026: docs/seo/estrategia.md, matriz-mpi.csv (26 oportunidades), auditoria de150 especialidades e relatório prompt05.md. Três matérias candidatas ao piloto; não são aprovadas/publicadas. Preservar slugs/IDs/aliases; mudanças de taxonomia só propostas. Sem código/banco/deploy; quota AppDeploy anterior continua pendente. Não interpretar matriz como autorização de geração em massa ou indexação. Prompt06 não iniciado.
+
 - O usuário aprovou as fases 1, 2 e 3 e autorizou a fase 4. A fase 4 foi implementada e entregue para análise; registrar novas aprovações quando chegarem.
 - Ao final de cada entrega, atualizar a prévia e incluir o link para análise. Usar sempre o app_id `patri-realty-previa-05je1j` e URL `https://patri-realty-previa-05je1j.v2.appdeploy.ai/`. O guia fica em `#/guia`; a demonstração do fornecedor em `#/demonstracao`.
 - Antes de editar a publicação, ler o snapshot remoto atual e aplicar apenas arquivos novos/alterados. O snapshot publicado é diferente do local porque usa HashRouter e não carrega credenciais locais.
