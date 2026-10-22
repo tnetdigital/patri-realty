@@ -1,3 +1,5 @@
+export { serializeStructured } from './seo/structured';
+import { graphFromCache } from './seo/structured-cache';
 import {
   institutionalMeta,
   publicDocumentVersion,
@@ -122,38 +124,6 @@ export async function render(url: string, r: DirectoryRuntime) {
       queryFn: () => legalIdentity(r),
     });
   }
-  let structured: object | null =
-    r.source === 'live' &&
-    status === 200 &&
-    u.pathname.startsWith('/fornecedor/')
-      ? (() => {
-          const data = client.getQueryData<
-            import('./features/directory/model').ProfileResult
-          >(profileKey(r, decodeURIComponent(u.pathname.split('/')[2] || '')));
-          const s = data?.fornecedor;
-          return s
-            ? {
-                '@context': 'https://schema.org',
-                '@type': 'LocalBusiness',
-                name: s.nome_fantasia,
-                description: s.descricao_curta,
-                url: r.siteUrl + '/fornecedor/' + s.slug,
-                telephone: s.telefone || undefined,
-                ...(r.source === 'live' && s.avaliacoes > 0 && s.nota !== null
-                  ? {
-                      aggregateRating: {
-                        '@type': 'AggregateRating',
-                        ratingValue: s.nota,
-                        reviewCount: s.avaliacoes,
-                        bestRating: 5,
-                        worstRating: 1,
-                      },
-                    }
-                  : {}),
-              }
-            : null;
-        })()
-      : null;
   if (
     status === 200 &&
     (u.pathname === '/' ||
@@ -205,24 +175,6 @@ export async function render(url: string, r: DirectoryRuntime) {
               : undefined,
         edition: 'edicao' in item ? item.edicao : undefined,
       }));
-      if (!issue && r.source === 'live') {
-        const article = item as Article;
-        structured = {
-          '@context': 'https://schema.org',
-          '@type': 'Article',
-          headline: article.titulo,
-          description: article.resumo,
-          datePublished: article.publicada_em,
-          dateModified: article.atualizado_em || article.publicada_em,
-          author: {
-            '@type': 'Person',
-            name: article.autor || 'Redação Patri Realty',
-          },
-          publisher: { '@type': 'Organization', name: 'Patri Realty' },
-          mainEntityOfPage: r.siteUrl + '/materia/' + article.slug,
-          ...(article.imagem_capa ? { image: article.imagem_capa } : {}),
-        };
-      }
     } else if (u.pathname !== '/') {
       ({ title, description } = contentMetadata({
         path: u.pathname,
@@ -230,31 +182,6 @@ export async function render(url: string, r: DirectoryRuntime) {
       }));
     }
   }
-  if (u.pathname === '/' && r.source === 'live')
-    structured = {
-      '@context': 'https://schema.org',
-      '@graph': [
-        {
-          '@type': 'Organization',
-          '@id': r.siteUrl + '/#organization',
-          name: 'Patri Realty',
-          url: r.siteUrl,
-        },
-        {
-          '@type': 'WebSite',
-          name: 'Patri Realty',
-          url: r.siteUrl,
-          potentialAction: {
-            '@type': 'SearchAction',
-            target: {
-              '@type': 'EntryPoint',
-              urlTemplate: r.siteUrl + '/guia?q={search_term_string}',
-            },
-            'query-input': 'required name=search_term_string',
-          },
-        },
-      ],
-    };
   const html = await new Promise<string>((resolve, reject) => {
     const output = new PassThrough();
     let content = '';
@@ -279,24 +206,25 @@ export async function render(url: string, r: DirectoryRuntime) {
     );
     setTimeout(() => stream.abort(), 15000).unref();
   });
+  const finalSeo = decideSeo(url, {
+    ...r,
+    title,
+    description,
+    status,
+    pageItems,
+    localEligibility: eligibility,
+    redirect:
+      redirect &&
+      u.pathname.startsWith('/fornecedor/') &&
+      !redirect.startsWith('/')
+        ? '/fornecedor/' + encodeURIComponent(redirect)
+        : redirect,
+  });
   return {
     html,
-    structured,
+    structured: graphFromCache(url, r, client, finalSeo),
     state: dehydrate(client),
-    ...decideSeo(url, {
-      ...r,
-      title,
-      description,
-      status,
-      pageItems,
-      localEligibility: eligibility,
-      redirect:
-        redirect &&
-        u.pathname.startsWith('/fornecedor/') &&
-        !redirect.startsWith('/')
-          ? '/fornecedor/' + encodeURIComponent(redirect)
-          : redirect,
-    }),
+    ...finalSeo,
   };
 }
 export { sitemapData };

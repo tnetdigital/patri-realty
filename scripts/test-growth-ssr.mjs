@@ -59,11 +59,11 @@ try {
   sql(`update public.avaliacoes set status='publicada' where id='${rid}'`);
   html = await (await fetch(url)).text();
   assert.ok(
-    html.includes("AggregateRating"),
-    "publicada gera avaliação estruturada",
+    !html.includes("AggregateRating"),
+    "DTO agregado não comprova elegibilidade do recurso; sem markup de nota",
   );
-  assert.match(html, /"ratingValue":4/);
-  assert.match(html, /"reviewCount":1/);
+  assert.ok(html.replace(/<[^>]*>/g, "").includes("4 / 5"), "nota pública permanece visível");
+  assert.ok(html.replace(/<[^>]*>/g, "").includes("1 avaliações publicadas"));
   sql(`update public.avaliacoes set status='removida' where id='${rid}'`);
   html = await (await fetch(url)).text();
   assert.ok(
@@ -71,7 +71,7 @@ try {
     "removida sai imediatamente do schema",
   );
   console.log(
-    "Reputação SSR: somente avaliação publicada gera AggregateRating; pendência e remoção retiram o schema.",
+    "Reputação SSR: notas públicas preservadas; AggregateRating suprimido sem prova completa de elegibilidade.",
   );
 } finally {
   server.kill();

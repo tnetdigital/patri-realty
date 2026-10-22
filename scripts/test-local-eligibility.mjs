@@ -13,6 +13,7 @@ export async function createLocalHarness() {
   const reviewFile = join(folder, 'review.json');
   await writeFile(reviewFile, JSON.stringify([fixture.review]));
   const state = {
+    article: null,
     publicCount: 3,
     stateOnly: false,
     wrongSegment: false,
@@ -82,13 +83,16 @@ export async function createLocalHarness() {
         locais: [{ segmento: 'teste', uf: 'SP', cidade: 'cidade-teste' }],
       };
     else if (req.url.includes('conteudo_publico'))
-      data = {
-        categorias: [],
-        revistas: [],
-        materias: [],
-        items: [],
-        total: 0,
-      };
+      data =
+        body.kind === 'materia' && state.article
+          ? { item: state.article }
+          : {
+              categorias: [],
+              revistas: [],
+              materias: [],
+              items: [],
+              total: 0,
+            };
     else if (req.url.includes('configuracoes'))
       data = [
         {

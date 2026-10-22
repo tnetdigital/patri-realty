@@ -107,9 +107,11 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
             <Link to={base + '/materias/' + article.categoria_slug}>
               {article.categoria}
             </Link>
-            {article.selo && (
+            {(article.selo || article.tipo !== 'editorial') && (
               <p>
-                <span className="content-tag">{article.selo}</span>
+                <span className="content-tag">
+                  {article.selo || 'Conteúdo de marca'}
+                </span>
               </p>
             )}
             <h1>{article.titulo}</h1>

@@ -31,6 +31,7 @@ const {
   localEligibility,
   parseLocalReviews,
   approvedLocalGuides,
+  serializeStructured,
 } = await import('./dist-server/entry-server.js');
 if (runtime.source === 'live' && (!env.VITE_SITE_URL || !canonicalOrigin(base)))
   throw new Error(
@@ -363,7 +364,7 @@ http
       html = html
         .replace(
           '</head>',
-          `${result.structured ? `<script type="application/ld+json">${JSON.stringify(result.structured).replace(/</g, '\\u003c')}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base + '/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(result.canonical || '')}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.robots}">${result.canonical ? `<link rel="canonical" href="${esc(result.canonical)}">` : ''}</head>`,
+          `${result.structured ? `<script type="application/ld+json">${serializeStructured(result.structured)}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base + '/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(result.canonical || '')}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.robots}">${result.canonical ? `<link rel="canonical" href="${esc(result.canonical)}">` : ''}</head>`,
         )
         .replace(
           '<div id="root"></div>',

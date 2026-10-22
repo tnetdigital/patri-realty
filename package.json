@@ -37,7 +37,8 @@
     "test:preview-security": "node --test tests/preview-access-http.test.mjs && node scripts/test-preview-server.mjs",
     "test:seo": "node scripts/test-seo-contract.mjs",
     "test:eligibility": "node scripts/test-local-eligibility.mjs",
-    "review:local": "node scripts/review-local-document.mjs"
+    "review:local": "node scripts/review-local-document.mjs",
+    "test:structured": "node scripts/test-structured.mjs"
   },
   "keywords": [],
   "author": "",

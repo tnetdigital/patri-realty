@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 06 — execução após aprovação do Prompt 05
+
+Grafo compartilhado SSR/cliente com origem confiável, allowlist de dados públicos e serialização segura. Fornecedor usa Organization até comprovar LocalBusiness/subtipo. Service.provider nunca aponta à Patri por serviços de terceiros. Redação é Organization; autor pessoal tem ID público no contexto da matéria para não unir homônimos. Não inferir dateModified de atualização administrativa. Sem AggregateRating até comprovação de elegibilidade, preservando notas visíveis; nenhum schema de FAQ/HowTo/speakable adicionado. Indexação segue políticas03/04. Sem banco/deploy/publicação de conteúdo; quota AppDeploy anterior preservada. Ver prompt06.md.
+
 ## Prompt 05 — proposta para análise, 22/10/2026
 
 Prompt 04 aprovado. Estratégia e 26 oportunidades entregues, com três matérias candidatas ao piloto; nenhuma autorização editorial/publicação criada. Preservar slugs, aliases e IDs; mudanças conceituais são propostas. Não multiplicar segmentos por cidades. Pesquisa exploratória não mede posição Google, volume ou dificuldade. Oferta/capacidade produtivas desconhecidas. Sem alteração na aplicação/banco/prévia; limite AppDeploy preservado. Ver estrategia.md e prompt05.md.

@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 06
+
+Prompt05 aprovado; grafo semântico implementado em22/10/2026, mantendo stack e banco. Relatório prompt06.md; builders comuns SSR/cliente e exemplos isolados. Testes121unitários,60HTTP,14grafo/navegador,22SEO,17gate e12proteção aprovados, builds/typecheck/lint e scanners aprovados. AggregateRating suprimido conservadoramente; notas públicas preservadas. Nenhum fornecedor, conteúdo, aprovação ou localidade real criado. Sem deploy por quota AppDeploy anterior pendente; documentação/código no GitHub para análise. Registros abaixo são históricos.
+
 ## Estado mais recente — Prompt 05
 
 Prompt 04 aprovado; Prompt 05 executado em 22/10/2026. Estratégia em estrategia.md, matriz-mpi.csv com 26 oportunidades, auditoria de 150 especialidades, dez consultas exploratórias e relatório prompt05.md. Piloto proposto: MPI-002/004/006. Aplicação, banco e indexação preservados; zero liberações municipais. Oferta e capacidade editorial produtivas não comprovadas. Sem deploy; limite e diferença da prévia do Prompt 04 preservados. Registros abaixo são históricos.

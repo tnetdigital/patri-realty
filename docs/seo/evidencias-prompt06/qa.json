@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "name": "home",
+      "path": "/",
+      "status": 200,
+      "graph": true
+    },
+    {
+      "name": "nacional",
+      "path": "/guia/teste",
+      "status": 200,
+      "graph": true
+    },
+    {
+      "name": "municipal_sintetica",
+      "path": "/guia/teste/sp/cidade-teste",
+      "status": 200,
+      "graph": true
+    },
+    {
+      "name": "perfil",
+      "path": "/fornecedor/synthetic-0",
+      "status": 200,
+      "graph": true
+    },
+    {
+      "name": "materia",
+      "path": "/materia/schema-test",
+      "status": 200,
+      "graph": true
+    },
+    {
+      "name": "privada",
+      "path": "/entrar",
+      "status": 200,
+      "graph": false
+    },
+    {
+      "name": "inexistente",
+      "path": "/fornecedor/ausente",
+      "status": 404,
+      "graph": false
+    },
+    {
+      "name": "filtros",
+      "path": "/guia?segmentos=teste,outro",
+      "status": 200,
+      "graph": false
+    },
+    {
+      "name": "municipal bloqueada por oferta",
+      "graph": false
+    },
+    {
+      "browser": "SSR/hidratação",
+      "path": "/guia/teste",
+      "passed": true
+    },
+    {
+      "browser": "SSR/hidratação",
+      "path": "/fornecedor/synthetic-0",
+      "passed": true
+    },
+    {
+      "browser": "SSR/hidratação",
+      "path": "/materia/schema-test",
+      "passed": true
+    },
+    {
+      "browser": "matéria → guia sem Article residual",
+      "passed": true
+    },
+    {
+      "browser": "rota privada sem grafo e sem erro de execução",
+      "passed": true
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import { useQueryClient } from '@tanstack/react-query';
+import { graphFromCache } from '../seo/structured-cache';
 import { applyMetadata } from '../seo/metadata';
 import { decideSeo } from '../seo/policy';
 import { useDirectoryRuntime } from '../features/directory/api';
@@ -80,6 +82,7 @@ function Cookies() {
 export default function App() {
   const loc = useLocation();
   const seoRuntime = useDirectoryRuntime();
+  const seoClient = useQueryClient();
   useEffect(() => {
     if (
       decideSeo(loc.pathname + loc.search, seoRuntime).privateRoute ||
@@ -87,7 +90,9 @@ export default function App() {
         loc.pathname,
       )
     ) {
-      applyMetadata(decideSeo(loc.pathname + loc.search, seoRuntime));
+      const path = loc.pathname + loc.search;
+      const seo = decideSeo(path, seoRuntime);
+      applyMetadata(seo, graphFromCache(path, seoRuntime, seoClient, seo));
     }
     if (loc.hash) {
       requestAnimationFrame(() =>
@@ -96,7 +101,7 @@ export default function App() {
     } else {
       window.scrollTo(0, 0);
     }
-  }, [loc.pathname, loc.search, loc.hash, seoRuntime]);
+  }, [loc.pathname, loc.search, loc.hash, seoRuntime, seoClient]);
   return (
     <>
       <Header />

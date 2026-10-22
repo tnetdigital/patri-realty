@@ -1,9 +1,25 @@
+import { useQueryClient } from '@tanstack/react-query';
+import { graphFromCache } from './structured-cache';
+import { serializeStructured } from './structured';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useDirectoryRuntime } from '../features/directory/api';
 import { decideSeo, type SeoInput } from './policy';
 
-export function applyMetadata(seo: ReturnType<typeof decideSeo>) {
+export function applyMetadata(
+  seo: ReturnType<typeof decideSeo>,
+  graph: unknown = null,
+) {
+  document
+    .querySelectorAll('script[type="application/ld+json"]')
+    .forEach((node) => node.remove());
+  if (graph) {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.dataset.patri = 'structured';
+    script.textContent = serializeStructured(graph);
+    document.head.appendChild(script);
+  }
   document.title = seo.title;
   const tags = [
     ['name', 'description', seo.description],
@@ -37,12 +53,21 @@ export function applyMetadata(seo: ReturnType<typeof decideSeo>) {
 }
 
 export function usePageMetadata(options: Partial<SeoInput> = {}) {
+  const client = useQueryClient();
   const runtime = useDirectoryRuntime();
   const loc = useLocation();
   const seo = decideSeo(loc.pathname + loc.search, { ...runtime, ...options });
+  const graph = serializeStructured(
+    graphFromCache(
+      loc.pathname + loc.search,
+      { ...runtime, ...options },
+      client,
+      seo,
+    ),
+  );
   useEffect(
-    () => applyMetadata(seo),
-    [seo.title, seo.description, seo.robots, seo.canonical],
+    () => applyMetadata(seo, JSON.parse(graph)),
+    [seo.title, seo.description, seo.robots, seo.canonical, graph],
   );
 }
 
