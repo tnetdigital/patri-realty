@@ -17,3 +17,10 @@ dist-server/
 infra/local/compose.yml
 infra/local/bootstrap.sql
 *.log
+
+# Unpublished editorial material and protected deployment artifacts
+.private/
+.private-build/
+backend/private-preview.generated.ts
+content/editorial/
+src/data/editorial-drafts.json

@@ -7,6 +7,9 @@ export default ts.config(
       "dist-server/**",
       "node_modules/**",
       "src/lib/database.types.ts",
+      ".preview/**",
+      ".private-build/**",
+      "backend/private-preview.generated.ts",
     ],
   },
   {

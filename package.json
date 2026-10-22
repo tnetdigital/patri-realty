@@ -28,10 +28,13 @@
     "local:quotations": "node scripts/local-quotations.mjs",
     "launch:check": "node scripts/launch-readiness.mjs",
     "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.edge.json",
-    "lint": "eslint src scripts server.mjs supabase/functions tests --quiet",
+    "lint": "eslint src scripts server.mjs server backend preview-host supabase/functions tests --quiet",
     "check:env": "node scripts/check-env.mjs",
     "check:architecture": "node --test tests/corrections-access.test.mjs",
-    "local:init": "node scripts/local-init.mjs"
+    "local:init": "node scripts/local-init.mjs",
+    "check:private-editorial": "node scripts/check-private-editorial.mjs",
+    "preview:protected": "node scripts/prepare-protected-preview.mjs",
+    "test:preview-security": "node --test tests/preview-access-http.test.mjs && node scripts/test-preview-server.mjs"
   },
   "keywords": [],
   "author": "",

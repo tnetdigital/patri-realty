@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import articles from '../data/editorial-drafts.json';
+import {
+  loadEditorialReview,
+  type EditorialArticle,
+} from '../features/content/editorial-review';
 import './editorial-preview.css';
 
-type Article = (typeof articles)[number];
+type Article = EditorialArticle;
 const root = '/previa-editorial';
-const categories = [...new Set(articles.map((article) => article.category))];
 
 function Photo({
   article,
@@ -84,7 +86,7 @@ function SourcedText({ text, article }: { text: string; article: Article }) {
   );
 }
 
-function downloadKit() {
+function downloadKit(articles: Article[]) {
   const blob = new Blob(
     [
       JSON.stringify(
@@ -106,6 +108,25 @@ function downloadKit() {
 }
 
 export default function EditorialPreview() {
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [loadError, setLoadError] = useState('');
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    const controller = new AbortController();
+    loadEditorialReview(controller.signal)
+      .then((data) => {
+        if (!controller.signal.aborted) {
+          setArticles(data);
+          setLoaded(true);
+        }
+      })
+      .catch(() => {
+        if (!controller.signal.aborted)
+          setLoadError('A revisão exige acesso à prévia protegida.');
+      });
+    return () => controller.abort();
+  }, []);
+  const categories = [...new Set(articles.map((item) => item.category))];
   const { slug } = useParams();
   const [category, setCategory] = useState('Todos');
   const [query, setQuery] = useState('');
@@ -133,6 +154,19 @@ export default function EditorialPreview() {
         .toLowerCase()
         .includes(normalized),
   );
+  if (loadError)
+    return (
+      <section className="container page" role="alert">
+        <h1>Revisão restrita</h1>
+        <p>{loadError}</p>
+      </section>
+    );
+  if (!loaded)
+    return (
+      <p className="container page" role="status">
+        Carregando revisão protegida…
+      </p>
+    );
   return (
     <div className="ed-shell">
       <div className="ed-status">
@@ -322,7 +356,7 @@ export default function EditorialPreview() {
               ranking. As fotografias de arquivo e de contexto estão
               identificadas nas matérias.
             </p>
-            <button type="button" onClick={downloadKit}>
+            <button type="button" onClick={() => downloadKit(articles)}>
               Baixar os 12 textos e metadados
             </button>
           </section>

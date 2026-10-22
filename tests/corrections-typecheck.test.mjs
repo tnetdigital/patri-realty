@@ -10,8 +10,13 @@ test("F15 uma quebra de tipo na Edge é detectada", () => {
       'const edgePayload: number = "invalid"; export {edgePayload};',
     );
     const r = spawnSync(
-      "npx",
-      ["tsc", "--noEmit", "-p", "tsconfig.edge.json"],
+      process.execPath,
+      [
+        "node_modules/typescript/bin/tsc",
+        "--noEmit",
+        "-p",
+        "tsconfig.edge.json",
+      ],
       { encoding: "utf8" },
     );
     assert.notEqual(r.status, 0);

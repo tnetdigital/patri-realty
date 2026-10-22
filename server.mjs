@@ -1,8 +1,12 @@
-import {gzipSync} from 'node:zlib';
+import { gzipSync } from 'node:zlib';
 import http from 'node:http';
 import { readFile } from 'node:fs/promises';
-import { resolve, extname } from 'node:path';
+import { resolve, extname, relative, isAbsolute } from 'node:path';
 import { loadEnv } from 'vite';
+import {
+  createPreviewGuard,
+  PRIVATE_HEADERS,
+} from './server/preview-access.mjs';
 const env = { ...loadEnv('production', process.cwd(), ''), ...process.env };
 const port = Number(env.PORT || 5175),
   base = env.VITE_SITE_URL || `http://127.0.0.1:${port}`;
@@ -13,9 +17,15 @@ const runtime = {
   siteUrl: base,
   hashRouting: false,
 };
+const previewMode =
+  env.PATRI_PREVIEW_MODE === 'true' || runtime.source === 'demo';
+const previewGuard = createPreviewGuard({
+  enabled: previewMode,
+  password: env.PREVIEW_ACCESS_PASSWORD,
+});
 const { render, sitemapData, contentSitemap } =
   await import('./dist-server/entry-server.js');
-const ssrCache=new Map();
+const ssrCache = new Map();
 const template = await readFile('dist/index.html', 'utf8');
 const esc = (s) =>
   String(s).replace(
@@ -31,19 +41,66 @@ const esc = (s) =>
   );
 http
   .createServer(async (req, res) => {
-    const originalEnd=res.end.bind(res);
-    res.end=(data,...args)=>{const type=String(res.getHeader('Content-Type')||'');if(!res.headersSent && data && /gzip/.test(req.headers['accept-encoding']||'') && /text|javascript|json|xml|svg/.test(type)){const bytes=Buffer.isBuffer(data)?data:Buffer.from(data);if(bytes.length>1024){res.setHeader('Content-Encoding','gzip');res.setHeader('Vary','Accept-Encoding');return originalEnd(gzipSync(bytes),...args)}}return originalEnd(data,...args)};
-    res.setHeader('X-Content-Type-Options' , 'nosniff');
+    const originalEnd = res.end.bind(res);
+    res.end = (data, ...args) => {
+      const type = String(res.getHeader('Content-Type') || '');
+      if (
+        !res.headersSent &&
+        data &&
+        /gzip/.test(req.headers['accept-encoding'] || '') &&
+        /text|javascript|json|xml|svg/.test(type)
+      ) {
+        const bytes = Buffer.isBuffer(data) ? data : Buffer.from(data);
+        if (bytes.length > 1024) {
+          res.setHeader('Content-Encoding', 'gzip');
+          res.setHeader('Vary', 'Accept-Encoding');
+          return originalEnd(gzipSync(bytes), ...args);
+        }
+      }
+      return originalEnd(data, ...args);
+    };
+    res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
     res.setHeader(
       'Permissions-Policy',
       'camera=(), microphone=(), geolocation=()',
     );
     res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+    if (!previewGuard(req, res)) return;
     try {
       const u = new URL(req.url, base);
+      if (u.pathname === '/api/editorial-review') {
+        if (!previewMode || !env.PATRI_EDITORIAL_REVIEW_FILE) {
+          res.writeHead(404).end();
+          return;
+        }
+        for (const [key, value] of Object.entries(PRIVATE_HEADERS))
+          res.setHeader(key, value);
+        try {
+          const items = JSON.parse(
+            await readFile(env.PATRI_EDITORIAL_REVIEW_FILE, 'utf8'),
+          );
+          if (!Array.isArray(items)) throw new Error('Invalid review data');
+          res.writeHead(200, {
+            'Content-Type': 'application/json; charset=utf-8',
+          });
+          res.end(JSON.stringify(items));
+        } catch {
+          res.writeHead(503, { 'Content-Type': 'text/plain; charset=utf-8' });
+          res.end('Revisão editorial indisponível.');
+        }
+        return;
+      }
+      if (!previewMode && u.pathname.startsWith('/previa-editorial')) {
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('Página não encontrada.');
+        return;
+      }
       if (/^\/r\/[a-f0-9-]{36}$/.test(u.pathname)) {
-        res.setHeader('Cache-Control', 'no-store');
+        res.setHeader(
+          'Cache-Control',
+          previewMode ? PRIVATE_HEADERS['Cache-Control'] : 'no-store',
+        );
         res.setHeader('Referrer-Policy', 'no-referrer');
         let target = null;
         if (runtime.source === 'live') {
@@ -97,7 +154,9 @@ http
                     '/para-fornecedores',
                     '/termos',
                     '/privacidade',
-                    '/evento','/contato','/contrato-fornecedor',
+                    '/evento',
+                    '/contato',
+                    '/contrato-fornecedor',
                   ].map((path) => ({ path })),
                   ...editorial.materias.map((slug) => ({
                     path: '/materia/' + slug,
@@ -117,7 +176,10 @@ http
                   })),
                 ];
         res.setHeader('Content-Type', 'application/xml');
-        res.setHeader('Cache-Control', 'no-store');
+        res.setHeader(
+          'Cache-Control',
+          previewMode ? PRIVATE_HEADERS['Cache-Control'] : 'no-store',
+        );
         res.end(
           `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map((x) => `<url><loc>${esc(base + x.path)}</loc></url>`).join('')}</urlset>`,
         );
@@ -125,7 +187,11 @@ http
       }
       if (extname(u.pathname) && u.pathname !== '/') {
         const file = resolve('dist', '.' + decodeURIComponent(u.pathname));
-        if (!file.startsWith(resolve('dist') + '/')) {
+        const assetRelativePath = relative(resolve('dist'), file);
+        if (
+          assetRelativePath.startsWith('..') ||
+          isAbsolute(assetRelativePath)
+        ) {
           res.writeHead(403).end();
           return;
         }
@@ -143,7 +209,14 @@ http
               '.webp': 'image/webp',
             }[extname(file)] || 'application/octet-stream',
           );
-          res.setHeader('Cache-Control',u.pathname.startsWith('/assets/')?'public,max-age=31536000,immutable':'public,max-age=3600');
+          res.setHeader(
+            'Cache-Control',
+            previewMode
+              ? PRIVATE_HEADERS['Cache-Control']
+              : u.pathname.startsWith('/assets/')
+                ? 'public,max-age=31536000,immutable'
+                : 'public,max-age=3600',
+          );
           res.end(data);
         } catch {
           res.writeHead(404).end();
@@ -151,12 +224,21 @@ http
         return;
       }
       // Short bounded cache for anonymous guide HTML only. Profiles/reports/accounts remain fresh.
-      const cacheKey=u.pathname+u.search;
-      const cacheable=/^\/guia(?:\/|$)/.test(u.pathname) && !req.headers.authorization && !req.headers.cookie;
-      const cached=cacheable?ssrCache.get(cacheKey):null;
-      const result=cached && cached.expires>Date.now()?cached.result:await render(cacheKey,runtime);
-      if(cacheable && result.status===200 && !cached){if(ssrCache.size>=20)ssrCache.delete(ssrCache.keys().next().value);ssrCache.set(cacheKey,{expires:Date.now()+3000,result})}
-      if(cached && cached.expires<=Date.now())ssrCache.delete(cacheKey);
+      const cacheKey = u.pathname + u.search;
+      const cacheable =
+        /^\/guia(?:\/|$)/.test(u.pathname) &&
+        !req.headers.authorization &&
+        !req.headers.cookie;
+      const cached = cacheable ? ssrCache.get(cacheKey) : null;
+      const result =
+        cached && cached.expires > Date.now()
+          ? cached.result
+          : await render(cacheKey, runtime);
+      if (cacheable && result.status === 200 && !cached) {
+        if (ssrCache.size >= 20) ssrCache.delete(ssrCache.keys().next().value);
+        ssrCache.set(cacheKey, { expires: Date.now() + 3000, result });
+      }
+      if (cached && cached.expires <= Date.now()) ssrCache.delete(cacheKey);
       if (result.redirect) {
         res
           .writeHead(301, {
@@ -174,15 +256,18 @@ http
       html = html
         .replace(
           '</head>',
-          `${result.structured ? `<script type="application/ld+json">${JSON.stringify(result.structured).replace(/</g, '\\u003c')}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base+'/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(base+u.pathname)}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.noindex ? 'noindex,follow' : 'index,follow'}"><link rel="canonical" href="${esc(base + u.pathname + u.search)}"></head>`,
+          `${result.structured ? `<script type="application/ld+json">${JSON.stringify(result.structured).replace(/</g, '\\u003c')}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base + '/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(base + u.pathname)}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.noindex ? 'noindex,follow' : 'index,follow'}"><link rel="canonical" href="${esc(base + u.pathname + u.search)}"></head>`,
         )
         .replace(
           '<div id="root"></div>',
           `<div id="root">${result.html}</div><script>window.__PATRI_STATE__=${state}</script>`,
         );
-      res.statusCode=result.status;
-      res.setHeader('Content-Type','text/html; charset=utf-8');
-      res.setHeader('Cache-Control','no-store');
+      res.statusCode = result.status;
+      res.setHeader('Content-Type', 'text/html; charset=utf-8');
+      res.setHeader(
+        'Cache-Control',
+        previewMode ? PRIVATE_HEADERS['Cache-Control'] : 'no-store',
+      );
       res.end(html);
     } catch (e) {
       console.error(e.message);

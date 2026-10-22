@@ -1,2 +1,0 @@
-Implementação: 12 artigos originais; fontes primárias; fotografias reais com licenças; FAQ, verbetes e links relacionados; kit SEO/AEO/GEO; pacote portátil; rota de revisão mobile first; não publicar no banco de produção.
-Pré-deploy: snapshot atual lido; alterações cirúrgicas em App; novos arquivos isolados; nenhum segredo ou binário no deploy; fotos externas licenciadas; rota noindex; JSON válido; teste de leitura, filtros, artigo ausente e celular; build e lint; mesmo app_id; conferir status e QA.
