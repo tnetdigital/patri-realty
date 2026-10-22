@@ -83,7 +83,7 @@ export type ProfileResult = {
 export type SitemapData = {
   fornecedores: { slug: string; atualizado_em: string }[];
   segmentos: string[];
-  locais: { segmento: string; uf: string; cidade: string }[];
+  locais: { segmento: string; uf: string; cidade: string; eligibleUntil?:number }[];
 };
 export const normalize = (value: string) =>
   value

@@ -26,11 +26,21 @@ import {
   catalogKey,
   searchKey,
   profileKey,
+  localEligibility,
+  eligibilityKey,
+  approvedLocalGuides,
+  localGuidesKey,
   type DirectoryRuntime,
 } from './features/directory/api';
 import { filtersFromRoute } from './features/directory/model';
 import { decideSeo, directoryMetadata, contentMetadata } from './seo/policy';
+import { localLocation, type LocalEligibility } from './seo/eligibility';
 export { decideSeo, canonicalOrigin } from './seo/policy';
+export { parseLocalReviews, reviewFingerprint } from './seo/eligibility';
+export {
+  localEligibility,
+  approvedLocalGuides,
+} from './features/directory/api';
 export async function render(url: string, r: DirectoryRuntime) {
   const u = new URL(url, r.siteUrl),
     client = new QueryClient(),
@@ -41,6 +51,7 @@ export async function render(url: string, r: DirectoryRuntime) {
     redirect: string | null = null;
   const route = decideSeo(url, r);
   let pageItems: number | undefined;
+  let eligibility: LocalEligibility | undefined;
   status = route.status === 301 ? 200 : route.status;
   redirect = route.redirect;
   if (status === 200 && /^\/(guia|busca)(\/|$)/.test(u.pathname)) {
@@ -55,6 +66,19 @@ export async function render(url: string, r: DirectoryRuntime) {
       }),
     ]);
     ({ title, description } = directoryMetadata(f, catalog));
+    if (localLocation(f)) {
+      const gate = await client.fetchQuery<LocalEligibility>({
+        queryKey: eligibilityKey(r, f),
+        queryFn: () => localEligibility(r, f),
+      });
+      eligibility = gate;
+      if (gate.content) ({ title, description } = gate.content);
+    }
+    if (f.segmento && !f.segmento.includes(',') && !f.uf && !f.q)
+      await client.fetchQuery({
+        queryKey: localGuidesKey(r, f.segmento),
+        queryFn: () => approvedLocalGuides(r, f.segmento),
+      });
     pageItems = result.items.length;
     if (result.redirect) redirect = result.redirect;
     else if (result.not_found) status = 404;
@@ -265,6 +289,7 @@ export async function render(url: string, r: DirectoryRuntime) {
       description,
       status,
       pageItems,
+      localEligibility: eligibility,
       redirect:
         redirect &&
         u.pathname.startsWith('/fornecedor/') &&

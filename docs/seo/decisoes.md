@@ -39,3 +39,7 @@ Manter tnetdigital/patri-realty público e continuar a execução. Não reescrev
 ## Prompt 03 — política HTTP e metadata
 
 Origem canônica explícita e validada; não inferir de Host ou da prévia. Atribuição não gera noindex; filtros e busca mantêm identidade própria com noindex; paginação de conjuntos distintos tem canonical próprio. 404 é ausência; 503 é falha temporária. Normalização e metadata são comuns ao SSR e navegador. Demonstrações/tokens não recebem canonical público. A prévia segue protegida e não comprova o contrato HTTP de um host produtivo. Quality Gate municipal continua reservado ao Prompt 04.
+
+## Prompt 04 — rubrica e evidências
+
+Adotada para o gate municipal a adaptação interna versionada patri-local-2026-10-22.04, pesos20/20/15/10/10/10/10/5, nota mínima75 e bloqueios eliminatórios. Não substitui score de completude de perfil. A soma não avalia qualidade editorial e o hash não autentica aprovador: Tércio continua responsável pelo aceite real da versão. Sem provas/aceite, nenhum fornecedor é presumido real/elegível nem cobertura estadual vira municipal. Documento de revisão externo ao Git, revalidado com a projeção pública, sem novas tabelas ou aprovações fabricadas. Produção permanece bloqueada; preview continua privado/noindex.

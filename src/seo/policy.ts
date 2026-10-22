@@ -2,6 +2,12 @@ import { filtersFromRoute, directoryPath } from '../features/directory/model';
 import { institutionalMeta } from '../features/privacy/legal';
 import { directoryTexts } from '../features/directory/texts';
 import type { DirectoryCatalog, Filters } from '../features/directory/model';
+import {
+  localLocation,
+  locationKey,
+  freshEligibility,
+  type LocalEligibility,
+} from './eligibility';
 
 export const SEO_POLICY_VERSION = '2026-10-22.03';
 const tracking = /^(utm_.+|gclid|dclid|fbclid|msclkid|gbraid|wbraid|_ga)$/i;
@@ -110,6 +116,7 @@ export type SeoInput = {
   pending?: boolean;
   pageItems?: number;
   redirect?: string | null;
+  localEligibility?: LocalEligibility;
 };
 
 export function decideSeo(address: string, input: SeoInput) {
@@ -219,7 +226,19 @@ export function decideSeo(address: string, input: SeoInput) {
     input.hashRouting ||
     input.preview ||
     !origin;
-  const noindex = !!(excluded || filtered || input.noindex || input.pending);
+  const municipal = localLocation(filtersFromRoute(path, u.search));
+  const gateBlocked =
+    !!municipal &&
+    (!freshEligibility(input.localEligibility) ||
+      !input.localEligibility?.location ||
+      locationKey(input.localEligibility.location) !== locationKey(municipal));
+  const noindex = !!(
+    excluded ||
+    filtered ||
+    input.noindex ||
+    input.pending ||
+    gateBlocked
+  );
   const canonical = excluded ? null : origin + normalizedUrl;
   let redirect: string | null = null;
   if (input.redirect && status === 200) {

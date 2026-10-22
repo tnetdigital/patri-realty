@@ -11,6 +11,14 @@ import type {
 } from './model';
 import { paginateSuppliers, selectedSegments, directoryPath } from './model';
 import { demoCatalog, demoSuppliers } from './fixtures';
+import {
+  evaluateLocalEligibility,
+  locationKey,
+  localLocation,
+  freshEligibility,
+  type LocalReview,
+  type LocalEligibility,
+} from '../../seo/eligibility';
 export type DirectoryRuntime = {
   source: 'live' | 'demo';
   url: string;
@@ -18,6 +26,8 @@ export type DirectoryRuntime = {
   siteUrl: string;
   hashRouting: boolean;
   preview?: boolean;
+  // Server-only reviewed evidence; never serialized as public runtime.
+  localReviews?: LocalReview[];
 };
 const defaultRuntime: DirectoryRuntime = {
   source:
@@ -186,10 +196,127 @@ export async function publicProfile(
     };
   return rpc<ProfileResult>(r, 'fornecedor_publico', { p_slug: slug });
 }
-export async function sitemapData(r: DirectoryRuntime): Promise<SitemapData> {
+export const eligibilityKey = (r: DirectoryRuntime, f: Filters) => [
+  'local-eligibility',
+  r.source,
+  f.segmento,
+  f.uf,
+  f.cidade,
+];
+export async function localEligibility(
+  r: DirectoryRuntime,
+  f: Filters,
+): Promise<LocalEligibility> {
+  const location = localLocation(f);
+  if (!location) throw Error('Seleção municipal inválida.');
+  if (typeof window !== 'undefined' && r.source === 'live') {
+    const params = new URLSearchParams({
+      segmento: location.segment,
+      uf: location.uf,
+      cidade: location.city,
+    });
+    const response = await fetch('/api/local-eligibility?' + params, {
+      cache: 'no-store',
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!response.ok)
+      throw Error('Validação municipal temporariamente indisponível.');
+    return response.json();
+  }
+  const review = r.localReviews?.find(
+    (x) => locationKey(x.location) === locationKey(location),
+  );
+  const suppliers: import('./model').PublicSupplier[] = [];
+  if (r.source === 'live' && review) {
+    // Bounded fresh public-profile projection already enforces published status and active owner.
+    const proofs = [
+      ...new Map(review.supplierProofs.map((p) => [p.id, p])).values(),
+    ];
+    for (let i = 0; i < proofs.length; i += 5) {
+      const batch = await Promise.all(
+        proofs.slice(i, i + 5).map(async (p) => {
+          const result = await publicProfile(r, p.slug);
+          return result.fornecedor?.id === p.id && !result.redirect
+            ? result.fornecedor
+            : null;
+        }),
+      );
+      suppliers.push(
+        ...batch.filter((x): x is import('./model').PublicSupplier => !!x),
+      );
+    }
+  }
+  return evaluateLocalEligibility({
+    source: r.source,
+    location,
+    review,
+    suppliers,
+  });
+}
+export async function sitemapData(
+  r: DirectoryRuntime,
+  segmentFilter?: string,
+): Promise<SitemapData> {
   if (r.source === 'demo')
     return { fornecedores: [], segmentos: [], locais: [] };
-  return rpc<SitemapData>(r, 'sitemap_publico', {});
+  const data = await rpc<SitemapData>(r, 'sitemap_publico', {});
+  // A raw RPC candidate is not a publication authorization. No reviewed candidates => none.
+  const locais: SitemapData['locais'] = [];
+  for (const item of data.locais) {
+    if (segmentFilter && item.segmento !== segmentFilter) continue;
+    const location = {
+      segment: item.segmento,
+      uf: item.uf.toUpperCase(),
+      city: item.cidade,
+    };
+    if (
+      !r.localReviews?.some(
+        (x) => locationKey(x.location) === locationKey(location),
+      )
+    )
+      continue;
+    const gate = await localEligibility(r, {
+      segmento: item.segmento,
+      uf: location.uf,
+      cidade: item.cidade,
+      q: '',
+      pagina: 1,
+      ordem: 'relevancia',
+    });
+    if (freshEligibility(gate))
+      locais.push({ ...item, eligibleUntil: gate.recheckAt });
+  }
+  return { ...data, locais };
+}
+export const localGuidesKey = (r: DirectoryRuntime, segment: string) => [
+  'approved-local-guides',
+  r.source,
+  segment,
+];
+export async function approvedLocalGuides(
+  r: DirectoryRuntime,
+  segment: string,
+): Promise<{ path: string; label: string; expiresAt: number }[]> {
+  if (r.source === 'demo') return [];
+  if (typeof window !== 'undefined') {
+    const response = await fetch(
+      '/api/local-guides?segmento=' + encodeURIComponent(segment),
+      { cache: 'no-store', signal: AbortSignal.timeout(10000) },
+    );
+    if (!response.ok)
+      throw Error('Guias locais temporariamente indisponíveis.');
+    return response.json();
+  }
+  const data = await sitemapData(r, segment);
+  return data.locais.map((item) => ({
+    path: directoryPath({
+      segmento: item.segmento,
+      uf: item.uf,
+      cidade: item.cidade,
+    }),
+    label: item.cidade.replaceAll('-', ' ') + ' · ' + item.uf,
+    expiresAt: item.eligibleUntil!,
+  }));
 }
 
 function demoRating(id: string) {

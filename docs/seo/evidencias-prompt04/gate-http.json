@@ -1,0 +1,113 @@
+{
+  "passed": 17,
+  "checks": [
+    {
+      "name": "oferta-0",
+      "indexable": false,
+      "count": 0,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "oferta-1",
+      "indexable": false,
+      "count": 1,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "oferta-2",
+      "indexable": false,
+      "count": 2,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "oferta-3",
+      "indexable": true,
+      "count": 3,
+      "sitemap": true,
+      "links": true
+    },
+    {
+      "name": "perda de oferta após página elegível",
+      "indexable": false,
+      "count": 2,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "cobertura estadual não comprova município",
+      "indexable": false,
+      "count": 2,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "fornecedor fora do segmento",
+      "indexable": false,
+      "count": 2,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "perfil alterado invalida evidência anterior",
+      "indexable": false,
+      "count": 2,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "conteúdo alterado exige novo aceite",
+      "indexable": false,
+      "count": 3,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "sem revisão",
+      "indexable": false,
+      "score": null
+    },
+    {
+      "name": "revisão original restaurada no transporte sintético",
+      "indexable": true,
+      "count": 3,
+      "sitemap": true,
+      "links": true
+    },
+    {
+      "name": "três fornecedores não compensam score 74",
+      "indexable": false,
+      "count": 3,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "prova municipal expirada não conta",
+      "indexable": false,
+      "count": 2,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "aprovação expirada retira sitemap e links",
+      "indexable": false,
+      "count": 3,
+      "sitemap": false,
+      "links": false
+    },
+    {
+      "name": "parâmetros inválidos",
+      "status": 400
+    },
+    {
+      "name": "noindex local rastreável",
+      "robotsAllowsGuide": true
+    },
+    {
+      "name": "documento inválido falha fechado sem conteúdo privado",
+      "status": 503
+    }
+  ]
+}

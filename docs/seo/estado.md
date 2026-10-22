@@ -36,3 +36,10 @@ Publicação do Prompt 02 confirmada: snapshot 1792708424157 pronto; entrada pú
 ## Prompt 03 — execução aprovada
 
 Prompt 02 aprovado pelo usuário; Prompt 03 implementado, testado e publicado na demonstração protegida em 22/10/2026. Política compartilhada src/seo/policy.ts versão 2026-10-22.03; relatório docs/seo/prompt03.md. 67 unitários, 60 HTTP/regressões, 22 verificações SSR e 12 de proteção aprovados; cinco comparações de hidratação em navegador. Snapshot 1792709705332. Stack e banco preservados. SSR público de produção e Quality Gate do Prompt 04 continuam pendentes; não liberar indexação produtiva por este aceite técnico.
+
+## Prompt 04 — Quality Gate municipal
+
+Prompt 03 aprovado; Prompt 04 implementado e testado em22/10/2026. Rubrica interna patri-local-2026-10-22.04, mínimo75 mais bloqueios absolutos. Contagem por identidade econômica distinta e cobertura municipal exata, perfis públicos frescos; ausência de provas mantém noindex. Gate comum a SSR/cliente/sitemap/links. 103unitários,60HTTP/regressões,17cenários do gate,22SSR e12proteção aprovados. Relatório prompt04.md. Nenhuma aprovação real ou liberação municipal foi criada; Supabase e homologação produtiva continuam adiados. Prévia protegida atualizada, snapshot1792711230117.
+
+
+- Limite de publicação do Prompt04: AppDeploy recusou a última sincronização com CREDITS_USAGE_LIMIT_REACHED. Snapshot publicado1792711230117 contém o gate; código final testado103unitários permite aceite pendente com campos nulos, mas esse último ajuste não está na prévia. Não repetir deploy enquanto limite estiver ativo. Relatório prompt04.md registra a diferença; não remover senha nem criar outro app para contornar.

@@ -1,0 +1,114 @@
+{
+  "passed": 22,
+  "checks": [
+    {
+      "path": "/guia",
+      "status": 200,
+      "canonical": "http://127.0.0.1:15183/guia"
+    },
+    {
+      "path": "/guia?utm_source=test&gclid=abc",
+      "status": 200,
+      "canonical": "http://127.0.0.1:15183/guia"
+    },
+    {
+      "path": "/guia?segmentos=teste,outro",
+      "status": 200,
+      "canonical": "http://127.0.0.1:15183/guia?segmentos=outro%2Cteste"
+    },
+    {
+      "path": "/busca?q=%3Cscript%3E",
+      "status": 200,
+      "canonical": "http://127.0.0.1:15183/busca?q=%3Cscript%3E"
+    },
+    {
+      "path": "/guia/teste/sp/cidade/extra",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/materia/a/extra",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/fornecedor/a/extra",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/contato/extra",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/fornecedor/ausente",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/materia/ausente",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/guia/ausente",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/materias?pagina=2&utm_medium=x",
+      "status": 200,
+      "canonical": "http://127.0.0.1:15183/materias?pagina=2"
+    },
+    {
+      "path": "/materias?pagina=3",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/guia?pagina=2",
+      "status": 404,
+      "canonical": null
+    },
+    {
+      "path": "/guia?pagina=1.5",
+      "status": 400,
+      "canonical": null
+    },
+    {
+      "path": "/fornecedor/a%2Fb",
+      "status": 400,
+      "canonical": null
+    },
+    {
+      "path": "/guia/antigo",
+      "status": 301,
+      "canonical": null
+    },
+    {
+      "path": "/guia/",
+      "status": 301,
+      "canonical": null
+    },
+    {
+      "path": "/confirmar-email?token=synthetic",
+      "status": 200,
+      "canonical": null
+    },
+    {
+      "path": "host não autorizado",
+      "status": 421
+    },
+    {
+      "path": "/materias?outage=1",
+      "status": 503,
+      "canonical": null
+    },
+    {
+      "path": "/r/11111111-1111-1111-1111-111111111111",
+      "status": 503,
+      "canonical": null
+    }
+  ]
+}

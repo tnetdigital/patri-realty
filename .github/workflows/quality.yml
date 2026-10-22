@@ -20,4 +20,5 @@ jobs:
       - run: npm run test:http
       - run: npm run build:ssr
       - run: npm run test:seo
+      - run: npm run test:eligibility
       - run: npm audit --audit-level=high

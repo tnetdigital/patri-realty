@@ -17,6 +17,10 @@ import {
   searchKey,
   profileKey,
   useDirectoryRuntime,
+  localEligibility,
+  eligibilityKey,
+  approvedLocalGuides,
+  localGuidesKey,
 } from '../features/directory/api';
 import {
   directoryPath,
@@ -31,6 +35,7 @@ import '../features/directory/directory.css';
 export { PageMetadata as DirectorySeo } from '../seo/metadata';
 import { PageMetadata as DirectorySeo } from '../seo/metadata';
 import { directoryMetadata, publicRedirect } from '../seo/policy';
+import { localLocation, freshEligibility } from '../seo/eligibility';
 export function DemoNotice() {
   return useDirectoryRuntime().source === 'demo' ? (
     <aside className="directory-demo">
@@ -202,6 +207,54 @@ export default function Directory() {
       queryKey: searchKey(r, f),
       queryFn: () => searchDirectory(r, f),
     });
+  const municipal = localLocation(f);
+  const eligibility = useQuery({
+    queryKey: eligibilityKey(r, f),
+    queryFn: () => localEligibility(r, f),
+    enabled: !!municipal,
+    staleTime: 10000,
+    gcTime: 0,
+    refetchInterval: 15000,
+    refetchOnWindowFocus: 'always',
+  });
+  const gate = eligibility.data;
+  const [gateTime, setGateTime] = useState(Date.now);
+  useEffect(() => {
+    if (!gate) return;
+    const expire = () => setGateTime(Date.now());
+    const timer = window.setTimeout(
+      expire,
+      Math.max(0, gate.recheckAt - Date.now() + 1),
+    );
+    window.addEventListener('focus', expire);
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener('focus', expire);
+    };
+  }, [gate]);
+  const localLinks = useQuery({
+    queryKey: localGuidesKey(r, f.segmento),
+    queryFn: () => approvedLocalGuides(r, f.segmento),
+    enabled: !!f.segmento && !f.segmento.includes(',') && !f.uf && !f.q,
+    staleTime: 10000,
+    gcTime: 0,
+    refetchInterval: 15000,
+  });
+  useEffect(() => {
+    const deadlines =
+      localLinks.data?.map((x) => x.expiresAt).filter((x) => x > Date.now()) ||
+      [];
+    if (!deadlines.length) return;
+    const timer = window.setTimeout(
+      () => setGateTime(Date.now()),
+      Math.max(0, Math.min(...deadlines) - Date.now() + 1),
+    );
+    return () => window.clearTimeout(timer);
+  }, [localLinks.data]);
+  const usableContent =
+    gate && gate.recheckAt > Math.max(gateTime, Date.now())
+      ? gate.content
+      : null;
   useEffect(() => {
     const target = publicRedirect(q.data?.redirect);
     if (target) navigate(target, { replace: true });
@@ -215,7 +268,7 @@ export default function Directory() {
       ? labels.slice(0, 2).join(' + ') +
         (labels.length > 2 ? ` e mais ${labels.length - 2}` : '')
       : labels[0];
-  const { title, description } = directoryMetadata(f, c.data);
+  const { title, description } = usableContent || directoryMetadata(f, c.data);
   return (
     <section className="container directory-page">
       <ViewEvent
@@ -239,6 +292,8 @@ export default function Directory() {
         status={q.isError || c.isError ? 503 : q.data?.not_found ? 404 : 200}
         pending={q.isPending || c.isPending}
         pageItems={q.data?.items.length}
+        localEligibility={eligibility.isError ? undefined : gate}
+        noindex={!!municipal && !!gate && gate.recheckAt <= gateTime}
       />
       <nav aria-label="Caminho da página">
         <Link to="/">Início</Link> /{' '}
@@ -251,6 +306,49 @@ export default function Directory() {
         <p>{t.intro}</p>
       </div>
       <DemoNotice />
+      {municipal &&
+        !freshEligibility(eligibility.isError ? undefined : gate) && (
+          <aside
+            className="directory-empty"
+            aria-label="Cobertura municipal em validação"
+          >
+            <h2>Cobertura municipal em validação</h2>
+            <p>
+              Esta seleção ainda não reúne todas as comprovações necessárias
+              para um guia local. Os resultados da busca podem incluir empresas
+              com cobertura estadual declarada; confirme diretamente o
+              atendimento no município.
+            </p>
+            <Link
+              to={gate?.fallback || '/guia/' + encodeURIComponent(f.segmento)}
+            >
+              Consultar o guia nacional desta especialidade
+            </Link>
+          </aside>
+        )}
+      {municipal && usableContent && (
+        <section aria-label="Orientações locais revisadas">
+          <p>{usableContent.intro}</p>
+          <p>{usableContent.context}</p>
+          <ul>
+            {usableContent.checklist.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {!localLinks.isError &&
+        !!localLinks.data?.some((x) => x.expiresAt > Date.now()) && (
+          <nav aria-label="Guias locais com cobertura validada">
+            {localLinks.data
+              .filter((x) => x.expiresAt > Date.now())
+              .map((x) => (
+                <Link key={x.path} to={x.path}>
+                  {x.label}
+                </Link>
+              ))}
+          </nav>
+        )}
       <SearchForm initial={f} expandedSpecialties />
       {q.isPending ? (
         <p role="status">{t.loading}</p>

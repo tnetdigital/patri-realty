@@ -1,0 +1,65 @@
+{
+  "passed": 12,
+  "checks": [
+    {
+      "path": "/",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/previa-editorial",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/api/editorial-review",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/assets/index--hFFGI70.js",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/feed.xml",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/src/data/editorial-drafts.json",
+      "status": 401,
+      "anonymousDenied": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "authorized": true
+    },
+    {
+      "path": "/assets/index--hFFGI70.js",
+      "status": 200,
+      "authorized": true
+    },
+    {
+      "path": "/api/editorial-review",
+      "status": 200,
+      "authorized": true
+    },
+    {
+      "path": "/api/editorial-review",
+      "invalidPasswordDenied": true,
+      "status": 401
+    }
+  ]
+}

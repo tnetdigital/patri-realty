@@ -1,0 +1,6 @@
+[
+  {"environment":"loopback; dados integralmente sintéticos","path":"/guia/teste/sp/cidade-teste","phase":"três identidades confirmadas no transporte de QA","title":"Guia local sintético para QA | Patri Realty","robots":"index,follow","canonical":"http://127.0.0.1:15186/guia/teste/sp/cidade-teste","consoleErrorsObserved":0},
+  {"environment":"mesma aba, sem recarregar","phase":"oferta reduzida para duas identidades, após revalidação","robots":"noindex,follow","fallbackVisible":true,"canonical":"http://127.0.0.1:15186/guia/teste/sp/cidade-teste"},
+  {"path":"/guia/teste","phase":"duas identidades","localNavigationCount":0},
+  {"path":"/guia/teste","phase":"três identidades restabelecidas","localNavigationCount":1,"consoleErrorsObserved":0}
+]

@@ -1,7 +1,7 @@
 import { gzipSync } from 'node:zlib';
 import http from 'node:http';
-import { readFile } from 'node:fs/promises';
-import { resolve, extname, relative, isAbsolute } from 'node:path';
+import { readFile, realpath } from 'node:fs/promises';
+import { resolve, extname, relative, isAbsolute, sep } from 'node:path';
 import { loadEnv } from 'vite';
 import {
   createPreviewGuard,
@@ -23,8 +23,15 @@ const previewGuard = createPreviewGuard({
   enabled: previewMode,
   password: env.PREVIEW_ACCESS_PASSWORD,
 });
-const { render, sitemapData, contentSitemap, canonicalOrigin, decideSeo } =
-  await import('./dist-server/entry-server.js');
+const {
+  render,
+  sitemapData,
+  contentSitemap,
+  canonicalOrigin,
+  localEligibility,
+  parseLocalReviews,
+  approvedLocalGuides,
+} = await import('./dist-server/entry-server.js');
 if (runtime.source === 'live' && (!env.VITE_SITE_URL || !canonicalOrigin(base)))
   throw new Error(
     'VITE_SITE_URL deve ser uma origem HTTPS pública válida, sem caminho, query ou fragmento.',
@@ -40,6 +47,22 @@ const allowedHosts = new Set([
 
 const ssrCache = new Map();
 const template = await readFile('dist/index.html', 'utf8');
+async function reviewedRuntime() {
+  if (!env.PATRI_LOCAL_REVIEW_FILE) return { ...runtime, localReviews: [] };
+  const file = await realpath(env.PATRI_LOCAL_REVIEW_FILE);
+  const rel = relative(await realpath(process.cwd()), file);
+  if (
+    !isAbsolute(env.PATRI_LOCAL_REVIEW_FILE) ||
+    (!(rel === '..' || rel.startsWith('..' + sep)) && !isAbsolute(rel))
+  )
+    throw Error(
+      'A revisão municipal deve permanecer fora do repositório público.',
+    );
+  return {
+    ...runtime,
+    localReviews: parseLocalReviews(JSON.parse(await readFile(file, 'utf8'))),
+  };
+}
 const esc = (s) =>
   String(s).replace(
     /[&<>"']/g,
@@ -104,6 +127,41 @@ http
         return;
       }
       const u = new URL(req.url, base);
+      if (
+        u.pathname === '/api/local-eligibility' ||
+        u.pathname === '/api/local-guides'
+      ) {
+        const segmento = u.searchParams.get('segmento') || '',
+          uf = u.searchParams.get('uf') || '',
+          cidade = u.searchParams.get('cidade') || '';
+        res.setHeader('Cache-Control', 'private, no-store');
+        res.setHeader('X-Robots-Tag', 'noindex,nofollow');
+        if (
+          req.method !== 'GET' ||
+          !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(segmento) ||
+          (u.pathname === '/api/local-eligibility' &&
+            (!/^[A-Z]{2}$/.test(uf) ||
+              !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(cidade)))
+        ) {
+          res.writeHead(400).end('Seleção inválida.');
+          return;
+        }
+        const r = await reviewedRuntime();
+        const result =
+          u.pathname === '/api/local-guides'
+            ? await approvedLocalGuides(r, segmento)
+            : await localEligibility(r, {
+                segmento,
+                uf,
+                cidade,
+                q: '',
+                pagina: 1,
+                ordem: 'relevancia',
+              });
+        res.setHeader('Content-Type', 'application/json; charset=utf-8');
+        res.end(JSON.stringify(result));
+        return;
+      }
       if (u.pathname === '/api/editorial-review') {
         if (!previewMode || !env.PATRI_EDITORIAL_REVIEW_FILE) {
           res.writeHead(404).end();
@@ -181,7 +239,7 @@ http
       }
       if (u.pathname === '/sitemap.xml') {
         const [d, editorial] = await Promise.all([
-            sitemapData(runtime),
+            sitemapData(await reviewedRuntime()),
             contentSitemap(runtime),
           ]),
           paths = previewMode
@@ -269,13 +327,16 @@ http
       const cacheKey = u.pathname + u.search;
       const cacheable =
         /^\/guia(?:\/|$)/.test(u.pathname) &&
+        !/^\/guia\/[^/]+\/[a-z]{2}\/[^/]+/.test(u.pathname) &&
+        !u.searchParams.has('cidade') &&
+        !env.PATRI_LOCAL_REVIEW_FILE &&
         !req.headers.authorization &&
         !req.headers.cookie;
       const cached = cacheable ? ssrCache.get(cacheKey) : null;
       const result =
         cached && cached.expires > Date.now()
           ? cached.result
-          : await render(cacheKey, runtime);
+          : await render(cacheKey, await reviewedRuntime());
       if (cacheable && result.status === 200 && !cached) {
         if (ssrCache.size >= 20) ssrCache.delete(ssrCache.keys().next().value);
         ssrCache.set(cacheKey, { expires: Date.now() + 3000, result });
