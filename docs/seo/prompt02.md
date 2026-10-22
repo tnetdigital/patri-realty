@@ -40,3 +40,15 @@ A publicação deve atualizar o mesmo app, retirar os antigos módulos públicos
 ## Fora deste escopo
 
 Nenhuma migração de banco, ativação de produção, cobrança, envio externo ou expansão de páginas. Pendências do diagnóstico, incluindo logotipo original e configuração produtiva, continuam registradas nos relatórios anteriores.
+
+## Confirmação da publicação
+
+Publicação concluída em 22/10/2026, snapshot AppDeploy 1792708424157, mesmo app e URL. Senha vinculada por entrada segura; valor nunca acessado pelo agente. Plataforma pronta, sem erros frontend/backend/rede nesta publicação.
+
+Verificação remota independente: raiz mostra somente entrada com noindex; antigo bundle EditorialPreview-Ct34TpfK.js retorna 403; JSON de rascunhos e módulo privado gerado retornam 403; sitemap/feed indisponíveis (403). Nenhum dos nove corpos HTTP examinados contém título ou resposta dos 12 textos. O antigo bundle principal index-D5OFtXHI.js ainda responde 200 sem esses rascunhos; não se declara limpeza integral de objetos históricos do CDN. O robots.txt é público. A proteção não depende de robots.txt ou noindex para impedir a entrega dos textos.
+
+No navegador online: senha incorreta recusada com mensagem do servidor, sem iframe; recarga limpa o campo; formulário conferido em 375 x 667 sem corte horizontal. O endpoint do backend é chamado pelo transporte do SDK; acessar /api/preview/open diretamente no domínio estático devolve a entrada pública, não o documento privado. Abertura autorizada, navegação nos 12 textos e encerramento foram testados localmente com senha sintética; não foram repetidos online com a senha real, que somente o usuário conhece.
+
+O ajuste final explicita a extensão .ts do módulo privado para compatibilidade com o resolvedor da plataforma. Lint novamente aprovado. GitHub permanece público, sem reescrita e sem rascunhos na árvore atual.
+
+Evidências locais complementares: output/prompt02-remote-http.json e output/prompt02-server-tests.json no workspace desta execução. Relatório pode ser consultado também na pasta docs/seo do repositório.

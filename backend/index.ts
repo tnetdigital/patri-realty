@@ -1,6 +1,6 @@
 import { router, secrets } from '@appdeploy/sdk';
 import { createPreviewOpener } from './preview-handler.mjs';
-import { readPrivatePreview } from './private-preview.generated';
+import { readPrivatePreview } from './private-preview.generated.ts';
 
 const open = createPreviewOpener({
   readPassword: () => secrets.readSecret('PREVIEW_ACCESS_PASSWORD'),

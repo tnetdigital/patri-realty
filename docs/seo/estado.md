@@ -30,3 +30,5 @@ Leia `decisoes.md`, `auditoria-atual.md`, `backlog.md`, `evidencias.md` e `inven
 ## Atualização — Prompt 02
 
 Implementação local validada em 22/10/2026. Ver prompt02.md para escopo, testes, limites e estado de publicação. O usuário determinou manter o repositório público, sem reescrever o histórico. Rascunhos retirados da árvore atual após cópia privada verificada. A publicação protegida depende da entrada da senha no formulário seguro do provedor; não presumir que a URL antiga já esteja protegida.
+
+Publicação do Prompt 02 confirmada: snapshot 1792708424157 pronto; entrada pública restrita, tentativa inválida recusada online e bundle antigo de rascunhos bloqueado (403). Formulário mobile e recarga aprovados. Estado final e limites em prompt02.md. GitHub público, com histórico preservado e árvore atual sem o pacote editorial.
