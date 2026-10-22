@@ -4,7 +4,7 @@ Portal para conectar síndicos e fornecedores de condomínio, com publicação m
 
 **Estado em 22/10/2026:** fases 1–10 e correções implementadas, com integração local e demonstrações públicas. O cadastro real de fornecedores foi homologado no ambiente local com Auth, Storage e e-mail de teste. **A prévia pública não cria contas reais:** autenticação, CAPTCHA e serviços de produção ainda dependem de configuração externa. Veja [a auditoria do cadastro](docs/auditoria-cadastro-fornecedores.md) e [os requisitos de produção](docs/lancamento.md).
 
-Código: [tnetdigital/patri-realty](https://github.com/tnetdigital/patri-realty). Prévia: [Patri Realty](https://patri-realty-previa-05je1j.v2.appdeploy.ai/). Os blocos de fases abaixo preservam o histórico da implementação.
+Destino GitHub criado pelo usuário; envio de código temporariamente bloqueado por falta de acesso de escrita da integração (HTTP 403). Repositório: [tnetdigital/patri-realty](https://github.com/tnetdigital/patri-realty). Prévia: [Patri Realty](https://patri-realty-previa-05je1j.v2.appdeploy.ai/). Os blocos de fases abaixo preservam o histórico da implementação.
 
 ## Rodar
 
