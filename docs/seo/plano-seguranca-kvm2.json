@@ -1,0 +1,125 @@
+{
+  "version": "patri-security-plan-1",
+  "preparedAt": "2026-10-23",
+  "mode": "planning-only",
+  "launchDecision": "NO-GO",
+  "remoteChangesExecuted": false,
+  "publicStagingAuthorized": false,
+  "evidenceFreshness": "inspection-2026-10-23-not-requeried",
+  "steps": [
+    {
+      "id": "S00",
+      "priority": "P0",
+      "dependsOn": [],
+      "scope": "recuperacao-baseline",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S01",
+      "priority": "P0",
+      "dependsOn": [
+        "S00"
+      ],
+      "scope": "acesso-administrativo",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S02",
+      "priority": "P0",
+      "dependsOn": [
+        "S00",
+        "S01"
+      ],
+      "scope": "superficie-rede",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S03",
+      "priority": "P0-publico",
+      "dependsOn": [
+        "S00",
+        "S02"
+      ],
+      "scope": "tls-compartilhado",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S04",
+      "priority": "P0-publico",
+      "dependsOn": [
+        "S00",
+        "S03"
+      ],
+      "scope": "certificado-renovacao",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S05",
+      "priority": "P0-avaliacao-P1-correcao",
+      "dependsOn": [
+        "S00"
+      ],
+      "scope": "manutencao-aplicavel",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S06",
+      "priority": "P0",
+      "dependsOn": [
+        "S00",
+        "S01",
+        "S02",
+        "S05"
+      ],
+      "scope": "isolamento-staging",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    },
+    {
+      "id": "S07",
+      "priority": "P1",
+      "dependsOn": [
+        "S00"
+      ],
+      "scope": "logs-alertas-restore",
+      "status": "pending",
+      "owner": "to-be-assigned",
+      "proof": null,
+      "rollbackPrepared": true
+    }
+  ],
+  "publicStagingRequires": [
+    "S00",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "backend-and-content-gates",
+    "explicit-authorization"
+  ],
+  "internalStagingApproved": false,
+  "productionApproved": false
+}

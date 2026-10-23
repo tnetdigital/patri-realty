@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-23T23:54:23.080825+00:00",
+  "baseCommit": "5c605d2896541c11e8126bb61379661f57a461ff",
+  "scope": "planning-documents-only",
+  "runtimeTestsRun": false,
+  "remoteCommandsRun": false,
+  "configApplied": false,
+  "launchDecision": "NO-GO",
+  "checks": [
+    "eight unique steps",
+    "dependency targets valid and graph acyclic",
+    "all proofs pending and owners unassigned",
+    "internal-public-production approvals all false",
+    "six candidate configuration files unchanged",
+    "document links resolved",
+    "sensitive host markers excluded from public plan"
+  ],
+  "artifacts": {
+    "docs/seo/plano-seguranca-kvm2.md": "cc3cf9b5184d5212374de9d53b387b1dad45fbf2c4b0a55b0938681f07cb0538",
+    "docs/seo/plano-seguranca-kvm2.json": "913ddb2f232b4224c9b73d49e0163af4b9ead34d8ca58884f70638362bd9cedd"
+  },
+  "limitations": [
+    "not a security correction or penetration test",
+    "no new TLS handshake or SSH verification",
+    "no runtime revalidation"
+  ]
+}

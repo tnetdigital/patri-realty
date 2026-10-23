@@ -61,3 +61,7 @@ Titular indicou Hostinger e domínio candidato patrirealty.com.br ou outro; dom�
 ## Configuração candidata após inspeção readonly
 
 [Relatório e pacote de homologação](homologacao-kvm2-preparacao.md), somente preparados. Portas candidatas sem listener no instante, proxy existente parcialmente inspecionado; achados de segurança privados exigem revisão. Sem instalação/reload/DNS/backend/deploy. Sintaxe efetiva Nginx/Compose e runtime restrito seguem pendentes. NO-GO preservado.
+
+## Plano de correção de segurança/TLS
+
+[Plano priorizado](plano-seguranca-kvm2.md), preparado sem intervenção. S00recuperação/donos precede diffs de acesso/rede/TLS; homologação interna separada de HTTPS público e produção. Nenhum gate resolvido apenas por planejamento. Achados detalhados privados; NO-GO preservado.

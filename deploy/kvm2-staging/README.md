@@ -21,3 +21,7 @@ Guard de prévia atual usa endereço da conexão e pode ver todos como proxy ún
 Limites0,75CPU/768MiB/heap384/pids128 são hipóteses, não benchmark aprovado. Não hospedar banco Supabase neste contêiner/VPS. Não configurar pagamento/email/job como consequência de subir o SSR. Testar regressão das aplicações vizinhas antes/depois de futura mudança; rollback só remove rota/contêiner da Patri e restaura versão homologada, sem restart Docker, prune global ou restore do VPS.
 
 Validação desta preparação é estática. Sem Docker/nginx local executados ou instalação de ferramentas; executar docker compose config e nginx -t apenas em etapa autorizada apropriada, sem credenciais em logs. Teste runtime restrito e TLS do host seguem pendentes.
+
+## Segurança antes de aplicar
+
+Seguir [plano de correção priorizado](../../docs/seo/plano-seguranca-kvm2.md). Plano não altera este pacote nem aprova aplicação. Recuperação/acesso/rede/TLS e responsáveis seguem gates pendentes; handshake do listener compartilhado precisa prova efetiva.
