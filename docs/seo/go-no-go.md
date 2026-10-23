@@ -53,3 +53,7 @@ Ordem: identificar destino/projeto e operador → disponibilizar serviços no am
 ## Retomada após PT17
 
 Titular indicou Hostinger e domínio candidato patrirealty.com.br ou outro; domínio definitivo/propriedade, plano e projeto Supabase ainda não confirmados. [Roteiro detalhado de desbloqueio](retomada-pt16.md) e [mapa de configuração](configuracao-destino-pt16.csv). NO-GO mantido; nenhuma homologação produtiva nova declarada. Revisão do worker de e-mail/publicação e acesso direto do backend é dependência antes de ativar cron/entrega.
+
+## Desenho do destino KVM2
+
+[Arquitetura e sequência de implantação propostas](implantacao-kvm2.md) e [estado explícito](implantacao-kvm2.json), sem instalação/alteração remota. Supabase externo, staging isolado e protegido. Portas/limites/vhost/TLS ainda precisam validação; desenho não aprova implantação ou lançamento. NO-GO mantido.

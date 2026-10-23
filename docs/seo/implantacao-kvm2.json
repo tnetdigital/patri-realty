@@ -1,0 +1,47 @@
+{
+  "version": "patri-deployment-design-1",
+  "preparedAt": "2026-10-23",
+  "mode": "design-only",
+  "launchDecision": "NO-GO",
+  "remoteChangesAuthorized": false,
+  "installed": false,
+  "stack": "React18/Vite/TypeScript/custom Node SSR",
+  "backend": "external Supabase not provisioned",
+  "host": "existing KVM2",
+  "productionOriginCandidate": "https://patrirealty.com.br",
+  "productionOriginVerified": false,
+  "environments": {
+    "staging": {
+      "originCandidate": "https://previa.patrirealty.com.br",
+      "originVerified": false,
+      "previewRequired": true,
+      "hostBind": "127.0.0.1",
+      "candidateHostPort": 15175
+    },
+    "production": {
+      "publicReleaseAuthorized": false,
+      "hostBind": "127.0.0.1",
+      "candidateHostPort": 15176
+    }
+  },
+  "portsVerifiedFree": false,
+  "proposedPerInstanceLimits": {
+    "cpu": 0.75,
+    "memoryMiB": 768,
+    "nodeHeapMiB": 384,
+    "pids": 128
+  },
+  "limitsTested": false,
+  "buildOnSharedVps": false,
+  "proxyConfigInspected": false,
+  "proxyCache": false,
+  "privateReviewMount": "read-only directory outside /app",
+  "requires": [
+    "host-and-proxy-review",
+    "artifact-under-limits-QA",
+    "backend-editorial-policy",
+    "auth-direct-protection",
+    "PT16-go",
+    "explicit-destination-and-batch-authorization"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-23T23:16:59.750804+00:00",
+  "scope": "document-and-design-validation",
+  "baseCommit": "fc8a57d0e34efbe43a1f8d59dabda6b99daf094f",
+  "checks": [
+    "estado de desenho e bloqueio de alterações preservados",
+    "portas exclusivamente loopback e disponibilidade não presumida",
+    "staging protegido e produção não autorizada",
+    "limites propostos, build externo e proxy pendente sem cache",
+    "links relativos dos documentos resolvidos"
+  ],
+  "remoteCommandsRun": false,
+  "runtimeChanged": false,
+  "deploymentExecuted": false,
+  "benchmarksRun": false,
+  "artifacts": {
+    "docs/seo/implantacao-kvm2.md": "b1b6f2f28d6726dbf9f2f9453848c24f300b08339ddd0c7d6f477c345986ec1b",
+    "docs/seo/implantacao-kvm2.json": "bcfba5c9fbd6a2ff2ed2d9f43900c13da24b864a9aaadc876583bf3047c2e916"
+  },
+  "limitations": [
+    "not a deployable configuration",
+    "no docker/nginx runtime validation",
+    "existing PT16 production blockers remain"
+  ]
+}
