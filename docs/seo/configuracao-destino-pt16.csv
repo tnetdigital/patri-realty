@@ -1,0 +1,19 @@
+destino;nomes;configuracao_esperada_sem_valor;contém_segredo
+build-publico-e-SSR;VITE_SITE_URL;origem HTTPS primária igual no build/runtime;nao
+build-publico-e-SSR;VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY;URL e chave pública compatível do projeto correto;nao
+build-publico;VITE_LOGIN_URL,VITE_ACCOUNT_URL,VITE_QUOTATION_URL,VITE_NEWSLETTER_URL,VITE_EVENT_URL,VITE_BANNER_EVENT_URL,VITE_CHECKOUT_URL;"URLs /functions/v1/auth-login,account,quotation,newsletter,event,banner-event,criar-checkout; defaults existem";nao
+build-publico;VITE_TURNSTILE_SITE_KEY,VITE_CAPTCHA_ENABLED;sitekey do ambiente e true após homologação;nao
+build-publico;VITE_STRIPE_PUBLISHABLE_KEY;chave pública do mesmo ambiente financeiro;nao
+SSR;PORT,PATRI_ALLOWED_HOSTS;porta do provedor e hosts estritamente necessários;nao
+SSR-staging;PATRI_PREVIEW_MODE,PREVIEW_ACCESS_PASSWORD;"true e senha forte privada; manter staging protegido";senha-sim
+SSR;PATRI_LOCAL_REVIEW_FILE,PATRI_EDITORIAL_APPROVAL_FILE;"caminhos privados absolutos fora checkout/webroot; somente revisões aprovadas";arquivo-privado
+SSR-staging;PATRI_EDITORIAL_REVIEW_FILE;rascunhos privados somente para revisão autorizada;arquivo-privado
+SSR;PATRI_EDITORIAL_FIXTURES;não habilitar em produção;nao
+Edge-secrets;SUPABASE_URL,SUPABASE_ANON_KEY,SUPABASE_SERVICE_ROLE_KEY,SITE_URL;"URL/chaves do projeto e origem correta; service_role nunca no frontend";chave-privilegiada-sim
+Edge-secrets;ACCOUNT_IP_SALT,QUOTATION_IP_SALT,NEWSLETTER_IP_SALT,EVENT_IP_SALT,BANNER_IP_SALT;"valores aleatórios privados separados e persistentes; rotação planejada";sim
+Edge-secrets;TURNSTILE_SECRET_KEY,CAPTCHA_ENABLED;segredo e configuração correspondente ao ambiente;segredo-sim
+Edge-secrets;RESEND_API_KEY,EMAIL_FROM,EMAIL_DELIVERY_ENABLED;"remetente verificado; manter entrega desativada até revisão do worker/publicação";chave-sim
+Edge-secrets;STRIPE_SECRET_KEY,STRIPE_WEBHOOK_SECRET,STRIPE_ENABLED;"sandbox primeiro; permanecer desativado até homologação";sim
+Edge-secrets-e-agendador;SUPPLIER_JOBS_SECRET;"segredo privado de worker; não ativar rotinas ainda";sim
+Supabase-Auth-painel;SMTP,Site URL,Redirect URLs,hook,limites,sessões;"não são todas variáveis do app; configurar no projeto e testar diretamente";SMTP-senha-sim
+declaracoes-legadas;AUTH_GUARDS_VERIFIED,BACKUPS_VERIFIED,EMAIL_DOMAIN_VERIFIED,JOBS_VERIFIED,STRIPE_VERIFIED;"flags não constituem prova; só após homologação evidenciada";nao

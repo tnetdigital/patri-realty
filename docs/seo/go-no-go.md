@@ -47,3 +47,7 @@ Antes da liberação, guardar versão do código/configuração, inventário, ap
 ## Dependências para retomar
 
 Ordem: identificar destino/projeto e operador → disponibilizar serviços no ambiente autorizado → homologar segurança/fluxos/operação → concluir conteúdo/oferta/direitos/QS/aceite por versão → atualizar decisão e autorizar pequeno lote → acompanhar PT17. A disponibilidade do domínio, por si só, não resolve os demais gates.
+
+## Retomada após PT17
+
+Titular indicou Hostinger e domínio candidato patrirealty.com.br ou outro; domínio definitivo/propriedade, plano e projeto Supabase ainda não confirmados. [Roteiro detalhado de desbloqueio](retomada-pt16.md) e [mapa de configuração](configuracao-destino-pt16.csv). NO-GO mantido; nenhuma homologação produtiva nova declarada. Revisão do worker de e-mail/publicação e acesso direto do backend é dependência antes de ativar cron/entrega.

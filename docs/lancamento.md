@@ -1,3 +1,5 @@
+> Atualização23/10/2026: este roteiro é histórico. Para a retomada, seguir [roteiro vigente PT16](seo/retomada-pt16.md) e [go-no-go](seo/go-no-go.md). Não aplicar todas as migrations/seeds ou ativar worker/cron antes de inspecionar projeto e gate editorial. supplier-jobs também chama publicação. Flags e launch:check não certificam homologação.
+
 # Operação de produção — Patri Realty
 
 A URL AppDeploy é uma prévia frontend, sem banco produtivo conectado. Não subir as credenciais Docker ou `.env.local`. A entrega de desenvolvimento não representa lançamento com dados reais.

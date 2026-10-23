@@ -1,5 +1,8 @@
 # Continuidade do projeto Patri Realty
 
+- Retomada PT16 após PT17: usuário indicou Hostinger e patrirealty.com.br ou outro (candidato, não domínio/posse confirmados); Supabase ainda não identificado. Roteiro docs/seo/retomada-pt16.md e mapa configuracao-destino-pt16.csv. supplier-jobs chama publicar_agendadas quando entrega habilitada: não ativar cron/email antes de homologar publicação/backend. Corrigido aviso em docs/lancamento.md. NO-GO preservado; sem DNS/compra/banco/deploy/ativação. Acesso Hostinger requer carregar conector e consentimento; não solicitar segredos no chat.
+
+
 - PT17 preparado em23/10/2026; docs/seo/prompt17.md, plano-monitoramento-pt17.md e plano-autoridade-expansao-pt17.md. NO-GO PT16 preservado; origem/T0/baseline null, seis candidatas/zero prontas, próximo lote publicado0. Cadência relativa T0/24h/7/14/30/60/90 dias proposta, não ativada; modelos vazios em CSV para cópia privada. Sem automação, outreach, recurso, código funcional, deploy ou escala. Teto futuro proposto5URLs/um cluster só com gates, QA e autorização; limites200sitemap/25artigos preservados.25mensuração+19gate aprovados, evidências históricas restauradas. Zero de exportação IA Google pode representar ausente: conferir proveniência. Próximo resolver PT16, sem inventar PT18 ou resultados reais.
 
 

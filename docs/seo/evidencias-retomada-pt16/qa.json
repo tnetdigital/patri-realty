@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-23T14:35:58.035465+00:00",
+  "baseCommit": "783497e9c694843e63bc9c78d6aff33048b8f224",
+  "decision": "NO-GO",
+  "candidateDomain": "patrirealty.com.br",
+  "domainConfirmed": false,
+  "hostingPreference": "Hostinger",
+  "hostingPlanVerified": false,
+  "supabaseProjectIdentified": false,
+  "httpControlledTestsPassed": 65,
+  "checks": [
+    "env-contract",
+    "private-editorial-tree",
+    "18 configuration groups: app variables checked against examples, panel settings separated",
+    "relative-document-links"
+  ],
+  "productionTested": false,
+  "artifacts": {
+    "docs/seo/retomada-pt16.md": "a0130e0009c63a10ee0ff3799f47d661c32b22d1046b3e623bfae1f21809402a",
+    "docs/seo/configuracao-destino-pt16.csv": "004e44714e997ef91a186e6ba69f1ccaac1934c6449c5563cea5623a58ad138a",
+    "docs/seo/go-no-go.md": "e3f04826aa0555d5940eb54c428e578daee76803e23da141071daa1c10c20d15",
+    "docs/lancamento.md": "b9640881180a38ef0fc0a3ab90add3ba4b7f98c38ff1f1a0095b36d14986ae45"
+  },
+  "logSha256": "954f1b74083a069ef5d7f536a352ad2de3a40673419abde97e04fb64bf4fefe4"
+}
