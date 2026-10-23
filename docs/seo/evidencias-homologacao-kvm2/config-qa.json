@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-10-23T23:23:31.402Z",
+  "scope": "static-config-and-simulated-health",
+  "applied": false,
+  "dockerComposeValidationRun": false,
+  "nginxSyntaxValidationRun": false,
+  "healthCases": [
+    {
+      "status": 401,
+      "hasNoindex": true,
+      "hasAuth": true,
+      "healthy": true
+    },
+    {
+      "status": 200,
+      "hasNoindex": true,
+      "hasAuth": true,
+      "healthy": false
+    },
+    {
+      "status": 503,
+      "hasNoindex": true,
+      "hasAuth": true,
+      "healthy": false
+    },
+    {
+      "status": 401,
+      "hasNoindex": false,
+      "hasAuth": true,
+      "healthy": false
+    },
+    {
+      "status": 401,
+      "hasNoindex": true,
+      "hasAuth": false,
+      "healthy": false
+    }
+  ],
+  "checks": [
+    "single isolated service",
+    "loopback-only port",
+    "non-root read-only capabilities dropped",
+    "preview mode forced",
+    "private read-only mount no auto-create",
+    "no restart loop or implicit build",
+    "proposed resource limits",
+    "nginx forwards auth and preserves statuses without static bypass",
+    "empty secret example",
+    "balanced template braces"
+  ],
+  "artifacts": {
+    "deploy/kvm2-staging/Dockerfile.runtime": "d5876005b8583aa0b18b4818156e74ec32fdcd7a9ca46fbb58b0d78db3c54b26",
+    "deploy/kvm2-staging/compose.staging.yaml": "53f71c93abace333fb76d8a8816487870ccf6ec1deb0e330834919f583be317e",
+    "deploy/kvm2-staging/staging.runtime.env.example": "31300f8ef14d8b3ba8fdfda4b93debfd996450e9da730319a1067bb47e0c753e",
+    "deploy/kvm2-staging/nginx.staging.conf.template": "4e9f576054be962b309f16d6888fd81832b208a50a4eb23e2d0fff9fab05d530",
+    "deploy/kvm2-staging/README.md": "33a703c332dea06376ea95a35791108536f9fab09ac8a039215c2822f411fec9",
+    "deploy/kvm2-staging/.gitignore": "cbbb1af66361719aa216f7015462c73766bc2477e8dfd08c25914ec922e7d662",
+    "deploy/kvm2-staging/.dockerignore": "493208b9927037959327a3922957a22fd5d8ea345a6e48c106cad7577f55ff82"
+  },
+  "previewRegression": {
+    "accessTestsPassed": 5,
+    "httpScenariosPassed": 15,
+    "logSha256": "b57add54dd349c894bb8c5e6863b5bacd925336a5efc3341dbfcb0e425bd040b"
+  },
+  "reportSha256": "37c8ffc03321f1acebc4049146fc529d3d6442fc98459d7d5f8c371349c0f091"
+}

@@ -1,0 +1,13 @@
+**
+!Dockerfile.runtime
+!runtime/
+!runtime/**
+runtime/**/.env*
+runtime/.env*
+runtime/**/.git
+runtime/**/.git/**
+runtime/**/sources
+runtime/**/sources/**
+runtime/**/editorial-drafts.json
+runtime/**/private-preview.generated.ts
+runtime/**/content/editorial/**

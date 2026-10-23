@@ -1,0 +1,10 @@
+# PREPARED ONLY. Build outside the shared VPS from a Linux runtime artifact.
+# NODE_BASE_IMAGE must be an approved Node 22 image pinned by sha256 digest.
+ARG NODE_BASE_IMAGE
+FROM ${NODE_BASE_IMAGE}
+WORKDIR /app
+COPY --chown=10001:10001 runtime/ /app/
+USER 10001:10001
+ENV NODE_ENV=production
+EXPOSE 5175
+CMD ["node", "server.mjs"]

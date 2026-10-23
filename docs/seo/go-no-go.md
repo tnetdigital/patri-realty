@@ -57,3 +57,7 @@ Titular indicou Hostinger e domínio candidato patrirealty.com.br ou outro; dom�
 ## Desenho do destino KVM2
 
 [Arquitetura e sequência de implantação propostas](implantacao-kvm2.md) e [estado explícito](implantacao-kvm2.json), sem instalação/alteração remota. Supabase externo, staging isolado e protegido. Portas/limites/vhost/TLS ainda precisam validação; desenho não aprova implantação ou lançamento. NO-GO mantido.
+
+## Configuração candidata após inspeção readonly
+
+[Relatório e pacote de homologação](homologacao-kvm2-preparacao.md), somente preparados. Portas candidatas sem listener no instante, proxy existente parcialmente inspecionado; achados de segurança privados exigem revisão. Sem instalação/reload/DNS/backend/deploy. Sintaxe efetiva Nginx/Compose e runtime restrito seguem pendentes. NO-GO preservado.

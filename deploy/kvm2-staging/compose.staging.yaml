@@ -1,0 +1,79 @@
+{
+  "name": "patri-realty-staging",
+  "services": {
+    "ssr": {
+      "image": "${PATRI_STAGING_IMAGE:?Provide approved image@sha256 digest}",
+      "user": "10001:10001",
+      "init": true,
+      "read_only": true,
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges:true"
+      ],
+      "env_file": [
+        "./staging.runtime.env"
+      ],
+      "environment": {
+        "NODE_ENV": "production",
+        "NODE_OPTIONS": "--max-old-space-size=384",
+        "PORT": "5175",
+        "PATRI_PREVIEW_MODE": "true",
+        "VITE_SITE_URL": "https://previa.patrirealty.com.br",
+        "PATRI_ALLOWED_HOSTS": "previa.patrirealty.com.br",
+        "PATRI_EDITORIAL_FIXTURES": "0"
+      },
+      "ports": [
+        "127.0.0.1:15175:5175"
+      ],
+      "networks": [
+        "patri-staging"
+      ],
+      "cpus": 0.75,
+      "mem_limit": "768m",
+      "memswap_limit": "768m",
+      "pids_limit": 128,
+      "restart": "no",
+      "stop_grace_period": "30s",
+      "tmpfs": [
+        "/tmp:rw,noexec,nosuid,size=32m,mode=1777"
+      ],
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/var/lib/patri-realty/staging/reviews",
+          "target": "/run/patri-reviews",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        }
+      ],
+      "logging": {
+        "driver": "json-file",
+        "options": {
+          "max-size": "5m",
+          "max-file": "3"
+        }
+      },
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:5175/robots.txt',{headers:{Host:'previa.patrirealty.com.br'},redirect:'manual',signal:AbortSignal.timeout(4000)}).then(r=>process.exit(r.status===401&&/noindex/.test(r.headers.get('x-robots-tag')||'')&&!!r.headers.get('www-authenticate')?0:1)).catch(()=>process.exit(1))"
+        ],
+        "interval": "30s",
+        "timeout": "5s",
+        "retries": 3,
+        "start_period": "20s"
+      }
+    }
+  },
+  "networks": {
+    "patri-staging": {
+      "driver": "bridge"
+    }
+  }
+}

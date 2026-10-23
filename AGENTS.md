@@ -1,5 +1,8 @@
 # Continuidade do projeto Patri Realty
 
+- Inspeção/configuração staging KVM2 em23/10/2026: docs/seo/homologacao-kvm2-preparacao.md e deploy/kvm2-staging. Docker29.1.3/Compose2.40.3/cgroup2/apparmor/seccomp; Nginx1.24Ubuntu inclui sites-enabled; portas15175/15176 sem listener no instante, paths Patri ausentes. Achados sensíveis SSH/firewall/TLS/SO só em output/patri-realty-private/inspecao-kvm2-homologacao-20261023.md. Não publicar mapa de outros sites/segredos. Pacote candidato readonly/non-root/loopback/preview forçado, imagem por digest pendente, TLS/proxy/backend pendentes; não aplicado.5health simulados+QAestático+5acesso/15HTTP aprovados; sem Compose config/buildDocker/nginx-t/runtimeLinux. NO-GO; sem write/restart/instalação remota.
+
+
 - Desenho KVM2 preparado23/10/2026, docs/seo/implantacao-kvm2.md/.json. Design-only/NO-GO, sem comandos remotos/instalação/deploy. SSR Node em contêiner isolado com Supabase externo; portas15175/15176 loopback candidatas não reservadas, CPU0,75/mem768MiB/heap384/pids128 hipóteses não testadas. Build externo, revisões privadas montadas como diretório RO fora /app, sem service_role no SSR, proxy sem cache nem alias de assets que contorne guard. Nginx/vhosts/certificados não inspecionados; futura mudança somente aditiva com autorização concreta. Staging protegido, produção exige gatesPT16; sem publicar por aceite do desenho. Auditoria de outros apps permanece privada.
 
 
