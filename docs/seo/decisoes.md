@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## PT15 — preparação não equivale a publicação
+
+Seis candidatas revisáveis, nenhuma pronta. Reaproveitar o acervo privado sem declarar equivalência às três pautas novas da matriz; manter3guias retidos e reduzir perfis/localidades a zero selecionados por falta de prova. Quantidade disponível e QS ficam desconhecidos/null. Hash não aprova fatos, autoria ou direitos. Manifesto completo e fontes seguem privados; projeção pública é sanitizada e não serve como entrada de liberação. Testes de exclusão com transporte sintético não homologam conteúdo/conversão no destino real. Nenhuma remoção de retenção, aprovação ou publicação externa por este aceite; plano de liberação/reversão preparado para o PT16.
+
 ## Prompt 12 — medir antes de otimizar
 
 Comparar somente o mesmo laboratório e workload; conservar baseline, amostras, build e limites. JavaScript por necessidade, hidratação do artigo após módulo público pronto e sessão em transição não urgente, sem mudar permissões. HTML/projeções revisáveis no-store; assets versionados imutáveis. Publicidade pública opcional no SSR com750ms de orçamento e espaço estável; sem anúncio elegível, sem vazio artificial. Preferências não recarregam/perdem formulário, foco retorna e barra móvel não cobre rodapé. Laboratório não certifica p75/INP/CWV de campo nem acessibilidade integral. Ver prompt12.md e evidencias-prompt12/comparacao.json; regressão temporal parcial do perfil registrada para acompanhamento no piloto hospedado. Bloqueios editoriais e de publicação mantidos.

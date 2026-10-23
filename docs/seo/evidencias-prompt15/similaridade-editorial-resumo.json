@@ -1,0 +1,36 @@
+{
+  "privateSource": true,
+  "rawTextPublished": false,
+  "method": "Corpo editorial sem layout, normalização Unicode, Jaccard de shingles de cinco palavras.",
+  "thresholdForTriage": 0.65,
+  "humanOriginalityReview": "pending",
+  "pairs": [
+    {
+      "left": "EDITORIAL-01",
+      "right": "EDITORIAL-02",
+      "leftWords": 575,
+      "rightWords": 547,
+      "jaccard5": 0.0027,
+      "reviewRequired": false,
+      "interpretation": "Triagem lexical interna; não comprova originalidade, utilidade ou aprovação humana."
+    },
+    {
+      "left": "EDITORIAL-01",
+      "right": "EDITORIAL-03",
+      "leftWords": 575,
+      "rightWords": 578,
+      "jaccard5": 0.0026,
+      "reviewRequired": false,
+      "interpretation": "Triagem lexical interna; não comprova originalidade, utilidade ou aprovação humana."
+    },
+    {
+      "left": "EDITORIAL-02",
+      "right": "EDITORIAL-03",
+      "leftWords": 547,
+      "rightWords": 578,
+      "jaccard5": 0.0027,
+      "reviewRequired": false,
+      "interpretation": "Triagem lexical interna; não comprova originalidade, utilidade ou aprovação humana."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "recordedAt": "2026-10-23T12:09:05.357865+00:00",
+  "sourceBaseCommit": "556ac2e3972292552952006453e772034907c7e8",
+  "pilotVersion": "patri-pilot-15.1",
+  "mode": "controlled-local-exclusion",
+  "privatePathsFromAnnex": true,
+  "hashes": {
+    "docs/seo/manifesto-piloto-pt15.json": "2ee584abe963248748544b513f4ab91a9083e08478ac84d8eb27f1b87335f479",
+    "server/pilot.mjs": "68532ec70b47947260641f3e5071fa2332572b0d6cf499b3546bd92719214145",
+    "scripts/prepare-pilot.mjs": "92ed78e7aa0d02633b2869016ee5d51d16f8b010a09d186eaba69df4d06bdd8e",
+    "scripts/test-pilot.mjs": "b0d076919d853be159fb7b966048016ea4c5305cca33d3f43f32879a94d80187",
+    "tests/pilot-gate.test.mjs": "835600295992c726ee8dbadfaf1f7d57ce8b473dea33852e8b8542b6ff84fd18",
+    "dist-server/entry-server.js": "cf3fa8347ecfed929049b112124640d7cd73181f84648bc245c412c38c1e8078",
+    "dist/index.html": "706758b80631b54ae66f75b0d5e130d9a7b0da88a8b3529dd4cda897c68f8fe4",
+    "docs/seo/evidencias-prompt15/qa.json": "34bae4212bfe4ea5e07082d0d93c1dc27ba76d456f560551eebed89e70b969ed",
+    "docs/seo/evidencias-prompt15/qa-sem-anexo.json": "388f0cdf1076eb7d235f869ee7e90e9d78c4a27b79c37fc8eda90505c686e693"
+  },
+  "results": {
+    "unit": 191,
+    "pilotGate": 19,
+    "pilotExclusion": 26,
+    "candidateDestinations": 6,
+    "mobileWidths": [
+      320,
+      375,
+      390,
+      768
+    ],
+    "http": 65,
+    "previewAccessUnit": 5,
+    "previewHttp": 15,
+    "discovery": 23,
+    "localEligibility": 17,
+    "structured": 14,
+    "conversions": 8,
+    "experience": 24,
+    "seo": 22,
+    "profile": 9,
+    "editorial": 12,
+    "pilotWithoutAnnex": 25
+  },
+  "realLaunch": false,
+  "realApprovalsCreated": 0,
+  "scope": "Technical safeguards and controlled flows only; actual content/media/operational eligibility remains pending."
+}

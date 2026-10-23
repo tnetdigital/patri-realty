@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-10-23T12:10:12.053Z",
+  "synthetic": true,
+  "privatePathsFromAnnex": false,
+  "realApproval": false,
+  "realLaunch": false,
+  "externalRequestsPrevented": 0,
+  "passed": 25,
+  "checks": [
+    "NACIONAL-01: initial HTTP/metadata/noindex/schema/sitemap exclusion",
+    "NACIONAL-01: public navigation targets respond without redirects/errors",
+    "NACIONAL-01: hydration/mobile at 320/375/390/768 CSS pixels",
+    "NACIONAL-02: initial HTTP/metadata/noindex/schema/sitemap exclusion",
+    "NACIONAL-02: public navigation targets respond without redirects/errors",
+    "NACIONAL-02: hydration/mobile at 320/375/390/768 CSS pixels",
+    "NACIONAL-03: initial HTTP/metadata/noindex/schema/sitemap exclusion",
+    "NACIONAL-03: public navigation targets respond without redirects/errors",
+    "NACIONAL-03: hydration/mobile at 320/375/390/768 CSS pixels",
+    "EDITORIAL-01: editorial public projection refuses unapproved draft",
+    "EDITORIAL-01: initial HTTP/metadata/noindex/schema/sitemap exclusion",
+    "EDITORIAL-01: public navigation targets respond without redirects/errors",
+    "EDITORIAL-01: hydration/mobile at 320/375/390/768 CSS pixels",
+    "EDITORIAL-02: editorial public projection refuses unapproved draft",
+    "EDITORIAL-02: initial HTTP/metadata/noindex/schema/sitemap exclusion",
+    "EDITORIAL-02: public navigation targets respond without redirects/errors",
+    "EDITORIAL-02: hydration/mobile at 320/375/390/768 CSS pixels",
+    "EDITORIAL-03: editorial public projection refuses unapproved draft",
+    "EDITORIAL-03: initial HTTP/metadata/noindex/schema/sitemap exclusion",
+    "EDITORIAL-03: public navigation targets respond without redirects/errors",
+    "EDITORIAL-03: hydration/mobile at 320/375/390/768 CSS pixels",
+    "national sibling similarity analyzed using main text without layout controls",
+    "flagged national siblings reviewed: repeated preparation template, not original approved content",
+    "no browser JavaScript errors across all selected exclusion scenarios",
+    "all six candidate destinations covered; none promoted to ready"
+  ],
+  "rows": [
+    {
+      "id": "NACIONAL-01",
+      "path": "/guia/administracao-condominial",
+      "privatePathRedacted": false,
+      "environment": "synthetic-loopback",
+      "initialHttp": 200,
+      "robots": "noindex,follow",
+      "canonical": "loopback-only; not a production canonical",
+      "publicSchemaCount": 0,
+      "inPilotSitemap": false,
+      "htmlSha256": "adc8fe1dfcaa1a6591d414eab6fdd6f4ff5a452ec7783bb7ac22b4cc1e1ae29b",
+      "publicLinkCount": 10,
+      "hydration": [
+        {
+          "width": 320,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 375,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 390,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 768,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        }
+      ],
+      "contentRightsAndEntities": "not-validated-for-publication",
+      "actualMedia": "not-validated-for-publication",
+      "actualConversion": "not-validated-for-publication"
+    },
+    {
+      "id": "NACIONAL-02",
+      "path": "/guia/portaria-remota",
+      "privatePathRedacted": false,
+      "environment": "synthetic-loopback",
+      "initialHttp": 200,
+      "robots": "noindex,follow",
+      "canonical": "loopback-only; not a production canonical",
+      "publicSchemaCount": 0,
+      "inPilotSitemap": false,
+      "htmlSha256": "bd32267bd6d60d022b823323ce8ff1870457c8031db530dc708f7a25dc71e647",
+      "publicLinkCount": 10,
+      "hydration": [
+        {
+          "width": 320,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 375,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 390,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 768,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        }
+      ],
+      "contentRightsAndEntities": "not-validated-for-publication",
+      "actualMedia": "not-validated-for-publication",
+      "actualConversion": "not-validated-for-publication"
+    },
+    {
+      "id": "NACIONAL-03",
+      "path": "/guia/elevadores",
+      "privatePathRedacted": false,
+      "environment": "synthetic-loopback",
+      "initialHttp": 200,
+      "robots": "noindex,follow",
+      "canonical": "loopback-only; not a production canonical",
+      "publicSchemaCount": 0,
+      "inPilotSitemap": false,
+      "htmlSha256": "81ccd430453676bbeb0d853c002ef0bb988ad4b088b17a4a665f48c3eab87a5b",
+      "publicLinkCount": 10,
+      "hydration": [
+        {
+          "width": 320,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 375,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 390,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 768,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        }
+      ],
+      "contentRightsAndEntities": "not-validated-for-publication",
+      "actualMedia": "not-validated-for-publication",
+      "actualConversion": "not-validated-for-publication"
+    },
+    {
+      "id": "EDITORIAL-01",
+      "path": null,
+      "privatePathRedacted": true,
+      "environment": "synthetic-loopback",
+      "initialHttp": 404,
+      "robots": "noindex,nofollow",
+      "canonical": null,
+      "publicSchemaCount": 0,
+      "inPilotSitemap": false,
+      "htmlSha256": "0df39a65f6cf51d4871d37870b8418395d9a8aa98b36a0fb09e4ae5bcac312e8",
+      "publicLinkCount": 11,
+      "hydration": [
+        {
+          "width": 320,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 375,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 390,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 768,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        }
+      ],
+      "contentRightsAndEntities": "not-validated-for-publication",
+      "actualMedia": "not-validated-for-publication",
+      "actualConversion": "not-validated-for-publication"
+    },
+    {
+      "id": "EDITORIAL-02",
+      "path": null,
+      "privatePathRedacted": true,
+      "environment": "synthetic-loopback",
+      "initialHttp": 404,
+      "robots": "noindex,nofollow",
+      "canonical": null,
+      "publicSchemaCount": 0,
+      "inPilotSitemap": false,
+      "htmlSha256": "6c4490181bdd47f24766a729714d6b8f6e9a093623122d698a0c6fb8fa1e3f82",
+      "publicLinkCount": 11,
+      "hydration": [
+        {
+          "width": 320,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 375,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 390,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 768,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        }
+      ],
+      "contentRightsAndEntities": "not-validated-for-publication",
+      "actualMedia": "not-validated-for-publication",
+      "actualConversion": "not-validated-for-publication"
+    },
+    {
+      "id": "EDITORIAL-03",
+      "path": null,
+      "privatePathRedacted": true,
+      "environment": "synthetic-loopback",
+      "initialHttp": 404,
+      "robots": "noindex,nofollow",
+      "canonical": null,
+      "publicSchemaCount": 0,
+      "inPilotSitemap": false,
+      "htmlSha256": "e1158e2e3ee102b818d0dcc95d8713a3e9d374df6357650b42501c174cc7796d",
+      "publicLinkCount": 11,
+      "hydration": [
+        {
+          "width": 320,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 375,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 390,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        },
+        {
+          "width": 768,
+          "status": "passed",
+          "initialContentPreserved": true,
+          "metadataPreserved": true,
+          "noOverflow": true
+        }
+      ],
+      "contentRightsAndEntities": "not-validated-for-publication",
+      "actualMedia": "not-validated-for-publication",
+      "actualConversion": "not-validated-for-publication"
+    }
+  ],
+  "nationalSiblingSimilarity": {
+    "method": "main text minus nav/header/footer/aside/form/controls/scripts/styles",
+    "pairs": [
+      {
+        "left": "NACIONAL-01",
+        "right": "NACIONAL-02",
+        "leftWords": 76,
+        "rightWords": 76,
+        "jaccard5": 1,
+        "reviewRequired": true,
+        "interpretation": "Triagem lexical interna; não comprova originalidade, utilidade ou aprovação humana."
+      },
+      {
+        "left": "NACIONAL-01",
+        "right": "NACIONAL-03",
+        "leftWords": 76,
+        "rightWords": 76,
+        "jaccard5": 1,
+        "reviewRequired": true,
+        "interpretation": "Triagem lexical interna; não comprova originalidade, utilidade ou aprovação humana."
+      },
+      {
+        "left": "NACIONAL-02",
+        "right": "NACIONAL-03",
+        "leftWords": 76,
+        "rightWords": 76,
+        "jaccard5": 1,
+        "reviewRequired": true,
+        "interpretation": "Triagem lexical interna; não comprova originalidade, utilidade ou aprovação humana."
+      }
+    ],
+    "reviewConclusion": "Preparation templates share boilerplate; retained as blocked. No originality approval."
+  }
+}

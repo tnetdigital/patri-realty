@@ -1,0 +1,1163 @@
+{
+  "version": "patri-pilot-15.1",
+  "sourceMode": "real",
+  "preparedAt": "2026-10-23T11:53:00.998Z",
+  "baseCommit": "556ac2e3972292552952006453e772034907c7e8",
+  "origin": null,
+  "destination": {
+    "verified": false,
+    "evidence": [],
+    "validUntil": null
+  },
+  "externalPublicationAuthorized": false,
+  "inventory": {
+    "suppliersVerified": false,
+    "supplierCount": null,
+    "localitiesVerified": false,
+    "localityCount": null
+  },
+  "evidenceIndex": [
+    {
+      "id": "matrix-pt05",
+      "visibility": "public",
+      "ref": "docs/seo/matriz-mpi.csv",
+      "sha256": "fa0c3c7385cc094aeb5203708eb4731a19592e65d047a4040353c37cc0e296a2",
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Mapa de intenções; não aprovação ou prova de oferta."
+    },
+    {
+      "id": "runtime-pt07",
+      "visibility": "public",
+      "ref": "src/seo/national-pilot.ts",
+      "sha256": "1d58d9639d79570343c3b3e1c98f69107dd657d7b02caf8e02aa924ab64f71dd",
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Retenção nacional vigente; não removida pelo manifesto."
+    },
+    {
+      "id": "editorial-summary-pt09",
+      "visibility": "public",
+      "ref": "docs/seo/evidencias-prompt09/auditoria-resumo.json",
+      "sha256": "d5044bffa32a8521561d7a79b5de9da8857f6b660ae566a772e8eb417db8fd1f",
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Auditoria anterior: três candidatas privadas sem aprovação."
+    },
+    {
+      "id": "private-inventory-pt09",
+      "visibility": "private",
+      "ref": null,
+      "sha256": null,
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Referência restrita disponível no anexo privado PT15."
+    },
+    {
+      "id": "private-candidate-01",
+      "visibility": "private",
+      "ref": null,
+      "sha256": null,
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Referência restrita disponível no anexo privado PT15."
+    },
+    {
+      "id": "private-candidate-02",
+      "visibility": "private",
+      "ref": null,
+      "sha256": null,
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Referência restrita disponível no anexo privado PT15."
+    },
+    {
+      "id": "private-candidate-03",
+      "visibility": "private",
+      "ref": null,
+      "sha256": null,
+      "checkedAt": "2026-10-23T11:53:00.998Z",
+      "scope": "Referência restrita disponível no anexo privado PT15."
+    }
+  ],
+  "items": [
+    {
+      "id": "NACIONAL-01",
+      "matrixIds": [
+        "MPI-001"
+      ],
+      "family": "national-guide",
+      "path": "/guia/administracao-condominial",
+      "intent": "Comparar escopos e selecionar administradoras com oferta real e evidências.",
+      "exposure": "unconfirmed",
+      "contentHash": null,
+      "evidence": [
+        "matrix-pt05",
+        "runtime-pt07"
+      ],
+      "totalEligible": null,
+      "quality": {
+        "rubric": "patri-pilot-15.1",
+        "criteria": {
+          "utility": {
+            "points": null,
+            "evidence": []
+          },
+          "differentiation": {
+            "points": null,
+            "evidence": []
+          },
+          "accuracy": {
+            "points": null,
+            "evidence": []
+          },
+          "editorial": {
+            "points": null,
+            "evidence": []
+          },
+          "technical": {
+            "points": null,
+            "evidence": []
+          },
+          "interlinking": {
+            "points": null,
+            "evidence": []
+          },
+          "conversion": {
+            "points": null,
+            "evidence": []
+          },
+          "media": {
+            "points": null,
+            "evidence": []
+          }
+        },
+        "score": null
+      },
+      "approval": {
+        "status": "pending",
+        "origin": "real",
+        "reviewer": null,
+        "versionHash": null,
+        "approvedAt": null,
+        "expiresAt": null
+      },
+      "publicNoindexJustification": null,
+      "checks": {
+        "content": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "facts": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "entities": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rights": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "http": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "hydration": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "metadata": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "sitemap": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "links": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "mobile": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "media": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "conversion": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "runtimeEligibility": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "backendExposure": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "observability": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rollback": {
+          "state": "not-run",
+          "evidence": []
+        }
+      },
+      "canonicalPath": "/guia/administracao-condominial",
+      "robotsExpectation": "Noindex/fora do sitemap enquanto retido pelo PT07; resposta real depende do catálogo/backend.",
+      "schemaExpectation": [
+        "Sem grafo enquanto noindex; CollectionPage/ItemList somente se futuramente elegível"
+      ],
+      "links": {
+        "required": [
+          "/guia"
+        ],
+        "approvedTargets": [],
+        "verified": false
+      },
+      "cta": {
+        "kind": "supplier-selection",
+        "target": null,
+        "verified": false
+      },
+      "media": {
+        "count": null,
+        "state": "pending",
+        "evidence": []
+      },
+      "blockers": [
+        "real-offer-missing",
+        "national-brief-unapproved",
+        "canonical-origin-unverified",
+        "destination-unverified",
+        "approval-missing-or-stale",
+        "quality-not-assessed",
+        "qa-content",
+        "qa-facts",
+        "qa-entities",
+        "qa-rights",
+        "qa-http",
+        "qa-hydration",
+        "qa-metadata",
+        "qa-sitemap",
+        "qa-links",
+        "qa-mobile",
+        "qa-media",
+        "qa-conversion",
+        "qa-runtimeEligibility",
+        "qa-backendExposure",
+        "qa-observability",
+        "qa-rollback",
+        "links-or-cta-unverified",
+        "media-unverified",
+        "real-offer-unverified",
+        "supplier-inventory-unverified",
+        "national-runtime-retained"
+      ],
+      "decision": "bloqueada",
+      "canonical": null
+    },
+    {
+      "id": "NACIONAL-02",
+      "matrixIds": [
+        "MPI-003"
+      ],
+      "family": "national-guide",
+      "path": "/guia/portaria-remota",
+      "intent": "Comparar contingência e responsabilidades antes de selecionar portaria remota.",
+      "exposure": "unconfirmed",
+      "contentHash": null,
+      "evidence": [
+        "matrix-pt05",
+        "runtime-pt07"
+      ],
+      "totalEligible": null,
+      "quality": {
+        "rubric": "patri-pilot-15.1",
+        "criteria": {
+          "utility": {
+            "points": null,
+            "evidence": []
+          },
+          "differentiation": {
+            "points": null,
+            "evidence": []
+          },
+          "accuracy": {
+            "points": null,
+            "evidence": []
+          },
+          "editorial": {
+            "points": null,
+            "evidence": []
+          },
+          "technical": {
+            "points": null,
+            "evidence": []
+          },
+          "interlinking": {
+            "points": null,
+            "evidence": []
+          },
+          "conversion": {
+            "points": null,
+            "evidence": []
+          },
+          "media": {
+            "points": null,
+            "evidence": []
+          }
+        },
+        "score": null
+      },
+      "approval": {
+        "status": "pending",
+        "origin": "real",
+        "reviewer": null,
+        "versionHash": null,
+        "approvedAt": null,
+        "expiresAt": null
+      },
+      "publicNoindexJustification": null,
+      "checks": {
+        "content": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "facts": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "entities": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rights": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "http": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "hydration": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "metadata": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "sitemap": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "links": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "mobile": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "media": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "conversion": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "runtimeEligibility": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "backendExposure": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "observability": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rollback": {
+          "state": "not-run",
+          "evidence": []
+        }
+      },
+      "canonicalPath": "/guia/portaria-remota",
+      "robotsExpectation": "Noindex/fora do sitemap enquanto retido pelo PT07; resposta real depende do catálogo/backend.",
+      "schemaExpectation": [
+        "Sem grafo enquanto noindex; CollectionPage/ItemList somente se futuramente elegível"
+      ],
+      "links": {
+        "required": [
+          "/guia"
+        ],
+        "approvedTargets": [],
+        "verified": false
+      },
+      "cta": {
+        "kind": "supplier-selection",
+        "target": null,
+        "verified": false
+      },
+      "media": {
+        "count": null,
+        "state": "pending",
+        "evidence": []
+      },
+      "blockers": [
+        "real-offer-missing",
+        "national-brief-unapproved",
+        "canonical-origin-unverified",
+        "destination-unverified",
+        "approval-missing-or-stale",
+        "quality-not-assessed",
+        "qa-content",
+        "qa-facts",
+        "qa-entities",
+        "qa-rights",
+        "qa-http",
+        "qa-hydration",
+        "qa-metadata",
+        "qa-sitemap",
+        "qa-links",
+        "qa-mobile",
+        "qa-media",
+        "qa-conversion",
+        "qa-runtimeEligibility",
+        "qa-backendExposure",
+        "qa-observability",
+        "qa-rollback",
+        "links-or-cta-unverified",
+        "media-unverified",
+        "real-offer-unverified",
+        "supplier-inventory-unverified",
+        "national-runtime-retained"
+      ],
+      "decision": "bloqueada",
+      "canonical": null
+    },
+    {
+      "id": "NACIONAL-03",
+      "matrixIds": [
+        "MPI-005"
+      ],
+      "family": "national-guide",
+      "path": "/guia/elevadores",
+      "intent": "Comparar inclusões e exclusões antes de selecionar manutenção de elevadores.",
+      "exposure": "unconfirmed",
+      "contentHash": null,
+      "evidence": [
+        "matrix-pt05",
+        "runtime-pt07"
+      ],
+      "totalEligible": null,
+      "quality": {
+        "rubric": "patri-pilot-15.1",
+        "criteria": {
+          "utility": {
+            "points": null,
+            "evidence": []
+          },
+          "differentiation": {
+            "points": null,
+            "evidence": []
+          },
+          "accuracy": {
+            "points": null,
+            "evidence": []
+          },
+          "editorial": {
+            "points": null,
+            "evidence": []
+          },
+          "technical": {
+            "points": null,
+            "evidence": []
+          },
+          "interlinking": {
+            "points": null,
+            "evidence": []
+          },
+          "conversion": {
+            "points": null,
+            "evidence": []
+          },
+          "media": {
+            "points": null,
+            "evidence": []
+          }
+        },
+        "score": null
+      },
+      "approval": {
+        "status": "pending",
+        "origin": "real",
+        "reviewer": null,
+        "versionHash": null,
+        "approvedAt": null,
+        "expiresAt": null
+      },
+      "publicNoindexJustification": null,
+      "checks": {
+        "content": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "facts": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "entities": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rights": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "http": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "hydration": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "metadata": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "sitemap": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "links": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "mobile": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "media": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "conversion": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "runtimeEligibility": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "backendExposure": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "observability": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rollback": {
+          "state": "not-run",
+          "evidence": []
+        }
+      },
+      "canonicalPath": "/guia/elevadores",
+      "robotsExpectation": "Noindex/fora do sitemap enquanto retido pelo PT07; resposta real depende do catálogo/backend.",
+      "schemaExpectation": [
+        "Sem grafo enquanto noindex; CollectionPage/ItemList somente se futuramente elegível"
+      ],
+      "links": {
+        "required": [
+          "/guia"
+        ],
+        "approvedTargets": [],
+        "verified": false
+      },
+      "cta": {
+        "kind": "supplier-selection",
+        "target": null,
+        "verified": false
+      },
+      "media": {
+        "count": null,
+        "state": "pending",
+        "evidence": []
+      },
+      "blockers": [
+        "real-offer-missing",
+        "national-brief-unapproved",
+        "canonical-origin-unverified",
+        "destination-unverified",
+        "approval-missing-or-stale",
+        "quality-not-assessed",
+        "qa-content",
+        "qa-facts",
+        "qa-entities",
+        "qa-rights",
+        "qa-http",
+        "qa-hydration",
+        "qa-metadata",
+        "qa-sitemap",
+        "qa-links",
+        "qa-mobile",
+        "qa-media",
+        "qa-conversion",
+        "qa-runtimeEligibility",
+        "qa-backendExposure",
+        "qa-observability",
+        "qa-rollback",
+        "links-or-cta-unverified",
+        "media-unverified",
+        "real-offer-unverified",
+        "supplier-inventory-unverified",
+        "national-runtime-retained"
+      ],
+      "decision": "bloqueada",
+      "canonical": null
+    },
+    {
+      "id": "EDITORIAL-01",
+      "matrixIds": [],
+      "family": "article",
+      "path": null,
+      "intent": "Retomar candidata editorial privada do PT09, após revisão factual, de autoria e direitos.",
+      "exposure": "private",
+      "contentHash": null,
+      "evidence": [
+        "private-pt15-annex"
+      ],
+      "totalEligible": null,
+      "quality": {
+        "rubric": "patri-pilot-15.1",
+        "criteria": {
+          "utility": {
+            "points": null,
+            "evidence": []
+          },
+          "differentiation": {
+            "points": null,
+            "evidence": []
+          },
+          "accuracy": {
+            "points": null,
+            "evidence": []
+          },
+          "editorial": {
+            "points": null,
+            "evidence": []
+          },
+          "technical": {
+            "points": null,
+            "evidence": []
+          },
+          "interlinking": {
+            "points": null,
+            "evidence": []
+          },
+          "conversion": {
+            "points": null,
+            "evidence": []
+          },
+          "media": {
+            "points": null,
+            "evidence": []
+          }
+        },
+        "score": null
+      },
+      "approval": {
+        "status": "pending",
+        "origin": "real",
+        "reviewer": null,
+        "versionHash": null,
+        "approvedAt": null,
+        "expiresAt": null
+      },
+      "publicNoindexJustification": null,
+      "checks": {
+        "content": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "facts": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "entities": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rights": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "http": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "hydration": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "metadata": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "sitemap": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "links": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "mobile": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "media": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "conversion": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "runtimeEligibility": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "backendExposure": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "observability": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rollback": {
+          "state": "not-run",
+          "evidence": []
+        }
+      },
+      "canonicalPath": null,
+      "robotsExpectation": "Enquanto não aprovada: 404/noindex no público; prévia exige autenticação.",
+      "schemaExpectation": [
+        "Sem grafo público enquanto privada"
+      ],
+      "links": {
+        "required": [],
+        "approvedTargets": [],
+        "verified": false
+      },
+      "cta": {
+        "kind": "newsletter",
+        "target": null,
+        "verified": false
+      },
+      "media": {
+        "count": 1,
+        "state": "pending",
+        "evidence": [
+          "private-pt15-annex"
+        ]
+      },
+      "blockers": [
+        "editorial-review-pending",
+        "authorship-and-rights-unconfirmed",
+        "canonical-origin-unverified",
+        "destination-unverified",
+        "approval-missing-or-stale",
+        "quality-not-assessed",
+        "qa-content",
+        "qa-facts",
+        "qa-entities",
+        "qa-rights",
+        "qa-http",
+        "qa-hydration",
+        "qa-metadata",
+        "qa-sitemap",
+        "qa-links",
+        "qa-mobile",
+        "qa-media",
+        "qa-conversion",
+        "qa-runtimeEligibility",
+        "qa-backendExposure",
+        "qa-observability",
+        "qa-rollback",
+        "links-or-cta-unverified",
+        "media-unverified"
+      ],
+      "decision": "rascunho-privado",
+      "canonical": null
+    },
+    {
+      "id": "EDITORIAL-02",
+      "matrixIds": [],
+      "family": "article",
+      "path": null,
+      "intent": "Retomar candidata editorial privada do PT09, após revisão factual, de autoria e direitos.",
+      "exposure": "private",
+      "contentHash": null,
+      "evidence": [
+        "private-pt15-annex"
+      ],
+      "totalEligible": null,
+      "quality": {
+        "rubric": "patri-pilot-15.1",
+        "criteria": {
+          "utility": {
+            "points": null,
+            "evidence": []
+          },
+          "differentiation": {
+            "points": null,
+            "evidence": []
+          },
+          "accuracy": {
+            "points": null,
+            "evidence": []
+          },
+          "editorial": {
+            "points": null,
+            "evidence": []
+          },
+          "technical": {
+            "points": null,
+            "evidence": []
+          },
+          "interlinking": {
+            "points": null,
+            "evidence": []
+          },
+          "conversion": {
+            "points": null,
+            "evidence": []
+          },
+          "media": {
+            "points": null,
+            "evidence": []
+          }
+        },
+        "score": null
+      },
+      "approval": {
+        "status": "pending",
+        "origin": "real",
+        "reviewer": null,
+        "versionHash": null,
+        "approvedAt": null,
+        "expiresAt": null
+      },
+      "publicNoindexJustification": null,
+      "checks": {
+        "content": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "facts": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "entities": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rights": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "http": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "hydration": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "metadata": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "sitemap": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "links": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "mobile": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "media": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "conversion": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "runtimeEligibility": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "backendExposure": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "observability": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rollback": {
+          "state": "not-run",
+          "evidence": []
+        }
+      },
+      "canonicalPath": null,
+      "robotsExpectation": "Enquanto não aprovada: 404/noindex no público; prévia exige autenticação.",
+      "schemaExpectation": [
+        "Sem grafo público enquanto privada"
+      ],
+      "links": {
+        "required": [],
+        "approvedTargets": [],
+        "verified": false
+      },
+      "cta": {
+        "kind": "newsletter",
+        "target": null,
+        "verified": false
+      },
+      "media": {
+        "count": 1,
+        "state": "pending",
+        "evidence": [
+          "private-pt15-annex"
+        ]
+      },
+      "blockers": [
+        "editorial-review-pending",
+        "authorship-and-rights-unconfirmed",
+        "canonical-origin-unverified",
+        "destination-unverified",
+        "approval-missing-or-stale",
+        "quality-not-assessed",
+        "qa-content",
+        "qa-facts",
+        "qa-entities",
+        "qa-rights",
+        "qa-http",
+        "qa-hydration",
+        "qa-metadata",
+        "qa-sitemap",
+        "qa-links",
+        "qa-mobile",
+        "qa-media",
+        "qa-conversion",
+        "qa-runtimeEligibility",
+        "qa-backendExposure",
+        "qa-observability",
+        "qa-rollback",
+        "links-or-cta-unverified",
+        "media-unverified"
+      ],
+      "decision": "rascunho-privado",
+      "canonical": null
+    },
+    {
+      "id": "EDITORIAL-03",
+      "matrixIds": [],
+      "family": "article",
+      "path": null,
+      "intent": "Retomar candidata editorial privada do PT09, após revisão factual, de autoria e direitos.",
+      "exposure": "private",
+      "contentHash": null,
+      "evidence": [
+        "private-pt15-annex"
+      ],
+      "totalEligible": null,
+      "quality": {
+        "rubric": "patri-pilot-15.1",
+        "criteria": {
+          "utility": {
+            "points": null,
+            "evidence": []
+          },
+          "differentiation": {
+            "points": null,
+            "evidence": []
+          },
+          "accuracy": {
+            "points": null,
+            "evidence": []
+          },
+          "editorial": {
+            "points": null,
+            "evidence": []
+          },
+          "technical": {
+            "points": null,
+            "evidence": []
+          },
+          "interlinking": {
+            "points": null,
+            "evidence": []
+          },
+          "conversion": {
+            "points": null,
+            "evidence": []
+          },
+          "media": {
+            "points": null,
+            "evidence": []
+          }
+        },
+        "score": null
+      },
+      "approval": {
+        "status": "pending",
+        "origin": "real",
+        "reviewer": null,
+        "versionHash": null,
+        "approvedAt": null,
+        "expiresAt": null
+      },
+      "publicNoindexJustification": null,
+      "checks": {
+        "content": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "facts": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "entities": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rights": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "http": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "hydration": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "metadata": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "sitemap": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "links": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "mobile": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "media": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "conversion": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "runtimeEligibility": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "backendExposure": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "observability": {
+          "state": "not-run",
+          "evidence": []
+        },
+        "rollback": {
+          "state": "not-run",
+          "evidence": []
+        }
+      },
+      "canonicalPath": null,
+      "robotsExpectation": "Enquanto não aprovada: 404/noindex no público; prévia exige autenticação.",
+      "schemaExpectation": [
+        "Sem grafo público enquanto privada"
+      ],
+      "links": {
+        "required": [],
+        "approvedTargets": [],
+        "verified": false
+      },
+      "cta": {
+        "kind": "newsletter",
+        "target": null,
+        "verified": false
+      },
+      "media": {
+        "count": 1,
+        "state": "pending",
+        "evidence": [
+          "private-pt15-annex"
+        ]
+      },
+      "blockers": [
+        "editorial-review-pending",
+        "authorship-and-rights-unconfirmed",
+        "canonical-origin-unverified",
+        "destination-unverified",
+        "approval-missing-or-stale",
+        "quality-not-assessed",
+        "qa-content",
+        "qa-facts",
+        "qa-entities",
+        "qa-rights",
+        "qa-http",
+        "qa-hydration",
+        "qa-metadata",
+        "qa-sitemap",
+        "qa-links",
+        "qa-mobile",
+        "qa-media",
+        "qa-conversion",
+        "qa-runtimeEligibility",
+        "qa-backendExposure",
+        "qa-observability",
+        "qa-rollback",
+        "links-or-cta-unverified",
+        "media-unverified"
+      ],
+      "decision": "rascunho-privado",
+      "canonical": null
+    }
+  ],
+  "summary": {
+    "candidates": 6,
+    "ready": 0,
+    "publicNoindex": 0,
+    "privateDrafts": 3,
+    "blocked": 3,
+    "publicationExecuted": false
+  },
+  "redacted": true,
+  "privateAnnexRequired": true
+}

@@ -47,7 +47,9 @@
     "test:discovery-policy": "node scripts/test-discovery-policy.mjs",
     "test:measurement": "node scripts/test-measurement.mjs",
     "report:measurement": "node scripts/measurement-report.mjs",
-    "export:gsc": "node scripts/gsc-read.mjs"
+    "export:gsc": "node scripts/gsc-read.mjs",
+    "prepare:pilot": "node scripts/prepare-pilot.mjs",
+    "test:pilot": "node --test tests/pilot-gate.test.mjs && node scripts/test-pilot.mjs"
   },
   "keywords": [],
   "author": "",

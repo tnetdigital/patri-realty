@@ -1,3 +1,7 @@
+## Estado mais recente — PT15
+
+Preparação concluída em23/10/2026; relatório prompt15.md e manifesto-piloto-pt15.md/.json. Seis candidatas:3guias bloqueados e3rascunhos privados, zero prontas. Oferta e domínio não comprovados, QS não avaliado. Anexo completo por caminho em output/patri-realty-private/prompt15, sem distribuição pública. 19gate/26QA específico/191unitários/65HTTP e regressões aprovadas. Sem alteração do frontend, banco ou publicação do lote; quota da prévia e homologações anteriores permanecem. Próximo PT16 após autorização. Registros abaixo são históricos.
+
 # Estado — prompts 00 e 01
 
 ## Estado mais recente — Prompt 12
