@@ -1,5 +1,8 @@
 # Continuidade do projeto Patri Realty
 
+- PT17 preparado em23/10/2026; docs/seo/prompt17.md, plano-monitoramento-pt17.md e plano-autoridade-expansao-pt17.md. NO-GO PT16 preservado; origem/T0/baseline null, seis candidatas/zero prontas, próximo lote publicado0. Cadência relativa T0/24h/7/14/30/60/90 dias proposta, não ativada; modelos vazios em CSV para cópia privada. Sem automação, outreach, recurso, código funcional, deploy ou escala. Teto futuro proposto5URLs/um cluster só com gates, QA e autorização; limites200sitemap/25artigos preservados.25mensuração+19gate aprovados, evidências históricas restauradas. Zero de exportação IA Google pode representar ausente: conferir proveniência. Próximo resolver PT16, sem inventar PT18 ou resultados reais.
+
+
 - PT16 preparado em23/10/2026; relatório docs/seo/prompt16.md e decisão docs/seo/go-no-go.md. NO-GO: destino SSR/domínio/projeto produtivo não identificados; serviços adiados, identidade/direitos/conteúdo e homologação operacional pendentes. AppDeploy readonly ready snapshot1792711230117, sem domínio conectado/recursos; navegador anônimo confirma Prévia restrita. GET shell200 inclusive rota inexistente não prova SSR; robots200/sitemap404. Nenhum segredo, banco, conta, cobrança, envio ou deploy alterado. publicacao.json corrigido para retratar snapshot antigo protegido. Testes atuais/proveniência em evidencias-prompt16; histórico preservado. Próximo operacional: resolver gates PT16 e autorizar lote/destino; próxima sprint PT17 somente após autorização, sem inferir resultados reais ou escalar.
 
 

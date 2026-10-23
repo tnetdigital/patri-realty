@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-23T13:25:25.540020+00:00",
+  "baseCommit": "02ed7fb24712c5a0eec8f585a88b879b259bc45d",
+  "scope": "planning-and-controlled-regressions",
+  "productionTested": false,
+  "measurementChecksPassed": 25,
+  "pilotGateTestsPassed": 19,
+  "documentChecks": [
+    "NO-GO, origem/T0 ausentes e expansão bloqueada",
+    "registro-monitoramento-pt17.csv: vazio com campos únicos",
+    "registro-experimentos-pt17.csv: vazio com campos únicos",
+    "Links relativos resolvidos, incluindo QA gerado nesta verificação"
+  ],
+  "logs": {
+    "measurement": {
+      "sha256": "82fe9a0b9f102377f819f72d775317ca79c792a5686ed0dc21d408e6832819fa",
+      "bytes": 1749
+    },
+    "pilot": {
+      "sha256": "a0bc5c8378f464ff5783befea9b97041a3e1740f6116bb5aa499567c2c7b066c",
+      "bytes": 3655
+    }
+  },
+  "artifacts": {
+    "docs/seo/prompt17.md": "7ae1ec2edde8671057d82f67fa9d9d10c172ae0c9f40094fd618d86e4a313e46",
+    "docs/seo/plano-monitoramento-pt17.md": "051f441a63dacd92e7587700c092e21366027e51262a5a3991d7babc852fc452",
+    "docs/seo/plano-autoridade-expansao-pt17.md": "6676863480405897b0f895e49d95d02221aad9710eb0d675bfceddafe5c93e68",
+    "docs/seo/estado-pt17.json": "48bc58ee55e09d8ae51bfa7bdf475ef5e9ff97d51b0f137ed06e47aaecb809b2",
+    "docs/seo/registro-monitoramento-pt17.csv": "c1de8d3769e0062b72709ac0825aa8b6414fbb0f383b5c8590e52aa02cea03a8",
+    "docs/seo/registro-experimentos-pt17.csv": "9ebb8839e8b0743779768e32360f619db28a5aa639083d418ee03369d658e595"
+  },
+  "runtimeChanged": false,
+  "historicalEvidencePreserved": true
+}

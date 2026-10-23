@@ -1,0 +1,27 @@
+{
+  "version": "patri-plan-17.1",
+  "preparedAt": "2026-10-23",
+  "mode": "planning-only",
+  "launchDecision": "NO-GO",
+  "productionOrigin": null,
+  "launchedAt": null,
+  "pilotCandidates": 6,
+  "pilotReady": 0,
+  "livePerformanceBaseline": null,
+  "monitoringActivated": false,
+  "automationsCreated": false,
+  "outreachSent": false,
+  "expansionAuthorized": false,
+  "nextPublishedBatchSize": 0,
+  "proposedExpansionCeilingAfterAllGates": 5,
+  "proposedMaximumClustersPerBatch": 1,
+  "cadenceDaysAfterAuthorizedLaunch": [
+    0,
+    1,
+    7,
+    14,
+    30,
+    60,
+    90
+  ]
+}
