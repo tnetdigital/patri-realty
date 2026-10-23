@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-23T12:17:39.090040+00:00",
+  "environment": "protected-static-preview-not-production",
+  "authentication": "anonymous-no-credentials",
+  "method": "GET",
+  "requests": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "xRobotsTag": null,
+      "nosniff": null,
+      "bytes": 54138,
+      "sha256": "fbbf47be97e6793f5a3f4b3926b8b1112887107549260d1850171538050398a1",
+      "passwordInput": false,
+      "hasCanonical": false,
+      "hasSSRRootContent": null
+    },
+    {
+      "path": "/guia",
+      "status": 200,
+      "contentType": "text/html",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "xRobotsTag": null,
+      "nosniff": null,
+      "bytes": 54138,
+      "sha256": "fbbf47be97e6793f5a3f4b3926b8b1112887107549260d1850171538050398a1",
+      "passwordInput": false,
+      "hasCanonical": false,
+      "hasSSRRootContent": null
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "xRobotsTag": null,
+      "nosniff": null,
+      "bytes": 68,
+      "sha256": "684b3c13e0802f5339dfcc57bd14eb08e463cff1cdcdfac67de0de4f04a4611d",
+      "passwordInput": false,
+      "hasCanonical": false,
+      "hasSSRRootContent": null
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 404,
+      "contentType": "application/xml",
+      "cacheControl": null,
+      "xRobotsTag": null,
+      "nosniff": null,
+      "bytes": 309,
+      "sha256": "a42d72dcea7e4672e297d26c0397a9f938d4494df07d9b077d153ede0f8b1f35",
+      "passwordInput": false,
+      "hasCanonical": false,
+      "hasSSRRootContent": null
+    },
+    {
+      "path": "/nao-existe-pt16",
+      "status": 200,
+      "contentType": "text/html",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "xRobotsTag": null,
+      "nosniff": null,
+      "bytes": 54138,
+      "sha256": "fbbf47be97e6793f5a3f4b3926b8b1112887107549260d1850171538050398a1",
+      "passwordInput": false,
+      "hasCanonical": false,
+      "hasSSRRootContent": null
+    },
+    {
+      "path": "/api/preview/open",
+      "status": 200,
+      "contentType": "text/html",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "xRobotsTag": null,
+      "nosniff": null,
+      "bytes": 54138,
+      "sha256": "fbbf47be97e6793f5a3f4b3926b8b1112887107549260d1850171538050398a1",
+      "passwordInput": false,
+      "hasCanonical": false,
+      "hasSSRRootContent": null
+    }
+  ],
+  "productionOrigin": null,
+  "productionVerdict": "BLOCKED",
+  "note": "HTTP200 de shell não comprova conteúdo SSR ou acesso ao portal. Nenhum corpo, cookie, token ou dado pessoal retido."
+}

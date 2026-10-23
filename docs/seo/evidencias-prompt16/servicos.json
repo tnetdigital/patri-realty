@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-23",
+  "appdeploy": {
+    "appId": "patri-realty-previa-05je1j",
+    "status": "ready",
+    "snapshot": "1792711230117",
+    "connectedCustomDomains": 0,
+    "resourcePaths": [],
+    "newDeployment": false,
+    "quota": "Recusa anterior CREDITS_USAGE_LIMIT_REACHED; saldo não reconsultado, sem resolução informada"
+  },
+  "supabase": {
+    "discoveryOnly": true,
+    "patriProjectIdentified": false,
+    "otherDatabasesQueried": false
+  },
+  "browser": {
+    "anonymous": true,
+    "title": "Patri Realty — prévia restrita",
+    "heading": "Prévia restrita",
+    "passwordSubmitted": false
+  },
+  "productionOrigin": null,
+  "decision": "NO-GO"
+}

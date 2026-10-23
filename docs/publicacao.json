@@ -2,12 +2,14 @@
   "provider": "AppDeploy",
   "app_id": "patri-realty-previa-05je1j",
   "url": "https://patri-realty-previa-05je1j.v2.appdeploy.ai/",
-  "purpose": "Prévia pública para análise visual",
+  "purpose": "Prévia restrita para análise visual; não é destino SSR produtivo homologado",
   "update_rule": "Reutilizar este app_id para manter o mesmo endereço. Ler o snapshot remoto atual antes de aplicar alterações; não criar outro app.",
-  "authentication": "Não configurada nesta prévia; nunca publicar .env.local ou credenciais do ambiente Docker.",
-  "snapshot_version": "1792476362206",
-  "phase": "Fase 4 — interface mobile first sem emojis",
+  "authentication": "Tela de prévia restrita confirmada em navegação anônima no PT16; senha não acessada nem alterada",
+  "snapshot_version": "1792711230117",
+  "phase": "Snapshot remoto PT04; preparação PT16 disponível no repositório",
   "review_url": "https://patri-realty-previa-05je1j.v2.appdeploy.ai/#/guia",
-  "status": "ready",
-  "review_note": "Interface revisada para celular, com testes em 320/390/768/1280px e remoção de setas decorativas. Prévia fictícia sem backend definitivo conectado."
+  "status": "ready-preview-only",
+  "review_note": "PT16: NO-GO para lançamento. Domínio produtivo não identificado; sem domínio próprio conectado ao app consultado. PT05–16 não foram sincronizados nesta prévia.",
+  "homologation_report": "seo/go-no-go.md",
+  "checked_at": "2026-10-23"
 }

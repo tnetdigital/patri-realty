@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-23T12:20:30.359564+00:00",
+  "baseCommit": "852320d4980c561aec69df47d66d2958b2218327",
+  "decision": "NO-GO",
+  "productionTested": false,
+  "externalReadOnlyGets": 6,
+  "tests": {
+    "unit": 191,
+    "httpCorrections": 65,
+    "previewAccess": 5,
+    "previewHttp": 15,
+    "seo": 22,
+    "discoveryPolicy": 23,
+    "conversionsBrowser": 8,
+    "pilotGate": 19,
+    "pilotWithPrivateAnnex": 26,
+    "experience": 24
+  },
+  "checks": [
+    "build:ssr",
+    "typecheck-client-and-edge",
+    "lint",
+    "check:env",
+    "check:private-editorial"
+  ],
+  "logs": {
+    "pt16-build.log": {
+      "sha256": "9bb19d650685349271acb80985dd26b072b191ae91d160ecf00748d6373eb234",
+      "bytes": 9405,
+      "scope": "local-controlled"
+    },
+    "pt16-conversions.log": {
+      "sha256": "91ff772f428b575da9e1a0d016ede518f80c863fb5fec0fc20c72b1cbaa27c8b",
+      "bytes": 1218,
+      "scope": "local-controlled"
+    },
+    "pt16-discovery.log": {
+      "sha256": "f8b127e54d4b82c22e50acd85f531a3b53fd9124c87fd64b34f8f0275a0d11a8",
+      "bytes": 1619,
+      "scope": "local-controlled"
+    },
+    "pt16-experience.log": {
+      "sha256": "21fb35deaab0fa7c0ac0aac3f823060991cc3b1481aed1b654c7b6f8b5f4445b",
+      "bytes": 3793,
+      "scope": "local-controlled"
+    },
+    "pt16-http.log": {
+      "sha256": "7aa5da02a1e1ecb3f11794ef88620d89c997818181a53e9de6ad74784b8e58af",
+      "bytes": 12456,
+      "scope": "local-controlled"
+    },
+    "pt16-lint.log": {
+      "sha256": "b5386b82acc3cd6016f5f330e43166472e0b2ecabca42169aa050135a28e3020",
+      "bytes": 125,
+      "scope": "local-controlled"
+    },
+    "pt16-pilot-gate.log": {
+      "sha256": "c512e83e31a7106b42c42d4e1417461ac249599ead1326f7cd4601bb7c5d27d1",
+      "bytes": 3657,
+      "scope": "local-controlled"
+    },
+    "pt16-pilot.log": {
+      "sha256": "b50401feb53814654d21ac128baf11e5a7929c0335eda7b6aeecd77700e2e7a1",
+      "bytes": 155,
+      "scope": "local-controlled"
+    },
+    "pt16-preview.log": {
+      "sha256": "f70b6c67dd4658bfdf75b2b7f548d79b6801aa6f1d3473bf49c40a008c64f93c",
+      "bytes": 2869,
+      "scope": "local-controlled"
+    },
+    "pt16-seo.log": {
+      "sha256": "68aad7650ca8f117434d3d7ad7fb19a9216a7f1b1667767f039ef1dd91bc2f7d",
+      "bytes": 2480,
+      "scope": "local-controlled"
+    },
+    "pt16-types.log": {
+      "sha256": "6364219560af4846e6081353e17174ccffdf913250fe3df1584b46a7f5899f5d",
+      "bytes": 90,
+      "scope": "local-controlled"
+    },
+    "pt16-unit.log": {
+      "sha256": "038c18d67d94e5d0c54f30ac26c6a3353598251476bb433b6a529a2d569b2ec0",
+      "bytes": 528,
+      "scope": "local-controlled"
+    }
+  },
+  "limitations": [
+    "Fixtures e loopback não comprovam integração produtiva",
+    "Sem pagamento/envio/conta externos",
+    "Sem cópia de anexos privados ou logs brutos",
+    "Não comprova indexação ou desempenho de campo"
+  ],
+  "artifacts": {
+    "dist/index.html": "706758b80631b54ae66f75b0d5e130d9a7b0da88a8b3529dd4cda897c68f8fe4",
+    "dist-server/entry-server.js": "cf3fa8347ecfed929049b112124640d7cd73181f84648bc245c412c38c1e8078",
+    "docs/seo/go-no-go.md": "4db78573c33f0a6a7675ee1c6fd19801ee31557c023bd221892d326c11dd9164",
+    "docs/seo/prompt16.md": "997f474e92b9239997b55e7dd5506ec5c88b010bd4ec83e7a0516cc892b4447f"
+  }
+}
