@@ -32,6 +32,7 @@ const {
   parseLocalReviews,
   approvedLocalGuides,
   serializeStructured,
+  nationalPilotBlocked,
 } = await import('./dist-server/entry-server.js');
 if (runtime.source === 'live' && (!env.VITE_SITE_URL || !canonicalOrigin(base)))
   throw new Error(
@@ -268,7 +269,9 @@ http
                 ...editorial.categorias.map((slug) => ({
                   path: '/materias/' + slug,
                 })),
-                ...d.segmentos.map((s) => ({ path: '/guia/' + s })),
+                ...d.segmentos
+                  .filter((s) => !nationalPilotBlocked('/guia/' + s))
+                  .map((s) => ({ path: '/guia/' + s })),
                 ...d.locais.map((x) => ({
                   path: `/guia/${x.segmento}/${x.uf.toLowerCase()}/${x.cidade}`,
                 })),

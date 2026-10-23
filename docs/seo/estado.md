@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 07
+
+Modelo de guia nacional implementado e testado em22/10/2026. Piloto de três segmentos bloqueado por ausência de oferta/editorial homologados; noindex/fora do sitemap/sem grafo, sem novos textos públicos. 128unitários,11cenários piloto,14grafo,22SEO,17gate,60HTTP e12proteção aprovados; builds/tipos/lint/scanner aprovados. Relatório prompt07.md e evidencias-prompt07/qa.json. Sem banco/deploy; quota anterior preservada. Próxima etapa Prompt08 perfis, não iniciada. Registros abaixo são históricos.
+
 ## Estado mais recente — Prompt 06
 
 Prompt05 aprovado; grafo semântico implementado em22/10/2026, mantendo stack e banco. Relatório prompt06.md; builders comuns SSR/cliente e exemplos isolados. Testes121unitários,60HTTP,14grafo/navegador,22SEO,17gate e12proteção aprovados, builds/typecheck/lint e scanners aprovados. AggregateRating suprimido conservadoramente; notas públicas preservadas. Nenhum fornecedor, conteúdo, aprovação ou localidade real criado. Sem deploy por quota AppDeploy anterior pendente; documentação/código no GitHub para análise. Registros abaixo são históricos.

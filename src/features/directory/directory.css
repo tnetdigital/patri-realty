@@ -650,3 +650,6 @@
 .specialty-check input {
   padding: 0 !important;
 }
+
+.directory-decision { overflow-wrap: anywhere; min-width: 0; }
+.directory-decision ul { padding-left: 1.25rem; }

@@ -36,6 +36,11 @@ export { PageMetadata as DirectorySeo } from '../seo/metadata';
 import { PageMetadata as DirectorySeo } from '../seo/metadata';
 import { directoryMetadata, publicRedirect } from '../seo/policy';
 import { localLocation, freshEligibility } from '../seo/eligibility';
+import { nationalPilotBlocked } from '../seo/national-pilot';
+import {
+  GuideDecision,
+  type GuideBrief,
+} from '../features/directory/GuideDecision';
 export function DemoNotice() {
   return useDirectoryRuntime().source === 'demo' ? (
     <aside className="directory-demo">
@@ -194,7 +199,7 @@ function Card({ s }: { s: PublicSupplier }) {
     </article>
   );
 }
-export default function Directory() {
+export default function Directory({ brief }: { brief?: GuideBrief } = {}) {
   const r = useDirectoryRuntime(),
     loc = useLocation(),
     navigate = useNavigate(),
@@ -306,6 +311,16 @@ export default function Directory() {
         <p>{t.intro}</p>
       </div>
       <DemoNotice />
+      {nationalPilotBlocked(loc.pathname) && (
+        <aside className="directory-empty" aria-label="Guia em preparação">
+          <h2>Guia em preparação</h2>
+          <p>
+            As orientações desta especialidade estão em revisão. A seleção
+            exibida não comprova atendimento em todas as cidades; confira o
+            escopo e a cobertura diretamente com cada empresa.
+          </p>
+        </aside>
+      )}
       {municipal &&
         !freshEligibility(eligibility.isError ? undefined : gate) && (
           <aside
@@ -350,6 +365,9 @@ export default function Directory() {
           </nav>
         )}
       <SearchForm initial={f} expandedSpecialties />
+      {!municipal && chosen.length === 1 && brief && (
+        <GuideDecision brief={brief} />
+      )}
       {q.isPending ? (
         <p role="status">{t.loading}</p>
       ) : q.isError ? (
@@ -359,7 +377,12 @@ export default function Directory() {
         </div>
       ) : (
         <>
-          <div className="directory-results">
+          <div className="directory-results" id="guide-results">
+            <p>
+              Empresas com destaque comercial podem aparecer antes das demais na
+              ordem de relevância. O destaque pago não representa avaliação
+              editorial, nota de qualidade ou garantia de atendimento.
+            </p>
             <p aria-live="polite">
               {q.data.total} {t.resultLabel.toLowerCase()}
             </p>

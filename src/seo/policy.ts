@@ -1,4 +1,5 @@
 import { filtersFromRoute, directoryPath } from '../features/directory/model';
+import { nationalPilotBlocked } from './national-pilot';
 import { institutionalMeta } from '../features/privacy/legal';
 import { directoryTexts } from '../features/directory/texts';
 import type { DirectoryCatalog, Filters } from '../features/directory/model';
@@ -237,7 +238,8 @@ export function decideSeo(address: string, input: SeoInput) {
     filtered ||
     input.noindex ||
     input.pending ||
-    gateBlocked
+    gateBlocked ||
+    nationalPilotBlocked(path)
   );
   const canonical = excluded ? null : origin + normalizedUrl;
   let redirect: string | null = null;

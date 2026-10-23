@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 07 — modelo e piloto bloqueado
+
+Três guias nacionais candidatos: administração condominial, portaria remota e elevadores. Sem oferta real e revisão editorial homologadas, entregar modelo/fixtures isoladas, não publicar briefings; aplicar noindex comum e retirar sitemap. Destaque pago deve ser explicado junto à listagem, separado de qualidade. Não inferir cobertura de região ou disponibilidade. Nenhuma mudança de taxonomia/banco, nenhum novo deploy por quota anterior. Próximo Prompt08 depende de autorização. Ver prompt07.md.
+
 ## Prompt 06 — execução após aprovação do Prompt 05
 
 Grafo compartilhado SSR/cliente com origem confiável, allowlist de dados públicos e serialização segura. Fornecedor usa Organization até comprovar LocalBusiness/subtipo. Service.provider nunca aponta à Patri por serviços de terceiros. Redação é Organization; autor pessoal tem ID público no contexto da matéria para não unir homônimos. Não inferir dateModified de atualização administrativa. Sem AggregateRating até comprovação de elegibilidade, preservando notas visíveis; nenhum schema de FAQ/HowTo/speakable adicionado. Indexação segue políticas03/04. Sem banco/deploy/publicação de conteúdo; quota AppDeploy anterior preservada. Ver prompt06.md.

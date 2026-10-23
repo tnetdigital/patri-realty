@@ -1,0 +1,56 @@
+{
+  "aviso": "Transporte e empresas sintéticos; não prova oferta real.",
+  "checks": [
+    {
+      "slug": "administracao-condominial",
+      "status": 200,
+      "noindex": true,
+      "draftTextPublished": false
+    },
+    {
+      "slug": "portaria-remota",
+      "status": 200,
+      "noindex": true,
+      "draftTextPublished": false
+    },
+    {
+      "slug": "elevadores",
+      "status": 200,
+      "noindex": true,
+      "draftTextPublished": false
+    },
+    {
+      "sitemap": "piloto ausente"
+    },
+    {
+      "empty": "sem empresas de preenchimento"
+    },
+    {
+      "width": 320,
+      "horizontalOverflow": false,
+      "paidDisclosureVisible": true
+    },
+    {
+      "width": 375,
+      "horizontalOverflow": false,
+      "paidDisclosureVisible": true
+    },
+    {
+      "width": 390,
+      "horizontalOverflow": false,
+      "paidDisclosureVisible": true
+    },
+    {
+      "width": 768,
+      "horizontalOverflow": false,
+      "paidDisclosureVisible": true
+    },
+    {
+      "sorting": "nome",
+      "noindex": true
+    },
+    {
+      "keyboard": "UF selecionada por teclado"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 export { serializeStructured } from './seo/structured';
+export { nationalPilotBlocked } from './seo/national-pilot';
 import { graphFromCache } from './seo/structured-cache';
 import {
   institutionalMeta,
