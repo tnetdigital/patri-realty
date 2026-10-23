@@ -1,3 +1,4 @@
+import { syntheticEditorialReview } from '../tests/fixtures/editorial-review.ts';
 import http from 'node:http';
 import { spawn } from 'node:child_process';
 import { writeFile, mkdtemp, rm } from 'node:fs/promises';
@@ -11,6 +12,8 @@ export async function createLocalHarness() {
   const fixture = await localFixture(reviewFingerprint);
   const folder = await mkdtemp(join(tmpdir(), 'patri-mpi-qa-'));
   const reviewFile = join(folder, 'review.json');
+  const editorialFile = join(folder, 'editorial.json');
+  await writeFile(editorialFile, '[]');
   await writeFile(reviewFile, JSON.stringify([fixture.review]));
   const state = {
     article: null,
@@ -118,6 +121,8 @@ export async function createLocalHarness() {
       VITE_SUPABASE_ANON_KEY: 'synthetic-public-key',
       PATRI_PREVIEW_MODE: 'false',
       PATRI_LOCAL_REVIEW_FILE: reviewFile,
+      PATRI_EDITORIAL_APPROVAL_FILE: editorialFile,
+      PATRI_EDITORIAL_FIXTURES: '1',
       PATRI_ALLOWED_HOSTS: '127.0.0.1:15186',
     },
   });
@@ -137,7 +142,21 @@ export async function createLocalHarness() {
   for (let i = 0; i < 100; i++) {
     try {
       if ((await fetch(base + '/guia')).status === 200)
-        return { base, state, fixture, reviewFile, close };
+        return {
+          base,
+          state,
+          fixture,
+          reviewFile,
+          editorialFile,
+          approveArticle: async (a) => {
+            state.article = a;
+            await writeFile(
+              editorialFile,
+              JSON.stringify([await syntheticEditorialReview(a)]),
+            );
+          },
+          close,
+        };
     } catch {}
     if (child.exitCode !== null) throw Error(errors);
     await new Promise((resolve) => setTimeout(resolve, 100));

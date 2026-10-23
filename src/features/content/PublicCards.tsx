@@ -16,7 +16,20 @@ export function ContentCards({
     <div className="content-grid">
       {items.map((a) => (
         <article className="content-card" key={a.id}>
-          {a.imagem_capa && <img src={a.imagem_capa} alt="" loading="lazy" />}
+          {a.imagem_capa && (
+            <img
+              src={a.imagem_capa}
+              alt={
+                a.media_credits?.find((m) => m.url === a.imagem_capa)?.alt || ""
+              }
+              loading="lazy"
+            />
+          )}
+          {a.media_credits
+            ?.filter((m) => m.url === a.imagem_capa)
+            .map((m) => (
+              <small key={m.url}>{m.credit}</small>
+            ))}
           <span className="content-tag">
             {a.tipo === "editorial" ? a.categoria : "Conteúdo de marca"}
           </span>

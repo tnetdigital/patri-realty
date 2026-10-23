@@ -158,6 +158,15 @@ export function buildGraph(input: GraphInput) {
       '@type': 'Article',
       '@id': articleId,
       headline: a.titulo,
+      ...(a.social_image
+        ? {
+            image: {
+              '@type': 'ImageObject',
+              url: a.social_image,
+              caption: a.social_image_alt || '',
+            },
+          }
+        : {}),
       description: a.resumo,
       mainEntityOfPage: ref(page + '#webpage'),
       author: ref(authorId),

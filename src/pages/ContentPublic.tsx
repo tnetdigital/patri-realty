@@ -41,6 +41,8 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
   const q = useQuery({
       queryKey: contentKey(r, kind, slug || '', category || '', page),
       queryFn: () => contentPublic(r, kind, slug || '', category || '', page),
+      refetchInterval: detail ? 15000 : false,
+      refetchOnWindowFocus: 'always',
     }),
     catalog = useQuery({
       queryKey: contentKey(r, 'catalogo'),
@@ -62,6 +64,8 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
   });
   usePageMetadata({
     ...meta,
+    socialImage: article?.social_image,
+    socialImageAlt: article?.social_image_alt,
     source: r.source,
     status: q.isError
       ? 503
@@ -131,9 +135,18 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
                 decoding="async"
                 className="article-cover"
                 src={article.imagem_capa}
-                alt={article.titulo}
+                alt={
+                  article.media_credits?.find(
+                    (m) => m.url === article.imagem_capa,
+                  )?.alt || article.titulo
+                }
               />
             )}
+            {article.media_credits
+              ?.filter((m) => m.url === article.imagem_capa)
+              .map((m) => (
+                <p key={m.url}>{m.credit}</p>
+              ))}
             <ViewEvent
               runtime={r}
               type="visualizacao_materia"
@@ -141,6 +154,8 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
             />
             <ArticleEngagement runtime={r} target={article.id} />
             <ArticleBody
+              sources={article.public_sources}
+              media={article.media_credits}
               blocks={article.corpo.slice(
                 0,
                 Math.ceil(article.corpo.length / 2),
@@ -148,8 +163,38 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
             />
             <AdSlot position="materia_meio" />
             <ArticleBody
+              sources={article.public_sources}
+              media={article.media_credits}
+              offset={Math.ceil(article.corpo.length / 2)}
               blocks={article.corpo.slice(Math.ceil(article.corpo.length / 2))}
             />
+            {!!article.public_sources?.length && (
+              <section aria-label="Afirmações e fontes">
+                <h2>Fontes e limites da apuração</h2>
+                <ol>
+                  {article.public_sources.map((s, i) => (
+                    <li key={i}>
+                      <a href={'#article-block-' + s.block}>
+                        Trecho {s.block + 1}
+                      </a>
+                      : {s.claim} —{' '}
+                      <a href={s.url} rel="noopener noreferrer" target="_blank">
+                        Fonte
+                      </a>
+                      . {s.limit} Conferido em {s.checkedAt.slice(0, 10)}.
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+            {!!article.media_credits?.length && (
+              <section aria-label="Créditos de mídia">
+                <h2>Créditos e uso de mídia</h2>
+                {article.media_credits.map((m) => (
+                  <p key={m.url}>{m.credit}</p>
+                ))}
+              </section>
+            )}
             {article.fornecedor && (
               <aside className="content-notice">
                 <strong>{article.fornecedor.nome}</strong>

@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 09
+
+Auditoria dos12 rascunhos e contrato/adaptador editorial implementados em22/10/2026; relatório prompt09.md. Três candidatas privadas preparadas, todas pending; originais preservados. 143unitários,12editorial,14grafo,11guias,9perfil,22SEO,17gate,60HTTP e12proteção aprovados; builds/tipos/lint/ambiente/scanner aprovados. Markdown e HTML usam mesma projeção aprovada; nenhuma aprovação real ou publicação. Backend produtivo deve aplicar gate no RPC/Data API; integração local não substitui esse bloqueio. Auditoria detalhada e mídia ficam fora do Git. Sem deploy por quota anterior. Próximo Prompt10 não iniciado. Registros abaixo são históricos.
+
 ## Estado mais recente — Prompt 08
 
 Perfis e orçamento mobile melhorados e testados em22/10/2026; relatório prompt08.md, evidencias-prompt08/. 130unitários,9perfil/mobile,11guias,14grafo,22SEO,17gate,60HTTP e12proteção aprovados; builds/tipos/lint/ambiente/scanner aprovados. Sem empresas/provas/publicações reais, sem banco e sem envio externo. Quota AppDeploy preservada; prévia online não contém alterações08. Próximo Prompt09 editorial/AEO/direitos, não iniciado. Registros abaixo são históricos.

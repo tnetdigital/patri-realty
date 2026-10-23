@@ -41,6 +41,7 @@ try {
     autor: 'Redação Patri Realty',
     tempo_leitura: 1,
   };
+  await h.approveArticle(h.state.article);
   for (const [name, path] of Object.entries({
     home: '/',
     nacional: '/guia/teste',

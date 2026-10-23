@@ -14,6 +14,16 @@ export type Block = {
   linhas?: string[][];
 };
 export type Article = {
+  public_sources?: {
+    url: string;
+    claim: string;
+    block: number;
+    limit: string;
+    checkedAt: string;
+  }[];
+  media_credits?: { url: string; credit: string; alt: string }[];
+  social_image?: string;
+  social_image_alt?: string;
   id: string;
   titulo: string;
   slug: string;

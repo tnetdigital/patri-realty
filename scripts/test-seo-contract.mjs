@@ -1,3 +1,7 @@
+import { syntheticEditorialReview } from '../tests/fixtures/editorial-review.ts';
+import { mkdtemp, writeFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join, resolve, relative, isAbsolute } from 'node:path';
 import http from 'node:http';
 import { spawn } from 'node:child_process';
 import assert from 'node:assert/strict';
@@ -11,11 +15,18 @@ export async function createSeoHarness() {
     resumo: 'Descrição sintética para testes de metadata.',
     seo_titulo: '',
     seo_descricao: '',
-    corpo: [],
+    corpo: [
+      {
+        tipo: 'paragrafo',
+        texto: 'Conteúdo exclusivamente sintético para QA.',
+      },
+    ],
     imagem_capa: '',
     categoria: 'Teste',
     categoria_slug: 'teste',
-    publicada_em: null,
+    publicada_em: new Date(Date.UTC(2026, 0, 14 - page)).toISOString(),
+    status: 'publicada',
+    autor: 'Redação sintética',
     tipo: 'editorial',
     tempo_leitura: 1,
   });
@@ -72,7 +83,12 @@ export async function createSeoHarness() {
         };
       else if (body.kind === 'materia')
         data = {
-          item: body.slug_value === 'ausente' ? null : article(),
+          item:
+            body.slug_value === 'ausente'
+              ? null
+              : article(
+                  Number(body.slug_value?.match(/^texto-(\d+)$/)?.[1]) || 1,
+                ),
           not_found: body.slug_value === 'ausente',
         };
       else if (body.kind === 'lista')
@@ -94,6 +110,18 @@ export async function createSeoHarness() {
       .end(JSON.stringify(data));
   });
   await new Promise((resolve) => fixture.listen(15184, '127.0.0.1', resolve));
+  const folder = await mkdtemp(join(tmpdir(), 'patri-editorial-qa-'));
+  const editorialFile = join(folder, 'reviews.json');
+  await writeFile(
+    editorialFile,
+    JSON.stringify(
+      await Promise.all(
+        Array.from({ length: 13 }, (_, i) =>
+          syntheticEditorialReview(article(i + 1)),
+        ),
+      ),
+    ),
+  );
   const base = 'http://127.0.0.1:15183';
   const child = spawn(process.execPath, ['server.mjs'], {
     windowsHide: true,
@@ -105,6 +133,8 @@ export async function createSeoHarness() {
       VITE_SUPABASE_URL: 'http://127.0.0.1:15184',
       VITE_SUPABASE_ANON_KEY: 'synthetic-public-anon-key',
       PATRI_PREVIEW_MODE: 'false',
+      PATRI_EDITORIAL_APPROVAL_FILE: editorialFile,
+      PATRI_EDITORIAL_FIXTURES: '1',
       PATRI_ALLOWED_HOSTS: '127.0.0.1:15183',
     },
   });
@@ -114,6 +144,10 @@ export async function createSeoHarness() {
     child.kill();
     await new Promise((resolve) => child.once('exit', resolve));
     await new Promise((resolve) => fixture.close(resolve));
+    const within = relative(resolve(tmpdir()), resolve(folder));
+    if (!within || within.startsWith('..') || isAbsolute(within))
+      throw Error('Pasta QA inválida');
+    await rm(folder, { recursive: true });
   };
   for (let i = 0; i < 100; i++) {
     try {
@@ -187,7 +221,7 @@ export async function runSeoChecks(harness) {
     harness.base + '/materias?pagina=2',
     'index,follow',
   );
-  assert.ok(page.html.includes('Texto sintético 2'));
+  assert.ok(page.html.includes('Texto sintético 13'));
   assert.ok(page.html.includes('href="/materias?pagina=1"'));
   await inspect('/materias?pagina=3', 404, null, 'noindex,nofollow');
   await inspect('/guia?pagina=2', 404, null, 'noindex,nofollow');

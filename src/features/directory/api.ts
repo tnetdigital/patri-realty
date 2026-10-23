@@ -28,6 +28,8 @@ export type DirectoryRuntime = {
   preview?: boolean;
   // Server-only reviewed evidence; never serialized as public runtime.
   localReviews?: LocalReview[];
+  editorialReviews?: import('../../seo/editorial').EditorialReview[];
+  editorialFixtures?: boolean;
 };
 const defaultRuntime: DirectoryRuntime = {
   source:

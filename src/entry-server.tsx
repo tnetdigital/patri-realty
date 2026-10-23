@@ -1,3 +1,6 @@
+export { parseEditorialReviews, editorialHash } from './seo/editorial';
+export { contentPublic } from './features/content/api';
+import { articleMarkdown } from './seo/editorial';
 import { profileEssentials } from './seo/profile';
 export { serializeStructured } from './seo/structured';
 export { nationalPilotBlocked } from './seo/national-pilot';
@@ -54,6 +57,7 @@ export async function render(url: string, r: DirectoryRuntime) {
     status = 200,
     redirect: string | null = null;
   const route = decideSeo(url, r);
+  let publicArticle: Article | undefined;
   let pageItems: number | undefined;
   let eligibility: LocalEligibility | undefined;
   status = route.status === 301 ? 200 : route.status;
@@ -163,6 +167,7 @@ export async function render(url: string, r: DirectoryRuntime) {
     if ((detail && !data.item && !redirect) || data.not_found) status = 404;
     if (detail && data.item) {
       const item = data.item as Article | Magazine;
+      if (!issue) publicArticle = item as Article;
       ({ title, description } = contentMetadata({
         path: u.pathname,
         title:
@@ -224,6 +229,9 @@ export async function render(url: string, r: DirectoryRuntime) {
   });
   return {
     html,
+    markdown: publicArticle ? articleMarkdown(publicArticle) : null,
+    socialImage: publicArticle?.social_image || null,
+    socialImageAlt: publicArticle?.social_image_alt || null,
     structured: graphFromCache(url, r, client, finalSeo),
     state: dehydrate(client),
     ...finalSeo,

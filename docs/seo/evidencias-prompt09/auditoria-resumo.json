@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "draftsAudited": 12,
+  "classification": {
+    "publicar após revisão": 3,
+    "aprofundar": 1,
+    "consolidar": 1,
+    "adiar": 7
+  },
+  "textUnitsForTraceability": 426,
+  "sourceLinks": 37,
+  "uniqueImages": 11,
+  "imageFilesMatchingRecordedHashes": 11,
+  "privateCandidatesPrepared": 3,
+  "realApprovals": 0,
+  "publishedArticles": 0,
+  "fullFactualVerificationComplete": false,
+  "privateAuditOutsideGit": true
+}

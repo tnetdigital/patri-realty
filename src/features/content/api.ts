@@ -1,3 +1,4 @@
+import { editorialAllowed, editorialProjection } from "../../seo/editorial";
 import { db } from "../../lib/supabase";
 import type { DirectoryRuntime } from "../directory/api";
 import {
@@ -96,6 +97,20 @@ export async function contentPublic(
         !!category && !s.catalog.categorias.some((c) => c.slug === category),
     };
   }
+  if (typeof window !== "undefined") {
+    const params = new URLSearchParams({
+      kind,
+      slug,
+      category,
+      page: String(page),
+    });
+    const res = await fetch("/api/editorial-public?" + params, {
+      cache: "no-store",
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) throw Error("Conteúdo temporariamente indisponível.");
+    return res.json();
+  }
   const response = await fetch(
     r.url.replace(/\/$/, "") + "/rest/v1/rpc/conteudo_publico",
     {
@@ -116,7 +131,109 @@ export async function contentPublic(
   );
   if (!response.ok)
     throw Error("Não foi possível carregar o conteúdo. Tente novamente.");
-  return response.json();
+  const data = await response.json();
+  const project = async (a: Article) => {
+    const review = await editorialAllowed(
+      a,
+      r.editorialReviews,
+      Date.now(),
+      r.editorialFixtures,
+    );
+    if (!review) return null;
+    return {
+      ...editorialProjection(a),
+      public_sources: review.sources.map(
+        ({ url, claim, block, limit, checkedAt }) => ({
+          url,
+          claim,
+          block,
+          limit,
+          checkedAt,
+        }),
+      ),
+      media_credits: review.media
+        .filter((m) => m.allowed)
+        .map(({ url, credit, alt }) => ({ url, credit, alt })),
+      social_image: review.metadata.image,
+      social_image_alt: review.metadata.imageAlt,
+    };
+  };
+  if (kind === "materia")
+    return {
+      item: data.item ? await project(data.item) : null,
+      redirect: data.redirect || null,
+    };
+  if (["lista", "fornecedor"].includes(kind)) {
+    const candidates = [
+      ...new Set(
+        (r.editorialReviews || [])
+          .filter(
+            (v) =>
+              v.approval.status === "approved" &&
+              (v.origin === "real" || r.editorialFixtures),
+          )
+          .map((v) => v.slug),
+      ),
+    ];
+    if (candidates.length > 25)
+      throw Error("Inventário editorial requer paginação homologada.");
+    const rows: Article[] = [];
+    for (const value of candidates) {
+      const detail = await contentPublic(r, "materia", value);
+      const a = detail.item as Article | null;
+      if (
+        a &&
+        (!category || a.categoria_slug === category) &&
+        (kind !== "fornecedor" || a.fornecedor?.slug === slug)
+      )
+        rows.push(a);
+    }
+    rows.sort(
+      (a, b) =>
+        Date.parse(b.publicada_em || "") - Date.parse(a.publicada_em || "") ||
+        a.slug.localeCompare(b.slug),
+    );
+    return {
+      items: rows.slice((page - 1) * 12, page * 12),
+      total: rows.length,
+      pagina: page,
+      not_found: data.not_found || false,
+    };
+  }
+  if (Array.isArray(data.items))
+    data.items = (await Promise.all(data.items.map(project))).filter(Boolean);
+  if (kind === "sitemap") {
+    const eligible = [];
+    const candidates = (r.editorialReviews || []).filter(
+      (v) =>
+        v.approval.status === "approved" &&
+        (v.origin === "real" || r.editorialFixtures),
+    );
+    if (candidates.length > 25)
+      throw Error("Sitemap editorial requer paginação homologada.");
+    for (const candidate of candidates) {
+      const value = candidate.slug;
+      const detail = await contentPublic(r, "materia", value);
+      if (detail.item) eligible.push(value);
+    }
+    data.materias = eligible;
+  }
+  return Object.fromEntries(
+    [
+      "item",
+      "items",
+      "total",
+      "pagina",
+      "not_found",
+      "categorias",
+      "revistas",
+      "materias",
+      "categorias_slugs",
+      "revistas_slugs",
+    ]
+      .filter((k) => Object.hasOwn(data, k))
+      .map((k) => [k, data[k]]),
+  );
 }
 export async function staffList(
   kind: string,

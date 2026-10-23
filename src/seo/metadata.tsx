@@ -1,3 +1,4 @@
+import { safeHttps } from '../features/directory/model';
 import { useQueryClient } from '@tanstack/react-query';
 import { graphFromCache } from './structured-cache';
 import { serializeStructured } from './structured';
@@ -9,6 +10,7 @@ import { decideSeo, type SeoInput } from './policy';
 export function applyMetadata(
   seo: ReturnType<typeof decideSeo>,
   graph: unknown = null,
+  image?: { url?: string; alt?: string },
 ) {
   document
     .querySelectorAll('script[type="application/ld+json"]')
@@ -21,8 +23,19 @@ export function applyMetadata(
     document.head.appendChild(script);
   }
   document.title = seo.title;
+  const article = (graph as { '@graph'?: { '@type'?: string }[] } | null)?.[
+    '@graph'
+  ]?.some((n) => n['@type'] === 'Article');
   const tags = [
+    ['property', 'og:type', article ? 'article' : 'website'],
     ['name', 'description', seo.description],
+    [
+      'property',
+      'og:image',
+      safeHttps(image?.url || '') ||
+        (seo.origin ? seo.origin + '/og/patri-realty.png' : ''),
+    ],
+    ['property', 'og:image:alt', image?.alt || 'Patri Realty'],
     ['name', 'robots', seo.robots],
     ['property', 'og:title', seo.title],
     ['property', 'og:description', seo.description],
@@ -52,7 +65,12 @@ export function applyMetadata(
   } else canonical.remove();
 }
 
-export function usePageMetadata(options: Partial<SeoInput> = {}) {
+export function usePageMetadata(
+  options: Partial<SeoInput> & {
+    socialImage?: string;
+    socialImageAlt?: string;
+  } = {},
+) {
   const client = useQueryClient();
   const runtime = useDirectoryRuntime();
   const loc = useLocation();
@@ -66,8 +84,20 @@ export function usePageMetadata(options: Partial<SeoInput> = {}) {
     ),
   );
   useEffect(
-    () => applyMetadata(seo, JSON.parse(graph)),
-    [seo.title, seo.description, seo.robots, seo.canonical, graph],
+    () =>
+      applyMetadata(seo, JSON.parse(graph), {
+        url: options.socialImage,
+        alt: options.socialImageAlt,
+      }),
+    [
+      seo.title,
+      seo.description,
+      seo.robots,
+      seo.canonical,
+      graph,
+      options.socialImage,
+      options.socialImageAlt,
+    ],
   );
 }
 

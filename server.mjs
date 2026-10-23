@@ -33,6 +33,8 @@ const {
   approvedLocalGuides,
   serializeStructured,
   nationalPilotBlocked,
+  parseEditorialReviews,
+  contentPublic,
 } = await import('./dist-server/entry-server.js');
 if (runtime.source === 'live' && (!env.VITE_SITE_URL || !canonicalOrigin(base)))
   throw new Error(
@@ -50,7 +52,29 @@ const allowedHosts = new Set([
 const ssrCache = new Map();
 const template = await readFile('dist/index.html', 'utf8');
 async function reviewedRuntime() {
-  if (!env.PATRI_LOCAL_REVIEW_FILE) return { ...runtime, localReviews: [] };
+  let editorialReviews = [];
+  if (env.PATRI_EDITORIAL_APPROVAL_FILE) {
+    const editorialFile = await realpath(env.PATRI_EDITORIAL_APPROVAL_FILE);
+    const within = relative(await realpath(process.cwd()), editorialFile);
+    if (
+      !isAbsolute(env.PATRI_EDITORIAL_APPROVAL_FILE) ||
+      (!(within === '..' || within.startsWith('..' + sep)) &&
+        !isAbsolute(within))
+    )
+      throw Error('Revisão editorial deve ficar fora do repositório.');
+    editorialReviews = parseEditorialReviews(
+      JSON.parse(await readFile(editorialFile, 'utf8')),
+    );
+  }
+  const editorRuntime = {
+    ...runtime,
+    editorialReviews,
+    editorialFixtures:
+      env.PATRI_EDITORIAL_FIXTURES === '1' &&
+      ['localhost', '127.0.0.1'].includes(new URL(base).hostname),
+  };
+  if (!env.PATRI_LOCAL_REVIEW_FILE)
+    return { ...editorRuntime, localReviews: [] };
   const file = await realpath(env.PATRI_LOCAL_REVIEW_FILE);
   const rel = relative(await realpath(process.cwd()), file);
   if (
@@ -61,7 +85,7 @@ async function reviewedRuntime() {
       'A revisão municipal deve permanecer fora do repositório público.',
     );
   return {
-    ...runtime,
+    ...editorRuntime,
     localReviews: parseLocalReviews(JSON.parse(await readFile(file, 'utf8'))),
   };
 }
@@ -91,7 +115,18 @@ http
         const bytes = Buffer.isBuffer(data) ? data : Buffer.from(data);
         if (bytes.length > 1024) {
           res.setHeader('Content-Encoding', 'gzip');
-          res.setHeader('Vary', 'Accept-Encoding');
+          res.setHeader(
+            'Vary',
+            [
+              ...new Set(
+                String(res.getHeader('Vary') || '')
+                  .split(',')
+                  .map((x) => x.trim())
+                  .filter(Boolean)
+                  .concat('Accept-Encoding'),
+              ),
+            ].join(', '),
+          );
           return originalEnd(gzipSync(bytes), ...args);
         }
       }
@@ -129,6 +164,39 @@ http
         return;
       }
       const u = new URL(req.url, base);
+      if (u.pathname === '/api/editorial-public') {
+        res.setHeader('Cache-Control', 'private, no-store');
+        res.setHeader('X-Robots-Tag', 'noindex,nofollow');
+        const kind = u.searchParams.get('kind') || '',
+          page = Number(u.searchParams.get('page') || 1);
+        if (
+          req.method !== 'GET' ||
+          ![
+            'materia',
+            'lista',
+            'fornecedor',
+            'catalogo',
+            'revista',
+            'sitemap',
+          ].includes(kind) ||
+          !Number.isInteger(page) ||
+          page < 1 ||
+          page > 10000
+        ) {
+          res.writeHead(400).end();
+          return;
+        }
+        const result = await contentPublic(
+          await reviewedRuntime(),
+          kind,
+          (u.searchParams.get('slug') || '').slice(0, 200),
+          (u.searchParams.get('category') || '').slice(0, 200),
+          page,
+        );
+        res.setHeader('Content-Type', 'application/json; charset=utf-8');
+        res.end(JSON.stringify(result));
+        return;
+      }
       if (
         u.pathname === '/api/local-eligibility' ||
         u.pathname === '/api/local-guides'
@@ -354,6 +422,29 @@ http
           .end();
         return;
       }
+      if (/^\/materia\/[^/]+$/.test(u.pathname)) {
+        res.setHeader('Vary', 'Accept, Accept-Encoding');
+        const accept = String(req.headers.accept || '');
+        const qualities = (type) => {
+          const match = accept
+            .split(',')
+            .map((v) => v.trim())
+            .find((v) => v.split(';')[0] === type);
+          return match ? Number(match.match(/;\s*q=([0-9.]+)/)?.[1] || 1) : 0;
+        };
+        if (
+          result.markdown &&
+          qualities('text/markdown') > 0 &&
+          qualities('text/markdown') >= qualities('text/html')
+        ) {
+          res.statusCode = result.status;
+          res.setHeader('Content-Type', 'text/markdown; charset=utf-8');
+          res.setHeader('Cache-Control', 'private, no-store');
+          res.setHeader('X-Robots-Tag', result.robots);
+          res.end(result.markdown);
+          return;
+        }
+      }
       const state = JSON.stringify(result.state).replace(/</g, '\\u003c');
       // Only the existing public runtime (including the anonymous key), never server secrets.
       const publicRuntime = JSON.stringify(runtime).replace(/</g, '\\u003c');
@@ -367,7 +458,7 @@ http
       html = html
         .replace(
           '</head>',
-          `${result.structured ? `<script type="application/ld+json">${serializeStructured(result.structured)}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(base + '/og/patri-realty.png')}"><meta property="og:type" content="website"><meta property="og:url" content="${esc(result.canonical || '')}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.robots}">${result.canonical ? `<link rel="canonical" href="${esc(result.canonical)}">` : ''}</head>`,
+          `${result.structured ? `<script type="application/ld+json">${serializeStructured(result.structured)}</script>` : ''}<meta name="description" content="${esc(result.description)}"><meta property="og:title" content="${esc(result.title)}"><meta property="og:description" content="${esc(result.description)}"><meta property="og:image" content="${esc(result.socialImage || base + '/og/patri-realty.png')}"><meta property="og:image:alt" content="${esc(result.socialImageAlt || 'Patri Realty')}"><meta property="og:type" content="${result.markdown ? 'article' : 'website'}"><meta property="og:url" content="${esc(result.canonical || '')}"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="${result.robots}">${result.canonical ? `<link rel="canonical" href="${esc(result.canonical)}">` : ''}</head>`,
         )
         .replace(
           '<div id="root"></div>',

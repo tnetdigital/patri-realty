@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 09 — governança editorial e auditoria privada
+
+Sem nova publicação. Classificações12pautas:3 publicar após revisão,1 aprofundar,1 consolidar,7 adiar. Textos/afirmações/mídia/candidatas/histórico permanecem privados fora do checkout. Contrato exige hash da projeção e do conjunto de fontes/mídia/metadados, validade e decisão real de Tércio. CLI só prepara pending. PATRI_EDITORIAL_APPROVAL_FILE não substitui arquivo antigo da revisão protegida. Proxy/SSR aplicam gate e Markdown equivalente, no-store/Vary Accept; requisito interno v5.1, não promessa de ranking. RPC remoto ainda requer integração equivalente; não lançar produção só com proxy. Limite piloto25 aprovadas; sem migration/deploy. Próximo Prompt10 depende de autorização. Ver prompt09.md e contrato-editorial.md.
+
 ## Prompt 08 — perfis e orçamento móvel
 
 Barreira de exibição SSR/cliente para identidade/resumo/especialidade ausentes; não confundir com nova regra no banco. Checklist não é nota/aprovação. Cobertura e endereço são declarações, sem extrapolar município; booleano verificado não prova escopo/data. Ação móvel de orçamento cede espaço a consentimento/menu/edição e mantém fornecedor correto. Nenhum contato de demonstração é aberto pela barra. Grafo e proteções anteriores preservados. Sem banco/deploy por quota anterior. Próximo Prompt09 depende de autorização. Ver prompt08.md.

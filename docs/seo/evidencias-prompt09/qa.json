@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "realApprovals": 0,
+  "checks": [
+    {
+      "name": "sem aprovação",
+      "status": 404
+    },
+    {
+      "name": "projeção pública nega rascunho",
+      "passed": true
+    },
+    {
+      "name": "HTML/Markdown e fontes equivalentes",
+      "passed": true
+    },
+    {
+      "name": "q=0 não recebe Markdown",
+      "passed": true
+    },
+    {
+      "name": "Vary preservado em negociação/compressão",
+      "passed": true
+    },
+    {
+      "name": "mídia autorizada sintética, crédito e OG/alt",
+      "passed": true
+    },
+    {
+      "name": "metadado alterado perde aprovação",
+      "passed": true
+    },
+    {
+      "name": "navegador usa projeção aprovada",
+      "passed": true
+    },
+    {
+      "name": "versão alterada perde aprovação HTML",
+      "status": 404
+    },
+    {
+      "name": "versão alterada não vaza por Markdown",
+      "status": 404
+    },
+    {
+      "name": "cliente também retira versão alterada",
+      "passed": true
+    },
+    {
+      "name": "revogação remove acesso",
+      "status": 404
+    }
+  ]
+}

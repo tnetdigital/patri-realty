@@ -1,68 +1,101 @@
 import { useState } from "react";
 import { type Block, publicHref, videoId } from "./model";
 import { uploadContent } from "./api";
-export function ArticleBody({ blocks }: { blocks: Block[] }) {
+export function ArticleBody({
+  blocks,
+  offset = 0,
+  sources = [],
+  media = [],
+}: {
+  blocks: Block[];
+  offset?: number;
+  sources?: { block: number; url: string; claim: string; limit: string }[];
+  media?: { url: string; credit: string; alt: string }[];
+}) {
   return (
     <div className="article-body">
-      {blocks.map((b, i) =>
-        b.tipo === "titulo" ? (
-          <h2 key={i}>{b.texto}</h2>
-        ) : b.tipo === "citacao" ? (
-          <blockquote key={i}>{b.texto}</blockquote>
-        ) : b.tipo === "lista" ? (
-          <ul key={i}>
-            {b.texto
-              .split("\n")
-              .filter(Boolean)
-              .map((t, n) => (
-                <li key={n}>{t}</li>
-              ))}
-          </ul>
-        ) : b.tipo === "imagem" ? (
-          <figure key={i}>
-            {(publicHref(b.url || "") ||
-              b.url?.startsWith("data:image/webp;base64,")) && (
-              <img src={b.url} alt={b.legenda || ""} loading="lazy" />
-            )}
-            {b.legenda && <figcaption>{b.legenda}</figcaption>}
-          </figure>
-        ) : b.tipo === "video" ? (
-          <Video key={i} url={b.url || ""} />
-        ) : b.tipo === "link" ? (
-          <p key={i}>
-            <a
-              href={publicHref(b.url || "")}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {b.texto || "Abrir referência"}
-            </a>
-          </p>
-        ) : b.tipo === "tabela" ? (
-          <div className="content-table" key={i}>
-            <table>
-              <caption>{b.texto || "Informações da matéria"}</caption>
-              <tbody>
-                {b.linhas?.map((r, n) => (
-                  <tr key={n}>
-                    {r.map((v, j) =>
-                      n === 0 ? (
-                        <th scope="col" key={j}>
-                          {v}
-                        </th>
-                      ) : (
-                        <td key={j}>{v}</td>
-                      ),
-                    )}
-                  </tr>
+      {blocks.map((b, i) => (
+        <div key={i} id={"article-block-" + (offset + i)}>
+          {b.tipo === "titulo" ? (
+            <h2 key={i}>{b.texto}</h2>
+          ) : b.tipo === "citacao" ? (
+            <blockquote key={i}>{b.texto}</blockquote>
+          ) : b.tipo === "lista" ? (
+            <ul key={i}>
+              {b.texto
+                .split("\n")
+                .filter(Boolean)
+                .map((t, n) => (
+                  <li key={n}>{t}</li>
                 ))}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <p key={i}>{b.texto}</p>
-        ),
-      )}
+            </ul>
+          ) : b.tipo === "imagem" ? (
+            <figure key={i}>
+              {(publicHref(b.url || "") ||
+                b.url?.startsWith("data:image/webp;base64,")) && (
+                <img
+                  src={b.url}
+                  alt={
+                    media.find((m) => m.url === b.url)?.alt || b.legenda || ""
+                  }
+                  loading="lazy"
+                />
+              )}
+              {b.legenda && <figcaption>{b.legenda}</figcaption>}
+              {media
+                .filter((m) => m.url === b.url)
+                .map((m) => (
+                  <figcaption key={m.url}>{m.credit}</figcaption>
+                ))}
+            </figure>
+          ) : b.tipo === "video" ? (
+            <Video key={i} url={b.url || ""} />
+          ) : b.tipo === "link" ? (
+            <p key={i}>
+              <a
+                href={publicHref(b.url || "")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {b.texto || "Abrir referência"}
+              </a>
+            </p>
+          ) : b.tipo === "tabela" ? (
+            <div className="content-table" key={i}>
+              <table>
+                <caption>{b.texto || "Informações da matéria"}</caption>
+                <tbody>
+                  {b.linhas?.map((r, n) => (
+                    <tr key={n}>
+                      {r.map((v, j) =>
+                        n === 0 ? (
+                          <th scope="col" key={j}>
+                            {v}
+                          </th>
+                        ) : (
+                          <td key={j}>{v}</td>
+                        ),
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p key={i}>{b.texto}</p>
+          )}
+          {sources
+            .filter((s) => s.block === offset + i)
+            .map((s, n) => (
+              <p key={n} className="article-source">
+                <a href={s.url} target="_blank" rel="noopener noreferrer">
+                  Fonte: {s.claim}
+                </a>
+                . {s.limit}
+              </p>
+            ))}
+        </div>
+      ))}
     </div>
   );
 }

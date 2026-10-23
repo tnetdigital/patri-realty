@@ -385,3 +385,10 @@
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+.article-source,
+.content-detail,
+.content-card small {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
