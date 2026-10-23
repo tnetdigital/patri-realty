@@ -62,14 +62,20 @@ export function graphFromCache(
     suppliers,
     supplier,
     article,
-    breadcrumbs: listing
+    breadcrumbs: supplier
       ? [
           { name: 'Início', path: '/' },
           { name: 'Guia de fornecedores', path: '/guia' },
-          ...(parts[1]
-            ? [{ name: seo.title, path: seo.canonical || '/guia' }]
-            : []),
+          { name: supplier.nome_fantasia, path: seo.canonical || u.pathname },
         ]
-      : undefined,
+      : listing
+        ? [
+            { name: 'Início', path: '/' },
+            { name: 'Guia de fornecedores', path: '/guia' },
+            ...(parts[1]
+              ? [{ name: seo.title, path: seo.canonical || '/guia' }]
+              : []),
+          ]
+        : undefined,
   });
 }

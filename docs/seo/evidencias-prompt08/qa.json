@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "realSubmission": false,
+  "checks": [
+    {
+      "profile": "incompleto",
+      "status": 404
+    },
+    {
+      "profile": "ausente da projeção pública",
+      "status": 404
+    },
+    {
+      "profile": "público",
+      "breadcrumbs": true,
+      "coverageQualified": true
+    },
+    {
+      "profile": "retirado após acesso público",
+      "status": 404
+    },
+    {
+      "consentAndMenu": "ação cede espaço sem sobreposição"
+    },
+    {
+      "width": 320,
+      "visibleAndClickable": true,
+      "correctSupplier": true,
+      "yieldsOnEditing": true,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "visibleAndClickable": true,
+      "correctSupplier": true,
+      "yieldsOnEditing": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "visibleAndClickable": true,
+      "correctSupplier": true,
+      "yieldsOnEditing": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "visibleAndClickable": true,
+      "correctSupplier": true,
+      "yieldsOnEditing": true,
+      "overflow": false
+    }
+  ]
+}

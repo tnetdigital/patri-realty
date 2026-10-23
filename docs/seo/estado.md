@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 08
+
+Perfis e orçamento mobile melhorados e testados em22/10/2026; relatório prompt08.md, evidencias-prompt08/. 130unitários,9perfil/mobile,11guias,14grafo,22SEO,17gate,60HTTP e12proteção aprovados; builds/tipos/lint/ambiente/scanner aprovados. Sem empresas/provas/publicações reais, sem banco e sem envio externo. Quota AppDeploy preservada; prévia online não contém alterações08. Próximo Prompt09 editorial/AEO/direitos, não iniciado. Registros abaixo são históricos.
+
 ## Estado mais recente — Prompt 07
 
 Modelo de guia nacional implementado e testado em22/10/2026. Piloto de três segmentos bloqueado por ausência de oferta/editorial homologados; noindex/fora do sitemap/sem grafo, sem novos textos públicos. 128unitários,11cenários piloto,14grafo,22SEO,17gate,60HTTP e12proteção aprovados; builds/tipos/lint/scanner aprovados. Relatório prompt07.md e evidencias-prompt07/qa.json. Sem banco/deploy; quota anterior preservada. Próxima etapa Prompt08 perfis, não iniciada. Registros abaixo são históricos.

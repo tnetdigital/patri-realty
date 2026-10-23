@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 08 — perfis e orçamento móvel
+
+Barreira de exibição SSR/cliente para identidade/resumo/especialidade ausentes; não confundir com nova regra no banco. Checklist não é nota/aprovação. Cobertura e endereço são declarações, sem extrapolar município; booleano verificado não prova escopo/data. Ação móvel de orçamento cede espaço a consentimento/menu/edição e mantém fornecedor correto. Nenhum contato de demonstração é aberto pela barra. Grafo e proteções anteriores preservados. Sem banco/deploy por quota anterior. Próximo Prompt09 depende de autorização. Ver prompt08.md.
+
 ## Prompt 07 — modelo e piloto bloqueado
 
 Três guias nacionais candidatos: administração condominial, portaria remota e elevadores. Sem oferta real e revisão editorial homologadas, entregar modelo/fixtures isoladas, não publicar briefings; aplicar noindex comum e retirar sitemap. Destaque pago deve ser explicado junto à listagem, separado de qualidade. Não inferir cobertura de região ou disponibilidade. Nenhuma mudança de taxonomia/banco, nenhum novo deploy por quota anterior. Próximo Prompt08 depende de autorização. Ver prompt07.md.

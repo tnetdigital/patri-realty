@@ -973,3 +973,12 @@ footer .footer a {
     display: none;
   }
 }
+
+/* Profile quotation action reserves space and yields to consent/menu/editing. */
+main .profile-mobile-action button { min-height: 48px; width: 100%; color: inherit; font-size: 16px; background: transparent; border: 1px solid currentColor; border-radius: 6px; }
+#pedir-orcamento { scroll-margin-top: 140px; }
+@media (max-width: 899px) {
+ main .profile-mobile-action { position: fixed; inset: auto 0 0; z-index: 20; display: flex; padding-bottom: max(12px, env(safe-area-inset-bottom)); }
+ main .directory-profile-page { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
+}
+@media (min-width: 900px) { main .profile-mobile-action { display: none; } }

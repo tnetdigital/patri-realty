@@ -1,3 +1,8 @@
+import { profileEssentials, profileChecklist } from '../seo/profile';
+import {
+  ProfileContact,
+  openProfileQuotation,
+} from '../features/directory/ProfileContact';
 import { PublicReviews } from '../features/growth/Reviews';
 import { InstagramPosts } from '../features/growth/Instagram';
 import { ViewEvent, track } from '../features/growth/events';
@@ -455,9 +460,10 @@ export function SupplierProfile() {
   }, [q.data?.redirect, navigate]);
   if (q.isPending)
     return (
-      <p className="container page" role="status">
+      <div className="container page" role="status">
+        <DirectorySeo pending />
         {t.loading}
-      </p>
+      </div>
     );
   if (q.isError)
     return (
@@ -468,7 +474,7 @@ export function SupplierProfile() {
       </section>
     );
   const s = q.data.fornecedor;
-  if (!s)
+  if (!s || !profileEssentials(s))
     return (
       <section className="container page">
         <DirectorySeo
@@ -495,13 +501,17 @@ export function SupplierProfile() {
   ].filter(Boolean) as { label: string; url: string }[];
   const video = videoId(s.video_url);
   return (
-    <article className="container directory-page">
+    <article className="container directory-page directory-profile-page">
       <ViewEvent runtime={r} type="visualizacao_perfil" target={s.id} />
       <DirectorySeo
         title={s.nome_fantasia + ' — ' + (s.segmentos[0]?.nome || 'Fornecedor')}
         description={s.descricao_curta}
       />
-      <Link to="/guia">{t.back}</Link>
+      <nav aria-label="Caminho da empresa">
+        <Link to="/">Início</Link> /{' '}
+        <Link to="/guia">Guia de fornecedores</Link> /{' '}
+        <span>{s.nome_fantasia}</span>
+      </nav>
       <DemoNotice />
       {safeHttps(s.capa_url) && (
         <img className="directory-cover" src={s.capa_url} alt="" />
@@ -525,7 +535,8 @@ export function SupplierProfile() {
         )}
         {s.verificado && (
           <p className="directory-verified">
-            Empresa com verificação documental
+            Verificação cadastrada; escopo e data não disponíveis neste perfil.
+            Este indicador não garante qualidade ou atendimento.
           </p>
         )}
         <p>{s.descricao_curta}</p>
@@ -556,11 +567,21 @@ export function SupplierProfile() {
             </section>
           )}
           <section>
-            <h2>{t.coverage}</h2>
+            <h2>Área atendida informada pela empresa</h2>
+            <p>
+              Esta declaração não comprova atendimento em cada município.
+              Confirme a cobertura e a disponibilidade antes de contratar.
+            </p>
+            {!s.cobertura.length && (
+              <p>A empresa ainda não informou a área atendida.</p>
+            )}
             <ul>
               {s.cobertura.map((x, i) => (
                 <li key={i}>
-                  {x.cidade_nome || t.allState} · {x.uf}
+                  {x.cidade_id
+                    ? x.cidade_nome || 'Município não detalhado'
+                    : 'Cobertura estadual declarada'}{' '}
+                  · {x.uf}
                 </li>
               ))}
             </ul>
@@ -658,15 +679,15 @@ export function SupplierProfile() {
             href="#pedir-orcamento"
             onClick={(e) => {
               e.preventDefault();
-              document
-                .getElementById('pedir-orcamento')
-                ?.scrollIntoView({ behavior: 'smooth' });
+              openProfileQuotation();
             }}
           >
             Pedir orçamento
           </a>
           {s.endereco && (
             <p>
+              Endereço informado pela empresa (não equivale à área atendida):
+              <br />
               {s.endereco}
               <br />
               {s.cidade?.nome} · {s.cidade?.uf}
@@ -682,30 +703,31 @@ export function SupplierProfile() {
           .replace(/^https:\/\/(www\.)?instagram.com\//, '')
           .replace(/\/$/, '')}
       />
+      <section aria-label="Informações do perfil">
+        <h2>Informações disponíveis</h2>
+        <ul>
+          {profileChecklist(s).map((x) => (
+            <li key={x.label}>
+              {x.label}: {x.complete ? 'informado' : 'pendente'}
+            </li>
+          ))}
+        </ul>
+        <p>
+          Completude não equivale a aprovação editorial, verificação documental
+          ou destaque pago. Serviços, casos e imagens são informações
+          apresentadas pela empresa; confirme referências e autorizações de uso.
+        </p>
+      </section>
+      <p>
+        Avaliações são submetidas à moderação. O fornecedor pode responder e
+        denunciar, mas não apagar relatos ou escolher apenas os positivos.
+        Ausência de avaliações não representa nota zero.
+      </p>
       <PublicReviews sid={s.id} />
       <SupplierArticles slug={s.slug} />
       <QuotationForm supplier={s} />
       <Similar supplier={s} />
-      {
-        <nav className="directory-mobile-contact" aria-label="Contatar empresa">
-          <a
-            href="#pedir-orcamento"
-            onClick={(e) => {
-              e.preventDefault();
-              document
-                .getElementById('pedir-orcamento')
-                ?.scrollIntoView({ behavior: 'smooth' });
-            }}
-          >
-            Pedir orçamento
-          </a>
-          {contacts.slice(0, 2).map((x) => (
-            <a key={x.label} href={x.url} rel="noopener noreferrer">
-              {x.label}
-            </a>
-          ))}
-        </nav>
-      }
+      <ProfileContact name={s.nome_fantasia} />
     </article>
   );
 }

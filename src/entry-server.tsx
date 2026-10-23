@@ -1,3 +1,4 @@
+import { profileEssentials } from './seo/profile';
 export { serializeStructured } from './seo/structured';
 export { nationalPilotBlocked } from './seo/national-pilot';
 import { graphFromCache } from './seo/structured-cache';
@@ -93,7 +94,7 @@ export async function render(url: string, r: DirectoryRuntime) {
         queryFn: () => publicProfile(r, slug),
       });
     redirect = data.redirect;
-    if (data.fornecedor) {
+    if (data.fornecedor && profileEssentials(data.fornecedor)) {
       title =
         data.fornecedor.nome_fantasia +
         ' — ' +

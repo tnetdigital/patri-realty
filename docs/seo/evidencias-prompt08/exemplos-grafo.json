@@ -1,0 +1,379 @@
+{
+  "aviso": "Fixtures isoladas; não são empresas, matérias ou aprovações reais.",
+  "examples": {
+    "home": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/#organization",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://127.0.0.1:15186/#website",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/",
+          "publisher": {
+            "@id": "http://127.0.0.1:15186/#organization"
+          },
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://127.0.0.1:15186/#webpage",
+          "url": "http://127.0.0.1:15186/",
+          "name": "Patri Realty — conexões para condomínios | Patri Realty",
+          "description": "Encontre fornecedores por especialidade e região.",
+          "isPartOf": {
+            "@id": "http://127.0.0.1:15186/#website"
+          },
+          "inLanguage": "pt-BR"
+        }
+      ]
+    },
+    "nacional": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/#organization",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://127.0.0.1:15186/#website",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/",
+          "publisher": {
+            "@id": "http://127.0.0.1:15186/#organization"
+          },
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "http://127.0.0.1:15186/guia/teste#webpage",
+          "url": "http://127.0.0.1:15186/guia/teste",
+          "name": "Teste | Patri Realty",
+          "description": "Teste. Encontre fornecedores por especialidade e região. Conheça a empresa, explore seus serviços e escolha seu próximo parceiro.",
+          "isPartOf": {
+            "@id": "http://127.0.0.1:15186/#website"
+          },
+          "inLanguage": "pt-BR",
+          "breadcrumb": {
+            "@id": "http://127.0.0.1:15186/guia/teste#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "http://127.0.0.1:15186/guia/teste#itemlist"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://127.0.0.1:15186/guia/teste#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "http://127.0.0.1:15186/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Guia de fornecedores",
+              "item": "http://127.0.0.1:15186/guia"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Teste | Patri Realty",
+              "item": "http://127.0.0.1:15186/guia/teste"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "http://127.0.0.1:15186/guia/teste#itemlist",
+          "numberOfItems": 3,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "Organization",
+                "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#organization",
+                "name": "Empresa sintética 0",
+                "url": "http://127.0.0.1:15186/fornecedor/synthetic-0"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "Organization",
+                "@id": "http://127.0.0.1:15186/fornecedor/synthetic-1#organization",
+                "name": "Empresa sintética 1",
+                "url": "http://127.0.0.1:15186/fornecedor/synthetic-1"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "Organization",
+                "@id": "http://127.0.0.1:15186/fornecedor/synthetic-2#organization",
+                "name": "Empresa sintética 2",
+                "url": "http://127.0.0.1:15186/fornecedor/synthetic-2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "municipal_sintetica": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/#organization",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://127.0.0.1:15186/#website",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/",
+          "publisher": {
+            "@id": "http://127.0.0.1:15186/#organization"
+          },
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste#webpage",
+          "url": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste",
+          "name": "Guia local sintético para QA | Patri Realty",
+          "description": "Exclusivamente fixture, sem aprovação editorial real.",
+          "isPartOf": {
+            "@id": "http://127.0.0.1:15186/#website"
+          },
+          "inLanguage": "pt-BR",
+          "breadcrumb": {
+            "@id": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste#itemlist"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "http://127.0.0.1:15186/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Guia de fornecedores",
+              "item": "http://127.0.0.1:15186/guia"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Guia local sintético para QA | Patri Realty",
+              "item": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "http://127.0.0.1:15186/guia/teste/sp/cidade-teste#itemlist",
+          "numberOfItems": 3,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "Organization",
+                "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#organization",
+                "name": "Empresa sintética 0",
+                "url": "http://127.0.0.1:15186/fornecedor/synthetic-0"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "Organization",
+                "@id": "http://127.0.0.1:15186/fornecedor/synthetic-1#organization",
+                "name": "Empresa sintética 1",
+                "url": "http://127.0.0.1:15186/fornecedor/synthetic-1"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "Organization",
+                "@id": "http://127.0.0.1:15186/fornecedor/synthetic-2#organization",
+                "name": "Empresa sintética 2",
+                "url": "http://127.0.0.1:15186/fornecedor/synthetic-2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "perfil": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/#organization",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://127.0.0.1:15186/#website",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/",
+          "publisher": {
+            "@id": "http://127.0.0.1:15186/#organization"
+          },
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#webpage",
+          "url": "http://127.0.0.1:15186/fornecedor/synthetic-0",
+          "name": "Empresa sintética 0 — Teste | Patri Realty",
+          "description": "Fixture de teste, não é empresa real.",
+          "isPartOf": {
+            "@id": "http://127.0.0.1:15186/#website"
+          },
+          "inLanguage": "pt-BR",
+          "breadcrumb": {
+            "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Início",
+              "item": "http://127.0.0.1:15186/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Guia de fornecedores",
+              "item": "http://127.0.0.1:15186/guia"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Empresa sintética 0",
+              "item": "http://127.0.0.1:15186/fornecedor/synthetic-0"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#organization",
+          "name": "Empresa sintética 0",
+          "description": "Fixture de teste, não é empresa real.",
+          "url": "http://127.0.0.1:15186/fornecedor/synthetic-0"
+        },
+        {
+          "@type": "Service",
+          "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#service-service-1",
+          "name": "Serviço sintético",
+          "description": "Teste isolado de provider.",
+          "provider": {
+            "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#organization"
+          },
+          "mainEntityOfPage": {
+            "@id": "http://127.0.0.1:15186/fornecedor/synthetic-0#webpage"
+          }
+        }
+      ]
+    },
+    "materia": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/#organization",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://127.0.0.1:15186/#website",
+          "name": "Patri Realty",
+          "url": "http://127.0.0.1:15186/",
+          "publisher": {
+            "@id": "http://127.0.0.1:15186/#organization"
+          },
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "http://127.0.0.1:15186/materia/schema-test#webpage",
+          "url": "http://127.0.0.1:15186/materia/schema-test",
+          "name": "Título sintético </script> & São Paulo | Patri Realty",
+          "description": "Resumo público de QA",
+          "isPartOf": {
+            "@id": "http://127.0.0.1:15186/#website"
+          },
+          "inLanguage": "pt-BR",
+          "mainEntity": {
+            "@id": "http://127.0.0.1:15186/materia/schema-test#article"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "http://127.0.0.1:15186/#editorial",
+          "name": "Redação Patri Realty"
+        },
+        {
+          "@type": "Article",
+          "@id": "http://127.0.0.1:15186/materia/schema-test#article",
+          "headline": "Título sintético </script> & São Paulo",
+          "description": "Resumo público de QA",
+          "mainEntityOfPage": {
+            "@id": "http://127.0.0.1:15186/materia/schema-test#webpage"
+          },
+          "author": {
+            "@id": "http://127.0.0.1:15186/#editorial"
+          },
+          "publisher": {
+            "@id": "http://127.0.0.1:15186/#organization"
+          },
+          "datePublished": "2026-01-01T12:00:00Z",
+          "genre": "Conteúdo de marca"
+        }
+      ]
+    },
+    "privada": null,
+    "inexistente": null,
+    "filtros": null,
+    "municipal_bloqueada": null
+  }
+}
