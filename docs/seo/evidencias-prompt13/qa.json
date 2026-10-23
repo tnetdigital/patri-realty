@@ -1,0 +1,42 @@
+{
+  "passed": 23,
+  "checks": [
+    "candidatos deduplicados e slugs seguros",
+    "noindex excluded",
+    "privado excluded",
+    "not public excluded",
+    "redirect excluded",
+    "404 excluded",
+    "canonical diferente excluded",
+    "canonical origin uniqueness no fabricated lastmod",
+    "escape XML",
+    "origem com caminho rejeitada",
+    "budget never truncates inventory",
+    "outage produces no partial sitemap",
+    "preview robots omits sitemap",
+    "public robots permits crawlable noindex",
+    "HTTP XML UTF-8 e no-store",
+    "each sitemap URL returns 200 indexable self canonical",
+    "eligible synthetic city included",
+    "unapproved city excluded",
+    "three retained pilots excluded",
+    "public profile included missing profile excluded",
+    "sitemap editorial recebe manifesto aprovado vigente",
+    "editorial revocation removes URL next request",
+    "spoofed AI agent receives same response (not real crawler proof)"
+  ],
+  "syntheticUrls": [
+    "http://127.0.0.1:15186/",
+    "http://127.0.0.1:15186/guia",
+    "http://127.0.0.1:15186/materias",
+    "http://127.0.0.1:15186/revista",
+    "http://127.0.0.1:15186/sobre-o-projeto",
+    "http://127.0.0.1:15186/para-fornecedores",
+    "http://127.0.0.1:15186/termos",
+    "http://127.0.0.1:15186/privacidade",
+    "http://127.0.0.1:15186/contato",
+    "http://127.0.0.1:15186/contrato-fornecedor",
+    "http://127.0.0.1:15186/guia/teste",
+    "http://127.0.0.1:15186/guia/teste/sp/cidade-teste"
+  ]
+}

@@ -70,6 +70,22 @@ try {
       assert.equal((await response.json())[0].slug, 'private-canary');
     checks.push({ path, status: 200, authorized: true });
   }
+  for (const path of ['/robots.txt', '/sitemap.xml']) {
+    const response = await fetch(base + path, { headers: { authorization } });
+    assert.equal(response.status, 200);
+    const text = await response.text();
+    assert.match(response.headers.get('x-robots-tag'), /noindex/);
+    if (path === '/robots.txt') {
+      assert.match(text, /Disallow: \//);
+      assert(!text.includes('Sitemap:'));
+    } else assert(!text.includes('<loc>'));
+    checks.push({ path, authorizedDiscoveryEmpty: true });
+  }
+  const bot = await fetch(base + '/sitemap.xml', {
+    headers: { 'User-Agent': 'Googlebot' },
+  });
+  assert.equal(bot.status, 401);
+  checks.push({ path: '/sitemap.xml', spoofedBotDenied: true });
   const refused = await fetch(base + '/api/editorial-review', {
     headers: {
       authorization: 'Basic ' + Buffer.from('revisao:wrong').toString('base64'),

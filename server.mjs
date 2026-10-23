@@ -1,3 +1,8 @@
+import {
+  discoveryCandidates,
+  discoveryXml,
+  robotsText,
+} from './server/discovery.mjs';
 import { gzipSync } from 'node:zlib';
 import http from 'node:http';
 import { readFile, realpath } from 'node:fs/promises';
@@ -32,7 +37,6 @@ const {
   parseLocalReviews,
   approvedLocalGuides,
   serializeStructured,
-  nationalPilotBlocked,
   parseEditorialReviews,
   contentPublic,
 } = await import('./dist-server/entry-server.js');
@@ -302,59 +306,32 @@ http
         res.setHeader('Referrer-Policy', 'no-referrer');
       if (u.pathname === '/robots.txt') {
         res.setHeader('Content-Type', 'text/plain');
-        res.end(
-          `User-agent: *\n${previewMode ? 'Disallow: /' : 'Allow: /\nDisallow: /painel\nDisallow: /admin\nDisallow: /busca'}\nSitemap: ${base}/sitemap.xml\n`,
-        );
+        res.setHeader('Cache-Control', 'no-store');
+        res.end(robotsText(new URL(base).origin, previewMode));
         return;
       }
       if (u.pathname === '/sitemap.xml') {
-        const [d, editorial] = await Promise.all([
-            sitemapData(await reviewedRuntime()),
-            contentSitemap(runtime),
-          ]),
-          paths = previewMode
-            ? []
-            : [
-                { path: '/' },
-                { path: '/guia' },
-                { path: '/materias' },
-                { path: '/revista' },
-                ...[
-                  '/sobre-o-projeto',
-                  '/para-fornecedores',
-                  '/termos',
-                  '/privacidade',
-                  '/evento',
-                  '/contato',
-                  '/contrato-fornecedor',
-                ].map((path) => ({ path })),
-                ...editorial.materias.map((slug) => ({
-                  path: '/materia/' + slug,
-                })),
-                ...editorial.revistas.map((slug) => ({
-                  path: '/revista/' + slug,
-                })),
-                ...editorial.categorias.map((slug) => ({
-                  path: '/materias/' + slug,
-                })),
-                ...d.segmentos
-                  .filter((s) => !nationalPilotBlocked('/guia/' + s))
-                  .map((s) => ({ path: '/guia/' + s })),
-                ...d.locais.map((x) => ({
-                  path: `/guia/${x.segmento}/${x.uf.toLowerCase()}/${x.cidade}`,
-                })),
-                ...d.fornecedores.map((s) => ({
-                  path: '/fornecedor/' + s.slug,
-                })),
-              ];
-        res.setHeader('Content-Type', 'application/xml');
+        let xml;
+        if (previewMode) {
+          xml = await discoveryXml(new URL(base).origin, [], () => {});
+        } else {
+          const reviewed = await reviewedRuntime();
+          const [d, editorial] = await Promise.all([
+            sitemapData(reviewed),
+            contentSitemap(reviewed),
+          ]);
+          xml = await discoveryXml(
+            new URL(base).origin,
+            discoveryCandidates(d, editorial),
+            (path) => render(path, reviewed),
+          );
+        }
+        res.setHeader('Content-Type', 'application/xml; charset=utf-8');
         res.setHeader(
           'Cache-Control',
           previewMode ? PRIVATE_HEADERS['Cache-Control'] : 'no-store',
         );
-        res.end(
-          `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map((x) => `<url><loc>${esc(base + x.path)}</loc></url>`).join('')}</urlset>`,
-        );
+        res.end(xml);
         return;
       }
       if (extname(u.pathname) && u.pathname !== '/') {

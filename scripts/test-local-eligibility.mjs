@@ -83,7 +83,7 @@ export async function createLocalHarness() {
       data = state.banners;
     else if (req.url.includes('sitemap_publico'))
       data = {
-        fornecedores: [],
+        fornecedores: state.sitemapSuppliers || [],
         segmentos: state.sitemapSegments || ['teste'],
         locais: [{ segmento: 'teste', uf: 'SP', cidade: 'cidade-teste' }],
       };

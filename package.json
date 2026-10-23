@@ -43,7 +43,8 @@
     "test:conversions": "node scripts/test-conversions.mjs",
     "test:experience": "node scripts/test-public-experience.mjs",
     "measure:public": "node scripts/measure-public-performance.mjs",
-    "audit:discovery": "node scripts/crawl-discovery.mjs"
+    "audit:discovery": "node scripts/crawl-discovery.mjs",
+    "test:discovery-policy": "node scripts/test-discovery-policy.mjs"
   },
   "keywords": [],
   "author": "",
