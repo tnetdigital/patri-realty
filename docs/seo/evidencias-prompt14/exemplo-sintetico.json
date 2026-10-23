@@ -1,0 +1,809 @@
+{
+  "version": "patri-measurement-14.1",
+  "mode": "synthetic",
+  "generatedAt": "2026-10-23T10:00:00.000Z",
+  "origin": "https://patri.example",
+  "period": {
+    "from": "2026-10-01",
+    "to": "2026-10-20"
+  },
+  "inventory": {
+    "assessedAt": "2026-10-21T10:00:00Z",
+    "evidenceId": "synthetic-inventory",
+    "complete": true
+  },
+  "provenance": [
+    {
+      "source": "sitemap",
+      "evidenceId": "synthetic-sitemap",
+      "extractedAt": "2026-10-21T10:00:00Z",
+      "dataThrough": "2026-10-20",
+      "collection": "platform",
+      "timezone": "UTC",
+      "coverage": "complete"
+    },
+    {
+      "source": "gsc-search",
+      "evidenceId": "synthetic-gsc",
+      "extractedAt": "2026-10-21T10:00:00Z",
+      "dataThrough": "2026-10-20",
+      "collection": "platform",
+      "timezone": "America/Los_Angeles",
+      "coverage": "partial"
+    }
+  ],
+  "quality": {
+    "duplicatesRemoved": 0,
+    "outsideInventoryRows": 0,
+    "ineligibleRows": 0
+  },
+  "interpretation": "Observed counts within the current eligible cohort; null means unavailable. Partial exports are lower bounds. Source timezones remain distinct. URL association is not attribution or proof of causality. Revenue is confirmed operational revenue, not revenue attributed to SEO.",
+  "overall": {
+    "eligibleUrls": 3,
+    "listedUrls": 1,
+    "submittedUrls": null,
+    "googleIndexedUrls": null,
+    "googleImpressionUrls": 1,
+    "googleClickUrls": 1,
+    "quotationUrls": null,
+    "totals": {
+      "sitemap": {
+        "listed": 1
+      },
+      "submission": {
+        "submitted": null
+      },
+      "gsc-index": {
+        "indexed": null
+      },
+      "gsc-search": {
+        "impressions": 10,
+        "clicks": 2
+      },
+      "gsc-ai": {
+        "impressions": null
+      },
+      "bing-search": {
+        "impressions": null,
+        "clicks": null
+      },
+      "bing-ai": {
+        "citations": null
+      },
+      "events": {
+        "profile_views": null,
+        "article_views": null,
+        "contact_clicks": null,
+        "quotation_receipts": null
+      },
+      "operations": {
+        "quotations_registered": null,
+        "suppliers_registered": null,
+        "suppliers_approved": null,
+        "payments_confirmed": null,
+        "revenue_cents": null
+      }
+    }
+  },
+  "audiences": {
+    "procura": {
+      "eligibleUrls": 1,
+      "listedUrls": 1,
+      "submittedUrls": null,
+      "googleIndexedUrls": null,
+      "googleImpressionUrls": 1,
+      "googleClickUrls": 1,
+      "quotationUrls": null,
+      "totals": {
+        "sitemap": {
+          "listed": 1
+        },
+        "submission": {
+          "submitted": null
+        },
+        "gsc-index": {
+          "indexed": null
+        },
+        "gsc-search": {
+          "impressions": 10,
+          "clicks": 2
+        },
+        "gsc-ai": {
+          "impressions": null
+        },
+        "bing-search": {
+          "impressions": null,
+          "clicks": null
+        },
+        "bing-ai": {
+          "citations": null
+        },
+        "events": {
+          "profile_views": null,
+          "article_views": null,
+          "contact_clicks": null,
+          "quotation_receipts": null
+        },
+        "operations": {
+          "quotations_registered": null,
+          "suppliers_registered": null,
+          "suppliers_approved": null,
+          "payments_confirmed": null,
+          "revenue_cents": null
+        }
+      }
+    },
+    "aquisicao": {
+      "eligibleUrls": 1,
+      "listedUrls": null,
+      "submittedUrls": null,
+      "googleIndexedUrls": null,
+      "googleImpressionUrls": null,
+      "googleClickUrls": null,
+      "quotationUrls": null,
+      "totals": {
+        "sitemap": {
+          "listed": null
+        },
+        "submission": {
+          "submitted": null
+        },
+        "gsc-index": {
+          "indexed": null
+        },
+        "gsc-search": {
+          "impressions": null,
+          "clicks": null
+        },
+        "gsc-ai": {
+          "impressions": null
+        },
+        "bing-search": {
+          "impressions": null,
+          "clicks": null
+        },
+        "bing-ai": {
+          "citations": null
+        },
+        "events": {
+          "profile_views": null,
+          "article_views": null,
+          "contact_clicks": null,
+          "quotation_receipts": null
+        },
+        "operations": {
+          "quotations_registered": null,
+          "suppliers_registered": null,
+          "suppliers_approved": null,
+          "payments_confirmed": null,
+          "revenue_cents": null
+        }
+      }
+    },
+    "leitores": {
+      "eligibleUrls": 1,
+      "listedUrls": null,
+      "submittedUrls": null,
+      "googleIndexedUrls": null,
+      "googleImpressionUrls": null,
+      "googleClickUrls": null,
+      "quotationUrls": null,
+      "totals": {
+        "sitemap": {
+          "listed": null
+        },
+        "submission": {
+          "submitted": null
+        },
+        "gsc-index": {
+          "indexed": null
+        },
+        "gsc-search": {
+          "impressions": null,
+          "clicks": null
+        },
+        "gsc-ai": {
+          "impressions": null
+        },
+        "bing-search": {
+          "impressions": null,
+          "clicks": null
+        },
+        "bing-ai": {
+          "citations": null
+        },
+        "events": {
+          "profile_views": null,
+          "article_views": null,
+          "contact_clicks": null,
+          "quotation_receipts": null
+        },
+        "operations": {
+          "quotations_registered": null,
+          "suppliers_registered": null,
+          "suppliers_approved": null,
+          "payments_confirmed": null,
+          "revenue_cents": null
+        }
+      }
+    }
+  },
+  "dimensions": {
+    "family": {
+      "perfil": {
+        "eligibleUrls": 1,
+        "listedUrls": 1,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": 1,
+        "googleClickUrls": 1,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": 1
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": 10,
+            "clicks": 2
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      },
+      "materia": {
+        "eligibleUrls": 1,
+        "listedUrls": null,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": null,
+        "googleClickUrls": null,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": null
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      },
+      "hub-institucional": {
+        "eligibleUrls": 1,
+        "listedUrls": null,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": null,
+        "googleClickUrls": null,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": null
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      }
+    },
+    "segment": {
+      "teste": {
+        "eligibleUrls": 1,
+        "listedUrls": 1,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": 1,
+        "googleClickUrls": 1,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": 1
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": 10,
+            "clicks": 2
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      },
+      "__unavailable__": {
+        "eligibleUrls": 2,
+        "listedUrls": null,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": null,
+        "googleClickUrls": null,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": null
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      }
+    },
+    "supplier": {
+      "11000000-0000-4000-8000-000000000001": {
+        "eligibleUrls": 1,
+        "listedUrls": 1,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": 1,
+        "googleClickUrls": 1,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": 1
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": 10,
+            "clicks": 2
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      },
+      "__unavailable__": {
+        "eligibleUrls": 2,
+        "listedUrls": null,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": null,
+        "googleClickUrls": null,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": null
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      }
+    },
+    "uf": {
+      "SP": {
+        "eligibleUrls": 1,
+        "listedUrls": 1,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": 1,
+        "googleClickUrls": 1,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": 1
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": 10,
+            "clicks": 2
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      },
+      "__unavailable__": {
+        "eligibleUrls": 2,
+        "listedUrls": null,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": null,
+        "googleClickUrls": null,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": null
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      }
+    },
+    "city": {
+      "__unavailable__": {
+        "eligibleUrls": 3,
+        "listedUrls": 1,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": 1,
+        "googleClickUrls": 1,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": 1
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": 10,
+            "clicks": 2
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      }
+    },
+    "cluster": {
+      "teste": {
+        "eligibleUrls": 2,
+        "listedUrls": 1,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": 1,
+        "googleClickUrls": 1,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": 1
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": 10,
+            "clicks": 2
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      },
+      "__unavailable__": {
+        "eligibleUrls": 1,
+        "listedUrls": null,
+        "submittedUrls": null,
+        "googleIndexedUrls": null,
+        "googleImpressionUrls": null,
+        "googleClickUrls": null,
+        "quotationUrls": null,
+        "totals": {
+          "sitemap": {
+            "listed": null
+          },
+          "submission": {
+            "submitted": null
+          },
+          "gsc-index": {
+            "indexed": null
+          },
+          "gsc-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "gsc-ai": {
+            "impressions": null
+          },
+          "bing-search": {
+            "impressions": null,
+            "clicks": null
+          },
+          "bing-ai": {
+            "citations": null
+          },
+          "events": {
+            "profile_views": null,
+            "article_views": null,
+            "contact_clicks": null,
+            "quotation_receipts": null
+          },
+          "operations": {
+            "quotations_registered": null,
+            "suppliers_registered": null,
+            "suppliers_approved": null,
+            "payments_confirmed": null,
+            "revenue_cents": null
+          }
+        }
+      }
+    }
+  }
+}

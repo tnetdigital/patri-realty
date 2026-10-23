@@ -2,6 +2,11 @@
   padding-block: 32px 64px;
   max-width: 1180px;
 }
+.growth-metric strong.measurement-unavailable {
+  font-size: 18px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
 .growth-heading {
   display: flex;
   flex-wrap: wrap;
@@ -123,6 +128,7 @@
 }
 .growth-metric strong {
   display: block;
+  overflow-wrap: anywhere;
   font-size: 32px;
   color: #244b3a;
 }

@@ -25,6 +25,13 @@ import {
   sampleMetrics,
 } from "../features/growth/demo";
 import "../features/growth/growth.css";
+import {
+  measurementGroups,
+  metricValue,
+  metricWindow,
+  dailyCsv,
+  type MeasurementGroup,
+} from "../features/measurement/metrics";
 type View = "metricas" | "avaliacoes" | "diagnostico" | "cresca" | "marketing";
 const labels: Record<View, string> = {
   metricas: "Métricas",
@@ -49,6 +56,9 @@ export default function GrowthPage({
     [message, setMessage] = useState(""),
     [page, setPage] = useState(1),
     [premium, setPremium] = useState(true);
+  const [measurementGroup, setMeasurementGroup] =
+    useState<MeasurementGroup>("procura");
+  const selectedReport = measurementGroups[measurementGroup];
   const companies = useQuery({
       queryKey: ["growth-companies", demo],
       queryFn: () => listSuppliers(demo ? "demo" : "live"),
@@ -80,8 +90,7 @@ export default function GrowthPage({
   const stats = useQuery({
     queryKey: ["growth-metrics", demo, admin, id, from, to],
     queryFn: () => metrics(admin ? null : id, from, to, demo),
-    enabled:
-      (admin || !!id) && view === "metricas" && !!from && !!to && from <= to,
+    enabled: (admin || !!id) && view === "metricas" && metricWindow(from, to),
   });
   const crm = useQuery({
     queryKey: ["growth-interests", demo, admin, id, page],
@@ -253,6 +262,24 @@ export default function GrowthPage({
         <>
           <div className="growth-filters">
             <label>
+              Relatório
+              <select
+                aria-label="Relatório"
+                value={measurementGroup}
+                onChange={(e) =>
+                  setMeasurementGroup(e.target.value as MeasurementGroup)
+                }
+              >
+                {Object.entries(measurementGroups)
+                  .filter(([key]) => admin || key !== "publicidade")
+                  .map(([key, report]) => (
+                    <option key={key} value={key}>
+                      {report.label}
+                    </option>
+                  ))}
+              </select>
+            </label>
+            <label>
               De
               <input
                 type="date"
@@ -270,15 +297,47 @@ export default function GrowthPage({
                 onChange={(e) => setTo(e.target.value)}
               />
             </label>
-            <button onClick={() => void stats.refetch()}>
+            <button
+              disabled={!metricWindow(from, to) || stats.isFetching}
+              onClick={() => void stats.refetch()}
+            >
               Atualizar métricas
             </button>
           </div>
+          {!metricWindow(from, to) && (
+            <p role="alert">
+              Selecione datas válidas com intervalo de até 365 dias.
+            </p>
+          )}
           <p>
-            Agregados atualizados pela rotina diária. A coleta respeita o
-            consentimento para análises; estes números não representam
-            visitantes únicos.
+            Fonte: eventos próprios agregados por dia em America/Sao_Paulo. A
+            coleta respeita o consentimento para análises; estes números não
+            representam visitantes únicos. Última execução da agregação: não
+            informada pela fonte.
           </p>
+          <p>{selectedReport.note}</p>
+          {stats.isSuccess && (
+            <p>
+              Consulta recebida em{" "}
+              {new Date(stats.dataUpdatedAt).toLocaleString("pt-BR")}. Esse
+              horário não comprova atualização da agregação.
+            </p>
+          )}
+          {admin && (
+            <details className="growth-panel">
+              <summary>Descoberta, busca e IA</summary>
+              <p>
+                URLs elegíveis, submetidas, indexadas, com impressões, com
+                cliques e com conversões são conjuntos distintos. Sessões não
+                equivalem a cliques de busca.
+              </p>
+              <p>
+                Search Console e Bing Webmaster: não integrados a este painel.
+                Indexação, impressões, cliques e citações de IA: não disponíveis
+                aqui. Receita exige registros financeiros confirmados.
+              </p>
+            </details>
+          )}
           {stats.isFetching ? (
             <p role="status">Consultando métricas…</p>
           ) : stats.isError ? (
@@ -312,29 +371,42 @@ export default function GrowthPage({
                 {Object.entries(eventNames)
                   .filter(
                     ([type]) =>
-                      admin ||
-                      !["busca", "impressao_banner", "clique_banner"].includes(
+                      (selectedReport.events as readonly string[]).includes(
                         type,
-                      ),
+                      ) &&
+                      (admin || type !== "busca"),
                   )
                   .map(([type, label]) => (
                     <div className="growth-metric" key={type}>
                       <span>{label}</span>
-                      <strong>{stats.data?.atual?.[type] || 0}</strong>
+                      <strong
+                        className={
+                          metricValue(stats.data?.atual, type) === null
+                            ? "measurement-unavailable"
+                            : undefined
+                        }
+                      >
+                        {metricValue(stats.data?.atual, type) ??
+                          "Não disponível"}
+                      </strong>
                       <small>
-                        Período anterior: {stats.data?.anterior?.[type] || 0}
+                        Período anterior:{" "}
+                        {metricValue(stats.data?.anterior, type) ??
+                          "Não disponível"}
                       </small>
                     </div>
                   ))}
               </div>
-              {stats.data.queda_visitas !== null &&
+              {measurementGroup === "procura" &&
+                stats.data.queda_visitas !== null &&
                 stats.data.queda_visitas !== undefined && (
                   <p>
                     Variação de visitas: {stats.data.queda_visitas}% em relação
                     ao período anterior de mesma duração.
                   </p>
                 )}
-              {!admin &&
+              {measurementGroup === "procura" &&
+                !admin &&
                 stats.data.queda_visitas !== null &&
                 Number(stats.data.queda_visitas) <= -30 && (
                   <Specialist
@@ -342,18 +414,47 @@ export default function GrowthPage({
                     reason="Suas visitas caíram 30% ou mais. Podemos ajudar a revisar sua presença."
                   />
                 )}
-              <MetricChart rows={stats.data.diario} />
+              {measurementGroup !== "aquisicao" && (
+                <MetricChart
+                  rows={stats.data.diario.filter((r) =>
+                    (selectedReport.events as readonly string[]).includes(
+                      r.tipo,
+                    ),
+                  )}
+                  metric={
+                    measurementGroup === "leitores"
+                      ? "visualizacao_materia"
+                      : measurementGroup === "publicidade"
+                        ? "impressao_banner"
+                        : "visualizacao_perfil"
+                  }
+                />
+              )}
+              <p>
+                “Não disponível” indica ausência de contagem explícita na
+                resposta. Zero só aparece quando a fonte retorna zero. Ausência
+                de eventos não comprova ausência de procura.
+              </p>
               <div className="growth-actions">
                 <button
-                  onClick={() => {
-                    const csv = [
-                      "data;evento;quantidade",
-                      ...stats.data!.diario.map(
-                        (d) => `${d.dia};${d.tipo};${d.quantidade}`,
+                  disabled={
+                    measurementGroup === "aquisicao" ||
+                    !stats.data.diario.some((r) =>
+                      (selectedReport.events as readonly string[]).includes(
+                        r.tipo,
                       ),
-                    ].join("\n");
+                    )
+                  }
+                  onClick={() => {
+                    const csv = dailyCsv(
+                      stats.data!.diario.filter((r) =>
+                        (selectedReport.events as readonly string[]).includes(
+                          r.tipo,
+                        ),
+                      ),
+                    );
                     const u = URL.createObjectURL(
-                      new Blob(["\uFEFF" + csv], {
+                      new Blob([csv], {
                         type: "text/csv;charset=utf-8",
                       }),
                     );
@@ -613,28 +714,35 @@ function InterestCard({
 }
 function MetricChart({
   rows,
+  metric,
 }: {
   rows: { dia: string; tipo: string; quantidade: number }[];
+  metric: string;
 }) {
-  const dates = [...new Set(rows.map((d) => d.dia))].sort(),
+  const dates = [
+      ...new Set(rows.filter((d) => d.tipo === metric).map((d) => d.dia)),
+    ].sort(),
     values = dates.map((d) => ({
       dia: d,
       n: rows
-        .filter((x) => x.dia === d && x.tipo === "visualizacao_perfil")
+        .filter((x) => x.dia === d && x.tipo === metric)
         .reduce((a, x) => a + x.quantidade, 0),
     })),
     max = Math.max(1, ...values.map((v) => v.n));
   return (
     <div className="growth-panel">
-      <h2>Visitas por dia</h2>
+      <h2>{eventNames[metric]} por dia</h2>
       {!dates.length ? (
-        <p>Sem eventos no período selecionado.</p>
+        <p>
+          Nenhuma contagem diária deste indicador foi retornada no período
+          selecionado.
+        </p>
       ) : (
         <>
           <div
             className="growth-chart"
             role="img"
-            aria-label="Gráfico de visitas ao perfil; os valores estão na tabela abaixo"
+            aria-label={`Gráfico de ${eventNames[metric]}; os valores estão na tabela abaixo`}
           >
             {values.map((v) => (
               <div

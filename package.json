@@ -44,7 +44,10 @@
     "test:experience": "node scripts/test-public-experience.mjs",
     "measure:public": "node scripts/measure-public-performance.mjs",
     "audit:discovery": "node scripts/crawl-discovery.mjs",
-    "test:discovery-policy": "node scripts/test-discovery-policy.mjs"
+    "test:discovery-policy": "node scripts/test-discovery-policy.mjs",
+    "test:measurement": "node scripts/test-measurement.mjs",
+    "report:measurement": "node scripts/measurement-report.mjs",
+    "export:gsc": "node scripts/gsc-read.mjs"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,13 @@
+id;publico;intencao;plataforma;modelo_versao;executado_em;idioma;regiao;prompt_publico;fontes_citadas;url_patri;correcao_resposta;evidencia_ref;status
+ia-01;procura;comparacao;;;;pt-BR;Brasil;Quais critérios devo usar para comparar empresas de portaria remota para um condomínio?;;;;;nao-executado
+ia-02;procura;selecao-local;;;;pt-BR;Brasil;Como verificar se um fornecedor de manutenção de elevadores atende um condomínio na cidade informada?;;;;;nao-executado
+ia-03;procura;contratacao;;;;pt-BR;Brasil;Quais documentos e referências devo solicitar antes de contratar uma administradora condominial?;;;;;nao-executado
+ia-04;procura;marca;;;;pt-BR;Brasil;O que é a Patri Realty e quais informações públicas verificáveis ela oferece sobre fornecedores?;;;;;nao-executado
+ia-05;aquisicao;cadastro;;;;pt-BR;Brasil;Como uma empresa pode se cadastrar como fornecedora na Patri Realty e quais etapas precisam ser confirmadas?;;;;;nao-executado
+ia-06;aquisicao;regras;;;;pt-BR;Brasil;Quais regras públicas distinguem cadastro de empresa e aprovação de perfil na Patri Realty?;;;;;nao-executado
+ia-07;aquisicao;planos;;;;pt-BR;Brasil;Quais informações sobre planos e condições da Patri Realty estão publicamente confirmadas? Indique fontes e lacunas.;;;;;nao-executado
+ia-08;aquisicao;qualificacao;;;;pt-BR;Brasil;O que uma empresa deve apresentar para que seu perfil em um guia de fornecedores seja útil e confiável?;;;;;nao-executado
+ia-09;leitores;informacao;;;;pt-BR;Brasil;Como organizar um plano prático de sustentabilidade para um condomínio sem prometer resultados não medidos?;;;;;nao-executado
+ia-10;leitores;verificacao;;;;pt-BR;Brasil;Como distinguir publicidade e conteúdo editorial em um portal do mercado condominial?;;;;;nao-executado
+ia-11;leitores;descoberta;;;;pt-BR;Brasil;Quais matérias públicas da Patri Realty ajudam a avaliar decisões de gestão condominial? Cite apenas URLs acessíveis e fontes verificáveis.;;;;;nao-executado
+ia-12;leitores;confiabilidade;;;;pt-BR;Brasil;Quais fontes e evidências devem sustentar recomendações sobre manutenção predial e contratação de fornecedores?;;;;;nao-executado

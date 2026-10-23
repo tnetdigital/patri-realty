@@ -10,6 +10,7 @@ import {
   demoInterestUpdate,
 } from "./demo";
 import type { ReviewPage, Interest, Metrics } from "./model";
+import { parseMetrics, metricWindow } from "../measurement/metrics";
 export async function reviews(
   sid: string,
   mode: string,
@@ -77,14 +78,15 @@ export async function metrics(
   to: string,
   demo: boolean,
 ): Promise<Metrics> {
-  if (demo) return demoMetrics(sid, from, to);
+  if (!metricWindow(from, to)) throw Error("Selecione um período válido.");
+  if (demo) return parseMetrics(demoMetrics(sid, from, to), from, to);
   const { data, error } = await db().rpc("resumo_metricas", {
     sid: sid as string,
     date_from: from,
     date_to: to,
   });
   if (error) throw Error(error.message);
-  return data as unknown as Metrics;
+  return parseMetrics(data, from, to);
 }
 export async function interests(
   sid: string | null,

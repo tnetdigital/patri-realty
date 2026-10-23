@@ -1,5 +1,6 @@
 import { editorialAllowed, editorialProjection } from "../../seo/editorial";
 import { db } from "../../lib/supabase";
+import { parseEditorialMetrics, metricWindow } from "../measurement/metrics";
 import type { DirectoryRuntime } from "../directory/api";
 import {
   contentDemo,
@@ -360,23 +361,18 @@ export async function uploadContent(
 }
 export { slugify };
 
-export type EditorialRow = {
-  id: string;
-  titulo: string;
-  leituras: number;
-  cliques_perfil: number;
-  tempo_medio_segundos: number;
-};
 export async function editorialReport(
   sid: string | null,
   from: string,
   to: string,
   page: number,
 ) {
+  if (!metricWindow(from, to) || !Number.isSafeInteger(page) || page < 1)
+    throw Error("Período ou página inválida.");
   const q = await db().rpc(
     "relatorio_editorial" as never,
     { sid, date_from: from, date_to: to, page_number: page } as never,
   );
   if (q.error) throw q.error;
-  return q.data as unknown as { items: EditorialRow[]; total: number };
+  return parseEditorialMetrics(q.data);
 }

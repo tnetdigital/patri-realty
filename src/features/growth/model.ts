@@ -46,13 +46,15 @@ export const services = {
   completo: "Pacote completo de posicionamento",
 };
 export const eventNames: Record<string, string> = {
-  visualizacao_perfil: "Visitas ao perfil",
+  visualizacao_perfil: "Aberturas de perfil",
   clique_whatsapp: "Cliques no WhatsApp",
   clique_telefone: "Cliques no telefone",
   clique_site: "Cliques no site",
   clique_instagram: "Cliques no Instagram",
   orcamento_enviado: "Confirmações de pedido",
-  visualizacao_materia: "Leituras de matérias",
+  visualizacao_materia: "Aberturas de matérias",
+  tempo_materia: "Intervalos de atividade em matérias",
+  clique_perfil_materia: "Cliques da matéria para o perfil",
   busca: "Buscas",
   impressao_banner: "Impressões de banners",
   clique_banner: "Cliques em banners",
@@ -76,6 +78,16 @@ export function reviewValid(r: {
       "Informe nota de 1 a 5, título e texto de 30 a 1.000 caracteres.",
     );
 }
-export const today = () => new Date().toISOString().slice(0, 10);
+export const today = () => {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  return ["year", "month", "day"]
+    .map((key) => parts.find((p) => p.type === key)!.value)
+    .join("-");
+};
 export const previousMonth = () =>
-  new Date(Date.now() - 29 * 86400000).toISOString().slice(0, 10);
+  new Date(Date.parse(today()) - 29 * 86400000).toISOString().slice(0, 10);

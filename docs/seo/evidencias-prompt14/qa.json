@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "passed": 25,
+  "checks": [
+    "GSC mock verifies property, exports canonical eligible URLs only, omits credentials/private URLs",
+    "read-only sites/query allowlist and no query-text dimensions",
+    "GSC property absent from access list rejected",
+    "GSC forbidden response fails without logging body",
+    "accessible unrelated domain rejected",
+    "GSC pagination ends on empty page and does not fabricate freshness",
+    "private export cannot enter public checkout",
+    "exports never overwrite an existing destination",
+    "offline read/report CLI works outside repository",
+    "GSC CLI defaults to plan without external requests",
+    "UI explicit zero differs from missing data",
+    "query receipt time never claims aggregation freshness",
+    "existing advertising metrics remain available separately for admin",
+    "reader report separates content from supplier demand",
+    "supplier acquisition report shows unavailable integration without fake counts",
+    "changing report reuses the same authorized aggregate response",
+    "measurement panel has no horizontal overflow at 320/375/768 CSS pixels",
+    "malformed API response displays error without retaining misleading counts",
+    "existing plan restriction preserved",
+    "API outage is an error, not zero performance",
+    "invalid date range cannot query metrics",
+    "editorial report avoids time proxy when no opening was registered",
+    "editorial CSV uses normalized labels and neutralizes spreadsheet formulas",
+    "editorial invalid date window does not query metrics",
+    "no browser JavaScript errors in controlled measurement flows"
+  ]
+}
