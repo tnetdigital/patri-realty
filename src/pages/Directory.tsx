@@ -1,3 +1,5 @@
+import { GuideReadings } from '../features/content/GuideReadings';
+import { relatedSuppliers, similarKey } from '../features/directory/relations';
 import { profileEssentials, profileChecklist } from '../seo/profile';
 import {
   ProfileContact,
@@ -167,7 +169,10 @@ export function DirectoryHome() {
           'administracao-condominial',
         ]
           .map((slug) => c.data?.segmentos.find((s) => s.slug === slug))
-          .filter(Boolean)
+          .filter(
+            (s) =>
+              s && s.quantidade > 0 && !nationalPilotBlocked('/guia/' + s.slug),
+          )
           .map((s) => (
             <Link key={s!.id} to={directoryPath({ segmento: s!.slug })}>
               {s!.nome}
@@ -179,6 +184,7 @@ export function DirectoryHome() {
   );
 }
 function Card({ s }: { s: PublicSupplier }) {
+  if (!profileEssentials(s)) return null;
   return (
     <article className="directory-card">
       {safeHttps(s.capa_url) && <img src={s.capa_url} alt="" loading="lazy" />}
@@ -316,6 +322,24 @@ export default function Directory({ brief }: { brief?: GuideBrief } = {}) {
         <p>{t.intro}</p>
       </div>
       <DemoNotice />
+      {!f.segmento && !f.uf && !f.q && (
+        <nav aria-label="Especialidades com fornecedores">
+          {c.data?.segmentos
+            .filter(
+              (x) =>
+                x.quantidade > 0 && !nationalPilotBlocked('/guia/' + x.slug),
+            )
+            .map((x) => (
+              <Link
+                key={x.id}
+                to={'/guia/' + x.slug}
+                style={{ display: 'inline-block', margin: '0 1rem 1rem 0' }}
+              >
+                {x.nome}
+              </Link>
+            ))}
+        </nav>
+      )}
       {nationalPilotBlocked(loc.pathname) && (
         <aside className="directory-empty" aria-label="Guia em preparação">
           <h2>Guia em preparação</h2>
@@ -424,6 +448,13 @@ export default function Directory({ brief }: { brief?: GuideBrief } = {}) {
               <Link to="/guia">{t.clear}</Link>
             </div>
           )}
+          {!!f.segmento &&
+            !f.segmento.includes(',') &&
+            !nationalPilotBlocked(loc.pathname) && (
+              <GuideReadings
+                slugs={q.data.items.slice(0, 3).map((s) => s.slug)}
+              />
+            )}
           {q.data.paginas > 1 && (
             <nav className="directory-pagination" aria-label="Paginação">
               {f.pagina > 1 && (
@@ -518,7 +549,7 @@ export function SupplierProfile() {
       )}
       <header className="directory-profile-heading">
         <span className="eyebrow">
-          {s.segmentos.map((x) => x.nome).join(' · ')}
+          <ProfileSegments supplier={s} />
         </span>
         {safeHttps(s.logo_thumb_url || s.logo_url) && (
           <img
@@ -734,14 +765,13 @@ export function SupplierProfile() {
 
 function Similar({ supplier }: { supplier: PublicSupplier }) {
   const r = useDirectoryRuntime();
-  const f = { ...empty, segmento: supplier.segmentos[0]?.slug || '' };
   const q = useQuery({
-    queryKey: searchKey(r, f),
-    queryFn: () => searchDirectory(r, f),
-    enabled: !!f.segmento,
+    queryKey: similarKey(r, supplier),
+    queryFn: () => relatedSuppliers(r, supplier),
+    refetchInterval: 15000,
+    refetchOnWindowFocus: 'always',
   });
-  const items =
-    q.data?.items.filter((x) => x.id !== supplier.id).slice(0, 3) || [];
+  const items = q.isError ? [] : q.data || [];
   return items.length ? (
     <section className="directory-home">
       <h2>{t.similar}</h2>
@@ -752,4 +782,30 @@ function Similar({ supplier }: { supplier: PublicSupplier }) {
       </div>
     </section>
   ) : null;
+}
+
+function ProfileSegments({ supplier }: { supplier: PublicSupplier }) {
+  const r = useDirectoryRuntime();
+  const catalog = useQuery({
+    queryKey: catalogKey(r),
+    queryFn: () => directoryCatalog(r),
+  });
+  return (
+    <>
+      {supplier.segmentos.map((x, i) => (
+        <span key={x.slug}>
+          {i > 0 && ' · '}
+          {!catalog.isError &&
+          catalog.data?.segmentos.some(
+            (v) => v.slug === x.slug && v.quantidade > 0,
+          ) &&
+          !nationalPilotBlocked('/guia/' + x.slug) ? (
+            <Link to={'/guia/' + x.slug}>{x.nome}</Link>
+          ) : (
+            x.nome
+          )}
+        </span>
+      ))}
+    </>
+  );
 }

@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-10-23T02:22:17.584Z",
+  "base": "http://127.0.0.1:15186",
+  "limit": 200,
+  "truncated": false,
+  "inventory": [
+    "/",
+    "/guia",
+    "/guia/teste",
+    "/guia/teste/sp/cidade-teste",
+    "/fornecedor/synthetic-0",
+    "/fornecedor/synthetic-1",
+    "/fornecedor/synthetic-2",
+    "/materias",
+    "/materia/interlinking-qa"
+  ],
+  "eligible": [
+    "/",
+    "/guia",
+    "/guia/teste",
+    "/guia/teste/sp/cidade-teste",
+    "/fornecedor/synthetic-0",
+    "/fornecedor/synthetic-1",
+    "/fornecedor/synthetic-2",
+    "/materias",
+    "/materia/interlinking-qa"
+  ],
+  "orphans": [],
+  "broken": [],
+  "redirects": [],
+  "depths": [
+    {
+      "path": "/",
+      "depth": 0
+    },
+    {
+      "path": "/guia",
+      "depth": 1
+    },
+    {
+      "path": "/guia/teste",
+      "depth": 2
+    },
+    {
+      "path": "/guia/teste/sp/cidade-teste",
+      "depth": 3
+    },
+    {
+      "path": "/fornecedor/synthetic-0",
+      "depth": 2
+    },
+    {
+      "path": "/fornecedor/synthetic-1",
+      "depth": 2
+    },
+    {
+      "path": "/fornecedor/synthetic-2",
+      "depth": 2
+    },
+    {
+      "path": "/materias",
+      "depth": 1
+    },
+    {
+      "path": "/materia/interlinking-qa",
+      "depth": 1
+    }
+  ],
+  "overThreeClicks": [],
+  "clusters": [
+    [
+      "/",
+      "/materia/interlinking-qa",
+      "/materias",
+      "/fornecedor/synthetic-2",
+      "/fornecedor/synthetic-1",
+      "/fornecedor/synthetic-0",
+      "/guia/teste/sp/cidade-teste",
+      "/guia/teste",
+      "/guia"
+    ]
+  ],
+  "excludedInventory": [],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/materia/interlinking-qa",
+        "/revista"
+      ]
+    },
+    {
+      "path": "/guia",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/guia/teste",
+        "/fornecedor/synthetic-0",
+        "/fornecedor/synthetic-1",
+        "/fornecedor/synthetic-2"
+      ]
+    },
+    {
+      "path": "/materias",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/revista",
+        "/materia/interlinking-qa"
+      ]
+    },
+    {
+      "path": "/materia/interlinking-qa",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/revista",
+        "/materias/teste",
+        "/materia/interlinking-qa",
+        "/fornecedor/synthetic-0"
+      ]
+    },
+    {
+      "path": "/revista",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/revista"
+      ]
+    },
+    {
+      "path": "/guia/teste",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/guia/teste/sp/cidade-teste",
+        "/fornecedor/synthetic-0",
+        "/fornecedor/synthetic-1",
+        "/fornecedor/synthetic-2",
+        "/materia/interlinking-qa"
+      ]
+    },
+    {
+      "path": "/fornecedor/synthetic-0",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/guia/teste",
+        "/fornecedor/synthetic-0",
+        "/materia/interlinking-qa",
+        "/fornecedor/synthetic-1",
+        "/fornecedor/synthetic-2"
+      ]
+    },
+    {
+      "path": "/fornecedor/synthetic-1",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/guia/teste",
+        "/fornecedor/synthetic-1",
+        "/fornecedor/synthetic-0",
+        "/fornecedor/synthetic-2"
+      ]
+    },
+    {
+      "path": "/fornecedor/synthetic-2",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/guia/teste",
+        "/fornecedor/synthetic-2",
+        "/fornecedor/synthetic-0",
+        "/fornecedor/synthetic-1"
+      ]
+    },
+    {
+      "path": "/materias/teste",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/revista",
+        "/materia/interlinking-qa"
+      ]
+    },
+    {
+      "path": "/guia/teste/sp/cidade-teste",
+      "status": 200,
+      "noindex": false,
+      "redirect": null,
+      "links": [
+        "/",
+        "/guia",
+        "/materias",
+        "/fornecedor/synthetic-0",
+        "/fornecedor/synthetic-1",
+        "/fornecedor/synthetic-2",
+        "/materia/interlinking-qa"
+      ]
+    }
+  ],
+  "fixture": true,
+  "productionValidated": false
+}

@@ -1,3 +1,6 @@
+import { guideReadings, readingsKey } from './features/content/GuideReadings';
+import { nationalPilotBlocked } from './seo/national-pilot';
+import { relatedSuppliers, similarKey } from './features/directory/relations';
 export { parseEditorialReviews, editorialHash } from './seo/editorial';
 export { contentPublic } from './features/content/api';
 import { articleMarkdown } from './seo/editorial';
@@ -87,6 +90,17 @@ export async function render(url: string, r: DirectoryRuntime) {
         queryKey: localGuidesKey(r, f.segmento),
         queryFn: () => approvedLocalGuides(r, f.segmento),
       });
+    if (
+      f.segmento &&
+      !f.segmento.includes(',') &&
+      !nationalPilotBlocked(u.pathname)
+    ) {
+      const slugs = result.items.slice(0, 3).map((s) => s.slug);
+      await client.prefetchQuery({
+        queryKey: readingsKey(r, slugs),
+        queryFn: () => guideReadings(r, slugs),
+      });
+    }
     pageItems = result.items.length;
     if (result.redirect) redirect = result.redirect;
     else if (result.not_found) status = 404;
@@ -107,6 +121,14 @@ export async function render(url: string, r: DirectoryRuntime) {
       await client.fetchQuery({
         queryKey: contentKey(r, 'fornecedor', slug),
         queryFn: () => contentPublic(r, 'fornecedor', slug),
+      });
+      await client.prefetchQuery({
+        queryKey: catalogKey(r),
+        queryFn: () => directoryCatalog(r),
+      });
+      await client.prefetchQuery({
+        queryKey: similarKey(r, data.fornecedor),
+        queryFn: () => relatedSuppliers(r, data.fornecedor!),
       });
     } else if (!redirect) {
       status = 404;
@@ -167,7 +189,16 @@ export async function render(url: string, r: DirectoryRuntime) {
     if ((detail && !data.item && !redirect) || data.not_found) status = 404;
     if (detail && data.item) {
       const item = data.item as Article | Magazine;
-      if (!issue) publicArticle = item as Article;
+      if (!issue) {
+        publicArticle = item as Article;
+        if (publicArticle.fornecedor?.slug) {
+          const supplierSlug = publicArticle.fornecedor.slug;
+          await client.prefetchQuery({
+            queryKey: profileKey(r, supplierSlug),
+            queryFn: () => publicProfile(r, supplierSlug),
+          });
+        }
+      }
       ({ title, description } = contentMetadata({
         path: u.pathname,
         title:

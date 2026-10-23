@@ -1,0 +1,52 @@
+{
+  "fixture": true,
+  "productionValidated": false,
+  "passed": 11,
+  "checks": [
+    {
+      "name": "rastreamento HTML sem JS: sem órfãs, erros ou redirects no lote sintético",
+      "passed": true,
+      "pages": 11
+    },
+    {
+      "name": "perfil: segmento, fornecedor relacionado e matéria no HTML inicial",
+      "passed": true
+    },
+    {
+      "name": "guia: matéria com associação editorial explícita",
+      "passed": true
+    },
+    {
+      "name": "navegação guia → matéria → perfil com JS desativado em 375px",
+      "passed": true
+    },
+    {
+      "name": "perfil incompleto não entra em cards ou recomendações",
+      "passed": true
+    },
+    {
+      "name": "retirada de fornecedor remove recomendação SSR",
+      "passed": true
+    },
+    {
+      "name": "perda da oferta municipal remove descoberta local",
+      "passed": true
+    },
+    {
+      "name": "matéria deixa de apontar para perfil retirado",
+      "passed": true
+    },
+    {
+      "name": "revogação editorial continua bloqueando publicação",
+      "passed": true
+    },
+    {
+      "name": "paginação editorial descobre o 13º item sem JS",
+      "passed": true
+    },
+    {
+      "name": "grafo exclui demonstração, rastreamento e filtros funcionais",
+      "passed": true
+    }
+  ]
+}

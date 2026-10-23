@@ -1,3 +1,4 @@
+import { profileEssentials } from './profile';
 import type { PublicSupplier } from '../features/directory/model';
 import type { Article } from '../features/content/model';
 import { canonicalOrigin } from './policy';
@@ -87,7 +88,7 @@ export function buildGraph(input: GraphInput) {
     });
   }
   if (collection && input.suppliers) {
-    const items = input.suppliers.map((s, i) => ({
+    const items = input.suppliers.filter(profileEssentials).map((s, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       item: {

@@ -1,3 +1,4 @@
+import { SupplierDestination } from '../features/directory/SupplierDestination';
 import { usePageMetadata } from '../seo/metadata';
 import { contentMetadata, publicRedirect } from '../seo/policy';
 import { ArticleEngagement, track } from '../features/growth/events';
@@ -199,14 +200,12 @@ export default function ContentPublic({ demo = false }: { demo?: boolean }) {
               <aside className="content-notice">
                 <strong>{article.fornecedor.nome}</strong>
                 <p>{article.fornecedor.descricao}</p>
-                <Link
+                <SupplierDestination
+                  slug={article.fornecedor.slug}
                   onClick={() =>
                     void track(r, 'clique_perfil_materia', article.id)
                   }
-                  to={'/fornecedor/' + article.fornecedor.slug}
-                >
-                  Conhecer o fornecedor
-                </Link>
+                />
               </aside>
             )}
           </article>
