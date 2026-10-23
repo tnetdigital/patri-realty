@@ -22,6 +22,9 @@ export function ContentCards({
               alt={
                 a.media_credits?.find((m) => m.url === a.imagem_capa)?.alt || ""
               }
+              width={1280}
+              height={720}
+              decoding="async"
               loading="lazy"
             />
           )}

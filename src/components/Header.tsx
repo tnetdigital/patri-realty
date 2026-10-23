@@ -1,6 +1,6 @@
 import BrandLogo from "./BrandLogo";
 import { ui, premium as t } from "../lib/texts";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ArrowRight, Menu, X, ArrowUpRight } from "lucide-react";
 import { useAuth } from "../features/auth/context";
@@ -10,10 +10,14 @@ import { Button } from "./ui/button";
 export default function Header() {
   const { access } = useAuth();
   const [open, setOpen] = useState(false);
+  const toggle = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     if (!open) return;
     const close = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") {
+        setOpen(false);
+        toggle.current?.focus();
+      }
     };
     window.addEventListener("keydown", close);
     return () => window.removeEventListener("keydown", close);
@@ -34,6 +38,7 @@ export default function Header() {
           <BrandLogo />
         </Link>
         <button
+          ref={toggle}
           className="mobile-menu"
           aria-label={open ? t.closeMenu : ui.abrir_navegacao}
           aria-expanded={open}

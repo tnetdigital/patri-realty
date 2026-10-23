@@ -1,3 +1,4 @@
+import { loadPublicContent } from './public-content-loader';
 import { useQueryClient } from '@tanstack/react-query';
 import { graphFromCache } from '../seo/structured-cache';
 import { applyMetadata } from '../seo/metadata';
@@ -6,7 +7,7 @@ import { useDirectoryRuntime } from '../features/directory/api';
 import { ContactPage, EventPage } from './ContactEvent';
 import { clearAnalyticsSession } from '../features/growth/events';
 import { ui } from '../lib/texts';
-import { useEffect, useState, lazy, Suspense } from 'react';
+import { useEffect, useRef, useState, lazy, Suspense } from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import BrandLogo from '../components/BrandLogo';
 import { portalCnpj } from '../lib/brand';
@@ -14,10 +15,15 @@ import { About, Legal, NotFound } from './InstitutionalPages';
 import { Button } from '../components/ui/button';
 import { RequireRole } from '../components/RequireRole';
 import Header from '../components/Header';
-import Home from './Home';
+const Home = lazy(() => import('./Home'));
 import Directory, { SupplierProfile } from './Directory';
-import Area from './Area';
-import { Account, AccountRemoved } from './AccountPages';
+const Area = lazy(() => import('./Area'));
+const Account = lazy(() =>
+  import('./AccountPages').then((m) => ({ default: m.Account })),
+);
+const AccountRemoved = lazy(() =>
+  import('./AccountPages').then((m) => ({ default: m.AccountRemoved })),
+);
 const DemoReviewsPage = lazy(() =>
   import('../features/growth/Reviews').then((m) => ({
     default: m.DemoReviewsPage,
@@ -31,7 +37,7 @@ const AdRedirect = lazy(() =>
   import('./AdvertiserReport').then((m) => ({ default: m.AdRedirect })),
 );
 const EditorialPreview = lazy(() => import('./EditorialPreview'));
-const ContentPublic = lazy(() => import('./ContentPublic'));
+const ContentPublic = lazy(loadPublicContent);
 const ContentPanel = lazy(() => import('./ContentPanel'));
 const NewsletterToken = lazy(() => import('./NewsletterToken'));
 const BillingPage = lazy(() => import('./BillingPage'));
@@ -41,16 +47,42 @@ const SupplierPortal = lazy(() => import('./SupplierPortal'));
 const InvitePage = lazy(() => import('./InvitePage'));
 const AuthPage = lazy(() => import('./AuthPage'));
 function Cookies() {
+  const returnFocus = useRef<HTMLElement | null>(null);
   const [visible, setVisible] = useState(false),
     [custom, setCustom] = useState(false);
   useEffect(() => {
-    setVisible(!localStorage.getItem('patri:consent'));
+    try {
+      setVisible(!localStorage.getItem('patri:consent'));
+    } catch {
+      setVisible(true);
+    }
+    const open = () => {
+      returnFocus.current = document.activeElement as HTMLElement;
+      setVisible(true);
+      requestAnimationFrame(() =>
+        document.querySelector<HTMLButtonElement>('.cookies button')?.focus(),
+      );
+    };
+    window.addEventListener('patri:privacy-open', open);
+    return () => window.removeEventListener('patri:privacy-open', open);
   }, []);
   function save(v: string) {
-    localStorage.setItem('patri:consent', v);
-    if (v !== 'analytics') clearAnalyticsSession();
+    try {
+      localStorage.setItem('patri:consent', v);
+    } catch {
+      /* Optional storage may be denied. */
+    }
+    if (v !== 'analytics') {
+      try {
+        clearAnalyticsSession();
+      } catch {
+        /* A browser policy may deny cookies. */
+      }
+    }
     window.dispatchEvent(new Event('patri:consent'));
     setVisible(false);
+    returnFocus.current?.focus();
+    returnFocus.current = null;
   }
   return visible ? (
     <div
@@ -104,8 +136,11 @@ export default function App() {
   }, [loc.pathname, loc.search, loc.hash, seoRuntime, seoClient]);
   return (
     <>
+      <a className="skip-to-content" href="#main-content">
+        Pular para o conteúdo
+      </a>
       <Header />
-      <main>
+      <main id="main-content" tabIndex={-1}>
         <Suspense
           fallback={
             <p role="status" className="container page">
@@ -333,11 +368,10 @@ export default function App() {
         </div>
       </footer>
       <button
+        data-privacy-preferences
         className="container"
         onClick={() => {
-          localStorage.removeItem('patri:consent');
-          clearAnalyticsSession();
-          window.location.reload();
+          window.dispatchEvent(new Event('patri:privacy-open'));
         }}
       >
         Preferências de privacidade

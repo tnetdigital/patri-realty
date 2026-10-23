@@ -116,6 +116,7 @@
 }
 .content-card img {
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 8px;
@@ -213,6 +214,8 @@
 }
 .content-detail .article-cover {
   width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   max-height: 480px;
   object-fit: cover;
   border-radius: 10px;

@@ -11,11 +11,8 @@ export default defineConfig(({ isSsrBuild }) => ({
           : {
               "vendor-react": ["react", "react-dom", "react-router-dom"],
               "vendor-auth": ["@supabase/supabase-js"],
-              "vendor-forms": [
-                "react-hook-form",
-                "@hookform/resolvers/zod",
-                "zod",
-              ],
+              "vendor-validation": ["zod"],
+              "vendor-forms": ["react-hook-form", "@hookform/resolvers/zod"],
             },
       },
     },

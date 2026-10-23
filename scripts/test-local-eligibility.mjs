@@ -79,6 +79,8 @@ export async function createLocalHarness() {
         fornecedor: current().find((s) => s.slug === body.p_slug) || null,
         redirect: null,
       };
+    else if (req.url.includes('banners_publicos') && state.banners)
+      data = state.banners;
     else if (req.url.includes('sitemap_publico'))
       data = {
         fornecedores: [],

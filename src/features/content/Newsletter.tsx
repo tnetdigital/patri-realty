@@ -57,6 +57,7 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
         lista após confirmar o link enviado ao seu e-mail.
       </p>
       <form
+        method="post"
         aria-busy={busy}
         onSubmit={async (e) => {
           e.preventDefault();

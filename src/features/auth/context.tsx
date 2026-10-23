@@ -3,6 +3,7 @@ import {
   useContext,
   useEffect,
   useState,
+  startTransition,
   type ReactNode,
 } from "react";
 import { supabase } from "../../lib/supabase";
@@ -17,13 +18,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [access, setAccess] = useState<Access>(null),
     [loading, setLoading] = useState(true);
   async function refresh() {
+    let next: Access = null;
     try {
-      setAccess(supabase ? await getAccess() : null);
+      next = supabase ? await getAccess() : null;
     } catch {
-      setAccess(null);
-    } finally {
-      setLoading(false);
+      /* A failed session lookup keeps the public session anonymous. */
     }
+    // Background session updates must not replace an SSR boundary still hydrating.
+    startTransition(() => {
+      setAccess(next);
+      setLoading(false);
+    });
   }
   useEffect(() => {
     void refresh();

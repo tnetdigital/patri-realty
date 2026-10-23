@@ -1,0 +1,459 @@
+{
+  "phase": "before",
+  "synthetic": true,
+  "fieldData": false,
+  "commit": "451a551e68db203af8267b5615e629ffb6099716",
+  "environment": {
+    "browser": "155.0.8059.86",
+    "node": "v22.19.0",
+    "platform": "win32",
+    "os": "10.0.26300",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBitsPerSecond": 1600000,
+    "uploadBitsPerSecond": 750000,
+    "coldCache": true,
+    "consent": "essential",
+    "samplesPerFamily": 3,
+    "syntheticMedia": "1600x900 SVG fulfilled locally; network timing not representative of image CDN"
+  },
+  "summary": [
+    {
+      "family": "guide",
+      "skipped": true
+    },
+    {
+      "family": "profile",
+      "skipped": true
+    },
+    {
+      "family": "article",
+      "lcp": 1480,
+      "ttfb": 33.299999999813735,
+      "cls": 0.5221674876847291,
+      "longTasks": 246,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1
+    }
+  ],
+  "samples": [
+    {
+      "family": "article",
+      "path": "/materia/desempenho-qa",
+      "run": 1,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1340,
+      "lcpElement": "H1.",
+      "cls": 0.5221674876847291,
+      "windowScore": 0.5221674876847291,
+      "first": 2058.5,
+      "last": 2229.5,
+      "longTasks": 98,
+      "shifts": [
+        {
+          "time": 2058.5,
+          "value": 0.26108374384236455,
+          "sources": [
+            {
+              "node": "FOOTER.",
+              "before": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 599.796875,
+                "width": 375,
+                "height": 212.203125,
+                "top": 599.796875,
+                "right": 375,
+                "bottom": 812,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "time": 2229.5,
+          "value": 0.26108374384236455,
+          "sources": [
+            {
+              "node": "FOOTER.",
+              "before": {
+                "x": 0,
+                "y": 599.796875,
+                "width": 375,
+                "height": 212.203125,
+                "top": 599.796875,
+                "right": 375,
+                "bottom": 812,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "ttfb": 73.3999999994412,
+      "domContentLoaded": 1737,
+      "htmlEncodedBytes": 3647,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/assets/ContentPublic-qEkstjCa.js",
+          "encoded": 4256,
+          "decoded": 11553,
+          "type": "script"
+        },
+        {
+          "path": "/assets/Blocks-fbGjyrFT.js",
+          "encoded": 2363,
+          "decoded": 6134,
+          "type": "script"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 614,
+          "decoded": 3743,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 66,
+          "decoded": 66,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "article",
+      "path": "/materia/desempenho-qa",
+      "run": 2,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1504,
+      "lcpElement": "H1.",
+      "cls": 0.5221674876847291,
+      "windowScore": 0.5221674876847291,
+      "first": 2350.7999999998137,
+      "last": 2496.600000000559,
+      "longTasks": 246,
+      "shifts": [
+        {
+          "time": 2350.7999999998137,
+          "value": 0.26108374384236455,
+          "sources": [
+            {
+              "node": "FOOTER.",
+              "before": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 599.796875,
+                "width": 375,
+                "height": 212.203125,
+                "top": 599.796875,
+                "right": 375,
+                "bottom": 812,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "time": 2496.600000000559,
+          "value": 0.26108374384236455,
+          "sources": [
+            {
+              "node": "FOOTER.",
+              "before": {
+                "x": 0,
+                "y": 599.796875,
+                "width": 375,
+                "height": 212.203125,
+                "top": 599.796875,
+                "right": 375,
+                "bottom": 812,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "ttfb": 33.299999999813735,
+      "domContentLoaded": 1828.4000000003725,
+      "htmlEncodedBytes": 3646,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/assets/ContentPublic-qEkstjCa.js",
+          "encoded": 4256,
+          "decoded": 11553,
+          "type": "script"
+        },
+        {
+          "path": "/assets/Blocks-fbGjyrFT.js",
+          "encoded": 2363,
+          "decoded": 6134,
+          "type": "script"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 614,
+          "decoded": 3743,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 66,
+          "decoded": 66,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "article",
+      "path": "/materia/desempenho-qa",
+      "run": 3,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1480,
+      "lcpElement": "H1.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 284,
+      "shifts": [],
+      "ttfb": 31.300000000745058,
+      "domContentLoaded": 1913.7000000001863,
+      "htmlEncodedBytes": 3651,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/assets/ContentPublic-qEkstjCa.js",
+          "encoded": 4256,
+          "decoded": 11553,
+          "type": "script"
+        },
+        {
+          "path": "/assets/Blocks-fbGjyrFT.js",
+          "encoded": 2363,
+          "decoded": 6134,
+          "type": "script"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 614,
+          "decoded": 3743,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 66,
+          "decoded": 66,
+          "type": "fetch"
+        }
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "family": "article",
+      "violations": [],
+      "incomplete": []
+    }
+  ]
+}

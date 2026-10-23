@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 12 — medir antes de otimizar
+
+Comparar somente o mesmo laboratório e workload; conservar baseline, amostras, build e limites. JavaScript por necessidade, hidratação do artigo após módulo público pronto e sessão em transição não urgente, sem mudar permissões. HTML/projeções revisáveis no-store; assets versionados imutáveis. Publicidade pública opcional no SSR com750ms de orçamento e espaço estável; sem anúncio elegível, sem vazio artificial. Preferências não recarregam/perdem formulário, foco retorna e barra móvel não cobre rodapé. Laboratório não certifica p75/INP/CWV de campo nem acessibilidade integral. Ver prompt12.md e evidencias-prompt12/comparacao.json; regressão temporal parcial do perfil registrada para acompanhamento no piloto hospedado. Bloqueios editoriais e de publicação mantidos.
+
 ## Prompt 11 — confirmação operacional e métricas opcionais
 
 Recibo recebido:true deve atravessar RPC, gateway e cliente antes de sucesso; bloqueios síncronos contra repetição. Armazenar somente id/validade de tentativa na sessão da aba por até1h, sem campos pessoais; não usar essa chave em analytics. Análise opcional não bloqueia formulário, e busca descarta alvo livre. Confirmação de pedido não equivale a lead qualificado, conversa ou venda. Cadastro, duplo aceite e webhook permanecem etapas distintas. Nenhuma nova finalidade de marketing ou base legal inventada. Revisar inventário de armazenamento antes de produção. Sem banco/deploy; testes controlados não provam persistência remota. PT10 mantém descoberta rastreável e bloqueios de elegibilidade. Ver prompt11.md e matriz-conversoes-prompt11.csv.

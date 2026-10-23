@@ -70,6 +70,7 @@ async function publicRpc<T>(
   r: DirectoryRuntime,
   name: string,
   args: object,
+  timeout = 10000,
 ): Promise<T> {
   const res = await fetch(`${r.url}/rest/v1/rpc/${name}`, {
     method: "POST",
@@ -79,7 +80,7 @@ async function publicRpc<T>(
       "Content-Type": "application/json",
     },
     body: JSON.stringify(args),
-    signal: AbortSignal.timeout(10000),
+    signal: AbortSignal.timeout(timeout),
   });
   if (!res.ok)
     throw Error("Serviço temporariamente indisponível. Tente novamente.");
@@ -90,14 +91,20 @@ export const publicBanners = (
   position: string,
   segment = "",
   region = "",
+  timeout = 10000,
 ): Promise<Banner[]> =>
   r.source === "demo"
     ? Promise.resolve(demoBanners(position, segment, region))
-    : publicRpc(r, "banners_publicos", {
-        p_position: position,
-        p_segment: segment,
-        p_region: region,
-      });
+    : publicRpc(
+        r,
+        "banners_publicos",
+        {
+          p_position: position,
+          p_segment: segment,
+          p_region: region,
+        },
+        timeout,
+      );
 export const bannerDestination = (
   r: DirectoryRuntime,
   id: string,

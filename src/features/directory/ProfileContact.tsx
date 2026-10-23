@@ -14,7 +14,9 @@ export function ProfileContact({ name }: { name: string }) {
       const active = document.activeElement;
       const editing =
         active instanceof HTMLElement &&
-        (active.matches('input,textarea,select') || active.isContentEditable);
+        (active.matches('input,textarea,select,[data-privacy-preferences]') ||
+          active.isContentEditable ||
+          !!active.closest('footer'));
       const keyboard =
         !!window.visualViewport &&
         window.visualViewport.height < window.innerHeight * 0.75;

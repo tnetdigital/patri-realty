@@ -1,0 +1,104 @@
+{
+  "sameEnvironment": true,
+  "synthetic": true,
+  "fieldData": false,
+  "fieldINP": null,
+  "beforeCommit": "451a551e68db203af8267b5615e629ffb6099716",
+  "afterBuildHash": "3b6b8efce562e940f39570556074d28894c213dbcabc05f1bbe8a13af51c0bc2",
+  "samplesPerFamily": 3,
+  "families": [
+    {
+      "family": "guide",
+      "before": {
+        "family": "guide",
+        "lcp": 1332,
+        "ttfb": 68.70000000018626,
+        "cls": 0,
+        "longTasks": 188,
+        "jsEncodedBytes": 227451,
+        "jsDecodedBytes": 782706,
+        "jsRequests": 4,
+        "cssEncodedBytes": 15371,
+        "rpcRequests": 3
+      },
+      "after": {
+        "family": "guide",
+        "lcp": 1280,
+        "ttfb": 57,
+        "cls": 0,
+        "longTasks": 160,
+        "jsEncodedBytes": 210458,
+        "jsDecodedBytes": 729429,
+        "jsRequests": 4,
+        "cssEncodedBytes": 15547,
+        "rpcRequests": 2
+      },
+      "jsSavedBytes": 16993,
+      "jsSavedPercent": 7.47,
+      "lcpDeltaMs": -52,
+      "longTaskExcessDeltaMs": -28
+    },
+    {
+      "family": "profile",
+      "before": {
+        "family": "profile",
+        "lcp": 1356,
+        "ttfb": 38.799999999813735,
+        "cls": 0,
+        "longTasks": 171,
+        "jsEncodedBytes": 227451,
+        "jsDecodedBytes": 782706,
+        "jsRequests": 4,
+        "cssEncodedBytes": 15371,
+        "rpcRequests": 8
+      },
+      "after": {
+        "family": "profile",
+        "lcp": 1376,
+        "ttfb": 40.20000000111759,
+        "cls": 0,
+        "longTasks": 213,
+        "jsEncodedBytes": 210458,
+        "jsDecodedBytes": 729429,
+        "jsRequests": 4,
+        "cssEncodedBytes": 15547,
+        "rpcRequests": 7
+      },
+      "jsSavedBytes": 16993,
+      "jsSavedPercent": 7.47,
+      "lcpDeltaMs": 20,
+      "longTaskExcessDeltaMs": 42
+    },
+    {
+      "family": "article",
+      "before": {
+        "family": "article",
+        "lcp": 1636,
+        "ttfb": 31.799999999813735,
+        "cls": 0.5221674876847291,
+        "longTasks": 273,
+        "jsEncodedBytes": 234070,
+        "jsDecodedBytes": 800393,
+        "jsRequests": 6,
+        "cssEncodedBytes": 15371,
+        "rpcRequests": 1
+      },
+      "after": {
+        "family": "article",
+        "lcp": 1416,
+        "ttfb": 31.5,
+        "cls": 0,
+        "longTasks": 186,
+        "jsEncodedBytes": 217073,
+        "jsDecodedBytes": 747135,
+        "jsRequests": 6,
+        "cssEncodedBytes": 15547,
+        "rpcRequests": 0
+      },
+      "jsSavedBytes": 16997,
+      "jsSavedPercent": 7.26,
+      "lcpDeltaMs": -220,
+      "longTaskExcessDeltaMs": -87
+    }
+  ]
+}

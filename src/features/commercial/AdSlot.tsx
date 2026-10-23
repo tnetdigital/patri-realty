@@ -27,7 +27,7 @@ export function AdSlot({
     queryFn: () => publicBanners(r, position, segment, region),
     staleTime: 30000,
   });
-  const rows = q.data || [],
+  const rows = Array.isArray(q.data) ? q.data : [],
     b = rows[index % Math.max(rows.length, 1)];
   useEffect(() => {
     const update = () => setConsent(analyticsAllowed());
@@ -86,7 +86,16 @@ export function AdSlot({
           <img
             src={b.imagem_desktop}
             alt={"Publicidade de " + b.anunciante_nome}
-            loading="lazy"
+            width={1200}
+            height={270}
+            decoding="async"
+            loading={
+              position === "guia_topo" ||
+              position === "segmento_topo" ||
+              position === "home_topo"
+                ? "eager"
+                : "lazy"
+            }
             referrerPolicy="no-referrer"
           />
         </picture>

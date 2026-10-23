@@ -1,3 +1,4 @@
+import { loadPublicContent } from './pages/public-content-loader';
 import React from 'react';
 import { decideSeo } from './seo/policy';
 import ReactDOM from 'react-dom/client';
@@ -41,5 +42,22 @@ const tree = (
     </QueryClientProvider>
   </React.StrictMode>
 );
-if (state) ReactDOM.hydrateRoot(document.getElementById('root')!, tree);
-else ReactDOM.createRoot(document.getElementById('root')!).render(tree);
+function mount() {
+  if (state) ReactDOM.hydrateRoot(document.getElementById('root')!, tree);
+  else ReactDOM.createRoot(document.getElementById('root')!).render(tree);
+}
+// Keep SSR content in place while the matching public route becomes ready.
+// Hydrating first allowed context updates to replace a not-yet-ready boundary.
+if (
+  state &&
+  /^\/(materia|materias|revista)(\/|$)/.test(window.location.pathname)
+)
+  void loadPublicContent()
+    .then(mount)
+    .catch(() => {
+      // Offline/chunk failures retain the readable SSR document.
+      console.error(
+        'Não foi possível ativar as interações desta página. Recarregue para tentar novamente.',
+      );
+    });
+else mount();

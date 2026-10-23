@@ -226,6 +226,7 @@ export function QuotationForm({ supplier: s }: { supplier: PublicSupplier }) {
       ) : (
         <form
           ref={form}
+          method="post"
           className="quotation-form"
           onSubmit={send}
           noValidate

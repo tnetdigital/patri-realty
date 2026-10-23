@@ -1,3 +1,4 @@
+import { publicBanners } from './features/commercial/api';
 import { guideReadings, readingsKey } from './features/content/GuideReadings';
 import { nationalPilotBlocked } from './seo/national-pilot';
 import { relatedSuppliers, similarKey } from './features/directory/relations';
@@ -74,6 +75,24 @@ export async function render(url: string, r: DirectoryRuntime) {
       client.fetchQuery({
         queryKey: searchKey(r, f),
         queryFn: () => searchDirectory(r, f),
+      }),
+      client.prefetchQuery({
+        queryKey: [
+          'banners',
+          r.source,
+          f.segmento ? 'segmento_topo' : 'guia_topo',
+          f.segmento,
+          f.uf,
+        ],
+        queryFn: () =>
+          publicBanners(
+            r,
+            f.segmento ? 'segmento_topo' : 'guia_topo',
+            f.segmento,
+            f.uf,
+            750,
+          ),
+        staleTime: 30000,
       }),
     ]);
     ({ title, description } = directoryMetadata(f, catalog));
@@ -183,6 +202,18 @@ export async function render(url: string, r: DirectoryRuntime) {
         queryKey: contentKey(r, 'catalogo'),
         queryFn: () => contentPublic(r, 'catalogo'),
       }),
+      ...(u.pathname === '/'
+        ? ['home_topo', 'home_meio']
+        : kind === 'materia'
+          ? ['materia_meio']
+          : []
+      ).map((position) =>
+        client.prefetchQuery({
+          queryKey: ['banners', r.source, position, '', ''],
+          queryFn: () => publicBanners(r, position, '', '', 750),
+          staleTime: 30000,
+        }),
+      ),
     ]);
     if (data.redirect) redirect = data.redirect;
     if (!detail && !issue && u.pathname !== '/') pageItems = data.items?.length;

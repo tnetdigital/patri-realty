@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 12
+
+Desempenho/mobile/acessibilidade implementados em23/10/2026; relatório prompt12.md. Ganho determinístico de JS comprimido aproximadamente7,3%–7,5%; CLS sintético da matéria0,522→0; zero erros de hidratação nas9amostras finais. Zero violações axe no conjunto aplicado às3famílias e24cenários funcionais aprovados, além de158unitários/65HTTP e regressões. Perfil teve variação temporal registrada, sem alegar melhora uniforme. Dados de campo e INP não testados; sem certificação de CWV/WCAG. Sem banco ou deploy; prévia antiga por quota pendente. PT13 ainda não iniciado. Registros abaixo são históricos.
+
 ## Estado mais recente — Prompt 11
 
 PT10 e PT11 implementados; relatórios prompt10.md e prompt11.md. Conversões exigem recibo explícito; analytics é opcional e limitado a identificadores previstos; métricas parciais separadas da caixa de pedidos. Retentativa opaca por aba/empresa/produto, bloqueio concorrente, marketing desmarcado e duplo aceite preservados. 158unitários,65HTTP,8cenários de conversão no navegador e regressões de SEO/descoberta/perfis/editorial/proteção aprovados. Persistência Supabase real, e-mail externo e Stripe seguem não homologados; sem migração ou deploy. Quota AppDeploy e gate editorial no backend continuam pendentes. Próximo PT12 desempenho/mobile/acessibilidade, não iniciado. Registros abaixo são históricos.

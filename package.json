@@ -41,6 +41,8 @@
     "test:structured": "node scripts/test-structured.mjs",
     "test:discovery": "node scripts/test-discovery.mjs",
     "test:conversions": "node scripts/test-conversions.mjs",
+    "test:experience": "node scripts/test-public-experience.mjs",
+    "measure:public": "node scripts/measure-public-performance.mjs",
     "audit:discovery": "node scripts/crawl-discovery.mjs"
   },
   "keywords": [],

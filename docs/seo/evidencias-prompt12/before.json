@@ -1,0 +1,870 @@
+{
+  "phase": "before",
+  "synthetic": true,
+  "fieldData": false,
+  "commit": "451a551e68db203af8267b5615e629ffb6099716",
+  "environment": {
+    "browser": "155.0.8059.86",
+    "node": "v22.19.0",
+    "platform": "win32",
+    "os": "10.0.26300",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBitsPerSecond": 1600000,
+    "uploadBitsPerSecond": 750000,
+    "coldCache": true,
+    "consent": "essential",
+    "samplesPerFamily": 3,
+    "syntheticMedia": "1600x900 SVG fulfilled locally; network timing not representative of image CDN"
+  },
+  "summary": [
+    {
+      "family": "guide",
+      "lcp": 1332,
+      "ttfb": 68.70000000018626,
+      "cls": 0,
+      "longTasks": 188,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 3
+    },
+    {
+      "family": "profile",
+      "lcp": 1356,
+      "ttfb": 38.799999999813735,
+      "cls": 0,
+      "longTasks": 171,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 8
+    },
+    {
+      "family": "article",
+      "lcp": 1636,
+      "ttfb": 31.799999999813735,
+      "cls": 0.5221674876847291,
+      "longTasks": 273,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1
+    }
+  ],
+  "samples": [
+    {
+      "family": "guide",
+      "path": "/guia/teste",
+      "run": 1,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1332,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 151,
+      "ttfb": 79.59999999962747,
+      "domContentLoaded": 1722.5999999996275,
+      "htmlEncodedBytes": 4472,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 3,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "guide",
+      "path": "/guia/teste",
+      "run": 2,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1388,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 279,
+      "ttfb": 68.70000000018626,
+      "domContentLoaded": 1770.7000000001863,
+      "htmlEncodedBytes": 4471,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 3,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "guide",
+      "path": "/guia/teste",
+      "run": 3,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1260,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 188,
+      "ttfb": 49.09999999962747,
+      "domContentLoaded": 1766.8999999994412,
+      "htmlEncodedBytes": 4467,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 3,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "profile",
+      "path": "/fornecedor/synthetic-0",
+      "run": 1,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1336,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 304,
+      "ttfb": 45.80000000074506,
+      "domContentLoaded": 1852.1000000005588,
+      "htmlEncodedBytes": 4526,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 7,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "profile",
+      "path": "/fornecedor/synthetic-0",
+      "run": 2,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1416,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 171,
+      "ttfb": 38.799999999813735,
+      "domContentLoaded": 1840.199999999255,
+      "htmlEncodedBytes": 4525,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 8,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "profile",
+      "path": "/fornecedor/synthetic-0",
+      "run": 3,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1356,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 146,
+      "ttfb": 36,
+      "domContentLoaded": 1741.5,
+      "htmlEncodedBytes": 4525,
+      "jsEncodedBytes": 227451,
+      "jsDecodedBytes": 782706,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 8,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "article",
+      "path": "/materia/desempenho-qa",
+      "run": 1,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1636,
+      "lcpElement": "H1.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 224,
+      "ttfb": 196.6000000005588,
+      "domContentLoaded": 1942.2999999998137,
+      "htmlEncodedBytes": 3650,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/assets/ContentPublic-qEkstjCa.js",
+          "encoded": 4256,
+          "decoded": 11553,
+          "type": "script"
+        },
+        {
+          "path": "/assets/Blocks-fbGjyrFT.js",
+          "encoded": 2363,
+          "decoded": 6134,
+          "type": "script"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 615,
+          "decoded": 3743,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 66,
+          "decoded": 66,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "article",
+      "path": "/materia/desempenho-qa",
+      "run": 2,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1444,
+      "lcpElement": "H1.",
+      "cls": 0.5221674876847291,
+      "windowScore": 0.5221674876847291,
+      "first": 2225.899999999441,
+      "last": 2592.5999999996275,
+      "longTasks": 283,
+      "ttfb": 31.799999999813735,
+      "domContentLoaded": 1867.5,
+      "htmlEncodedBytes": 3649,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/assets/ContentPublic-qEkstjCa.js",
+          "encoded": 4256,
+          "decoded": 11553,
+          "type": "script"
+        },
+        {
+          "path": "/assets/Blocks-fbGjyrFT.js",
+          "encoded": 2363,
+          "decoded": 6134,
+          "type": "script"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 615,
+          "decoded": 3743,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 66,
+          "decoded": 66,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "article",
+      "path": "/materia/desempenho-qa",
+      "run": 3,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "lcp": 1656,
+      "lcpElement": "H1.",
+      "cls": 0.5221674876847291,
+      "windowScore": 0.5221674876847291,
+      "first": 2317.9000000003725,
+      "last": 2621.9000000003725,
+      "longTasks": 273,
+      "ttfb": 26.40000000037253,
+      "domContentLoaded": 1968.5,
+      "htmlEncodedBytes": 3650,
+      "jsEncodedBytes": 234070,
+      "jsDecodedBytes": 800393,
+      "jsRequests": 6,
+      "cssEncodedBytes": 15371,
+      "rpcRequests": 1,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-98X9uh2A.js",
+          "encoded": 83213,
+          "decoded": 282978,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-forms-DAEXTOTm.js",
+          "encoded": 25169,
+          "decoded": 90335,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CYIglvUo.css",
+          "encoded": 15371,
+          "decoded": 72990,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/assets/ContentPublic-qEkstjCa.js",
+          "encoded": 4256,
+          "decoded": 11553,
+          "type": "script"
+        },
+        {
+          "path": "/assets/Blocks-fbGjyrFT.js",
+          "encoded": 2363,
+          "decoded": 6134,
+          "type": "script"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 615,
+          "decoded": 3743,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 66,
+          "decoded": 66,
+          "type": "fetch"
+        }
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "family": "guide",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "family": "profile",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".quote-check > small"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #637874, background color: #f2f4ee, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "family": "article",
+      "violations": [],
+      "incomplete": []
+    }
+  ]
+}

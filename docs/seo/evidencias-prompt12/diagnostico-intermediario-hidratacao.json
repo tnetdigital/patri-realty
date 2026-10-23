@@ -1,0 +1,348 @@
+{
+  "phase": "after",
+  "synthetic": true,
+  "fieldData": false,
+  "buildHash": "839d3a0228231e7b1fd76697242536f125536ced5307a096196aed9ca21eb1a3",
+  "sourceChanges": [
+    "package.json",
+    "scripts/test-local-eligibility.mjs",
+    "src/components/Header.tsx",
+    "src/entry-server.tsx",
+    "src/features/commercial/AdSlot.tsx",
+    "src/features/commercial/api.ts",
+    "src/features/commercial/commercial.css",
+    "src/features/content/Newsletter.tsx",
+    "src/features/content/PublicCards.tsx",
+    "src/features/content/content.css",
+    "src/features/directory/ProfileContact.tsx",
+    "src/features/quotations/Form.tsx",
+    "src/main.tsx",
+    "src/mobile.css",
+    "src/pages/App.tsx",
+    "src/pages/Directory.tsx",
+    "vite.config.ts"
+  ],
+  "commit": "451a551e68db203af8267b5615e629ffb6099716",
+  "environment": {
+    "browser": "155.0.8059.86",
+    "node": "v22.19.0",
+    "platform": "win32",
+    "os": "10.0.26300",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBitsPerSecond": 1600000,
+    "uploadBitsPerSecond": 750000,
+    "coldCache": true,
+    "consent": "essential",
+    "samplesPerFamily": 3,
+    "syntheticMedia": "1600x900 SVG fulfilled locally; network timing not representative of image CDN"
+  },
+  "summary": [
+    {
+      "family": "guide",
+      "lcp": 1388,
+      "ttfb": 65.09999999962747,
+      "cls": 0,
+      "longTasks": 232,
+      "jsEncodedBytes": 210443,
+      "jsDecodedBytes": 729405,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15547,
+      "rpcRequests": 2
+    },
+    {
+      "family": "profile",
+      "skipped": true
+    },
+    {
+      "family": "article",
+      "skipped": true
+    }
+  ],
+  "samples": [
+    {
+      "family": "guide",
+      "path": "/guia/teste",
+      "run": 1,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 1,
+      "pageErrors": [
+        "Minified React error #421; visit https://reactjs.org/docs/error-decoder.html?invariant=421 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+      ],
+      "lcp": 1296,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 223,
+      "shifts": [],
+      "ttfb": 67.09999999962747,
+      "domContentLoaded": 1696.5999999996275,
+      "htmlEncodedBytes": 4574,
+      "jsEncodedBytes": 210443,
+      "jsDecodedBytes": 729405,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15547,
+      "rpcRequests": 2,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-uwf429Do.js",
+          "encoded": 79091,
+          "decoded": 266334,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-validation-C8GfYd-r.js",
+          "encoded": 12283,
+          "decoded": 53678,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CNwBNTW2.css",
+          "encoded": 15547,
+          "decoded": 73838,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "guide",
+      "path": "/guia/teste",
+      "run": 2,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "pageErrors": [],
+      "lcp": 1388,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 232,
+      "shifts": [],
+      "ttfb": 65.09999999962747,
+      "domContentLoaded": 1704.7000000011176,
+      "htmlEncodedBytes": 4569,
+      "jsEncodedBytes": 210443,
+      "jsDecodedBytes": 729405,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15547,
+      "rpcRequests": 2,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-uwf429Do.js",
+          "encoded": 79091,
+          "decoded": 266334,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-validation-C8GfYd-r.js",
+          "encoded": 12283,
+          "decoded": 53678,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CNwBNTW2.css",
+          "encoded": 15547,
+          "decoded": 73838,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "family": "guide",
+      "path": "/guia/teste",
+      "run": 3,
+      "status": 200,
+      "gzip": true,
+      "cache": "no-store",
+      "hydrationErrors": 0,
+      "pageErrors": [],
+      "lcp": 1400,
+      "lcpElement": "P.",
+      "cls": 0,
+      "windowScore": 0,
+      "first": 0,
+      "last": 0,
+      "longTasks": 259,
+      "shifts": [],
+      "ttfb": 46.90000000037253,
+      "domContentLoaded": 1726.4000000003725,
+      "htmlEncodedBytes": 4572,
+      "jsEncodedBytes": 210443,
+      "jsDecodedBytes": 729405,
+      "jsRequests": 4,
+      "cssEncodedBytes": 15547,
+      "rpcRequests": 2,
+      "overflow": false,
+      "fonts": "loaded",
+      "resources": [
+        {
+          "path": "/assets/index-uwf429Do.js",
+          "encoded": 79091,
+          "decoded": 266334,
+          "type": "script"
+        },
+        {
+          "path": "/assets/vendor-react-CHCpHKAA.js",
+          "encoded": 60095,
+          "decoded": 182312,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-validation-C8GfYd-r.js",
+          "encoded": 12283,
+          "decoded": 53678,
+          "type": "other"
+        },
+        {
+          "path": "/assets/vendor-auth-s3XNS0mn.js",
+          "encoded": 58974,
+          "decoded": 227081,
+          "type": "other"
+        },
+        {
+          "path": "/assets/index-CNwBNTW2.css",
+          "encoded": 15547,
+          "decoded": 73838,
+          "type": "link"
+        },
+        {
+          "path": "/resources/logotipo.jpg",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "img"
+        },
+        {
+          "path": "/favicon.ico",
+          "encoded": 0,
+          "decoded": 0,
+          "type": "other"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        },
+        {
+          "path": "/api/editorial-public",
+          "encoded": 51,
+          "decoded": 51,
+          "type": "fetch"
+        }
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "family": "guide",
+      "violations": [],
+      "incomplete": []
+    }
+  ]
+}

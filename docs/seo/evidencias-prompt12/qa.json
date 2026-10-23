@@ -1,0 +1,136 @@
+{
+  "synthetic": true,
+  "fieldINP": null,
+  "physicalKeyboardTested": false,
+  "automatedChecks": 24,
+  "interactionsSampleMs": [],
+  "errors": [],
+  "checks": [
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 320,
+      "path": "/guia/teste",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 320,
+      "path": "/fornecedor/synthetic-0",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 320,
+      "path": "/materia/desempenho-qa",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 375,
+      "path": "/guia/teste",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 375,
+      "path": "/fornecedor/synthetic-0",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 375,
+      "path": "/materia/desempenho-qa",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 390,
+      "path": "/guia/teste",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 390,
+      "path": "/fornecedor/synthetic-0",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 390,
+      "path": "/materia/desempenho-qa",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 768,
+      "path": "/guia/teste",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 768,
+      "path": "/fornecedor/synthetic-0",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 768,
+      "path": "/materia/desempenho-qa",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 1280,
+      "path": "/guia/teste",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 1280,
+      "path": "/fornecedor/synthetic-0",
+      "passed": true
+    },
+    {
+      "name": "conteúdo, metadata e ausência de rolagem horizontal",
+      "width": 1280,
+      "path": "/materia/desempenho-qa",
+      "passed": true
+    },
+    {
+      "name": "atalho ao conteúdo e Escape do menu restauram foco",
+      "passed": true
+    },
+    {
+      "name": "autocomplete por teclado e filtro de especialidade permanecem funcionais",
+      "passed": true
+    },
+    {
+      "name": "privacidade reabre sem reload ou perda do formulário; ação móvel cede espaço e foco retorna",
+      "passed": true
+    },
+    {
+      "name": "reflow equivalente a 400%: 320 CSS px a partir de 1280, sem rolagem horizontal",
+      "passed": true
+    },
+    {
+      "name": "armazenamento negado não derruba o conteúdo ou os controles de privacidade",
+      "passed": true
+    },
+    {
+      "name": "anúncio ativo no HTML, quadro reservado sem corte, eager no topo e retirada respeitada",
+      "passed": true
+    },
+    {
+      "name": "gzip e cache imutável apenas para assets; HTML continua no-store",
+      "passed": true
+    },
+    {
+      "name": "movimento reduzido respeitado",
+      "passed": true
+    },
+    {
+      "name": "chunk público atrasado preserva H1 SSR durante hidratação; formulário sem fallback GET",
+      "passed": true
+    }
+  ]
+}

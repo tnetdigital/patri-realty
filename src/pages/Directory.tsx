@@ -545,7 +545,14 @@ export function SupplierProfile() {
       </nav>
       <DemoNotice />
       {safeHttps(s.capa_url) && (
-        <img className="directory-cover" src={s.capa_url} alt="" />
+        <img
+          className="directory-cover"
+          src={s.capa_url}
+          alt=""
+          width={1600}
+          height={900}
+          decoding="async"
+        />
       )}
       <header className="directory-profile-heading">
         <span className="eyebrow">
