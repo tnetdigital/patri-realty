@@ -1,0 +1,45 @@
+{
+  "controlled": true,
+  "realPersistenceTested": false,
+  "externalEmailsSent": false,
+  "chargesMade": false,
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "passed": 8,
+  "checks": [
+    {
+      "name": "375px: validação mantém foco no erro e campos navegáveis pelo teclado",
+      "passed": true
+    },
+    {
+      "name": "orçamento: clique duplo e resposta 200 vazia não geram sucesso ou evento",
+      "passed": true
+    },
+    {
+      "name": "refresh não reenvia e retentativa conserva chave, fornecedor, segmento e localidade; analytics recusado",
+      "passed": true
+    },
+    {
+      "name": "rede lenta e analytics indisponível: sucesso só após recibo; evento sem dados pessoais",
+      "passed": true
+    },
+    {
+      "name": "newsletter: aceite separado, clique duplo e falha sem falso duplo aceite",
+      "passed": true
+    },
+    {
+      "name": "newsletter aceita permanece pendente de confirmação, sem evento de lead",
+      "passed": true
+    },
+    {
+      "name": "cadastro: falha recuperável, um envio por tentativa, marketing desmarcado e confirmação pendente",
+      "passed": true
+    },
+    {
+      "name": "sem exceções de JavaScript ou falhas de mensuração propagadas",
+      "passed": true
+    }
+  ]
+}

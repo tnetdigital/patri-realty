@@ -40,6 +40,7 @@
     "review:local": "node scripts/review-local-document.mjs",
     "test:structured": "node scripts/test-structured.mjs",
     "test:discovery": "node scripts/test-discovery.mjs",
+    "test:conversions": "node scripts/test-conversions.mjs",
     "audit:discovery": "node scripts/crawl-discovery.mjs"
   },
   "keywords": [],

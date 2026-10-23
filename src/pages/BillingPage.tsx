@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { retryId, clearRetry } from "../features/conversion/contracts";
+import { useEffect, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { ownCompanies } from "../features/shared/api";
@@ -8,6 +9,7 @@ import { money, resource, names, daysLeft } from "../features/billing/model";
 import { downloadCsv } from "../features/admin/model";
 import "../features/billing/billing.css";
 export default function BillingPage({ demo = false }: { demo?: boolean }) {
+  const sending = useRef(false);
   const client = useQueryClient(),
     [params] = useSearchParams(),
     [sid, setSid] = useState(""),
@@ -47,6 +49,8 @@ export default function BillingPage({ demo = false }: { demo?: boolean }) {
     fn: () => unknown | Promise<unknown>,
     success = "Operação concluída.",
   ) {
+    if (sending.current) return;
+    sending.current = true;
     setError("");
     setMessage("");
     setBusy(true);
@@ -59,6 +63,7 @@ export default function BillingPage({ demo = false }: { demo?: boolean }) {
       if (e instanceof Error && e.message.includes("encerrado"))
         setOrder({ product: "", id: crypto.randomUUID() });
     } finally {
+      sending.current = false;
       setBusy(false);
     }
   }
@@ -76,7 +81,16 @@ export default function BillingPage({ demo = false }: { demo?: boolean }) {
     const request =
       order.product === product ? order : { product, id: crypto.randomUUID() };
     setOrder(request);
-    await run(() => checkout(id, product, request.id));
+    const scope = "checkout:" + id + ":" + product;
+    await run(async () => {
+      try {
+        await checkout(id, product, retryId(scope, request.id));
+      } catch (e) {
+        if (e instanceof Error && e.message.includes("encerrado"))
+          clearRetry(scope);
+        throw e;
+      }
+    }, "Redirecionamento solicitado. A compra depende da confirmação segura do pagamento.");
   }
   const s = current.data,
     simulation = demo ? readBillingDemo() : null;

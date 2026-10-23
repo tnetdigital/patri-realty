@@ -1,6 +1,6 @@
 import { captchaUnavailable } from "../features/auth/captcha";
 import { ui } from "../lib/texts";
-import { useEffect, useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Building2, ArrowRight } from "lucide-react";
@@ -28,6 +28,7 @@ export default function AuthPage({
 }: {
   mode: "login" | "register" | "recover" | "reset" | "confirm";
 }) {
+  const sending = useRef(false);
   const nav = useNavigate();
   const [searchParams] = useSearchParams();
   const invitationToken = searchParams.get("convite");
@@ -61,6 +62,8 @@ export default function AuthPage({
     enabled: configured && mode === "register",
   });
   async function run(action: () => Promise<void>) {
+    if (sending.current) return;
+    sending.current = true;
     setBusy(true);
     setMessage("");
     try {
@@ -70,6 +73,7 @@ export default function AuthPage({
         e instanceof Error ? e.message : ui.nao_foi_possivel_continuar,
       );
     } finally {
+      sending.current = false;
       setBusy(false);
     }
   }

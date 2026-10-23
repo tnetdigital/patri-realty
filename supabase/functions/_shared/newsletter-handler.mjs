@@ -110,6 +110,15 @@ export function newsletterHandler(config) {
           origin,
         );
       }
+      const receipt = await r.json();
+      if (receipt?.recebido !== true)
+        return send(
+          {
+            error: "Não foi possível confirmar a solicitação. Tente novamente.",
+          },
+          503,
+          origin,
+        );
       return send({ recebido: true }, 200, origin);
     } catch {
       return send(

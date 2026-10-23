@@ -25,33 +25,57 @@ export async function track(
   segment: string | null = null,
   region = "",
 ) {
-  if (!analyticsAllowed()) return;
-  const session = anonymousSession();
-  if (!session) return;
-  const id = crypto.randomUUID();
-  if (r.source === "demo") {
-    demoMetricEvent(type, target || "portal", id);
-    return;
+  try {
+    if (!analyticsAllowed()) return;
+    const allowed = [
+      "visualizacao_perfil",
+      "clique_whatsapp",
+      "clique_telefone",
+      "clique_site",
+      "clique_instagram",
+      "orcamento_enviado",
+      "visualizacao_materia",
+      "tempo_materia",
+      "clique_perfil_materia",
+      "busca",
+    ];
+    const uuid =
+      /^[a-f0-9]{8}-[a-f0-9]{4}-[1-8][a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i;
+    if (!allowed.includes(type)) return;
+    if (type === "busca") target = null;
+    else if (r.source !== "demo" && (!target || !uuid.test(target))) return;
+    segment = segment && uuid.test(segment) ? segment : null;
+    region = /^[A-Z]{2}$/.test(region) ? region : "";
+    const session = anonymousSession();
+    if (!session) return;
+    const id = crypto.randomUUID();
+    if (r.source === "demo") {
+      demoMetricEvent(type, target || "portal", id);
+      return;
+    }
+    const endpoint =
+      import.meta.env.VITE_EVENT_URL ||
+      (import.meta.env.VITE_QUOTATION_URL
+        ? import.meta.env.VITE_QUOTATION_URL.replace(/\/quotation$/, "/event")
+        : r.url + "/functions/v1/event");
+    await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        eid: id,
+        etype: type,
+        target,
+        session_id: session,
+        consented: true,
+        segment,
+        region,
+      }),
+      keepalive: true,
+      signal: AbortSignal.timeout(5000),
+    });
+  } catch {
+    /* Optional measurement must never affect a conversion. */
   }
-  const endpoint =
-    import.meta.env.VITE_EVENT_URL ||
-    (import.meta.env.VITE_QUOTATION_URL
-      ? import.meta.env.VITE_QUOTATION_URL.replace(/\/quotation$/, "/event")
-      : r.url + "/functions/v1/event");
-  await fetch(endpoint, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      eid: id,
-      etype: type,
-      target,
-      session_id: session,
-      consented: true,
-      segment,
-      region,
-    }),
-    keepalive: true,
-  }).catch(() => {});
 }
 export function ViewEvent({
   runtime: r,

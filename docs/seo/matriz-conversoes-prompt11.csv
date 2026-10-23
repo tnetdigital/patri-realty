@@ -1,0 +1,7 @@
+origem;acao;confirmacao_exigida;fonte_operacional;evento_opcional;validacao_nesta_etapa
+Guia e perfil;Pedir orçamento;recebido true após RPC;leads e quotation_requests existentes;orcamento_enviado com fornecedor especialidade e UF;Contrato e navegador controlado sem persistência real
+Para fornecedores;Criar conta;resposta Auth sem erro e confirmação posterior de e-mail;Supabase Auth existente;Nenhum novo evento de cliente;Cadastro controlado sem conta real
+Painel de plano;Escolher plano;checkout preparado e pagamento confirmado separadamente;Preparação no backend e webhook existentes;Nenhum evento de venda por URL de retorno;Contratos de cliente e HTTP sem cobrança externa
+Matéria;Solicitar newsletter;recebido true e duplo aceite posterior;newsletter_inscritos e consentimentos existentes;Nenhum evento de lead pela solicitação;Contrato e navegador controlado sem e-mail externo
+Perfil;Telefone ou WhatsApp;Somente clique observado;Atendimento comercial ainda necessário;clique_telefone e clique_whatsapp;Sem inferência de conversa ou venda
+Operação comercial;Qualificar ou fechar negócio;Evidência comercial documentada;CRM e operação responsável;Nenhuma automação nova;Não homologado como venda real

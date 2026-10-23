@@ -1,3 +1,4 @@
+import { retryId, clearRetry } from "../conversion/contracts";
 import { currentDocumentVersion } from "../../lib/documents";
 import { track } from "../growth/events";
 import { useEffect, useRef, useState } from "react";
@@ -36,7 +37,8 @@ export function QuotationForm({ supplier: s }: { supplier: PublicSupplier }) {
   const form = useRef<HTMLFormElement>(null),
     captcha = useRef<HTMLDivElement>(null),
     widget = useRef(""),
-    requestId = useRef(crypto.randomUUID());
+    sending = useRef(false),
+    requestId = useRef<string>(crypto.randomUUID());
   const key = import.meta.env.VITE_TURNSTILE_SITE_KEY;
   const local =
     !demo &&
@@ -95,7 +97,7 @@ export function QuotationForm({ supplier: s }: { supplier: PublicSupplier }) {
   }, [demo, local, key]);
   async function send(e: React.FormEvent) {
     e.preventDefault();
-    if (busy) return;
+    if (sending.current || sent) return;
     setError("");
     setFields({});
     const f = new FormData(form.current!);
@@ -123,23 +125,33 @@ export function QuotationForm({ supplier: s }: { supplier: PublicSupplier }) {
       setError("Conclua a verificação de segurança.");
       return;
     }
+    sending.current = true;
     setBusy(true);
+    const scope = "quotation:" + r.source + ":" + s.id;
+    requestId.current = retryId(scope, requestId.current);
     try {
-      await submitQuotation(
+      const receipt = await submitQuotation(
         result.data,
         demo,
         requestId.current,
         local ? "local-integration" : token,
         s.nome_fantasia,
       );
-      void track(r, "orcamento_enviado", s.id);
+      clearRetry(scope);
       setSent(true);
+      if (!receipt.simulated)
+        void track(r, "orcamento_enviado", s.id, segment, result.data.uf);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Falha ao enviar.");
     } finally {
+      sending.current = false;
       setBusy(false);
-      if (widget.current) window.turnstile?.reset(widget.current);
       setToken("");
+      try {
+        if (widget.current) window.turnstile?.reset(widget.current);
+      } catch {
+        /* A widget failure must not leave the form locked. */
+      }
     }
   }
   const field = (
@@ -154,6 +166,17 @@ export function QuotationForm({ supplier: s }: { supplier: PublicSupplier }) {
         name={name}
         aria-label={label}
         type={type}
+        autoComplete={
+          name === "nome"
+            ? "name"
+            : name === "email"
+              ? "email"
+              : name === "telefone"
+                ? "tel"
+                : name === "cidade"
+                  ? "address-level2"
+                  : "off"
+        }
         required
         maxLength={max}
         aria-invalid={!!fields[name]}
@@ -195,13 +218,19 @@ export function QuotationForm({ supplier: s }: { supplier: PublicSupplier }) {
           <p>
             {demo
               ? "Veja o pedido no painel de demonstração."
-              : "O fornecedor receberá uma notificação e poderá responder pelos contatos que você informou. A confirmação por e-mail pode levar alguns minutos."}
+              : "Seu pedido foi registrado para a empresa selecionada. A entrega da notificação e a resposta do fornecedor ainda dependem do processamento e do atendimento."}
           </p>
           {demo && <Link to="/demonstracao">Ver pedidos no painel</Link>}
           <p>O envio não garante prazo de resposta ou contratação.</p>
         </div>
       ) : (
-        <form ref={form} className="quotation-form" onSubmit={send} noValidate>
+        <form
+          ref={form}
+          className="quotation-form"
+          onSubmit={send}
+          noValidate
+          aria-busy={busy}
+        >
           <div className="quote-fields">
             {field("nome", "Seu nome")}
             {field("email", "Seu e-mail", "email", 254)}

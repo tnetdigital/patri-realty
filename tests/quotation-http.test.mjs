@@ -137,3 +137,16 @@ test("Turnstile exige hostname e action corretos", async () => {
     globalThis.fetch = original;
   }
 });
+test("quotation exige confirmação explícita da RPC antes de confirmar o pedido", async () => {
+  const original = globalThis.fetch;
+  try {
+    for (const receipt of [{}, { recebido: false }]) {
+      globalThis.fetch = async () => Response.json(receipt);
+      const response = await quotationHandler(config)(request());
+      assert.equal(response.status, 503);
+      assert.notEqual((await response.json()).recebido, true);
+    }
+  } finally {
+    globalThis.fetch = original;
+  }
+});

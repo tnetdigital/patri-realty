@@ -104,8 +104,12 @@ export function validateRow(kind: string, p: Record<string, unknown>) {
     throw Error("Escolha uma vaga de 1 a 3.");
 }
 export function analyticsAllowed() {
-  return (
-    typeof localStorage !== "undefined" &&
-    localStorage.getItem("patri:consent") === "analytics"
-  );
+  try {
+    return (
+      typeof localStorage !== "undefined" &&
+      localStorage.getItem("patri:consent") === "analytics"
+    );
+  } catch {
+    return false;
+  }
 }

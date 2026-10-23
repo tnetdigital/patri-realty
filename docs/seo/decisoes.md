@@ -1,5 +1,9 @@
 # Decisões aplicáveis à Patri Realty
 
+## Prompt 11 — confirmação operacional e métricas opcionais
+
+Recibo recebido:true deve atravessar RPC, gateway e cliente antes de sucesso; bloqueios síncronos contra repetição. Armazenar somente id/validade de tentativa na sessão da aba por até1h, sem campos pessoais; não usar essa chave em analytics. Análise opcional não bloqueia formulário, e busca descarta alvo livre. Confirmação de pedido não equivale a lead qualificado, conversa ou venda. Cadastro, duplo aceite e webhook permanecem etapas distintas. Nenhuma nova finalidade de marketing ou base legal inventada. Revisar inventário de armazenamento antes de produção. Sem banco/deploy; testes controlados não provam persistência remota. PT10 mantém descoberta rastreável e bloqueios de elegibilidade. Ver prompt11.md e matriz-conversoes-prompt11.csv.
+
 ## Prompt 09 — governança editorial e auditoria privada
 
 Sem nova publicação. Classificações12pautas:3 publicar após revisão,1 aprofundar,1 consolidar,7 adiar. Textos/afirmações/mídia/candidatas/histórico permanecem privados fora do checkout. Contrato exige hash da projeção e do conjunto de fontes/mídia/metadados, validade e decisão real de Tércio. CLI só prepara pending. PATRI_EDITORIAL_APPROVAL_FILE não substitui arquivo antigo da revisão protegida. Proxy/SSR aplicam gate e Markdown equivalente, no-store/Vary Accept; requisito interno v5.1, não promessa de ranking. RPC remoto ainda requer integração equivalente; não lançar produção só com proxy. Limite piloto25 aprovadas; sem migration/deploy. Próximo Prompt10 depende de autorização. Ver prompt09.md e contrato-editorial.md.

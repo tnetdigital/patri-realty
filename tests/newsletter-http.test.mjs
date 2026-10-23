@@ -96,3 +96,14 @@ test("descadastro One-Click aceita token válido sem expor endereço de e-mail",
   );
   assert.equal(invalid.status, 400);
 });
+test("newsletter exige recibo da RPC e não confirma inscrição com resposta vazia", async () => {
+  for (const receipt of [{}, { recebido: false }]) {
+    const h = newsletterHandler({
+      ...config,
+      fetch: async () => Response.json(receipt),
+    });
+    const response = await h(request());
+    assert.equal(response.status, 503);
+    assert.notEqual((await response.json()).recebido, true);
+  }
+});

@@ -92,7 +92,7 @@ export function About() {
         to={supplier ? '/cadastrar?tipo=fornecedor' : '/para-fornecedores'}
       >
         {supplier
-          ? 'Cadastrar minha empresa'
+          ? 'Criar conta de fornecedor'
           : 'Sou fornecedor, quero participar'}
       </Link>
       <p className="privacy-notice">

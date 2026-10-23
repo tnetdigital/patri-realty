@@ -162,6 +162,12 @@ export function quotationHandler(config) {
             "Não foi possível enviar. Confira os dados e se a empresa continua disponível.",
         });
       }
+      const receipt = await response.json();
+      if (receipt?.recebido !== true)
+        return reply(503, {
+          error:
+            "Não foi possível confirmar o recebimento. Tente novamente com os mesmos dados.",
+        });
       return reply(201, { recebido: true });
     } catch {
       return reply(503, {

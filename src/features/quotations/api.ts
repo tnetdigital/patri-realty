@@ -1,3 +1,4 @@
+import { acceptedReceipt } from "../conversion/contracts";
 import { db } from "../../lib/supabase";
 import { readDemo, writeDemo, type Quotation, type Lead } from "./model";
 export async function submitQuotation(
@@ -38,7 +39,7 @@ export async function submitQuotation(
         ...old,
       ]);
     }
-    return;
+    return { recebido: true as const, simulated: true };
   }
   const endpoint =
     import.meta.env.VITE_QUOTATION_URL ||
@@ -55,12 +56,7 @@ export async function submitQuotation(
     body: JSON.stringify({ ...data, request_id: id, turnstile_token: token }),
     signal: AbortSignal.timeout(15000),
   });
-  if (!r.ok) {
-    const body = await r.json().catch(() => ({}));
-    throw new Error(
-      body.error || "Não foi possível confirmar o envio. Tente novamente.",
-    );
-  }
+  return { ...(await acceptedReceipt(r)), simulated: false };
 }
 export async function listLeads(id: string, demo: boolean): Promise<Lead[]> {
   if (demo) return readDemo();

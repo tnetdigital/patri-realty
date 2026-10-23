@@ -302,6 +302,12 @@ export default function GrowthPage({
             </div>
           ) : stats.data ? (
             <>
+              <p>
+                As contagens de interação dependem da autorização de análises e
+                podem ser parciais. Consulte a caixa de orçamentos para
+                acompanhar os pedidos registrados. Cliques em telefone ou
+                WhatsApp não confirmam conversa, qualificação ou contratação.
+              </p>
               <div className="growth-metrics">
                 {Object.entries(eventNames)
                   .filter(

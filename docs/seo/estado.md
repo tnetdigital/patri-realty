@@ -1,5 +1,9 @@
 # Estado — prompts 00 e 01
 
+## Estado mais recente — Prompt 11
+
+PT10 e PT11 implementados; relatórios prompt10.md e prompt11.md. Conversões exigem recibo explícito; analytics é opcional e limitado a identificadores previstos; métricas parciais separadas da caixa de pedidos. Retentativa opaca por aba/empresa/produto, bloqueio concorrente, marketing desmarcado e duplo aceite preservados. 158unitários,65HTTP,8cenários de conversão no navegador e regressões de SEO/descoberta/perfis/editorial/proteção aprovados. Persistência Supabase real, e-mail externo e Stripe seguem não homologados; sem migração ou deploy. Quota AppDeploy e gate editorial no backend continuam pendentes. Próximo PT12 desempenho/mobile/acessibilidade, não iniciado. Registros abaixo são históricos.
+
 ## Estado mais recente — Prompt 09
 
 Auditoria dos12 rascunhos e contrato/adaptador editorial implementados em22/10/2026; relatório prompt09.md. Três candidatas privadas preparadas, todas pending; originais preservados. 143unitários,12editorial,14grafo,11guias,9perfil,22SEO,17gate,60HTTP e12proteção aprovados; builds/tipos/lint/ambiente/scanner aprovados. Markdown e HTML usam mesma projeção aprovada; nenhuma aprovação real ou publicação. Backend produtivo deve aplicar gate no RPC/Data API; integração local não substitui esse bloqueio. Auditoria detalhada e mídia ficam fora do Git. Sem deploy por quota anterior. Próximo Prompt10 não iniciado. Registros abaixo são históricos.

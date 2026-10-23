@@ -78,7 +78,7 @@ export function eventHandler(config) {
           body: JSON.stringify({
             eid: p.eid,
             etype: p.etype,
-            target: p.target || null,
+            target: p.etype === "busca" ? null : p.target || null,
             session_id: p.session_id,
             consented: true,
             ip_hash: hash,

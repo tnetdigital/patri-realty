@@ -756,7 +756,7 @@ export function SupplierProfile() {
       </p>
       <PublicReviews sid={s.id} />
       <SupplierArticles slug={s.slug} />
-      <QuotationForm supplier={s} />
+      <QuotationForm key={s.id} supplier={s} />
       <Similar supplier={s} />
       <ProfileContact name={s.nome_fantasia} />
     </article>

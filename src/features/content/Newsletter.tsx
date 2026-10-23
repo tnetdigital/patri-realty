@@ -1,3 +1,4 @@
+import { acceptedReceipt } from "../conversion/contracts";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { demoNewsletter } from "./demo";
@@ -7,7 +8,9 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
     [busy, setBusy] = useState(false),
     [token, setToken] = useState(""),
     [demoId, setDemoId] = useState("");
-  const captcha = useRef<HTMLDivElement>(null);
+  const captcha = useRef<HTMLDivElement>(null),
+    sending = useRef(false),
+    widgetId = useRef("");
   useEffect(() => {
     const siteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY;
     if (demo || !siteKey) return;
@@ -20,8 +23,8 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
           remove: (id: string) => void;
         };
       };
-      if (!stopped && w.turnstile && captcha.current)
-        widget = w.turnstile.render(captcha.current, {
+      if (!stopped && !widget && w.turnstile && captcha.current)
+        widgetId.current = widget = w.turnstile.render(captcha.current, {
           sitekey: siteKey,
           action: "newsletter",
           callback: (t: string) => setToken(t),
@@ -43,6 +46,7 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
         turnstile?: { remove: (id: string) => void };
       };
       if (widget) w.turnstile?.remove(widget);
+      widgetId.current = "";
     };
   }, [demo]);
   return (
@@ -53,8 +57,11 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
         lista após confirmar o link enviado ao seu e-mail.
       </p>
       <form
+        aria-busy={busy}
         onSubmit={async (e) => {
           e.preventDefault();
+          if (sending.current) return;
+          sending.current = true;
           setError("");
           setMessage("");
           setBusy(true);
@@ -90,11 +97,7 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
                 body: JSON.stringify(data),
                 signal: AbortSignal.timeout(15000),
               });
-              const b = await r.json();
-              if (!r.ok)
-                throw Error(
-                  b.error || "Não foi possível solicitar a inscrição",
-                );
+              await acceptedReceipt(r);
               setMessage(
                 "Se aplicável, enviaremos um link de confirmação. Confira sua caixa de entrada e confirme em até 48 horas.",
               );
@@ -102,7 +105,14 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
           } catch (e) {
             setError((e as Error).message);
           } finally {
+            sending.current = false;
+            setToken("");
             setBusy(false);
+            try {
+              if (widgetId.current) window.turnstile?.reset(widgetId.current);
+            } catch {
+              /* The next submission still requires a fresh security token. */
+            }
           }
         }}
       >
@@ -163,6 +173,7 @@ export function NewsletterForm({ demo }: { demo: boolean }) {
           className="primary"
           disabled={
             busy ||
+            !!message ||
             (!demo && !!import.meta.env.VITE_TURNSTILE_SITE_KEY && !token)
           }
         >

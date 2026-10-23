@@ -95,3 +95,31 @@ test("eventos: limite e falha de serviço têm retorno controlado", async () => 
   assert.equal(r.status, 503);
   assert.ok(!(await r.text()).includes("secreto"));
 });
+test("busca não encaminha texto livre ou URL pessoal ao armazenamento de eventos", async () => {
+  let sent;
+  const h = eventHandler({
+    url: origin,
+    key: "fixture",
+    salt: "fixture",
+    origins: [origin],
+    ip: () => "192.0.2.1",
+    fetch: async (_url, options) => {
+      sent = JSON.parse(options.body);
+      return Response.json({ registrado: true });
+    },
+  });
+  assert.equal(
+    (
+      await h(
+        request({
+          ...body,
+          etype: "busca",
+          target: "email@example.test?telefone=11999999999",
+        }),
+      )
+    ).status,
+    200,
+  );
+  assert.equal(sent.target, null);
+  assert.ok(!JSON.stringify(sent).includes("email@example"));
+});

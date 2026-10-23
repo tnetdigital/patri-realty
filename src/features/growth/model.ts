@@ -51,7 +51,7 @@ export const eventNames: Record<string, string> = {
   clique_telefone: "Cliques no telefone",
   clique_site: "Cliques no site",
   clique_instagram: "Cliques no Instagram",
-  orcamento_enviado: "Orçamentos enviados",
+  orcamento_enviado: "Confirmações de pedido",
   visualizacao_materia: "Leituras de matérias",
   busca: "Buscas",
   impressao_banner: "Impressões de banners",

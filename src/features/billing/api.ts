@@ -51,6 +51,8 @@ export async function checkout(
   const url = new URL(b.url);
   if (
     url.protocol !== "https:" ||
+    url.username ||
+    url.password ||
     !["checkout.stripe.com", "billing.stripe.com"].includes(url.hostname)
   )
     throw Error("Destino de pagamento inválido.");
