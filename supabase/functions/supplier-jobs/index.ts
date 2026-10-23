@@ -38,14 +38,7 @@ Deno.serve(async (request) => {
     return Response.json({ simulado: true, pendentes: pending.count ?? 0 });
   }
 
-  const publication = await client.rpc("publicar_agendadas");
-  if (publication.error) {
-    await logJobFailure(url, key, "supplier-jobs", "PUBLICATION_FAILED");
-    return Response.json(
-      { error: "Falha ao publicar a fila editorial." },
-      { status: 500 },
-    );
-  }
+  // Editorial publication is a separate, blocked operation until backend homologation.
   const growthPrep = await client.rpc("rotinas_crescimento");
   if (growthPrep.error) {
     await logJobFailure(url, key, "supplier-jobs", "GROWTHPREP_FAILED");

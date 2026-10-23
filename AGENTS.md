@@ -1,5 +1,7 @@
 # Continuidade do projeto Patri Realty
 
+- Preparação backend PT16: consulta hPanel readonly confirma Premium/vencimento23-05-2027, Web Apps requer upgrade; patrirealty.com.br Registrando. Supabase não criado, confirmado titular. Relatório docs/seo/backend-preparacao-pt16.md. supplier-jobs remove chamada publicar_agendadas; Edge publicar-agendadas retorna503 após auth/método. RPC/crons SQL não alterados: impedir publicação/agendamentos ao provisionar antes de homologar gate backend. Sem compra/DNS/banco/deploy. Worker ainda prepara crescimento/comercial/ciclo de planos; não ativar como simples teste de email. NO-GO preservado.
+
 - Retomada PT16 após PT17: usuário indicou Hostinger e patrirealty.com.br ou outro (candidato, não domínio/posse confirmados); Supabase ainda não identificado. Roteiro docs/seo/retomada-pt16.md e mapa configuracao-destino-pt16.csv. supplier-jobs chama publicar_agendadas quando entrega habilitada: não ativar cron/email antes de homologar publicação/backend. Corrigido aviso em docs/lancamento.md. NO-GO preservado; sem DNS/compra/banco/deploy/ativação. Acesso Hostinger requer carregar conector e consentimento; não solicitar segredos no chat.
 
 

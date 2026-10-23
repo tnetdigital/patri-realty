@@ -1,5 +1,7 @@
 # PT16 — decisão de homologação e lançamento
 
+Atualização após consulta autenticada: Hostinger Premium confirmado; painel exige upgrade/plano compatível para Web Apps. patrirealty.com.br está Registrando. Supabase ainda não criado, conforme titular. [Preparação atual do backend](backend-preparacao-pt16.md): worker desacoplado da publicação e endpoint Edge editorial bloqueado localmente; RPC/crons SQL permanecem pendentes. NO-GO preservado.
+
 Data: 23/10/2026. Base inspecionada: `852320d4980c561aec69df47d66d2958b2218327` (PT15).
 
 **NO-GO: lançamento impedido. Preparação e verificações disponíveis concluídas; homologação produtiva incompleta.** Nenhuma autorização de publicação do piloto é inferida da aprovação desta sprint. Stack atual preservada.

@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-23T21:18:25.251362+00:00",
+  "baseCommit": "24f483123f0c5834076db409fc6d444fda1f64ae",
+  "launchDecision": "NO-GO",
+  "hostingerReadOnly": {
+    "plan": "Premium",
+    "expiresOn": "2027-05-23",
+    "managedNodeAvailableOnDisplayedPlan": false,
+    "domain": "patrirealty.com.br",
+    "domainStatus": "Registrando"
+  },
+  "supabaseProjectCreated": false,
+  "remoteMutation": false,
+  "tests": {
+    "httpPassed": 70,
+    "newPublicationTests": 5,
+    "typecheck": true,
+    "lint": true,
+    "envContract": true,
+    "privateEditorialTree": true
+  },
+  "limitations": [
+    "controlled entrypoints, not hosted Deno integration",
+    "SQL/RPC/cron policy unchanged and pending",
+    "no deployment or SQL tests"
+  ],
+  "artifacts": {
+    "supabase/functions/supplier-jobs/index.ts": "576496b42843f782e510243560ab6ec0430f7560ebcc355c0a6a8a61f94811cd",
+    "supabase/functions/publicar-agendadas/index.ts": "a419d44a2446995a56c99e91576a424ca67f1d629d45efbca341f9d1784c93c8",
+    "tests/corrections-publication.test.mjs": "2562a972f5343bbb6920c5c81eba9a33c0466c2bad53b71049e1d34e0ba6debe",
+    "docs/seo/backend-preparacao-pt16.md": "d59cd5cd8cb0c96fad2da162c64b0172403d4222411e74c6a6c4ec8a710d3819"
+  },
+  "logs": {
+    "http": {
+      "bytes": 13483,
+      "sha256": "9af0574f2fbf458b36d90ac27c14766becaf3fa8fba0a2cfb7eb509f853ec688"
+    },
+    "types": {
+      "bytes": 90,
+      "sha256": "6364219560af4846e6081353e17174ccffdf913250fe3df1584b46a7f5899f5d"
+    },
+    "lint": {
+      "bytes": 125,
+      "sha256": "b5386b82acc3cd6016f5f330e43166472e0b2ecabca42169aa050135a28e3020"
+    }
+  }
+}
