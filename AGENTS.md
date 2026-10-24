@@ -1,5 +1,8 @@
 # Continuidade do projeto Patri Realty
 
+- S00 readonly23/10/2026: docs/seo/s00-recuperacao-kvm2.md; anexo só em output/patri-realty-private/s00-recuperacao-kvm2-20261023.md. Backups/console atuais observados; responsáveis, alternativa nominal e restore isolado não comprovados. Não tratar chaves da conta como login válido/instalado; metadados de usuários/grupo são consulta restrita. Datas/tamanhos/etiquetas só no anexo privado. Sem snapshot/restore/emergência/reset/chave/usuário/sudo/firewall/serviço alterado. S00 continua pending, NO-GO; precisa confirmações de donos/custódia/RPO/RTO/destino isolado antes de diffs.
+
+
 - Plano segurança/TLS KVM2 preparado23/10/2026: docs/seo/plano-seguranca-kvm2.md/.json; detalhado somente em output/patri-realty-private/plano-seguranca-tls-kvm2-20261023.md. Sem nova consulta/comando/write remoto, correção ou runtime alterado. S00recuperação antes de S01acesso/S02rede/S03TLS/S04cert/S05manutenção/S06isolamento/S07operação. Homologação interna distinta da pública; TLS por vhost não garante listener/default pré-SNI. Alterações globais exigem autorização e QA dos vizinhos. Configuração anterior preservada, NO-GO, responsáveis e dados pendentes; não publicar mapa administrativo privado.
 
 

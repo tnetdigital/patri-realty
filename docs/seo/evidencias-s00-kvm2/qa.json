@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-23",
+  "scope": "documentation-and-state-only",
+  "remoteOperations": "read-only metadata queries; no restore or access changes",
+  "runtimeTestsRun": false,
+  "checks": {
+    "launchRemainsNoGo": true,
+    "allRemediationStepsPending": true,
+    "noRemoteChanges": true,
+    "stagingAndProductionBlocked": true,
+    "s00Partial": true,
+    "restoreNotTested": true
+  }
+}

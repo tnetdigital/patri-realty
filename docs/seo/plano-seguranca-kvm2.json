@@ -5,7 +5,7 @@
   "launchDecision": "NO-GO",
   "remoteChangesExecuted": false,
   "publicStagingAuthorized": false,
-  "evidenceFreshness": "inspection-2026-10-23-not-requeried",
+  "evidenceFreshness": "baseline-inspection-2026-10-23; S00-readonly-rechecked-2026-10-23",
   "steps": [
     {
       "id": "S00",
@@ -121,5 +121,16 @@
     "explicit-authorization"
   ],
   "internalStagingApproved": false,
-  "productionApproved": false
+  "productionApproved": false,
+  "s00ReadOnlyEvidence": {
+    "checkedAt": "2026-10-23",
+    "report": "s00-recuperacao-kvm2.md",
+    "backupPresenceObserved": true,
+    "consoleAccessObserved": true,
+    "emergencyModeActivated": false,
+    "alternateNamedLoginProven": false,
+    "restoreTested": false,
+    "responsiblePeopleConfirmed": false,
+    "status": "partial-pending"
+  }
 }

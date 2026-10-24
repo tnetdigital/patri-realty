@@ -65,3 +65,7 @@ Titular indicou Hostinger e domínio candidato patrirealty.com.br ou outro; dom�
 ## Plano de correção de segurança/TLS
 
 [Plano priorizado](plano-seguranca-kvm2.md), preparado sem intervenção. S00recuperação/donos precede diffs de acesso/rede/TLS; homologação interna separada de HTTPS público e produção. Nenhum gate resolvido apenas por planejamento. Achados detalhados privados; NO-GO preservado.
+
+## S00 — verificação de recuperação e acesso
+
+[Leitura atualizada e confirmações necessárias](s00-recuperacao-kvm2.md): presença de backups e acesso atual pelo console observados; alternativa nominal, responsáveis e restore isolado ainda não comprovados. Nenhuma restauração, emergência ou mudança de acesso executada. S00 pendente; NO-GO mantido.
